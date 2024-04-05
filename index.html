@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Text To Speech in JavaScript</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>Speaker in voice</header>
+        <form action="#" method="GET">
+            <div class="row">
+                <label>Enter Text</label>
+                <table>
+                    <tr><textarea id="text1" rows="4" cols="20" wrap="hard" readonly></textarea></tr>
+                    <tr><textarea id="text2" rows="4" cols="20" wrap="hard" readonly></textarea></tr>
+                    <tr><button class="button" id="but4">Stop</button></tr>
+                    <tr><button id="but3">Pause</button></tr>
+                </table>
+            </div>
+            <div class="row">
+                <label>Select Voice</label>
+                <div class="outer">
+                    <select id="select1"></select>
+                </div>
+            </div>
+            <div class="row">
+                <label>Constituents parts of speech</label>
+                <div class="outer">
+                    <select id="select2">
+                        <option id="elem">predicates-сказуемое</option>
+                        <option id="elem">nouns-существительные</option>
+                        <option id="elem" selected>adjectives-прилагательные</option>
+                        <option id="elem">adverbs-наречия</option>
+                        <option id="elem">соединение-определитель-артикль-предлог-количество</option>
+                        <option id="elem">other-словарь Друкера</option>
+                        <option id="elem">Tell_They-говорят они</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <div class="button">
+                    <label>Start</label><br>
+                    <button id="but1">Ang</button>
+                    <button id="but2">Rus</button>
+                    <!-- <div class="row">	 -->
+                    <!-- <button id="but5">Mixed</button> -->
+                    <!-- </div> -->
+                </div>
+                <div class="sec">
+                    <label>Pause(sec)</label>
+                    <input id="paus" value="6" size="1" style="text-align : center" />
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="script4v.js"></script>
+</body>
+
+</html>
