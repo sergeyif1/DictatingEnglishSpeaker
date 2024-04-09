@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "lodash.get": "^4.4.2"
   }
 }
