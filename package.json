@@ -1,17 +1,28 @@
 {
   "name": "dictatingenglishspeaker",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "",
   "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "start": "node script4v.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "axios": "^1.6.8",
+    "esm": "^3.2.25",
     "express": "^4.19.2",
-    "lodash.get": "^4.4.2"
-  }
+    "lodash.get": "^4.4.2",
+    "nodemon": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeyif1/DictatingEnglishSpeaker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sergeyif1/DictatingEnglishSpeaker/issues"
+  },
+  "homepage": "https://github.com/sergeyif1/DictatingEnglishSpeaker#readme",
+  "description": ""
 }
