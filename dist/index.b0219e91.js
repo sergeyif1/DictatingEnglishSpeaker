@@ -603,7 +603,7 @@ async function logToConsole(id, name, title) {
 }
 async function fetchData() {
     try {
-        const res = await (0, _axiosDefault.default).get("http://dictatingenglishspeaker/mybase.json");
+        const res = await (0, _axiosDefault.default).get("http://localhost:1234//mybase.json");
         const data = (0, _lodashGetDefault.default)(res, "data.index", []);
         await processLines(data, 0, logToConsole);
     } catch (error) {
@@ -613,19 +613,26 @@ async function fetchData() {
 fetchData();
 //-------------------------------------------------------------------------------------
 let voiceList = document.querySelector("#voiceSelect");
-// Создаем массив с рандомными текстами
-let randomTexts = [
-    "\u0420\u0430\u043D\u0434\u043E\u043C\u043D\u044B\u0439 \u0442\u0435\u043A\u0441\u0442 1",
-    "\u0420\u0430\u043D\u0434\u043E\u043C\u043D\u044B\u0439 \u0442\u0435\u043A\u0441\u0442 2",
-    "\u0420\u0430\u043D\u0434\u043E\u043C\u043D\u044B\u0439 \u0442\u0435\u043A\u0441\u0442 3"
-];
-// Выбираем случайный индекс из массива randomTexts
-let randomIndex = Math.floor(Math.random() * randomTexts.length);
-// Создаем новый элемент <option> с рандомным текстом
-let option = document.createElement("option");
-option.text = randomTexts[randomIndex];
-// Добавляем созданный элемент <option> в <select>
-voiceList.appendChild(option);
+let synth = speechSynthesis;
+function voices() {
+    // Очищаем список голосов перед добавлением новых
+    voiceList.innerHTML = "";
+    // Получаем список доступных голосов
+    let availableVoices = synth.getVoices();
+    // Перебираем каждый доступный голос и добавляем его в список
+    availableVoices.forEach((voice)=>{
+        let selected = "";
+        if (voice.name === "Google UK English Male" || voice.name === "Microsoft Thomas Online (Natural) - English (United Kindom)  (en-GB)") selected = "selected";
+        else if (voice.name === "Google US English" || voice.name === "Microsoft Roger Online (Natural) - English (United States) (en-US)") selected = "selected";
+        let option = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
+        // Добавляем созданный элемент <option> в <select>
+        voiceList.insertAdjacentHTML("beforeend", option);
+    });
+}
+// Добавляем обработчик события, который будет вызывать функцию voices() при загрузке голосов
+synth.onvoiceschanged = voices;
+// Вызываем функцию voices() сразу после подключения скрипта, чтобы заполнить список голосов при загрузке страницы
+voices();
 
 },{"regenerator-runtime/runtime":"dXNgZ","axios":"jo6P5","lodash.get":"80Ipq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dXNgZ":[function(require,module,exports) {
 /**

@@ -18,7 +18,7 @@ async function logToConsole(id, name, title) {
 
 async function fetchData() {
   try {
-    const res = await axios.get("http://dictatingenglishspeaker/mybase.json");
+    const res = await axios.get("http://localhost:1234//mybase.json");
     const data = _get(res, "data.index", []);
     await processLines(data, 0, logToConsole);
   } catch (error) {
@@ -31,20 +31,42 @@ fetchData();
 //-------------------------------------------------------------------------------------
 let voiceList = document.querySelector("#voiceSelect");
 
-// Создаем массив с рандомными текстами
-let randomTexts = [
-  "Рандомный текст 1",
-  "Рандомный текст 2",
-  "Рандомный текст 3",
-  // Добавьте здесь другие рандомные тексты по желанию
-];
+let synth = speechSynthesis;
 
-// Выбираем случайный индекс из массива randomTexts
-let randomIndex = Math.floor(Math.random() * randomTexts.length);
+function voices() {
+  // Очищаем список голосов перед добавлением новых
+  voiceList.innerHTML = "";
 
-// Создаем новый элемент <option> с рандомным текстом
-let option = document.createElement("option");
-option.text = randomTexts[randomIndex];
+  // Получаем список доступных голосов
+  let availableVoices = synth.getVoices();
 
-// Добавляем созданный элемент <option> в <select>
-voiceList.appendChild(option);
+  // Перебираем каждый доступный голос и добавляем его в список
+  availableVoices.forEach((voice) => {
+    let selected = "";
+
+    if (
+      voice.name === "Google UK English Male" ||
+      voice.name ===
+        "Microsoft Thomas Online (Natural) - English (United Kindom)  (en-GB)"
+    ) {
+      selected = "selected";
+    } else if (
+      voice.name === "Google US English" ||
+      voice.name ===
+        "Microsoft Roger Online (Natural) - English (United States) (en-US)"
+    ) {
+      selected = "selected";
+    }
+
+    let option = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
+
+    // Добавляем созданный элемент <option> в <select>
+    voiceList.insertAdjacentHTML("beforeend", option);
+  });
+}
+
+// Добавляем обработчик события, который будет вызывать функцию voices() при загрузке голосов
+synth.onvoiceschanged = voices;
+
+// Вызываем функцию voices() сразу после подключения скрипта, чтобы заполнить список голосов при загрузке страницы
+voices();
