@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  background: #5256ad 30px 20px no-repeat;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+::selection {
+  color: #fff;
+  background: #5256ad;
+}
+
+.wrapper {
+  background: #fff;
+  border-radius: 7px;
+  width: 280px;
+  padding: 12px 15px;
+  box-shadow: 7px 7px 20px #0000000d;
+}
+
+.wrapper header {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.wrapper form {
+  margin: 35px 0 20px;
+}
+
+form .row {
+  flex-direction: column;
+  margin: 4px;
+  display: flex;
+}
+
+form .row label, form .button label, form .sec label {
+  margin-bottom: 2px;
+  font-size: 14px;
+}
+
+form .row:nth-child(2) label {
+  font-size: 14px;
+}
+
+form :where(select, button) {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  height: 100%;
+}
+
+form .row textarea {
+  resize: none;
+  text-align: center;
+  border: 1px solid #999;
+  width: 100%;
+  height: 100%;
+  padding: 8px 10px;
+  font-size: 20px;
+}
+
+form .row input {
+  text-align: center;
+  width: 25px;
+  margin-top: 20px;
+}
+
+form .row textarea::-webkit-scrollbar {
+  width: 0;
+}
+
+form .row .outer {
+  border: 1px solid #999;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  padding: 0 10px;
+  display: flex;
+}
+
+form .row select {
+  background: none;
+  font-size: 13px;
+}
+
+form .row select::-webkit-scrollbar {
+  width: 10px;
+}
+
+form .row select::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+form .row select::-webkit-scrollbar-thumb {
+  background: #888;
+  border-right: 2px solid #fff;
+  border-radius: 8px;
+}
+
+form button {
+  color: #fff;
+  cursor: pointer;
+  background: #675afe;
+  border: 2px solid #f3eeee;
+  width: 49%;
+  height: 42px;
+  margin-top: 10px;
+  font-size: 14px;
+  transition: all .3s;
+}
+
+form button:hover {
+  background: #4534fe;
+}
+
+form .row button {
+  width: 100%;
+  height: 42px;
+  margin-top: 0;
+}
+
+@media (width <= 400px) {
+  .wrapper {
+    width: 100%;
+    max-width: 345px;
+  }
+}
+/*# sourceMappingURL=index.3a01df49.css.map */

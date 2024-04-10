@@ -6,7 +6,9 @@
   "license": "ISC",
   "type": "module",
   "scripts": {
-    "start": "node script4v.js",
+    "start:dev": "nodemon myscript.js",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -14,7 +16,8 @@
     "esm": "^3.2.25",
     "express": "^4.19.2",
     "lodash.get": "^4.4.2",
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "parcel": "^2.12.0"
   },
   "repository": {
     "type": "git",
@@ -24,5 +27,8 @@
     "url": "https://github.com/sergeyif1/DictatingEnglishSpeaker/issues"
   },
   "homepage": "https://github.com/sergeyif1/DictatingEnglishSpeaker#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "buffer": "^6.0.3"
+  }
 }

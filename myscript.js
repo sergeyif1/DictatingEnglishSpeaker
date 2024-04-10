@@ -1,4 +1,5 @@
-import _axios from "axios";
+import "regenerator-runtime/runtime";
+import axios from "axios";
 import _get from "lodash.get";
 
 async function processLines(data, index = 0, callback) {
@@ -17,7 +18,7 @@ async function logToConsole(id, name, title) {
 
 async function fetchData() {
   try {
-    const res = await _axios.get("http://dictatingenglishspeaker/mybase.json");
+    const res = await axios.get("http://dictatingenglishspeaker/mybase.json");
     const data = _get(res, "data.index", []);
     await processLines(data, 0, logToConsole);
   } catch (error) {
@@ -26,3 +27,24 @@ async function fetchData() {
 }
 
 fetchData();
+
+//-------------------------------------------------------------------------------------
+let voiceList = document.querySelector("#voiceSelect");
+
+// Создаем массив с рандомными текстами
+let randomTexts = [
+  "Рандомный текст 1",
+  "Рандомный текст 2",
+  "Рандомный текст 3",
+  // Добавьте здесь другие рандомные тексты по желанию
+];
+
+// Выбираем случайный индекс из массива randomTexts
+let randomIndex = Math.floor(Math.random() * randomTexts.length);
+
+// Создаем новый элемент <option> с рандомным текстом
+let option = document.createElement("option");
+option.text = randomTexts[randomIndex];
+
+// Добавляем созданный элемент <option> в <select>
+voiceList.appendChild(option);
