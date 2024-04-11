@@ -590,6 +590,7 @@ var _axios = require("axios");
 var _axiosDefault = parcelHelpers.interopDefault(_axios);
 var _lodashGet = require("lodash.get");
 var _lodashGetDefault = parcelHelpers.interopDefault(_lodashGet);
+let data, currentIndex = 0; // Определяем переменную на уровне видимости скрипта
 async function processLines(data, index = 0, callback) {
     const currentItem = data.find((item)=>item.id === index + 1);
     if (!currentItem) return;
@@ -600,20 +601,24 @@ async function processLines(data, index = 0, callback) {
 async function logToConsole(id, name, title) {
     await new Promise((resolve)=>setTimeout(resolve, 2000));
     console.log(`ID: ${id}, Name: ${name}, Title: ${title}`);
+    // Озвучивание данных с помощью функции textToSpeech
+    textToSpeech(`${name}. ${title}`);
 }
 async function fetchData() {
     try {
         const res = await (0, _axiosDefault.default).get("http://localhost:1234//mybase.json");
-        const data = (0, _lodashGetDefault.default)(res, "data.index", []);
+        data = (0, _lodashGetDefault.default)(res, "data.index", []); // Заполняем переменную data полученными данными
         await processLines(data, 0, logToConsole);
     } catch (error) {
         console.error("\u041E\u0448\u0438\u0431\u043A\u0430 \u043F\u0440\u0438 \u043F\u043E\u043B\u0443\u0447\u0435\u043D\u0438\u0438 \u0434\u0430\u043D\u043D\u044B\u0445:", error);
     }
 }
 fetchData();
-//-------------------------------------------------------------------------------------
+//   1. Получение списка голососов-------------------------------------------------------------------------------------
 let voiceList = document.querySelector("#voiceSelect");
 let synth = speechSynthesis;
+// Вызываем функцию voices() сразу после подключения скрипта, чтобы заполнить список голосов при загрузке страницы
+voices();
 function voices() {
     // Очищаем список голосов перед добавлением новых
     voiceList.innerHTML = "";
@@ -631,8 +636,32 @@ function voices() {
 }
 // Добавляем обработчик события, который будет вызывать функцию voices() при загрузке голосов
 synth.onvoiceschanged = voices;
-// Вызываем функцию voices() сразу после подключения скрипта, чтобы заполнить список голосов при загрузке страницы
-voices();
+//-------------------------------------------------------------------------------------
+function textToSpeech(name, title) {
+    // Составляем текст для озвучивания, объединяя имя и заголовок
+    let text = `${name}. ${title}`;
+    // Создаем объект SpeechSynthesisUtterance с текстом для озвучивания
+    let utterance = new SpeechSynthesisUtterance(text);
+    // Перебираем доступные голоса и устанавливаем нужный голос, если он совпадает с выбранным в voiceList
+    for (let voice of synth.getVoices())if (voice.name === voiceList.value) {
+        utterance.voice = voice;
+        break; // Прерываем цикл после установки голоса
+    }
+    // Запускаем озвучивание
+    synth.speak(utterance);
+}
+//   Добавляем обработчик клика на кнопку----------------------------------------------------------------------------------------
+let but1 = document.querySelector("#but1");
+but1.addEventListener("click", ()=>{
+    // Получаем индекс текущего выбранного элемента данных
+    const index = currentIndex + 1;
+    // Получаем текущий выбранный элемент данных
+    const currentItem = data.find((item)=>item.id === index);
+    if (currentItem) {
+        const { name, title } = currentItem;
+        textToSpeech(name, title);
+    }
+}); //----------------------------------------------------------------------------------------
 
 },{"regenerator-runtime/runtime":"dXNgZ","axios":"jo6P5","lodash.get":"80Ipq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dXNgZ":[function(require,module,exports) {
 /**
