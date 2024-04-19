@@ -1,39 +1,85 @@
-import "regenerator-runtime/runtime";
-import axios from "axios";
-import _get from "lodash.get";
+const baseUrl = "http://dictatingenglishspeaker/";
+const pathToFile = "/mybase.json";
 
-let data,
-  currentIndex = 0; // Определяем переменную на уровне видимости скрипта
-async function processLines(data, index = 0, callback) {
-  const currentItem = data.find((item) => item.id === index + 1);
-  if (!currentItem) return;
-  const { id, name, title } = currentItem;
+//----------------------------------------------------------------------------------------
+const PLAY = "play";
+const PAUSE = "pause";
+const RESUME = "resume";
 
-  await callback(id, name, title);
-  await processLines(data, index + 1, callback);
-}
+let but1 = document.querySelector("#but1");
+but1.addEventListener("click", handleClick);
 
-async function logToConsole(id, name, title) {
-  await new Promise((resolve) => setTimeout(resolve, 2000));
-  console.log(`ID: ${id}, Name: ${name}, Title: ${title}`);
-
-  // Озвучивание данных с помощью функции textToSpeech
-  textToSpeech(`${name}. ${title}`);
-}
-
-async function fetchData() {
-  try {
-    const res = await axios.get("http://localhost:1234//mybase.json");
-    data = _get(res, "data.index", []); // Заполняем переменную data полученными данными
-    await processLines(data, 0, logToConsole);
-  } catch (error) {
-    console.error("Ошибка при получении данных:", error);
+async function handleClick({ target }) {
+  if (target.classList.contains(PLAY)) {
+    switch (target.className) {
+      case PLAY:
+        speechSynthesis.cancel(); //Очищаем предыдущие
+        exisingUseID(target);
+        // processLines(data, processLine, target);
+        break;
+      case PAUSE:
+        target.className = RESUME;
+        speechSynthesis.pause();
+        break;
+      case RESUME:
+        target.className = PLAY;
+        speechSynthesis.resume();
+        break;
+    }
   }
 }
 
-fetchData();
+//--------------------------------------------------------------------------------------
+function exisingUseID(target) {
+  const inputElement = document.querySelector(".form-point");
+  const useID = inputElement.value;
+  fetchData(useID, target);
+}
+
+async function fetchData(ID, target) {
+  try {
+    const response = await axios.get(baseUrl + pathToFile);
+    const data = response.data.index;
+    const foundObjects = data.filter((obj) => obj.id >= ID);
+
+    if (foundObjects.length > 0) {
+      await processLines(foundObjects, processLine, target); // Передаем функцию processLine как callback
+      return;
+    } else {
+      console.log("Objects with ID greater than or equal to", ID, "not found.");
+    }
+  } catch (error) {
+    console.log("Error fetching data:", error);
+  }
+}
+
+//----------------------------------------------------------------------------------------
+async function processLines(data, callback, target) {
+  for (const item of data) {
+    const { id, name, title } = item;
+    callback({ id, name, title }); // Вызываем callback с объектом в качестве аргумента
+    const text = `${name}, ${title}`;
+    const trimmed = text.trim();
+
+    if (trimmed) {
+      const U = getUtterance(target, text); // Я не вижу определения функции getUtterance и target, предполагаю, что они где-то определены
+      speechSynthesis.speak(U);
+    }
+    await new Promise((resolve) => setTimeout(resolve, 2000));
+  }
+}
+
+function processLine(obj) {
+  // Принимаем объект в качестве аргумента
+  const { id, name, title } = obj; // Разделяем объект на свойства
+  const text = `${id}, ${name}, ${title}`;
+  console.log(text);
+}
+
+//----------------------------------------------------------------------------------------
 
 //   1. Получение списка голососов-------------------------------------------------------------------------------------
+
 let voiceList = document.querySelector("#voiceSelect");
 let synth = speechSynthesis;
 
@@ -75,38 +121,34 @@ function voices() {
 // Добавляем обработчик события, который будет вызывать функцию voices() при загрузке голосов
 synth.onvoiceschanged = voices;
 
-//-------------------------------------------------------------------------------------
+// //----------------------------------------------------------------------------------------
 
-function textToSpeech(name, title) {
-  // Составляем текст для озвучивания, объединяя имя и заголовок
-  let text = `${name}. ${title}`;
+// //----------------------------------------------------------------------------------------
+function getUtterance(target, text) {
+  const selectedVoiceName = voiceList.value;
+  const availableVoices = synth.getVoices();
 
-  // Создаем объект SpeechSynthesisUtterance с текстом для озвучивания
-  let utterance = new SpeechSynthesisUtterance(text);
+  // Находим выбранный голос в списке доступных голосов
+  const selectedVoice = availableVoices.find(
+    (voice) => voice.name === selectedVoiceName
+  );
 
-  // Перебираем доступные голоса и устанавливаем нужный голос, если он совпадает с выбранным в voiceList
-  for (let voice of synth.getVoices()) {
-    if (voice.name === voiceList.value) {
-      utterance.voice = voice;
-      break; // Прерываем цикл после установки голоса
-    }
-  }
+  const U = new SpeechSynthesisUtterance(text);
+  U.voice = selectedVoice; // Устанавливаем выбранный голос
+  U.lang = selectedVoice.lang; // Устанавливаем язык выбранного голоса
+  U.volume = 1;
+  U.rate = 1;
+  U.pitch = 1;
 
-  // Запускаем озвучивание
-  synth.speak(utterance);
+  // Обработчики событий
+  U.onstart = () => {
+    console.log("Started");
+    target.className = PAUSE;
+  };
+  U.onend = () => {
+    console.log("Finished");
+    target.className = PLAY;
+  };
+
+  return U;
 }
-
-//   Добавляем обработчик клика на кнопку----------------------------------------------------------------------------------------
-
-let but1 = document.querySelector("#but1");
-but1.addEventListener("click", () => {
-  // Получаем индекс текущего выбранного элемента данных
-  const index = currentIndex + 1;
-  // Получаем текущий выбранный элемент данных
-  const currentItem = data.find((item) => item.id === index);
-  if (currentItem) {
-    const { name, title } = currentItem;
-    textToSpeech(name, title);
-  }
-});
-//----------------------------------------------------------------------------------------

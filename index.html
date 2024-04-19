@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
 </head>
 
 <body>
@@ -18,8 +20,8 @@
                 <table>
                     <tr><textarea id="text1" rows="4" cols="20" wrap="hard" readonly></textarea></tr>
                     <tr><textarea id="text2" rows="4" cols="20" wrap="hard" readonly></textarea></tr>
-                    <tr><button class="button" id="but4">Stop</button></tr>
-                    <tr><button id="but3">Pause</button></tr>
+                    <tr><button class="button" id="but4">Stop/Pause</button></tr>
+                    <!-- <tr><button id="but3">Pause</button></tr> -->
                 </table>
             </div>
             <div class="row">
@@ -46,13 +48,13 @@
                 <div class="button">
                     <label>Start</label><br>
                     <div>
-                        <button id="but1">Ang</button>
+                        <button id="but1" class="play">Ang</button>
                         <button id="but2">Rus</button>
                     </div>
                     <br>
-                    <label for="speed">Speed</label><br>
+                    <label for="speed">Rate</label><br>
                     <div class="button" style="display: flex; align-items: center;">
-                        <button id="but5">Speed</button>
+                        <button id="but5">Rate</button>
                         <input id="speed" class="form-control" value="1"
                             style="width: 45%; margin-left: 10px; margin-top: 10px;" />
                     </div>
@@ -64,13 +66,13 @@
                     <br>
                     <label for="point">Selecting point</label><br>
                     <div class="point" style="display: flex; align-items: center;">
-                        <input id="speed" class="form-point" value="0" style="width: 45%;" />
-                        <input id="speed" class="form-point" value="" style="width: 45%; margin-left: 10px;" />
+                        <input id="point" class="form-point" value="1" style="width: 45%;" />
                     </div>
                 </div>
         </form>
     </div>
-    <script type="module" src="myscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="myscript.js"></script>
 </body>
 
 </html>
