@@ -20,14 +20,19 @@
                 <table>
                     <tr><textarea id="text1" rows="4" cols="20" wrap="hard" readonly></textarea></tr>
                     <tr><textarea id="text2" rows="4" cols="20" wrap="hard" readonly></textarea></tr>
-                    <tr><button class="button" id="but4">Stop/Pause</button></tr>
+                    <tr><button class="button" id="but4">Stop / Pause</button></tr>
                     <!-- <tr><button id="but3">Pause</button></tr> -->
                 </table>
             </div>
             <div class="row">
                 <label>Select Voice</label>
-                <div class="outer">
+                <!-- <div class="outer">
                     <select id="voiceSelect"></select>
+                </div> -->
+                <div class="outer">
+                    <select id="voiceSelect">
+                        <option value="default" selected>Select a voice</option>
+                    </select>
                 </div>
             </div>
             <div class="row">
@@ -48,8 +53,8 @@
                 <div class="button">
                     <label>Start</label><br>
                     <div>
-                        <button id="but1" class="play">Ang</button>
-                        <button id="but2">Rus</button>
+                        <button id="but1" class="play">Eng</button>
+                        <button id="but2" class="play">Rus</button>
                     </div>
                     <br>
                     <label for="speed">Rate</label><br>
