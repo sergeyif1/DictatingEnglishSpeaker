@@ -2,6 +2,7 @@ const baseUrl = "http://dictatingenglishspeaker/";
 const pathToFile = "/mybase.json";
 
 //----------------------------------------------------------------------------------------
+
 let but1 = document.querySelector("#but1");
 let but2 = document.querySelector("#but2");
 
@@ -21,8 +22,6 @@ const PAUSE = "pause";
 const RESUME = "resume";
 
 async function handleClick({ target }) {
-  console.log(111111);
-
   if (target.classList.contains(PLAY)) {
     switch (target.className) {
       case PLAY:
@@ -46,18 +45,22 @@ async function handleClick({ target }) {
 
 function existingUseID(target) {
   const inputElement = document.querySelector(".form-point");
+  const pintSec = document.querySelector("#paus");
+  Event.priventDefault;
+  console.log(pintSec.value);
   const useID = inputElement.value;
-  fetchData(useID, target, currentButton);
+  const sec = Number(pintSec.value) * 1000;
+  fetchData(useID, target, currentButton, sec);
 }
 
-async function fetchData(ID, target, currentButton) {
+async function fetchData(ID, target, currentButton, sec) {
   try {
     const response = await axios.get(baseUrl + pathToFile);
     const data = response.data.index;
     const foundObjects = data.filter((obj) => obj.id >= ID);
 
     if (foundObjects.length > 0) {
-      await processLines(foundObjects, processLine, target, currentButton);
+      await processLines(foundObjects, target, currentButton, sec);
       return;
     } else {
       console.log("Objects with ID greater than or equal to", ID, "not found.");
@@ -67,14 +70,13 @@ async function fetchData(ID, target, currentButton) {
   }
 }
 
-//----------------------------------------------------------------------------------------
+//4----------------------------------------------------------------------------------------
 
-async function processLines(data, callback, target, currentButton) {
+async function processLines(data, target, currentButton, sec) {
   for (const item of data) {
     const { id, name, title } = item;
-    callback({ id, name, title });
     let text;
-    console.log(text);
+    // console.log(text);
     if (currentButton === "but1") {
       text = `${name}`;
       console.log(text);
@@ -87,14 +89,13 @@ async function processLines(data, callback, target, currentButton) {
     if (trimmed) {
       const U = getUtterance(target, text);
       speechSynthesis.speak(U);
+      processLine(text);
     }
-    await new Promise((resolve) => setTimeout(resolve, 2000));
+    await new Promise((resolve) => setTimeout(resolve, sec));
   }
 }
 
-function processLine(obj) {
-  const { id, name, title } = obj;
-  const text = `${id}, ${name}, ${title}`;
+function processLine(text) {
   console.log(text);
 }
 
