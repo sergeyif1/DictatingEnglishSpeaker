@@ -49,31 +49,30 @@
                     </select>
                 </div>
             </div>
-            <div>
-                <div class="button">
-                    <label>Start</label><br>
-                    <div>
-                        <button id="but1" class="play">Eng</button>
-                        <button id="but2" class="play">Rus</button>
-                    </div>
-                    <br>
-                    <label for="speed">Rate</label><br>
-                    <div class="button" style="display: flex; align-items: center;">
-                        <button id="but5">Rate</button>
-                        <input id="speed" class="form-control" value="1"
-                            style="width: 45%; margin-left: 10px; margin-top: 10px;" />
-                    </div>
-                    <br>
-                    <div class="sec">
-                        <label>Pause(sec)</label>
-                        <input id="paus" value="6" size="1" style="width: 40%;" />
-                    </div>
-                    <br>
-                    <label for="point">Selecting point</label><br>
-                    <div class="point" style="display: flex; align-items: center;">
-                        <input id="point" class="form-point" value="1" style="width: 45%;" />
-                    </div>
+            <div class="button">
+                <label>Start</label><br>
+                <div>
+                    <button id="but1" class="play">Eng</button>
+                    <button id="but2" class="play">Rus</button>
                 </div>
+            </div>
+            <div class="select-point">
+                <label for="point">Selecting point</label><br>
+                <div class="point" style="display: flex; align-items: center;">
+                    <input id="point" class="form-point" value="1" style="width: 45%;  font-size: 14px;" />
+                </div>
+            </div>
+            <div class="form-properties">
+                <div class="speed">
+                    <label for="speed">Rate</label><br>
+                    <input id="speed" value="1" style="width: 95%; font-size: 14px;" />
+                </div>
+
+                <div class="sec">
+                    <label for="speed">Set gap(sec)</label><br>
+                    <input id="paus" value="2" style="width: 95%;  font-size: 14px;" />
+                </div>
+            </div>
         </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
