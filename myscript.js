@@ -79,17 +79,21 @@ async function processLines(data, target, currentButton, sec) {
     // console.log(text);
     if (currentButton === "but1") {
       text = `${name}`;
-      console.log(text);
+      console.log(`${id} - ${text}`);
     } else if (currentButton === "but2") {
       text = `${title}`;
-      console.log(text);
+      console.log(`${id} - ${text}`);
     }
+
     const trimmed = text.trim();
 
     if (trimmed) {
       const U = getUtterance(target, text);
       speechSynthesis.speak(U);
-      processLine(text);
+
+      document.getElementById("text1").value = name;
+      document.getElementById("text2").value = title;
+      document.cookie = `id=${id}; path=/`;
     }
     await new Promise((resolve) => setTimeout(resolve, sec));
   }
