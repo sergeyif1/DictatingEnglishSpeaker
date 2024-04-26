@@ -525,6 +525,932 @@
 "id": "105",
 "name": "coffee table",
 "title": "журнальный столик"
+},
+{
+"id": "106",
+"name": "back yard",
+"title": "задний двор"
+},
+{
+"id": "107",
+"name": "light a candle",
+"title": "зажечь свечу"
+},
+{
+"id": "108",
+"name": "castle",
+"title": "замок"
+},
+{
+"id": "109",
+"name": "net curtain",
+"title": "занавес из сетчатой ткани"
+},
+{
+"id": "110",
+"name": "shower curtain",
+"title": "занавеска для душа"
+},
+{
+"id": "111",
+"name": "curtain",
+"title": "занавеска; занавешивать"
+},
+{
+"id": "112",
+"name": "get clogged",
+"title": "засоряться"
+},
+{
+"id": "113",
+"name": "phone call",
+"title": "звонок по телефону"
+},
+{
+"id": "114",
+"name": "hall mirror",
+"title": "зеркало"
+},
+{
+"id": "115",
+"name": "plate glass",
+"title": "зеркальное стекло"
+},
+{
+"id": "116",
+"name": "mirrored bathroom cabinet",
+"title": "зеркальный шкафчик"
+},
+{
+"id": "117",
+"name": "toy",
+"title": "игрушка"
+},
+{
+"id": "118",
+"name": "go home",
+"title": "идти домой"
+},
+{
+"id": "119",
+"name": "foot of the bed",
+"title": "изножье кровати"
+},
+{
+"id": "120",
+"name": "have running water",
+"title": "иметь водопроводную воду"
+},
+{
+"id": "121",
+"name": "Study (den)",
+"title": "Кабинет"
+},
+{
+"id": "122",
+"name": "barracks",
+"title": "казарма"
+},
+{
+"id": "123",
+"name": "masonry",
+"title": "каменная или кирпичная кладка"
+},
+{
+"id": "124",
+"name": "brick-layer",
+"title": "каменщик"
+},
+{
+"id": "125",
+"name": "stone",
+"title": "камень"
+},
+{
+"id": "126",
+"name": "mantle clock",
+"title": "каминные часы"
+},
+{
+"id": "127",
+"name": "curled birch",
+"title": "карельская береза"
+},
+{
+"id": "128",
+"name": "curtain rail",
+"title": "карниз для занавесей"
+},
+{
+"id": "129",
+"name": "tiles",
+"title": "кафельная плитка, черепица"
+},
+{
+"id": "130",
+"name": "block",
+"title": "квартал"
+},
+{
+"id": "131",
+"name": "rent",
+"title": "квартирная плата; снимать (помещение)"
+},
+{
+"id": "132",
+"name": "brick",
+"title": "кирпич"
+},
+{
+"id": "133",
+"name": "brickwork",
+"title": "кирпичная кладка"
+},
+{
+"id": "134",
+"name": "oilcloth",
+"title": "клеенка (скатерть)"
+},
+{
+"id": "135",
+"name": "maple",
+"title": "клен"
+},
+{
+"id": "136",
+"name": "carpet",
+"title": "ковер"
+},
+{
+"id": "137",
+"name": "fitted carpet",
+"title": "ковер-палас"
+},
+{
+"id": "138",
+"name": "bath mat",
+"title": "коврик для ванной"
+},
+{
+"id": "139",
+"name": "door-mat",
+"title": "коврик перед дверью, половик"
+},
+{
+"id": "140",
+"name": "pedestal mat",
+"title": "коврик под унитазом"
+},
+{
+"id": "141",
+"name": "indoor plants",
+"title": "комнатные растения"
+},
+{
+"id": "142",
+"name": "chest of drawers for shoes",
+"title": "комод для обуви"
+},
+{
+"id": "143",
+"name": "condominium",
+"title": "кондоминиум (один из видов кооперативной собственности)"
+},
+{
+"id": "144",
+"name": "dust bag container",
+"title": "контейнер для мусора"
+},
+{
+"id": "145",
+"name": "dust container",
+"title": "контейнер для мусора"
+},
+{
+"id": "146",
+"name": "dish rack",
+"title": "контейнер для посуды"
+},
+{
+"id": "147",
+"name": "stable",
+"title": "конюшня"
+},
+{
+"id": "148",
+"name": "umbrella stand",
+"title": "корзина для зонтиков"
+},
+{
+"id": "149",
+"name": "cowshed",
+"title": "коровник"
+},
+{
+"id": "150",
+"name": "court",
+"title": "корт, площадка для игр"
+},
+{
+"id": "151",
+"name": "cottage",
+"title": "коттедж, крестьянский дом"
+},
+{
+"id": "152",
+"name": "tap",
+"title": "кран"
+},
+{
+"id": "153",
+"name": "tap is dripping",
+"title": "кран течет"
+},
+{
+"id": "154",
+"name": "paint comes off (peels off)",
+"title": "краска сходится (лупится)"
+},
+{
+
+
+"id": "155",
+"name": "cabinet-maker",
+"title": "краснодеревщик"
+},
+{
+"id": "156",
+"name": "mahogany",
+"title": "красное дерево"
+},
+{
+"id": "157",
+"name": "armchair",
+"title": "кресло"
+},
+{
+"id": "158",
+"name": "cane chair",
+"title": "кресло из тростника"
+},
+{
+"id": "159",
+"name": "shingle roof",
+"title": "кровельная крыша"
+},
+{
+"id": "160",
+"name": "roof",
+"title": "крыша"
+},
+{
+"id": "161",
+"name": "coat hook",
+"title": "крючок"
+},
+{
+"id": "162",
+"name": "buy a property",
+"title": "купить недвижимость"
+},
+{
+"id": "163",
+"name": "cooker unit",
+"title": "кухонная плита"
+},
+{
+"id": "164",
+"name": "kitchen clock",
+"title": "кухонные настенные часы"
+},
+{
+"id": "165",
+"name": "kitchen table",
+"title": "кухонный стол"
+},
+{
+"id": "166",
+"name": "kitchen chair",
+"title": "кухонный стул"
+},
+{
+"id": "167",
+"name": "lamp",
+"title": "лампа"
+},
+{
+"id": "168",
+"name": "lamp (pendant lamp)",
+"title": "лампа (висячая)"
+},
+{
+"id": "169",
+"name": "fluorescent lamp",
+"title": "лампа дневного света"
+},
+{
+"id": "170",
+"name": "brass",
+"title": "латунь, желтая медь"
+},
+{
+"id": "171",
+"name": "moulded ceiling",
+"title": "лепной потолок"
+},
+{
+"id": "172",
+"name": "plaster work",
+"title": "лепные работы"
+},
+{
+"id": "173",
+"name": "stucco mouldings",
+"title": "лепные украшения"
+},
+{
+"id": "174",
+"name": "ladder",
+"title": "лестница"
+},
+{
+"id": "175",
+"name": "linden",
+"title": "липа"
+},
+{
+"id": "176",
+"name": "larch",
+"title": "лиственница"
+},
+{
+"id": "177",
+"name": "patchwork counterpane",
+"title": "лоскутное покрывало"
+},
+{
+"id": "178",
+"name": "chandelier",
+"title": "люстра, канделябр"
+},
+{
+"id": "179",
+"name": "patio",
+"title": "маленький внутренний садик, площадка рядом с домом, используемая для чаепитий"
+},
+{
+"id": "180",
+"name": "painter",
+"title": "маляр"
+},
+{
+"id": "181",
+"name": "materials",
+"title": "материалы"
+},
+{
+"id": "182",
+"name": "frosted glass",
+"title": "матовое стекло"
+},
+{
+"id": "183",
+"name": "mattress",
+"title": "матрац, тюфяк"
+},
+{
+"id": "184",
+"name": "piece of furniture",
+"title": "мебель (отдельная вещь)"
+},
+{
+"id": "185",
+"name": "suite of furniture",
+"title": "мебельный гарнитур"
+},
+{
+"id": "186",
+"name": "copper",
+"title": "медь"
+},
+{
+"id": "187",
+"name": "residence",
+"title": "местожительство, большой жилой дом"
+},
+{
+"id": "188",
+"name": "metals",
+"title": "металлы"
+},
+{
+"id": "189",
+"name": "block of flats",
+"title": "многоквартирный дом"
+},
+{
+"id": "190",
+"name": "multi-storey block of flats",
+"title": "многоэтажный многоквартирный дом"
+},
+{
+"id": "191",
+"name": "mosaic",
+"title": "мозаика"
+},
+{
+"id": "192",
+"name": "sink unit",
+"title": "мойка"
+},
+{
+"id": "193",
+"name": "fitter",
+"title": "монтажник"
+},
+{
+"id": "194",
+"name": "upright freezer",
+"title": "морозильник"
+},
+{
+"id": "195",
+"name": "frozen food compartment",
+"title": "морозильное отделение"
+},
+{
+"id": "196",
+"name": "rough towel",
+"title": "мохнатое полотенце"
+},
+{
+"id": "197",
+"name": "refuse / rubbish chute",
+"title": "мусоропровод"
+},
+{
+"id": "198",
+"name": "washbasin",
+"title": "мыло"
+},
+{
+"id": "199",
+"name": "soap dish",
+"title": "мыльница"
+},
+{
+"id": "200",
+"name": "upholstered furniture",
+"title": "мягкая мебель"
+},
+{
+"id": "201",
+"name": "upholstered suite",
+"title": "мягкая мебель (гарнитур)"
+},
+{
+"id": "202",
+"name": "seat cushion",
+"title": "мягкое сиденье"
+},
+{
+"id": "203",
+"name": "compendium of games",
+"title": "набор игр"
+},
+{
+"id": "204",
+"name": "writing set",
+"title": "набор письменных принадлежностей"
+},
+{
+"id": "205",
+"name": "wall cupboard",
+"title": "навесной кухонный шкаф"
+},
+{
+"id": "206",
+"name": "pillow-case",
+"title": "наволочка"
+},
+{
+"id": "207",
+"name": "“no trespass”",
+"title": "надпись на границах частного владения, запрещающая вход или въезд"
+},
+{
+"id": "208",
+"name": "press the bell",
+"title": "нажать кнопку звонка"
+},
+{
+"id": "209",
+"name": "base unit",
+"title": "напольная секция"
+},
+{
+"id": "210",
+"name": "cupboard base unit",
+"title": "напольная секция стенки"
+},
+{
+"id": "211",
+"name": "outside tap for the hose",
+"title": "наружный водопроводный кран"
+},
+{
+"id": "212",
+"name": "trespass",
+"title": "нарушать границ
+
+ы частного владения"
+},
+{
+"id": "213",
+"name": "floor nozzle",
+"title": "насадка для пола (ковра)"
+},
+{
+"id": "214",
+"name": "all-purpose nozzle",
+"title": "насадка общего назначения"
+},
+{
+"id": "215",
+"name": "desk-lamp",
+"title": "настольная лампа"
+},
+{
+"id": "216",
+"name": "reading lamp",
+"title": "настольная лампа"
+},
+{
+"id": "217",
+"name": "polish",
+"title": "натирать до блеска"
+},
+{
+"id": "218",
+"name": "unpainted",
+"title": "некрашеный"
+},
+{
+"id": "219",
+"name": "stainless steel",
+"title": "нержавеющая сталь"
+},
+{
+"id": "220",
+"name": "phone number",
+"title": "номер телефона"
+},
+{
+"id": "221",
+"name": "bedroom lamp",
+"title": "ночник, ночная лампа"
+},
+{
+"id": "222",
+"name": "be in need of repair",
+"title": "нуждаться в ремонте, требовать ремонта"
+},
+{
+"id": "223",
+"name": "dining table",
+"title": "обеденный стол"
+},
+{
+"id": "224",
+"name": "hot-house",
+"title": "обогреваемая теплица"
+},
+{
+"id": "225",
+"name": "wallpaper",
+"title": "обои"
+},
+{
+"id": "226",
+"name": "upholsterer",
+"title": "обойщик (мебели и т.д.)"
+},
+{
+"id": "227",
+"name": "public building",
+"title": "общественное здание"
+},
+{
+"id": "228",
+"name": "bare wiring",
+"title": "оголенный провод"
+},
+{
+"id": "229",
+"name": "kitchen garden",
+"title": "огород"
+},
+{
+"id": "230",
+"name": "parapet",
+"title": "ограждение балкона"
+},
+{
+"id": "231",
+"name": "clothes brush",
+"title": "одежная щетка"
+},
+{
+"id": "232",
+"name": "blanket",
+"title": "одеяло"
+},
+{
+"id": "233",
+"name": "terraced house",
+"title": "один из расположенных ступенями домов квартала"
+},
+{
+"id": "234",
+"name": "bungalow",
+"title": "одноэтажный дом"
+},
+{
+"id": "235",
+"name": "oven window",
+"title": "окно духовки"
+},
+{
+"id": "236",
+"name": "window frame",
+"title": "оконная рама"
+},
+{
+"id": "237",
+"name": "window shutter",
+"title": "оконные ставни"
+},
+{
+"id": "238",
+"name": "empty",
+"title": "опустошать, вытряхивать"
+},
+{
+"id": "239",
+"name": "green-house",
+"title": "оранжерея, парник"
+},
+{
+"id": "240",
+"name": "walnut",
+"title": "орех"
+},
+{
+"id": "241",
+"name": "candlelight",
+"title": "освещение свечами"
+},
+{
+"id": "242",
+"name": "bedstead",
+"title": "остов кровати"
+},
+{
+"id": "243",
+"name": "shower nozzle",
+"title": "отверстие в душе"
+},
+{
+"id": "244",
+"name": "drop-flat writing surface",
+"title": "откидной столик"
+},
+{
+"id": "245",
+"name": "open space",
+"title": "открытый двор"
+},
+{
+"id": "246",
+"name": "answer the doorbell",
+"title": "открыть дверь на звонок"
+},
+{
+"id": "247",
+"name": "draw the curtain",
+"title": "открыть занавес"
+},
+{
+"id": "248",
+"name": "heating system",
+"title": "отопительная система"
+},
+{
+"id": "249",
+"name": "fuse box",
+"title": "панель с предохранителями"
+},
+{
+"id": "250",
+"name": "boarding house",
+"title": "пансион"
+},
+{
+"id": "251",
+"name": "front door",
+"title": "парадная дверь"
+},
+{
+"id": "252",
+"name": "parquet",
+"title": "паркет; настилать паркет"
+},
+{
+"id": "253",
+"name": "parqueted floor",
+"title": "паркетный пол"
+},
+{
+"id": "254",
+"name": "steam-heating",
+"title": "паровое отопление"
+},
+{
+"id": "255",
+"name": "ashtray",
+"title": "пепельница"
+},
+{
+"id": "256",
+"name": "ground floor",
+"title": "первый этаж"
+},
+{
+"id": "257",
+"name": "at the front of the house",
+"title": "перед домом"
+},
+{
+"id": "258",
+"name": "repaint",
+"title": "перек
+
+рашивать, красить повторно"
+},
+{
+"id": "259",
+"name": "feather-bed",
+"title": "перина"
+},
+{
+"id": "260",
+"name": "padding pool",
+"title": "плавательный бассейн"
+},
+{
+"id": "261",
+"name": "safety fuse",
+"title": "плавкий предохранитель, «пробка»"
+},
+{
+"id": "262",
+"name": "plastic",
+"title": "пластмасса, пластик"
+},
+{
+"id": "263",
+"name": "wardrobe",
+"title": "платяной шкаф"
+},
+{
+"id": "264",
+"name": "coat hanger",
+"title": "плечики"
+},
+{
+"id": "265",
+"name": "tessellated",
+"title": "плиточный, мозаичный"
+},
+{
+"id": "266",
+"name": "flat roof",
+"title": "плоская крыша"
+},
+{
+"id": "267",
+"name": "carpenter",
+"title": "плотник"
+},
+{
+"id": "268",
+"name": "whitewashed",
+"title": "побеленный"
+},
+{
+"id": "269",
+"name": "table top",
+"title": "поверхность стола"
+},
+{
+"id": "270",
+"name": "shower base",
+"title": "поддон душевой кабины"
+},
+{
+"id": "271",
+"name": "storage box",
+"title": "подкроватный ящик"
+},
+{
+"id": "272",
+"name": "sweep",
+"title": "подметать"
+},
+{
+"id": "273",
+"name": "sweep the floor with a broom",
+"title": "подметать пол шваброй"
+},
+{
+"id": "274",
+"name": "lift the curtain",
+"title": "поднять занавес"
+},
+{
+"id": "275",
+"name": "blanket-cover",
+"title": "пододеяльник"
+},
+{
+"id": "276",
+"name": "answer the phone call",
+"title": "подойти к телефону"
+},
+{
+"id": "277",
+"name": "candlestick",
+"title": "подсвечник"
+},
+{
+"id": "278",
+"name": "iron well",
+"title": "подставка для утюга"
+},
+{
+"id": "279",
+"name": "scatter cushion",
+"title": "подушечка"
+},
+{
+"id": "280",
+"name": "pillow",
+"title": "подушка"
+},
+{
+"id": "281",
+"name": "cushion",
+"title": "подушка (диванная)"
+},
+{
+"id": "282",
+"name": "driveway",
+"title": "подъездная дорожка"
+},
+{
+"id": "283",
+"name": "at the back (rear) of the house",
+"title": "позади дома, на заднем дворе"
+},
+{
+"id": "284",
+"name": "ring the bell",
+"title": "позвонить в дверь"
+},
+{
+"id": "285",
+"name": "counterpane",
+"title": "покрывало"
+},
+{
+"id": "286",
+"name": "coverlet",
+"title": "покрывало"
+},
+{
+"id": "287",
+"name": "tiled",
+"title": "покрытый кафельной плиткой"
+},
+{
+"id": "288",
+"name": "carpeted floor",
+"title": "покрытый коврами пол"
+},
+{
+"id": "289",
+"name": "shelf",
+"title": "полка"
 }
   ]
 }
