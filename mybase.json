@@ -3,33 +3,528 @@
 
 {
 "id": "1",
-"name": "ship",
-"title": "корабель"
+"name": "estate agent",
+"title": "агент по торговле недвижимостью"
 },
 {
 "id": "2",
-"name": "subway",
-"title": "метро"
+"name": "real estate agency",
+"title": "агентство по торговле недвижимостью"
 },
 {
 "id": "3",
-"name": "take off",
-"title": "злітати"
+"name": "medicine cabinet",
+"title": "аптечка"
 },
 {
 "id": "4",
-"name": "taxi",
-"title": "таксі"
+"name": "bath salts",
+"title": "ароматический состав для ванны"
 },
 {
 "id": "5",
-"name": "ticket",
-"title": "квиток"
+"name": "architect",
+"title": "архитектор"
 },
 {
 "id": "6",
-"name": "train",
-"title": "потяг"
+"name": "architecture",
+"title": "архитектура"
+},
+{
+"id": "7",
+"name": "linen bin",
+"title": "бак для белья"
+},
+{
+"id": "8",
+"name": "balcony",
+"title": "балкон"
+},
+{
+"id": "9",
+"name": "spice jar",
+"title": "баночка для специй"
+},
+{
+"id": "10",
+"name": "tumble drier",
+"title": "барабанная сушильная машина"
+},
+{
+"id": "11",
+"name": "cistern",
+"title": "бачок"
+},
+{
+"id": "12",
+"name": "roofless",
+"title": "без крыши"
+},
+{
+"id": "13",
+"name": "homeless",
+"title": "бездомный"
+},
+{
+"id": "14",
+"name": "clothes line",
+"title": "бельевая веревка"
+},
+{
+"id": "15",
+"name": "birch",
+"title": "береза (изделия из березовой древесины)"
+},
+{
+"id": "16",
+"name": "summer house",
+"title": "беседка"
+},
+{
+"id": "17",
+"name": "concrete",
+"title": "бетон"
+},
+{
+"id": "18",
+"name": "concrete-mixer",
+"title": "бетономешалка"
+},
+{
+"id": "19",
+"name": "bidet",
+"title": "биде"
+},
+{
+"id": "20",
+"name": "side wall",
+"title": "боковина"
+},
+{
+"id": "21",
+"name": "broom",
+"title": "большая щетка"
+},
+{
+"id": "22",
+"name": "wall lamp",
+"title": "бра"
+},
+{
+"id": "23",
+"name": "take in lodgers",
+"title": "брать (пускать) жильцов"
+},
+{
+"id": "24",
+"name": "borrow",
+"title": "брать деньги в долг"
+},
+{
+"id": "25",
+"name": "log-cabin",
+"title": "бревенчатая хижина"
+},
+{
+"id": "26",
+"name": "foreman",
+"title": "бригадир, прораб"
+},
+{
+"id": "27",
+"name": "bronze",
+"title": "бронза"
+},
+{
+"id": "28",
+"name": "beech",
+"title": "бук"
+},
+{
+"id": "29",
+"name": "china cabinet (display cabinet)",
+"title": "буфет"
+},
+{
+"id": "30",
+"name": "be in the state of neglect",
+"title": "быть в запущенном состоянии"
+},
+{
+"id": "31",
+"name": "be in good repair",
+"title": "быть в хорошем состоянии"
+},
+{
+"id": "32",
+"name": "bust",
+"title": "бюст"
+},
+{
+"id": "33",
+"name": "bath tub",
+"title": "ванна"
+},
+{
+"id": "34",
+"name": "foam bath",
+"title": "ванна с пеной"
+},
+{
+"id": "35",
+"name": "screw in a bulb",
+"title": "ввернуть лампочку"
+},
+{
+"id": "36",
+"name": "bucket (pail)",
+"title": "ведро"
+},
+{
+"id": "37",
+"name": "ventilator",
+"title": "вентиляционное отверстие"
+},
+{
+"id": "38",
+"name": "veranda",
+"title": "веранда"
+},
+{
+"id": "39",
+"name": "keep house",
+"title": "вести домашнее хозяйство"
+},
+{
+"id": "40",
+"name": "bathroom scales",
+"title": "весы"
+},
+{
+"id": "41",
+"name": "coat rack",
+"title": "вешалка для пальто"
+},
+{
+"id": "42",
+"name": "towel rail",
+"title": "вешалка для полотенцев"
+},
+{
+"id": "43",
+"name": "pot holder rack",
+"title": "вешалка для прихвата"
+},
+{
+"id": "44",
+"name": "shake up feather-bed",
+"title": "взбивать перину"
+},
+{
+"id": "45",
+"name": "hanging lamp",
+"title": "висячая лампа"
+},
+{
+"id": "46",
+"name": "stained glass",
+"title": "витраж"
+},
+{
+"id": "47",
+"name": "cherry",
+"title": "вишневое дерево"
+},
+{
+"id": "48",
+"name": "switch on (off) the light",
+"title": "включить / выключить свет"
+},
+{
+"id": "49",
+"name": "water line",
+"title": "водопровод"
+},
+{
+"id": "50",
+"name": "plumber",
+"title": "водопроводчик, паяльщик"
+},
+{
+"id": "51",
+"name": "water supply",
+"title": "водоснабжение"
+},
+{
+"id": "52",
+"name": "hot-water heating",
+"title": "водяное отопление"
+},
+{
+"id": "53",
+"name": "revolving shelf",
+"title": "вращающая полка"
+},
+{
+"id": "54",
+"name": "plug in",
+"title": "вставить вилку, включить"
+},
+{
+"id": "55",
+"name": "front steps",
+"title": "входные ступеньки"
+},
+{
+"id": "56",
+"name": "unscrew a bulb",
+"title": "вывернуть лампочку"
+},
+{
+"id": "57",
+"name": "wipe",
+"title": "вытирать (мокрой тряпкой), мыть"
+},
+{
+"id": "58",
+"name": "dry (wipe) one’s hands on (with) a towel",
+"title": "вытирать руки полотенцем"
+},
+{
+"id": "59",
+"name": "empty garbage pail",
+"title": "вытряхнуть мусорное ведро"
+},
+{
+"id": "60",
+"name": "cooker hood",
+"title": "вытяжка"
+},
+{
+"id": "61",
+"name": "gas cooker",
+"title": "газовая плита"
+},
+{
+"id": "62",
+"name": "garage",
+"title": "гараж"
+},
+{
+"id": "63",
+"name": "two-car garage",
+"title": "гараж для двух машин"
+},
+{
+"id": "64",
+"name": "plaster cast",
+"title": "гипс"
+},
+{
+"id": "65",
+"name": "ironing table",
+"title": "гладильная доска"
+},
+{
+"id": "66",
+"name": "socket",
+"title": "гнездо, патрон"
+},
+{
+"id": "67",
+"name": "headboard",
+"title": "головная панель"
+},
+{
+"id": "68",
+"name": "pot plant",
+"title": "горшок с цветком"
+},
+{
+"id": "69",
+"name": "Living room (Lounge)",
+"title": "Гостиная"
+},
+{
+"id": "70",
+"name": "prefabricated blocks",
+"title": "готовые стандартные блоки, части дома"
+},
+{
+"id": "71",
+"name": "speaker (loudspeaker)",
+"title": "громкоговоритель (колонка)"
+},
+{
+"id": "72",
+"name": "bath sponge",
+"title": "губка"
+},
+{
+"id": "73",
+"name": "lend",
+"title": "давать деньги в долг"
+},
+{
+"id": "74",
+"name": "weekend house",
+"title": "дачный домик"
+},
+{
+"id": "75",
+"name": "housing estate",
+"title": "дачный поселок"
+},
+{
+"id": "76",
+"name": "door handle",
+"title": "дверная ручка"
+},
+{
+"id": "77",
+"name": "door lock",
+"title": "дверной замок"
+},
+{
+"id": "78",
+"name": "bell (door-bell)",
+"title": "дверной звонок"
+},
+{
+"id": "79",
+"name": "door frame",
+"title": "дверной короб"
+},
+{
+"id": "80",
+"name": "yard",
+"title": "двор"
+},
+{
+"id": "81",
+"name": "palace",
+"title": "дворец"
+},
+{
+"id": "82",
+"name": "double bed",
+"title": "двуспальная кровать"
+},
+{
+"id": "83",
+"name": "duplex house",
+"title": "двухквартирный дом"
+},
+{
+"id": "84",
+"name": "plumber on duty",
+"title": "дежурный водопроводчик"
+},
+{
+"id": "85",
+"name": "wood",
+"title": "дерево"
+},
+{
+"id": "86",
+"name": "wooden",
+"title": "деревянный"
+},
+{
+"id": "87",
+"name": "wooden fence",
+"title": "деревянный забор"
+},
+{
+"id": "88",
+"name": "toilet roll holder",
+"title": "держатель для туалетной бумаги"
+},
+{
+"id": "89",
+"name": "Children’s room (Nursery)",
+"title": "Детская"
+},
+{
+"id": "90",
+"name": "children’s bed, bunk bed",
+"title": "детская двухъярусная кровать"
+},
+{
+"id": "91",
+"name": "children’s cupboard",
+"title": "детский шкафчик"
+},
+{
+"id": "92",
+"name": "high-rise block of flats",
+"title": "дом башенного типа"
+},
+{
+"id": "93",
+"name": "the house has to be done up",
+"title": "дом необходимо отремонтировать"
+},
+{
+"id": "94",
+"name": "at home",
+"title": "дома (у себя)"
+},
+{
+"id": "95",
+"name": "housewife",
+"title": "домохозяйка"
+},
+{
+"id": "96",
+"name": "board",
+"title": "доска"
+},
+{
+"id": "97",
+"name": "hangings",
+"title": "драпировки, портьеры"
+},
+{
+"id": "98",
+"name": "oak",
+"title": "дуб"
+},
+{
+"id": "99",
+"name": "perfume spray",
+"title": "духи в аэрозоле"
+},
+{
+"id": "100",
+"name": "oven",
+"title": "духовка"
+},
+{
+"id": "101",
+"name": "shower cubicle",
+"title": "душевая кабина"
+},
+{
+"id": "102",
+"name": "chimney",
+"title": "дымовая труба"
+},
+{
+"id": "103",
+"name": "spruce",
+"title": "ель"
+},
+{
+"id": "104",
+"name": "scrubbing brush",
+"title": "жесткая щетка"
+},
+{
+"id": "105",
+"name": "coffee table",
+"title": "журнальный столик"
 }
   ]
 }
