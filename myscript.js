@@ -9,7 +9,7 @@ let but2 = document.querySelector("#but2");
 let currentButton = null;
 but1.addEventListener("click", () => {
   currentButton = "but1";
-  handleClick({ target: but1 });
+  handleClick({ target: but1, currentButton });
 });
 but2.addEventListener("click", () => {
   currentButton = "but2";
@@ -26,7 +26,7 @@ async function handleClick({ target }) {
     switch (target.className) {
       case PLAY:
         speechSynthesis.cancel();
-        existingUseID(target);
+        existingUseID(target, currentButton);
         break;
       case PAUSE:
         target.className = RESUME;
@@ -43,7 +43,7 @@ async function handleClick({ target }) {
 
 //--------------------------------------------------------------------------------------
 
-function existingUseID(target) {
+function existingUseID(target, currentButton) {
   const inputElement = document.querySelector(".form-point");
   const pintSec = document.querySelector("#paus");
   Event.priventDefault;
@@ -51,6 +51,7 @@ function existingUseID(target) {
   const useID = inputElement.value;
   const sec = Number(pintSec.value) * 1000;
   fetchData(useID, target, currentButton, sec);
+  console.log(useID, sec);
 }
 
 async function fetchData(ID, target, currentButton, sec) {
