@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Text To Speech in JavaScript</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -18,19 +18,18 @@
             <div class="row">
                 <label>Enter Text</label>
                 <table>
-                    <tr><textarea id="text1" rows="4" cols="20" wrap="hard" readonly></textarea></tr>
+                    <tr><textarea id="text1" rows="3" cols="20" wrap="hard" readonly></textarea></tr>
                     <tr><textarea id="text2" rows="4" cols="20" wrap="hard" readonly></textarea></tr>
-                    <tr><button class="button" id="but4">Stop / Pause</button></tr>
+                    <tr><button class="stop" id="but4">STOP / (stop)</button></tr>
                     <!-- <tr><button id="but3">Pause</button></tr> -->
                 </table>
             </div>
             <div class="button">
-                <label>Start</label>
                 <div>
-                    <button id="but1" class="play">Eng</button>
-                    <button id="but2" class="play">Rus</button>
+                    <button id="but1" class="play">Eng / PLAY</button>
+                    <button id="but2" class="play">Rus / PLAY</button>
                 </div>
-            </div>
+            </div><br>
             <div class="row">
                 <label>Select Voice</label>
                 <!-- <div class="outer">
@@ -48,35 +47,58 @@
                     <select id="select2">
                         <option id="elem">English dictionary</option>
                         <!-- <option id="elem">nouns-существительные</option>
-                        <option id="elem" selected>adjectives-прилагательные</option>
-                        <option id="elem">adverbs-наречия</option>
-                        <option id="elem">соединение-определитель-артикль-предлог-количество</option>
-                        <option id="elem">other-словарь Друкера</option>
-                        <option id="elem">Tell_They-говорят они</option> -->
+                        <option id="elem" selected>adjectives-прилагательные</option>-->
                     </select>
-                </div>
+                </div><br>
             </div>
             <div class="select-point">
-                <label for="point">Selecting point</label><br>
-                <div class="point" style="display: flex; align-items: center;">
-                    <input id="point" class="form-point" value="1" style="width: 45%;  font-size: 14px;" />
+                <label for="point">Select point of start</label><br>
+                <div>
+                    <div class="point" style="display: flex; justify-content: space-between; font-size: 14px;">
+                        <input class="checkbox" id="" type="checkbox" name="option1" value="value1">
+                        free select
+                        <input id="point" class="form-point" value="1" style="width: 45%;  font-size: 14px;" />
+                    </div>
                 </div>
+                <div>
+                    <div class="point" style="display: flex; justify-content: space-between; font-size: 14px;">
+                        <input class="checkbox" id="" type="checkbox" name="option2" value="value2">
+                        place where you run out of...........
+                    </div>
+                </div>
+                <div>
+                    <div class="point" style="display: flex; justify-content: space-between; font-size: 14px;">
+                        <input class="checkbox" id="" type="checkbox" name="option3" value="value3">
+                        ......Nwords count
+                        <input id="point" class="form-point" value="1" style="width: 45%;  font-size: 14px;" />
+                    </div>
+                </div>
+                <br>
             </div>
             <div class="form-properties">
                 <div class="speed">
                     <label for="speed">Rate</label><br>
+                    <label for="speed">(0.5-1.5)</label><br>
+                    <label for="speed"></label><br>
                     <input id="speed" value="1" style="width: 95%; font-size: 14px;" />
                 </div>
-
                 <div class="sec">
-                    <label for="speed">Set gap(sec)</label><br>
-                    <input id="paus" value="2" style="width: 95%;  font-size: 14px;" />
+                    <label for="speed">Set gap</label><br>
+                    <label for="speed">(sec)</label><br>
+                    <label for="speed"></label><br>
+                    <input id="gap" value="2" style="width: 95%;  font-size: 14px;" />
+                </div>
+                <div class="form-pitch">
+                    <label for="pitch">Voice</label><br>
+                    <label for="pitch">of pitch</label><br>
+                    <label for="speed">(0.5-1.5)</label><br>
+                    <input id="pitch" value="1" style="width: 95%;  font-size: 14px;" />
                 </div>
             </div>
         </form>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
-    <script src="myscript.js"></script>
+
+    <script src="./js/bundle.js"></script>
 </body>
 
 </html>

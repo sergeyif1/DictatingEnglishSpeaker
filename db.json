@@ -1,6 +1,5 @@
-{
-  "index": [
-
+{ "dictionary":  
+ [
 {
 "id": "1",
 "name": "estate agent",
@@ -1447,6 +1446,6 @@
 "id": "289",
 "name": "shelf",
 "title": "полка"
-}
+} 
   ]
 }
