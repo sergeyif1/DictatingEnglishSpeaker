@@ -717,12 +717,12 @@
 },
 {
 "id": "144",
-"name": "dust bag container",
+"name": "trash bag container",
 "title": "контейнер для мусора"
 },
 {
 "id": "145",
-"name": "dust container",
+"name": "trash containe",
 "title": "контейнер для мусора"
 },
 {
@@ -1446,6 +1446,221 @@
 "id": "289",
 "name": "shelf",
 "title": "полка"
+},
+{
+  "id": "290",
+  "name": "bookshelf",
+  "title": "полка для книг"
+},
+{
+  "id": "291",
+  "name": "linen shelf",
+  "title": "полка для постельного белья"
+},
+{
+  "id": "292",
+  "name": "refrigerator shelf",
+  "title": "полка холодильника"
+},
+{
+  "id": "293",
+  "name": "full board",
+  "title": "полный пансион (трехразовое питание)"
+},
+{
+  "id": "294",
+  "name": "floor cloth",
+  "title": "половая тряпка"
+},
+{
+  "id": "295",
+  "name": "faulty",
+  "title": "поломанный, вышедший из строя"
+},
+{
+  "id": "296",
+  "name": "be at fault",
+  "title": "поломаться"
+},
+{
+  "id": "297",
+  "name": "case of disorder / trouble",
+  "title": "поломки / неисправности"
+},
+{
+  "id": "298",
+  "name": "mouthwash",
+  "title": "полосканье для рта"
+},
+{
+  "id": "299",
+  "name": "towel",
+  "title": "полотенце"
+},
+{
+  "id": "300",
+  "name": "bottle rack in storage door",
+  "title": "полочка для бутылок в дверце холодильника"
+},
+{
+  "id": "301",
+  "name": "spice rack",
+  "title": "полочка для специй"
+},
+{
+  "id": "302",
+  "name": "half board",
+  "title": "полупансион (только завтрак)"
+},
+{
+  "id": "303",
+  "name": "country house",
+  "title": "поместье, загородный дом, дача"
+},
+{
+  "id": "304",
+  "name": "handrail",
+  "title": "поручень"
+},
+{
+  "id": "305",
+  "name": "top floor",
+  "title": "последний этаж"
+},
+{
+  "id": "306",
+  "name": "bedding, bedclothes",
+  "title": "постельные принадлежности, белье"
+},
+{
+  "id": "307",
+  "name": "erect a building",
+  "title": "построить дом"
+},
+{
+  "id": "308",
+  "name": "tea-cloth",
+  "title": "посудное полотенце"
+},
+{
+  "id": "309",
+  "name": "fix the tap",
+  "title": "починить кран"
+},
+{
+  "id": "310",
+  "name": "floor and carpet cleaning",
+  "title": "предметы ухода за полом и ковром"
+},
+{
+  "id": "311",
+  "name": "put smth straight",
+  "title": "привести в порядок что-либо"
+},
+{
+  "id": "312",
+  "name": "run a bath for oneself",
+  "title": "приготовить себе ванну"
+},
+{
+  "id": "313",
+  "name": "bedside cabinet",
+  "title": "прикроватная тумбочка"
+},
+{
+  "id": "314",
+  "name": "bedside rug",
+  "title": "прикроватный коврик"
+},
+{
+  "id": "315",
+  "name": "have (take) a bath",
+  "title": "принимать ванну"
+},
+{
+  "id": "316",
+  "name": "pot holder",
+  "title": "прихват"
+},
+{
+  "id": "317",
+  "name": "be falling into decay",
+  "title": "приходить в упадок"
+},
+{
+  "id": "318",
+  "name": "Hall",
+  "title": "Прихожая"
+},
+{
+  "id": "319",
+  "name": "hall (entrance hall)",
+  "title": "прихожая"
+},
+{
+  "id": "320",
+  "name": "air smth",
+  "title": "проветрить что-либо"
+},
+{
+  "id": "321",
+  "name": "lead (cord)",
+  "title": "провод, шнур"
+},
+{
+  "id": "322",
+  "name": "install (put) electricity in a house",
+  "title": "проводить электричество"
+},
+{
+  "id": "323",
+  "name": "bed sheet",
+  "title": "простыня"
+},
+{
+  "id": "324",
+  "name": "overflowing",
+  "title": "протечка воды"
+},
+{
+  "id": "325",
+  "name": "poultry",
+  "title": "птичник"
+},
+{
+  "id": "326",
+  "name": "powder box",
+  "title": "пудреница"
+},
+{
+  "id": "327",
+  "name": "all-purpose vacuum cleaner",
+  "title": "пылесос общего назначения"
+},
+{
+  "id": "328",
+  "name": "work top",
+  "title": "рабочий стол"
+},
+{
+  "id": "329",
+  "name": "working top",
+  "title": "рабочий стол"
+},
+{
+  "id": "330",
+  "name": "radiator",
+  "title": "радиатор, батарея центрального отопления"
+},
+{
+  "id": "331",
+  "name": "speak on / over the phone",
+  "title": "разговаривать по телефону"
+},
+{
+  "id": "332",
+  "name": "pull the curtain aside",
+  "title": "раздвинуть занавес"
 } 
   ]
 }

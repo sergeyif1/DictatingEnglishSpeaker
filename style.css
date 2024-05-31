@@ -42,6 +42,10 @@ form .row {
   margin: 4px;
   flex-direction: column;
 }
+form .row #countdown {
+    font-size: 15px;
+    text-align: center;
+}
 
 form .row label {
   font-size: 14px;
