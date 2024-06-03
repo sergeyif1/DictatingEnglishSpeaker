@@ -73,16 +73,32 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-// countdownTimer.js
-var formatTime = function formatTime(seconds) {
-  var minutes = Math.floor(seconds / 60);
-  var remainingSeconds = seconds % 60;
-  return "".concat(String(minutes).padStart(2, "0"), ":").concat(String(remainingSeconds).padStart(2, "0"));
-};
-var countdown = function countdown(seconds) {
+var countdown = function countdown(seconds, initialSeconds) {
   var countdownElement = document.getElementById("countdown");
+  var circle = document.querySelector(".progress-ring__circle");
+  var endDot = document.querySelector(".progress-ring__dot"); // Новый элемент для точки
+  var radius = circle.r.baseVal.value;
+  var circumference = 2 * Math.PI * radius;
+  circle.style.strokeDasharray = "".concat(circumference, " ").concat(circumference);
+  circle.style.strokeDashoffset = circumference;
+  var formatTime = function formatTime(seconds) {
+    var minutes = Math.floor(seconds / 60);
+    var remainingSeconds = seconds % 60;
+    return "".concat(String(minutes).padStart(2, "0"), ":").concat(String(remainingSeconds).padStart(2, "0"));
+  };
+  var setProgress = function setProgress(percent) {
+    var offset = circumference - percent / 100 * circumference;
+    circle.style.strokeDashoffset = offset;
+    var angle = 360 * percent / 100 * (Math.PI / 180); // Угол в радианах
+    var x = 60 + radius * Math.cos(angle - Math.PI / 2); // Вычисляем x-координату точки
+    var y = 60 + radius * Math.sin(angle - Math.PI / 2); // Вычисляем y-координату точки
+    endDot.setAttribute("cx", x);
+    endDot.setAttribute("cy", y);
+  };
   var timer = setInterval(function () {
     countdownElement.textContent = formatTime(seconds);
+    var progress = seconds / initialSeconds * 100;
+    setProgress(progress);
     if (seconds <= 0) {
       clearInterval(timer);
       countdownElement.textContent = "Время истекло!";
@@ -182,7 +198,7 @@ var myModule = {
             // Функция для чтения следующей строки с задержкой
             readNextString = /*#__PURE__*/function () {
               var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
-                var searchString, startIndex, startBracketIndex, endBracketIndex, dataChunk, foundObject;
+                var searchString, startIndex, startBracketIndex, endBracketIndex, dataChunk, foundObject, initialSeconds;
                 return _regeneratorRuntime().wrap(function _callee$(_context) {
                   while (1) switch (_context.prev = _context.next) {
                     case 0:
@@ -190,13 +206,13 @@ var myModule = {
                       searchString = "\"id\": \"".concat(currentID, "\"");
                       startIndex = result.indexOf(searchString);
                       if (!(startIndex !== -1)) {
-                        _context.next = 21;
+                        _context.next = 22;
                         break;
                       }
                       startBracketIndex = result.lastIndexOf("{", startIndex);
                       endBracketIndex = result.indexOf("}", startIndex) + 1;
                       if (!(startBracketIndex !== -1 && endBracketIndex !== -1)) {
-                        _context.next = 18;
+                        _context.next = 19;
                         break;
                       }
                       dataChunk = result.substring(startBracketIndex, endBracketIndex); // console.log("Прочитанная строка:", dataChunk);
@@ -218,23 +234,24 @@ var myModule = {
                       //   "Следующая прочитанная строка после задержки:",
                       //   dataChunk
                       // );
-                      (0,_countdownTimer__WEBPACK_IMPORTED_MODULE_1__["default"])(sec / 1000);
+                      initialSeconds = sec / 1000;
+                      (0,_countdownTimer__WEBPACK_IMPORTED_MODULE_1__["default"])(initialSeconds, initialSeconds);
                       (0,_processLines__WEBPACK_IMPORTED_MODULE_0__["default"])(dataChunk);
 
                       // Рекурсивный вызов функции для чтения следующей строки
-                      _context.next = 16;
+                      _context.next = 17;
                       return readNextString();
-                    case 16:
-                      _context.next = 19;
+                    case 17:
+                      _context.next = 20;
                       break;
-                    case 18:
-                      console.log("Начало или конец строки не найдены.");
                     case 19:
-                      _context.next = 22;
+                      console.log("Начало или конец строки не найдены.");
+                    case 20:
+                      _context.next = 23;
                       break;
-                    case 21:
-                      console.log("ID \"".concat(currentID, "\" \u041F\u0440\u0430\u0446\u0435\u0441\u0441 \u0437\u0430\u043A\u043E\u043D\u0447\u0435\u043D.\u0421\u043F\u0430\u0441\u0438\u0431\u043E!"));
                     case 22:
+                      console.log("ID \"".concat(currentID, "\" \u041F\u0440\u0430\u0446\u0435\u0441\u0441 \u0437\u0430\u043A\u043E\u043D\u0447\u0435\u043D.\u0421\u043F\u0430\u0441\u0438\u0431\u043E!"));
+                    case 23:
                     case "end":
                       return _context.stop();
                   }

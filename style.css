@@ -42,9 +42,38 @@ form .row {
   margin: 4px;
   flex-direction: column;
 }
-form .row #countdown {
-    font-size: 15px;
+
+body .timer {
+    position: absolute;
+    top: 185px;
+    left: 50%;
+    background-color: rgba(255, 255, 255, 0.1); /* semi-transparent background */
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: white;
+}
+
+.progress-ring__circle {
+  transition: stroke-dashoffset 0.35s;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  stroke: rgb(82, 86, 173, 0.3);
+}
+
+.progress-ring__dot {
+  transition: cx 0.45s, cy 0.45s;
+   stroke: rgb(82, 86, 173, 0.3);
+}
+
+body #countdown {
+    position: absolute;
+    top: 52px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: rgb(82, 86, 173, 0.3);
     text-align: center;
+    font-weight: bold;
 }
 
 form .row label {

@@ -74,7 +74,9 @@ const myModule = {
             //   "Следующая прочитанная строка после задержки:",
             //   dataChunk
             // );
-            countdown(sec / 1000);
+
+            const initialSeconds = sec / 1000;
+            countdown(initialSeconds, initialSeconds);
             processLines(dataChunk);
 
             // Рекурсивный вызов функции для чтения следующей строки
