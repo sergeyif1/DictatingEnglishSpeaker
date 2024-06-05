@@ -1,5 +1,6 @@
 import buttonsClickHandler from "./modules/buttonsClickHandler";
 import { voices } from "./modules/getUtterance";
+import controlCheckBox from "./modules/controlCheckBox";
 
 document.addEventListener("keydown", function (KeyboardEvent) {
   // console.log(KeyboardEvent.key);
@@ -17,3 +18,4 @@ but2.addEventListener("click", (event) => {
 });
 
 voices();
+controlCheckBox();

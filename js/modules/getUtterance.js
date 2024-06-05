@@ -25,6 +25,8 @@ function getDefaultVoice(voices) {
 
 const voicePlay = {
   getUtterance: function (text) {
+    const rate = document.getElementById("speed");
+    const pitch = document.getElementById("pitch");
     // console.log(text);
     const availableVoices = speechSynthesis.getVoices();
     const selectedVoiceName = voiceList.value;
@@ -39,6 +41,8 @@ const voicePlay = {
       U.voice = selectedVoice;
       U.lang = selectedVoice.lang;
       U.volume = 1;
+      U.rate = rate.value;
+      U.pitch = pitch.value;
 
       return U;
     } else {
