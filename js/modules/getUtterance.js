@@ -25,30 +25,35 @@ function getDefaultVoice(voices) {
 
 const voicePlay = {
   getUtterance: function (text) {
-    const rate = document.getElementById("speed");
-    const pitch = document.getElementById("pitch");
-    // console.log(text);
+    const rate = document.getElementById("speed").value;
+    const pitch = document.getElementById("pitch").value;
+
     const availableVoices = speechSynthesis.getVoices();
     const selectedVoiceName = voiceList.value;
+
+    // console.log("Selected voice name:", selectedVoiceName);
+    // console.log("Rate:", rate, "Pitch:", pitch);
 
     if (availableVoices.length > 0) {
       const selectedVoice = availableVoices.find(
         (voice) => voice.name === selectedVoiceName
       );
-      //3.Создаем экземпляр SpeechSynthesisUtterance ("utterance" можно перевести как "выражение текста словами")
+      // console.log("Selected voice:", selectedVoice);
+
       const U = new SpeechSynthesisUtterance(text);
-      // Передаем голос и другие настройки экземпляру
       U.voice = selectedVoice;
       U.lang = selectedVoice.lang;
       U.volume = 1;
-      U.rate = rate.value;
-      U.pitch = pitch.value;
+      U.rate = rate;
+      U.pitch = pitch;
 
+      // console.log("Utterance details:", U);
       return U;
     } else {
-      console.error("No available voices found.");
+      // console.error("No available voices found.");
       return null;
     }
   },
 };
+
 export default voicePlay;

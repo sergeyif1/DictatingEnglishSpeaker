@@ -1,4 +1,4 @@
-import voicePlay from "./getUtterance";
+// import voicePlay from "./getUtterance";
 import { currentButton } from "./buttonsClickHandler";
 
 async function processLines(dataChunk) {
@@ -15,9 +15,22 @@ async function processLines(dataChunk) {
     text = `${title}`;
     console.log(`${id} - ${text}`);
   }
+  //Проверка
+  // const Utl = voicePlay.getUtterance(text);
+  // if (Utl) {
+  //   console.log("Utterance created:", Utl);
+  //   speechSynthesis.speak(Utl);
+  //   console.log("Speech synthesis started");
 
-  const Utl = voicePlay.getUtterance(text);
-  speechSynthesis.speak(Utl); // speechSynthesis - он самостоятельный запускается с любого места
+  //   setTimeout(() => {
+  //     console.log(
+  //       "Check speaking state after speak:",
+  //       speechSynthesis.speaking
+  //     );
+  //   }, 1000);
+  // } else {
+  //   console.log("Utterance creation failed");
+  // }
 
   document.getElementById("text1").value = `${id} - ${name}`;
   document.getElementById("text2").value = `${id} - ${title}`;

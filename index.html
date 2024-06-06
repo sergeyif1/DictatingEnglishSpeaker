@@ -19,8 +19,12 @@
                 <table>
                     <tr><textarea id="text1" rows="3" cols="20" wrap="hard" readonly></textarea></tr>
                     <tr><textarea id="text2" rows="4" cols="20" wrap="hard" readonly></textarea></tr>
-                    <tr><button class="stop" id="but4">STOP / (stop)</button></tr>
-
+                    <tr>
+                        <td><button class="resume" id="resumeButton">RESUME</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="pause" id="but5">PAUSE</button></td>
+                    </tr>
                 </table>
             </div>
             <div class="timer">
@@ -35,10 +39,12 @@
             <div class="button">
                 <div>
                     <div class="button">
-                        <div>
-                            <button id="but1" class="play">Eng / PLAY</button>
-                            <button id="but2" class="play">Rus / PLAY</button>
-                        </div>
+                        <tr>
+                            <td><button id="but1" class="play">Eng / PLAY</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="but2" class="play">Rus / PLAY</button></td>
+                        </tr>
                     </div><br>
                     <div class="row">
                         <label>Select Voice</label>
@@ -91,7 +97,7 @@
                             <label for="speed">Set gap</label><br>
                             <label for="speed">(sec)</label><br>
                             <label for="speed"></label><br>
-                            <input id="gap" value="2" style="width: 95%;  font-size: 14px;" />
+                            <input id="gap" value="4" style="width: 95%;  font-size: 14px;" />
                         </div>
                         <div class="form-pitch">
                             <label for="pitch">Voice</label><br>
