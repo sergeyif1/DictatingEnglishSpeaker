@@ -1,29 +1,34 @@
-import processLines from "./processLines";
-import countdown from "./countdownTimer";
+import processLines from "./processLines.js";
+import countdown from "./countdownTimer.js";
 
 let isPaused = false;
+let currentID = null;
+let currentButton = null;
+// let foundObject = null;
 
 const myModule = {
   words: async function (startID, sec, currentButton) {
     let currentID = startID;
-
+    // 1. Указываем путь к файлу
     const filePath = "../db.json";
     const foundObjects = [];
 
     try {
+      // 2. Запрос данных через fetch API
       const response = await fetch(filePath);
-      console.log("Файл загружен");
 
+      // 3. Обрабатываем ошибку соединени
       if (!response.ok) {
         throw new Error("Ошибка при загрузке файла");
       }
 
+      // 4. Получаем поток данных из тела ответа
       const stream = response.body;
-      console.log("Поток данных получен", stream);
 
+      // 5. Создаем объект ReadableStreamDefaultReader для чтения потока
       const reader = stream.getReader();
-      console.log("Читатель потока создан", reader);
 
+      // 6. Распарсиваем поток
       const decoder = new TextDecoder();
       let result = "";
       let done = false;
@@ -39,7 +44,9 @@ const myModule = {
       const jsonData = JSON.parse(result);
       console.log("Данные распарсены", jsonData);
 
+      // 7.Функция для чтения следующей строки с задержкой
       async function readNextString() {
+        // Начинаем читать поток с указанного ID
         const searchString = `"id": "${currentID}"`;
         const startIndex = result.indexOf(searchString);
 
@@ -51,7 +58,9 @@ const myModule = {
               startBracketIndex,
               endBracketIndex
             );
+            // console.log("Прочитанная строка:", dataChunk);
 
+            // Добавляем объект в массив найденных объектов
             const foundObject = JSON.parse(dataChunk);
             foundObjects.push(foundObject);
 
@@ -65,6 +74,8 @@ const myModule = {
 
             const initialSeconds = sec / 1000;
             countdown(initialSeconds, initialSeconds);
+
+            // Вызов processLines с переданными данными
             processLines(dataChunk);
 
             await readNextString();
@@ -83,9 +94,19 @@ const myModule = {
   },
   pause: function () {
     isPaused = true;
+    // console.log(`Paused ${isPaused}`);
   },
   resume: function () {
-    isPaused = false;
+    console.log(`Paused ${isPaused}`);
+
+    if (isPaused) {
+      isPaused = false;
+      if (currentID !== null && currentButton !== null) {
+        myModule.readNextString();
+      }
+    } else {
+      console.log("Speech synthesis is not paused, cannot resume");
+    }
   },
 };
 

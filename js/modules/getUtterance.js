@@ -31,14 +31,10 @@ const voicePlay = {
     const availableVoices = speechSynthesis.getVoices();
     const selectedVoiceName = voiceList.value;
 
-    // console.log("Selected voice name:", selectedVoiceName);
-    // console.log("Rate:", rate, "Pitch:", pitch);
-
     if (availableVoices.length > 0) {
       const selectedVoice = availableVoices.find(
         (voice) => voice.name === selectedVoiceName
       );
-      // console.log("Selected voice:", selectedVoice);
 
       const U = new SpeechSynthesisUtterance(text);
       U.voice = selectedVoice;
@@ -47,10 +43,8 @@ const voicePlay = {
       U.rate = rate;
       U.pitch = pitch;
 
-      // console.log("Utterance details:", U);
       return U;
     } else {
-      // console.error("No available voices found.");
       return null;
     }
   },

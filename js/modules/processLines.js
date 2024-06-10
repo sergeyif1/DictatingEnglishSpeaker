@@ -1,40 +1,30 @@
-// import voicePlay from "./getUtterance";
-import { currentButton } from "./buttonsClickHandler";
+import { currentButton } from "./buttonsClickHandler.js";
+import voicePlay from "./getUtterance.js";
 
 async function processLines(dataChunk) {
-  // Парсим JSON-строку в объект
+  console.log(`${currentButton}`);
+
   const parsedData = JSON.parse(dataChunk);
   const { id, name, title } = parsedData;
-  // console.log("processLines:", id, name, title);
+  console.log(`${id} - ${name} - ${title}`);
+
   let text;
 
-  if (currentButton === "but1") {
+  if (currentButton === "but1" || currentButton === "resumeButton") {
     text = `${name}`;
     console.log(`${id} - ${text}`);
-  } else if (currentButton === "but2") {
+  } else if (currentButton === "but2" || currentButton === "resumeButton") {
     text = `${title}`;
     console.log(`${id} - ${text}`);
   }
-  //Проверка
-  // const Utl = voicePlay.getUtterance(text);
-  // if (Utl) {
-  //   console.log("Utterance created:", Utl);
-  //   speechSynthesis.speak(Utl);
-  //   console.log("Speech synthesis started");
-
-  //   setTimeout(() => {
-  //     console.log(
-  //       "Check speaking state after speak:",
-  //       speechSynthesis.speaking
-  //     );
-  //   }, 1000);
-  // } else {
-  //   console.log("Utterance creation failed");
-  // }
 
   document.getElementById("text1").value = `${id} - ${name}`;
   document.getElementById("text2").value = `${id} - ${title}`;
   document.cookie = `id=${id}; path=/`;
+
+  // Вызов voicePlay.getUtterance для воспроизведения текста
+  const utterance = voicePlay.getUtterance(text);
+  speechSynthesis.speak(utterance);
 }
 
 export default processLines;

@@ -1,19 +1,15 @@
-import myModule from "./myModule";
+import myModule from "./myModule.js";
 
-const inputElement = document.querySelector(".form-point");
-const pintSec = document.querySelector("#gap");
+const inputElements = document.querySelectorAll(".form-point");
+const gapElement = document.querySelector("#gap");
 
 const IdDataHandler = {
   existingUseID: function (target, currentButton) {
-    const useID = inputElement.value;
-    const sec = Number(pintSec.value) * 1000;
+    const useID = inputElements[0].value;
+    // console.log("нужное id найдено", useID);
+    const sec = Number(gapElement.value) * 1000;
+    // console.log("нужное sec найдено", sec);
     myModule.words(useID, sec, currentButton);
-  },
-  pause: function () {
-    myModule.pause();
-  },
-  resume: function () {
-    myModule.resume();
   },
 };
 

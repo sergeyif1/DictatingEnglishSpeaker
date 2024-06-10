@@ -16,99 +16,74 @@
         <form action="#" method="GET">
             <div class="row">
                 <label>Enter Text</label>
-                <table>
-                    <tr><textarea id="text1" rows="3" cols="20" wrap="hard" readonly></textarea></tr>
-                    <tr><textarea id="text2" rows="4" cols="20" wrap="hard" readonly></textarea></tr>
-                    <tr>
-                        <td><button class="resume" id="resumeButton">RESUME</button></td>
-                    </tr>
-                    <tr>
-                        <td><button class="pause" id="but5">PAUSE</button></td>
-                    </tr>
-                </table>
+                <textarea id="text1" rows="3" cols="20" wrap="hard" readonly></textarea>
+                <textarea id="text2" rows="4" cols="20" wrap="hard" readonly></textarea>
+                <div>
+                    <button class="resume" id="resumeButton">RESUME</button>
+                    <button class="pause" id="but5">PAUSE</button>
+                </div>
             </div>
             <div class="timer">
                 <svg class="progress-ring" width="120" height="120">
                     <circle class="progress-ring__circle" stroke="grey" stroke-width="4" fill="transparent" r="54"
                         cx="60" cy="60" />
                     <circle class="progress-ring__dot" fill="white" r="5" cx="60" cy="6" />
-                    <!-- Новый элемент для точки -->
                 </svg>
                 <div id="countdown">00:00</div>
             </div>
             <div class="button">
-                <div>
-                    <div class="button">
-                        <tr>
-                            <td><button id="but1" class="play">Eng / PLAY</button></td>
-                        </tr>
-                        <tr>
-                            <td><button id="but2" class="play">Rus / PLAY</button></td>
-                        </tr>
-                    </div><br>
-                    <div class="row">
-                        <label>Select Voice</label>
-                        <div class="outer">
-                            <select id="voiceSelect">
-                                <option value="default" selected>Select a voice</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <label>Constituents parts of speech</label>
-                        <div class="outer">
-                            <select id="select2">
-                                <option id="elem">English dictionary</option>
-                            </select>
-                        </div><br>
-                    </div>
-                    <div class="select-point">
-                        <label for="point">Select point of start</label><br>
-                        <div>
-                            <div class="point" style="display: flex; justify-content: space-between; font-size: 14px;">
-                                <input class="checkbox" type="checkbox" name="option1" value="value1" checked>
-                                free select
-                                <input class="form-point" value="1" style="width: 45%;  font-size: 14px;" />
-                            </div>
-                        </div>
-                        <div>
-                            <div class="point" style="display: flex; justify-content: space-between; font-size: 14px;">
-                                <input class="checkbox" type="checkbox" name="option2" value="value2">
-                                place where you run out of...........
-                            </div>
-                        </div>
-                        <div>
-                            <div class="point" style="display: flex; justify-content: space-between; font-size: 14px;">
-                                <input class="checkbox" type="checkbox" name="option3" value="value3">
-                                ......Nwords count
-                                <input class="form-point" value="1" style="width: 45%;  font-size: 14px;" />
-                            </div>
-                        </div>
-                        <br>
-                    </div>
-                    <div class="form-properties">
-                        <div class="speed">
-                            <label for="speed">Rate</label><br>
-                            <label for="speed">(0.5-1.5)</label><br>
-                            <label for="speed"></label><br>
-                            <input id="speed" value="1" style="width: 95%; font-size: 14px;" />
-                        </div>
-                        <div class="sec">
-                            <label for="speed">Set gap</label><br>
-                            <label for="speed">(sec)</label><br>
-                            <label for="speed"></label><br>
-                            <input id="gap" value="4" style="width: 95%;  font-size: 14px;" />
-                        </div>
-                        <div class="form-pitch">
-                            <label for="pitch">Voice</label><br>
-                            <label for="pitch">of pitch</label><br>
-                            <label for="speed">(0.5-1.5)</label><br>
-                            <input id="pitch" value="1" style="width: 95%;  font-size: 14px;" />
-                        </div>
-                    </div>
+                <button id="but1" class="play">Eng / PLAY</button>
+                <button id="but2" class="play">Rus / PLAY</button>
+            </div>
+            <div class="row">
+                <label>Select Voice</label>
+                <div class="outer">
+                    <select id="voiceSelect">
+                        <option value="default" selected>Select a voice</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <label>Constituents parts of speech</label>
+                <div class="outer">
+                    <select id="select2">
+                        <option id="elem">English dictionary</option>
+                    </select>
+                </div>
+            </div>
+            <div class="select-point">
+                <label for="point">Select point of start</label>
+                <div class="point" style="display: flex; justify-content: space-between; font-size: 14px;">
+                    <input class="checkbox" type="checkbox" name="option1" value="value1" checked>
+                    free select
+                    <input class="form-point" value="1" style="width: 45%;  font-size: 14px;" />
+                </div>
+                <div class="point" style="display: flex; justify-content: space-between; font-size: 14px;">
+                    <input class="checkbox" type="checkbox" name="option2" value="value2">
+                    place where you run out of...........
+                </div>
+                <div class="point" style="display: flex; justify-content: space-between; font-size: 14px;">
+                    <input class="checkbox" type="checkbox" name="option3" value="value3">
+                    ......Nwords count
+                    <input class="form-point" value="1" style="width: 45%;  font-size: 14px;" />
+                </div>
+            </div>
+            <div class="form-properties">
+                <div class="speed">
+                    <label for="speed">Rate (0.5-1.5)</label>
+                    <input id="speed" value="1" style="width: 95%; font-size: 14px;" />
+                </div>
+                <div class="sec">
+                    <label for="gap">Set gap (sec)</label>
+                    <input id="gap" value="4" style="width: 95%;  font-size: 14px;" />
+                </div>
+                <div class="form-pitch">
+                    <label for="pitch">Voice of pitch (0.5-1.5)</label>
+                    <input id="pitch" value="1" style="width: 95%;  font-size: 14px;" />
+                </div>
+            </div>
         </form>
     </div>
-
     <script src="./js/bundle.js"></script>
 </body>
 

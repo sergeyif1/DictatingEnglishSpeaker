@@ -1,13 +1,16 @@
 const controlCheckBox = () => {
+  // Обработка изменения состояния чекбоксов
   document.querySelectorAll(".checkbox").forEach((checkbox) => {
     checkbox.addEventListener("change", function () {
       if (this.checked) {
+        // Если текущий чекбокс выбран, отключаем остальные чекбоксы
         document.querySelectorAll(".checkbox").forEach((box) => {
           if (box !== this) {
             box.disabled = true;
           }
         });
       } else {
+        // Если текущий чекбокс не выбран, включаем все чекбоксы
         document.querySelectorAll(".checkbox").forEach((box) => {
           box.disabled = false;
         });
@@ -15,10 +18,11 @@ const controlCheckBox = () => {
     });
   });
 
-  // Блокировка остальных чекбоксов при загрузке страницы, если первый чекбокс выбран
+  // Проверка состояния чекбоксов при загрузке страницы
   window.addEventListener("load", function () {
     const firstCheckbox = document.querySelector('.checkbox[name="option1"]');
-    if (firstCheckbox.checked) {
+    if (firstCheckbox && firstCheckbox.checked) {
+      // Если первый чекбокс выбран, отключаем остальные чекбоксы
       document.querySelectorAll(".checkbox").forEach((box) => {
         if (box !== firstCheckbox) {
           box.disabled = true;
@@ -29,19 +33,3 @@ const controlCheckBox = () => {
 };
 
 export default controlCheckBox;
-
-// document.querySelectorAll(".checkbox").forEach((checkbox) => {
-//   checkbox.addEventListener("change", function () {
-//     if (this.checked) {
-//       document.querySelectorAll(".checkbox").forEach((box) => {
-//         if (!this) {
-//           box.disablet = true;
-//         }
-//       });
-//     } else {
-//       document.querySelectorAll(".checkbox").forEach((box) => {
-//         box.disablet = false;
-//       });
-//     }
-//   });
-// });

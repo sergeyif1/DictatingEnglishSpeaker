@@ -1,6 +1,6 @@
-import buttonsClickHandler from "./modules/buttonsClickHandler";
-import { voices } from "./modules/getUtterance";
-import controlCheckBox from "./modules/controlCheckBox";
+import buttonsClickHandler from "./modules/buttonsClickHandler.js";
+import { voices } from "./modules/getUtterance.js";
+import controlCheckBox from "./modules/controlCheckBox.js";
 
 document.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
