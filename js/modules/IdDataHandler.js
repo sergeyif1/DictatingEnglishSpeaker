@@ -4,12 +4,13 @@ const inputElements = document.querySelectorAll(".form-point");
 const gapElement = document.querySelector("#gap");
 
 const IdDataHandler = {
-  existingUseID: function (target, currentButton) {
+  existingUseID: function () {
     const useID = inputElements[0].value;
-    // console.log("нужное id найдено", useID);
     const sec = Number(gapElement.value) * 1000;
+    myModule.words(useID, sec);
+
+    // console.log("нужное id найдено", useID);
     // console.log("нужное sec найдено", sec);
-    myModule.words(useID, sec, currentButton);
   },
 };
 

@@ -1,19 +1,13 @@
-import IdDataHandler from "./IdDataHandler.js";
 import myModule from "./myModule.js";
 
-let currentButton;
+let currentButton2;
 
-const buttonsClickHandler = {
-  handleClick: function (event) {
+const buttonsClickHandlerPauseResume = {
+  handleClick2: function (event) {
     const target = event.target;
-    currentButton = target.id;
+    currentButton2 = target.id;
 
     switch (target.className) {
-      case "play":
-        speechSynthesis.cancel();
-        IdDataHandler.existingUseID(target, currentButton);
-        console.log("Play button clicked");
-        break;
       case "pause":
         console.log("Pause button clicked");
         speechSynthesis.pause();
@@ -31,5 +25,5 @@ const buttonsClickHandler = {
   },
 };
 
-export { currentButton };
-export default buttonsClickHandler;
+export { currentButton2 };
+export default buttonsClickHandlerPauseResume;

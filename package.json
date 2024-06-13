@@ -1,6 +1,6 @@
 {
   "name": "dictatingenglishspeaker.loc",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "<h1 align=\"center\">Hi there, I'm Sergey! \r <img src=\"https://github.com/blackcater/blackcater/raw/main/images/Hi.gif\" height=\"32\"/></h1>\r <h3 align=\"center\">Thise is application for the my portfolio</h3>",
   "main": "script.js",
   "dependencies": {

@@ -1,19 +1,28 @@
-import { currentButton } from "./buttonsClickHandler.js";
+import { getCurrentButton1 } from "./buttonsClickHandlerPlay.js";
+import { currentButton2 } from "./buttonsClickHandlerPauseResume.js";
 import voicePlay from "./getUtterance.js";
 
+let text;
+
 async function processLines(dataChunk) {
-  console.log(`${currentButton}`);
+  const currentButton1 = getCurrentButton1();
+  console.log(`11111 ${currentButton1} ${currentButton2}`);
 
   const parsedData = JSON.parse(dataChunk);
   const { id, name, title } = parsedData;
-  console.log(`${id} - ${name} - ${title}`);
 
-  let text;
-
-  if (currentButton === "but1" || currentButton === "resumeButton") {
+  if (
+    currentButton1 === "but1" ||
+    (currentButton1 === "but1" && currentButton2 === "resumeButton")
+  ) {
     text = `${name}`;
     console.log(`${id} - ${text}`);
-  } else if (currentButton === "but2" || currentButton === "resumeButton") {
+  }
+
+  if (
+    currentButton1 === "but2" ||
+    (currentButton1 === "but2" && currentButton2 === "resumeButton")
+  ) {
     text = `${title}`;
     console.log(`${id} - ${text}`);
   }

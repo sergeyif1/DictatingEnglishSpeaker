@@ -1,4 +1,5 @@
-import buttonsClickHandler from "./modules/buttonsClickHandler.js";
+import buttonsClickHandlerPlay from "./modules/buttonsClickHandlerPlay.js";
+import buttonsClickHandlerPauseResume from "./modules/buttonsClickHandlerPauseResume.js";
 import { voices } from "./modules/getUtterance.js";
 import controlCheckBox from "./modules/controlCheckBox.js";
 
@@ -10,21 +11,21 @@ document.addEventListener("keydown", function (event) {
 
 const but1 = document.getElementById("but1");
 const but2 = document.getElementById("but2");
+const but5 = document.getElementById("but5");
+const resumeButton = document.getElementById("resumeButton");
 
 but1.addEventListener("click", (event) => {
-  buttonsClickHandler.handleClick(event);
+  buttonsClickHandlerPlay.handleClick1(event);
 });
-
 but2.addEventListener("click", (event) => {
-  buttonsClickHandler.handleClick(event);
+  buttonsClickHandlerPlay.handleClick1(event);
 });
 
-document.getElementById("but5").addEventListener("click", (event) => {
-  buttonsClickHandler.handleClick(event);
+but5.addEventListener("click", (event) => {
+  buttonsClickHandlerPauseResume.handleClick2(event);
 });
-
-document.getElementById("resumeButton").addEventListener("click", (event) => {
-  buttonsClickHandler.handleClick(event);
+resumeButton.addEventListener("click", (event) => {
+  buttonsClickHandlerPauseResume.handleClick2(event);
 });
 
 voices();
