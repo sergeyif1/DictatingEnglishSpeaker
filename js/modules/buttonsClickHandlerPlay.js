@@ -1,4 +1,6 @@
-import IdDataHandler from "./IdDataHandler.js";
+import { activCheckBox } from "./IdDataControl";
+import myModule from "./myModule.js";
+import countNwords from "./countNwords.js";
 
 let currentButton1;
 
@@ -9,12 +11,12 @@ const buttonsClickHandlerPlay = {
 
     switch (target.className) {
       case "play":
-        speechSynthesis.cancel();
-        IdDataHandler.existingUseID();
         console.log("Play button clicked");
-
-        console.log(currentButton1);
-
+        speechSynthesis.cancel();
+        activCheckBox();
+        countNwords.nWord();
+        myModule.words();
+        // console.log(currentButton1);
         break;
       default:
         console.log(`Unhandled class: ${target.className}`);

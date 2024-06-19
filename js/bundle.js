@@ -2,31 +2,54 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./js/modules/IdDataHandler.js":
+/***/ "./js/modules/IdDataControl.js":
 /*!*************************************!*\
-  !*** ./js/modules/IdDataHandler.js ***!
+  !*** ./js/modules/IdDataControl.js ***!
   \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   activCheckBox: () => (/* binding */ activCheckBox),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   getIdFrom: () => (/* binding */ getIdFrom)
 /* harmony export */ });
-/* harmony import */ var _myModule_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./myModule.js */ "./js/modules/myModule.js");
+/* harmony import */ var _myModule__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./myModule */ "./js/modules/myModule.js");
 
 var inputElements = document.querySelectorAll(".form-point");
-var gapElement = document.querySelector("#gap");
-var IdDataHandler = {
-  existingUseID: function existingUseID() {
-    var useID = inputElements[0].value;
-    var sec = Number(gapElement.value) * 1000;
-    _myModule_js__WEBPACK_IMPORTED_MODULE_0__["default"].words(useID, sec);
-
-    // console.log("нужное id найдено", useID);
-    // console.log("нужное sec найдено", sec);
+var idFrom;
+function activCheckBox() {
+  var option1Checked = document.querySelector('input[name="option1"]').checked;
+  var option2Checked = document.querySelector('input[name="option2"]').checked;
+  if (option1Checked) {
+    idFrom = inputElements[0].value;
+    // console.log(`Проверка чекбоксов 1: ${idFrom}`);
+  } else if (option2Checked) {
+    var cookieId = document.cookie.split("; ").find(function (row) {
+      return row.startsWith("id=");
+    });
+    if (cookieId) {
+      idFrom = cookieId.split("=")[1];
+      console.log("\u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u0447\u0435\u043A\u0431\u043E\u043A\u0441\u043E\u0432 2: ".concat(idFrom));
+    } else {
+      console.log("id в cookie не найден.");
+    }
+  } else {
+    console.log("Чекбоксы не выделены. Отметьте нужное действие!");
   }
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IdDataHandler);
+  if (idFrom) {
+    _myModule__WEBPACK_IMPORTED_MODULE_0__["default"].setID(idFrom);
+  }
+}
+
+// Экспортируем переменную через функцию, чтобы её значение было актуальным
+function getIdFrom() {
+  return idFrom;
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  activCheckBox: activCheckBox,
+  getIdFrom: getIdFrom
+});
 
 /***/ }),
 
@@ -57,7 +80,6 @@ var buttonsClickHandlerPauseResume = {
       case "resume":
         console.log("Resume button clicked");
         speechSynthesis.resume();
-        console.log("Speech synthesis resumed");
         _myModule_js__WEBPACK_IMPORTED_MODULE_0__["default"].resume();
         break;
       default:
@@ -81,7 +103,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
 /* harmony export */   getCurrentButton1: () => (/* binding */ getCurrentButton1)
 /* harmony export */ });
-/* harmony import */ var _IdDataHandler_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./IdDataHandler.js */ "./js/modules/IdDataHandler.js");
+/* harmony import */ var _IdDataControl__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./IdDataControl */ "./js/modules/IdDataControl.js");
+/* harmony import */ var _myModule_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./myModule.js */ "./js/modules/myModule.js");
+/* harmony import */ var _countNwords_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./countNwords.js */ "./js/modules/countNwords.js");
+
+
 
 var currentButton1;
 var buttonsClickHandlerPlay = {
@@ -90,10 +116,12 @@ var buttonsClickHandlerPlay = {
     currentButton1 = target.id;
     switch (target.className) {
       case "play":
-        speechSynthesis.cancel();
-        _IdDataHandler_js__WEBPACK_IMPORTED_MODULE_0__["default"].existingUseID();
         console.log("Play button clicked");
-        console.log(currentButton1);
+        speechSynthesis.cancel();
+        (0,_IdDataControl__WEBPACK_IMPORTED_MODULE_0__.activCheckBox)();
+        _countNwords_js__WEBPACK_IMPORTED_MODULE_2__["default"].nWord();
+        _myModule_js__WEBPACK_IMPORTED_MODULE_1__["default"].words();
+        // console.log(currentButton1);
         break;
       default:
         console.log("Unhandled class: ".concat(target.className));
@@ -153,6 +181,34 @@ var controlCheckBox = function controlCheckBox() {
   });
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (controlCheckBox);
+
+/***/ }),
+
+/***/ "./js/modules/countNwords.js":
+/*!***********************************!*\
+  !*** ./js/modules/countNwords.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _myModule__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./myModule */ "./js/modules/myModule.js");
+
+var countNwords = {
+  nWord: function nWord() {
+    var countNWordVolue = document.querySelector(".form-pointN").value;
+    var optionCheckedNWord = document.querySelector('input[name="option3"]').checked;
+    if (!optionCheckedNWord && !countNWordVolue) {
+      alert("Отметьте пожалуйста чекбокс, и поставьте нужное колличество слов!");
+    }
+
+    // console.log(`Проверка чек бокс 3 ${countNWordVolue}`);
+    _myModule__WEBPACK_IMPORTED_MODULE_0__["default"].useCountNWord(countNWordVolue);
+  }
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (countNwords);
 
 /***/ }),
 
@@ -278,78 +334,88 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
 var isPaused = false;
 var currentID = null;
+var count_n_Word = null;
 var myModule = {
+  useCountNWord: function useCountNWord(n_Word) {
+    count_n_Word = n_Word;
+  },
+  setID: function setID(newID) {
+    currentID = newID;
+  },
   words: function () {
-    var _words = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2(startID, sec) {
-      var currentID, filePath, foundObjects, readNextString, response, stream, reader, decoder, result, done, _yield$reader$read, value, streamDone, jsonData;
+    var _words = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2() {
+      var sec, filePath, foundObjects, readNextString, response, stream, reader, decoder, result, done, _yield$reader$read, value, streamDone, jsonData, processedCount;
       return _regeneratorRuntime().wrap(function _callee2$(_context2) {
         while (1) switch (_context2.prev = _context2.next) {
           case 0:
-            currentID = startID; // 1. Указываем путь к файлу
+            sec = Number(document.querySelector("#gap").value) * 1000;
             filePath = "../db.json";
             foundObjects = [];
             _context2.prev = 3;
-            // 7.Функция для чтения следующей строки с задержкой
             readNextString = /*#__PURE__*/function () {
               var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
                 var searchString, startIndex, startBracketIndex, endBracketIndex, dataChunk, foundObject, initialSeconds;
                 return _regeneratorRuntime().wrap(function _callee$(_context) {
                   while (1) switch (_context.prev = _context.next) {
                     case 0:
-                      // Начинаем читать поток с указанного ID
+                      if (!(count_n_Word !== null && processedCount >= count_n_Word)) {
+                        _context.next = 3;
+                        break;
+                      }
+                      console.log("\u041E\u0431\u0440\u0430\u0431\u043E\u0442\u0430\u043D\u043E ".concat(processedCount, " \u0441\u0442\u0440\u043E\u043A. \u0417\u0430\u0432\u0435\u0440\u0448\u0435\u043D\u0438\u0435."));
+                      return _context.abrupt("return");
+                    case 3:
                       searchString = "\"id\": \"".concat(currentID, "\"");
                       startIndex = result.indexOf(searchString);
                       if (!(startIndex !== -1)) {
-                        _context.next = 28;
+                        _context.next = 32;
                         break;
                       }
                       startBracketIndex = result.lastIndexOf("{", startIndex);
                       endBracketIndex = result.indexOf("}", startIndex) + 1;
                       if (!(startBracketIndex !== -1 && endBracketIndex !== -1)) {
-                        _context.next = 25;
+                        _context.next = 29;
                         break;
                       }
-                      dataChunk = result.substring(startBracketIndex, endBracketIndex); // console.log("Прочитанная строка:", dataChunk);
-                      // Добавляем объект в массив найденных объектов
+                      dataChunk = result.substring(startBracketIndex, endBracketIndex);
                       foundObject = JSON.parse(dataChunk);
                       foundObjects.push(foundObject);
                       currentID++;
-                      _context.next = 12;
+                      processedCount++;
+                      _context.next = 16;
                       return new Promise(function (resolve) {
                         return setTimeout(resolve, sec);
                       });
-                    case 12:
+                    case 16:
                       if (!isPaused) {
-                        _context.next = 17;
+                        _context.next = 21;
                         break;
                       }
-                      _context.next = 15;
+                      _context.next = 19;
                       return new Promise(function (resolve) {
                         return setTimeout(resolve, 100);
                       });
-                    case 15:
-                      _context.next = 12;
+                    case 19:
+                      _context.next = 16;
                       break;
-                    case 17:
+                    case 21:
                       initialSeconds = sec / 1000;
                       (0,_countdownTimer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(initialSeconds, initialSeconds);
-
-                      // Вызов processLines с переданными данными
                       speechSynthesis.cancel();
                       (0,_processLines_js__WEBPACK_IMPORTED_MODULE_0__["default"])(dataChunk);
-                      _context.next = 23;
+                      _context.next = 27;
                       return readNextString();
-                    case 23:
-                      _context.next = 26;
+                    case 27:
+                      _context.next = 30;
                       break;
-                    case 25:
-                      console.log("Начало или конец строки не найдены.");
-                    case 26:
-                      _context.next = 29;
-                      break;
-                    case 28:
-                      console.log("ID \"".concat(currentID, "\" \u041F\u0440\u0430\u0446\u0435\u0441\u0441 \u0437\u0430\u043A\u043E\u043D\u0447\u0435\u043D.\u0421\u043F\u0430\u0441\u0438\u0431\u043E!"));
                     case 29:
+                      console.log("Начало или конец строки не найдены.");
+                    case 30:
+                      _context.next = 33;
+                      break;
+                    case 32:
+                      console.log("ID \"".concat(currentID, "\" \u041F\u0440\u0430\u0446\u0435\u0441\u0441 \u0437\u0430\u043A\u043E\u043D\u0447\u0435\u043D.\u0421\u043F\u0430\u0441\u0438\u0431\u043E!"));
+                    case 33:
                     case "end":
                       return _context.stop();
                   }
@@ -369,9 +435,8 @@ var myModule = {
             }
             throw new Error("Ошибка при загрузке файла");
           case 10:
-            // 4. Получаем поток данных из тела ответа
-            stream = response.body; // 5. Создаем объект ReadableStreamDefaultReader для чтения потока
-            reader = stream.getReader(); // 6. Распарсиваем поток
+            stream = response.body;
+            reader = stream.getReader();
             decoder = new TextDecoder();
             result = "";
             done = false;
@@ -397,37 +462,34 @@ var myModule = {
           case 25:
             jsonData = JSON.parse(result);
             console.log("Данные распарсены", jsonData);
-            _context2.next = 29;
+            processedCount = 0;
+            _context2.next = 30;
             return readNextString();
-          case 29:
-            _context2.next = 34;
+          case 30:
+            _context2.next = 35;
             break;
-          case 31:
-            _context2.prev = 31;
+          case 32:
+            _context2.prev = 32;
             _context2.t0 = _context2["catch"](3);
             console.error("Ошибка:", _context2.t0);
-          case 34:
+          case 35:
           case "end":
             return _context2.stop();
         }
-      }, _callee2, null, [[3, 31]]);
+      }, _callee2, null, [[3, 32]]);
     }));
-    function words(_x, _x2) {
+    function words() {
       return _words.apply(this, arguments);
     }
     return words;
   }(),
   pause: function pause() {
     isPaused = true;
-    // console.log(`Paused ${isPaused}`);
   },
   resume: function resume() {
-    // console.log(`Paused ${isPaused}`);
     if (isPaused) {
       isPaused = false;
-      if (currentID !== null) {
-        myModule.readNextString();
-      }
+      myModule.readNextString();
     } else {
       console.log("Speech synthesis is not paused, cannot resume");
     }
@@ -467,8 +529,7 @@ function _processLines() {
     return _regeneratorRuntime().wrap(function _callee$(_context) {
       while (1) switch (_context.prev = _context.next) {
         case 0:
-          currentButton1 = (0,_buttonsClickHandlerPlay_js__WEBPACK_IMPORTED_MODULE_0__.getCurrentButton1)();
-          console.log("11111 ".concat(currentButton1, " ").concat(_buttonsClickHandlerPauseResume_js__WEBPACK_IMPORTED_MODULE_1__.currentButton2));
+          currentButton1 = (0,_buttonsClickHandlerPlay_js__WEBPACK_IMPORTED_MODULE_0__.getCurrentButton1)(); // console.log(`11111 ${currentButton1} ${currentButton2}`);
           parsedData = JSON.parse(dataChunk);
           id = parsedData.id, name = parsedData.name, title = parsedData.title;
           if (currentButton1 === "but1" || currentButton1 === "but1" && _buttonsClickHandlerPauseResume_js__WEBPACK_IMPORTED_MODULE_1__.currentButton2 === "resumeButton") {
@@ -486,7 +547,7 @@ function _processLines() {
           // Вызов voicePlay.getUtterance для воспроизведения текста
           utterance = _getUtterance_js__WEBPACK_IMPORTED_MODULE_2__["default"].getUtterance(text);
           speechSynthesis.speak(utterance);
-        case 11:
+        case 10:
         case "end":
           return _context.stop();
       }
@@ -561,10 +622,10 @@ var __webpack_exports__ = {};
   !*** ./js/script.js ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _modules_buttonsClickHandlerPlay_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/buttonsClickHandlerPlay.js */ "./js/modules/buttonsClickHandlerPlay.js");
-/* harmony import */ var _modules_buttonsClickHandlerPauseResume_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/buttonsClickHandlerPauseResume.js */ "./js/modules/buttonsClickHandlerPauseResume.js");
-/* harmony import */ var _modules_getUtterance_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/getUtterance.js */ "./js/modules/getUtterance.js");
-/* harmony import */ var _modules_controlCheckBox_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/controlCheckBox.js */ "./js/modules/controlCheckBox.js");
+/* harmony import */ var _modules_controlCheckBox_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/controlCheckBox.js */ "./js/modules/controlCheckBox.js");
+/* harmony import */ var _modules_buttonsClickHandlerPlay_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/buttonsClickHandlerPlay.js */ "./js/modules/buttonsClickHandlerPlay.js");
+/* harmony import */ var _modules_buttonsClickHandlerPauseResume_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/buttonsClickHandlerPauseResume.js */ "./js/modules/buttonsClickHandlerPauseResume.js");
+/* harmony import */ var _modules_getUtterance_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/getUtterance.js */ "./js/modules/getUtterance.js");
 
 
 
@@ -574,24 +635,24 @@ document.addEventListener("keydown", function (event) {
     event.preventDefault();
   }
 });
+(0,_modules_getUtterance_js__WEBPACK_IMPORTED_MODULE_3__.voices)();
 var but1 = document.getElementById("but1");
 var but2 = document.getElementById("but2");
 var but5 = document.getElementById("but5");
 var resumeButton = document.getElementById("resumeButton");
 but1.addEventListener("click", function (event) {
-  _modules_buttonsClickHandlerPlay_js__WEBPACK_IMPORTED_MODULE_0__["default"].handleClick1(event);
+  _modules_buttonsClickHandlerPlay_js__WEBPACK_IMPORTED_MODULE_1__["default"].handleClick1(event);
 });
 but2.addEventListener("click", function (event) {
-  _modules_buttonsClickHandlerPlay_js__WEBPACK_IMPORTED_MODULE_0__["default"].handleClick1(event);
+  _modules_buttonsClickHandlerPlay_js__WEBPACK_IMPORTED_MODULE_1__["default"].handleClick1(event);
 });
 but5.addEventListener("click", function (event) {
-  _modules_buttonsClickHandlerPauseResume_js__WEBPACK_IMPORTED_MODULE_1__["default"].handleClick2(event);
+  _modules_buttonsClickHandlerPauseResume_js__WEBPACK_IMPORTED_MODULE_2__["default"].handleClick2(event);
 });
 resumeButton.addEventListener("click", function (event) {
-  _modules_buttonsClickHandlerPauseResume_js__WEBPACK_IMPORTED_MODULE_1__["default"].handleClick2(event);
+  _modules_buttonsClickHandlerPauseResume_js__WEBPACK_IMPORTED_MODULE_2__["default"].handleClick2(event);
 });
-(0,_modules_getUtterance_js__WEBPACK_IMPORTED_MODULE_2__.voices)();
-(0,_modules_controlCheckBox_js__WEBPACK_IMPORTED_MODULE_3__["default"])();
+(0,_modules_controlCheckBox_js__WEBPACK_IMPORTED_MODULE_0__["default"])();
 })();
 
 /******/ })()

@@ -16,7 +16,6 @@ const buttonsClickHandlerPauseResume = {
       case "resume":
         console.log("Resume button clicked");
         speechSynthesis.resume();
-        console.log("Speech synthesis resumed");
         myModule.resume();
         break;
       default:

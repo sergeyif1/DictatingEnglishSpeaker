@@ -3,30 +3,31 @@ import countdown from "./countdownTimer.js";
 
 let isPaused = false;
 let currentID = null;
+let count_n_Word = null;
 
 const myModule = {
-  words: async function (startID, sec) {
-    let currentID = startID;
-    // 1. Указываем путь к файлу
+  useCountNWord: function (n_Word) {
+    count_n_Word = n_Word;
+  },
+
+  setID: function (newID) {
+    currentID = newID;
+  },
+
+  words: async function () {
+    const sec = Number(document.querySelector("#gap").value) * 1000;
     const filePath = "../db.json";
     const foundObjects = [];
 
     try {
-      // 2. Запрос данных через fetch API
       const response = await fetch(filePath);
 
-      // 3. Обрабатываем ошибку соединени
       if (!response.ok) {
         throw new Error("Ошибка при загрузке файла");
       }
 
-      // 4. Получаем поток данных из тела ответа
       const stream = response.body;
-
-      // 5. Создаем объект ReadableStreamDefaultReader для чтения потока
       const reader = stream.getReader();
-
-      // 6. Распарсиваем поток
       const decoder = new TextDecoder();
       let result = "";
       let done = false;
@@ -42,9 +43,14 @@ const myModule = {
       const jsonData = JSON.parse(result);
       console.log("Данные распарсены", jsonData);
 
-      // 7.Функция для чтения следующей строки с задержкой
+      let processedCount = 0;
+
       async function readNextString() {
-        // Начинаем читать поток с указанного ID
+        if (count_n_Word !== null && processedCount >= count_n_Word) {
+          console.log(`Обработано ${processedCount} строк. Завершение.`);
+          return;
+        }
+
         const searchString = `"id": "${currentID}"`;
         const startIndex = result.indexOf(searchString);
 
@@ -56,13 +62,12 @@ const myModule = {
               startBracketIndex,
               endBracketIndex
             );
-            // console.log("Прочитанная строка:", dataChunk);
 
-            // Добавляем объект в массив найденных объектов
             const foundObject = JSON.parse(dataChunk);
             foundObjects.push(foundObject);
 
             currentID++;
+            processedCount++;
 
             await new Promise((resolve) => setTimeout(resolve, sec));
 
@@ -73,7 +78,6 @@ const myModule = {
             const initialSeconds = sec / 1000;
             countdown(initialSeconds, initialSeconds);
 
-            // Вызов processLines с переданными данными
             speechSynthesis.cancel();
             processLines(dataChunk);
 
@@ -91,17 +95,15 @@ const myModule = {
       console.error("Ошибка:", error);
     }
   },
+
   pause: function () {
     isPaused = true;
-    // console.log(`Paused ${isPaused}`);
   },
+
   resume: function () {
-    // console.log(`Paused ${isPaused}`);
     if (isPaused) {
       isPaused = false;
-      if (currentID !== null) {
-        myModule.readNextString();
-      }
+      myModule.readNextString();
     } else {
       console.log("Speech synthesis is not paused, cannot resume");
     }

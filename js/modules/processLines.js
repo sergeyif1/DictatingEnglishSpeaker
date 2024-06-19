@@ -6,7 +6,7 @@ let text;
 
 async function processLines(dataChunk) {
   const currentButton1 = getCurrentButton1();
-  console.log(`11111 ${currentButton1} ${currentButton2}`);
+  // console.log(`11111 ${currentButton1} ${currentButton2}`);
 
   const parsedData = JSON.parse(dataChunk);
   const { id, name, title } = parsedData;
