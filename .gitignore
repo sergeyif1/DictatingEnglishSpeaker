@@ -1,7 +1,9 @@
 # dependencies
 /node_modules
+/pic
 /dist
 /.parcel-cache
+
 
 
 # testing

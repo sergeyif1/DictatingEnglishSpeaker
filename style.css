@@ -9,22 +9,39 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  background: rgb(82, 86, 173, 0.5) no-repeat 30px 20px;
-  /* color: #fff; Цвет текста */
-}
-
-::selection {
-  color: rgb(255, 255, 255);
-  background: #5256ad;
+  min-height: 80vh;
+  margin: 20px;
+  background: url('./pic/1669978424_55-kartinkin-net-p-fon-dlya-prezentatsii-mramor-oboi-56.jpg');
 }
 
 .wrapper {
-  width: 280px;
+  min-width: 80%;
   padding: 12px 15px;
   border-radius: 7px;
-  background: #fff;
+  background: url('./pic/1625892405_30-kartinkin-com-p-travertin-tekstura-besshovnaya-krasivo-32.jpg');
+  /* background-color: rgb(131, 128, 87); */
   box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+}
+
+form .row label,
+form .container-point-properties label,
+form .sec label,
+form .speed label,
+form .select-point label,
+form .form-pitch label,
+.select-point label,
+.form-properties label {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(40, 25, 4);
+}
+
+/*--------------------------------------------------------------------------------*/
+
+.wrapper form {
+  margin: 35px 0 20px;
 }
 
 .wrapper header {
@@ -33,90 +50,162 @@ body {
   text-align: center;
 }
 
-.wrapper form {
-  margin: 35px 0 20px;
+.textareas,
+.button,
+.flex-container,
+.container-point-properties,
+.select-point,
+.form-properties,
+.block-button-1 {
+  display: flex;
+  margin: 5px 0;
+  gap: 5px;
 }
 
-form .row {
-  display: flex;
-  margin: 4px;
+form .row textarea {
+  resize: none;
+  width: 100%;
+  background-color: rgb(157, 150, 46);
+  background-size: cover;
+  background-position: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 8px 10px;
+  border: 2px solid #f3eeee;
+  text-align: center;
+}
+
+form button {
+  width: 49%;
+  height: 42px;
+  color: rgb(40, 25, 4);
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: rgb(186, 183, 181);
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s ease;
+  border: 2px solid #f3eeee;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+/* Контейнер для текстовых областей */
+.textareas {
+  flex-direction: row;
+}
+
+/* Контейнер для  кнопок "PAUSE" "RESUME" */
+.block-button-1 {
+  flex-direction: row;
+}
+
+/* Контейнер для Контейнер выбор языка и Выбор словаря*/
+.flex-container {
+  justify-content: space-between;
+}
+
+/* Расположение элементов внутри select-point */
+.select-point {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Расположение элементов внутри form-properties */
+.form-properties {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-item {
+  flex: 1;
+  /* Элементы занимают равное пространство */
+  max-width: 200px;
+  /* Минимальная ширина для каждого элемента */
+  justify-content: center;
+}
+
+/* Основной контейнер для блоков - point  - properties*/
+.container-point-properties {
   flex-direction: column;
 }
 
-body .timer {
-    position: absolute;
-    top: 185px;
-    left: 50%;
-    background-color: rgba(255, 255, 255, 0.1); /* semi-transparent background */
-    transform: translate(-50%, -50%);
-    font-size: 24px;
-    color: white;
+/* Стили для блоков -point, -properties*/
+.select-point,
+.form-properties {
+  flex: 1;
+  max-width: 100%;
+  /* Минимальная ширина блоков */
+  box-sizing: border-box;
+  padding: 2px;
 }
 
-.progress-ring__circle {
-  transition: stroke-dashoffset 0.35s;
-  transform: rotate(-90deg);
-  transform-origin: 50% 50%;
-  stroke: rgb(82, 86, 173, 0.3);
+.select-point>div {
+  flex: 1;
+  max-width: 33%;
+  box-sizing: border-box;
+  padding: 2px;
 }
 
-.progress-ring__dot {
-  transition: cx 0.45s, cy 0.45s;
-   stroke: rgb(82, 86, 173, 0.3);
+.form-properties .speed,
+.sec,
+.form-pitch {
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-body #countdown {
-    position: absolute;
-    top: 52px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 24px;
-    color: rgb(82, 86, 173, 0.3);
-    text-align: center;
-    font-weight: bold;
+.form-properties>div {
+  flex: 1;
+  max-width: 33%;
+  box-sizing: border-box;
+  padding: 2px;
 }
 
-form .row label {
+.form-properties input {
+  max-width: 45%;
+  margin-bottom: 2px;
+  background: rgb(186, 183, 181);
+  color: rgb(40, 25, 4);
+}
+
+.form-point,
+.form-pointN {
+  background: rgb(186, 183, 181);
+  color: rgb(40, 25, 4);
+}
+
+
+/* Контейнер для кнопок  "PAUSE" "RESUME" */
+form .row .button {
+  flex-direction: row;
   font-size: 14px;
   font-weight: bold;
-  margin-bottom: 2px;
+  width: calc(100 / 2);
 }
 
-form .button label {
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 2px;
+select option {
+  max-width: 100%;
 }
 
-form .sec label {
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 2px;
+form .row button {
+  width: 100%;
+  height: 42px;
+  margin-top: 0px;
 }
 
-form .speed label {
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 2px;
+form button:hover {
+  background: rgb(280, 199, 155);
 }
 
-form .select-point label {
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 2px;
+select {
+  background: rgb(186, 183, 181);
+  color: rgba(40, 25, 4);
 }
 
-form .form-pitch label {
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 2px;
-}
-
-form .row:nth-child(2) label {
-  font-size: 14px;
-}
-
-form :where(select, button) {
+form :where(select) {
   outline: none;
   width: 100%;
   height: 100%;
@@ -124,86 +213,175 @@ form :where(select, button) {
   border-radius: 5px;
 }
 
-form .row textarea {
-  resize: none;
-  height: 100%;
-  width: 100%;
-  font-size: 25px;
+.point .checkbox::before {
+  content: url('./pic/9135402.png');
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
+
+.point .checkboxN::before {
+  content: url('./pic/9135402.png');
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
+
+.checkbox:checked::before {
+  content: url('./pic/9135401.png');
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
+
+.checkboxN:checked::before {
+  content: url('./pic/9135401.png');
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+body .timer {
+  position: absolute;
+  top: 205px;
+  left: 50%;
+  background-color: rgba(186, 183, 181, 0);
+  /* semi-transparent background */
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: rgb(255, 230, 250);
+}
+
+.progress-ring__circle {
+  transition: stroke-dashoffset 0.35s;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  stroke: rgba(82, 86, 173, 0.3);
+}
+
+.progress-ring__dot {
+  transition: cx 0.45s, cy 0.45s;
+  stroke: rgb(82, 86, 173, 0.3);
+}
+
+body #countdown {
+  position: absolute;
+  top: 72px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: rgb(82, 86, 173, 0.5);
+  text-align: center;
   font-weight: bold;
-  padding: 8px 10px;
-  border: 1px solid #999;
-  text-align: center;
 }
 
-form .row input {
-  width: 25px;
-  margin-top: 20px;
-  text-align: center;
-}
+/*--------------------------------------------------------------------------------*/
 
-form .row textarea::-webkit-scrollbar {
-  width: 0px;
-}
+@media (max-width: 620px) {
 
-form .row .outer {
-  height: 25px;
-  display: flex;
-  padding: 0 10px;
-  align-items: center;
-  border-radius: 5px;
-  justify-content: center;
-  border: 1px solid #999;
-}
+  .textareas,
+  .block-button-1,
+  .flex-container,
+  .container-point-properties,
+  .select-point {
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
-form .row select {
-  font-size: 13px;
-  background: none;
-}
+  .select-point>div {
+    max-width: 100%;
+  }
 
-form .row select::-webkit-scrollbar {
-  width: 10px;
-}
+  .form-properties {
+    flex-direction: row;
+  }
 
-form .row select::-webkit-scrollbar-track {
-  background: #fff;
-}
+  .form-properties>div {
+    flex: 1;
+    box-sizing: border-box;
+    min-width: 33%;
+  }
 
-form .row select::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 8px;
-  border-right: 2px solid #ffffff;
-}
+  .speed,
+  .sec,
+  .form-pitch {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    /* Равномерное распределение строк */
+    align-items: start;
+  }
 
-form button {
-  width: 49%;
-  height: 42px;
-  color: #fff;
-  font-size: 14px;
-  cursor: pointer;
-  margin-top: 10px;
-  background: #675afe;
-  transition: 0.3s ease;
-  border: 2px solid #f3eeee;
-}
+  .speed,
+  .sec,
+  .form-pitch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: 60px;
+  }
 
-form button:hover {
-  background: #4534fe;
-}
+  .speed>*,
+  .sec>*,
+  .form-pitch>label {
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
 
-form .row button {
-  width: 100%;
-  height: 42px;
-  margin-top: 0px;
-  /* border: 2px solid #f3eeee; */
-}
-
-.form-properties {
- display: flex;
-}
-
-@media (max-width: 400px) {
-  .wrapper {
-    max-width: 345px;
+  .flex-item {
+    max-width: none;
     width: 100%;
+    margin-bottom: 5px;
+
+  }
+
+  select {
+    width: 100%;
+    /* Меняем ширину на 100% при уменьшении экрана */
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  option {
+    padding: 10px;
+    /* Дополнительные стили для опций при уменьшении экрана */
+    font-size: 16px;
   }
 }
+
+/* .form-properties>div {
+    min-width: 100%;
+  } */
+
+/* Горизонтальное расположение (Контейнер для текстовых областей)
+  .textareas {
+    flex-direction: column;
+  }*/
+
+/* Горизонтальное расположение (Контейнер для кнопок "PAUSE" "RESUME")
+.block-button-1 {
+  flex-direction: column;
+} */
+
+/* Горизонтальное расположение (Контейнер выбор языка и Выбор словаря)
+.flex-container {
+  flex-direction: column;
+  /* Вертикальное расположение на маленьких экранах
+} */
+
+/* Горизонтальное расположение (Контейнеры properties)
+.container-point-properties {
+  flex-direction: column;
+} */
+
+/* .form-properties {
+  flex-direction: column;
+} */
+
+/* .select-point {
+  flex-direction: column;
+} */

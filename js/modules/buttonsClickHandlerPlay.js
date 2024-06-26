@@ -1,4 +1,4 @@
-import { activCheckBox } from "./IdDataControl";
+import { activCheckBox } from "./IdDataControl.js";
 import myModule from "./myModule.js";
 import countNwords from "./countNwords.js";
 

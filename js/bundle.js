@@ -14,7 +14,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
 /* harmony export */   getIdFrom: () => (/* binding */ getIdFrom)
 /* harmony export */ });
-/* harmony import */ var _myModule__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./myModule */ "./js/modules/myModule.js");
+/* harmony import */ var _myModule_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./myModule.js */ "./js/modules/myModule.js");
 
 var inputElements = document.querySelectorAll(".form-point");
 var idFrom;
@@ -38,7 +38,7 @@ function activCheckBox() {
     console.log("Чекбоксы не выделены. Отметьте нужное действие!");
   }
   if (idFrom) {
-    _myModule__WEBPACK_IMPORTED_MODULE_0__["default"].setID(idFrom);
+    _myModule_js__WEBPACK_IMPORTED_MODULE_0__["default"].setID(idFrom);
   }
 }
 
@@ -103,7 +103,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
 /* harmony export */   getCurrentButton1: () => (/* binding */ getCurrentButton1)
 /* harmony export */ });
-/* harmony import */ var _IdDataControl__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./IdDataControl */ "./js/modules/IdDataControl.js");
+/* harmony import */ var _IdDataControl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./IdDataControl.js */ "./js/modules/IdDataControl.js");
 /* harmony import */ var _myModule_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./myModule.js */ "./js/modules/myModule.js");
 /* harmony import */ var _countNwords_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./countNwords.js */ "./js/modules/countNwords.js");
 
@@ -118,7 +118,7 @@ var buttonsClickHandlerPlay = {
       case "play":
         console.log("Play button clicked");
         speechSynthesis.cancel();
-        (0,_IdDataControl__WEBPACK_IMPORTED_MODULE_0__.activCheckBox)();
+        (0,_IdDataControl_js__WEBPACK_IMPORTED_MODULE_0__.activCheckBox)();
         _countNwords_js__WEBPACK_IMPORTED_MODULE_2__["default"].nWord();
         _myModule_js__WEBPACK_IMPORTED_MODULE_1__["default"].words();
         // console.log(currentButton1);
@@ -194,7 +194,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _myModule__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./myModule */ "./js/modules/myModule.js");
+/* harmony import */ var _myModule_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./myModule.js */ "./js/modules/myModule.js");
 
 var countNwords = {
   nWord: function nWord() {
@@ -205,7 +205,7 @@ var countNwords = {
     }
 
     // console.log(`Проверка чек бокс 3 ${countNWordVolue}`);
-    _myModule__WEBPACK_IMPORTED_MODULE_0__["default"].useCountNWord(countNWordVolue);
+    _myModule_js__WEBPACK_IMPORTED_MODULE_0__["default"].useCountNWord(countNWordVolue);
   }
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (countNwords);
@@ -497,6 +497,130 @@ var myModule = {
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (myModule);
 
+// import processLines from "./processLines.js";
+// import countdown from "./countdownTimer.js";
+
+// let isPaused = false;
+// let currentID = null;
+// let count_n_Word = null;
+
+// const myModule = {
+//   useCountNWord: function (n_Word) {
+//     // console.log(
+//     //   `Проверка чекбоксов кол-ва слов: "Чек-бокс отмечен", кол. слов - ${n_Word}`
+//     // );
+//     count_n_Word = n_Word;
+//   },
+
+//   setID: function (newID) {
+//     currentID = newID;
+//   },
+
+//   words: async function () {
+//     const sec = Number(document.querySelector("#gap").value) * 1000;
+//     // console.log(`sec: ${sec}`);
+//     // 1. Указываем путь к файлу
+//     const filePath = "../db.json";
+//     const foundObjects = [];
+
+//     try {
+//       // 2. Запрос данных через fetch API
+//       const response = await fetch(filePath);
+
+//       // 3. Обрабатываем ошибку соединени
+//       if (!response.ok) {
+//         throw new Error("Ошибка при загрузке файла");
+//       }
+
+//       // 4. Получаем поток данных из тела ответа
+//       const stream = response.body;
+
+//       // 5. Создаем объект ReadableStreamDefaultReader для чтения потока
+//       const reader = stream.getReader();
+
+//       // 6. Распарсиваем поток
+//       const decoder = new TextDecoder();
+//       let result = "";
+//       let done = false;
+
+//       while (!done) {
+//         const { value, done: streamDone } = await reader.read();
+//         if (value) {
+//           result += decoder.decode(value, { stream: !streamDone });
+//         }
+//         done = streamDone;
+//       }
+
+//       const jsonData = JSON.parse(result);
+//       console.log("Данные распарсены", jsonData);
+
+//       // 7.Функция для чтения следующей строки с задержкой
+//       async function readNextString() {
+//         // Начинаем читать поток с указанного ID
+//         const searchString = `"id": "${currentID}"`;
+//         const startIndex = result.indexOf(searchString);
+
+//         if (startIndex !== -1) {
+//           const startBracketIndex = result.lastIndexOf("{", startIndex);
+//           const endBracketIndex = result.indexOf("}", startIndex) + 1;
+//           if (startBracketIndex !== -1 && endBracketIndex !== -1) {
+//             const dataChunk = result.substring(
+//               startBracketIndex,
+//               endBracketIndex
+//             );
+//             // console.log("Прочитанная строка:", dataChunk);
+
+//             // Добавляем объект в массив найденных объектов
+//             const foundObject = JSON.parse(dataChunk);
+//             foundObjects.push(foundObject);
+
+//             currentID++;
+
+//             await new Promise((resolve) => setTimeout(resolve, sec));
+
+//             while (isPaused) {
+//               await new Promise((resolve) => setTimeout(resolve, 100));
+//             }
+
+//             const initialSeconds = sec / 1000;
+//             countdown(initialSeconds, initialSeconds);
+
+//             // Вызов processLines с переданными данными
+//             speechSynthesis.cancel();
+//             processLines(dataChunk);
+
+//             await readNextString();
+//           } else {
+//             console.log("Начало или конец строки не найдены.");
+//           }
+//         } else {
+//           console.log(`ID "${currentID}" Працесс закончен.Спасибо!`);
+//         }
+//       }
+
+//       await readNextString();
+//     } catch (error) {
+//       console.error("Ошибка:", error);
+//     }
+//   },
+//   pause: function () {
+//     isPaused = true;
+//     // console.log(`Paused ${isPaused}`);
+//   },
+//   resume: function () {
+//     // console.log(`Paused ${isPaused}`);
+//     if (isPaused) {
+//       isPaused = false;
+
+//       myModule.readNextString();
+//     } else {
+//       console.log("Speech synthesis is not paused, cannot resume");
+//     }
+//   },
+// };
+
+// export default myModule;
+
 /***/ }),
 
 /***/ "./js/modules/processLines.js":
@@ -618,9 +742,9 @@ function _processLines() {
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-/*!**********************!*\
-  !*** ./js/script.js ***!
-  \**********************/
+/*!***********************!*\
+  !*** ./js/script.mjs ***!
+  \***********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_controlCheckBox_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/controlCheckBox.js */ "./js/modules/controlCheckBox.js");
 /* harmony import */ var _modules_buttonsClickHandlerPlay_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/buttonsClickHandlerPlay.js */ "./js/modules/buttonsClickHandlerPlay.js");
@@ -630,29 +754,35 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 document.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
     event.preventDefault();
   }
 });
+
 (0,_modules_getUtterance_js__WEBPACK_IMPORTED_MODULE_3__.voices)();
-var but1 = document.getElementById("but1");
-var but2 = document.getElementById("but2");
-var but5 = document.getElementById("but5");
-var resumeButton = document.getElementById("resumeButton");
-but1.addEventListener("click", function (event) {
+
+const but1 = document.getElementById("but1");
+const but2 = document.getElementById("but2");
+const but5 = document.getElementById("but5");
+const resumeButton = document.getElementById("resumeButton");
+
+but1.addEventListener("click", (event) => {
   _modules_buttonsClickHandlerPlay_js__WEBPACK_IMPORTED_MODULE_1__["default"].handleClick1(event);
 });
-but2.addEventListener("click", function (event) {
+but2.addEventListener("click", (event) => {
   _modules_buttonsClickHandlerPlay_js__WEBPACK_IMPORTED_MODULE_1__["default"].handleClick1(event);
 });
-but5.addEventListener("click", function (event) {
+but5.addEventListener("click", (event) => {
   _modules_buttonsClickHandlerPauseResume_js__WEBPACK_IMPORTED_MODULE_2__["default"].handleClick2(event);
 });
-resumeButton.addEventListener("click", function (event) {
+resumeButton.addEventListener("click", (event) => {
   _modules_buttonsClickHandlerPauseResume_js__WEBPACK_IMPORTED_MODULE_2__["default"].handleClick2(event);
 });
+
 (0,_modules_controlCheckBox_js__WEBPACK_IMPORTED_MODULE_0__["default"])();
+
 })();
 
 /******/ })()

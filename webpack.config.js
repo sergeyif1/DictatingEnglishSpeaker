@@ -4,7 +4,7 @@ const path = require("path");
 
 module.exports = {
   mode: "development",
-  entry: "./js/script.js",
+  entry: "./js/script.mjs",
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "js"),
