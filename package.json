@@ -1,10 +1,11 @@
 {
-  "name": "dictatingenglishspeaker.loc",
-  "version": "3.0.3",
+  "name": "dictatingenglishspeaker123.loc",
+  "version": "3.0.1",
   "description": "<h1 align=\"center\">Hi there, I'm Sergey! \r <img src=\"https://github.com/blackcater/blackcater/raw/main/images/Hi.gif\" height=\"32\"/></h1>\r <h3 align=\"center\">Thise is application for the my portfolio</h3>",
   "main": "script.js",
   "dependencies": {
     "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.4",
     "whatwg-fetch": "^3.6.20"
   },
   "devDependencies": {

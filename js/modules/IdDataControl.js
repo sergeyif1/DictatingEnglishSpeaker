@@ -1,4 +1,4 @@
-import myModule from "./myModule";
+import myModule from "./myModule.js";
 
 const inputElements = document.querySelectorAll(".form-point");
 

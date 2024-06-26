@@ -1,4 +1,4 @@
-import myModule from "./myModule";
+import myModule from "./myModule.js";
 
 const countNwords = {
   nWord: function () {
