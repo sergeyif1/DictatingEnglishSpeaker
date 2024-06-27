@@ -1,4 +1,3 @@
-#
 <h1 align="center">Привет, я Сергей!
             <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32" alt="Привет"/>
         </h1>
@@ -13,6 +12,86 @@
             <li><span class="highlight">2 режима начать</span></li>
             <li><span class="highlight">Количество слов от начальной точки</span></li>
         </ul>
+
+<h3 align="center">🛠 Описание проекта для портфолио</h3>
+<p>Технологии, используемые в проекте:</p>
+<ul>
+    <li>JavaScript классика</li>
+    <li>Файл .json для эмуляции базы данных</li>
+    <li>Webpack для сборки проектов</li>
+    <li>Fetch API</li>
+    <li>Web Speech API</li>
+    <li>Алгоритм Дейкстры для поиска кратчайших путей</li>
+    <li>Хэш таблицы (SHA) для организации эмулированных баз данных, обеспечивающие скорость получения данных O(1). Принципы организации телефонной книги</li>
+    <li>ReadableStreamDefaultReader для чтения потоков данных</li>
+    <li>TextDecoder() для декодирования текстовых данных</li>
+    <li>JSON.parse() для распарсивания данных в ячейке</li>
+    <li>Promise ( (resolve) => {} ) и Рекурсия - вместо setTimeout() и Цикла</li>
+</ul>
+<p>*Хотя применение рекурсии и Promise вместо setTimeout() и цикла ослабило немного систему, но были приняты меры для улучшения стабильности.</p>
+
+```JavaScript
+ try {
+      // 2. Запрос данных через fetch API
+      const response = await fetch(filePath);
+      // 3. Обрабатываем ошибку соединени
+      if (!response.ok) {
+        throw new Error("Ошибка при загрузке файла");
+      }
+
+      // 5. Создаем объект ReadableStreamDefaultReader для чтения потока
+      const stream = response.body;
+      const reader = stream.getReader();
+
+      // 6. Распарсиваем поток
+      const decoder = new TextDecoder();
+      let result = "";
+      let done = false;
+      
+       ////////другой код/////////
+
+    }
+
+```
+
+и
+
+```JavaScript
+      // 7.Функция для чтения следующей строки с задержкой
+      async function readNextString() {
+        if (count_n_Word !== null && processedCount >= count_n_Word) {
+          console.log(`Обработано ${processedCount} строк. Завершение.`);
+          return;
+        }
+
+        const searchString = `"id": "${currentID}"`;
+        const startIndex = result.indexOf(searchString);
+
+       ////////другой код/////////
+
+            const foundObject = JSON.parse(dataChunk);
+            foundObjects.push(foundObject);
+
+            currentID++;
+            processedCount++;
+
+            await new Promise((resolve) => setTimeout(resolve, sec));
+
+            while (isPaused) {
+              await new Promise((resolve) => setTimeout(resolve, 100));
+            }
+
+            const initialSeconds = sec / 1000;
+            countdown(initialSeconds, initialSeconds);
+
+            speechSynthesis.cancel();
+            processLines(dataChunk);
+
+            await readNextString();
+          }
+
+```
+
 <h3 align="center">🔥 Как оно работает? Как его настроить? Можно посмотреть в видео.</h3>
         <p>Видео - <a href="#" class="link">[Ожидается]</a></p>
         <p>Приложение готово к работе как есть.</p>
@@ -41,15 +120,7 @@
             <li>Запустите проект в установленном порядке для вашего сервера.</li>
         </ul>
 
-<h3 align="center">🛠 Описание проекта для портфолио</h3>
-        <p>Технологии, используемые в проекте:</p>
-        <ul>
-            <li>JavaScript классика</li>
-            <li>Файл .json для эмуляции базы данных</li>
-            <li>Webpack для сборки проектов</li>
-            <li>Fetch API</li>
-            <li>Web Speech API</li>
-        </ul>
+
 
 <h3 align="center">Помощь по проекту</h3>
         <p><strong>Е-Mail:</strong> <a href="mailto:sergeyif1@gmail.com" class="link">sergeyif1@gmail.com</a></p>
