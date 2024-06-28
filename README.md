@@ -96,7 +96,7 @@ and
 ```
 
 <h3 align="center">🔥 How does it work? How to set it up? You can watch the video.</h3>
-        <p>Video - <a href="#" class="link">[Expected]</a></p>
+        <p>Video - <a href="#" class="pic/direction.png">[Direction]</a></p>
         <p>The application is ready to use as is.</p>
         <h3 align="center">👀 Where to start?</h3>
         <ul>
