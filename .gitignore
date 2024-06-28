@@ -1,6 +1,5 @@
 # dependencies
 /node_modules
-/pic
 /js/bundle.js
 /js/bundle.js.map
 /js/node_modules_node-fetch_src_utils_multipart-parser_js.bundle.js
