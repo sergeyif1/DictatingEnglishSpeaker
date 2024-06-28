@@ -27,6 +27,7 @@
     <li>TextDecoder() for decoding text data</li>
     <li>JSON.parse() for parsing data in a cell</li>
     <li>Promise (_(resolve) => {.....}_) and Recursion - instead of setTimeout() and Loop</li>
+    <li>cooki</li>
 </ul>
 <p>*Although using recursion and Promise instead of setTimeout() and loop slightly weakened the system, measures were taken to improve stability.</p>
 
