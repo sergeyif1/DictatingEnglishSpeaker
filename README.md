@@ -97,6 +97,7 @@ and
 
 <h3 align="center">🔥 How does it work? How to set it up? You can watch the video.</h3>
         <p>Video - <a href="pic/direction.png" class="#">[Direction]</a></p>
+        <p>Text - <a href="pic/direction - Text.png" 
         <p>The application is ready to use as is.</p>
         <h3 align="center">👀 Where to start?</h3>
         <ul>
