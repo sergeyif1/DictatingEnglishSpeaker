@@ -1,3 +1,9 @@
+document.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+  }
+});
+
 const controlCheckBox = () => {
   // Обработка изменения состояния чекбоксов
   document.querySelectorAll(".checkbox").forEach((checkbox) => {

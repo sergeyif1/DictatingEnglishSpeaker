@@ -67,6 +67,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _myModule_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./myModule.js */ "./js/modules/myModule.js");
 
 var currentButton2;
+document.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+  }
+});
 var buttonsClickHandlerPauseResume = {
   handleClick2: function handleClick2(event) {
     var target = event.target;
@@ -110,6 +115,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var currentButton1;
+document.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+  }
+});
 var buttonsClickHandlerPlay = {
   handleClick1: function handleClick1(event) {
     var target = event.target;
@@ -146,6 +156,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+document.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+  }
+});
 var controlCheckBox = function controlCheckBox() {
   // Обработка изменения состояния чекбоксов
   document.querySelectorAll(".checkbox").forEach(function (checkbox) {
@@ -272,6 +287,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 var voiceList = document.querySelector("#voiceSelect");
 var synth = speechSynthesis;
+document.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+  }
+});
 function voices() {
   voiceList.innerHTML = "";
   var availableVoices = synth.getVoices();
@@ -348,10 +368,11 @@ var myModule = {
       return _regeneratorRuntime().wrap(function _callee2$(_context2) {
         while (1) switch (_context2.prev = _context2.next) {
           case 0:
-            sec = Number(document.querySelector("#gap").value) * 1000;
+            sec = Number(document.querySelector("#gap").value) * 1000; // 1. Указываем путь к файлу
             filePath = "../db.json";
             foundObjects = [];
             _context2.prev = 3;
+            // 7.Функция для чтения следующей строки с задержкой
             readNextString = /*#__PURE__*/function () {
               var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
                 var searchString, startIndex, startBracketIndex, endBracketIndex, dataChunk, foundObject, initialSeconds;
@@ -435,8 +456,9 @@ var myModule = {
             }
             throw new Error("Ошибка при загрузке файла");
           case 10:
+            // 5. Создаем объект ReadableStreamDefaultReader для чтения потока
             stream = response.body;
-            reader = stream.getReader();
+            reader = stream.getReader(); // 6. Распарсиваем поток
             decoder = new TextDecoder();
             result = "";
             done = false;
@@ -496,130 +518,6 @@ var myModule = {
   }
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (myModule);
-
-// import processLines from "./processLines.js";
-// import countdown from "./countdownTimer.js";
-
-// let isPaused = false;
-// let currentID = null;
-// let count_n_Word = null;
-
-// const myModule = {
-//   useCountNWord: function (n_Word) {
-//     // console.log(
-//     //   `Проверка чекбоксов кол-ва слов: "Чек-бокс отмечен", кол. слов - ${n_Word}`
-//     // );
-//     count_n_Word = n_Word;
-//   },
-
-//   setID: function (newID) {
-//     currentID = newID;
-//   },
-
-//   words: async function () {
-//     const sec = Number(document.querySelector("#gap").value) * 1000;
-//     // console.log(`sec: ${sec}`);
-//     // 1. Указываем путь к файлу
-//     const filePath = "../db.json";
-//     const foundObjects = [];
-
-//     try {
-//       // 2. Запрос данных через fetch API
-//       const response = await fetch(filePath);
-
-//       // 3. Обрабатываем ошибку соединени
-//       if (!response.ok) {
-//         throw new Error("Ошибка при загрузке файла");
-//       }
-
-//       // 4. Получаем поток данных из тела ответа
-//       const stream = response.body;
-
-//       // 5. Создаем объект ReadableStreamDefaultReader для чтения потока
-//       const reader = stream.getReader();
-
-//       // 6. Распарсиваем поток
-//       const decoder = new TextDecoder();
-//       let result = "";
-//       let done = false;
-
-//       while (!done) {
-//         const { value, done: streamDone } = await reader.read();
-//         if (value) {
-//           result += decoder.decode(value, { stream: !streamDone });
-//         }
-//         done = streamDone;
-//       }
-
-//       const jsonData = JSON.parse(result);
-//       console.log("Данные распарсены", jsonData);
-
-//       // 7.Функция для чтения следующей строки с задержкой
-//       async function readNextString() {
-//         // Начинаем читать поток с указанного ID
-//         const searchString = `"id": "${currentID}"`;
-//         const startIndex = result.indexOf(searchString);
-
-//         if (startIndex !== -1) {
-//           const startBracketIndex = result.lastIndexOf("{", startIndex);
-//           const endBracketIndex = result.indexOf("}", startIndex) + 1;
-//           if (startBracketIndex !== -1 && endBracketIndex !== -1) {
-//             const dataChunk = result.substring(
-//               startBracketIndex,
-//               endBracketIndex
-//             );
-//             // console.log("Прочитанная строка:", dataChunk);
-
-//             // Добавляем объект в массив найденных объектов
-//             const foundObject = JSON.parse(dataChunk);
-//             foundObjects.push(foundObject);
-
-//             currentID++;
-
-//             await new Promise((resolve) => setTimeout(resolve, sec));
-
-//             while (isPaused) {
-//               await new Promise((resolve) => setTimeout(resolve, 100));
-//             }
-
-//             const initialSeconds = sec / 1000;
-//             countdown(initialSeconds, initialSeconds);
-
-//             // Вызов processLines с переданными данными
-//             speechSynthesis.cancel();
-//             processLines(dataChunk);
-
-//             await readNextString();
-//           } else {
-//             console.log("Начало или конец строки не найдены.");
-//           }
-//         } else {
-//           console.log(`ID "${currentID}" Працесс закончен.Спасибо!`);
-//         }
-//       }
-
-//       await readNextString();
-//     } catch (error) {
-//       console.error("Ошибка:", error);
-//     }
-//   },
-//   pause: function () {
-//     isPaused = true;
-//     // console.log(`Paused ${isPaused}`);
-//   },
-//   resume: function () {
-//     // console.log(`Paused ${isPaused}`);
-//     if (isPaused) {
-//       isPaused = false;
-
-//       myModule.readNextString();
-//     } else {
-//       console.log("Speech synthesis is not paused, cannot resume");
-//     }
-//   },
-// };
-
-// export default myModule;
 
 /***/ }),
 
@@ -754,12 +652,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-document.addEventListener("keydown", function (event) {
-  if (event.key === "Enter") {
-    event.preventDefault();
-  }
-});
 
 (0,_modules_getUtterance_js__WEBPACK_IMPORTED_MODULE_3__.voices)();
 

@@ -3,12 +3,6 @@ import buttonsClickHandlerPlay from "./modules/buttonsClickHandlerPlay.js";
 import buttonsClickHandlerPauseResume from "./modules/buttonsClickHandlerPauseResume.js";
 import { voices } from "./modules/getUtterance.js";
 
-document.addEventListener("keydown", function (event) {
-  if (event.key === "Enter") {
-    event.preventDefault();
-  }
-});
-
 voices();
 
 const but1 = document.getElementById("but1");
