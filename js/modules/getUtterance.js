@@ -1,13 +1,13 @@
-const voiceList = document.querySelector("#voiceSelect");
-const synth = speechSynthesis;
-
 document.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
     event.preventDefault();
   }
 });
 
+const synth = speechSynthesis;
+
 export function voices() {
+  const voiceList = document.querySelector("#voiceSelect");
   voiceList.innerHTML = "";
   let availableVoices = synth.getVoices();
   let defaultVoice = getDefaultVoice(availableVoices);
@@ -28,6 +28,28 @@ function getDefaultVoice(voices) {
     (voice) => voice.lang === "en-US" || voice.lang === "en-GB"
   );
 }
+
+// export function voices() {
+//   voiceList.innerHTML = "";
+//   let availableVoices = synth.getVoices();
+//   let defaultVoice = getDefaultVoice(availableVoices);
+
+//   availableVoices.forEach((voice) => {
+//     let selected = voice === defaultVoice ? "selected" : "";
+
+//     let option = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
+
+//     voiceList.insertAdjacentHTML("beforeend", option);
+//   });
+// }
+
+// synth.onvoiceschanged = voices;
+
+// function getDefaultVoice(voices) {
+//   return voices.find(
+//     (voice) => voice.lang === "en-US" || voice.lang === "en-GB"
+//   );
+// }
 
 const voicePlay = {
   getUtterance: function (text) {
