@@ -287,13 +287,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   voices: () => (/* binding */ voices)
 /* harmony export */ });
 var synth = speechSynthesis;
-
-// document.addEventListener("keydown", function (event) {
-//   if (event.key === "Enter") {
-//     event.preventDefault();
-//   }
-// });
-
+var voiceList = document.querySelector("#voiceSelect");
 function voices() {
   voiceList.innerHTML = "";
   var availableVoices = synth.getVoices();
@@ -312,7 +306,6 @@ function getDefaultVoice(voices) {
 }
 var voicePlay = {
   getUtterance: function getUtterance(text) {
-    var voiceList = document.querySelector("#voiceSelect");
     var rate = document.getElementById("speed").value;
     var pitch = document.getElementById("pitch").value;
     var availableVoices = speechSynthesis.getVoices();
@@ -334,6 +327,12 @@ var voicePlay = {
   }
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (voicePlay);
+
+// document.addEventListener("keydown", function (event) {
+//   if (event.key === "Enter") {
+//     event.preventDefault();
+//   }
+// });
 
 /***/ }),
 

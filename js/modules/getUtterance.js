@@ -1,10 +1,5 @@
 const synth = speechSynthesis;
-
-// document.addEventListener("keydown", function (event) {
-//   if (event.key === "Enter") {
-//     event.preventDefault();
-//   }
-// });
+const voiceList = document.querySelector("#voiceSelect");
 
 export function voices() {
   voiceList.innerHTML = "";
@@ -30,7 +25,6 @@ function getDefaultVoice(voices) {
 
 const voicePlay = {
   getUtterance: function (text) {
-    const voiceList = document.querySelector("#voiceSelect");
     const rate = document.getElementById("speed").value;
     const pitch = document.getElementById("pitch").value;
 
@@ -57,3 +51,9 @@ const voicePlay = {
 };
 
 export default voicePlay;
+
+// document.addEventListener("keydown", function (event) {
+//   if (event.key === "Enter") {
+//     event.preventDefault();
+//   }
+// });
