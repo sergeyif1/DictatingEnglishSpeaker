@@ -1,5 +1,4 @@
 const synth = speechSynthesis;
-const voiceList = document.querySelector("#voiceSelect");
 
 export function voices() {
   voiceList.innerHTML = "";

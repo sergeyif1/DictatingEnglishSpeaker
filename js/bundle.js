@@ -287,7 +287,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   voices: () => (/* binding */ voices)
 /* harmony export */ });
 var synth = speechSynthesis;
-var voiceList = document.querySelector("#voiceSelect");
 function voices() {
   voiceList.innerHTML = "";
   var availableVoices = synth.getVoices();
@@ -655,6 +654,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+const voiceList = document.querySelector("#voiceSelect");
 (0,_modules_getUtterance_js__WEBPACK_IMPORTED_MODULE_3__.voices)();
 
 const but1 = document.getElementById("but1");
