@@ -156,11 +156,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-document.addEventListener("keydown", function (event) {
-  if (event.key === "Enter") {
-    event.preventDefault();
-  }
-});
+// document.addEventListener("keydown", function (event) {
+//   if (event.key === "Enter") {
+//     event.preventDefault();
+//   }
+// });
+
 var controlCheckBox = function controlCheckBox() {
   // Обработка изменения состояния чекбоксов
   document.querySelectorAll(".checkbox").forEach(function (checkbox) {
@@ -286,13 +287,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   voices: () => (/* binding */ voices)
 /* harmony export */ });
 var synth = speechSynthesis;
+var voiceList = document.querySelector("#voiceSelect");
 document.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
     event.preventDefault();
   }
 });
 function voices() {
-  var voiceList = document.querySelector("#voiceSelect");
   voiceList.innerHTML = "";
   var availableVoices = synth.getVoices();
   var defaultVoice = getDefaultVoice(availableVoices);

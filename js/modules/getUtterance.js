@@ -1,4 +1,5 @@
 const synth = speechSynthesis;
+const voiceList = document.querySelector("#voiceSelect");
 
 document.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
@@ -7,8 +8,6 @@ document.addEventListener("keydown", function (event) {
 });
 
 export function voices() {
-  const voiceList = document.querySelector("#voiceSelect");
-
   voiceList.innerHTML = "";
   let availableVoices = synth.getVoices();
   let defaultVoice = getDefaultVoice(availableVoices);
