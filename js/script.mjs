@@ -4,7 +4,7 @@ import buttonsClickHandlerPauseResume from "./modules/buttonsClickHandlerPauseRe
 import { voices } from "./modules/getUtterance.js";
 
 const voiceList = document.querySelector("#voiceSelect");
-voices();
+voices(voiceList);
 
 const but1 = document.getElementById("but1");
 const but2 = document.getElementById("but2");

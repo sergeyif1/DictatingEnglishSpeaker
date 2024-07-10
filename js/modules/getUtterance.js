@@ -1,6 +1,6 @@
 const synth = speechSynthesis;
 
-export function voices() {
+export function voices(voiceList) {
   voiceList.innerHTML = "";
   let availableVoices = synth.getVoices();
   let defaultVoice = getDefaultVoice(availableVoices);
