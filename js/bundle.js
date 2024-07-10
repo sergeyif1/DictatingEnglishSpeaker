@@ -297,7 +297,11 @@ function voices(voiceList) {
     voiceList.insertAdjacentHTML("beforeend", option);
   });
 }
-synth.onvoiceschanged = voices;
+function handleVoicesChanged() {
+  var voiceList = document.getElementById("voiceList"); // или другой способ получения элемента списка
+  voices(voiceList);
+}
+synth.onvoiceschanged = handleVoicesChanged;
 function getDefaultVoice(voices) {
   return voices.find(function (voice) {
     return voice.lang === "en-US" || voice.lang === "en-GB";
@@ -308,6 +312,7 @@ var voicePlay = {
     var rate = document.getElementById("speed").value;
     var pitch = document.getElementById("pitch").value;
     var availableVoices = speechSynthesis.getVoices();
+    var voiceList = document.getElementById("voiceList"); // или другой способ получения элемента списка
     var selectedVoiceName = voiceList.value;
     if (availableVoices.length > 0) {
       var selectedVoice = availableVoices.find(function (voice) {
@@ -326,6 +331,59 @@ var voicePlay = {
   }
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (voicePlay);
+
+// const synth = speechSynthesis;
+
+// export function voices(voiceList) {
+//   voiceList.innerHTML = "";
+//   let availableVoices = synth.getVoices();
+//   let defaultVoice = getDefaultVoice(availableVoices);
+
+//   availableVoices.forEach((voice) => {
+//     let selected = voice === defaultVoice ? "selected" : "";
+
+//     let option = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
+
+//     voiceList.insertAdjacentHTML("beforeend", option);
+//   });
+// }
+
+// synth.onvoiceschanged = voices;
+
+// function getDefaultVoice(voices) {
+//   return voices.find(
+//     (voice) => voice.lang === "en-US" || voice.lang === "en-GB"
+//   );
+// }
+
+// const voicePlay = {
+//   getUtterance: function (text) {
+//     const rate = document.getElementById("speed").value;
+//     const pitch = document.getElementById("pitch").value;
+
+//     const availableVoices = speechSynthesis.getVoices();
+//     const selectedVoiceName = voiceList.value;
+
+//     if (availableVoices.length > 0) {
+//       const selectedVoice = availableVoices.find(
+//         (voice) => voice.name === selectedVoiceName
+//       );
+
+//       const U = new SpeechSynthesisUtterance(text);
+//       U.voice = selectedVoice;
+//       U.lang = selectedVoice.lang;
+//       U.volume = 1;
+//       U.rate = rate;
+//       U.pitch = pitch;
+
+//       return U;
+//     } else {
+//       return null;
+//     }
+//   },
+// };
+
+// export default voicePlay;
 
 // document.addEventListener("keydown", function (event) {
 //   if (event.key === "Enter") {
