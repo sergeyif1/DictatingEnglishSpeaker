@@ -285,7 +285,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
 /* harmony export */   voices: () => (/* binding */ voices)
 /* harmony export */ });
-var voiceList = document.querySelector("#voiceSelect");
 var synth = speechSynthesis;
 document.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
@@ -293,6 +292,7 @@ document.addEventListener("keydown", function (event) {
   }
 });
 function voices() {
+  var voiceList = document.querySelector("#voiceSelect");
   voiceList.innerHTML = "";
   var availableVoices = synth.getVoices();
   var defaultVoice = getDefaultVoice(availableVoices);
@@ -308,6 +308,29 @@ function getDefaultVoice(voices) {
     return voice.lang === "en-US" || voice.lang === "en-GB";
   });
 }
+
+// export function voices() {
+//   voiceList.innerHTML = "";
+//   let availableVoices = synth.getVoices();
+//   let defaultVoice = getDefaultVoice(availableVoices);
+
+//   availableVoices.forEach((voice) => {
+//     let selected = voice === defaultVoice ? "selected" : "";
+
+//     let option = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
+
+//     voiceList.insertAdjacentHTML("beforeend", option);
+//   });
+// }
+
+// synth.onvoiceschanged = voices;
+
+// function getDefaultVoice(voices) {
+//   return voices.find(
+//     (voice) => voice.lang === "en-US" || voice.lang === "en-GB"
+//   );
+// }
+
 var voicePlay = {
   getUtterance: function getUtterance(text) {
     var rate = document.getElementById("speed").value;
