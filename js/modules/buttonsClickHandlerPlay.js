@@ -8,6 +8,8 @@ document.addEventListener("keydown", function (event) {
   }
 });
 
+speechSynthesis.cancel();
+
 let currentButton1;
 
 const buttonsClickHandlerPlay = {
@@ -18,7 +20,6 @@ const buttonsClickHandlerPlay = {
     switch (target.className) {
       case "play":
         console.log("Play button clicked");
-        speechSynthesis.cancel();
         activCheckBox();
         countNwords.nWord();
         myModule.words();
