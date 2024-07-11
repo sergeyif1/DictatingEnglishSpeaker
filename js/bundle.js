@@ -66,12 +66,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _myModule_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./myModule.js */ "./js/modules/myModule.js");
 
-var currentButton2;
 document.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
     event.preventDefault();
   }
 });
+var currentButton2;
 var buttonsClickHandlerPauseResume = {
   handleClick2: function handleClick2(event) {
     var target = event.target;
@@ -114,12 +114,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var currentButton1;
 document.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
     event.preventDefault();
   }
 });
+var currentButton1;
 var buttonsClickHandlerPlay = {
   handleClick1: function handleClick1(event) {
     var target = event.target;
@@ -156,12 +156,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-// document.addEventListener("keydown", function (event) {
-//   if (event.key === "Enter") {
-//     event.preventDefault();
-//   }
-// });
-
+document.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+  }
+});
 var controlCheckBox = function controlCheckBox() {
   // Обработка изменения состояния чекбоксов
   document.querySelectorAll(".checkbox").forEach(function (checkbox) {
@@ -291,9 +290,9 @@ document.addEventListener("keydown", function (event) {
     event.preventDefault();
   }
 });
+var selectedVoiceName;
 var voiceList = document.querySelector("#voiceSelect");
 var synth = speechSynthesis;
-var selectedVoiceName;
 function voices() {
   voiceList.innerHTML = "";
   var availableVoices = synth.getVoices();

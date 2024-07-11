@@ -4,11 +4,11 @@ document.addEventListener("keydown", function (event) {
   }
 });
 
+let selectedVoiceName;
+
 const voiceList = document.querySelector("#voiceSelect");
 
 const synth = speechSynthesis;
-
-let selectedVoiceName;
 
 export function voices() {
   voiceList.innerHTML = "";

@@ -2,13 +2,13 @@ import { activCheckBox } from "./IdDataControl.js";
 import myModule from "./myModule.js";
 import countNwords from "./countNwords.js";
 
-let currentButton1;
-
 document.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
     event.preventDefault();
   }
 });
+
+let currentButton1;
 
 const buttonsClickHandlerPlay = {
   handleClick1: function (event) {
