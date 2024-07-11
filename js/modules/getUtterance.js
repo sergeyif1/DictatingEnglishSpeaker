@@ -26,8 +26,6 @@ export function voices() {
   });
 }
 
-synth.onvoiceschanged = voices;
-
 function getDefaultVoice(voices) {
   return voices.find(
     (voice) => voice.lang === "en-US" || voice.lang === "en-GB"
@@ -59,5 +57,10 @@ const voicePlay = {
     }
   },
 };
+
+// обработка событий выбора голоса
+voiceList.addEventListener("change", function () {
+  selectedVoiceName = voiceList.value;
+});
 
 export default voicePlay;

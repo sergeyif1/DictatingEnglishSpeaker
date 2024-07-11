@@ -305,7 +305,6 @@ function voices() {
     selectedVoiceName = voiceList.value;
   });
 }
-synth.onvoiceschanged = voices;
 function getDefaultVoice(voices) {
   return voices.find(function (voice) {
     return voice.lang === "en-US" || voice.lang === "en-GB";
@@ -332,6 +331,11 @@ var voicePlay = {
     }
   }
 };
+
+// обработка событий выбора голоса
+voiceList.addEventListener("change", function () {
+  selectedVoiceName = voiceList.value;
+});
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (voicePlay);
 
 /***/ }),
@@ -655,7 +659,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-(0,_modules_getUtterance_js__WEBPACK_IMPORTED_MODULE_3__.voices)();
+//запуск с обновлением списка доступных голосов
+speechSynthesis.onvoiceschanged = _modules_getUtterance_js__WEBPACK_IMPORTED_MODULE_3__.voices;
 
 const but1 = document.getElementById("but1");
 const but2 = document.getElementById("but2");

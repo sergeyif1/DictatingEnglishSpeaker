@@ -3,7 +3,8 @@ import buttonsClickHandlerPlay from "./modules/buttonsClickHandlerPlay.js";
 import buttonsClickHandlerPauseResume from "./modules/buttonsClickHandlerPauseResume.js";
 import { voices } from "./modules/getUtterance.js";
 
-voices();
+//запуск с обновлением списка доступных голосов
+speechSynthesis.onvoiceschanged = voices;
 
 const but1 = document.getElementById("but1");
 const but2 = document.getElementById("but2");
