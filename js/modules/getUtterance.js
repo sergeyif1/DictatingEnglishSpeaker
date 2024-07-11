@@ -26,12 +26,6 @@ export function voices() {
   });
 }
 
-function getDefaultVoice(voices) {
-  return voices.find(
-    (voice) => voice.lang === "en-US" || voice.lang === "en-GB"
-  );
-}
-
 const voicePlay = {
   getUtterance: function (text) {
     const rate = document.getElementById("speed").value;
