@@ -206,7 +206,7 @@ select {
 }
 
 form :where(select) {
-  outline: none;
+  /* outline: none; */
   width: 100%;
   height: 100%;
   border: none;
@@ -340,7 +340,7 @@ body #countdown {
   }
 
   select {
-    width: 100%;
+    width: 100vw;
     /* Меняем ширину на 100% при уменьшении экрана */
     padding: 10px;
     font-size: 16px;
