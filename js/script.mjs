@@ -4,7 +4,6 @@ import buttonsClickHandlerPauseResume from "./modules/buttonsClickHandlerPauseRe
 // import { voices } from "./modules/getUtterance.js";
 
 //запуск с обновлением списка доступных голосов
-speechSynthesis.onvoiceschanged = voices;
 
 // const voiceList = document.getElementById("voiceSelect");
 // function addVoiceOption(name, value) {
@@ -50,6 +49,7 @@ export function voices() {
   // Устанавливаем выбранное значение (если нужно)
   // selectedVoiceName = voiceList.value;
 }
+speechSynthesis.onvoiceschanged = voices;
 
 //-----------------------------------------------------
 

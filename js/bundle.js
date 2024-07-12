@@ -657,7 +657,6 @@ __webpack_require__.r(__webpack_exports__);
 // import { voices } from "./modules/getUtterance.js";
 
 //запуск с обновлением списка доступных голосов
-speechSynthesis.onvoiceschanged = voices;
 
 // const voiceList = document.getElementById("voiceSelect");
 // function addVoiceOption(name, value) {
@@ -703,6 +702,7 @@ function voices() {
   // Устанавливаем выбранное значение (если нужно)
   // selectedVoiceName = voiceList.value;
 }
+speechSynthesis.onvoiceschanged = voices;
 
 //-----------------------------------------------------
 
