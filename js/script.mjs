@@ -49,8 +49,7 @@ export function voices() {
   // Устанавливаем выбранное значение (если нужно)
   // selectedVoiceName = voiceList.value;
 }
-// speechSynthesis.onvoiceschanged = voices;
-voices();
+speechSynthesis.onvoiceschanged = voices;
 
 //-----------------------------------------------------
 
