@@ -85,9 +85,9 @@
             </div>
         </form>
         <h1>Список доступных голосов:</h1>
-        <p id="voiceList"></p>
+        <ul id="voiceList--1"></ul>
+        <script src="./js/bundle.js"></script>
     </div>
-    <!-- <script src="./js/bundle.js"></script> -->
     <script>
         // Получаем доступ к объекту распознавания речи
         const recognition = window.speechSynthesis;
@@ -96,7 +96,7 @@
         const voices = recognition.getVoices();
 
         // Отображаем голоса в списке
-        const voiceList = document.getElementById('voiceList');
+        const voiceList = document.getElementById('voiceList--1');
         voices.forEach(voice => {
             const listItem = document.createElement('li');
             listItem.textContent = voice.name;
