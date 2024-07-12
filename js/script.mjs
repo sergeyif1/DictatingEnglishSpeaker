@@ -9,7 +9,7 @@ speechSynthesis.onvoiceschanged = voices;
 const voiceList = document.querySelector("#voiceSelect");
 
 export function voices() {
-  voiceList.innerHTML = "";
+  voiceList.innerHTML = "1111111111S";
   let availableVoices = synth.getVoices();
   let defaultVoice = getDefaultVoice(availableVoices);
 
