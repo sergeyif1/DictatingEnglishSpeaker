@@ -352,36 +352,3 @@ body #countdown {
     font-size: 16px;
   }
 }
-
-/* .form-properties>div {
-    min-width: 100%;
-  } */
-
-/* Горизонтальное расположение (Контейнер для текстовых областей)
-  .textareas {
-    flex-direction: column;
-  }*/
-
-/* Горизонтальное расположение (Контейнер для кнопок "PAUSE" "RESUME")
-.block-button-1 {
-  flex-direction: column;
-} */
-
-/* Горизонтальное расположение (Контейнер выбор языка и Выбор словаря)
-.flex-container {
-  flex-direction: column;
-  /* Вертикальное расположение на маленьких экранах
-} */
-
-/* Горизонтальное расположение (Контейнеры properties)
-.container-point-properties {
-  flex-direction: column;
-} */
-
-/* .form-properties {
-  flex-direction: column;
-} */
-
-/* .select-point {
-  flex-direction: column;
-} */
