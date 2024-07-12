@@ -693,8 +693,11 @@ function voices() {
 
   availableVoices.forEach((voice) => {
     let selected = voice === availableVoices ? "selected" : "";
-    let option = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
-    voiceList.insertAdjacentHTML("beforeend", option);
+    let option = document.createElement("option");
+    option.value = voice.name;
+    option.textContent = `${voice.name} (${voice.lang})`;
+    option.selected = selected;
+    voiceList.appendChild(option);
   });
 
   // Устанавливаем выбранное значение (если нужно)
