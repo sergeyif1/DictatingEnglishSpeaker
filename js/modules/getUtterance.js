@@ -6,7 +6,7 @@ document.addEventListener("keydown", function (event) {
 
 let selectedVoiceName;
 
-// const voiceList = document.querySelector("#voiceSelect");
+const voiceList = document.querySelector("#voiceSelect");
 
 const synth = speechSynthesis;
 
@@ -52,9 +52,9 @@ const voicePlay = {
   },
 };
 
-// обработка событий выбора голоса
-voiceList.addEventListener("change", function () {
-  selectedVoiceName = voiceList.value;
-});
+// // обработка событий выбора голоса
+// voiceList.addEventListener("change", function () {
+//   selectedVoiceName = voiceList.value;
+// });
 
 export default voicePlay;

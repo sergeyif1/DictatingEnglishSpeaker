@@ -119,6 +119,7 @@ document.addEventListener("keydown", function (event) {
     event.preventDefault();
   }
 });
+speechSynthesis.cancel();
 var currentButton1;
 var buttonsClickHandlerPlay = {
   handleClick1: function handleClick1(event) {
@@ -127,7 +128,6 @@ var buttonsClickHandlerPlay = {
     switch (target.className) {
       case "play":
         console.log("Play button clicked");
-        speechSynthesis.cancel();
         (0,_IdDataControl_js__WEBPACK_IMPORTED_MODULE_0__.activCheckBox)();
         _countNwords_js__WEBPACK_IMPORTED_MODULE_2__["default"].nWord();
         _myModule_js__WEBPACK_IMPORTED_MODULE_1__["default"].words();
@@ -282,8 +282,7 @@ var countdown = function countdown(seconds, initialSeconds) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   voices: () => (/* binding */ voices)
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 document.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
@@ -293,22 +292,23 @@ document.addEventListener("keydown", function (event) {
 var selectedVoiceName;
 var voiceList = document.querySelector("#voiceSelect");
 var synth = speechSynthesis;
-function voices() {
-  voiceList.innerHTML = "";
-  var availableVoices = synth.getVoices();
-  var defaultVoice = getDefaultVoice(availableVoices);
-  availableVoices.forEach(function (voice) {
-    var selected = voice === defaultVoice ? "selected" : "";
-    var option = "<option value=\"".concat(voice.name, "\" ").concat(selected, ">").concat(voice.name, " (").concat(voice.lang, ")</option>");
-    voiceList.insertAdjacentHTML("beforeend", option);
-    selectedVoiceName = voiceList.value;
-  });
-}
-function getDefaultVoice(voices) {
-  return voices.find(function (voice) {
-    return voice.lang === "en-US" || voice.lang === "en-GB";
-  });
-}
+
+// export function voices() {
+//   voiceList.innerHTML = "";
+//   let availableVoices = synth.getVoices();
+//   let defaultVoice = getDefaultVoice(availableVoices);
+
+//   availableVoices.forEach((voice) => {
+//     let selected = voice === defaultVoice ? "selected" : "";
+
+//     let option = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
+
+//     voiceList.insertAdjacentHTML("beforeend", option);
+
+//     selectedVoiceName = voiceList.value;
+//   });
+// }
+
 var voicePlay = {
   getUtterance: function getUtterance(text) {
     var rate = document.getElementById("speed").value;
@@ -331,10 +331,11 @@ var voicePlay = {
   }
 };
 
-// обработка событий выбора голоса
-voiceList.addEventListener("change", function () {
-  selectedVoiceName = voiceList.value;
-});
+// // обработка событий выбора голоса
+// voiceList.addEventListener("change", function () {
+//   selectedVoiceName = voiceList.value;
+// });
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (voicePlay);
 
 /***/ }),
@@ -652,14 +653,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_controlCheckBox_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/controlCheckBox.js */ "./js/modules/controlCheckBox.js");
 /* harmony import */ var _modules_buttonsClickHandlerPlay_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/buttonsClickHandlerPlay.js */ "./js/modules/buttonsClickHandlerPlay.js");
 /* harmony import */ var _modules_buttonsClickHandlerPauseResume_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/buttonsClickHandlerPauseResume.js */ "./js/modules/buttonsClickHandlerPauseResume.js");
-/* harmony import */ var _modules_getUtterance_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/getUtterance.js */ "./js/modules/getUtterance.js");
 
 
 
-
+// import { voices } from "./modules/getUtterance.js";
 
 //запуск с обновлением списка доступных голосов
-speechSynthesis.onvoiceschanged = _modules_getUtterance_js__WEBPACK_IMPORTED_MODULE_3__.voices;
+// speechSynthesis.onvoiceschanged = voices;
+
+const voiceList = document.getElementById("voiceSelect");
+console.log("Проверка voiceList", voiceList);
+
+function addVoiceOption(voiceName, voiceValue) {
+  const option = document.createElement("option");
+  option.text = voiceName;
+  option.value = voiceValue;
+  voiceList.add(option);
+}
+
+function populateVoices() {
+  addVoiceOption("1111111111S", "1111111111S");
+}
+
+populateVoices();
 
 const but1 = document.getElementById("but1");
 const but2 = document.getElementById("but2");

@@ -4,25 +4,23 @@ import buttonsClickHandlerPauseResume from "./modules/buttonsClickHandlerPauseRe
 // import { voices } from "./modules/getUtterance.js";
 
 //запуск с обновлением списка доступных голосов
-speechSynthesis.onvoiceschanged = voices;
+// speechSynthesis.onvoiceschanged = voices;
 
-const voiceList = document.querySelector("#voiceSelect");
+const voiceList = document.getElementById("voiceSelect");
+console.log("Проверка voiceList", voiceList);
 
-function voices() {
-  voiceList.innerHTML = "1111111111S";
-  let availableVoices = synth.getVoices();
-  // let defaultVoice = getDefaultVoice(availableVoices);
-
-  availableVoices.forEach((voice) => {
-    let selected = voice === defaultVoice ? "selected" : "";
-
-    let option = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
-
-    voiceList.insertAdjacentHTML("beforeend", option);
-
-    selectedVoiceName = voiceList.value;
-  });
+function addVoiceOption(voiceName, voiceValue) {
+  const option = document.createElement("option");
+  option.text = voiceName;
+  option.value = voiceValue;
+  voiceList.add(option);
 }
+
+function populateVoices() {
+  addVoiceOption("1111111111S", "1111111111S");
+}
+
+populateVoices();
 
 const but1 = document.getElementById("but1");
 const but2 = document.getElementById("but2");
