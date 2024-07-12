@@ -5,7 +5,9 @@ import { voices } from "./modules/getUtterance.js";
 
 //запуск с обновлением списка доступных голосов
 speechSynthesis.onvoiceschanged = voices;
+
 const voiceList = document.querySelector("#voiceSelect");
+
 export function voices() {
   voiceList.innerHTML = "";
   let availableVoices = synth.getVoices();
