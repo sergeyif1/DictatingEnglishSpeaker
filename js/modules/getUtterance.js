@@ -10,21 +10,21 @@ const voiceList = document.querySelector("#voiceSelect");
 
 const synth = speechSynthesis;
 
-export function voices() {
-  voiceList.innerHTML = "";
-  let availableVoices = synth.getVoices();
-  let defaultVoice = getDefaultVoice(availableVoices);
+// export function voices() {
+//   voiceList.innerHTML = "";
+//   let availableVoices = synth.getVoices();
+//   let defaultVoice = getDefaultVoice(availableVoices);
 
-  availableVoices.forEach((voice) => {
-    let selected = voice === defaultVoice ? "selected" : "";
+//   availableVoices.forEach((voice) => {
+//     let selected = voice === defaultVoice ? "selected" : "";
 
-    let option = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
+//     let option = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
 
-    voiceList.insertAdjacentHTML("beforeend", option);
+//     voiceList.insertAdjacentHTML("beforeend", option);
 
-    selectedVoiceName = voiceList.value;
-  });
-}
+//     selectedVoiceName = voiceList.value;
+//   });
+// }
 
 const voicePlay = {
   getUtterance: function (text) {

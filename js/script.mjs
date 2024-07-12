@@ -5,6 +5,22 @@ import { voices } from "./modules/getUtterance.js";
 
 //запуск с обновлением списка доступных голосов
 speechSynthesis.onvoiceschanged = voices;
+const voiceList = document.querySelector("#voiceSelect");
+export function voices() {
+  voiceList.innerHTML = "";
+  let availableVoices = synth.getVoices();
+  let defaultVoice = getDefaultVoice(availableVoices);
+
+  availableVoices.forEach((voice) => {
+    let selected = voice === defaultVoice ? "selected" : "";
+
+    let option = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
+
+    voiceList.insertAdjacentHTML("beforeend", option);
+
+    selectedVoiceName = voiceList.value;
+  });
+}
 
 const but1 = document.getElementById("but1");
 const but2 = document.getElementById("but2");
