@@ -339,12 +339,12 @@ body #countdown {
 
   }
 
-  select {
-    /* width: 100vw;
-    Меняем ширину на 100% при уменьшении экрана */
+  /*select {
+     width: 100vw;
+    Меняем ширину на 100% при уменьшении экрана 
     padding: 2vw;
     font-size: 4.2vw;
-  }
+  }*/
 
   option {
     padding: 10px;
