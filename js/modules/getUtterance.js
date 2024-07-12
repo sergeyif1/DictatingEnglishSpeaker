@@ -13,42 +13,17 @@ export function voices() {
   voiceList.innerHTML = ""; // Очищаем текущие элементы в списке
 
   let availableVoices = synth.getVoices();
-  // let defaultVoice = getDefaultVoice(availableVoices);
-
-  // Создаем список ul
-  const ul = document.createElement("ul");
 
   availableVoices.forEach((voice) => {
     let selected = voice === availableVoices ? "selected" : "";
-
-    // Создаем элемент li для каждого голоса
-    const li = document.createElement("li");
-    li.textContent = `${voice.name} (${voice.lang})`;
-    li.setAttribute("value", voice.name); // Добавляем атрибут value
-
-    // Добавляем класс "selected" для выбранного голоса
-    if (selected) {
-      li.classList.add("selected");
-    }
-
-    // Добавляем обработчик события клика для выбора голоса
-    li.addEventListener("click", () => {
-      // Очищаем текущий выбор
-      const selectedLi = ul.querySelector("li.selected");
-      if (selectedLi) {
-        selectedLi.classList.remove("selected");
-      }
-      // Выбираем новый голос
-      li.classList.add("selected");
-      selectedVoiceName = voice.name; // Устанавливаем выбранное значение
-    });
-
-    // Добавляем элемент li в список ul
-    ul.appendChild(li);
+    let option = document.createElement("option");
+    option.value = voice.name;
+    option.textContent = `${voice.name} (${voice.lang})`;
+    option.selected = selected;
+    voiceList.appendChild(option);
   });
 
-  // Добавляем список ul в элемент voiceList
-  voiceList.appendChild(ul);
+  selectedVoiceName = voiceList.value;
 }
 
 const voicePlay = {
