@@ -282,8 +282,7 @@ var countdown = function countdown(seconds, initialSeconds) {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   voices: () => (/* binding */ voices)
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 document.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
@@ -292,18 +291,25 @@ document.addEventListener("keydown", function (event) {
 });
 var selectedVoiceName;
 var synth = speechSynthesis;
-var voiceList = document.querySelector("#voiceSelect");
-function voices() {
-  voiceList.innerHTML = "";
-  var availableVoices = synth.getVoices();
-  var defaultVoice = getDefaultVoice(availableVoices);
-  availableVoices.forEach(function (voice) {
-    var selected = voice === defaultVoice ? "selected" : "";
-    var option = "<option value=\"".concat(voice.name, "\" ").concat(selected, ">").concat(voice.name, " (").concat(voice.lang, ")</option>");
-    voiceList.insertAdjacentHTML("beforeend", option);
-    selectedVoiceName = voiceList.value;
-  });
-}
+
+// const voiceList = document.querySelector("#voiceSelect");
+
+// export function voices() {
+//   voiceList.innerHTML = "";
+//   let availableVoices = synth.getVoices();
+//   let defaultVoice = getDefaultVoice(availableVoices);
+
+//   availableVoices.forEach((voice) => {
+//     let selected = voice === defaultVoice ? "selected" : "";
+
+//     let option = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
+
+//     voiceList.insertAdjacentHTML("beforeend", option);
+
+//     selectedVoiceName = voiceList.value;
+//   });
+// }
+
 var voicePlay = {
   getUtterance: function getUtterance(text) {
     var rate = document.getElementById("speed").value;
