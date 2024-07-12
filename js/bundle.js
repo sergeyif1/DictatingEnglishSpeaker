@@ -294,22 +294,44 @@ var selectedVoiceName;
 var synth = speechSynthesis;
 var voiceList = document.getElementById("voiceSelect");
 function voices() {
-  voiceList.innerHTML = ""; // Очищаем текущие опции в списке
+  voiceList.innerHTML = ""; // Очищаем текущие элементы в списке
 
   var availableVoices = speechSynthesis.getVoices();
   // let defaultVoice = getDefaultVoice(availableVoices);
 
+  // Создаем список ul
+  var ul = document.createElement("ul");
   availableVoices.forEach(function (voice) {
     var selected = voice === availableVoices ? "selected" : "";
-    var option = document.createElement("option");
-    option.value = voice.name;
-    option.textContent = "".concat(voice.name, " (").concat(voice.lang, ")");
-    option.selected = selected;
-    voiceList.appendChild(option);
+
+    // Создаем элемент li для каждого голоса
+    var li = document.createElement("li");
+    li.textContent = "".concat(voice.name, " (").concat(voice.lang, ")");
+    li.setAttribute("value", voice.name); // Добавляем атрибут value
+
+    // Добавляем класс "selected" для выбранного голоса
+    if (selected) {
+      li.classList.add("selected");
+    }
+
+    // Добавляем обработчик события клика для выбора голоса
+    li.addEventListener("click", function () {
+      // Очищаем текущий выбор
+      var selectedLi = ul.querySelector("li.selected");
+      if (selectedLi) {
+        selectedLi.classList.remove("selected");
+      }
+      // Выбираем новый голос
+      li.classList.add("selected");
+      selectedVoiceName = voice.name; // Устанавливаем выбранное значение
+    });
+
+    // Добавляем элемент li в список ul
+    ul.appendChild(li);
   });
 
-  // Устанавливаем выбранное значение (если нужно)
-  selectedVoiceName = voiceList.value;
+  // Добавляем список ul в элемент voiceList
+  voiceList.appendChild(ul);
 }
 var voicePlay = {
   getUtterance: function getUtterance(text) {
