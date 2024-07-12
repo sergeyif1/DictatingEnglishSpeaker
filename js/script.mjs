@@ -4,7 +4,7 @@ import buttonsClickHandlerPauseResume from "./modules/buttonsClickHandlerPauseRe
 import { voices } from "./modules/getUtterance.js";
 
 //запуск с обновлением списка доступных голосов
-speechSynthesis.onvoiceschanged = voices;
+window.speechSynthesis.onvoiceschanged = voices;
 
 const but1 = document.getElementById("but1");
 const but2 = document.getElementById("but2");

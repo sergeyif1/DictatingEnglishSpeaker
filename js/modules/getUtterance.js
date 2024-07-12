@@ -5,14 +5,14 @@ document.addEventListener("keydown", function (event) {
 });
 
 let selectedVoiceName;
-const synth = speechSynthesis;
+const synth = window.speechSynthesis;
 
 const voiceList = document.getElementById("voiceSelect");
 
 export function voices() {
   voiceList.innerHTML = ""; // Очищаем текущие элементы в списке
 
-  let availableVoices = speechSynthesis.getVoices();
+  let availableVoices = synth.getVoices();
   // let defaultVoice = getDefaultVoice(availableVoices);
 
   // Создаем список ul

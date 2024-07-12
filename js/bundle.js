@@ -79,12 +79,12 @@ var buttonsClickHandlerPauseResume = {
     switch (target.className) {
       case "pause":
         console.log("Pause button clicked");
-        speechSynthesis.pause();
+        window.speechSynthesis.pause();
         _myModule_js__WEBPACK_IMPORTED_MODULE_0__["default"].pause();
         break;
       case "resume":
         console.log("Resume button clicked");
-        speechSynthesis.resume();
+        window.speechSynthesis.resume();
         _myModule_js__WEBPACK_IMPORTED_MODULE_0__["default"].resume();
         break;
       default:
@@ -119,7 +119,7 @@ document.addEventListener("keydown", function (event) {
     event.preventDefault();
   }
 });
-speechSynthesis.cancel();
+window.speechSynthesis.cancel();
 var currentButton1;
 var buttonsClickHandlerPlay = {
   handleClick1: function handleClick1(event) {
@@ -291,12 +291,12 @@ document.addEventListener("keydown", function (event) {
   }
 });
 var selectedVoiceName;
-var synth = speechSynthesis;
+var synth = window.speechSynthesis;
 var voiceList = document.getElementById("voiceSelect");
 function voices() {
   voiceList.innerHTML = ""; // Очищаем текущие элементы в списке
 
-  var availableVoices = speechSynthesis.getVoices();
+  var availableVoices = synth.getVoices();
   // let defaultVoice = getDefaultVoice(availableVoices);
 
   // Создаем список ul
@@ -418,13 +418,13 @@ var myModule = {
                       searchString = "\"id\": \"".concat(currentID, "\"");
                       startIndex = result.indexOf(searchString);
                       if (!(startIndex !== -1)) {
-                        _context.next = 32;
+                        _context.next = 31;
                         break;
                       }
                       startBracketIndex = result.lastIndexOf("{", startIndex);
                       endBracketIndex = result.indexOf("}", startIndex) + 1;
                       if (!(startBracketIndex !== -1 && endBracketIndex !== -1)) {
-                        _context.next = 29;
+                        _context.next = 28;
                         break;
                       }
                       dataChunk = result.substring(startBracketIndex, endBracketIndex);
@@ -451,21 +451,22 @@ var myModule = {
                     case 21:
                       initialSeconds = sec / 1000;
                       (0,_countdownTimer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(initialSeconds, initialSeconds);
-                      speechSynthesis.cancel();
+
+                      // speechSynthesis.cancel();
                       (0,_processLines_js__WEBPACK_IMPORTED_MODULE_0__["default"])(dataChunk);
-                      _context.next = 27;
+                      _context.next = 26;
                       return readNextString();
-                    case 27:
-                      _context.next = 30;
+                    case 26:
+                      _context.next = 29;
                       break;
-                    case 29:
+                    case 28:
                       console.log("Начало или конец строки не найдены.");
-                    case 30:
-                      _context.next = 33;
+                    case 29:
+                      _context.next = 32;
                       break;
-                    case 32:
+                    case 31:
                       console.log("ID \"".concat(currentID, "\" \u041F\u0440\u0430\u0446\u0435\u0441\u0441 \u0437\u0430\u043A\u043E\u043D\u0447\u0435\u043D.\u0421\u043F\u0430\u0441\u0438\u0431\u043E!"));
-                    case 33:
+                    case 32:
                     case "end":
                       return _context.stop();
                   }
@@ -597,7 +598,7 @@ function _processLines() {
 
           // Вызов voicePlay.getUtterance для воспроизведения текста
           utterance = _getUtterance_js__WEBPACK_IMPORTED_MODULE_2__["default"].getUtterance(text);
-          speechSynthesis.speak(utterance);
+          window.speechSynthesis.speak(utterance);
         case 10:
         case "end":
           return _context.stop();
@@ -683,7 +684,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 //запуск с обновлением списка доступных голосов
-speechSynthesis.onvoiceschanged = _modules_getUtterance_js__WEBPACK_IMPORTED_MODULE_3__.voices;
+window.speechSynthesis.onvoiceschanged = _modules_getUtterance_js__WEBPACK_IMPORTED_MODULE_3__.voices;
 
 const but1 = document.getElementById("but1");
 const but2 = document.getElementById("but2");

@@ -33,7 +33,7 @@ async function processLines(dataChunk) {
 
   // Вызов voicePlay.getUtterance для воспроизведения текста
   const utterance = voicePlay.getUtterance(text);
-  speechSynthesis.speak(utterance);
+  window.speechSynthesis.speak(utterance);
 }
 
 export default processLines;

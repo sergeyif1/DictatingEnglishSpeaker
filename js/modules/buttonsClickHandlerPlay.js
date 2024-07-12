@@ -8,7 +8,7 @@ document.addEventListener("keydown", function (event) {
   }
 });
 
-speechSynthesis.cancel();
+window.speechSynthesis.cancel();
 
 let currentButton1;
 

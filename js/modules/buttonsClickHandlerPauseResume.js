@@ -16,12 +16,12 @@ const buttonsClickHandlerPauseResume = {
     switch (target.className) {
       case "pause":
         console.log("Pause button clicked");
-        speechSynthesis.pause();
+        window.speechSynthesis.pause();
         myModule.pause();
         break;
       case "resume":
         console.log("Resume button clicked");
-        speechSynthesis.resume();
+        window.speechSynthesis.resume();
         myModule.resume();
         break;
       default:
