@@ -708,7 +708,8 @@ function voices() {
   // Устанавливаем выбранное значение (если нужно)
   // selectedVoiceName = voiceList.value;
 }
-speechSynthesis.onvoiceschanged = voices;
+// speechSynthesis.onvoiceschanged = voices;
+voices();
 
 //-----------------------------------------------------
 
