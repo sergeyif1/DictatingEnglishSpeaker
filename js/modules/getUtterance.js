@@ -6,7 +6,7 @@ document.addEventListener("keydown", function (event) {
 
 let selectedVoiceName;
 
-const voiceList = document.querySelector("#voiceSelect");
+// const voiceList = document.querySelector("#voiceSelect");
 
 const synth = speechSynthesis;
 

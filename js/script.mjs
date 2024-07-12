@@ -1,17 +1,17 @@
 import controlCheckBox from "./modules/controlCheckBox.js";
 import buttonsClickHandlerPlay from "./modules/buttonsClickHandlerPlay.js";
 import buttonsClickHandlerPauseResume from "./modules/buttonsClickHandlerPauseResume.js";
-import { voices } from "./modules/getUtterance.js";
+// import { voices } from "./modules/getUtterance.js";
 
 //запуск с обновлением списка доступных голосов
 speechSynthesis.onvoiceschanged = voices;
 
 const voiceList = document.querySelector("#voiceSelect");
 
-export function voices() {
+function voices() {
   voiceList.innerHTML = "1111111111S";
   let availableVoices = synth.getVoices();
-  let defaultVoice = getDefaultVoice(availableVoices);
+  // let defaultVoice = getDefaultVoice(availableVoices);
 
   availableVoices.forEach((voice) => {
     let selected = voice === defaultVoice ? "selected" : "";
