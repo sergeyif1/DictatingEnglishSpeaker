@@ -7,23 +7,26 @@ document.addEventListener("keydown", function (event) {
 let selectedVoiceName;
 const synth = speechSynthesis;
 
-// const voiceList = document.querySelector("#voiceSelect");
+const voiceList = document.getElementById("voiceSelect");
 
-// export function voices() {
-//   voiceList.innerHTML = "";
-//   let availableVoices = synth.getVoices();
-//   let defaultVoice = getDefaultVoice(availableVoices);
+export function voices() {
+  voiceList.innerHTML = ""; // Очищаем текущие опции в списке
 
-//   availableVoices.forEach((voice) => {
-//     let selected = voice === defaultVoice ? "selected" : "";
+  let availableVoices = speechSynthesis.getVoices();
+  // let defaultVoice = getDefaultVoice(availableVoices);
 
-//     let option = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
+  availableVoices.forEach((voice) => {
+    let selected = voice === availableVoices ? "selected" : "";
+    let option = document.createElement("option");
+    option.value = voice.name;
+    option.textContent = `${voice.name} (${voice.lang})`;
+    option.selected = selected;
+    voiceList.appendChild(option);
+  });
 
-//     voiceList.insertAdjacentHTML("beforeend", option);
-
-//     selectedVoiceName = voiceList.value;
-//   });
-// }
+  // Устанавливаем выбранное значение (если нужно)
+  selectedVoiceName = voiceList.value;
+}
 
 const voicePlay = {
   getUtterance: function (text) {
@@ -51,9 +54,9 @@ const voicePlay = {
   },
 };
 
-// // обработка событий выбора голоса
-// voiceList.addEventListener("change", function () {
-//   selectedVoiceName = voiceList.value;
-// });
+// обработка событий выбора голоса
+voiceList.addEventListener("change", function () {
+  selectedVoiceName = voiceList.value;
+});
 
 export default voicePlay;
