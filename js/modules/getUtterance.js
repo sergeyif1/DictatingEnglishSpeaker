@@ -30,12 +30,12 @@ export function voices() {
     // voiceList.appendChild(option);
   });
 
-  selectedVoiceName = voiceList.value;
+  // selectedVoiceName = voiceList.value;
 }
 
 function getDefaultVoice(voices) {
   return voices.find(
-    (voice) => voice.lang === "en-US" || voice.lang === "en-GB"
+    (voice) => voice.lang === "(en-US)" || voice.lang === "(en-GB)"
   );
 }
 

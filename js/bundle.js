@@ -310,11 +310,12 @@ function voices() {
     // option.selected = selected;
     // voiceList.appendChild(option);
   });
-  selectedVoiceName = voiceList.value;
+
+  // selectedVoiceName = voiceList.value;
 }
 function getDefaultVoice(voices) {
   return voices.find(function (voice) {
-    return voice.lang === "en-US" || voice.lang === "en-GB";
+    return voice.lang === "(en-US)" || voice.lang === "(en-GB)";
   });
 }
 var voicePlay = {
