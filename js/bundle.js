@@ -290,28 +290,39 @@ document.addEventListener("keydown", function (event) {
     event.preventDefault();
   }
 });
+var voiceList = document.getElementById("voiceSelect");
 var selectedVoiceName;
 var synth = window.speechSynthesis;
-var voiceList = document.getElementById("voiceSelect");
 function voices() {
   voiceList.innerHTML = ""; // Очищаем текущие элементы в списке
 
   var availableVoices = synth.getVoices();
+  var defaultVoice = getDefaultVoice(availableVoices);
   availableVoices.forEach(function (voice) {
-    var selected = voice === availableVoices ? "selected" : "";
-    var option = document.createElement("option");
-    option.value = voice.name;
-    option.textContent = "".concat(voice.name, " (").concat(voice.lang, ")");
-    option.selected = selected;
-    voiceList.appendChild(option);
+    var selected = voice === defaultVoice ? "selected" : "";
+    var option = "<option value=\"".concat(voice.name, "\" ").concat(selected, ">").concat(voice.name, " (").concat(voice.lang, ")</option>");
+    voiceList.insertAdjacentHTML("beforeend", option);
+
+    // let selected = voice === availableVoices ? "selected" : "";
+    // let option = document.createElement("option");
+    // option.value = voice.name;
+    // option.textContent = `${voice.name} (${voice.lang})`;
+    // option.selected = selected;
+    // voiceList.appendChild(option);
   });
   selectedVoiceName = voiceList.value;
+}
+function getDefaultVoice(voices) {
+  return voices.find(function (voice) {
+    return voice.lang === "en-US" || voice.lang === "en-GB";
+  });
 }
 var voicePlay = {
   getUtterance: function getUtterance(text) {
     var rate = document.getElementById("speed").value;
     var pitch = document.getElementById("pitch").value;
     var availableVoices = synth.getVoices();
+    var selectedVoiceName = voiceList.value;
     if (availableVoices.length > 0) {
       var selectedVoice = availableVoices.find(function (voice) {
         return voice.name === selectedVoiceName;
@@ -392,13 +403,13 @@ var myModule = {
                       searchString = "\"id\": \"".concat(currentID, "\"");
                       startIndex = result.indexOf(searchString);
                       if (!(startIndex !== -1)) {
-                        _context.next = 31;
+                        _context.next = 32;
                         break;
                       }
                       startBracketIndex = result.lastIndexOf("{", startIndex);
                       endBracketIndex = result.indexOf("}", startIndex) + 1;
                       if (!(startBracketIndex !== -1 && endBracketIndex !== -1)) {
-                        _context.next = 28;
+                        _context.next = 29;
                         break;
                       }
                       dataChunk = result.substring(startBracketIndex, endBracketIndex);
@@ -425,22 +436,21 @@ var myModule = {
                     case 21:
                       initialSeconds = sec / 1000;
                       (0,_countdownTimer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(initialSeconds, initialSeconds);
-
-                      // speechSynthesis.cancel();
+                      window.speechSynthesis.cancel();
                       (0,_processLines_js__WEBPACK_IMPORTED_MODULE_0__["default"])(dataChunk);
-                      _context.next = 26;
+                      _context.next = 27;
                       return readNextString();
-                    case 26:
-                      _context.next = 29;
+                    case 27:
+                      _context.next = 30;
                       break;
-                    case 28:
-                      console.log("Начало или конец строки не найдены.");
                     case 29:
-                      _context.next = 32;
+                      console.log("Начало или конец строки не найдены.");
+                    case 30:
+                      _context.next = 33;
                       break;
-                    case 31:
-                      console.log("ID \"".concat(currentID, "\" \u041F\u0440\u0430\u0446\u0435\u0441\u0441 \u0437\u0430\u043A\u043E\u043D\u0447\u0435\u043D.\u0421\u043F\u0430\u0441\u0438\u0431\u043E!"));
                     case 32:
+                      console.log("ID \"".concat(currentID, "\" \u041F\u0440\u0430\u0446\u0435\u0441\u0441 \u0437\u0430\u043A\u043E\u043D\u0447\u0435\u043D.\u0421\u043F\u0430\u0441\u0438\u0431\u043E!"));
+                    case 33:
                     case "end":
                       return _context.stop();
                   }

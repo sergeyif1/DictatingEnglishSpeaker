@@ -84,7 +84,7 @@ const myModule = {
             const initialSeconds = sec / 1000;
             countdown(initialSeconds, initialSeconds);
 
-            speechSynthesis.cancel();
+            window.speechSynthesis.cancel();
             processLines(dataChunk);
 
             await readNextString();

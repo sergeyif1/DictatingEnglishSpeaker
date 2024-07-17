@@ -4,26 +4,39 @@ document.addEventListener("keydown", function (event) {
   }
 });
 
+const voiceList = document.getElementById("voiceSelect");
+
 let selectedVoiceName;
 const synth = window.speechSynthesis;
-
-const voiceList = document.getElementById("voiceSelect");
 
 export function voices() {
   voiceList.innerHTML = ""; // Очищаем текущие элементы в списке
 
   let availableVoices = synth.getVoices();
+  let defaultVoice = getDefaultVoice(availableVoices);
 
   availableVoices.forEach((voice) => {
-    let selected = voice === availableVoices ? "selected" : "";
-    let option = document.createElement("option");
-    option.value = voice.name;
-    option.textContent = `${voice.name} (${voice.lang})`;
-    option.selected = selected;
-    voiceList.appendChild(option);
+    let selected = voice === defaultVoice ? "selected" : "";
+
+    let option = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
+
+    voiceList.insertAdjacentHTML("beforeend", option);
+
+    // let selected = voice === availableVoices ? "selected" : "";
+    // let option = document.createElement("option");
+    // option.value = voice.name;
+    // option.textContent = `${voice.name} (${voice.lang})`;
+    // option.selected = selected;
+    // voiceList.appendChild(option);
   });
 
   selectedVoiceName = voiceList.value;
+}
+
+function getDefaultVoice(voices) {
+  return voices.find(
+    (voice) => voice.lang === "en-US" || voice.lang === "en-GB"
+  );
 }
 
 const voicePlay = {
@@ -32,6 +45,7 @@ const voicePlay = {
     const pitch = document.getElementById("pitch").value;
 
     const availableVoices = synth.getVoices();
+    const selectedVoiceName = voiceList.value;
 
     if (availableVoices.length > 0) {
       const selectedVoice = availableVoices.find(
