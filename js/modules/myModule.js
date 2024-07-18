@@ -1,5 +1,6 @@
 import processLines from "./processLines.js";
 import countdown from "./countdownTimer.js";
+import { getRequestAdd } from "./seleDictionary.js";
 
 let isPaused = false;
 let currentID = null;
@@ -15,9 +16,13 @@ const myModule = {
   },
 
   words: async function () {
+
+    const requestAdd = getRequestAdd();
+    console.log("Проверяем содержимое пути", requestAdd);
+
     const sec = Number(document.querySelector("#gap").value) * 1000;
     // 1. Указываем путь к файлу
-    const filePath = "../db.json";
+    const filePath = requestAdd;
     const foundObjects = [];
 
     try {
