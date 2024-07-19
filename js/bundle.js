@@ -703,27 +703,33 @@ __webpack_require__.r(__webpack_exports__);
 
 //запуск с обновлением списка доступных голосов
 window.speechSynthesis.onvoiceschanged = _modules_getUtterance_js__WEBPACK_IMPORTED_MODULE_3__.voices;
-
-const but1 = document.getElementById("but1");
-const but2 = document.getElementById("but2");
-const but5 = document.getElementById("but5");
-const resumeButton = document.getElementById("resumeButton");
-
-but1.addEventListener("click", (event) => {
+var but1 = document.getElementById("but1");
+var but2 = document.getElementById("but2");
+var but3 = document.getElementById("but3");
+var but5 = document.getElementById("but5");
+var resumeButton = document.getElementById("resumeButton");
+but1.addEventListener("click", function (event) {
   _modules_buttonsClickHandlerPlay_js__WEBPACK_IMPORTED_MODULE_1__["default"].handleClick1(event);
 });
-but2.addEventListener("click", (event) => {
+but2.addEventListener("click", function (event) {
   _modules_buttonsClickHandlerPlay_js__WEBPACK_IMPORTED_MODULE_1__["default"].handleClick1(event);
 });
-but5.addEventListener("click", (event) => {
+but5.addEventListener("click", function (event) {
   _modules_buttonsClickHandlerPauseResume_js__WEBPACK_IMPORTED_MODULE_2__["default"].handleClick2(event);
 });
-resumeButton.addEventListener("click", (event) => {
+resumeButton.addEventListener("click", function (event) {
   _modules_buttonsClickHandlerPauseResume_js__WEBPACK_IMPORTED_MODULE_2__["default"].handleClick2(event);
 });
-
+but3.addEventListener("click", function () {
+  setTimeout(function () {
+    location.reload();
+  }, 1000);
+});
 (0,_modules_controlCheckBox_js__WEBPACK_IMPORTED_MODULE_0__["default"])();
 
+// setTimeout(() => {
+//   location.reload();
+// }, 2000)
 })();
 
 /******/ })()

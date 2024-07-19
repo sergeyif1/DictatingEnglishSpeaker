@@ -8,6 +8,7 @@ window.speechSynthesis.onvoiceschanged = voices;
 
 const but1 = document.getElementById("but1");
 const but2 = document.getElementById("but2");
+const but3 = document.getElementById("but3");
 const but5 = document.getElementById("but5");
 const resumeButton = document.getElementById("resumeButton");
 
@@ -24,4 +25,16 @@ resumeButton.addEventListener("click", (event) => {
   buttonsClickHandlerPauseResume.handleClick2(event);
 });
 
+but3.addEventListener("click", () => {
+  setTimeout(() => {
+    location.reload()
+  }, 1000);
+});
+
 controlCheckBox();
+
+
+
+// setTimeout(() => {
+//   location.reload();
+// }, 2000)
