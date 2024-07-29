@@ -560,7 +560,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
 
 
-var text, vaar1, vaar2;
+var text, vaarId, vaar1, vaar2;
 function processLines(_x) {
   return _processLines.apply(this, arguments);
 }
@@ -576,12 +576,12 @@ function _processLines() {
           if (currentButton1 === "but1" || currentButton1 === "but1" && _buttonsClickHandlerPauseResume_js__WEBPACK_IMPORTED_MODULE_1__.currentButton2 === "resumeButton") {
             text = "".concat(name);
             console.log("".concat(id, " - ").concat(text));
-            addItemToList(vaar1 = name, vaar2 = title);
+            addItemToList(vaarId = id, vaar1 = name, vaar2 = title);
           }
           if (currentButton1 === "but2" || currentButton1 === "but2" && _buttonsClickHandlerPauseResume_js__WEBPACK_IMPORTED_MODULE_1__.currentButton2 === "resumeButton") {
             text = "".concat(title);
             console.log("".concat(id, " - ").concat(text));
-            addItemToList(vaar1 = title, vaar2 = name);
+            addItemToList(vaarId = id, vaar1 = title, vaar2 = name);
           }
           document.getElementById("text1").value = "".concat(id, " - ").concat(name);
           document.getElementById("text2").value = "".concat(id, " - ").concat(title);
@@ -598,11 +598,11 @@ function _processLines() {
   }));
   return _processLines.apply(this, arguments);
 }
-function addItemToList(vaar1, vaar2) {
+function addItemToList(vaarId, vaar1, vaar2) {
   var text3 = document.getElementById("text3");
   if (text3) {
     var listItem = document.createElement("li");
-    listItem.textContent = "".concat(vaar1, " - ").concat(vaar2);
+    listItem.textContent = "".concat(vaarId, " - ").concat(vaar1, " - ").concat(vaar2);
     text3.appendChild(listItem);
   }
 
