@@ -2,7 +2,7 @@ import { getCurrentButton1 } from "./buttonsClickHandlerPlay.js";
 import { currentButton2 } from "./buttonsClickHandlerPauseResume.js";
 import voicePlay from "./getUtterance.js";
 
-let text;
+let text, vaar1, vaar2;
 
 async function processLines(dataChunk) {
   const currentButton1 = getCurrentButton1();
@@ -17,6 +17,7 @@ async function processLines(dataChunk) {
   ) {
     text = `${name}`;
     console.log(`${id} - ${text}`);
+    addItemToList(vaar1 = name, vaar2 = title);
   }
 
   if (
@@ -25,15 +26,35 @@ async function processLines(dataChunk) {
   ) {
     text = `${title}`;
     console.log(`${id} - ${text}`);
+    addItemToList(vaar1 = title, vaar2 = name);
   }
 
   document.getElementById("text1").value = `${id} - ${name}`;
   document.getElementById("text2").value = `${id} - ${title}`;
+
   document.cookie = `id=${id}; path=/`;
 
   // Вызов voicePlay.getUtterance для воспроизведения текста
   const utterance = voicePlay.getUtterance(text);
   window.speechSynthesis.speak(utterance);
+}
+
+function addItemToList(vaar1, vaar2) {
+  const text3 = document.getElementById("text3");
+  if (text3) {
+    const listItem = document.createElement("li");
+
+    listItem.textContent = `${vaar1} - ${vaar2}`;
+    text3.appendChild(listItem);
+  }
+
+  // const text3 = document.getElementById("text3");
+  // if (text3) {
+  //   const listItem = document.createElement("li");
+  //   listItem.textContent = `${vaar1} - ${vaar2}`;
+
+  //   list.appendChild(listItem);
+  // }
 }
 
 export default processLines;
