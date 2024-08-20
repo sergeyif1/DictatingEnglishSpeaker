@@ -22,15 +22,7 @@ export function voices() {
 
     voiceList.insertAdjacentHTML("beforeend", option);
 
-    // let selected = voice === availableVoices ? "selected" : "";
-    // let option = document.createElement("option");
-    // option.value = voice.name;
-    // option.textContent = `${voice.name} (${voice.lang})`;
-    // option.selected = selected;
-    // voiceList.appendChild(option);
   });
-
-  // selectedVoiceName = voiceList.value;
 }
 
 function getDefaultVoice(voices) {

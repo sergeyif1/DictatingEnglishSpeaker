@@ -47,14 +47,6 @@ function addItemToList(vaarId, vaar1, vaar2) {
     listItem.textContent = `${vaarId} - ${vaar1} - ${vaar2}`;
     text3.appendChild(listItem);
   }
-
-  // const text3 = document.getElementById("text3");
-  // if (text3) {
-  //   const listItem = document.createElement("li");
-  //   listItem.textContent = `${vaar1} - ${vaar2}`;
-
-  //   list.appendChild(listItem);
-  // }
 }
 
 export default processLines;

@@ -605,14 +605,6 @@ function addItemToList(vaarId, vaar1, vaar2) {
     listItem.textContent = "".concat(vaarId, " - ").concat(vaar1, " - ").concat(vaar2);
     text3.appendChild(listItem);
   }
-
-  // const text3 = document.getElementById("text3");
-  // if (text3) {
-  //   const listItem = document.createElement("li");
-  //   listItem.textContent = `${vaar1} - ${vaar2}`;
-
-  //   list.appendChild(listItem);
-  // }
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (processLines);
 

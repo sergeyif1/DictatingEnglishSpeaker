@@ -34,7 +34,3 @@ but3.addEventListener("click", () => {
 controlCheckBox();
 
 
-
-// setTimeout(() => {
-//   location.reload();
-// }, 2000)
