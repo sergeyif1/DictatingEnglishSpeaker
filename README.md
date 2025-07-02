@@ -128,3 +128,5 @@ and
             <li>Launch the project according to the standard procedure for your server.</li>
         </ul>
         
+<h3 align="center">Support</h3>
+        <p><strong>Е-Mail:</strong> <a href="mailto:sergeyif1@gmail.com" class="link">sergeyif1@gmail.com</a></p>
