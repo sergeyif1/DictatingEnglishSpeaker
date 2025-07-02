@@ -3,17 +3,19 @@
         </h1>
 <h3 align="center">This is an application for my portfolio</h3> 
 
-          <h3 align="center">👀 What is this and what is it for?</h3>
-        <p>This is an application for learning English. I'm making it for myself. It dictates and displays English words
-            and phrases with their translations on the screen. A dictation mode is available in both English and
-            Russian. There are various settings:</p>
-        <ul>
-            <li><span class="highlight">Playback Speed</span></li>
-            <li><span class="highlight">Voice Tone</span></li>
-            <li><span class="highlight">Pause Between Words</span></li>
-            <li><span class="highlight">2 Modes to Start</span></li>
-            <li><span class="highlight">Number of Words from the Starting Point</span></li>
-        </ul>
+[🌐 Project Deployment](https://dictating-english-speaker.vercel.app/)
+
+<h3 align="center">👀 What is this and what is it for?</h3>
+<p>This is an application for learning English. I'm making it for myself. It dictates and displays English words
+and phrases with their translations on the screen. A dictation mode is available in both English and
+Russian. There are various settings:</p>
+<ul>
+<li><span class="highlight">Playback Speed</span></li>
+<li><span class="highlight">Voice Tone</span></li>
+<li><span class="highlight">Pause Between Words</span></li>
+<li><span class="highlight">2 Modes to Start</span></li>
+<li><span class="highlight">Number of Words from the Starting Point</span></li>
+</ul>
 <h3 align="center">🛠 Project Description for Portfolio</h3>
 <p>Technology stack in the project:</p>
 <ul>
