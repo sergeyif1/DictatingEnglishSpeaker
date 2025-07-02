@@ -3,7 +3,7 @@
         </h1>
 <h3 align="center">This is an application for my portfolio</h3> 
 
-<br>[🌐 Project Deployment](https://dictating-english-speaker.vercel.app/)
+[🌐 Project Deployment](https://dictating-english-speaker.vercel.app/)
 
           <h3 align="center">👀 What is this and what is it for?</h3>
         <p>This is an application for learning English. I'm making it for myself. It dictates and displays English words
