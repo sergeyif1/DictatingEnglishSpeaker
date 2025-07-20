@@ -302,16 +302,7 @@ function voices() {
     var selected = voice === defaultVoice ? "selected" : "";
     var option = "<option value=\"".concat(voice.name, "\" ").concat(selected, ">").concat(voice.name, " (").concat(voice.lang, ")</option>");
     voiceList.insertAdjacentHTML("beforeend", option);
-
-    // let selected = voice === availableVoices ? "selected" : "";
-    // let option = document.createElement("option");
-    // option.value = voice.name;
-    // option.textContent = `${voice.name} (${voice.lang})`;
-    // option.selected = selected;
-    // voiceList.appendChild(option);
   });
-
-  // selectedVoiceName = voiceList.value;
 }
 function getDefaultVoice(voices) {
   return voices.find(function (voice) {
@@ -632,6 +623,12 @@ seleDictionary.addEventListener("change", function () {
   if (seleDictionary.value === "English dictionary") {
     requestAdd = "../dbEn.json";
   }
+  if (seleDictionary.value === "Griechικό λεξικό") {
+    requestAdd = "../dbGr.json";
+  }
+  if (seleDictionary.value === "Polskie słownictwo") {
+    requestAdd = "../dbPl.json";
+  }
 });
 function getRequestAdd() {
   return requestAdd;
@@ -736,10 +733,6 @@ but3.addEventListener("click", function () {
   }, 1000);
 });
 (0,_modules_controlCheckBox_js__WEBPACK_IMPORTED_MODULE_0__["default"])();
-
-// setTimeout(() => {
-//   location.reload();
-// }, 2000)
 })();
 
 /******/ })()
