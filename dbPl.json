@@ -1,0 +1,1184 @@
+{
+  "dictionary": [
+    {
+      "id": "20",
+      "name": "dżem",
+      "title": "варенье"
+    },
+    {
+      "id": "21",
+      "name": "dzień",
+      "title": "день"
+    },
+    {
+      "id": "22",
+      "name": "niebieski",
+      "title": "синий"
+    },
+    {
+      "id": "23",
+      "name": "nastrój",
+      "title": "настроение"
+    },
+    {
+      "id": "24",
+      "name": "interesujący",
+      "title": "интересный"
+    },
+    {
+      "id": "25",
+      "name": "jaki, jaka, jakie",
+      "title": "какой, какая, какое"
+    },
+    {
+      "id": "26",
+      "name": "język",
+      "title": "язык"
+    },
+    {
+      "id": "27",
+      "name": "książka",
+      "title": "книга"
+    },
+    {
+      "id": "28",
+      "name": "filiżanka",
+      "title": "чашка"
+    },
+    {
+      "id": "29",
+      "name": "piękny",
+      "title": "красивый"
+    },
+    {
+      "id": "30",
+      "name": "miasto",
+      "title": "город"
+    },
+    {
+      "id": "31",
+      "name": "miesiąc",
+      "title": "месяц"
+    },
+    {
+      "id": "32",
+      "name": "młody",
+      "title": "молодой"
+    },
+    {
+      "id": "33",
+      "name": "mój, moja, moje",
+      "title": "мой, моя, моё"
+    },
+    {
+      "id": "34",
+      "name": "morze",
+      "title": "море"
+    },
+    {
+      "id": "35",
+      "name": "mucha",
+      "title": "муха"
+    },
+    {
+      "id": "36",
+      "name": "następny",
+      "title": "следующий"
+    },
+    {
+      "id": "37",
+      "name": "nasz, naszego, nasi",
+      "title": "наш, нашего, наши"
+    },
+    {
+      "id": "38",
+      "name": "nazywać się",
+      "title": "называться"
+    },
+    {
+      "id": "39",
+      "name": "błękitny",
+      "title": "голубой"
+    },
+    {
+      "id": "40",
+      "name": "niski",
+      "title": "низкий"
+    },
+    {
+      "id": "41",
+      "name": "nowy",
+      "title": "новый"
+    },
+    {
+      "id": "42",
+      "name": "pan",
+      "title": "обращение к мужчине"
+    },
+    {
+      "id": "43",
+      "name": "pani",
+      "title": "обращение к женщине"
+    },
+    {
+      "id": "44",
+      "name": "pies",
+      "title": "собака"
+    },
+    {
+      "id": "45",
+      "name": "pieski",
+      "title": "собачки"
+    },
+    {
+      "id": "46",
+      "name": "pokój",
+      "title": "комната"
+    },
+    {
+      "id": "47",
+      "name": "polski",
+      "title": "польский"
+    },
+    {
+      "id": "48",
+      "name": "przystojny",
+      "title": "красивый о мужчине"
+    },
+    {
+      "id": "49",
+      "name": "siostra",
+      "title": "сестра"
+    },
+    {
+      "id": "50",
+      "name": "stary",
+      "title": "старый"
+    },
+    {
+      "id": "51",
+      "name": "święto",
+      "title": "праздник"
+    },
+    {
+      "id": "52",
+      "name": "świeży",
+      "title": "свежий"
+    },
+    {
+      "id": "53",
+      "name": "sympatyczny",
+      "title": "симпатичный"
+    },
+    {
+      "id": "54",
+      "name": "snów",
+      "title": "снов"
+    },
+    {
+      "id": "55",
+      "name": "tamten, tamta, tamto",
+      "title": "тот, та, то"
+    },
+    {
+      "id": "56",
+      "name": "ten, ta, to",
+      "title": "это, эта, это"
+    },
+    {
+      "id": "57",
+      "name": "też",
+      "title": "тоже"
+    },
+    {
+      "id": "58",
+      "name": "twój, twoja, twoje",
+      "title": "твой, твоя, твоё"
+    },
+    {
+      "id": "59",
+      "name": "wasz, wasza, wasze",
+      "title": "ваш, ваша, ваше"
+    },
+    {
+      "id": "60",
+      "name": "wyszło okej",
+      "title": "вышел о'кей"
+    },
+    {
+      "id": "61",
+      "name": "zajęcia",
+      "title": "занятия"
+    },
+    {
+      "id": "62",
+      "name": "ząb",
+      "title": "зуб"
+    },
+    {
+      "id": "63",
+      "name": "zielony",
+      "title": "зелёный"
+    },
+    {
+      "id": "64",
+      "name": "ziemia",
+      "title": "земля"
+    },
+    {
+      "id": "65",
+      "name": "żółty",
+      "title": "жёлтый"
+    },
+    {
+      "id": "66",
+      "name": "dzień dobry",
+      "title": "здравствуйте"
+    },
+    {
+      "id": "67",
+      "name": "dzień dobry",
+      "title": "Добрый день"
+    },
+    {
+      "id": "68",
+      "name": "dobry wieczór",
+      "title": "Добрый вечер"
+    },
+    {
+      "id": "69",
+      "name": "cześć",
+      "title": "привет"
+    },
+    {
+      "id": "70",
+      "name": "do widzenia",
+      "title": "до свидания"
+    },
+    {
+      "id": "71",
+      "name": "do zobaczenia",
+      "title": "до скорого свидание"
+    },
+    {
+      "id": "72",
+      "name": "dobranoc",
+      "title": "спокойной ночи"
+    },
+    {
+      "id": "73",
+      "name": "do jutra",
+      "title": "до завтра"
+    },
+    {
+      "id": "74",
+      "name": "jak się pan/pani nazywa",
+      "title": "как вас зовут"
+    },
+    {
+      "id": "75",
+      "name": "nazywam się...",
+      "title": "меня зовут так-то"
+    },
+    {
+      "id": "76",
+      "name": "mam na imię...",
+      "title": "меня зовут"
+    },
+    {
+      "id": "77",
+      "name": "miło mi",
+      "title": "очень приятно"
+    },
+    {
+      "id": "78",
+      "name": "bardzo mi miło",
+      "title": "очень приятно"
+    },
+    {
+      "id": "79",
+      "name": "jak masz na imię",
+      "title": "как тебя зовут"
+    },
+    {
+      "id": "80",
+      "name": "przepraszam",
+      "title": "извините"
+    },
+    {
+      "id": "81",
+      "name": "dziękuję",
+      "title": "спасибо"
+    },
+    {
+      "id": "82",
+      "name": "proszę",
+      "title": "пожалуйста"
+    },
+    {
+      "id": "83",
+      "name": "co słychać",
+      "title": "что у вас слышно"
+    },
+    {
+      "id": "84",
+      "name": "jak żyjesz",
+      "title": "как живёшь"
+    },
+    {
+      "id": "85",
+      "name": "jak się masz",
+      "title": "как дела"
+    },
+    {
+      "id": "86",
+      "name": "dziękuję",
+      "title": "спасибо"
+    },
+    {
+      "id": "87",
+      "name": "wszystko w porządku",
+      "title": "всё в порядке"
+    },
+    {
+      "id": "88",
+      "name": "wspaniale",
+      "title": "прекрасно"
+    },
+    {
+      "id": "89",
+      "name": "bardzo dobrze",
+      "title": "очень хорошо"
+    },
+    {
+      "id": "90",
+      "name": "nieźle",
+      "title": "неплохо"
+    },
+    {
+      "id": "91",
+      "name": "tak sobie",
+      "title": "так себе"
+    },
+    {
+      "id": "92",
+      "name": "źle",
+      "title": "плохо"
+    },
+    {
+      "id": "93",
+      "name": "po staremu",
+      "title": "по-старому"
+    },
+    {
+      "id": "94",
+      "name": "nic nowego",
+      "title": "ничего нового"
+    },
+    {
+      "id": "95",
+      "name": "ale",
+      "title": "но"
+    },
+    {
+      "id": "96",
+      "name": "artykuł",
+      "title": "статья"
+    },
+    {
+      "id": "97",
+      "name": "autobusowy",
+      "title": "автобусный"
+    },
+    {
+      "id": "98",
+      "name": "Billy",
+      "title": "Билли"
+    },
+    {
+      "id": "99",
+      "name": "chusteczka",
+      "title": "платочек"
+    },
+    {
+      "id": "100",
+      "name": "czasopismo",
+      "title": "журнал"
+    },
+    {
+      "id": "101",
+      "name": "często",
+      "title": "часто"
+    },
+    {
+      "id": "102",
+      "name": "czytać",
+      "title": "читать"
+    },
+    {
+      "id": "103",
+      "name": "długopis",
+      "title": "шариковая ручка"
+    },
+    {
+      "id": "104",
+      "name": "dobry",
+      "title": "хороший"
+    },
+    {
+      "id": "105",
+      "name": "dobrze",
+      "title": "хорошо"
+    },
+    {
+      "id": "106",
+      "name": "dziecko",
+      "title": "ребёнок"
+    },
+    {
+      "id": "107",
+      "name": "film",
+      "title": "фильм"
+    },
+    {
+      "id": "108",
+      "name": "gazeta",
+      "title": "газета"
+    },
+    {
+      "id": "109",
+      "name": "grać",
+      "title": "играть"
+    },
+    {
+      "id": "110",
+      "name": "grzeczny",
+      "title": "вежливый, послушный"
+    },
+    {
+      "id": "111",
+      "name": "higieniczny",
+      "title": "гигиенический"
+    },
+    {
+      "id": "112",
+      "name": "historia",
+      "title": "история"
+    },
+    {
+      "id": "113",
+      "name": "mądry",
+      "title": "умный"
+    },
+    {
+      "id": "114",
+      "name": "inżynier",
+      "title": "инженер"
+    },
+    {
+      "id": "115",
+      "name": "jeszcze",
+      "title": "ещё"
+    },
+    {
+      "id": "116",
+      "name": "kalendarz",
+      "title": "календарь"
+    },
+    {
+      "id": "117",
+      "name": "karta",
+      "title": "карточка"
+    },
+    {
+      "id": "118",
+      "name": "żart",
+      "title": "шутка, анекдот"
+    },
+    {
+      "id": "119",
+      "name": "każdy",
+      "title": "каждый"
+    },
+    {
+      "id": "120",
+      "name": "kierowca",
+      "title": "шофёр"
+    },
+    {
+      "id": "121",
+      "name": "kolorowy",
+      "title": "разноцветный"
+    },
+    {
+      "id": "122",
+      "name": "lekarka",
+      "title": "женщина-врач"
+    },
+    {
+      "id": "123",
+      "name": "lekarz",
+      "title": "врач"
+    },
+    {
+      "id": "124",
+      "name": "nauczyciel",
+      "title": "учитель"
+    },
+    {
+      "id": "125",
+      "name": "nauczycielka",
+      "title": "учительница"
+    },
+    {
+      "id": "126",
+      "name": "gotować",
+      "title": "готовить"
+    },
+    {
+      "id": "127",
+      "name": "oczywiście",
+      "title": "конечно"
+    },
+    {
+      "id": "128",
+      "name": "oglądać",
+      "title": "осматривать, смотреть"
+    },
+    {
+      "id": "129",
+      "name": "opowiadać",
+      "title": "рассказывать"
+    },
+    {
+      "id": "130",
+      "name": "pamiętać",
+      "title": "помнить"
+    },
+    {
+      "id": "131",
+      "name": "papierosy",
+      "title": "сигареты"
+    },
+    {
+      "id": "132",
+      "name": "pielęgniarka",
+      "title": "медсестра"
+    },
+    {
+      "id": "133",
+      "name": "piosenka",
+      "title": "песня"
+    },
+    {
+      "id": "134",
+      "name": "pisarka",
+      "title": "писательница"
+    },
+    {
+      "id": "135",
+      "name": "pisarz",
+      "title": "писатель"
+    },
+    {
+      "id": "136",
+      "name": "policjant",
+      "title": "полицейский"
+    },
+    {
+      "id": "137",
+      "name": "pracowity",
+      "title": "трудолюбивый"
+    },
+    {
+      "id": "138",
+      "name": "program",
+      "title": "программа"
+    },
+    {
+      "id": "139",
+      "name": "przeczytać",
+      "title": "прочитать"
+    },
+    {
+      "id": "140",
+      "name": "pracownica",
+      "title": "работница"
+    },
+    {
+      "id": "141",
+      "name": "pracownik",
+      "title": "рабочий"
+    },
+    {
+      "id": "142",
+      "name": "rolnik",
+      "title": "земледелец"
+    },
+    {
+      "id": "143",
+      "name": "rozmawiać",
+      "title": "разговаривать"
+    },
+    {
+      "id": "144",
+      "name": "rozumieć",
+      "title": "понимать"
+    },
+    {
+      "id": "145",
+      "name": "różny",
+      "title": "разный"
+    },
+    {
+      "id": "146",
+      "name": "rzadko",
+      "title": "редко"
+    },
+    {
+      "id": "147",
+      "name": "słowo",
+      "title": "слово"
+    },
+    {
+      "id": "148",
+      "name": "spotkać się",
+      "title": "встретиться"
+    },
+    {
+      "id": "149",
+      "name": "spotykać się",
+      "title": "встречаться"
+    },
+    {
+      "id": "150",
+      "name": "sprawdzać",
+      "title": "проверять"
+    },
+    {
+      "id": "151",
+      "name": "student",
+      "title": "студент"
+    },
+    {
+      "id": "152",
+      "name": "studentka",
+      "title": "студентка"
+    },
+    {
+      "id": "153",
+      "name": "śpiewać",
+      "title": "петь"
+    },
+    {
+      "id": "154",
+      "name": "telefoniczny",
+      "title": "телефонный"
+    },
+    {
+      "id": "155",
+      "name": "telewizja",
+      "title": "телевидение"
+    },
+    {
+      "id": "156",
+      "name": "teraz",
+      "title": "сейчас"
+    },
+    {
+      "id": "157",
+      "name": "troskliwy",
+      "title": "заботливый"
+    },
+    {
+      "id": "158",
+      "name": "uczennica",
+      "title": "ученица"
+    },
+    {
+      "id": "159",
+      "name": "uczeń",
+      "title": "ученик"
+    },
+    {
+      "id": "160",
+      "name": "umieć",
+      "title": "уметь"
+    },
+    {
+      "id": "161",
+      "name": "urzędniczka",
+      "title": "служащая"
+    },
+    {
+      "id": "162",
+      "name": "urzędnik",
+      "title": "служащий"
+    },
+    {
+      "id": "163",
+      "name": "utalentowany",
+      "title": "талантливый"
+    },
+    {
+      "id": "164",
+      "name": "widokówka",
+      "title": "открытка"
+    },
+    {
+      "id": "165",
+      "name": "wkrótce",
+      "title": "скоро"
+    },
+    {
+      "id": "166",
+      "name": "wszystko",
+      "title": "всё"
+    },
+    {
+      "id": "167",
+      "name": "wykładowca",
+      "title": "преподаватель"
+    },
+    {
+      "id": "168",
+      "name": "wykształcony",
+      "title": "образованный"
+    },
+    {
+      "id": "169",
+      "name": "zadanie",
+      "title": "задание"
+    },
+    {
+      "id": "170",
+      "name": "zapałka",
+      "title": "спичка"
+    },
+    {
+      "id": "171",
+      "name": "zaśpiewać",
+      "title": "запеть"
+    },
+    {
+      "id": "172",
+      "name": "zdolny",
+      "title": "способный"
+    },
+    {
+      "id": "173",
+      "name": "zeszyt",
+      "title": "тетрадь"
+    },
+    {
+      "id": "174",
+      "name": "zły",
+      "title": "плохой"
+    },
+    {
+      "id": "175",
+      "name": "źle",
+      "title": "плохо"
+    },
+    {
+      "id": "176",
+      "name": "pielęgniarka",
+      "title": "медсестра"
+    },
+    {
+      "id": "177",
+      "name": "dobry",
+      "title": "хороший"
+    },
+    {
+      "id": "178",
+      "name": "grzeczny",
+      "title": "вежливый"
+    },
+    {
+      "id": "179",
+      "name": "o słonecznych",
+      "title": "про солнечные"
+    },
+    {
+      "id": "180",
+      "name": "mądry",
+      "title": "умный"
+    },
+    {
+      "id": "181",
+      "name": "zdolny",
+      "title": "способный"
+    },
+    {
+      "id": "182",
+      "name": "troskliwy",
+      "title": "заботливый"
+    },
+    {
+      "id": "183",
+      "name": "ambitny",
+      "title": "честолюбивый"
+    },
+    {
+      "id": "184",
+      "name": "wykształcony",
+      "title": "образованный"
+    },
+    {
+      "id": "185",
+      "name": "higieniczny",
+      "title": "гигиенический"
+    },
+    {
+      "id": "186",
+      "name": "karta telefoniczna",
+      "title": "телефонная карточка"
+    },
+    {
+      "id": "187",
+      "name": "bilet autobusowy",
+      "title": "автобусный билет"
+    },
+    {
+      "id": "188",
+      "name": "chusteczka higieniczna",
+      "title": "гигиенический платочек"
+    },
+    {
+      "id": "189",
+      "name": "kolorowa widokówka",
+      "title": "цветная открытка"
+    },
+    {
+      "id": "190",
+      "name": "ciekawy czasopismo",
+      "title": "интересный журнал"
+    },
+    {
+      "id": "191",
+      "name": "świeża gazeta",
+      "title": "свежая газета"
+    },
+    {
+      "id": "192",
+      "name": "czarny zeszyt",
+      "title": "чёрная тетрадь"
+    },
+    {
+      "id": "193",
+      "name": "proszę dać",
+      "title": "дайте пожалуйста"
+    },
+    {
+      "id": "194",
+      "name": "ten długopis",
+      "title": "ту шариковую ручку"
+    },
+    {
+      "id": "195",
+      "name": "tamtą widokówkę",
+      "title": "вот ту открытку"
+    },
+    {
+      "id": "196",
+      "name": "dzień dobry",
+      "title": "здравствуйте"
+    },
+    {
+      "id": "197",
+      "name": "dzień dobry. proszę dać pocztówkę",
+      "title": "здравствуйте. дайте пожалуйста открытку"
+    },
+    {
+      "id": "198",
+      "name": "którą pocztówkę – tę czy tamtą",
+      "title": "какую открытку эту или ту"
+    },
+    {
+      "id": "199",
+      "name": "tamtą kolorową pocztówkę",
+      "title": "ту цветную открытку"
+    },
+    {
+      "id": "200",
+      "name": "proszę",
+      "title": "пожалуйста"
+    },
+    {
+      "id": "201",
+      "name": "dziękuję",
+      "title": "спасибо"
+    },
+    {
+      "id": "202",
+      "name": "czy są zapałki",
+      "title": "есть ли спички"
+    },
+    {
+      "id": "203",
+      "name": "tak, są",
+      "title": "да есть"
+    },
+    {
+      "id": "204",
+      "name": "proszę dać zapałki",
+      "title": "дайте пожалуйста спички"
+    },
+    {
+      "id": "205",
+      "name": "proszę",
+      "title": "пожалуйста"
+    },
+    {
+      "id": "206",
+      "name": "czy jest świeża gazeta",
+      "title": "есть ли свежая газета"
+    },
+    {
+      "id": "207",
+      "name": "tak",
+      "title": "да"
+    },
+    {
+      "id": "208",
+      "name": "proszę dać świeżą gazetę",
+      "title": "дайте пожалуйста свежую газету"
+    },
+    {
+      "id": "209",
+      "name": "proszę",
+      "title": "пожалуйста"
+    },
+    {
+      "id": "210",
+      "name": "dziękuję, do widzenia",
+      "title": "спасибо до свидания"
+    },
+    {
+      "id": "211",
+      "name": "dzień dobry",
+      "title": "здравствуйте"
+    },
+    {
+      "id": "212",
+      "name": "dzień dobry, czy są bilety autobusowe",
+      "title": "здравствуйте есть ли автобусные билеты"
+    },
+    {
+      "id": "213",
+      "name": "tak, są",
+      "title": "да есть"
+    },
+    {
+      "id": "214",
+      "name": "proszę dać bilet autobusowy i długopis",
+      "title": "дайте пожалуйста автобусный билет и шариковую ручку"
+    },
+    {
+      "id": "215",
+      "name": "który długopis",
+      "title": "какую ручку"
+    },
+    {
+      "id": "216",
+      "name": "proszę dać czerwony długopis i jeszcze kartę telefoniczną",
+      "title": "дайте пожалуйста красную шариковую ручку и ещё карточку"
+    },
+    {
+      "id": "217",
+      "name": "proszę",
+      "title": "пожалуйста"
+    },
+    {
+      "id": "218",
+      "name": "dziękuję, do widzenia",
+      "title": "спасибо до свидания"
+    },
+    {
+      "id": "219",
+      "name": "czytać",
+      "title": "читать"
+    },
+    {
+      "id": "220",
+      "name": "przeczytać",
+      "title": "прочитать"
+    },
+    {
+      "id": "221",
+      "name": "oglądać",
+      "title": "рассматривать, смотреть"
+    },
+    {
+      "id": "222",
+      "name": "grać",
+      "title": "играть"
+    },
+    {
+      "id": "223",
+      "name": "odrabiać lekcje",
+      "title": "готовить уроки"
+    },
+    {
+      "id": "224",
+      "name": "opowiadać",
+      "title": "рассказывать"
+    },
+    {
+      "id": "225",
+      "name": "pamiętać",
+      "title": "помнить"
+    },
+    {
+      "id": "226",
+      "name": "sprawdzać",
+      "title": "проверять"
+    },
+    {
+      "id": "227",
+      "name": "spotykać się",
+      "title": "встречаться"
+    },
+    {
+      "id": "228",
+      "name": "spotkać się",
+      "title": "встретиться"
+    },
+    {
+      "id": "229",
+      "name": "umieć",
+      "title": "уметь"
+    },
+    {
+      "id": "230",
+      "name": "rozmawiać",
+      "title": "разговаривать"
+    },
+    {
+      "id": "231",
+      "name": "porozmawiać",
+      "title": "поговорить"
+    },
+    {
+      "id": "232",
+      "name": "rozumieć",
+      "title": "понимать"
+    },
+    {
+      "id": "233",
+      "name": "zrozumieć",
+      "title": "понять"
+    },
+    {
+      "id": "234",
+      "name": "artykuł",
+      "title": "статья"
+    },
+    {
+      "id": "235",
+      "name": "słowo",
+      "title": "слово"
+    },
+    {
+      "id": "236",
+      "name": "każdy",
+      "title": "каждый"
+    },
+    {
+      "id": "237",
+      "name": "program",
+      "title": "программа"
+    },
+    {
+      "id": "238",
+      "name": "teraz",
+      "title": "сейчас"
+    },
+    {
+      "id": "239",
+      "name": "zadanie",
+      "title": "задание"
+    },
+    {
+      "id": "240",
+      "name": "wkrótce",
+      "title": "скоро"
+    },
+    {
+      "id": "241",
+      "name": "różny",
+      "title": "разный"
+    },
+    {
+      "id": "242",
+      "name": "często",
+      "title": "часто"
+    },
+    {
+      "id": "243",
+      "name": "źle",
+      "title": "плохо"
+    },
+    {
+      "id": "244",
+      "name": "dobrze",
+      "title": "хорошо"
+    },
+    {
+      "id": "245",
+      "name": "co to jest",
+      "title": "что это"
+    },
+    {
+      "id": "246",
+      "name": "to jest miasto",
+      "title": "это город"
+    },
+    {
+      "id": "247",
+      "name": "kto to jest",
+      "title": "кто это"
+    },
+    {
+      "id": "248",
+      "name": "to jest człowiek",
+      "title": "это человек"
+    },
+    {
+      "id": "249",
+      "name": "co",
+      "title": "что"
+    },
+    {
+      "id": "250",
+      "name": "to jest biurko",
+      "title": "это письменный стол"
+    },
+    {
+      "id": "251",
+      "name": "kto to jest",
+      "title": "кто это"
+    },
+    {
+      "id": "252",
+      "name": "to jest dziewczyna",
+      "title": "это девушка"
+    },
+    {
+      "id": "253",
+      "name": "to też",
+      "title": "это тоже"
+    },
+    {
+      "id": "254",
+      "name": "weź",
+      "title": "возьми"
+    },
+    {
+      "id": "255",
+      "name": "chodź tutaj",
+      "title": "иди сюда"
+    },
+  ]
+}

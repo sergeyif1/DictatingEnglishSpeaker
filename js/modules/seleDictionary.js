@@ -7,14 +7,20 @@ if (seleDictionary.value === "English dictionary") {
 }
 
 seleDictionary.addEventListener("change", function () {
-    if (seleDictionary.value === "Deutsch Wörterbuch") {
-        requestAdd = "../dbDeu.json";
-    }
-    if (seleDictionary.value === "English dictionary") {
-        requestAdd = "../dbEn.json";
-    }
+  if (seleDictionary.value === "Deutsch Wörterbuch") {
+    requestAdd = "../dbDeu.json";
+  }
+  if (seleDictionary.value === "English dictionary") {
+    requestAdd = "../dbEn.json";
+  }
+  if (seleDictionary.value === "English dictionary") {
+    requestAdd = "../dbGr.json";
+  }
+  if (seleDictionary.value === "English dictionary") {
+    requestAdd = "../dbPl.json";
+  }
 });
 
 export function getRequestAdd() {
-    return requestAdd;
+  return requestAdd;
 }
