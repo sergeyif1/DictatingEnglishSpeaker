@@ -1,6 +1,101 @@
 {
   "dictionary": [
     {
+      "id": "1",
+      "name": "autobus",
+      "title": "автобус"
+    },
+    {
+      "id": "2",
+      "name": "bardzo",
+      "title": "очень"
+    },
+    {
+      "id": "3",
+      "name": "biały",
+      "title": "белый"
+    },
+    {
+      "id": "4",
+      "name": "biała",
+      "title": "белая"
+    },
+    {
+      "id": "5",
+      "name": "białe",
+      "title": "белое"
+    },
+    {
+      "id": "6",
+      "name": "stół",
+      "title": "стол"
+    },
+    {
+      "id": "7",
+      "name": "bogaty",
+      "title": "богатый"
+    },
+    {
+      "id": "8",
+      "name": "brązowy",
+      "title": "коричневый"
+    },
+    {
+      "id": "9",
+      "name": "ciastko",
+      "title": "пироженое"
+    },
+    {
+      "id": "10",
+      "name": "czarny",
+      "title": "чёрный"
+    },
+    {
+      "id": "11",
+      "name": "czerwony",
+      "title": "красный"
+    },
+    {
+      "id": "12",
+      "name": "część",
+      "title": "часть"
+    },
+    {
+      "id": "13",
+      "name": "czyj, czyja, czyje",
+      "title": "чей, чья, чьё"
+    },
+    {
+      "id": "14",
+      "name": "dąb",
+      "title": "дуб"
+    },
+    {
+      "id": "15",
+      "name": "deser",
+      "title": "десерт"
+    },
+    {
+      "id": "16",
+      "name": "lody",
+      "title": "мороженое"
+    },
+    {
+      "id": "17",
+      "name": "dobry",
+      "title": "хороший"
+    },
+    {
+      "id": "18",
+      "name": "dom",
+      "title": "дом"
+    },
+    {
+      "id": "19",
+      "name": "duży",
+      "title": "большой"
+    },
+    {
       "id": "20",
       "name": "dżem",
       "title": "варенье"
@@ -1179,6 +1274,6 @@
       "id": "255",
       "name": "chodź tutaj",
       "title": "иди сюда"
-    },
+    }
   ]
 }
