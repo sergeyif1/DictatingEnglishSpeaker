@@ -13,10 +13,10 @@ seleDictionary.addEventListener("change", function () {
   if (seleDictionary.value === "English dictionary") {
     requestAdd = "../dbEn.json";
   }
-  if (seleDictionary.value === "English dictionary") {
+  if (seleDictionary.value === "Griechικό λεξικό") {
     requestAdd = "../dbGr.json";
   }
-  if (seleDictionary.value === "English dictionary") {
+  if (seleDictionary.value === "Polskie słownictwo") {
     requestAdd = "../dbPl.json";
   }
 });
