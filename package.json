@@ -18,9 +18,7 @@
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "dev": "nodemon script.mjs",
     "build": "webpack",
-    "start": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,9 +27,5 @@
   },
   "keywords": [],
   "author": "SergeyIff",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sergeyif1/DictatingEnglishSpeaker/issues"
-  },
-  "homepage": "https://github.com/sergeyif1/DictatingEnglishSpeaker#readme"
+  "license": "ISC"
 }
