@@ -13,7 +13,6 @@ const countNwords = {
       );
     }
 
-    // console.log(`Проверка чек бокс 3 ${countNWordVolue}`);
     myModule.useCountNWord(countNWordVolue);
   },
 };

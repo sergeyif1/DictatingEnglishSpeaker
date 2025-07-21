@@ -19,14 +19,12 @@ const buttonsClickHandlerPlay = {
 
     switch (target.className) {
       case "play":
-        console.log("Play button clicked");
         activCheckBox();
         countNwords.nWord();
         myModule.words();
-        // console.log(currentButton1);
+
         break;
       default:
-        console.log(`Unhandled class: ${target.className}`);
     }
   },
 };

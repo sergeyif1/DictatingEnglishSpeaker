@@ -14,7 +14,6 @@ export function activCheckBox() {
 
   if (option1Checked) {
     idFrom = inputElements[0].value;
-    // console.log(`Проверка чекбоксов 1: ${idFrom}`);
   } else if (option2Checked) {
     const cookieId = document.cookie
       .split("; ")
@@ -22,12 +21,7 @@ export function activCheckBox() {
 
     if (cookieId) {
       idFrom = cookieId.split("=")[1];
-      console.log(`Проверка чекбоксов 2: ${idFrom}`);
-    } else {
-      console.log("id в cookie не найден.");
     }
-  } else {
-    console.log("Чекбоксы не выделены. Отметьте нужное действие!");
   }
 
   if (idFrom) {

@@ -15,17 +15,17 @@ const buttonsClickHandlerPauseResume = {
 
     switch (target.className) {
       case "pause":
-        console.log("Pause button clicked");
+     
         window.speechSynthesis.pause();
         myModule.pause();
         break;
       case "resume":
-        console.log("Resume button clicked");
+       
         window.speechSynthesis.resume();
         myModule.resume();
         break;
       default:
-        console.log(`Unhandled class: ${target.className}`);
+      
     }
   },
 };

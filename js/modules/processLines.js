@@ -6,7 +6,6 @@ let text, vaarId, vaar1, vaar2;
 
 async function processLines(dataChunk) {
   const currentButton1 = getCurrentButton1();
-  // console.log(`11111 ${currentButton1} ${currentButton2}`);
 
   const parsedData = JSON.parse(dataChunk);
   const { id, name, title } = parsedData;
@@ -17,7 +16,7 @@ async function processLines(dataChunk) {
   ) {
     text = `${name}`;
     console.log(`${id} - ${text}`);
-    addItemToList(vaarId = id, vaar1 = name, vaar2 = title);
+    addItemToList((vaarId = id), (vaar1 = name), (vaar2 = title));
   }
 
   if (
@@ -26,7 +25,7 @@ async function processLines(dataChunk) {
   ) {
     text = `${title}`;
     console.log(`${id} - ${text}`);
-    addItemToList(vaarId = id, vaar1 = title, vaar2 = name);
+    addItemToList((vaarId = id), (vaar1 = title), (vaar2 = name));
   }
 
   document.getElementById("text1").value = `${id} - ${name}`;
