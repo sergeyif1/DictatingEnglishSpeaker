@@ -376,13 +376,19 @@ var myModule = {
       return _regeneratorRuntime().wrap(function _callee2$(_context2) {
         while (1) switch (_context2.prev = _context2.next) {
           case 0:
+            if (!(typeof window === "undefined")) {
+              _context2.next = 3;
+              break;
+            }
+            console.log("words() skipped: not running in a browser environment.");
+            return _context2.abrupt("return");
+          case 3:
             requestAdd = (0,_seleDictionary_js__WEBPACK_IMPORTED_MODULE_2__.getRequestAdd)();
-            console.log("Проверяем содержимое пути", requestAdd);
-            sec = Number(document.querySelector("#gap").value) * 1000; // 1. Указываем путь к файлу
+            console.log("Checking file path:", requestAdd);
+            sec = Number(document.querySelector("#gap").value) * 1000;
             filePath = requestAdd;
             foundObjects = [];
-            _context2.prev = 5;
-            // 7.Функция для чтения следующей строки с задержкой
+            _context2.prev = 8;
             readNextString = /*#__PURE__*/function () {
               var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
                 var searchString, startIndex, startBracketIndex, endBracketIndex, dataChunk, foundObject, initialSeconds;
@@ -393,7 +399,7 @@ var myModule = {
                         _context.next = 3;
                         break;
                       }
-                      console.log("\u041E\u0431\u0440\u0430\u0431\u043E\u0442\u0430\u043D\u043E ".concat(processedCount, " \u0441\u0442\u0440\u043E\u043A. \u0417\u0430\u0432\u0435\u0440\u0448\u0435\u043D\u0438\u0435."));
+                      console.log("Processed ".concat(processedCount, " entries. Done."));
                       return _context.abrupt("return");
                     case 3:
                       searchString = "\"id\": \"".concat(currentID, "\"");
@@ -440,12 +446,12 @@ var myModule = {
                       _context.next = 30;
                       break;
                     case 29:
-                      console.log("Начало или конец строки не найдены.");
+                      console.log("Start or end of entry not found.");
                     case 30:
                       _context.next = 33;
                       break;
                     case 32:
-                      console.log("ID \"".concat(currentID, "\" \u041F\u0440\u0430\u0446\u0435\u0441\u0441 \u0437\u0430\u043A\u043E\u043D\u0447\u0435\u043D.\u0421\u043F\u0430\u0441\u0438\u0431\u043E!"));
+                      console.log("ID \"".concat(currentID, "\" \u2014 End of process. Thank you!"));
                     case 33:
                     case "end":
                       return _context.stop();
@@ -456,30 +462,29 @@ var myModule = {
                 return _ref.apply(this, arguments);
               };
             }();
-            _context2.next = 9;
+            _context2.next = 12;
             return fetch(filePath);
-          case 9:
+          case 12:
             response = _context2.sent;
             if (response.ok) {
-              _context2.next = 12;
+              _context2.next = 15;
               break;
             }
-            throw new Error("Ошибка при загрузке файла");
-          case 12:
-            // 5. Создаем объект ReadableStreamDefaultReader для чтения потока
+            throw new Error("Failed to load the file.");
+          case 15:
             stream = response.body;
-            reader = stream.getReader(); // 6. Распарсиваем поток
+            reader = stream.getReader();
             decoder = new TextDecoder();
             result = "";
             done = false;
-          case 17:
+          case 20:
             if (done) {
-              _context2.next = 27;
+              _context2.next = 30;
               break;
             }
-            _context2.next = 20;
+            _context2.next = 23;
             return reader.read();
-          case 20:
+          case 23:
             _yield$reader$read = _context2.sent;
             value = _yield$reader$read.value;
             streamDone = _yield$reader$read.done;
@@ -489,26 +494,26 @@ var myModule = {
               });
             }
             done = streamDone;
-            _context2.next = 17;
+            _context2.next = 20;
             break;
-          case 27:
+          case 30:
             jsonData = JSON.parse(result);
-            console.log("Данные распарсены", jsonData);
+            console.log("Parsed data:", jsonData);
             processedCount = 0;
-            _context2.next = 32;
+            _context2.next = 35;
             return readNextString();
-          case 32:
-            _context2.next = 37;
+          case 35:
+            _context2.next = 40;
             break;
-          case 34:
-            _context2.prev = 34;
-            _context2.t0 = _context2["catch"](5);
-            console.error("Ошибка:", _context2.t0);
           case 37:
+            _context2.prev = 37;
+            _context2.t0 = _context2["catch"](8);
+            console.error("Error:", _context2.t0);
+          case 40:
           case "end":
             return _context2.stop();
         }
-      }, _callee2, null, [[5, 34]]);
+      }, _callee2, null, [[8, 37]]);
     }));
     function words() {
       return _words.apply(this, arguments);
@@ -520,14 +525,140 @@ var myModule = {
   },
   resume: function resume() {
     if (isPaused) {
+      var _myModule$readNextStr;
       isPaused = false;
-      myModule.readNextString();
+      (_myModule$readNextStr = myModule.readNextString) === null || _myModule$readNextStr === void 0 || _myModule$readNextStr.call(myModule); // Optional chaining in case not defined yet
     } else {
-      console.log("Speech synthesis is not paused, cannot resume");
+      console.log("Speech synthesis is not paused. Cannot resume.");
     }
   }
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (myModule);
+
+// import processLines from "./processLines.js";
+// import countdown from "./countdownTimer.js";
+// import { getRequestAdd } from "./seleDictionary.js";
+
+// let isPaused = false;
+// let currentID = null;
+// let count_n_Word = null;
+
+// const myModule = {
+//   useCountNWord: function (n_Word) {
+//     count_n_Word = n_Word;
+//   },
+
+//   setID: function (newID) {
+//     currentID = newID;
+//   },
+
+//   words: async function () {
+
+//     const requestAdd = getRequestAdd();
+//     console.log("Проверяем содержимое пути", requestAdd);
+
+//     const sec = Number(document.querySelector("#gap").value) * 1000;
+//     // 1. Указываем путь к файлу
+//     const filePath = requestAdd;
+//     const foundObjects = [];
+
+//     try {
+//       // 2. Запрос данных через fetch API
+//       const response = await fetch(filePath);
+//       // 3. Обрабатываем ошибку соединени
+//       if (!response.ok) {
+//         throw new Error("Ошибка при загрузке файла");
+//       }
+
+//       // 5. Создаем объект ReadableStreamDefaultReader для чтения потока
+//       const stream = response.body;
+//       const reader = stream.getReader();
+
+//       // 6. Распарсиваем поток
+//       const decoder = new TextDecoder();
+//       let result = "";
+//       let done = false;
+
+//       while (!done) {
+//         const { value, done: streamDone } = await reader.read();
+//         if (value) {
+//           result += decoder.decode(value, { stream: !streamDone });
+//         }
+//         done = streamDone;
+//       }
+
+//       const jsonData = JSON.parse(result);
+//       console.log("Данные распарсены", jsonData);
+
+//       let processedCount = 0;
+
+//       // 7.Функция для чтения следующей строки с задержкой
+//       async function readNextString() {
+//         if (count_n_Word !== null && processedCount >= count_n_Word) {
+//           console.log(`Обработано ${processedCount} строк. Завершение.`);
+//           return;
+//         }
+
+//         const searchString = `"id": "${currentID}"`;
+//         const startIndex = result.indexOf(searchString);
+
+//         if (startIndex !== -1) {
+//           const startBracketIndex = result.lastIndexOf("{", startIndex);
+//           const endBracketIndex = result.indexOf("}", startIndex) + 1;
+//           if (startBracketIndex !== -1 && endBracketIndex !== -1) {
+//             const dataChunk = result.substring(
+//               startBracketIndex,
+//               endBracketIndex
+//             );
+
+//             const foundObject = JSON.parse(dataChunk);
+//             foundObjects.push(foundObject);
+
+//             currentID++;
+//             processedCount++;
+
+//             await new Promise((resolve) => setTimeout(resolve, sec));
+
+//             while (isPaused) {
+//               await new Promise((resolve) => setTimeout(resolve, 100));
+//             }
+
+//             const initialSeconds = sec / 1000;
+//             countdown(initialSeconds, initialSeconds);
+
+//             window.speechSynthesis.cancel();
+//             processLines(dataChunk);
+
+//             await readNextString();
+//           } else {
+//             console.log("Начало или конец строки не найдены.");
+//           }
+//         } else {
+//           console.log(`ID "${currentID}" Працесс закончен.Спасибо!`);
+//         }
+//       }
+
+//       await readNextString();
+//     } catch (error) {
+//       console.error("Ошибка:", error);
+//     }
+//   },
+
+//   pause: function () {
+//     isPaused = true;
+//   },
+
+//   resume: function () {
+//     if (isPaused) {
+//       isPaused = false;
+//       myModule.readNextString();
+//     } else {
+//       console.log("Speech synthesis is not paused, cannot resume");
+//     }
+//   },
+// };
+
+// export default myModule;
 
 /***/ }),
 
