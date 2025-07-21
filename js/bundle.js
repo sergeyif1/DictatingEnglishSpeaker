@@ -23,19 +23,13 @@ function activCheckBox() {
   var option2Checked = document.querySelector('input[name="option2"]').checked;
   if (option1Checked) {
     idFrom = inputElements[0].value;
-    // console.log(`Проверка чекбоксов 1: ${idFrom}`);
   } else if (option2Checked) {
     var cookieId = document.cookie.split("; ").find(function (row) {
       return row.startsWith("id=");
     });
     if (cookieId) {
       idFrom = cookieId.split("=")[1];
-      console.log("\u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u0447\u0435\u043A\u0431\u043E\u043A\u0441\u043E\u0432 2: ".concat(idFrom));
-    } else {
-      console.log("id в cookie не найден.");
     }
-  } else {
-    console.log("Чекбоксы не выделены. Отметьте нужное действие!");
   }
   if (idFrom) {
     _myModule_js__WEBPACK_IMPORTED_MODULE_0__["default"].setID(idFrom);
@@ -78,17 +72,14 @@ var buttonsClickHandlerPauseResume = {
     currentButton2 = target.id;
     switch (target.className) {
       case "pause":
-        console.log("Pause button clicked");
         window.speechSynthesis.pause();
         _myModule_js__WEBPACK_IMPORTED_MODULE_0__["default"].pause();
         break;
       case "resume":
-        console.log("Resume button clicked");
         window.speechSynthesis.resume();
         _myModule_js__WEBPACK_IMPORTED_MODULE_0__["default"].resume();
         break;
       default:
-        console.log("Unhandled class: ".concat(target.className));
     }
   }
 };
@@ -127,14 +118,11 @@ var buttonsClickHandlerPlay = {
     currentButton1 = target.id;
     switch (target.className) {
       case "play":
-        console.log("Play button clicked");
         (0,_IdDataControl_js__WEBPACK_IMPORTED_MODULE_0__.activCheckBox)();
         _countNwords_js__WEBPACK_IMPORTED_MODULE_2__["default"].nWord();
         _myModule_js__WEBPACK_IMPORTED_MODULE_1__["default"].words();
-        // console.log(currentButton1);
         break;
       default:
-        console.log("Unhandled class: ".concat(target.className));
     }
   }
 };
@@ -218,8 +206,6 @@ var countNwords = {
     if (!optionCheckedNWord && !countNWordVolue) {
       alert("Отметьте пожалуйста чекбокс, и поставьте нужное колличество слов!");
     }
-
-    // console.log(`Проверка чек бокс 3 ${countNWordVolue}`);
     _myModule_js__WEBPACK_IMPORTED_MODULE_0__["default"].useCountNWord(countNWordVolue);
   }
 };
@@ -377,18 +363,16 @@ var myModule = {
         while (1) switch (_context2.prev = _context2.next) {
           case 0:
             if (!(typeof window === "undefined")) {
-              _context2.next = 3;
+              _context2.next = 2;
               break;
             }
-            console.log("words() skipped: not running in a browser environment.");
             return _context2.abrupt("return");
-          case 3:
+          case 2:
             requestAdd = (0,_seleDictionary_js__WEBPACK_IMPORTED_MODULE_2__.getRequestAdd)();
-            console.log("Checking file path:", requestAdd);
             sec = Number(document.querySelector("#gap").value) * 1000;
             filePath = requestAdd;
             foundObjects = [];
-            _context2.prev = 8;
+            _context2.prev = 6;
             readNextString = /*#__PURE__*/function () {
               var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
                 var searchString, startIndex, startBracketIndex, endBracketIndex, dataChunk, foundObject, initialSeconds;
@@ -462,29 +446,29 @@ var myModule = {
                 return _ref.apply(this, arguments);
               };
             }();
-            _context2.next = 12;
+            _context2.next = 10;
             return fetch(filePath);
-          case 12:
+          case 10:
             response = _context2.sent;
             if (response.ok) {
-              _context2.next = 15;
+              _context2.next = 13;
               break;
             }
             throw new Error("Failed to load the file.");
-          case 15:
+          case 13:
             stream = response.body;
             reader = stream.getReader();
             decoder = new TextDecoder();
             result = "";
             done = false;
-          case 20:
+          case 18:
             if (done) {
-              _context2.next = 30;
+              _context2.next = 28;
               break;
             }
-            _context2.next = 23;
+            _context2.next = 21;
             return reader.read();
-          case 23:
+          case 21:
             _yield$reader$read = _context2.sent;
             value = _yield$reader$read.value;
             streamDone = _yield$reader$read.done;
@@ -494,26 +478,25 @@ var myModule = {
               });
             }
             done = streamDone;
-            _context2.next = 20;
+            _context2.next = 18;
             break;
-          case 30:
+          case 28:
             jsonData = JSON.parse(result);
-            console.log("Parsed data:", jsonData);
             processedCount = 0;
-            _context2.next = 35;
+            _context2.next = 32;
             return readNextString();
-          case 35:
-            _context2.next = 40;
+          case 32:
+            _context2.next = 37;
             break;
-          case 37:
-            _context2.prev = 37;
-            _context2.t0 = _context2["catch"](8);
+          case 34:
+            _context2.prev = 34;
+            _context2.t0 = _context2["catch"](6);
             console.error("Error:", _context2.t0);
-          case 40:
+          case 37:
           case "end":
             return _context2.stop();
         }
-      }, _callee2, null, [[8, 37]]);
+      }, _callee2, null, [[6, 34]]);
     }));
     function words() {
       return _words.apply(this, arguments);
@@ -534,131 +517,6 @@ var myModule = {
   }
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (myModule);
-
-// import processLines from "./processLines.js";
-// import countdown from "./countdownTimer.js";
-// import { getRequestAdd } from "./seleDictionary.js";
-
-// let isPaused = false;
-// let currentID = null;
-// let count_n_Word = null;
-
-// const myModule = {
-//   useCountNWord: function (n_Word) {
-//     count_n_Word = n_Word;
-//   },
-
-//   setID: function (newID) {
-//     currentID = newID;
-//   },
-
-//   words: async function () {
-
-//     const requestAdd = getRequestAdd();
-//     console.log("Проверяем содержимое пути", requestAdd);
-
-//     const sec = Number(document.querySelector("#gap").value) * 1000;
-//     // 1. Указываем путь к файлу
-//     const filePath = requestAdd;
-//     const foundObjects = [];
-
-//     try {
-//       // 2. Запрос данных через fetch API
-//       const response = await fetch(filePath);
-//       // 3. Обрабатываем ошибку соединени
-//       if (!response.ok) {
-//         throw new Error("Ошибка при загрузке файла");
-//       }
-
-//       // 5. Создаем объект ReadableStreamDefaultReader для чтения потока
-//       const stream = response.body;
-//       const reader = stream.getReader();
-
-//       // 6. Распарсиваем поток
-//       const decoder = new TextDecoder();
-//       let result = "";
-//       let done = false;
-
-//       while (!done) {
-//         const { value, done: streamDone } = await reader.read();
-//         if (value) {
-//           result += decoder.decode(value, { stream: !streamDone });
-//         }
-//         done = streamDone;
-//       }
-
-//       const jsonData = JSON.parse(result);
-//       console.log("Данные распарсены", jsonData);
-
-//       let processedCount = 0;
-
-//       // 7.Функция для чтения следующей строки с задержкой
-//       async function readNextString() {
-//         if (count_n_Word !== null && processedCount >= count_n_Word) {
-//           console.log(`Обработано ${processedCount} строк. Завершение.`);
-//           return;
-//         }
-
-//         const searchString = `"id": "${currentID}"`;
-//         const startIndex = result.indexOf(searchString);
-
-//         if (startIndex !== -1) {
-//           const startBracketIndex = result.lastIndexOf("{", startIndex);
-//           const endBracketIndex = result.indexOf("}", startIndex) + 1;
-//           if (startBracketIndex !== -1 && endBracketIndex !== -1) {
-//             const dataChunk = result.substring(
-//               startBracketIndex,
-//               endBracketIndex
-//             );
-
-//             const foundObject = JSON.parse(dataChunk);
-//             foundObjects.push(foundObject);
-
-//             currentID++;
-//             processedCount++;
-
-//             await new Promise((resolve) => setTimeout(resolve, sec));
-
-//             while (isPaused) {
-//               await new Promise((resolve) => setTimeout(resolve, 100));
-//             }
-
-//             const initialSeconds = sec / 1000;
-//             countdown(initialSeconds, initialSeconds);
-
-//             window.speechSynthesis.cancel();
-//             processLines(dataChunk);
-
-//             await readNextString();
-//           } else {
-//             console.log("Начало или конец строки не найдены.");
-//           }
-//         } else {
-//           console.log(`ID "${currentID}" Працесс закончен.Спасибо!`);
-//         }
-//       }
-
-//       await readNextString();
-//     } catch (error) {
-//       console.error("Ошибка:", error);
-//     }
-//   },
-
-//   pause: function () {
-//     isPaused = true;
-//   },
-
-//   resume: function () {
-//     if (isPaused) {
-//       isPaused = false;
-//       myModule.readNextString();
-//     } else {
-//       console.log("Speech synthesis is not paused, cannot resume");
-//     }
-//   },
-// };
-
-// export default myModule;
 
 /***/ }),
 
@@ -692,7 +550,7 @@ function _processLines() {
     return _regeneratorRuntime().wrap(function _callee$(_context) {
       while (1) switch (_context.prev = _context.next) {
         case 0:
-          currentButton1 = (0,_buttonsClickHandlerPlay_js__WEBPACK_IMPORTED_MODULE_0__.getCurrentButton1)(); // console.log(`11111 ${currentButton1} ${currentButton2}`);
+          currentButton1 = (0,_buttonsClickHandlerPlay_js__WEBPACK_IMPORTED_MODULE_0__.getCurrentButton1)();
           parsedData = JSON.parse(dataChunk);
           id = parsedData.id, name = parsedData.name, title = parsedData.title;
           if (currentButton1 === "but1" || currentButton1 === "but1" && _buttonsClickHandlerPauseResume_js__WEBPACK_IMPORTED_MODULE_1__.currentButton2 === "resumeButton") {
