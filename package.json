@@ -4,8 +4,6 @@
   "description": "<h1 align=\"center\">Hi there, I'm Sergey! \r <img src=\"https://github.com/blackcater/blackcater/raw/main/images/Hi.gif\" height=\"32\"/></h1>\r <h3 align=\"center\">Thise is application for the my portfolio</h3>",
   "main": "script.js",
   "dependencies": {
-    "node-fetch": "^3.3.2",
-    "nodemon": "^3.1.4",
     "whatwg-fetch": "^3.6.20"
   },
   "devDependencies": {
@@ -15,7 +13,9 @@
     "html-webpack-plugin": "^5.6.0",
     "json-loader": "^0.5.7",
     "webpack": "^5.91.0",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.4"
   },
   "scripts": {
     "build": "webpack",
