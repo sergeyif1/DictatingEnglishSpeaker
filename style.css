@@ -12,6 +12,7 @@ body {
   min-height: 80vh;
   margin: 20px;
   background: url('./pic/1669978424_55-kartinkin-net-p-fon-dlya-prezentatsii-mramor-oboi-56.jpg');
+  font-family: 'Roboto', sans-serif;
 }
 
 .wrapper {
@@ -344,8 +345,8 @@ body #countdown {
   }
 
   select {
-     /*width: 100vw;
-    Меняем ширину на 100% при уменьшении экрана*/ 
+    /*width: 100vw;
+    Меняем ширину на 100% при уменьшении экрана*/
     padding: 2vw;
     font-size: 4.2vw;
   }
