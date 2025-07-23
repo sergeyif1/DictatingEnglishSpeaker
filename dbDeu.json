@@ -1,302 +1,1319 @@
 {
     "dictionary": [
-        {"id": "1",	"name": "Immobilienmakler",	"title": " агент по торговле недвижимостью"},
-        {"id": "2",	"name": "Immobilienagentur",	"title": " агентство по торговле недвижимостью"},
-        {"id": "3",	"name": "Erste-Hilfe-Kasten",	"title": " аптечка"},
-        {"id": "4",	"name": "aromatische Badekomposition",	"title": " ароматический состав для ванны"},
-        {"id": "5",	"name": "Architekt",	"title": " архитектор"},
-        {"id": "6",	"name": "die Architektur",	"title": " архитектура"},
-        {"id": "7",	"name": "Wäschetank",	"title": " бак для белья"},
-        {"id": "8",	"name": "Balkon",	"title": " балкон"},
-        {"id": "9",	"name": "Gewürzglas",	"title": " баночка для специй"},
-        {"id": "10",	"name": "Trommeltrockner",	"title": " барабанная сушильная машина"},
-        {"id": "11",	"name": "Panzer",	"title": " бачок"},
-        {"id": "12",	"name": "ohne Dach",	"title": " без крыши"},
-        {"id": "13",	"name": "obdachlos",	"title": " бездомный"},
-        {"id": "14",	"name": "Wäscheleine",	"title": " бельевая веревка"},
-        {"id": "15",	"name": "Birke (Birkenholzprodukte)",	"title": " береза (изделия из березовой древесины)"},
-        {"id": "16",	"name": "Alkoven",	"title": " беседка"},
-        {"id": "17",	"name": "Beton",	"title": " бетон"},
-        {"id": "18",	"name": "Betonmischer",	"title": " бетономешалка"},
-        {"id": "19",	"name": "Bidet",	"title": " биде"},
-        {"id": "20",	"name": "Seitenwand",	"title": " боковина"},
-        {"id": "21",	"name": "großer Pinsel",	"title": " большая щетка"},
-        {"id": "22",	"name": "Leuchter",	"title": " бра"},
-        {"id": "23",	"name": "Mieter aufnehmen (einlassen).",	"title": " брать (пускать) жильцов"},
-        {"id": "24",	"name": "Geld leihen",	"title": " брать деньги в долг"},
-        {"id": "25",	"name": "Blockhaus",	"title": " бревенчатая хижина"},
-        {"id": "26",	"name": "Vorarbeiter, Vorarbeiter",	"title": " бригадир, прораб"},
-        {"id": "27",	"name": "Bronze",	"title": " бронза"},
-        {"id": "28",	"name": "Buche",	"title": " бук"},
-        {"id": "29",	"name": "Büfett",	"title": " буфет"},
-        {"id": "30",	"name": "in einem schlechten Zustand sein",	"title": " быть в запущенном состоянии"},
-        {"id": "31",	"name": "in gutem Zustand sein",	"title": " быть в хорошем состоянии"},
-        {"id": "32",	"name": "Büste",	"title": " бюст"},
-        {"id": "33",	"name": "Bad",	"title": " ванна"},
-        {"id": "34",	"name": "Schaumbad",	"title": " ванна с пеной"},
-        {"id": "35",	"name": "Schrauben Sie die Glühbirne ein",	"title": " ввернуть лампочку"},
-        {"id": "36",	"name": "Eimer",	"title": " ведро"},
-        {"id": "37",	"name": "entlüften",	"title": " вентиляционное отверстие"},
-        {"id": "38",	"name": "Veranda",	"title": " веранда"},
-        {"id": "39",	"name": "Haus behalten",	"title": " вести домашнее хозяйство"},
-        {"id": "40",	"name": "Waage",	"title": " весы"},
-        {"id": "41",	"name": "Kleiderbügel",	"title": " вешалка для пальто"},
-        {"id": "42",	"name": "Handtuchhalter",	"title": " вешалка для полотенец"},
-        {"id": "43",	"name": "Kleiderbügel",	"title": " вешалка для прихвата"},
-        {"id": "44",	"name": "Das Federbett auflockern",	"title": " взбивать перину"},
-        {"id": "45",	"name": "Hängelampe",	"title": " висячая лампа"},
-        {"id": "46",	"name": "Buntglas",	"title": " витраж"},
-        {"id": "47",	"name": "Kirschbaum",	"title": " вишневое дерево"},
-        {"id": "48",	"name": "Schalten Sie das Licht ein/aus",	"title": " включить / выключить свет"},
-        {"id": "49",	"name": "Wasserrohre",	"title": " водопровод"},
-        {"id": "50",	"name": "Klempner, Löten",	"title": " водопроводчик, паяльщик"},
-        {"id": "51",	"name": "Wasserversorgung",	"title": " водоснабжение"},
-        {"id": "52",	"name": "Wassererwärmung",	"title": " водяное отопление"},
-        {"id": "53",	"name": "drehbares Regal",	"title": " вращающая полка"},
-        {"id": "54",	"name": "Stecker einstecken, einschalten",	"title": " вставить вилку, включить"},
-        {"id": "55",	"name": "Eingangsstufen",	"title": " входные ступеньки"},
-        {"id": "56",	"name": "Schrauben Sie die Glühbirne ab",	"title": " вывернуть лампочку"},
-        {"id": "57",	"name": "abwischen (mit einem feuchten Tuch), waschen",	"title": " вытирать (мокрой тряпкой), мыть"},
-        {"id": "58",	"name": "Trocknen Sie Ihre Hände mit einem Handtuch",	"title": " вытирать руки полотенцем"},
-        {"id": "59",	"name": "leeren Sie den Mülleimer",	"title": " вытряхнуть мусорное ведро"},
-        {"id": "60",	"name": "Haube",	"title": " вытяжка"},
-        {"id": "61",	"name": "Gasherd",	"title": " газовая плита"},
-        {"id": "62",	"name": "die Garage",	"title": " гараж"},
-        {"id": "63",	"name": "Garage für zwei Autos",	"title": " гараж для двух машин"},
-        {"id": "64",	"name": "Gips",	"title": " гипс"},
-        {"id": "65",	"name": "Bügelbrett",	"title": " гладильная доска"},
-        {"id": "66",	"name": "Buchse, Kartusche",	"title": " гнездо, патрон"},
-        {"id": "67",	"name": "Kopfteil",	"title": " головная панель"},
-        {"id": "68",	"name": "Blumentopf",	"title": " горшок с цветком"},
-        {"id": "69",	"name": "Wohnzimmer",	"title": " Гостиная"},
-        {"id": "70",	"name": "vorgefertigte Standardblöcke, Hausteile",	"title": " готовые стандартные блоки, части дома"},
-        {"id": "71",	"name": "Lautsprecher (Säule)",	"title": " громкоговоритель (колонка)"},
-        {"id": "72",	"name": "Schwamm",	"title": " губка"},
-        {"id": "73",	"name": "Geld ausleihen",	"title": " давать деньги в долг"},
-        {"id": "74",	"name": "Landhaus",	"title": " дачный домик"},
-        {"id": "75",	"name": "Vorstadtdorf",	"title": " дачный поселок"},
-        {"id": "76",	"name": "Türgriff",	"title": " дверная ручка"},
-        {"id": "77",	"name": "Türschloss",	"title": " дверной замок"},
-        {"id": "78",	"name": "Türklingel",	"title": " дверной звонок"},
-        {"id": "79",	"name": "Türrahmen",	"title": " дверной короб"},
-        {"id": "80",	"name": "Hof",	"title": " двор"},
-        {"id": "81",	"name": "Schloss",	"title": " дворец"},
-        {"id": "82",	"name": "Doppelbett",	"title": " двуспальная кровать"},
-        {"id": "83",	"name": "Doppelhaushälfte",	"title": " двухквартирный дом"},
-        {"id": "84",	"name": "diensthabender Klempner",	"title": " дежурный водопроводчик"},
-        {"id": "85",	"name": "Baum",	"title": " дерево"},
-        {"id": "86",	"name": "Holz",	"title": " деревянный"},
-        {"id": "87",	"name": "Holzzaun",	"title": " деревянный забор"},
-        {"id": "88",	"name": "Klopapierhalterung",	"title": " держатель для туалетной бумаги"},
-        {"id": "89",	"name": "Kinder",	"title": " Детская"},
-        {"id": "90",	"name": "Etagenbett für Kinder",	"title": " детская двухъярусная кровать"},
-        {"id": "91",	"name": "Kinderspind",	"title": " детский шкафчик"},
-        {"id": "92",	"name": "Turmhaus",	"title": " дом башенного типа"},
-        {"id": "93",	"name": "Das Haus muss renoviert werden",	"title": " дом необходимо отремонтировать"},
-        {"id": "94",	"name": "zu Hause)",	"title": " дома (у себя)"},
-        {"id": "95",	"name": "Hausfrau",	"title": " домохозяйка"},
-        {"id": "96",	"name": "Planke",	"title": " доска"},
-        {"id": "97",	"name": "Vorhänge, Vorhänge",	"title": " драпировки, портьеры"},
-        {"id": "98",	"name": "Eiche",	"title": " дуб"},
-        {"id": "99",	"name": "Parfüm in Aerosolform",	"title": " духи в аэрозоле"},
-        {"id": "100",	"name": "Ofen",	"title": " духовка"},
-        {"id": "101",	"name": "Dusche",	"title": " душевая кабина"},
-        {"id": "102",	"name": "Schornstein",	"title": " дымовая труба"},
-        {"id": "103",	"name": "Fichte",	"title": " ель"},
-        {"id": "104",	"name": "harte Bürste",	"title": " жесткая щетка"},
-        {"id": "105",	"name": "Couchtisch",	"title": " журнальный столик"},
-        {"id": "106",	"name": "Hinterhof",	"title": " задний двор"},
-        {"id": "107",	"name": "zünde eine Kerze an",	"title": " зажечь свечу"},
-        {"id": "108",	"name": "sperren",	"title": " замок"},
-        {"id": "109",	"name": "Mesh-Vorhang",	"title": " занавес из сетчатой ткани"},
-        {"id": "110",	"name": "Duschvorhang",	"title": " занавеска для душа"},
-        {"id": "111",	"name": "Vorhang; Vorhang",	"title": " занавеска; занавешивать"},
-        {"id": "112",	"name": "verstopfen",	"title": " засоряться"},
-        {"id": "113",	"name": "Anruf",	"title": " звонок по телефону"},
-        {"id": "114",	"name": "Spiegel",	"title": " зеркало"},
-        {"id": "115",	"name": "Spiegelglas",	"title": " зеркальное стекло"},
-        {"id": "116",	"name": "Spiegelschrank",	"title": " зеркальный шкафчик"},
-        {"id": "117",	"name": "Spielzeug",	"title": " игрушка"},
-        {"id": "118",	"name": "nach Hause gehen",	"title": " идти домой"},
-        {"id": "119",	"name": "Bettfuß",	"title": " изножье кровати"},
-        {"id": "120",	"name": "fließendes Wasser haben",	"title": " иметь водопроводную воду"},
-        {"id": "121",	"name": "Kabinett",	"title": " Кабинет"},
-        {"id": "122",	"name": "Kaserne",	"title": " казарма"},
-        {"id": "123",	"name": "Stein oder Mauerwerk",	"title": " каменная или кирпичная кладка"},
-        {"id": "124",	"name": "Mason",	"title": " каменщик"},
-        {"id": "125",	"name": "Stein",	"title": " камень"},
-        {"id": "126",	"name": "Kaminuhr",	"title": " каминные часы"},
-        {"id": "127",	"name": "Karelische Birke",	"title": " карельская береза"},
-        {"id": "128",	"name": "Gardinenstange",	"title": " карниз для занавесей"},
-        {"id": "129",	"name": "Fliesen, Fliesen",	"title": " кафельная плитка, черепица"},
-        {"id": "130",	"name": "Quartal",	"title": " квартал"},
-        {"id": "131",	"name": "mieten; Miete (Zimmer)",	"title": " квартирная плата; снимать (помещение)"},
-        {"id": "132",	"name": "Ziegel",	"title": " кирпич"},
-        {"id": "133",	"name": "Mauerwerk",	"title": " кирпичная кладка"},
-        {"id": "134",	"name": "Wachstuch (Tischdecke)",	"title": " клеенка (скатерть)"},
-        {"id": "135",	"name": "Ahorn",	"title": " клен"},
-        {"id": "136",	"name": "Teppich",	"title": " ковер"},
-        {"id": "137",	"name": "Teppich Teppich",	"title": " ковер-палас"},
-        {"id": "138",	"name": "Badematte",	"title": " коврик для ванной"},
-        {"id": "139",	"name": "Fußmatte, Teppich",	"title": " коврик перед дверью, половик"},
-        {"id": "140",	"name": "Matte unter der Toilette",	"title": " коврик под унитазом"},
-        {"id": "141",	"name": "Zimmerpflanzen",	"title": " комнатные растения"},
-        {"id": "142",	"name": "Schuhtruhe",	"title": " комод для обуви"},
-        {"id": "143",	"name": "Eigentumswohnung (eine der Arten von Genossenschaftseigentum)",	"title": " кондоминиум (один из видов кооперативной собственности)"},
-        {"id": "144",	"name": "Mülleimer",	"title": " контейнер для мусора"},
-        {"id": "145",	"name": "Mülleimer",	"title": " контейнер для мусора"},
-        {"id": "146",	"name": "Behälter für Geschirr",	"title": " контейнер для посуды"},
-        {"id": "147",	"name": "stabil",	"title": " конюшня"},
-        {"id": "148",	"name": "Regenschirmkorb",	"title": " корзина для зонтиков"},
-        {"id": "149",	"name": "Scheune",	"title": " коровник"},
-        {"id": "150",	"name": "Hof, Spielplatz",	"title": " корт, площадка для игр"},
-        {"id": "151",	"name": "Hütte, Bauernhaus",	"title": " коттедж, крестьянский дом"},
-        {"id": "152",	"name": "klopfen",	"title": " кран"},
-        {"id": "153",	"name": "Der Wasserhahn ist undicht",	"title": " кран течет"},
-        {"id": "154",	"name": "die Farbe löst sich (blättert ab)",	"title": " краска сходится (лупится)"},
-        {"id": "155",	"name": "Schreiner",	"title": " краснодеревщик"},
-        {"id": "156",	"name": "Roter Baum",	"title": " красное дерево"},
-        {"id": "157",	"name": "Sessel",	"title": " кресло"},
-        {"id": "158",	"name": "ihr Rohrstuhl",	"title": " кресло их тростника"},
-        {"id": "159",	"name": "Dacheindeckung",	"title": " кровельная крыша"},
-        {"id": "160",	"name": "Dach",	"title": " крыша"},
-        {"id": "161",	"name": "Haken",	"title": " крючок"},
-        {"id": "162",	"name": "Immobilien kaufen",	"title": " купить недвижимость"},
-        {"id": "163",	"name": "Küchenherd",	"title": " кухонная плита"},
-        {"id": "164",	"name": "Küchenwanduhr",	"title": " кухонные настенные часы"},
-        {"id": "165",	"name": "Küchentisch",	"title": " кухонный стол"},
-        {"id": "166",	"name": "Küchenstuhl",	"title": " кухонный стул"},
-        {"id": "167",	"name": "Lampe",	"title": " лампа"},
-        {"id": "168",	"name": "Lampe (hängend)",	"title": " лампа (висячая)"},
-        {"id": "169",	"name": "Tageslichtlampe",	"title": " лампа дневного света"},
-        {"id": "170",	"name": "Messing, gelbes Kupfer",	"title": " латунь, желтая медь"},
-        {"id": "171",	"name": "Stuckdecke",	"title": " лепной потолок"},
-        {"id": "172",	"name": "Stuckarbeiten",	"title": " лепные работы"},
-        {"id": "173",	"name": "Formteile",	"title": " лепные украшения"},
-        {"id": "174",	"name": "Leiter",	"title": " лестница"},
-        {"id": "175",	"name": "Linde",	"title": " липа"},
-        {"id": "176",	"name": "Lärche",	"title": " лиственница"},
-        {"id": "177",	"name": "Patchwork-Tagesdecke",	"title": " лоскутное покрывало"},
-        {"id": "178",	"name": "Kronleuchter, Kandelaber",	"title": " люстра, канделябр"},
-        {"id": "179",	"name": "ein kleiner Innengarten, ein Bereich neben dem Haus, der für Teepartys genutzt wird",	"title": " маленький внутренний садик, площадка рядом с домом, используемая для чаепитий"},
-        {"id": "180",	"name": "Maler",	"title": " маляр"},
-        {"id": "181",	"name": "Material",	"title": " материалы"},
-        {"id": "182",	"name": "gefrorenes Glas",	"title": " матовое стекло"},
-        {"id": "183",	"name": "Matratze, Matratze",	"title": " матрац, тюфяк"},
-        {"id": "184",	"name": "Möbel (separater Artikel)",	"title": " мебель (отдельная вещь)"},
-        {"id": "185",	"name": "Möbelset",	"title": " мебельный гарнитур"},
-        {"id": "186",	"name": "Kupfer",	"title": " медь"},
-        {"id": "187",	"name": "Residenz, großes Wohnhaus",	"title": " местожительство, большой жилой дом"},
-        {"id": "188",	"name": "Metalle",	"title": " металлы"},
-        {"id": "189",	"name": "Mehrfamilienhaus",	"title": " многоквартирный дом"},
-        {"id": "190",	"name": "mehrstöckiges Mehrfamilienhaus",	"title": " многоэтажный многоквартирный дом"},
-        {"id": "191",	"name": "Mosaik",	"title": " мозаика"},
-        {"id": "192",	"name": "Waschen",	"title": " мойка"},
-        {"id": "193",	"name": "Installateur",	"title": " монтажник"},
-        {"id": "194",	"name": "Gefrierschrank",	"title": " морозильник"},
-        {"id": "195",	"name": "Gefrierfach",	"title": " морозильное отделение"},
-        {"id": "196",	"name": "zotteliges Handtuch",	"title": " мохнатое полотенце"},
-        {"id": "197",	"name": "Müllschlucker",	"title": " мусоропровод"},
-        {"id": "198",	"name": "Seife",	"title": " мыло"},
-        {"id": "199",	"name": "Seifenkiste",	"title": " мыльница"},
-        {"id": "200",	"name": "Polstermöbel",	"title": " мягкая мебель"},
-        {"id": "201",	"name": "Polstermöbel (Set)",	"title": " мягкая мебель (гарнитур)"},
-        {"id": "202",	"name": "weicher Sitz",	"title": " мягкое сиденье"},
-        {"id": "203",	"name": "Reihe von Spielen",	"title": " набор игр"},
-        {"id": "204",	"name": "Satz Schreibgeräte",	"title": " набор письменных принадлежностей"},
-        {"id": "205",	"name": "Wandküchenschrank",	"title": " навесной кухонный шкаф"},
-        {"id": "206",	"name": "Kissenbezug",	"title": " наволочка"},
-        {"id": "207",	"name": "Schild an den Grenzen von Privatgrundstücken, das den Zutritt oder die Einreise verbietet",	"title": " надпись на границах частного владения, запрещающая вход или въезд"},
-        {"id": "208",	"name": "Drücken Sie die Anruftaste",	"title": " нажать кнопку звонка"},
-        {"id": "209",	"name": "Bodenabschnitt",	"title": " напольная секция"},
-        {"id": "210",	"name": "Bodenwandabschnitt",	"title": " напольная секция стенки"},
-        {"id": "211",	"name": "Wasserhahn im Freien",	"title": " наружный водопроводный кран"},
-        {"id": "212",	"name": "unbefugtes Betreten von Privatgrundstücken",	"title": " нарушать границы частного владения"},
-        {"id": "213",	"name": "Düse für Boden (Teppich)",	"title": " насадка для пола (ковра)"},
-        {"id": "214",	"name": "Allzweckdüse",	"title": " насадка общего назначения"},
-        {"id": "215",	"name": "Leselampe",	"title": " настольная лампа"},
-        {"id": "216",	"name": "Leselampe",	"title": " настольная лампа"},
-        {"id": "217",	"name": "reiben, bis es glänzt",	"title": " натирать до блеска"},
-        {"id": "218",	"name": "unbemalt",	"title": " некрашеный"},
-        {"id": "219",	"name": "Edelstahl",	"title": " нержавеющая сталь"},
-        {"id": "220",	"name": "Telefonnummer",	"title": " номер телефона"},
-        {"id": "221",	"name": "Nachtlicht, Nachtlampe",	"title": " ночник, ночная лампа"},
-        {"id": "222",	"name": "reparaturbedürftig, reparaturbedürftig",	"title": " нуждаться в ремонте, требовать ремонта"},
-        {"id": "223",	"name": "Esstisch",	"title": " обеденный стол"},
-        {"id": "224",	"name": "beheiztes Gewächshaus",	"title": " обогреваемая теплица"},
-        {"id": "225",	"name": "Hintergrund",	"title": " обои"},
-        {"id": "226",	"name": "Polsterer (Möbel usw.)",	"title": " обойщик (мебели и т.д.)"},
-        {"id": "227",	"name": "öffentliches Gebäude",	"title": " общественное здание"},
-        {"id": "228",	"name": "freiliegender Draht",	"title": " оголенный провод"},
-        {"id": "229",	"name": "Garten",	"title": " огород"},
-        {"id": "230",	"name": "Balkongeländer",	"title": " ограждение балкона"},
-        {"id": "231",	"name": "Kleiderbürste",	"title": " одежная щетка"},
-        {"id": "232",	"name": "Decke",	"title": " одеяло"},
-        {"id": "233",	"name": "eines der Stufenhäuser des Blocks",	"title": " один из расположенных ступенями домов квартала"},
-        {"id": "234",	"name": "Hütte",	"title": " одноэтажный дом"},
-        {"id": "235",	"name": "Ofenfenster",	"title": " окно духовки"},
-        {"id": "236",	"name": "Fensterrahmen",	"title": " оконная рама"},
-        {"id": "237",	"name": "Fensterläden",	"title": " оконные ставни"},
-        {"id": "238",	"name": "leer, ausschütteln",	"title": " опустошать, вытряхивать"},
-        {"id": "239",	"name": "Gewächshaus, Gewächshaus",	"title": " оранжерея, парник"},
-        {"id": "240",	"name": "Nuss",	"title": " орех"},
-        {"id": "241",	"name": "Kerzenbeleuchtung",	"title": " освещение свечами"},
-        {"id": "242",	"name": "Bettgestell",	"title": " остов кровати"},
-        {"id": "243",	"name": "Loch in der Dusche",	"title": " отверстие в душе"},
-        {"id": "244",	"name": "Klapptisch",	"title": " откидной столик"},
-        {"id": "245",	"name": "offener Innenhof",	"title": " открытый двор"},
-        {"id": "246",	"name": "Öffne die Tür, wenn es klingelt",	"title": " открыть дверь на звонок"},
-        {"id": "247",	"name": "Öffne den Vorhang",	"title": " открыть занавес"},
-        {"id": "248",	"name": "Heizsystem",	"title": " отопительная система"},
-        {"id": "249",	"name": "Sicherungskasten",	"title": " панель с предохранителями"},
-        {"id": "250",	"name": "Pension",	"title": " пансион"},
-        {"id": "251",	"name": "Haustür",	"title": " парадная дверь"},
-        {"id": "252",	"name": "Parkett; Parkett verlegen",	"title": " паркет; настилать паркет"},
-        {"id": "253",	"name": "Parkettboden",	"title": " паркетный пол"},
-        {"id": "254",	"name": "Dampfheizung",	"title": " паровое отопление"},
-        {"id": "255",	"name": "Aschenbecher",	"title": " пепельница"},
-        {"id": "256",	"name": "Erdgeschoss",	"title": " первый этаж"},
-        {"id": "257",	"name": "vor dem Haus",	"title": " перед домом"},
-        {"id": "258",	"name": "neu streichen, neu streichen",	"title": " перекрашивать, красить повторно"},
-        {"id": "259",	"name": "Federbett",	"title": " перина"},
-        {"id": "260",	"name": "Schwimmbad",	"title": " плавательный бассейн"},
-        {"id": "261",	"name": "Sicherung, Stecker",	"title": " плавкий предохранитель, «пробка»"},
-        {"id": "262",	"name": "Plastik, Plastik",	"title": " пластмасса, пластик"},
-        {"id": "263",	"name": "Kleiderschrank",	"title": " платяной шкаф"},
-        {"id": "264",	"name": "Kleiderbügel",	"title": " плечики"},
-        {"id": "265",	"name": "gefliest, Mosaik",	"title": " плиточный, мозаичный"},
-        {"id": "266",	"name": "Flachdach",	"title": " плоская крыша"},
-        {"id": "267",	"name": "ein Zimmermann",	"title": " плотник"},
-        {"id": "268",	"name": "weiß getüncht",	"title": " побеленный"},
-        {"id": "269",	"name": "Tischoberfläche",	"title": " поверхность стола"},
-        {"id": "270",	"name": "Duschwanne",	"title": " поддон душевой кабины"},
-        {"id": "271",	"name": "Bettkasten",	"title": " подкроватный ящик"},
-        {"id": "272",	"name": "fegen",	"title": " подметать"},
-        {"id": "273",	"name": "fegen Sie den Boden mit einem Mopp",	"title": " подметать пол шваброй"},
-        {"id": "274",	"name": "zieh den Vorhang hoch",	"title": " поднять занавес"},
-        {"id": "275",	"name": "Bettbezug",	"title": " пододеяльник"},
-        {"id": "276",	"name": "ans Telefon gehen",	"title": " подойти к телефону"},
-        {"id": "277",	"name": "Leuchter",	"title": " подсвечник"},
-        {"id": "278",	"name": "Eisenständer",	"title": " подставка для утюга"},
-        {"id": "279",	"name": "Unterlage",	"title": " подушечка"},
-        {"id": "280",	"name": "Kissen",	"title": " подушка"},
-        {"id": "281",	"name": "Kissen (Sofa)",	"title": " подушка (диванная)"},
-        {"id": "282",	"name": "Auffahrt",	"title": " подъездная дорожка"},
-        {"id": "283",	"name": "hinter dem Haus, im Hinterhof",	"title": " позади дома, на заднем дворе"},
-        {"id": "284",	"name": "Klingel an der Haustür",	"title": " позвонить в дверь"},
-        {"id": "285",	"name": "Abdeckung",	"title": " покрывало"},
-        {"id": "286",	"name": "Abdeckung",	"title": " покрывало"},
-        {"id": "287",	"name": "gefliest",	"title": " покрытый кафельной плиткой"},
-        {"id": "288",	"name": "Teppichboden",	"title": " покрытый коврами пол"},
-        {"id": "289",	"name": "Regal",	"title": " полка"},
-        {"id": "290",	"name": "Bücherregal",	"title": " полка для книг"},
-        {"id": "291",	"name": "Bettwäscheregal",	"title": " полка для постельного белья"},
-        {"id": "292",	"name": "Kühlschrankregal",	"title": " полка холодильника"},
-        {"id": "293",	"name": "Vollpension (drei Mahlzeiten am Tag)",	"title": " полный пансион (трехразовое питание)"},
-        {"id": "294",	"name": "Fußabtreter",	"title": " половая тряпка"},
-        {"id": "295",	"name": "kaputt, außer Betrieb",	"title": " поломанный, вышедший из строя"},
-        {"id": "296",	"name": "abbauen",	"title": " поломаться"}
-        
-       
+        {
+            "id": "1",
+            "name": "der Bus",
+            "title": "автобус(дэа Бус)"
+        },
+        {
+            "id": "2",
+            "name": "sehr",
+            "title": "очень(зэа)"
+        },
+        {
+            "id": "3",
+            "name": "weiß",
+            "title": "белый(вайс)"
+        },
+        {
+            "id": "4",
+            "name": "weiße",
+            "title": "белая(вáйсэ)"
+        },
+        {
+            "id": "5",
+            "name": "weißes",
+            "title": "белое(вáйсэс)"
+        },
+        {
+            "id": "6",
+            "name": "der Tisch",
+            "title": "стол(дэа Тиш)"
+        },
+        {
+            "id": "7",
+            "name": "reich",
+            "title": "богатый(райх)"
+        },
+        {
+            "id": "8",
+            "name": "braun",
+            "title": "коричневый(браун)"
+        },
+        {
+            "id": "9",
+            "name": "das Törtchen",
+            "title": "пироженое(дас Тёртхен)"
+        },
+        {
+            "id": "10",
+            "name": "schwarz",
+            "title": "чёрный(шварц)"
+        },
+        {
+            "id": "11",
+            "name": "rot",
+            "title": "красный(рот)"
+        },
+        {
+            "id": "12",
+            "name": "der Teil",
+            "title": "часть(дэа Тайл)"
+        },
+        {
+            "id": "13",
+            "name": "wessen",
+            "title": "чей, чья, чьё(вэссэн)"
+        },
+        {
+            "id": "14",
+            "name": "die Eiche",
+            "title": "дуб(ди Айхэ)"
+        },
+        {
+            "id": "15",
+            "name": "das Dessert",
+            "title": "десерт(дас Дэссэр)"
+        },
+        {
+            "id": "16",
+            "name": "das Eis",
+            "title": "мороженое(дас Айс)"
+        },
+        {
+            "id": "17",
+            "name": "gut",
+            "title": "хороший(гут)"
+        },
+        {
+            "id": "18",
+            "name": "das Haus",
+            "title": "дом(дас Хаус)"
+        },
+        {
+            "id": "19",
+            "name": "groß",
+            "title": "большой(грос)"
+        },
+        {
+            "id": "20",
+            "name": "die Marmelade",
+            "title": "варенье(ди Мармелáдэ)"
+        },
+        {
+            "id": "21",
+            "name": "der Tag",
+            "title": "день(дэа Таг)"
+        },
+        {
+            "id": "22",
+            "name": "blau",
+            "title": "синий(блау)"
+        },
+        {
+            "id": "23",
+            "name": "die Laune",
+            "title": "настроение(ди Лáунэ)"
+        },
+        {
+            "id": "24",
+            "name": "interessant",
+            "title": "интересный(интэрэсáнт)"
+        },
+        {
+            "id": "25",
+            "name": "welcher, welche, welches",
+            "title": "какой, какая, какое(вэльхэа, вэльхэ, вэльхэс)"
+        },
+        {
+            "id": "26",
+            "name": "die Sprache",
+            "title": "язык(ди Шпрахэ)"
+        },
+        {
+            "id": "27",
+            "name": "das Buch",
+            "title": "книга(дас Бух)"
+        },
+        {
+            "id": "28",
+            "name": "die Tasse",
+            "title": "чашка(ди Тáссэ)"
+        },
+        {
+            "id": "29",
+            "name": "schön",
+            "title": "красивый(шён)"
+        },
+        {
+            "id": "30",
+            "name": "die Stadt",
+            "title": "город(ди Штат)"
+        },
+        {
+            "id": "31",
+            "name": "der Monat",
+            "title": "месяц(дэа Мóнат)"
+        },
+        {
+            "id": "32",
+            "name": "jung",
+            "title": "молодой(юнг)"
+        },
+        {
+            "id": "33",
+            "name": "mein, meine, mein",
+            "title": "мой, моя, моё(майн, мáйнэ, майн)"
+        },
+        {
+            "id": "34",
+            "name": "das Meer",
+            "title": "море (дас Мэа)"
+        },
+        {
+            "id": "35",
+            "name": "die Fliege",
+            "title": "муха (ди Флíгэ)"
+        },
+        {
+            "id": "36",
+            "name": "nächste",
+            "title": "следующий (нéхстэ)"
+        },
+        {
+            "id": "37",
+            "name": "unser, unseres, unsere",
+            "title": "наш, нашего, наши (у́нзэ, у́нзэрэс, у́нзэрэ)"
+        },
+        {
+            "id": "38",
+            "name": "heißen",
+            "title": "называться (хáйсэн)"
+        },
+        {
+            "id": "39",
+            "name": "hellblau",
+            "title": "голубой (хэльблау)"
+        },
+        {
+            "id": "40",
+            "name": "niedrig",
+            "title": "низкий (нидрих)"
+        },
+        {
+            "id": "41",
+            "name": "neu",
+            "title": "новый (ной)"
+        },
+        {
+            "id": "42",
+            "name": "der Herr",
+            "title": "обращение к мужчине (дэа Хэр)"
+        },
+        {
+            "id": "43",
+            "name": "die Frau",
+            "title": "обращение к женщине (ди Фрау)"
+        },
+        {
+            "id": "44",
+            "name": "der Hund",
+            "title": "собака (дэа Хунт)"
+        },
+        {
+            "id": "45",
+            "name": "die Hündchen",
+            "title": "собачки (ди Хю́ндхен)"
+        },
+        {
+            "id": "46",
+            "name": "das Zimmer",
+            "title": "комната (дас Ци́мма)"
+        },
+        {
+            "id": "47",
+            "name": "polnisch",
+            "title": "польский (пóльниш)"
+        },
+        {
+            "id": "48",
+            "name": "hübsch",
+            "title": "красивый о мужчине (хюпш)"
+        },
+        {
+            "id": "49",
+            "name": "die Schwester",
+            "title": "сестра (ди Швэ́стэр)"
+        },
+        {
+            "id": "50",
+            "name": "alt",
+            "title": "старый (альт)"
+        },
+        {
+            "id": "51",
+            "name": "das Fest",
+            "title": "праздник (дас Фэст)"
+        },
+        {
+            "id": "52",
+            "name": "frisch",
+            "title": "свежий (фриш)"
+        },
+        {
+            "id": "53",
+            "name": "sympathisch",
+            "title": "симпатичный (зюмпáтиш)"
+        },
+        {
+            "id": "54",
+            "name": "Träume (во сне — von Träumen)",
+            "title": "снов (трóймэ)"
+        },
+        {
+            "id": "55",
+            "name": "der",
+            "title": "тот(дэа)"
+        },
+        {
+            "id": "56",
+            "name": "die",
+            "title": "та(ди)"
+        },
+        {
+            "id": "57",
+            "name": "das",
+            "title": "то (дас)"
+        },
+        {
+            "id": "58",
+            "name": "das",
+            "title": "это(дас)"
+        },
+        {
+            "id": "59",
+            "name": "diese",
+            "title": "эта(дúзэ)"
+        },
+        {
+            "id": "60",
+            "name": "dies",
+            "title": "это (дийс)"
+        },
+        {
+            "id": "61",
+            "name": "auch",
+            "title": "тоже (ауx)"
+        },
+        {
+            "id": "62",
+            "name": "dein",
+            "title": "твой(дайн)"
+        },
+        {
+            "id": "63",
+            "name": "deine",
+            "title": "твоя(дáйнэ)"
+        },
+        {
+            "id": "64",
+            "name": "dein",
+            "title": "твоё (дайн)"
+        },
+        {
+            "id": "65",
+            "name": "Ihr, Ihre, Ihr",
+            "title": "ваш, ваша, ваше (иа, и́рэ, иа)"
+        },
+        {
+            "id": "66",
+            "name": "euer, eure, euer",
+            "title": "ваш, ваша, ваше (óйа, óйрэ, óйа)"
+        },
+        {
+            "id": "67",
+            "name": "Ihr",
+            "title": "ваш, ваша, ваше (иа)"
+        },
+        {
+            "id": "68",
+            "name": "war in Ordnung",
+            "title": "вышел о'кей (ваа ин Óрднунг)"
+        },
+        {
+            "id": "69",
+            "name": "der Unterricht",
+            "title": "занятия (дэа У́нтэррихт)"
+        },
+        {
+            "id": "70",
+            "name": "der Zahn",
+            "title": "зуб (дэа Цан)"
+        },
+        {
+            "id": "71",
+            "name": "grün",
+            "title": "зелёный (грюн)"
+        },
+        {
+            "id": "72",
+            "name": "die Erde",
+            "title": "земля (ди Э́рдэ)"
+        },
+        {
+            "id": "73",
+            "name": "gelb",
+            "title": "жёлтый (гельб)"
+        },
+        {
+            "id": "74",
+            "name": "Guten Tag",
+            "title": "здравствуйте (гýтэн таг)"
+        },
+        {
+            "id": "75",
+            "name": "Guten Tag",
+            "title": "Добрый день (гýтэн таг)"
+        },
+        {
+            "id": "76",
+            "name": "Guten Abend",
+            "title": "Добрый вечер (гýтэн áбэнт)"
+        },
+        {
+            "id": "77",
+            "name": "Hallo",
+            "title": "привет (хáло)"
+        },
+        {
+            "id": "78",
+            "name": "Auf Wiedersehen",
+            "title": "до свидания (ауф Вíдэрзэен)"
+        },
+        {
+            "id": "79",
+            "name": "Bis bald",
+            "title": "до скорого свидание (бис бальт)"
+        },
+        {
+            "id": "80",
+            "name": "Gute Nacht",
+            "title": "спокойной ночи (гýтэ нахт)"
+        },
+        {
+            "id": "81",
+            "name": "Bis morgen",
+            "title": "до завтра (бис мóргэн)"
+        },
+        {
+            "id": "82",
+            "name": "Wie heißen Sie?",
+            "title": "как вас зовут (ви хáйсэн зи)"
+        },
+        {
+            "id": "83",
+            "name": "Ich heiße ...",
+            "title": "меня зовут так-то (их хáйсэ ...)"
+        },
+        {
+            "id": "84",
+            "name": "Ich heiße",
+            "title": "меня зовут(их хáйсэ)"
+        },
+        {
+            "id": "85",
+            "name": "Sehr erfreut",
+            "title": "очень приятно(зэа эрфрóйт)"
+        },
+        {
+            "id": "86",
+            "name": "Angenehm",
+            "title": "очень приятно (áнгэнейм)"
+        },
+        {
+            "id": "87",
+            "name": "Wie heißt du?",
+            "title": "как тебя зовут (ви хайст ду)"
+        },
+        {
+            "id": "88",
+            "name": "Entschuldigung",
+            "title": "извините (энтшýльдигунг)"
+        },
+        {
+            "id": "89",
+            "name": "danke",
+            "title": "спасибо (дáнкэ)"
+        },
+        {
+            "id": "90",
+            "name": "bitte",
+            "title": "пожалуйста (бúттэ)"
+        },
+        {
+            "id": "91",
+            "name": "Was gibt’s Neues?",
+            "title": "что у вас слышно (вас гибтс нóйэс)"
+        },
+        {
+            "id": "92",
+            "name": "Wie lebst du?",
+            "title": "как живёшь (ви лэйпст ду)"
+        },
+        {
+            "id": "93",
+            "name": "Wie geht’s?",
+            "title": "как дела (ви гейтс)"
+        },
+        {
+            "id": "94",
+            "name": "danke",
+            "title": "спасибо(дáнкэ)"
+        },
+        {
+            "id": "95",
+            "name": "Alles in Ordnung",
+            "title": "всё в порядке(áлэс ин Óрднунг)"
+        },
+        {
+            "id": "96",
+            "name": "wunderbar",
+            "title": "прекрасно(вýндэрбаа)"
+        },
+        {
+            "id": "97",
+            "name": "sehr gut",
+            "title": "очень хорошо(зэа гут)"
+        },
+        {
+            "id": "98",
+            "name": "nicht schlecht",
+            "title": "неплохо(нихт шлехт)"
+        },
+        {
+            "id": "99",
+            "name": "so lala",
+            "title": "так себе(зо ляля)"
+        },
+        {
+            "id": "100",
+            "name": "schlecht",
+            "title": "плохо(шлехт)"
+        },
+        {
+            "id": "101",
+            "name": "wie früher",
+            "title": "по-старому(ви ФРЮэр)"
+        },
+        {
+            "id": "102",
+            "name": "nichts Neues",
+            "title": "ничего нового(нихтс НОйэс)"
+        },
+        {
+            "id": "103",
+            "name": "aber",
+            "title": "но(Абэр)"
+        },
+        {
+            "id": "104",
+            "name": "Artikel",
+            "title": "статья(арТИкэль)"
+        },
+        {
+            "id": "105",
+            "name": "Bus-",
+            "title": "автобусный(БУс)"
+        },
+        {
+            "id": "106",
+            "name": "Fahrkarte",
+            "title": "билет(ФАркартэ)"
+        },
+        {
+            "id": "107",
+            "name": "Taschentuch",
+            "title": "платочек(ТАшэнтух)"
+        },
+        {
+            "id": "108",
+            "name": "Zeitschrift",
+            "title": "журнал(ЦАЙтшрифт)"
+        },
+        {
+            "id": "109",
+            "name": "oft",
+            "title": "часто(офт)"
+        },
+        {
+            "id": "110",
+            "name": "lesen",
+            "title": "читать(ЛЕзэн)"
+        },
+        {
+            "id": "111",
+            "name": "Kugelschreiber",
+            "title": "шариковая ручка(КУгельшрайбэр)"
+        },
+        {
+            "id": "112",
+            "name": "gut",
+            "title": "хороший(гут)"
+        },
+        {
+            "id": "113",
+            "name": "gut",
+            "title": "хорошо(гут)"
+        },
+        {
+            "id": "114",
+            "name": "Kind",
+            "title": "ребёнок(кинд)"
+        },
+        {
+            "id": "115",
+            "name": "Film",
+            "title": "фильм(фильм)"
+        },
+        {
+            "id": "116",
+            "name": "Zeitung",
+            "title": "газета(ЦАЙтунг)"
+        },
+        {
+            "id": "117",
+            "name": "spielen",
+            "title": "играть(ШПИлэн)"
+        },
+        {
+            "id": "118",
+            "name": "höflich",
+            "title": "вежливый, послушный(ХЁфлих)"
+        },
+        {
+            "id": "119",
+            "name": "hygienisch",
+            "title": "гигиенический(хюгИэниш)"
+        },
+        {
+            "id": "120",
+            "name": "Geschichte",
+            "title": "история(гэШИхтэ)"
+        },
+        {
+            "id": "121",
+            "name": "klug",
+            "title": "умный(клук)"
+        },
+        {
+            "id": "122",
+            "name": "Ingenieur",
+            "title": "инженер(инжэнЙОр)"
+        },
+        {
+            "id": "123",
+            "name": "noch",
+            "title": "ещё(нох)"
+        },
+        {
+            "id": "124",
+            "name": "Kalender",
+            "title": "календарь(каЛЕНдэр)"
+        },
+        {
+            "id": "125",
+            "name": "Karte",
+            "title": "карточка(КАртэ)"
+        },
+        {
+            "id": "126",
+            "name": "Witz",
+            "title": "шутка, анекдот(виц)"
+        },
+        {
+            "id": "127",
+            "name": "jeder",
+            "title": "каждый(ЙЕдэр)"
+        },
+        {
+            "id": "128",
+            "name": "Fahrer",
+            "title": "шофёр(ФАрэр)"
+        },
+        {
+            "id": "129",
+            "name": "bunt",
+            "title": "разноцветный(бунт)"
+        },
+        {
+            "id": "130",
+            "name": "Ärztin",
+            "title": "женщина-врач(ЭРцтин)"
+        },
+        {
+            "id": "131",
+            "name": "Arzt",
+            "title": "врач(арцт)"
+        },
+        {
+            "id": "132",
+            "name": "Lehrer",
+            "title": "учитель(ЛЕрэр)"
+        },
+        {
+            "id": "133",
+            "name": "Lehrerin",
+            "title": "учительница(ЛЕрэрин)"
+        },
+        {
+            "id": "134",
+            "name": "kochen",
+            "title": "готовить(КОхэн)"
+        },
+        {
+            "id": "135",
+            "name": "natürlich",
+            "title": "конечно(наТЮрлих)"
+        },
+        {
+            "id": "136",
+            "name": "ansehen",
+            "title": "осматривать, смотреть(АНзээн)"
+        },
+        {
+            "id": "137",
+            "name": "erzählen",
+            "title": "рассказывать(эрЦЕлэн)"
+        },
+        {
+            "id": "138",
+            "name": "sich erinnern",
+            "title": "помнить(зих эрИнэрн)"
+        },
+        {
+            "id": "139",
+            "name": "Zigaretten",
+            "title": "сигареты(цигарЕтн)"
+        },
+        {
+            "id": "140",
+            "name": "Krankenschwester",
+            "title": "медсестра(КРАНкэншвэстэр)"
+        },
+        {
+            "id": "141",
+            "name": "Lied",
+            "title": "песня(лид)"
+        },
+        {
+            "id": "142",
+            "name": "Schriftstellerin",
+            "title": "писательница(ШРИФтштэллерин)"
+        },
+        {
+            "id": "143",
+            "name": "Schriftsteller",
+            "title": "писатель(ШРИФтштэллер)"
+        },
+        {
+            "id": "144",
+            "name": "Polizist",
+            "title": "полицейский(полицИст)"
+        },
+        {
+            "id": "145",
+            "name": "fleißig",
+            "title": "трудолюбивый(ФЛАЙзих)"
+        },
+        {
+            "id": "146",
+            "name": "Programm",
+            "title": "программа(проГРАМ)"
+        },
+        {
+            "id": "147",
+            "name": "lesen",
+            "title": "прочитать(ЛЕзэн)"
+        },
+        {
+            "id": "148",
+            "name": "Arbeiterin",
+            "title": "работница(АРбайтэрин)"
+        },
+        {
+            "id": "149",
+            "name": "Arbeiter",
+            "title": "рабочий(АРбайтэр)"
+        },
+        {
+            "id": "150",
+            "name": "Landwirt",
+            "title": "земледелец(ЛАНДвирт)"
+        },
+        {
+            "id": "151",
+            "name": "sprechen",
+            "title": "разговаривать(ШПРЕхэн)"
+        },
+        {
+            "id": "152",
+            "name": "verstehen",
+            "title": "понимать(фэршТЕэн)"
+        },
+        {
+            "id": "153",
+            "name": "verschieden",
+            "title": "разный(фэрШИдэн)"
+        },
+        {
+            "id": "154",
+            "name": "selten",
+            "title": "редко(ЗЕльтэн)"
+        },
+        {
+            "id": "155",
+            "name": "Wort",
+            "title": "слово(ворт)"
+        },
+        {
+            "id": "156",
+            "name": "sich treffen",
+            "title": "встретиться(зих ТРЕффэн)"
+        },
+        {
+            "id": "157",
+            "name": "sich treffen",
+            "title": "встречаться(зих ТРЕффэн)"
+        },
+        {
+            "id": "158",
+            "name": "prüfen",
+            "title": "проверять(ПРЮфэн)"
+        },
+        {
+            "id": "159",
+            "name": "Student",
+            "title": "студент(штудЕНТ)"
+        },
+        {
+            "id": "160",
+            "name": "Studentin",
+            "title": "студентка(штудЕНтин)"
+        },
+        {
+            "id": "161",
+            "name": "singen",
+            "title": "петь(ЗИнгэн)"
+        },
+        {
+            "id": "162",
+            "name": "Telefon-",
+            "title": "телефонный(тэлеФОН)"
+        },
+        {
+            "id": "163",
+            "name": "Fernsehen",
+            "title": "телевидение(ФЕРНзээн)"
+        },
+        {
+            "id": "164",
+            "name": "jetzt",
+            "title": "сейчас(йэцт)"
+        },
+        {
+            "id": "165",
+            "name": "fürsorglich",
+            "title": "заботливый(ФЮРзорглих)"
+        },
+        {
+            "id": "166",
+            "name": "Schülerin",
+            "title": "ученица(ШЮлэрин)"
+        },
+        {
+            "id": "167",
+            "name": "Schüler",
+            "title": "ученик(ШЮлэр)"
+        },
+        {
+            "id": "168",
+            "name": "können",
+            "title": "уметь(КЁнэн)"
+        },
+        {
+            "id": "169",
+            "name": "Angestellte",
+            "title": "служащая(АНгэштэльтэ)"
+        },
+        {
+            "id": "170",
+            "name": "Angestellter",
+            "title": "служащий(АНгэштэльтэр)"
+        },
+        {
+            "id": "171",
+            "name": "begabt",
+            "title": "талантливый(бэГААпт)"
+        },
+        {
+            "id": "172",
+            "name": "Postkarte",
+            "title": "открытка(ПОСТкартэ)"
+        },
+        {
+            "id": "173",
+            "name": "bald",
+            "title": "скоро(бальт)"
+        },
+        {
+            "id": "174",
+            "name": "alles",
+            "title": "всё(Алэс)"
+        },
+        {
+            "id": "175",
+            "name": "Dozent",
+            "title": "преподаватель(доЦЕНТ)"
+        },
+        {
+            "id": "176",
+            "name": "gebildet",
+            "title": "образованный(гэБИЛдэт)"
+        },
+        {
+            "id": "177",
+            "name": "Aufgabe",
+            "title": "задание(АУФгабэ)"
+        },
+        {
+            "id": "178",
+            "name": "Streichholz",
+            "title": "спичка(ШТРАЙхольц)"
+        },
+        {
+            "id": "179",
+            "name": "zu singen anfangen",
+            "title": "запеть(цу ЗИнгэн АНфангэн)"
+        },
+        {
+            "id": "180",
+            "name": "fähig",
+            "title": "способный(ФЕхих)"
+        },
+        {
+            "id": "181",
+            "name": "Heft",
+            "title": "тетрадь(хэфт)"
+        },
+        {
+            "id": "182",
+            "name": "schlecht",
+            "title": "плохой(шлехт)"
+        },
+        {
+            "id": "183",
+            "name": "schlecht",
+            "title": "плохо(шлехт)"
+        },
+        {
+            "id": "184",
+            "name": "Krankenschwester",
+            "title": "медсестра(КРАНкэншвэстэр)"
+        },
+        {
+            "id": "185",
+            "name": "gut",
+            "title": "хороший(гут)"
+        },
+        {
+            "id": "186",
+            "name": "höflich",
+            "title": "вежливый(ХЁфлих)"
+        },
+        {
+            "id": "187",
+            "name": "über die Sonne",
+            "title": "про солнечные(Юбэр ди ЗОннэ)"
+        },
+        {
+            "id": "188",
+            "name": "klug",
+            "title": "умный(клук)"
+        },
+        {
+            "id": "189",
+            "name": "fähig",
+            "title": "способный(ФЕхих)"
+        },
+        {
+            "id": "190",
+            "name": "fürsorglich",
+            "title": "заботливый(ФЮРзорглих)"
+        },
+        {
+            "id": "191",
+            "name": "ehrgeizig",
+            "title": "честолюбивый(ЭРгайцих)"
+        },
+        {
+            "id": "192",
+            "name": "gebildet",
+            "title": "образованный(гэБИЛдэт)"
+        },
+        {
+            "id": "193",
+            "name": "hygienisch",
+            "title": "гигиенический(хюгИэниш)"
+        },
+        {
+            "id": "194",
+            "name": "Telefonkarte",
+            "title": "телефонная карточка(тэлеФОНкартэ)"
+        },
+        {
+            "id": "195",
+            "name": "Busfahrkarte",
+            "title": "автобусный билет(БУсфаркартэ)"
+        },
+        {
+            "id": "196",
+            "name": "Hygienetuch",
+            "title": "гигиенический платочек(хюгИэнэтух)"
+        },
+        {
+            "id": "197",
+            "name": "bunte Postkarte",
+            "title": "цветная открытка(БУНтэ ПОСТкартэ)"
+        },
+        {
+            "id": "198",
+            "name": "interessante Zeitschrift",
+            "title": "интересный журнал(интэрэсСАнтэ ЦАЙтшрифт)"
+        },
+        {
+            "id": "199",
+            "name": "frische Zeitung",
+            "title": "свежая газета(ФРИшэ ЦАЙтунг)"
+        },
+        {
+            "id": "200",
+            "name": "schwarzes Heft",
+            "title": "чёрная тетрадь(ШВАРцэс хэфт)"
+        },
+        {
+            "id": "201",
+            "name": "geben Sie bitte",
+            "title": "дайте пожалуйста(гéбэн зи бúтэ)"
+        },
+        {
+            "id": "202",
+            "name": "diesen Kugelschreiber dort",
+            "title": "ту шариковую ручку(дúзэн кýгельшрайбэр дорт)"
+        },
+        {
+            "id": "203",
+            "name": "diese Postkarte dort",
+            "title": "вот ту открытку(дúзэ пóсткартэ дорт)"
+        },
+        {
+            "id": "204",
+            "name": "guten Tag",
+            "title": "здравствуйте(гýтэн тáк)"
+        },
+        {
+            "id": "205",
+            "name": "Guten Tag. Geben Sie bitte eine Postkarte.",
+            "title": "здравствуйте. дайте пожалуйста открытку(гýтэн тáк. гéбэн зи бúтэ áйнэ пóсткартэ)"
+        },
+        {
+            "id": "206",
+            "name": "Welche Postkarte – diese oder jene?",
+            "title": "какую открытку эту или ту(вéльхэ пóсткартэ – дúзэ óдэр йéнэ?)"
+        },
+        {
+            "id": "207",
+            "name": "jene bunte Postkarte",
+            "title": "ту цветную открытку(йéнэ бýнтэ пóсткартэ)"
+        },
+        {
+            "id": "208",
+            "name": "bitte",
+            "title": "пожалуйста(бúтэ)"
+        },
+        {
+            "id": "209",
+            "name": "danke",
+            "title": "спасибо(дáнкэ)"
+        },
+        {
+            "id": "210",
+            "name": "Gibt es Streichhölzer?",
+            "title": "есть ли спички(гибт эс штрáйххёльцэр?)"
+        },
+        {
+            "id": "211",
+            "name": "Ja, es gibt.",
+            "title": "да есть(я, эс гибт)"
+        },
+        {
+            "id": "212",
+            "name": "Geben Sie bitte Streichhölzer.",
+            "title": "дайте пожалуйста спички(гéбэн зи бúтэ штрáйххёльцэр)"
+        },
+        {
+            "id": "213",
+            "name": "bitte",
+            "title": "пожалуйста(бúтэ)"
+        },
+        {
+            "id": "214",
+            "name": "Gibt es eine frische Zeitung?",
+            "title": "есть ли свежая газета(гибт эс áйнэ фрúшэ цáйтунг?)"
+        },
+        {
+            "id": "215",
+            "name": "ja",
+            "title": "да(я)"
+        },
+        {
+            "id": "216",
+            "name": "Geben Sie bitte eine frische Zeitung.",
+            "title": "дайте пожалуйста свежую газету(гéбэн зи бúтэ áйнэ фрúшэ цáйтунг)"
+        },
+        {
+            "id": "217",
+            "name": "bitte",
+            "title": "пожалуйста(бúтэ)"
+        },
+        {
+            "id": "218",
+            "name": "danke, auf Wiedersehen",
+            "title": "спасибо до свидания(дáнкэ, ауф вúдэрзэйн)"
+        },
+        {
+            "id": "219",
+            "name": "guten Tag",
+            "title": "здравствуйте(гýтэн тáк)"
+        },
+        {
+            "id": "220",
+            "name": "Guten Tag, gibt es Fahrkarten für den Bus?",
+            "title": "здравствуйте есть ли автобусные билеты(гýтэн тáк, гибт эс фáркартэн фюр дэн бус?)"
+        },
+        {
+            "id": "221",
+            "name": "Ja, es gibt.",
+            "title": "да есть(я, эс гибт)"
+        },
+        {
+            "id": "222",
+            "name": "Geben Sie bitte eine Fahrkarte und einen Kugelschreiber.",
+            "title": "дайте пожалуйста автобусный билет и шариковую ручку(гéбэн зи бúтэ áйнэ фáркартэ унд áйнэн кýгельшрайбэр)"
+        },
+        {
+            "id": "223",
+            "name": "Welchen Kugelschreiber?",
+            "title": "какую ручку(вéльхэн кýгельшрайбэр?)"
+        },
+        {
+            "id": "224",
+            "name": "Geben Sie bitte den roten Kugelschreiber und noch eine Telefonkarte.",
+            "title": "дайте пожалуйста красную шариковую ручку и ещё телефонную карточку(гéбэн зи бúтэ дэн рóтэн кýгельшрайбэр унд нох áйнэ тэлефóнкартэ)"
+        },
+        {
+            "id": "225",
+            "name": "bitte",
+            "title": "пожалуйста(бúтэ)"
+        },
+        {
+            "id": "226",
+            "name": "danke, auf Wiedersehen",
+            "title": "спасибо до свидания(дáнкэ, ауф вúдэрзэйн)"
+        },
+        {
+            "id": "227",
+            "name": "lesen",
+            "title": "читать(лéзэн)"
+        },
+        {
+            "id": "228",
+            "name": "durchlesen",
+            "title": "прочитать(дýрхлэзэн)"
+        },
+        {
+            "id": "229",
+            "name": "anschauen",
+            "title": "рассматривать, смотреть(áншауэн)"
+        },
+        {
+            "id": "230",
+            "name": "spielen",
+            "title": "играть(шпúлэн)"
+        },
+        {
+            "id": "231",
+            "name": "Hausaufgaben machen",
+            "title": "готовить уроки(хáусауфгабэн мáхэн)"
+        },
+        {
+            "id": "232",
+            "name": "erzählen",
+            "title": "рассказывать(эрцэ́лэн)"
+        },
+        {
+            "id": "233",
+            "name": "sich erinnern",
+            "title": "помнить(зих эрúнэрн)"
+        },
+        {
+            "id": "234",
+            "name": "kontrollieren",
+            "title": "проверять(контрóлирэн)"
+        },
+        {
+            "id": "235",
+            "name": "sich treffen",
+            "title": "встречаться(зих трéффэн)"
+        },
+        {
+            "id": "236",
+            "name": "sich verabreden / sich treffen",
+            "title": "встретиться(зих фэрабрéдэн / зих трéффэн)"
+        },
+        {
+            "id": "237",
+            "name": "können",
+            "title": "уметь(кёнэн)"
+        },
+        {
+            "id": "238",
+            "name": "sprechen",
+            "title": "разговаривать(шпрéхэн)"
+        },
+        {
+            "id": "239",
+            "name": "sich unterhalten",
+            "title": "поговорить(зих у́нтэрхальтэн)"
+        },
+        {
+            "id": "240",
+            "name": "verstehen",
+            "title": "понимать(фэрштéэн)"
+        },
+        {
+            "id": "241",
+            "name": "begreifen / verstehen",
+            "title": "понять(бэгрáйфэн / фэрштéэн)"
+        },
+        {
+            "id": "242",
+            "name": "Artikel",
+            "title": "статья(артúкэль)"
+        },
+        {
+            "id": "243",
+            "name": "Wort",
+            "title": "слово(вóрт)"
+        },
+        {
+            "id": "244",
+            "name": "jeder",
+            "title": "каждый(йéдэр)"
+        },
+        {
+            "id": "245",
+            "name": "Programm",
+            "title": "программа(прогрáмм)"
+        },
+        {
+            "id": "246",
+            "name": "jetzt",
+            "title": "сейчас(йэцт)"
+        },
+        {
+            "id": "247",
+            "name": "Aufgabe",
+            "title": "задание(áуфгабэ)"
+        },
+        {
+            "id": "248",
+            "name": "bald",
+            "title": "скоро(бáльт)"
+        },
+        {
+            "id": "249",
+            "name": "verschieden",
+            "title": "разный(фэршúдэн)"
+        },
+        {
+            "id": "250",
+            "name": "oft",
+            "title": "часто(офт)"
+        },
+        {
+            "id": "251",
+            "name": "schlecht",
+            "title": "плохо(шлэхт)"
+        },
+        {
+            "id": "252",
+            "name": "gut",
+            "title": "хорошо(гут)"
+        },
+        {
+            "id": "253",
+            "name": "Was ist das?",
+            "title": "что это(вас ист дас?)"
+        },
+        {
+            "id": "254",
+            "name": "Das ist eine Stadt.",
+            "title": "это город(дас ист áйнэ штат)"
+        },
+        {
+            "id": "255",
+            "name": "Wer ist das?",
+            "title": "кто это(вэа ист дас?)"
+        },
+        {
+            "id": "256",
+            "name": "Das ist ein Mensch.",
+            "title": "это человек(дас ист áйн мэнш)"
+        },
+        {
+            "id": "257",
+            "name": "was",
+            "title": "что(вас)"
+        },
+        {
+            "id": "258",
+            "name": "Das ist ein Schreibtisch.",
+            "title": "это письменный стол(дас ист áйн шрáйбтиш)"
+        },
+        {
+            "id": "259",
+            "name": "Wer ist das?",
+            "title": "кто это(вэа ист дас?)"
+        },
+        {
+            "id": "260",
+            "name": "Das ist ein Mädchen.",
+            "title": "это девушка(дас ист áйн мéтххен)"
+        },
+        {
+            "id": "261",
+            "name": "Das auch",
+            "title": "это тоже(дас аух)"
+        },
+        {
+            "id": "262",
+            "name": "nimm",
+            "title": "возьми(ним)"
+        },
+        {
+            "id": "263",
+            "name": "komm her",
+            "title": "иди сюда(ком хэа)"
+        }
     ]
-  }
+}
