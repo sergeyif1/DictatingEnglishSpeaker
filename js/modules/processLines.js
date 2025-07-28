@@ -8,7 +8,7 @@ async function processLines(dataChunk) {
   const currentButton1 = getCurrentButton1();
 
   const parsedData = JSON.parse(dataChunk);
-  const { id, name, title, subscrb } = parsedData;
+  const { id, name, title } = parsedData;
 
   if (
     currentButton1 === "but1" ||
@@ -25,7 +25,7 @@ async function processLines(dataChunk) {
   ) {
     text = `${title}`;
     console.log(`${id} - ${text}`);
-    addItemToList((vaarId = id), (vaar1 = title));
+    addItemToList((vaarId = id), (vaar1 = title), (vaar2 = name));
   }
 
   document.getElementById("text1").value = `${id} - ${name}`;
@@ -38,7 +38,7 @@ async function processLines(dataChunk) {
   window.speechSynthesis.speak(utterance);
 }
 
-function addItemToList(vaarId, vaar1, vaar2, vaar3) {
+function addItemToList(vaarId, vaar1, vaar2) {
   const text3 = document.getElementById("text3");
   if (text3) {
     // Создаем новую строку таблицы
@@ -53,12 +53,10 @@ function addItemToList(vaarId, vaar1, vaar2, vaar3) {
       return cell;
     }
 
-    let vaar3 = subscrb || "";
-
     // Добавляем три ячейки в строку
     row.appendChild(createCell(vaarId));
     row.appendChild(createCell(vaar1));
-    row.appendChild(createCell(vaar2, vaar3));
+    row.appendChild(createCell(vaar2));
 
     // Добавляем строку в таблицу
     text3.appendChild(row);
