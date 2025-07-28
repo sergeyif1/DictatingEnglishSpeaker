@@ -39,13 +39,35 @@ async function processLines(dataChunk) {
 }
 
 function addItemToList(vaarId, vaar1, vaar2) {
-  const text3 = document.getElementById("text3");
-  if (text3) {
-    const listItem = document.createElement("li");
+  const table = document.getElementById("text3");
+  if (table) {
+    const row = document.createElement("tr");
 
-    listItem.textContent = `${vaarId} - ${vaar1} - ${vaar2}`;
-    text3.appendChild(listItem);
+    const col1 = document.createElement("td");
+    col1.textContent = vaarId;
+
+    const col2 = document.createElement("td");
+    col2.textContent = vaar1;
+
+    const col3 = document.createElement("td");
+    col3.textContent = vaar2;
+
+    row.appendChild(col1);
+    row.appendChild(col2);
+    row.appendChild(col3);
+
+    table.appendChild(row);
   }
 }
+
+// function addItemToList(vaarId, vaar1, vaar2) {
+//   const text3 = document.getElementById("text3");
+//   if (text3) {
+//     const listItem = document.createElement("li");
+
+//     listItem.textContent = `${vaarId} - ${vaar1} - ${vaar2}`;
+//     text3.appendChild(listItem);
+//   }
+// }
 
 export default processLines;
