@@ -2,7 +2,11 @@ import { getCurrentButton1 } from "./buttonsClickHandlerPlay.js";
 import { currentButton2 } from "./buttonsClickHandlerPauseResume.js";
 import voicePlay from "./getUtterance.js";
 
-let text, vaarId, vaar1, vaar2, vaar3;
+let text,
+  vaarId,
+  vaar1,
+  vaar2,
+  vaar3 = subscrb || "";
 
 async function processLines(dataChunk) {
   const currentButton1 = getCurrentButton1();
@@ -37,8 +41,6 @@ async function processLines(dataChunk) {
   const utterance = voicePlay.getUtterance(text);
   window.speechSynthesis.speak(utterance);
 }
-
-const vaar3 = subscrb || ""; // Используем subscrb, если он есть, иначе пустая строка
 
 function addItemToList(vaarId, vaar1, vaar2, vaar3) {
   const text3 = document.getElementById("text3");
