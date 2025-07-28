@@ -39,24 +39,27 @@ async function processLines(dataChunk) {
 }
 
 function addItemToList(vaarId, vaar1, vaar2) {
-  const table = document.getElementById("text3");
-  if (table) {
+  const text3 = document.getElementById("text3");
+  if (text3) {
+    // Создаем новую строку таблицы
     const row = document.createElement("tr");
 
-    const col1 = document.createElement("td");
-    col1.textContent = vaarId;
+    // Функция для создания ячейки с текстом и границей
+    function createCell(text) {
+      const cell = document.createElement("td");
+      cell.textContent = text;
+      cell.style.border = "1px solid black"; // граница 1px чёрная
+      cell.style.padding = "4px"; // немного отступов для читабельности
+      return cell;
+    }
 
-    const col2 = document.createElement("td");
-    col2.textContent = vaar1;
+    // Добавляем три ячейки в строку
+    row.appendChild(createCell(vaarId));
+    row.appendChild(createCell(vaar1));
+    row.appendChild(createCell(vaar2));
 
-    const col3 = document.createElement("td");
-    col3.textContent = vaar2;
-
-    row.appendChild(col1);
-    row.appendChild(col2);
-    row.appendChild(col3);
-
-    table.appendChild(row);
+    // Добавляем строку в таблицу
+    text3.appendChild(row);
   }
 }
 
