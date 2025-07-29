@@ -4,11 +4,11 @@ import voicePlay from "./getUtterance.js";
 
 let text, vaarId, vaar1, vaar2;
 
-const parsedData = JSON.parse(dataChunk);
-const { id, name, title, subscrb } = parsedData;
-
-async function processLines() {
+async function processLines(dataChunk) {
   const currentButton1 = getCurrentButton1();
+
+  const parsedData = JSON.parse(dataChunk);
+  const { id, name, title, subscrb } = parsedData;
 
   if (
     currentButton1 === "but1" ||
