@@ -4,8 +4,8 @@ import voicePlay from "./getUtterance.js";
 
 let text, vaarId, vaar1, vaar2;
 
-const { id, name, title, subscrb } = parsedData;
 const parsedData = JSON.parse(dataChunk);
+const { id, name, title, subscrb } = parsedData;
 
 async function processLines() {
   const currentButton1 = getCurrentButton1();
@@ -16,12 +16,7 @@ async function processLines() {
   ) {
     text = `${name}`;
     console.log(`${id} - ${text}`);
-    addItemToList(
-      (vaarId = id),
-      (vaar1 = name),
-      (vaar2 = title)
-      // (vaar3 = subscrb)
-    );
+    addItemToList((vaarId = id), (vaar1 = name), (vaar2 = title), subscrb);
   }
 
   if (
@@ -30,12 +25,7 @@ async function processLines() {
   ) {
     text = `${title}`;
     console.log(`${id} - ${text}`);
-    addItemToList(
-      (vaarId = id),
-      (vaar1 = title),
-      (vaar2 = name)
-      // (vaar3 = subscrb)
-    );
+    addItemToList((vaarId = id), (vaar1 = title), (vaar2 = name), subscrb);
   }
 
   document.getElementById("text1").value = `${id} - ${name}`;
@@ -48,7 +38,7 @@ async function processLines() {
   window.speechSynthesis.speak(utterance);
 }
 
-function addItemToList(vaarId, vaar1, vaar2, subscrb = "") {
+function addItemToList(vaarId, vaar1, vaar2, subscrb) {
   const text3 = document.getElementById("text3");
   if (text3) {
     // Создаем новую строку таблицы
@@ -73,6 +63,8 @@ function addItemToList(vaarId, vaar1, vaar2, subscrb = "") {
   }
 }
 
+export default processLines;
+
 // function addItemToList(vaarId, vaar1, vaar2) {
 //   const text3 = document.getElementById("text3");
 //   if (text3) {
@@ -82,5 +74,3 @@ function addItemToList(vaarId, vaar1, vaar2, subscrb = "") {
 //     text3.appendChild(listItem);
 //   }
 // }
-
-export default processLines;
