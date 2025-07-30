@@ -584,9 +584,9 @@
     },
     {
       "id": "98",
-      "name": "Billy",
-      "title": "Билли",
-      "subscrb": "Билли"
+      "name": "ticket",
+      "title": "билет",
+      "subscrb": "ти́кет"
     },
     {
       "id": "99",
@@ -3647,6 +3647,18 @@
       "name": "creamy",
       "title": "сливочный",
       "subscrb": "крими"
+    },
+    {
+      "id": "609",
+      "name": "transit pass",
+      "title": "проездной билет",
+      "subscrb": "трэ́нзит пэс"
+    },
+    {
+      "id": "610",
+      "name": "admission ticket",
+      "title": "входной билет",
+      "subscrb": "эдми́шн ти́кет"
     }
   ]
 }

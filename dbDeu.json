@@ -584,9 +584,9 @@
         },
         {
             "id": "98",
-            "name": "Billy",
-            "title": "Билли",
-            "subscrb": "БИлли"
+            "name": "das Ticket",
+            "title": "билет",
+            "subscrb": "дас тикет"
         },
         {
             "id": "99",
@@ -3647,6 +3647,18 @@
             "name": "sahnig",
             "title": "сливочный",
             "subscrb": "зáних"
+        },
+        {
+            "id": "609",
+            "name": "die Fahrkarte",
+            "title": "проездной билет",
+            "subscrb": "ди фаркартэ"
+        },
+        {
+            "id": "610",
+            "name": "die Eintrittskarte",
+            "title": "входной билет",
+            "subscrb": "ди айнтритскартэ"
         }
     ]
 }

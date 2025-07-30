@@ -584,9 +584,9 @@
     },
     {
       "id": "98",
-      "name": "Billy",
-      "title": "Билли",
-      "subscrb": "Билли"
+      "name": "bilet",
+      "title": "билет",
+      "subscrb": "билет"
     },
     {
       "id": "99",
@@ -3647,6 +3647,18 @@
       "name": "śmietankowy",
       "title": "сливочный",
       "subscrb": "шметанковы"
+    },
+    {
+      "id": "609",
+      "name": "bilet okresowy",
+      "title": "проездной билет",
+      "subscrb": "билет окрэсовы"
+    },
+    {
+      "id": "610",
+      "name": "bilet wstępu",
+      "title": "входной билет",
+      "subscrb": "билет всстэмпу"
     }
   ]
 }

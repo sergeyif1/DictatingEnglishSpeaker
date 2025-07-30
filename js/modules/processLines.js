@@ -56,7 +56,7 @@ function addItemToList(vaarId, vaar1, vaar2, subscrb) {
     // Добавляем три ячейки в строку
     row.appendChild(createCell(vaarId));
     row.appendChild(createCell(vaar1));
-    row.appendChild(createCell(`${vaar2} (${subscrb})`));
+    row.appendChild(createCell(`${vaar2} [${subscrb}]`));
 
     // Добавляем строку в таблицу
     text3.appendChild(row);
