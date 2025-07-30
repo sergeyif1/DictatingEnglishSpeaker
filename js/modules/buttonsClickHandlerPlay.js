@@ -1,6 +1,7 @@
 import { activCheckBox } from "./IdDataControl.js";
 import myModule from "./myModule.js";
 import countNwords from "./countNwords.js";
+import countdown from "./countdownTimer.js";
 
 document.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
@@ -22,6 +23,12 @@ const buttonsClickHandlerPlay = {
         activCheckBox();
         countNwords.nWord();
         myModule.words();
+
+        const secInput = document.querySelector("#gap");
+        if (secInput) {
+          const sec = Number(secInput.value);
+          countdown(sec, sec);
+        }
 
         break;
       default:
