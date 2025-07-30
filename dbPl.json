@@ -1532,2120 +1532,2120 @@
     },
     {
       "id": "256",
-      "name": "бабушка",
-      "title": "babcia",
+      "name": "babcia",
+      "title": "бабушка",
       "subscrb": "бабча"
     },
     {
       "id": "257",
-      "name": "дедушка",
-      "title": "dziadek",
+      "name": "dziadek",
+      "title": "дедушка",
       "subscrb": "джядэк"
     },
     {
       "id": "258",
-      "name": "мать",
-      "title": "matka",
+      "name": "matka",
+      "title": "мать",
       "subscrb": "матка"
     },
     {
       "id": "259",
-      "name": "отец",
-      "title": "ojciec",
+      "name": "ojciec",
+      "title": "отец",
       "subscrb": "ойчец"
     },
     {
       "id": "260",
-      "name": "сестра",
-      "title": "siostra",
+      "name": "siostra",
+      "title": "сестра",
       "subscrb": "сёстра"
     },
     {
       "id": "261",
-      "name": "брат",
-      "title": "brat",
+      "name": "brat",
+      "title": "брат",
       "subscrb": "брат"
     },
     {
       "id": "262",
-      "name": "дочь",
-      "title": "córka",
+      "name": "córka",
+      "title": "дочь",
       "subscrb": "цурка"
     },
     {
       "id": "263",
-      "name": "сын",
-      "title": "syn",
+      "name": "syn",
+      "title": "сын",
       "subscrb": "сын"
     },
     {
       "id": "264",
-      "name": "внук",
-      "title": "wnuk",
+      "name": "wnuk",
+      "title": "внук",
       "subscrb": "внук"
     },
     {
       "id": "265",
-      "name": "внучка",
-      "title": "wnuczka",
+      "name": "wnuczka",
+      "title": "внучка",
       "subscrb": "внучка"
     },
     {
       "id": "266",
-      "name": "жена",
-      "title": "żona",
+      "name": "żona",
+      "title": "жена",
       "subscrb": "жона"
     },
     {
       "id": "267",
-      "name": "муж",
-      "title": "mąż",
+      "name": "mąż",
+      "title": "муж",
       "subscrb": "монтш"
     },
     {
       "id": "268",
-      "name": "тёща",
-      "title": "teściowa",
+      "name": "teściowa",
+      "title": "тёща",
       "subscrb": "тещёва"
     },
     {
       "id": "269",
-      "name": "свекровь",
-      "title": "teściowa",
+      "name": "teściowa",
+      "title": "свекровь",
       "subscrb": "тещёва"
     },
     {
       "id": "270",
-      "name": "тесть",
-      "title": "teść",
+      "name": "teść",
+      "title": "тесть",
       "subscrb": "тещь"
     },
     {
       "id": "271",
-      "name": "свёкор",
-      "title": "teść",
+      "name": "teść",
+      "title": "свёкор",
       "subscrb": "тещь"
     },
     {
       "id": "272",
-      "name": "зять",
-      "title": "zięć",
+      "name": "zięć",
+      "title": "зять",
       "subscrb": "зеньч"
     },
     {
       "id": "273",
-      "name": "невестка",
-      "title": "synowa",
+      "name": "synowa",
+      "title": "невестка",
       "subscrb": "сынова"
     },
     {
       "id": "274",
-      "name": "тётя",
-      "title": "ciocia",
+      "name": "ciocia",
+      "title": "тётя",
       "subscrb": "чоця"
     },
     {
       "id": "275",
-      "name": "дядя",
-      "title": "wujek",
+      "name": "wujek",
+      "title": "дядя",
       "subscrb": "вуйэк"
     },
     {
       "id": "276",
-      "name": "племянник",
-      "title": "siostrzeniec / bratanek",
+      "name": "siostrzeniec / bratanek",
+      "title": "племянник",
       "subscrb": "сёстшеньэц / братанэк"
     },
     {
       "id": "277",
-      "name": "племянница",
-      "title": "siostrzenica / bratanica",
+      "name": "siostrzenica / bratanica",
+      "title": "племянница",
       "subscrb": "сёстшеница / братаница"
     },
     {
       "id": "278",
-      "name": "двоюродный брат",
-      "title": "kuzyn",
+      "name": "kuzyn",
+      "title": "двоюродный брат",
       "subscrb": "кузын"
     },
     {
       "id": "279",
-      "name": "двоюродная сестра",
-      "title": "kuzynka",
+      "name": "kuzynka",
+      "title": "двоюродная сестра",
       "subscrb": "кузынка"
     },
     {
       "id": "280",
-      "name": "семья",
-      "title": "rodzina",
+      "name": "rodzina",
+      "title": "семья",
       "subscrb": "роджина"
     },
     {
       "id": "281",
-      "name": "родители",
-      "title": "rodzice",
+      "name": "rodzice",
+      "title": "родители",
       "subscrb": "роджице"
     },
     {
       "id": "282",
-      "name": "супружеская пара",
-      "title": "para małżeńska",
+      "name": "para małżeńska",
+      "title": "супружеская пара",
       "subscrb": "пара мауженьска"
     },
     {
       "id": "283",
-      "name": "дзятькове (польское)",
-      "title": "dziadkowie",
+      "name": "dziadkowie",
+      "title": "дзятькове (польское)",
       "subscrb": "джяткове"
     },
     {
       "id": "284",
-      "name": "дзятькове (польское)",
-      "title": "dziadkowie",
+      "name": "dziadkowie",
+      "title": "дзятькове (польское)",
       "subscrb": "джяткове"
     },
     {
       "id": "285",
-      "name": "родзеньство (польское)",
-      "title": "rodzeństwo",
+      "name": "rodzeństwo",
+      "title": "родзеньство (польское)",
       "subscrb": "родзеньство"
     },
     {
       "id": "286",
-      "name": "роджитсе (польское)",
-      "title": "rodzice",
+      "name": "rodzice",
+      "title": "роджитсе (польское)",
       "subscrb": "роджице"
     },
     {
       "id": "287",
-      "name": "мауженьстфо (польское)",
-      "title": "małżeństwo",
+      "name": "małżeństwo",
+      "title": "мауженьстфо (польское)",
       "subscrb": "мауженьство"
     },
     {
       "id": "288",
-      "name": "роджиина (польское)",
-      "title": "rodzina",
+      "name": "rodzina",
+      "title": "роджиина (польское)",
       "subscrb": "роджина"
     },
     {
       "id": "289",
-      "name": "мужчина",
-      "title": "mężczyzna",
+      "name": "mężczyzna",
+      "title": "мужчина",
       "subscrb": "мэнжчызна"
     },
     {
       "id": "290",
-      "name": "женщина",
-      "title": "kobieta",
+      "name": "kobieta",
+      "title": "женщина",
       "subscrb": "кобета"
     },
     {
       "id": "291",
-      "name": "парень",
-      "title": "chłopak",
+      "name": "chłopak",
+      "title": "парень",
       "subscrb": "хлопак"
     },
     {
       "id": "292",
-      "name": "мальчик",
-      "title": "chłopiec",
+      "name": "chłopiec",
+      "title": "мальчик",
       "subscrb": "хлопец"
     },
     {
       "id": "293",
-      "name": "девушка",
-      "title": "dziewczyna",
+      "name": "dziewczyna",
+      "title": "девушка",
       "subscrb": "джевчына"
     },
     {
       "id": "294",
-      "name": "девочка",
-      "title": "dziewczynka",
+      "name": "dziewczynka",
+      "title": "девочка",
       "subscrb": "джевчынка"
     },
     {
       "id": "295",
-      "name": "старший",
-      "title": "starszy",
+      "name": "starszy",
+      "title": "старший",
       "subscrb": "старшы"
     },
     {
       "id": "296",
-      "name": "младший",
-      "title": "młodszy",
+      "name": "młodszy",
+      "title": "младший",
       "subscrb": "мводшы"
     },
     {
       "id": "297",
-      "name": "любимый",
-      "title": "ulubiony",
+      "name": "ulubiony",
+      "title": "любимый",
       "subscrb": "улюбёны"
     },
     {
       "id": "298",
-      "name": "дружный",
-      "title": "zgrany",
+      "name": "zgrany",
+      "title": "дружный",
       "subscrb": "зграны"
     },
     {
       "id": "299",
-      "name": "согласие в семье",
-      "title": "zgoda w rodzinie",
+      "name": "zgoda w rodzinie",
+      "title": "согласие в семье",
       "subscrb": "сгода в роджине"
     },
     {
       "id": "300",
-      "name": "замужняя",
-      "title": "zamężna",
+      "name": "zamężna",
+      "title": "замужняя",
       "subscrb": "замэнжна"
     },
     {
       "id": "301",
-      "name": "женатый",
-      "title": "żonaty",
+      "name": "żonaty",
+      "title": "женатый",
       "subscrb": "жонаты"
     },
     {
       "id": "302",
-      "name": "маленький",
-      "title": "mały",
+      "name": "mały",
+      "title": "маленький",
       "subscrb": "мауы"
     },
     {
       "id": "303",
-      "name": "твоих",
-      "title": "twoich",
+      "name": "twoich",
+      "title": "твоих",
       "subscrb": "тфоих"
     },
     {
       "id": "304",
-      "name": "моих",
-      "title": "moich",
+      "name": "moich",
+      "title": "моих",
       "subscrb": "моих"
     },
     {
       "id": "305",
-      "name": "давать",
-      "title": "dawać",
+      "name": "dawać",
+      "title": "давать",
       "subscrb": "давать"
     },
     {
       "id": "306",
-      "name": "подходить",
-      "title": "pasować / podchodzić",
+      "name": "pasować / podchodzić",
+      "title": "подходить",
       "subscrb": "пасовать / подходжичь"
     },
     {
       "id": "307",
-      "name": "рисовать",
-      "title": "rysować",
+      "name": "rysować",
+      "title": "рисовать",
       "subscrb": "рисовать"
     },
     {
       "id": "308",
-      "name": "писать красками",
-      "title": "malować",
+      "name": "malować",
+      "title": "писать красками",
       "subscrb": "маловать"
     },
     {
       "id": "309",
-      "name": "прогуливаться",
-      "title": "spacerować",
+      "name": "spacerować",
+      "title": "прогуливаться",
       "subscrb": "спацеровать"
     },
     {
       "id": "310",
-      "name": "работать",
-      "title": "pracować",
+      "name": "pracować",
+      "title": "работать",
       "subscrb": "працовать"
     },
     {
       "id": "311",
-      "name": "учиться в институте",
-      "title": "studiować",
+      "name": "studiować",
+      "title": "учиться в институте",
       "subscrb": "студиовать"
     },
     {
       "id": "312",
-      "name": "учиться в школе",
-      "title": "uczyć się w szkole",
+      "name": "uczyć się w szkole",
+      "title": "учиться в школе",
       "subscrb": "учичь ще в школе"
     },
     {
       "id": "313",
-      "name": "отказываться",
-      "title": "odmawiać",
+      "name": "odmawiać",
+      "title": "отказываться",
       "subscrb": "одмавять"
     },
     {
       "id": "314",
-      "name": "шутить",
-      "title": "żartować",
+      "name": "żartować",
+      "title": "шутить",
       "subscrb": "жартовать"
     },
     {
       "id": "315",
-      "name": "целовать",
-      "title": "całować",
+      "name": "całować",
+      "title": "целовать",
       "subscrb": "цаловать"
     },
     {
       "id": "316",
-      "name": "строить",
-      "title": "budować",
+      "name": "budować",
+      "title": "строить",
       "subscrb": "будовать"
     },
     {
       "id": "317",
-      "name": "не хватает",
-      "title": "brakuje",
+      "name": "brakuje",
+      "title": "не хватает",
       "subscrb": "бракуе"
     },
     {
       "id": "318",
-      "name": "раздражать",
-      "title": "drażnić",
+      "name": "drażnić",
+      "title": "раздражать",
       "subscrb": "дражничь"
     },
     {
       "id": "319",
-      "name": "раздражаться",
-      "title": "denerwować się",
+      "name": "denerwować się",
+      "title": "раздражаться",
       "subscrb": "денервовать ще"
     },
     {
       "id": "320",
-      "name": "интересовать",
-      "title": "interesować",
+      "name": "interesować",
+      "title": "интересовать",
       "subscrb": "интересовать"
     },
     {
       "id": "321",
-      "name": "интересоваться",
-      "title": "interesować się",
+      "name": "interesować się",
+      "title": "интересоваться",
       "subscrb": "интересовать ще"
     },
     {
       "id": "322",
-      "name": "нервировать",
-      "title": "denerwować",
+      "name": "denerwować",
+      "title": "нервировать",
       "subscrb": "денервовать"
     },
     {
       "id": "323",
-      "name": "фильм",
-      "title": "film",
+      "name": "film",
+      "title": "фильм",
       "subscrb": "фильм"
     },
     {
       "id": "324",
-      "name": "сейчас",
-      "title": "teraz",
+      "name": "teraz",
+      "title": "сейчас",
       "subscrb": "тэраз"
     },
     {
       "id": "325",
-      "name": "строить (повтор)",
-      "title": "budować",
+      "name": "budować",
+      "title": "строить (повтор)",
       "subscrb": "будовать"
     },
     {
       "id": "326",
-      "name": "телевизор",
-      "title": "telewizor",
+      "name": "telewizor",
+      "title": "телевизор",
       "subscrb": "телевизор"
     },
     {
       "id": "327",
-      "name": "петь",
-      "title": "śpiewać",
+      "name": "śpiewać",
+      "title": "петь",
       "subscrb": "шпевать"
     },
     {
       "id": "328",
-      "name": "делать",
-      "title": "robić",
+      "name": "robić",
+      "title": "делать",
       "subscrb": "робичь"
     },
     {
       "id": "329",
-      "name": "спички",
-      "title": "zapałki",
+      "name": "zapałki",
+      "title": "спички",
       "subscrb": "запауки"
     },
     {
       "id": "330",
-      "name": "слова",
-      "title": "słowa",
+      "name": "słowa",
+      "title": "слова",
       "subscrb": "слова"
     },
     {
       "id": "331",
-      "name": "слово",
-      "title": "słowo",
+      "name": "słowo",
+      "title": "слово",
       "subscrb": "слово"
     },
     {
       "id": "332",
-      "name": "искать",
-      "title": "szukać",
+      "name": "szukać",
+      "title": "искать",
       "subscrb": "шукачь"
     },
     {
       "id": "333",
-      "name": "слушать песню",
-      "title": "słuchać piosenki",
+      "name": "słuchać piosenki",
+      "title": "слушать песню",
       "subscrb": "слухачь песенки"
     },
     {
       "id": "334",
-      "name": "подходить для роли",
-      "title": "pasować do roli",
+      "name": "pasować do roli",
+      "title": "подходить для роли",
       "subscrb": "пасовать до роли"
     },
     {
       "id": "335",
-      "name": "подходить к столу",
-      "title": "podchodzić do stołu",
+      "name": "podchodzić do stołu",
+      "title": "подходить к столу",
       "subscrb": "подходжичь до столу"
     },
     {
       "id": "336",
-      "name": "шутить над ситуацией",
-      "title": "żartować z sytuacji",
+      "name": "żartować z sytuacji",
+      "title": "шутить над ситуацией",
       "subscrb": "жартовать з ситуaции"
     },
     {
       "id": "337",
-      "name": "всегда",
-      "title": "zawsze",
+      "name": "zawsze",
+      "title": "всегда",
       "subscrb": "завше"
     },
     {
       "id": "338",
-      "name": "ходить",
-      "title": "chodzić",
+      "name": "chodzić",
+      "title": "ходить",
       "subscrb": "ходжичь"
     },
     {
       "id": "339",
-      "name": "ездить",
-      "title": "jeździć",
+      "name": "jeździć",
+      "title": "ездить",
       "subscrb": "езьдичь"
     },
     {
       "id": "340",
-      "name": "танцевать",
-      "title": "tańczyć",
+      "name": "tańczyć",
+      "title": "танцевать",
       "subscrb": "таньчичь"
     },
     {
       "id": "341",
-      "name": "учиться",
-      "title": "uczyć się",
+      "name": "uczyć się",
+      "title": "учиться",
       "subscrb": "учичь ще"
     },
     {
       "id": "342",
-      "name": "аозить (видимо «позить»)",
-      "title": "prosić",
+      "name": "prosić",
+      "title": "аозить (видимо «позить»)",
       "subscrb": "просичь"
     },
     {
       "id": "343",
-      "name": "просить",
-      "title": "prosić",
+      "name": "prosić",
+      "title": "просить",
       "subscrb": "просичь"
     },
     {
       "id": "344",
-      "name": "кафе",
-      "title": "kawiarnia",
+      "name": "kawiarnia",
+      "title": "кафе",
       "subscrb": "кавярня"
     },
     {
       "id": "345",
-      "name": "кино",
-      "title": "kino",
+      "name": "kino",
+      "title": "кино",
       "subscrb": "кiно"
     },
     {
       "id": "346",
-      "name": "карты",
-      "title": "karty",
+      "name": "karty",
+      "title": "карты",
       "subscrb": "карты"
     },
     {
       "id": "347",
-      "name": "бассейн",
-      "title": "basen",
+      "name": "basen",
+      "title": "бассейн",
       "subscrb": "басэн"
     },
     {
       "id": "348",
-      "name": "тенис",
-      "title": "tenis",
+      "name": "tenis",
+      "title": "тенис",
       "subscrb": "тэнис"
     },
     {
       "id": "349",
-      "name": "велосипед",
-      "title": "rower",
+      "name": "rower",
+      "title": "велосипед",
       "subscrb": "ровер"
     },
     {
       "id": "350",
-      "name": "прогулка",
-      "title": "spacer",
+      "name": "spacer",
+      "title": "прогулка",
       "subscrb": "спацер"
     },
     {
       "id": "351",
-      "name": "музыка",
-      "title": "muzyka",
+      "name": "muzyka",
+      "title": "музыка",
       "subscrb": "музыка"
     },
     {
       "id": "352",
-      "name": "чужой",
-      "title": "obcy",
+      "name": "obcy",
+      "title": "чужой",
       "subscrb": "обцы"
     },
     {
       "id": "353",
-      "name": "иностранный",
-      "title": "zagraniczny",
+      "name": "zagraniczny",
+      "title": "иностранный",
       "subscrb": "заграничны"
     },
     {
       "id": "354",
-      "name": "путешествовать",
-      "title": "podróżować",
+      "name": "podróżować",
+      "title": "путешествовать",
       "subscrb": "подружовать"
     },
     {
       "id": "355",
-      "name": "заниматься спортом",
-      "title": "uprawiać sport",
+      "name": "uprawiać sport",
+      "title": "заниматься спортом",
       "subscrb": "управять спорт"
     },
     {
       "id": "356",
-      "name": "певец",
-      "title": "piosenkarz",
+      "name": "piosenkarz",
+      "title": "певец",
       "subscrb": "пйосэнкарж"
     },
     {
       "id": "357",
-      "name": "художник",
-      "title": "artysta",
+      "name": "artysta",
+      "title": "художник",
       "subscrb": "артыста"
     },
     {
       "id": "358",
-      "name": "танцор",
-      "title": "tancerz",
+      "name": "tancerz",
+      "title": "танцор",
       "subscrb": "танчерж"
     },
     {
       "id": "359",
-      "name": "музыкант",
-      "title": "muzyk",
+      "name": "muzyk",
+      "title": "музыкант",
       "subscrb": "музык"
     },
     {
       "id": "360",
-      "name": "лечить",
-      "title": "leczyć",
+      "name": "leczyć",
+      "title": "лечить",
       "subscrb": "лечичь"
     },
     {
       "id": "361",
-      "name": "читать лекции",
-      "title": "prowadzić wykłady",
+      "name": "prowadzić wykłady",
+      "title": "читать лекции",
       "subscrb": "провадзичь выкўады"
     },
     {
       "id": "362",
-      "name": "певица",
-      "title": "piosenkarka",
+      "name": "piosenkarka",
+      "title": "певица",
       "subscrb": "пйосэнкарка"
     },
     {
       "id": "363",
-      "name": "художница",
-      "title": "artystka",
+      "name": "artystka",
+      "title": "художница",
       "subscrb": "артыстка"
     },
     {
       "id": "364",
-      "name": "танцовщица",
-      "title": "tancerka",
+      "name": "tancerka",
+      "title": "танцовщица",
       "subscrb": "танцэрка"
     },
     {
       "id": "365",
-      "name": "фотограф",
-      "title": "fotograf",
+      "name": "fotograf",
+      "title": "фотограф",
       "subscrb": "фотограф"
     },
     {
       "id": "366",
-      "name": "проектировать",
-      "title": "projektować",
+      "name": "projektować",
+      "title": "проектировать",
       "subscrb": "проектовач"
     },
     {
       "id": "367",
-      "name": "время",
-      "title": "czas",
+      "name": "czas",
+      "title": "время",
       "subscrb": "час"
     },
     {
       "id": "368",
-      "name": "работа",
-      "title": "praca",
+      "name": "praca",
+      "title": "работа",
       "subscrb": "праца"
     },
     {
       "id": "369",
-      "name": "свободный",
-      "title": "wolny",
+      "name": "wolny",
+      "title": "свободный",
       "subscrb": "вольны"
     },
     {
       "id": "370",
-      "name": "еще",
-      "title": "jeszcze",
+      "name": "jeszcze",
+      "title": "еще",
       "subscrb": "ещче"
     },
     {
       "id": "371",
-      "name": "литература",
-      "title": "literatura",
+      "name": "literatura",
+      "title": "литература",
       "subscrb": "литература"
     },
     {
       "id": "372",
-      "name": "спортивный",
-      "title": "sportowy",
+      "name": "sportowy",
+      "title": "спортивный",
       "subscrb": "спортовы"
     },
     {
       "id": "373",
-      "name": "всегда",
-      "title": "zawsze",
+      "name": "zawsze",
+      "title": "всегда",
       "subscrb": "завшше"
     },
     {
       "id": "374",
-      "name": "свой",
-      "title": "swój",
+      "name": "swój",
+      "title": "свой",
       "subscrb": "сфуй"
     },
     {
       "id": "375",
-      "name": "подруга",
-      "title": "przyjaciółka",
+      "name": "przyjaciółka",
+      "title": "подруга",
       "subscrb": "пшыйачўўка"
     },
     {
       "id": "376",
-      "name": "приятельница",
-      "title": "koleżanka",
+      "name": "koleżanka",
+      "title": "приятельница",
       "subscrb": "колежанка"
     },
     {
       "id": "377",
-      "name": "не хватает",
-      "title": "brakuje",
+      "name": "brakuje",
+      "title": "не хватает",
       "subscrb": "бракуе"
     },
     {
       "id": "378",
-      "name": "лететь",
-      "title": "lecieć",
+      "name": "lecieć",
+      "title": "лететь",
       "subscrb": "лечечь"
     },
     {
       "id": "379",
-      "name": "нравится",
-      "title": "podoba się",
+      "name": "podoba się",
+      "title": "нравится",
       "subscrb": "подоба шѐ"
     },
     {
       "id": "380",
-      "name": "любить",
-      "title": "kochać",
+      "name": "kochać",
+      "title": "любить",
       "subscrb": "кохач"
     },
     {
       "id": "381",
-      "name": "просить",
-      "title": "prosić",
+      "name": "prosić",
+      "title": "просить",
       "subscrb": "прошичь"
     },
     {
       "id": "382",
-      "name": "только",
-      "title": "tylko",
+      "name": "tylko",
+      "title": "только",
       "subscrb": "тылько"
     },
     {
       "id": "383",
-      "name": "возить",
-      "title": "wozić",
+      "name": "wozić",
+      "title": "возить",
       "subscrb": "возичь"
     },
     {
       "id": "384",
-      "name": "никакой",
-      "title": "żaden",
+      "name": "żaden",
+      "title": "никакой",
       "subscrb": "жадэн"
     },
     {
       "id": "385",
-      "name": "не один",
-      "title": "nie jeden",
+      "name": "nie jeden",
+      "title": "не один",
       "subscrb": "не еден"
     },
     {
       "id": "386",
-      "name": "продовольственный магазин",
-      "title": "sklep spożywczy",
+      "name": "sklep spożywczy",
+      "title": "продовольственный магазин",
       "subscrb": "склэп спожывчы"
     },
     {
       "id": "387",
-      "name": "банан",
-      "title": "banan",
+      "name": "banan",
+      "title": "банан",
       "subscrb": "банан"
     },
     {
       "id": "388",
-      "name": "творожный сыр",
-      "title": "serek topiony",
+      "name": "serek topiony",
+      "title": "творожный сыр",
       "subscrb": "сэрэк топёны"
     },
     {
       "id": "389",
-      "name": "булка",
-      "title": "bułka",
+      "name": "bułka",
+      "title": "булка",
       "subscrb": "буўка"
     },
     {
       "id": "390",
-      "name": "хлеб",
-      "title": "chleb",
+      "name": "chleb",
+      "title": "хлеб",
       "subscrb": "хлэп"
     },
     {
       "id": "391",
-      "name": "пирожное",
-      "title": "ciastko",
+      "name": "ciastko",
+      "title": "пирожное",
       "subscrb": "чястко"
     },
     {
       "id": "392",
-      "name": "сахар",
-      "title": "cukier",
+      "name": "cukier",
+      "title": "сахар",
       "subscrb": "цукер"
     },
     {
       "id": "393",
-      "name": "конфетка",
-      "title": "cukierek",
+      "name": "cukierek",
+      "title": "конфетка",
       "subscrb": "цукерэк"
     },
     {
       "id": "394",
-      "name": "шоколад",
-      "title": "czekolada",
+      "name": "czekolada",
+      "title": "шоколад",
       "subscrb": "чэколада"
     },
     {
       "id": "395",
-      "name": "треска",
-      "title": "dorsz",
+      "name": "dorsz",
+      "title": "треска",
       "subscrb": "дорш"
     },
     {
       "id": "396",
-      "name": "чай",
-      "title": "herbata",
+      "name": "herbata",
+      "title": "чай",
       "subscrb": "хербата"
     },
     {
       "id": "397",
-      "name": "яблоко",
-      "title": "jabłko",
+      "name": "jabłko",
+      "title": "яблоко",
       "subscrb": "ябўко"
     },
     {
       "id": "398",
-      "name": "яйцо",
-      "title": "jajko",
+      "name": "jajko",
+      "title": "яйцо",
       "subscrb": "яйко"
     },
     {
       "id": "399",
-      "name": "колбаса",
-      "title": "kiełbasa",
+      "name": "kiełbasa",
+      "title": "колбаса",
       "subscrb": "кеўбаса"
     },
     {
       "id": "400",
-      "name": "коньяк",
-      "title": "koniak",
+      "name": "koniak",
+      "title": "коньяк",
       "subscrb": "коняк"
     },
     {
       "id": "401",
-      "name": "капуста",
-      "title": "kapusta",
+      "name": "kapusta",
+      "title": "капуста",
       "subscrb": "капуста"
     },
     {
       "id": "402",
-      "name": "консервы",
-      "title": "konserwy",
+      "name": "konserwy",
+      "title": "консервы",
       "subscrb": "консервы"
     },
     {
       "id": "403",
-      "name": "мороженое",
-      "title": "lody",
+      "name": "lody",
+      "title": "мороженое",
       "subscrb": "лоды"
     },
     {
       "id": "404",
-      "name": "лосось",
-      "title": "łosoś",
+      "name": "łosoś",
+      "title": "лосось",
       "subscrb": "ўосощ"
     },
     {
       "id": "405",
-      "name": "макароны",
-      "title": "makaron",
+      "name": "makaron",
+      "title": "макароны",
       "subscrb": "макарон"
     },
     {
       "id": "406",
-      "name": "масло",
-      "title": "masło",
+      "name": "masło",
+      "title": "масло",
       "subscrb": "масўо"
     },
     {
       "id": "407",
-      "name": "мука",
-      "title": "mąka",
+      "name": "mąka",
+      "title": "мука",
       "subscrb": "монка"
     },
     {
       "id": "408",
-      "name": "мясо",
-      "title": "mięso",
+      "name": "mięso",
+      "title": "мясо",
       "subscrb": "мѐнсо"
     },
     {
       "id": "409",
-      "name": "молоко",
-      "title": "mleko",
+      "name": "mleko",
+      "title": "молоко",
       "subscrb": "млеко"
     },
     {
       "id": "410",
-      "name": "огурец",
-      "title": "ogórek",
+      "name": "ogórek",
+      "title": "огурец",
       "subscrb": "огурэк"
     },
     {
       "id": "411",
-      "name": "напиток",
-      "title": "napój",
+      "name": "napój",
+      "title": "напиток",
       "subscrb": "напўй"
     },
     {
       "id": "412",
-      "name": "растительное масло",
-      "title": "olej roślinny",
+      "name": "olej roślinny",
+      "title": "растительное масло",
       "subscrb": "олей рошльинны"
     },
     {
       "id": "413",
-      "name": "сосиска",
-      "title": "parówka",
+      "name": "parówka",
+      "title": "сосиска",
       "subscrb": "парўвка"
     },
     {
       "id": "414",
-      "name": "пиво",
-      "title": "piwo",
+      "name": "piwo",
+      "title": "пиво",
       "subscrb": "пиво"
     },
     {
       "id": "415",
-      "name": "помидор",
-      "title": "pomidor",
+      "name": "pomidor",
+      "title": "помидор",
       "subscrb": "помидор"
     },
     {
       "id": "416",
-      "name": "апельсин",
-      "title": "pomarańcza",
+      "name": "pomarańcza",
+      "title": "апельсин",
       "subscrb": "помаранча"
     },
     {
       "id": "417",
-      "name": "продукт",
-      "title": "produkt",
+      "name": "produkt",
+      "title": "продукт",
       "subscrb": "продукт"
     },
     {
       "id": "418",
-      "name": "рис",
-      "title": "ryż",
+      "name": "ryż",
+      "title": "рис",
       "subscrb": "рыш"
     },
     {
       "id": "419",
-      "name": "салат",
-      "title": "sałata",
+      "name": "sałata",
+      "title": "салат",
       "subscrb": "саўата"
     },
     {
       "id": "420",
-      "name": "сардины",
-      "title": "sardynki",
+      "name": "sardynki",
+      "title": "сардины",
       "subscrb": "сардынки"
     },
     {
       "id": "421",
-      "name": "соль",
-      "title": "sól",
+      "name": "sól",
+      "title": "соль",
       "subscrb": "суль"
     },
     {
       "id": "422",
-      "name": "ветчина",
-      "title": "szynka",
+      "name": "szynka",
+      "title": "ветчина",
       "subscrb": "шинка"
     },
     {
       "id": "423",
-      "name": "сок",
-      "title": "sok",
+      "name": "sok",
+      "title": "сок",
       "subscrb": "сок"
     },
     {
       "id": "424",
-      "name": "напиток",
-      "title": "napój",
+      "name": "napój",
+      "title": "напиток",
       "subscrb": "напўй"
     },
     {
       "id": "425",
-      "name": "селёдка",
-      "title": "śledź",
+      "name": "śledź",
+      "title": "селёдка",
       "subscrb": "шледжь"
     },
     {
       "id": "426",
-      "name": "сливки",
-      "title": "śmietanka",
+      "name": "śmietanka",
+      "title": "сливки",
       "subscrb": "шмьетанка"
     },
     {
       "id": "427",
-      "name": "клубника",
-      "title": "truskawka",
+      "name": "truskawka",
+      "title": "клубника",
       "subscrb": "трускаўка"
     },
     {
       "id": "428",
-      "name": "вино",
-      "title": "wino",
+      "name": "wino",
+      "title": "вино",
       "subscrb": "вино"
     },
     {
       "id": "429",
-      "name": "минеральная вода",
-      "title": "woda mineralna",
+      "name": "woda mineralna",
+      "title": "минеральная вода",
       "subscrb": "вода минэральна"
     },
     {
       "id": "430",
-      "name": "водка",
-      "title": "wódka",
+      "name": "wódka",
+      "title": "водка",
       "subscrb": "ўўдка"
     },
     {
       "id": "431",
-      "name": "картофель",
-      "title": "ziemniak",
+      "name": "ziemniak",
+      "title": "картофель",
       "subscrb": "жeмняк"
     },
     {
       "id": "432",
-      "name": "творожок",
-      "title": "serek homogenizowany",
+      "name": "serek homogenizowany",
+      "title": "творожок",
       "subscrb": "сэрэк хомогенизованый"
     },
     {
       "id": "433",
-      "name": "творог",
-      "title": "twaróg",
+      "name": "twaróg",
+      "title": "творог",
       "subscrb": "тваруг"
     },
     {
       "id": "434",
-      "name": "сыр",
-      "title": "ser",
+      "name": "ser",
+      "title": "сыр",
       "subscrb": "сэр"
     },
     {
       "id": "435",
-      "name": "хлебобулочные изделия",
-      "title": "pieczywo",
+      "name": "pieczywo",
+      "title": "хлебобулочные изделия",
       "subscrb": "печывo"
     },
     {
       "id": "436",
-      "name": "мясо и копчёности",
-      "title": "mięso i wędliny",
+      "name": "mięso i wędliny",
+      "title": "мясо и копчёности",
       "subscrb": "мѐнсо и вэнджлины"
     },
     {
       "id": "437",
-      "name": "рыба",
-      "title": "ryba",
+      "name": "ryba",
+      "title": "рыба",
       "subscrb": "рыба"
     },
     {
       "id": "438",
-      "name": "молочные продукты",
-      "title": "nabiał",
+      "name": "nabiał",
+      "title": "молочные продукты",
       "subscrb": "набьяўл"
     },
     {
       "id": "439",
-      "name": "куриное яйцо",
-      "title": "jajko kurze",
+      "name": "jajko kurze",
+      "title": "куриное яйцо",
       "subscrb": "яйко курже"
     },
     {
       "id": "440",
-      "name": "куриные яйца",
-      "title": "jajka kurze",
+      "name": "jajka kurze",
+      "title": "куриные яйца",
       "subscrb": "яйка курже"
     },
     {
       "id": "441",
-      "name": "сладости",
-      "title": "słodycze",
+      "name": "słodycze",
+      "title": "сладости",
       "subscrb": "сводычэ"
     },
     {
       "id": "442",
-      "name": "безалкогольные напитки",
-      "title": "napoje bezalkoholowe",
+      "name": "napoje bezalkoholowe",
+      "title": "безалкогольные напитки",
       "subscrb": "напоѐ безалькохоловэ"
     },
     {
       "id": "443",
-      "name": "алкогольные напитки",
-      "title": "napoje alkoholowe",
+      "name": "napoje alkoholowe",
+      "title": "алкогольные напитки",
       "subscrb": "напоѐ алькохоловэ"
     },
     {
       "id": "444",
-      "name": "фрукты",
-      "title": "owoce",
+      "name": "owoce",
+      "title": "фрукты",
       "subscrb": "овоцэ"
     },
     {
       "id": "445",
-      "name": "овощи",
-      "title": "warzywa",
+      "name": "warzywa",
+      "title": "овощи",
       "subscrb": "важыва"
     },
     {
       "id": "446",
-      "name": "бакалея",
-      "title": "artykuły spożywcze",
+      "name": "artykuły spożywcze",
+      "title": "бакалея",
       "subscrb": "артыкўўы спожывчэ"
     },
     {
       "id": "447",
-      "name": "посуда",
-      "title": "naczynia",
+      "name": "naczynia",
+      "title": "посуда",
       "subscrb": "начыня"
     },
     {
       "id": "448",
-      "name": "вес",
-      "title": "waga",
+      "name": "waga",
+      "title": "вес",
       "subscrb": "вага"
     },
     {
       "id": "449",
-      "name": "деньги",
-      "title": "pieniądze",
+      "name": "pieniądze",
+      "title": "деньги",
       "subscrb": "пеньондзэ"
     },
     {
       "id": "450",
-      "name": "инструменты",
-      "title": "narzędzia",
+      "name": "narzędzia",
+      "title": "инструменты",
       "subscrb": "нажэндзя"
     },
     {
       "id": "451",
-      "name": "сок яблочный",
-      "title": "sok jabłkowy",
+      "name": "sok jabłkowy",
+      "title": "сок яблочный",
       "subscrb": "сок ябўковы"
     },
     {
       "id": "452",
-      "name": "сок томатный",
-      "title": "sok pomidorowy",
+      "name": "sok pomidorowy",
+      "title": "сок томатный",
       "subscrb": "сок помидоровы"
     },
     {
       "id": "453",
-      "name": "сок клубничный",
-      "title": "sok truskawkowy",
+      "name": "sok truskawkowy",
+      "title": "сок клубничный",
       "subscrb": "сок трускаўковы"
     },
     {
       "id": "454",
-      "name": "сок апельсиновый",
-      "title": "sok pomarańczowy",
+      "name": "sok pomarańczowy",
+      "title": "сок апельсиновый",
       "subscrb": "сок помаранчовы"
     },
     {
       "id": "455",
-      "name": "яблочное варенье",
-      "title": "dżem jabłkowy",
+      "name": "dżem jabłkowy",
+      "title": "яблочное варенье",
       "subscrb": "джем ябўковы"
     },
     {
       "id": "456",
-      "name": "малиновое варенье",
-      "title": "dżem malinowy",
+      "name": "dżem malinowy",
+      "title": "малиновое варенье",
       "subscrb": "джем малиновы"
     },
     {
       "id": "457",
-      "name": "возле",
-      "title": "obok",
+      "name": "obok",
+      "title": "возле",
       "subscrb": "обок"
     },
     {
       "id": "458",
-      "name": "покупать",
-      "title": "kupować",
+      "name": "kupować",
+      "title": "покупать",
       "subscrb": "куповач"
     },
     {
       "id": "459",
-      "name": "купить",
-      "title": "kupić",
+      "name": "kupić",
+      "title": "купить",
       "subscrb": "купич"
     },
     {
       "id": "460",
-      "name": "один",
-      "title": "jeden",
+      "name": "jeden",
+      "title": "один",
       "subscrb": "йеден"
     },
     {
       "id": "461",
-      "name": "два",
-      "title": "dwa",
+      "name": "dwa",
+      "title": "два",
       "subscrb": "два"
     },
     {
       "id": "462",
-      "name": "три",
-      "title": "trzy",
+      "name": "trzy",
+      "title": "три",
       "subscrb": "тшы"
     },
     {
       "id": "463",
-      "name": "четыре",
-      "title": "cztery",
+      "name": "cztery",
+      "title": "четыре",
       "subscrb": "чтеры"
     },
     {
       "id": "464",
-      "name": "пять",
-      "title": "pięć",
+      "name": "pięć",
+      "title": "пять",
       "subscrb": "пеньч"
     },
     {
       "id": "465",
-      "name": "шесть",
-      "title": "sześć",
+      "name": "sześć",
+      "title": "шесть",
       "subscrb": "шещь"
     },
     {
       "id": "466",
-      "name": "семь",
-      "title": "siedem",
+      "name": "siedem",
+      "title": "семь",
       "subscrb": "щедем"
     },
     {
       "id": "467",
-      "name": "восемь",
-      "title": "osiem",
+      "name": "osiem",
+      "title": "восемь",
       "subscrb": "осем"
     },
     {
       "id": "468",
-      "name": "девять",
-      "title": "dziewięć",
+      "name": "dziewięć",
+      "title": "девять",
       "subscrb": "джевеньч"
     },
     {
       "id": "469",
-      "name": "десять",
-      "title": "dziesięć",
+      "name": "dziesięć",
+      "title": "десять",
       "subscrb": "джешеньч"
     },
     {
       "id": "470",
-      "name": "одиннадцать",
-      "title": "jedenaście",
+      "name": "jedenaście",
+      "title": "одиннадцать",
       "subscrb": "йеденашче"
     },
     {
       "id": "471",
-      "name": "двенадцать",
-      "title": "dwanaście",
+      "name": "dwanaście",
+      "title": "двенадцать",
       "subscrb": "дванашче"
     },
     {
       "id": "472",
-      "name": "тринадцать",
-      "title": "trzynaście",
+      "name": "trzynaście",
+      "title": "тринадцать",
       "subscrb": "тшынашче"
     },
     {
       "id": "473",
-      "name": "четырнадцать",
-      "title": "czternaście",
+      "name": "czternaście",
+      "title": "четырнадцать",
       "subscrb": "чтернашче"
     },
     {
       "id": "474",
-      "name": "пятнадцать",
-      "title": "piętnaście",
+      "name": "piętnaście",
+      "title": "пятнадцать",
       "subscrb": "пентнашче"
     },
     {
       "id": "475",
-      "name": "шестнадцать",
-      "title": "szesnaście",
+      "name": "szesnaście",
+      "title": "шестнадцать",
       "subscrb": "шеснашче"
     },
     {
       "id": "476",
-      "name": "семнадцать",
-      "title": "siedemnaście",
+      "name": "siedemnaście",
+      "title": "семнадцать",
       "subscrb": "щедемнашче"
     },
     {
       "id": "477",
-      "name": "восемнадцать",
-      "title": "osiemnaście",
+      "name": "osiemnaście",
+      "title": "восемнадцать",
       "subscrb": "осемнашче"
     },
     {
       "id": "478",
-      "name": "девятнадцать",
-      "title": "dziewiętnaście",
+      "name": "dziewiętnaście",
+      "title": "девятнадцать",
       "subscrb": "джевентнашче"
     },
     {
       "id": "479",
-      "name": "двадцать",
-      "title": "dwadzieścia",
+      "name": "dwadzieścia",
+      "title": "двадцать",
       "subscrb": "дваджешча"
     },
     {
       "id": "480",
-      "name": "двадцать один",
-      "title": "dwadzieścia jeden",
+      "name": "dwadzieścia jeden",
+      "title": "двадцать один",
       "subscrb": "дваджешча йеден"
     },
     {
       "id": "481",
-      "name": "двадцать два",
-      "title": "dwadzieścia dwa",
+      "name": "dwadzieścia dwa",
+      "title": "двадцать два",
       "subscrb": "дваджешча два"
     },
     {
       "id": "482",
-      "name": "тридцать",
-      "title": "trzydzieści",
+      "name": "trzydzieści",
+      "title": "тридцать",
       "subscrb": "тшыджешчи"
     },
     {
       "id": "483",
-      "name": "тридцать один",
-      "title": "trzydzieści jeden",
+      "name": "trzydzieści jeden",
+      "title": "тридцать один",
       "subscrb": "тшыджешчи йеден"
     },
     {
       "id": "484",
-      "name": "тридцать два",
-      "title": "trzydzieści dwa",
+      "name": "trzydzieści dwa",
+      "title": "тридцать два",
       "subscrb": "тшыджешчи два"
     },
     {
       "id": "485",
-      "name": "сорок",
-      "title": "czterdzieści",
+      "name": "czterdzieści",
+      "title": "сорок",
       "subscrb": "чтерджешчи"
     },
     {
       "id": "486",
-      "name": "сорок один",
-      "title": "czterdzieści jeden",
+      "name": "czterdzieści jeden",
+      "title": "сорок один",
       "subscrb": "чтерджешчи йеден"
     },
     {
       "id": "487",
-      "name": "сорок два",
-      "title": "czterdzieści dwa",
+      "name": "czterdzieści dwa",
+      "title": "сорок два",
       "subscrb": "чтерджешчи два"
     },
     {
       "id": "488",
-      "name": "пятьдесят",
-      "title": "pięćdziesiąt",
+      "name": "pięćdziesiąt",
+      "title": "пятьдесят",
       "subscrb": "пеньчджешонт"
     },
     {
       "id": "489",
-      "name": "пятьдесят один",
-      "title": "pięćdziesiąt jeden",
+      "name": "pięćdziesiąt jeden",
+      "title": "пятьдесят один",
       "subscrb": "пеньчджешонт йеден"
     },
     {
       "id": "490",
-      "name": "пятьдесят два",
-      "title": "pięćdziesiąt dwa",
+      "name": "pięćdziesiąt dwa",
+      "title": "пятьдесят два",
       "subscrb": "пеньчджешонт два"
     },
     {
       "id": "491",
-      "name": "шестьдесят",
-      "title": "sześćdziesiąt",
+      "name": "sześćdziesiąt",
+      "title": "шестьдесят",
       "subscrb": "шещьджешонт"
     },
     {
       "id": "492",
-      "name": "шестьдесят один",
-      "title": "sześćdziesiąt jeden",
+      "name": "sześćdziesiąt jeden",
+      "title": "шестьдесят один",
       "subscrb": "шещьджешонт йеден"
     },
     {
       "id": "493",
-      "name": "шестьдесят два",
-      "title": "sześćdziesiąt dwa",
+      "name": "sześćdziesiąt dwa",
+      "title": "шестьдесят два",
       "subscrb": "шещьджешонт два"
     },
     {
       "id": "494",
-      "name": "семьдесят",
-      "title": "siedemdziesiąt",
+      "name": "siedemdziesiąt",
+      "title": "семьдесят",
       "subscrb": "щедемджешонт"
     },
     {
       "id": "495",
-      "name": "семьдесят один",
-      "title": "siedemdziesiąt jeden",
+      "name": "siedemdziesiąt jeden",
+      "title": "семьдесят один",
       "subscrb": "щедемджешонт йеден"
     },
     {
       "id": "496",
-      "name": "семьдесят два",
-      "title": "siedemdziesiąt dwa",
+      "name": "siedemdziesiąt dwa",
+      "title": "семьдесят два",
       "subscrb": "щедемджешонт два"
     },
     {
       "id": "497",
-      "name": "восемьдесят",
-      "title": "osiemdziesiąt",
+      "name": "osiemdziesiąt",
+      "title": "восемьдесят",
       "subscrb": "осемджешонт"
     },
     {
       "id": "498",
-      "name": "восемьдесят один",
-      "title": "osiemdziesiąt jeden",
+      "name": "osiemdziesiąt jeden",
+      "title": "восемьдесят один",
       "subscrb": "осемджешонт йеден"
     },
     {
       "id": "499",
-      "name": "восемьдесят два",
-      "title": "osiemdziesiąt dwa",
+      "name": "osiemdziesiąt dwa",
+      "title": "восемьдесят два",
       "subscrb": "осемджешонт два"
     },
     {
       "id": "500",
-      "name": "девяносто",
-      "title": "dziewięćdziesiąt",
+      "name": "dziewięćdziesiąt",
+      "title": "девяносто",
       "subscrb": "джевеньчджешонт"
     },
     {
       "id": "501",
-      "name": "девяносто один",
-      "title": "dziewięćdziesiąt jeden",
+      "name": "dziewięćdziesiąt jeden",
+      "title": "девяносто один",
       "subscrb": "джевеньчджешонт йеден"
     },
     {
       "id": "502",
-      "name": "девяносто два",
-      "title": "dziewięćdziesiąt dwa",
+      "name": "dziewięćdziesiąt dwa",
+      "title": "девяносто два",
       "subscrb": "джевеньчджешонт два"
     },
     {
       "id": "503",
-      "name": "сто",
-      "title": "sto",
+      "name": "sto",
+      "title": "сто",
       "subscrb": "сто"
     },
     {
       "id": "504",
-      "name": "двести",
-      "title": "dwieście",
+      "name": "dwieście",
+      "title": "двести",
       "subscrb": "двешче"
     },
     {
       "id": "505",
-      "name": "триста",
-      "title": "trzysta",
+      "name": "trzysta",
+      "title": "триста",
       "subscrb": "тшиста"
     },
     {
       "id": "506",
-      "name": "четыреста",
-      "title": "czterysta",
+      "name": "czterysta",
+      "title": "четыреста",
       "subscrb": "чтериста"
     },
     {
       "id": "507",
-      "name": "пятьсот",
-      "title": "pięćset",
+      "name": "pięćset",
+      "title": "пятьсот",
       "subscrb": "пеньчсет"
     },
     {
       "id": "508",
-      "name": "шестьсот",
-      "title": "sześćset",
+      "name": "sześćset",
+      "title": "шестьсот",
       "subscrb": "шещьсет"
     },
     {
       "id": "509",
-      "name": "семьсот",
-      "title": "siedemset",
+      "name": "siedemset",
+      "title": "семьсот",
       "subscrb": "щедемсет"
     },
     {
       "id": "510",
-      "name": "восемьсот",
-      "title": "osiemset",
+      "name": "osiemset",
+      "title": "восемьсот",
       "subscrb": "осемсет"
     },
     {
       "id": "511",
-      "name": "девятьсот",
-      "title": "dziewięćset",
+      "name": "dziewięćset",
+      "title": "девятьсот",
       "subscrb": "джевеньчсет"
     },
     {
       "id": "512",
-      "name": "тысяча",
-      "title": "tysiąc",
+      "name": "tysiąc",
+      "title": "тысяча",
       "subscrb": "тышонц"
     },
     {
       "id": "513",
-      "name": "сто девятнадцать",
-      "title": "sto dziewiętnaście",
+      "name": "sto dziewiętnaście",
+      "title": "сто девятнадцать",
       "subscrb": "сто джевентнашче"
     },
     {
       "id": "514",
-      "name": "двести тридцать пять",
-      "title": "dwieście trzydzieści pięć",
+      "name": "dwieście trzydzieści pięć",
+      "title": "двести тридцать пять",
       "subscrb": "двешче тшыджешчи пеньч"
     },
     {
       "id": "515",
-      "name": "триста пятьдесят четыре",
-      "title": "trzysta pięćdziesiąt cztery",
+      "name": "trzysta pięćdziesiąt cztery",
+      "title": "триста пятьдесят четыре",
       "subscrb": "тшиста пеньчджешонт чтеры"
     },
     {
       "id": "516",
-      "name": "четыреста пятьдесят семь",
-      "title": "czterysta pięćdziesiąt siedem",
+      "name": "czterysta pięćdziesiąt siedem",
+      "title": "четыреста пятьдесят семь",
       "subscrb": "чтериста пеньчджешонт щедем"
     },
     {
       "id": "517",
-      "name": "пятьсот шестьдесят восемь",
-      "title": "pięćset sześćdziesiąt osiem",
+      "name": "pięćset sześćdziesiąt osiem",
+      "title": "пятьсот шестьдесят восемь",
       "subscrb": "пеньчсет шещьджешонт осем"
     },
     {
       "id": "518",
-      "name": "шестьсот семьдесят девять",
-      "title": "sześćset siedemdziesiąt dziewięć",
+      "name": "sześćset siedemdziesiąt dziewięć",
+      "title": "шестьсот семьдесят девять",
       "subscrb": "шещьсет щедемджешонт джевеньч"
     },
     {
       "id": "519",
-      "name": "семьсот восемьдесят один",
-      "title": "siedemset osiemdziesiąt jeden",
+      "name": "siedemset osiemdziesiąt jeden",
+      "title": "семьсот восемьдесят один",
       "subscrb": "щедемсет осемджешонт йеден"
     },
     {
       "id": "520",
-      "name": "восемьсот девяносто два",
-      "title": "osiemset dziewięćdziesiąt dwa",
+      "name": "osiemset dziewięćdziesiąt dwa",
+      "title": "восемьсот девяносто два",
       "subscrb": "осемсет джевеньчджешонт два"
     },
     {
       "id": "521",
-      "name": "девятьсот семнадцать",
-      "title": "dziewięćset siedemnaście",
+      "name": "dziewięćset siedemnaście",
+      "title": "девятьсот семнадцать",
       "subscrb": "джевеньчсет щедемнашче"
     },
     {
       "id": "522",
-      "name": "плюс",
-      "title": "plus",
+      "name": "plus",
+      "title": "плюс",
       "subscrb": "плюс"
     },
     {
       "id": "523",
-      "name": "равно",
-      "title": "równa się",
+      "name": "równa się",
+      "title": "равно",
       "subscrb": "рувна шен"
     },
     {
       "id": "524",
-      "name": "сколько вам лет",
-      "title": "ile ma pan lat",
+      "name": "ile ma pan lat",
+      "title": "сколько вам лет",
       "subscrb": "иле ма пан лат"
     },
     {
       "id": "525",
-      "name": "сколько тебе лет",
-      "title": "ile masz lat",
+      "name": "ile masz lat",
+      "title": "сколько тебе лет",
       "subscrb": "иле маш лат"
     },
     {
       "id": "526",
-      "name": "сколько лет пану новаку",
-      "title": "ile lat ma pan Nowak",
+      "name": "ile lat ma pan Nowak",
+      "title": "сколько лет пану новаку",
       "subscrb": "иле лат ма пан новак"
     },
     {
       "id": "527",
-      "name": "неожиданно",
-      "title": "niespodziewanie",
+      "name": "niespodziewanie",
+      "title": "неожиданно",
       "subscrb": "несподжеванье"
     },
     {
       "id": "528",
-      "name": "это у него было",
-      "title": "on to miał",
+      "name": "on to miał",
+      "title": "это у него было",
       "subscrb": "он то мяу"
     },
     {
       "id": "529",
-      "name": "корзина",
-      "title": "kosz",
+      "name": "kosz",
+      "title": "корзина",
       "subscrb": "кош"
     },
     {
       "id": "530",
-      "name": "сумка",
-      "title": "torba",
+      "name": "torba",
+      "title": "сумка",
       "subscrb": "торба"
     },
     {
       "id": "531",
-      "name": "денежная единица",
-      "title": "jednostka monetarna",
+      "name": "jednostka monetarna",
+      "title": "денежная единица",
       "subscrb": "едностка монетарна"
     },
     {
       "id": "532",
-      "name": "сахар",
-      "title": "cukier",
+      "name": "cukier",
+      "title": "сахар",
       "subscrb": "цукер"
     },
     {
       "id": "533",
-      "name": "стоимость",
-      "title": "cena",
+      "name": "cena",
+      "title": "стоимость",
       "subscrb": "цена"
     },
     {
       "id": "534",
-      "name": "покупки",
-      "title": "zakupy",
+      "name": "zakupy",
+      "title": "покупки",
       "subscrb": "закупы"
     },
     {
       "id": "535",
-      "name": "стеклянная банка",
-      "title": "słoik",
+      "name": "słoik",
+      "title": "стеклянная банка",
       "subscrb": "слоик"
     },
     {
       "id": "536",
-      "name": "пачки",
-      "title": "paczki",
+      "name": "paczki",
+      "title": "пачки",
       "subscrb": "пачки"
     },
     {
       "id": "537",
-      "name": "посылка",
-      "title": "paczka",
+      "name": "paczka",
+      "title": "посылка",
       "subscrb": "пачка"
     },
     {
       "id": "538",
-      "name": "металлическая банка",
-      "title": "puszka",
+      "name": "puszka",
+      "title": "металлическая банка",
       "subscrb": "пушка"
     },
     {
       "id": "539",
-      "name": "консервная банка",
-      "title": "konserwa",
+      "name": "konserwa",
+      "title": "консервная банка",
       "subscrb": "консерва"
     },
     {
       "id": "540",
-      "name": "кубик",
-      "title": "kostka",
+      "name": "kostka",
+      "title": "кубик",
       "subscrb": "костка"
     },
     {
       "id": "541",
-      "name": "коробка",
-      "title": "pudełko",
+      "name": "pudełko",
+      "title": "коробка",
       "subscrb": "пуделко"
     },
     {
       "id": "542",
-      "name": "бутылка",
-      "title": "butelka",
+      "name": "butelka",
+      "title": "бутылка",
       "subscrb": "бутэлька"
     },
     {
       "id": "543",
-      "name": "ёмкость",
-      "title": "pojemnik",
+      "name": "pojemnik",
+      "title": "ёмкость",
       "subscrb": "поемник"
     },
     {
       "id": "544",
-      "name": "упаковка тетрапак",
-      "title": "karton tetrapak",
+      "name": "karton tetrapak",
+      "title": "упаковка тетрапак",
       "subscrb": "картон тетрапак"
     },
     {
       "id": "545",
-      "name": "буханка",
-      "title": "bochenek",
+      "name": "bochenek",
+      "title": "буханка",
       "subscrb": "бохенэк"
     },
     {
       "id": "546",
-      "name": "головка",
-      "title": "główka",
+      "name": "główka",
+      "title": "головка",
       "subscrb": "гувка"
     },
     {
       "id": "547",
-      "name": "килограмм",
-      "title": "kilogram",
+      "name": "kilogram",
+      "title": "килограмм",
       "subscrb": "килограмм"
     },
     {
       "id": "548",
-      "name": "ломать хлеба",
-      "title": "łamać chleb",
+      "name": "łamać chleb",
+      "title": "ломать хлеба",
       "subscrb": "ламач хлеп"
     },
     {
       "id": "549",
-      "name": "хлеб",
-      "title": "chleb",
+      "name": "chleb",
+      "title": "хлеб",
       "subscrb": "хлеп"
     },
     {
       "id": "550",
-      "name": "кусочек",
-      "title": "kawałek",
+      "name": "kawałek",
+      "title": "кусочек",
       "subscrb": "кававэк"
     },
     {
       "id": "551",
-      "name": "ломтик",
-      "title": "plasterek",
+      "name": "plasterek",
+      "title": "ломтик",
       "subscrb": "плястерэк"
     },
     {
       "id": "552",
-      "name": "бумажный пакет",
-      "title": "torebka papierowa",
+      "name": "torebka papierowa",
+      "title": "бумажный пакет",
       "subscrb": "торебка паперова"
     },
     {
       "id": "553",
-      "name": "порция",
-      "title": "porcja",
+      "name": "porcja",
+      "title": "порция",
       "subscrb": "порция"
     },
     {
       "id": "554",
-      "name": "пойти",
-      "title": "pójść",
+      "name": "pójść",
+      "title": "пойти",
       "subscrb": "пуйщь"
     },
     {
       "id": "555",
-      "name": "дойти",
-      "title": "dojść",
+      "name": "dojść",
+      "title": "дойти",
       "subscrb": "дойщь"
     },
     {
       "id": "556",
-      "name": "отойди",
-      "title": "odejdź",
+      "name": "odejdź",
+      "title": "отойди",
       "subscrb": "одэйджь"
     },
     {
       "id": "557",
-      "name": "подойти",
-      "title": "podejść",
+      "name": "podejść",
+      "title": "подойти",
       "subscrb": "подэйщь"
     },
     {
       "id": "558",
-      "name": "прийти",
-      "title": "przyjść",
+      "name": "przyjść",
+      "title": "прийти",
       "subscrb": "пшыйщь"
     },
     {
       "id": "559",
-      "name": "войти",
-      "title": "wejść",
+      "name": "wejść",
+      "title": "войти",
       "subscrb": "вэйщь"
     },
     {
       "id": "560",
-      "name": "выйти",
-      "title": "wyjść",
+      "name": "wyjść",
+      "title": "выйти",
       "subscrb": "выйщь"
     },
     {
       "id": "561",
-      "name": "зайти",
-      "title": "zajść",
+      "name": "zajść",
+      "title": "зайти",
       "subscrb": "зайщь"
     },
     {
       "id": "562",
-      "name": "обычно",
-      "title": "zazwyczaj",
+      "name": "zazwyczaj",
+      "title": "обычно",
       "subscrb": "зазвычай"
     },
     {
       "id": "563",
-      "name": "заканчивать работу",
-      "title": "kończyć pracę",
+      "name": "kończyć pracę",
+      "title": "заканчивать работу",
       "subscrb": "konchych pratse"
     },
     {
       "id": "564",
-      "name": "идти за покупками",
-      "title": "iść na zakupy",
+      "name": "iść na zakupy",
+      "title": "идти за покупками",
       "subscrb": "ishch na закупы"
     },
     {
       "id": "565",
-      "name": "у него дежурство",
-      "title": "on ma dyżur",
+      "name": "on ma dyżur",
+      "title": "у него дежурство",
       "subscrb": "он ма дыжур"
     },
     {
       "id": "566",
-      "name": "шесть бутылок вместо одной",
-      "title": "sześć butelek zamiast jednej",
+      "name": "sześć butelek zamiast jednej",
+      "title": "шесть бутылок вместо одной",
       "subscrb": "шещь бутелек замяст йедней"
     },
     {
       "id": "567",
-      "name": "находиться недалеко от её работы",
-      "title": "być niedaleko jej pracy",
+      "name": "być niedaleko jej pracy",
+      "title": "находиться недалеко от её работы",
       "subscrb": "бычь недалеко ей пратсы"
     },
     {
       "id": "568",
-      "name": "здесь есть всё",
-      "title": "tu jest wszystko",
+      "name": "tu jest wszystko",
+      "title": "здесь есть всё",
       "subscrb": "ту йест всшистко"
     },
     {
       "id": "569",
-      "name": "идти вдоль полок",
-      "title": "iść wzdłuż półek",
+      "name": "iść wzdłuż półek",
+      "title": "идти вдоль полок",
       "subscrb": "ишч вздлуш пувек"
     },
     {
       "id": "570",
-      "name": "тяжёлая сумка",
-      "title": "ciężka torba",
+      "name": "ciężka torba",
+      "title": "тяжёлая сумка",
       "subscrb": "ченшка торба"
     },
     {
       "id": "571",
-      "name": "терпеть",
-      "title": "znosić",
+      "name": "znosić",
+      "title": "терпеть",
       "subscrb": "знощичь"
     },
     {
       "id": "572",
-      "name": "странный",
-      "title": "dziwny",
+      "name": "dziwny",
+      "title": "странный",
       "subscrb": "дживны"
     },
     {
       "id": "573",
-      "name": "другой",
-      "title": "inny",
+      "name": "inny",
+      "title": "другой",
       "subscrb": "инны"
     },
     {
       "id": "574",
-      "name": "кончить",
-      "title": "skończyć",
+      "name": "skończyć",
+      "title": "кончить",
       "subscrb": "скончичь"
     },
     {
       "id": "575",
-      "name": "например",
-      "title": "na przykład",
+      "name": "na przykład",
+      "title": "например",
       "subscrb": "на пшыквад"
     },
     {
       "id": "576",
-      "name": "пусть",
-      "title": "niech",
+      "name": "niech",
+      "title": "пусть",
       "subscrb": "нех"
     },
     {
       "id": "577",
-      "name": "который",
-      "title": "który",
+      "name": "który",
+      "title": "который",
       "subscrb": "ктуры"
     },
     {
       "id": "578",
-      "name": "которая",
-      "title": "która",
+      "name": "która",
+      "title": "которая",
       "subscrb": "ктура"
     },
     {
       "id": "579",
-      "name": "которое",
-      "title": "które",
+      "name": "które",
+      "title": "которое",
       "subscrb": "ктуре"
     },
     {
       "id": "580",
-      "name": "недалеко",
-      "title": "niedaleko",
+      "name": "niedaleko",
+      "title": "недалеко",
       "subscrb": "недалеко"
     },
     {
       "id": "581",
-      "name": "попросить",
-      "title": "poprosić",
+      "name": "poprosić",
+      "title": "попросить",
       "subscrb": "попрошичь"
     },
     {
       "id": "582",
-      "name": "полка",
-      "title": "półka",
+      "name": "półka",
+      "title": "полка",
       "subscrb": "пувка"
     },
     {
       "id": "583",
-      "name": "вещь",
-      "title": "rzecz",
+      "name": "rzecz",
+      "title": "вещь",
       "subscrb": "жеч"
     },
     {
       "id": "584",
-      "name": "сам",
-      "title": "sam",
+      "name": "sam",
+      "title": "сам",
       "subscrb": "сам"
     },
     {
       "id": "585",
-      "name": "один",
-      "title": "jeden",
+      "name": "jeden",
+      "title": "один",
       "subscrb": "йеден"
     },
     {
       "id": "586",
-      "name": "звонить",
-      "title": "dzwonić",
+      "name": "dzwonić",
+      "title": "звонить",
       "subscrb": "дзвоничь"
     },
     {
       "id": "587",
-      "name": "нужно",
-      "title": "trzeba",
+      "name": "trzeba",
+      "title": "нужно",
       "subscrb": "тшеба"
     },
     {
       "id": "588",
-      "name": "здесь",
-      "title": "tutaj",
+      "name": "tutaj",
+      "title": "здесь",
       "subscrb": "тутай"
     },
     {
       "id": "589",
-      "name": "следовательно",
-      "title": "więc",
+      "name": "więc",
+      "title": "следовательно",
       "subscrb": "венц"
     },
     {
       "id": "590",
-      "name": "наконец",
-      "title": "w końcu",
+      "name": "w końcu",
+      "title": "наконец",
       "subscrb": "в коньцу"
     },
     {
       "id": "591",
-      "name": "вдоль",
-      "title": "wzdłuż",
+      "name": "wzdłuż",
+      "title": "вдоль",
       "subscrb": "вздлуш"
     },
     {
       "id": "592",
-      "name": "выбирать",
-      "title": "wybierać",
+      "name": "wybierać",
+      "title": "выбирать",
       "subscrb": "выберачь"
     },
     {
       "id": "593",
-      "name": "шоколад",
-      "title": "czekolada",
+      "name": "czekolada",
+      "title": "шоколад",
       "subscrb": "чоколада"
     },
     {
       "id": "594",
-      "name": "треска",
-      "title": "dorsz",
+      "name": "dorsz",
+      "title": "треска",
       "subscrb": "дорш"
     },
     {
       "id": "595",
-      "name": "головка сыра",
-      "title": "główka sera",
+      "name": "główka sera",
+      "title": "головка сыра",
       "subscrb": "гувка сэра"
     },
     {
       "id": "596",
-      "name": "килограмм",
-      "title": "kilogram",
+      "name": "kilogram",
+      "title": "килограмм",
       "subscrb": "килограмм"
     },
     {
       "id": "597",
-      "name": "стоить",
-      "title": "kosztować",
+      "name": "kosztować",
+      "title": "стоить",
       "subscrb": "коштовать"
     },
     {
       "id": "598",
-      "name": "сколько стоит",
-      "title": "ile kosztuje",
+      "name": "ile kosztuje",
+      "title": "сколько стоит",
       "subscrb": "иле коштуе"
     },
     {
       "id": "599",
-      "name": "нести",
-      "title": "nieść",
+      "name": "nieść",
+      "title": "нести",
       "subscrb": "нещчь"
     },
     {
       "id": "600",
-      "name": "доставка",
-      "title": "dostawa",
+      "name": "dostawa",
+      "title": "доставка",
       "subscrb": "достава"
     },
     {
       "id": "601",
-      "name": "огурец",
-      "title": "ogórek",
+      "name": "ogórek",
+      "title": "огурец",
       "subscrb": "огурек"
     },
     {
       "id": "602",
-      "name": "платить",
-      "title": "płacić",
+      "name": "płacić",
+      "title": "платить",
       "subscrb": "пвачичь"
     },
     {
       "id": "603",
-      "name": "коробка",
-      "title": "pudełko",
+      "name": "pudełko",
+      "title": "коробка",
       "subscrb": "пуделко"
     },
     {
       "id": "604",
-      "name": "год",
-      "title": "rok",
+      "name": "rok",
+      "title": "год",
       "subscrb": "рок"
     },
     {
       "id": "605",
-      "name": "годы",
-      "title": "lata",
+      "name": "lata",
+      "title": "годы",
       "subscrb": "лата"
     },
     {
       "id": "606",
-      "name": "рыба",
-      "title": "ryba",
+      "name": "ryba",
+      "title": "рыба",
       "subscrb": "рыба"
     },
     {
       "id": "607",
-      "name": "рыбный",
-      "title": "rybny",
+      "name": "rybny",
+      "title": "рыбный",
       "subscrb": "рыбны"
     },
     {
       "id": "608",
-      "name": "сливочный",
-      "title": "śmietankowy",
+      "name": "śmietankowy",
+      "title": "сливочный",
       "subscrb": "шметанковы"
     }
   ]

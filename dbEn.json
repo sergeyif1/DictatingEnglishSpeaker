@@ -2,3650 +2,3650 @@
   "dictionary": [
     {
       "id": "1",
-      "name": "автобус",
-      "title": "bus",
+      "name": "bus",
+      "title": "автобус",
       "subscrb": "бас"
     },
     {
       "id": "2",
-      "name": "очень",
-      "title": "very",
+      "name": "very",
+      "title": "очень",
       "subscrb": "вэри"
     },
     {
       "id": "3",
-      "name": "белый",
-      "title": "white",
+      "name": "white",
+      "title": "белый",
       "subscrb": "уайт"
     },
     {
       "id": "4",
-      "name": "белая",
-      "title": "white (feminine)",
+      "name": "white (feminine)",
+      "title": "белая",
       "subscrb": "уайт"
     },
     {
       "id": "5",
-      "name": "белое",
-      "title": "white (neuter)",
+      "name": "white (neuter)",
+      "title": "белое",
       "subscrb": "уайт"
     },
     {
       "id": "6",
-      "name": "стол",
-      "title": "table",
+      "name": "table",
+      "title": "стол",
       "subscrb": "тейбл"
     },
     {
       "id": "7",
-      "name": "богатый",
-      "title": "rich",
+      "name": "rich",
+      "title": "богатый",
       "subscrb": "рич"
     },
     {
       "id": "8",
-      "name": "коричневый",
-      "title": "brown",
+      "name": "brown",
+      "title": "коричневый",
       "subscrb": "браун"
     },
     {
       "id": "9",
-      "name": "пироженое",
-      "title": "pastry",
+      "name": "pastry",
+      "title": "пироженое",
       "subscrb": "пэйстри"
     },
     {
       "id": "10",
-      "name": "чёрный",
-      "title": "black",
+      "name": "black",
+      "title": "чёрный",
       "subscrb": "блэк"
     },
     {
       "id": "11",
-      "name": "красный",
-      "title": "red",
+      "name": "red",
+      "title": "красный",
       "subscrb": "рэд"
     },
     {
       "id": "12",
-      "name": "часть",
-      "title": "part",
+      "name": "part",
+      "title": "часть",
       "subscrb": "парт"
     },
     {
       "id": "13",
-      "name": "чей, чья, чьё",
-      "title": "whose",
+      "name": "whose",
+      "title": "чей, чья, чьё",
       "subscrb": "хуз"
     },
     {
       "id": "14",
-      "name": "дуб",
-      "title": "oak",
+      "name": "oak",
+      "title": "дуб",
       "subscrb": "оук"
     },
     {
       "id": "15",
-      "name": "десерт",
-      "title": "dessert",
+      "name": "dessert",
+      "title": "десерт",
       "subscrb": "дезёрт"
     },
     {
       "id": "16",
-      "name": "мороженое",
-      "title": "ice cream",
+      "name": "ice cream",
+      "title": "мороженое",
       "subscrb": "айс криим"
     },
     {
       "id": "17",
-      "name": "хороший",
-      "title": "good",
+      "name": "good",
+      "title": "хороший",
       "subscrb": "гуд"
     },
     {
       "id": "18",
-      "name": "дом",
-      "title": "house",
+      "name": "house",
+      "title": "дом",
       "subscrb": "хаус"
     },
     {
       "id": "19",
-      "name": "большой",
-      "title": "big",
+      "name": "big",
+      "title": "большой",
       "subscrb": "биг"
     },
     {
       "id": "20",
-      "name": "варенье",
-      "title": "jam",
+      "name": "jam",
+      "title": "варенье",
       "subscrb": "джэм"
     },
     {
       "id": "21",
-      "name": "день",
-      "title": "day",
+      "name": "day",
+      "title": "день",
       "subscrb": "дэй"
     },
     {
       "id": "22",
-      "name": "синий",
-      "title": "blue",
+      "name": "blue",
+      "title": "синий",
       "subscrb": "блю"
     },
     {
       "id": "23",
-      "name": "настроение",
-      "title": "mood",
+      "name": "mood",
+      "title": "настроение",
       "subscrb": "мууд"
     },
     {
       "id": "24",
-      "name": "интересный",
-      "title": "interesting",
+      "name": "interesting",
+      "title": "интересный",
       "subscrb": "интрестинг"
     },
     {
       "id": "25",
-      "name": "какой, какая, какое",
-      "title": "what kind of / which",
+      "name": "what kind of / which",
+      "title": "какой, какая, какое",
       "subscrb": "уот кайнд оф / уич"
     },
     {
       "id": "26",
-      "name": "язык",
-      "title": "language",
+      "name": "language",
+      "title": "язык",
       "subscrb": "лэнгвидж"
     },
     {
       "id": "27",
-      "name": "книга",
-      "title": "book",
+      "name": "book",
+      "title": "книга",
       "subscrb": "бук"
     },
     {
       "id": "28",
-      "name": "чашка",
-      "title": "cup",
+      "name": "cup",
+      "title": "чашка",
       "subscrb": "кап"
     },
     {
       "id": "29",
-      "name": "красивый",
-      "title": "beautiful",
+      "name": "beautiful",
+      "title": "красивый",
       "subscrb": "бьютифул"
     },
     {
       "id": "30",
-      "name": "город",
-      "title": "city",
+      "name": "city",
+      "title": "город",
       "subscrb": "сити"
     },
     {
       "id": "31",
-      "name": "месяц",
-      "title": "month",
+      "name": "month",
+      "title": "месяц",
       "subscrb": "манс"
     },
     {
       "id": "32",
-      "name": "молодой",
-      "title": "young",
+      "name": "young",
+      "title": "молодой",
       "subscrb": "янг"
     },
     {
       "id": "33",
-      "name": "мой, моя, моё",
-      "title": "my",
+      "name": "my",
+      "title": "мой, моя, моё",
       "subscrb": "май"
     },
     {
       "id": "34",
-      "name": "море",
-      "title": "sea",
+      "name": "sea",
+      "title": "море",
       "subscrb": "си"
     },
     {
       "id": "35",
-      "name": "муха",
-      "title": "fly",
+      "name": "fly",
+      "title": "муха",
       "subscrb": "флай"
     },
     {
       "id": "36",
-      "name": "следующий",
-      "title": "next",
+      "name": "next",
+      "title": "следующий",
       "subscrb": "некст"
     },
     {
       "id": "37",
-      "name": "наш, нашего, наши",
-      "title": "our",
+      "name": "our",
+      "title": "наш, нашего, наши",
       "subscrb": "ауэр"
     },
     {
       "id": "38",
-      "name": "называться",
-      "title": "to be called",
+      "name": "to be called",
+      "title": "называться",
       "subscrb": "ту би колд"
     },
     {
       "id": "39",
-      "name": "голубой",
-      "title": "light blue",
+      "name": "light blue",
+      "title": "голубой",
       "subscrb": "лайт блю"
     },
     {
       "id": "40",
-      "name": "низкий",
-      "title": "low",
+      "name": "low",
+      "title": "низкий",
       "subscrb": "лоу"
     },
     {
       "id": "41",
-      "name": "новый",
-      "title": "new",
+      "name": "new",
+      "title": "новый",
       "subscrb": "нью"
     },
     {
       "id": "42",
-      "name": "обращение к мужчине",
-      "title": "sir / mister",
+      "name": "sir / mister",
+      "title": "обращение к мужчине",
       "subscrb": "сёр / мистэр"
     },
     {
       "id": "43",
-      "name": "обращение к женщине",
-      "title": "ma'am / miss / mrs",
+      "name": "ma'am / miss / mrs",
+      "title": "обращение к женщине",
       "subscrb": "мэм / мис / мисиз"
     },
     {
       "id": "44",
-      "name": "собака",
-      "title": "dog",
+      "name": "dog",
+      "title": "собака",
       "subscrb": "дог"
     },
     {
       "id": "45",
-      "name": "собачки",
-      "title": "doggies",
+      "name": "doggies",
+      "title": "собачки",
       "subscrb": "догиз"
     },
     {
       "id": "46",
-      "name": "комната",
-      "title": "room",
+      "name": "room",
+      "title": "комната",
       "subscrb": "рум"
     },
     {
       "id": "47",
-      "name": "польский",
-      "title": "Polish",
+      "name": "Polish",
+      "title": "польский",
       "subscrb": "полиш"
     },
     {
       "id": "48",
-      "name": "красивый о мужчине",
-      "title": "handsome",
+      "name": "handsome",
+      "title": "красивый о мужчине",
       "subscrb": "хэндсом"
     },
     {
       "id": "49",
-      "name": "сестра",
-      "title": "sister",
+      "name": "sister",
+      "title": "сестра",
       "subscrb": "систэр"
     },
     {
       "id": "50",
-      "name": "старый",
-      "title": "old",
+      "name": "old",
+      "title": "старый",
       "subscrb": "оулд"
     },
     {
       "id": "51",
-      "name": "праздник",
-      "title": "holiday",
+      "name": "holiday",
+      "title": "праздник",
       "subscrb": "холидэй"
     },
     {
       "id": "52",
-      "name": "свежий",
-      "title": "fresh",
+      "name": "fresh",
+      "title": "свежий",
       "subscrb": "фреш"
     },
     {
       "id": "53",
-      "name": "симпатичный",
-      "title": "cute / nice",
+      "name": "cute / nice",
+      "title": "симпатичный",
       "subscrb": "кьют / найс"
     },
     {
       "id": "54",
-      "name": "снов",
-      "title": "dreams",
+      "name": "dreams",
+      "title": "снов",
       "subscrb": "дримс"
     },
     {
       "id": "55",
-      "name": "тот, та, то",
-      "title": "that",
+      "name": "that",
+      "title": "тот, та, то",
       "subscrb": "зэт"
     },
     {
       "id": "56",
-      "name": "это, эта, это",
-      "title": "this",
+      "name": "this",
+      "title": "это, эта, это",
       "subscrb": "зис"
     },
     {
       "id": "57",
-      "name": "тоже",
-      "title": "also / too",
+      "name": "also / too",
+      "title": "тоже",
       "subscrb": "олсо / ту"
     },
     {
       "id": "58",
-      "name": "твой, твоя, твоё",
-      "title": "your",
+      "name": "your",
+      "title": "твой, твоя, твоё",
       "subscrb": "йор"
     },
     {
       "id": "59",
-      "name": "ваш, ваша, ваше",
-      "title": "your",
+      "name": "your",
+      "title": "ваш, ваша, ваше",
       "subscrb": "йор"
     },
     {
       "id": "60",
-      "name": "вышел о'кей",
-      "title": "turned out okay",
+      "name": "turned out okay",
+      "title": "вышел о'кей",
       "subscrb": "тёрнд аут окей"
     },
     {
       "id": "61",
-      "name": "занятия",
-      "title": "classes",
+      "name": "classes",
+      "title": "занятия",
       "subscrb": "классиз"
     },
     {
       "id": "62",
-      "name": "зуб",
-      "title": "tooth",
+      "name": "tooth",
+      "title": "зуб",
       "subscrb": "туθ (тус)"
     },
     {
       "id": "63",
-      "name": "зелёный",
-      "title": "green",
+      "name": "green",
+      "title": "зелёный",
       "subscrb": "грин"
     },
     {
       "id": "64",
-      "name": "земля",
-      "title": "earth",
+      "name": "earth",
+      "title": "земля",
       "subscrb": "ёрθ (ёрс)"
     },
     {
       "id": "65",
-      "name": "жёлтый",
-      "title": "yellow",
+      "name": "yellow",
+      "title": "жёлтый",
       "subscrb": "йелоу"
     },
     {
       "id": "66",
-      "name": "здравствуйте",
-      "title": "hello",
+      "name": "hello",
+      "title": "здравствуйте",
       "subscrb": "хэлоу"
     },
     {
       "id": "67",
-      "name": "Добрый день",
-      "title": "good afternoon",
+      "name": "good afternoon",
+      "title": "Добрый день",
       "subscrb": "гуд афтэрнун"
     },
     {
       "id": "68",
-      "name": "Добрый вечер",
-      "title": "good evening",
+      "name": "good evening",
+      "title": "Добрый вечер",
       "subscrb": "гуд ивнинг"
     },
     {
       "id": "69",
-      "name": "привет",
-      "title": "hi / hello",
+      "name": "hi / hello",
+      "title": "привет",
       "subscrb": "хай / хэлоу"
     },
     {
       "id": "70",
-      "name": "до свидания",
-      "title": "goodbye",
+      "name": "goodbye",
+      "title": "до свидания",
       "subscrb": "гудбай"
     },
     {
       "id": "71",
-      "name": "до скорого свидание",
-      "title": "see you soon",
+      "name": "see you soon",
+      "title": "до скорого свидание",
       "subscrb": "си ю сун"
     },
     {
       "id": "72",
-      "name": "спокойной ночи",
-      "title": "good night",
+      "name": "good night",
+      "title": "спокойной ночи",
       "subscrb": "гуд найт"
     },
     {
       "id": "73",
-      "name": "до завтра",
-      "title": "see you tomorrow",
+      "name": "see you tomorrow",
+      "title": "до завтра",
       "subscrb": "си ю томороу"
     },
     {
       "id": "74",
-      "name": "как вас зовут",
-      "title": "what’s your name",
+      "name": "what’s your name",
+      "title": "как вас зовут",
       "subscrb": "уотс ёр нэйм"
     },
     {
       "id": "75",
-      "name": "меня зовут так-то",
-      "title": "my name is so-and-so",
+      "name": "my name is so-and-so",
+      "title": "меня зовут так-то",
       "subscrb": "май нэйм из соу-энд-соу"
     },
     {
       "id": "76",
-      "name": "меня зовут",
-      "title": "my name is",
+      "name": "my name is",
+      "title": "меня зовут",
       "subscrb": "май нэйм из"
     },
     {
       "id": "77",
-      "name": "очень приятно",
-      "title": "nice to meet you",
+      "name": "nice to meet you",
+      "title": "очень приятно",
       "subscrb": "найс ту мит ю"
     },
     {
       "id": "78",
-      "name": "очень приятно",
-      "title": "pleased to meet you",
+      "name": "pleased to meet you",
+      "title": "очень приятно",
       "subscrb": "плизд ту мит ю"
     },
     {
       "id": "79",
-      "name": "как тебя зовут",
-      "title": "what’s your name (informal)",
+      "name": "what’s your name (informal)",
+      "title": "как тебя зовут",
       "subscrb": "уотс ёр нэйм"
     },
     {
       "id": "80",
-      "name": "извините",
-      "title": "excuse me / sorry",
+      "name": "excuse me / sorry",
+      "title": "извините",
       "subscrb": "экскьюз ми / сорри"
     },
     {
       "id": "81",
-      "name": "спасибо",
-      "title": "thank you",
+      "name": "thank you",
+      "title": "спасибо",
       "subscrb": "сэнк ю"
     },
     {
       "id": "82",
-      "name": "пожалуйста",
-      "title": "please / you’re welcome",
+      "name": "please / you’re welcome",
+      "title": "пожалуйста",
       "subscrb": "плиз / юр уэлкам"
     },
     {
       "id": "83",
-      "name": "что у вас слышно",
-      "title": "what’s new / how are things",
+      "name": "what’s new / how are things",
+      "title": "что у вас слышно",
       "subscrb": "уотс нью / хау ар сингз"
     },
     {
       "id": "84",
-      "name": "как живёшь",
-      "title": "how’s life",
+      "name": "how’s life",
+      "title": "как живёшь",
       "subscrb": "хау’з лайф"
     },
     {
       "id": "85",
-      "name": "как дела",
-      "title": "how are you",
+      "name": "how are you",
+      "title": "как дела",
       "subscrb": "хау ар ю"
     },
     {
       "id": "86",
-      "name": "спасибо",
-      "title": "thank you",
+      "name": "thank you",
+      "title": "спасибо",
       "subscrb": "сэнк ю"
     },
     {
       "id": "87",
-      "name": "всё в порядке",
-      "title": "everything’s fine",
+      "name": "everything’s fine",
+      "title": "всё в порядке",
       "subscrb": "эвритингс файн"
     },
     {
       "id": "88",
-      "name": "прекрасно",
-      "title": "wonderful",
+      "name": "wonderful",
+      "title": "прекрасно",
       "subscrb": "уандэрфул"
     },
     {
       "id": "89",
-      "name": "очень хорошо",
-      "title": "very good",
+      "name": "very good",
+      "title": "очень хорошо",
       "subscrb": "вэри гуд"
     },
     {
       "id": "90",
-      "name": "неплохо",
-      "title": "not bad",
+      "name": "not bad",
+      "title": "неплохо",
       "subscrb": "нот бэд"
     },
     {
       "id": "91",
-      "name": "так себе",
-      "title": "so-so",
+      "name": "so-so",
+      "title": "так себе",
       "subscrb": "соу-соу"
     },
     {
       "id": "92",
-      "name": "плохо",
-      "title": "bad",
+      "name": "bad",
+      "title": "плохо",
       "subscrb": "бэд"
     },
     {
       "id": "93",
-      "name": "по-старому",
-      "title": "same as always",
+      "name": "same as always",
+      "title": "по-старому",
       "subscrb": "сэйм эз олвэйз"
     },
     {
       "id": "94",
-      "name": "ничего нового",
-      "title": "nothing new",
+      "name": "nothing new",
+      "title": "ничего нового",
       "subscrb": "нафинг нью"
     },
     {
       "id": "95",
-      "name": "но",
-      "title": "but",
+      "name": "but",
+      "title": "но",
       "subscrb": "бат"
     },
     {
       "id": "96",
-      "name": "статья",
-      "title": "article",
+      "name": "article",
+      "title": "статья",
       "subscrb": "а́ртикл"
     },
     {
       "id": "97",
-      "name": "автобусный",
-      "title": "bus (adjective)",
+      "name": "bus (adjective)",
+      "title": "автобусный",
       "subscrb": "бас"
     },
     {
       "id": "98",
-      "name": "Билли",
-      "title": "Billy",
+      "name": "Billy",
+      "title": "Билли",
       "subscrb": "Билли"
     },
     {
       "id": "99",
-      "name": "платочек",
-      "title": "handkerchief",
+      "name": "handkerchief",
+      "title": "платочек",
       "subscrb": "хэнкэрчиф"
     },
     {
       "id": "100",
-      "name": "журнал",
-      "title": "magazine",
+      "name": "magazine",
+      "title": "журнал",
       "subscrb": "магэзин"
     },
     {
       "id": "101",
-      "name": "часто",
-      "title": "often",
+      "name": "often",
+      "title": "часто",
       "subscrb": "офэн"
     },
     {
       "id": "102",
-      "name": "читать",
-      "title": "to read",
+      "name": "to read",
+      "title": "читать",
       "subscrb": "ту рид"
     },
     {
       "id": "103",
-      "name": "шариковая ручка",
-      "title": "ballpoint pen",
+      "name": "ballpoint pen",
+      "title": "шариковая ручка",
       "subscrb": "болпоинт пэн"
     },
     {
       "id": "104",
-      "name": "хороший",
-      "title": "good",
+      "name": "good",
+      "title": "хороший",
       "subscrb": "гуд"
     },
     {
       "id": "105",
-      "name": "хорошо",
-      "title": "well",
+      "name": "well",
+      "title": "хорошо",
       "subscrb": "уэл"
     },
     {
       "id": "106",
-      "name": "ребёнок",
-      "title": "child",
+      "name": "child",
+      "title": "ребёнок",
       "subscrb": "чайлд"
     },
     {
       "id": "107",
-      "name": "фильм",
-      "title": "movie",
+      "name": "movie",
+      "title": "фильм",
       "subscrb": "муви"
     },
     {
       "id": "108",
-      "name": "газета",
-      "title": "newspaper",
+      "name": "newspaper",
+      "title": "газета",
       "subscrb": "ньюспейпэр"
     },
     {
       "id": "109",
-      "name": "играть",
-      "title": "to play",
+      "name": "to play",
+      "title": "играть",
       "subscrb": "ту плей"
     },
     {
       "id": "110",
-      "name": "вежливый, послушный",
-      "title": "polite, obedient",
+      "name": "polite, obedient",
+      "title": "вежливый, послушный",
       "subscrb": "пэлайт, обидиэнт"
     },
     {
       "id": "111",
-      "name": "гигиенический",
-      "title": "hygienic",
+      "name": "hygienic",
+      "title": "гигиенический",
       "subscrb": "хайдженик"
     },
     {
       "id": "112",
-      "name": "история",
-      "title": "history",
+      "name": "history",
+      "title": "история",
       "subscrb": "хистори"
     },
     {
       "id": "113",
-      "name": "умный",
-      "title": "smart",
+      "name": "smart",
+      "title": "умный",
       "subscrb": "смарт"
     },
     {
       "id": "114",
-      "name": "инженер",
-      "title": "engineer",
+      "name": "engineer",
+      "title": "инженер",
       "subscrb": "энджиннир"
     },
     {
       "id": "115",
-      "name": "ещё",
-      "title": "more / still",
+      "name": "more / still",
+      "title": "ещё",
       "subscrb": "мор / стил"
     },
     {
       "id": "116",
-      "name": "календарь",
-      "title": "calendar",
+      "name": "calendar",
+      "title": "календарь",
       "subscrb": "кэлендэр"
     },
     {
       "id": "117",
-      "name": "карточка",
-      "title": "card",
+      "name": "card",
+      "title": "карточка",
       "subscrb": "кард"
     },
     {
       "id": "118",
-      "name": "шутка, анекдот",
-      "title": "joke",
+      "name": "joke",
+      "title": "шутка, анекдот",
       "subscrb": "джоук"
     },
     {
       "id": "119",
-      "name": "каждый",
-      "title": "every",
+      "name": "every",
+      "title": "каждый",
       "subscrb": "эври"
     },
     {
       "id": "120",
-      "name": "шофёр",
-      "title": "driver",
+      "name": "driver",
+      "title": "шофёр",
       "subscrb": "драйвэр"
     },
     {
       "id": "121",
-      "name": "разноцветный",
-      "title": "multicolored",
+      "name": "multicolored",
+      "title": "разноцветный",
       "subscrb": "малтикалэрд"
     },
     {
       "id": "122",
-      "name": "женщина-врач",
-      "title": "female doctor",
+      "name": "female doctor",
+      "title": "женщина-врач",
       "subscrb": "фимэйл доктор"
     },
     {
       "id": "123",
-      "name": "врач",
-      "title": "doctor",
+      "name": "doctor",
+      "title": "врач",
       "subscrb": "доктор"
     },
     {
       "id": "124",
-      "name": "учитель",
-      "title": "teacher",
+      "name": "teacher",
+      "title": "учитель",
       "subscrb": "тичэр"
     },
     {
       "id": "125",
-      "name": "учительница",
-      "title": "female teacher",
+      "name": "female teacher",
+      "title": "учительница",
       "subscrb": "фимэйл тичэр"
     },
     {
       "id": "126",
-      "name": "готовить",
-      "title": "to cook",
+      "name": "to cook",
+      "title": "готовить",
       "subscrb": "ту кук"
     },
     {
       "id": "127",
-      "name": "конечно",
-      "title": "of course",
+      "name": "of course",
+      "title": "конечно",
       "subscrb": "ов корс"
     },
     {
       "id": "128",
-      "name": "осматривать, смотреть",
-      "title": "to look, to examine",
+      "name": "to look, to examine",
+      "title": "осматривать, смотреть",
       "subscrb": "ту лук, ту экзэмин"
     },
     {
       "id": "129",
-      "name": "рассказывать",
-      "title": "to tell",
+      "name": "to tell",
+      "title": "рассказывать",
       "subscrb": "ту тэл"
     },
     {
       "id": "130",
-      "name": "помнить",
-      "title": "to remember",
+      "name": "to remember",
+      "title": "помнить",
       "subscrb": "ту римембэр"
     },
     {
       "id": "131",
-      "name": "сигареты",
-      "title": "cigarettes",
+      "name": "cigarettes",
+      "title": "сигареты",
       "subscrb": "сигарэтс"
     },
     {
       "id": "132",
-      "name": "медсестра",
-      "title": "nurse",
+      "name": "nurse",
+      "title": "медсестра",
       "subscrb": "нёрс"
     },
     {
       "id": "133",
-      "name": "песня",
-      "title": "song",
+      "name": "song",
+      "title": "песня",
       "subscrb": "сонг"
     },
     {
       "id": "134",
-      "name": "писательница",
-      "title": "female writer",
+      "name": "female writer",
+      "title": "писательница",
       "subscrb": "фимэйл райтэр"
     },
     {
       "id": "135",
-      "name": "писатель",
-      "title": "writer",
+      "name": "writer",
+      "title": "писатель",
       "subscrb": "райтэр"
     },
     {
       "id": "136",
-      "name": "полицейский",
-      "title": "police officer",
+      "name": "police officer",
+      "title": "полицейский",
       "subscrb": "полис офисэр"
     },
     {
       "id": "137",
-      "name": "трудолюбивый",
-      "title": "hardworking",
+      "name": "hardworking",
+      "title": "трудолюбивый",
       "subscrb": "хардвёркинг"
     },
     {
       "id": "138",
-      "name": "программа",
-      "title": "program",
+      "name": "program",
+      "title": "программа",
       "subscrb": "прогрэм"
     },
     {
       "id": "139",
-      "name": "прочитать",
-      "title": "to read through",
+      "name": "to read through",
+      "title": "прочитать",
       "subscrb": "ту рид сру"
     },
     {
       "id": "140",
-      "name": "работница",
-      "title": "female worker",
+      "name": "female worker",
+      "title": "работница",
       "subscrb": "фимэйл уоркэр"
     },
     {
       "id": "141",
-      "name": "рабочий",
-      "title": "worker",
+      "name": "worker",
+      "title": "рабочий",
       "subscrb": "уоркэр"
     },
     {
       "id": "142",
-      "name": "земледелец",
-      "title": "farmer",
+      "name": "farmer",
+      "title": "земледелец",
       "subscrb": "фармэр"
     },
     {
       "id": "143",
-      "name": "разговаривать",
-      "title": "to talk",
+      "name": "to talk",
+      "title": "разговаривать",
       "subscrb": "ту ток"
     },
     {
       "id": "144",
-      "name": "понимать",
-      "title": "to understand",
+      "name": "to understand",
+      "title": "понимать",
       "subscrb": "ту андэрстэнд"
     },
     {
       "id": "145",
-      "name": "разный",
-      "title": "different",
+      "name": "different",
+      "title": "разный",
       "subscrb": "диффэрэнт"
     },
     {
       "id": "146",
-      "name": "редко",
-      "title": "rarely",
+      "name": "rarely",
+      "title": "редко",
       "subscrb": "рэрли"
     },
     {
       "id": "147",
-      "name": "слово",
-      "title": "word",
+      "name": "word",
+      "title": "слово",
       "subscrb": "уорд"
     },
     {
       "id": "148",
-      "name": "встретиться",
-      "title": "to meet",
+      "name": "to meet",
+      "title": "встретиться",
       "subscrb": "ту мит"
     },
     {
       "id": "149",
-      "name": "встречаться",
-      "title": "to date / to meet",
+      "name": "to date / to meet",
+      "title": "встречаться",
       "subscrb": "ту дэйт / ту мит"
     },
     {
       "id": "150",
-      "name": "проверять",
-      "title": "to check",
+      "name": "to check",
+      "title": "проверять",
       "subscrb": "ту чек"
     },
     {
       "id": "151",
-      "name": "студент",
-      "title": "student",
+      "name": "student",
+      "title": "студент",
       "subscrb": "стьюдэнт"
     },
     {
       "id": "152",
-      "name": "студентка",
-      "title": "female student",
+      "name": "female student",
+      "title": "студентка",
       "subscrb": "фимэйл стьюдэнт"
     },
     {
       "id": "153",
-      "name": "петь",
-      "title": "to sing",
+      "name": "to sing",
+      "title": "петь",
       "subscrb": "ту синг"
     },
     {
       "id": "154",
-      "name": "телефонный",
-      "title": "phone (adj.)",
+      "name": "phone (adj.)",
+      "title": "телефонный",
       "subscrb": "фон"
     },
     {
       "id": "155",
-      "name": "телевидение",
-      "title": "television",
+      "name": "television",
+      "title": "телевидение",
       "subscrb": "телевижн"
     },
     {
       "id": "156",
-      "name": "сейчас",
-      "title": "now",
+      "name": "now",
+      "title": "сейчас",
       "subscrb": "нау"
     },
     {
       "id": "157",
-      "name": "заботливый",
-      "title": "caring",
+      "name": "caring",
+      "title": "заботливый",
       "subscrb": "кэринг"
     },
     {
       "id": "158",
-      "name": "ученица",
-      "title": "female pupil / student",
+      "name": "female pupil / student",
+      "title": "ученица",
       "subscrb": "фимэйл пьюпил / стьюдэнт"
     },
     {
       "id": "159",
-      "name": "ученик",
-      "title": "pupil / student",
+      "name": "pupil / student",
+      "title": "ученик",
       "subscrb": "пьюпил / стьюдэнт"
     },
     {
       "id": "160",
-      "name": "уметь",
-      "title": "to be able to / can",
+      "name": "to be able to / can",
+      "title": "уметь",
       "subscrb": "ту би эйбл ту / кэн"
     },
     {
       "id": "161",
-      "name": "служащая",
-      "title": "female employee",
+      "name": "female employee",
+      "title": "служащая",
       "subscrb": "фимэйл имплои"
     },
     {
       "id": "162",
-      "name": "служащий",
-      "title": "employee",
+      "name": "employee",
+      "title": "служащий",
       "subscrb": "имплои"
     },
     {
       "id": "163",
-      "name": "талантливый",
-      "title": "talented",
+      "name": "talented",
+      "title": "талантливый",
       "subscrb": "талэнтэд"
     },
     {
       "id": "164",
-      "name": "открытка",
-      "title": "postcard",
+      "name": "postcard",
+      "title": "открытка",
       "subscrb": "поусткард"
     },
     {
       "id": "165",
-      "name": "скоро",
-      "title": "soon",
+      "name": "soon",
+      "title": "скоро",
       "subscrb": "сун"
     },
     {
       "id": "166",
-      "name": "всё",
-      "title": "everything / all",
+      "name": "everything / all",
+      "title": "всё",
       "subscrb": "эвритинг / ол"
     },
     {
       "id": "167",
-      "name": "преподаватель",
-      "title": "lecturer / instructor",
+      "name": "lecturer / instructor",
+      "title": "преподаватель",
       "subscrb": "лэкчурэр / инстрактэр"
     },
     {
       "id": "168",
-      "name": "образованный",
-      "title": "educated",
+      "name": "educated",
+      "title": "образованный",
       "subscrb": "эдьюкейтид"
     },
     {
       "id": "169",
-      "name": "задание",
-      "title": "task / assignment",
+      "name": "task / assignment",
+      "title": "задание",
       "subscrb": "тэс(к) / эсайнмэнт"
     },
     {
       "id": "170",
-      "name": "спичка",
-      "title": "match",
+      "name": "match",
+      "title": "спичка",
       "subscrb": "мэч"
     },
     {
       "id": "171",
-      "name": "запеть",
-      "title": "to start singing",
+      "name": "to start singing",
+      "title": "запеть",
       "subscrb": "ту старт сингинг"
     },
     {
       "id": "172",
-      "name": "способный",
-      "title": "capable",
+      "name": "capable",
+      "title": "способный",
       "subscrb": "кейпабл"
     },
     {
       "id": "173",
-      "name": "тетрадь",
-      "title": "notebook",
+      "name": "notebook",
+      "title": "тетрадь",
       "subscrb": "ноутбук"
     },
     {
       "id": "174",
-      "name": "плохой",
-      "title": "bad",
+      "name": "bad",
+      "title": "плохой",
       "subscrb": "бэд"
     },
     {
       "id": "175",
-      "name": "плохо",
-      "title": "badly / poorly",
+      "name": "badly / poorly",
+      "title": "плохо",
       "subscrb": "бэдли / пурли"
     },
     {
       "id": "176",
-      "name": "медсестра",
-      "title": "nurse",
+      "name": "nurse",
+      "title": "медсестра",
       "subscrb": "нёрс"
     },
     {
       "id": "177",
-      "name": "хороший",
-      "title": "good",
+      "name": "good",
+      "title": "хороший",
       "subscrb": "гуд"
     },
     {
       "id": "178",
-      "name": "вежливый",
-      "title": "polite",
+      "name": "polite",
+      "title": "вежливый",
       "subscrb": "пэлайт"
     },
     {
       "id": "179",
-      "name": "про солнечные",
-      "title": "about sunny (неполная фраза, уточни)",
+      "name": "about sunny (неполная фраза, уточни)",
+      "title": "про солнечные",
       "subscrb": "эбаут сани"
     },
     {
       "id": "180",
-      "name": "умный",
-      "title": "smart",
+      "name": "smart",
+      "title": "умный",
       "subscrb": "смарт"
     },
     {
       "id": "181",
-      "name": "способный",
-      "title": "capable",
+      "name": "capable",
+      "title": "способный",
       "subscrb": "кейпабл"
     },
     {
       "id": "182",
-      "name": "заботливый",
-      "title": "caring",
+      "name": "caring",
+      "title": "заботливый",
       "subscrb": "кэринг"
     },
     {
       "id": "183",
-      "name": "честолюбивый",
-      "title": "ambitious",
+      "name": "ambitious",
+      "title": "честолюбивый",
       "subscrb": "эмбишэс"
     },
     {
       "id": "184",
-      "name": "образованный",
-      "title": "educated",
+      "name": "educated",
+      "title": "образованный",
       "subscrb": "эдьюкейтид"
     },
     {
       "id": "185",
-      "name": "гигиенический",
-      "title": "hygienic",
+      "name": "hygienic",
+      "title": "гигиенический",
       "subscrb": "хайдженик"
     },
     {
       "id": "186",
-      "name": "телефонная карточка",
-      "title": "phone card",
+      "name": "phone card",
+      "title": "телефонная карточка",
       "subscrb": "фон кард"
     },
     {
       "id": "187",
-      "name": "автобусный билет",
-      "title": "bus ticket",
+      "name": "bus ticket",
+      "title": "автобусный билет",
       "subscrb": "бас тикет"
     },
     {
       "id": "188",
-      "name": "гигиенический платочек",
-      "title": "sanitary tissue",
+      "name": "sanitary tissue",
+      "title": "гигиенический платочек",
       "subscrb": "сэнитэри тишу"
     },
     {
       "id": "189",
-      "name": "цветная открытка",
-      "title": "colored postcard",
+      "name": "colored postcard",
+      "title": "цветная открытка",
       "subscrb": "калэрд поусткард"
     },
     {
       "id": "190",
-      "name": "интересный журнал",
-      "title": "interesting magazine",
+      "name": "interesting magazine",
+      "title": "интересный журнал",
       "subscrb": "интрэстинг магэзин"
     },
     {
       "id": "191",
-      "name": "свежая газета",
-      "title": "fresh newspaper",
+      "name": "fresh newspaper",
+      "title": "свежая газета",
       "subscrb": "фреш ньюспейпэр"
     },
     {
       "id": "192",
-      "name": "чёрная тетрадь",
-      "title": "black notebook",
+      "name": "black notebook",
+      "title": "чёрная тетрадь",
       "subscrb": "блак ноутбук"
     },
     {
       "id": "193",
-      "name": "дайте пожалуйста",
-      "title": "give (me) please",
+      "name": "give (me) please",
+      "title": "дайте пожалуйста",
       "subscrb": "гив плиз"
     },
     {
       "id": "194",
-      "name": "ту шариковую ручку",
-      "title": "that ballpoint pen",
+      "name": "that ballpoint pen",
+      "title": "ту шариковую ручку",
       "subscrb": "зэт болпоинт пэн"
     },
     {
       "id": "195",
-      "name": "вот ту открытку",
-      "title": "that postcard over there",
+      "name": "that postcard over there",
+      "title": "вот ту открытку",
       "subscrb": "зэт поусткард оувэр зэа"
     },
     {
       "id": "196",
-      "name": "здравствуйте",
-      "title": "hello",
+      "name": "hello",
+      "title": "здравствуйте",
       "subscrb": "хэлоу"
     },
     {
       "id": "197",
-      "name": "здравствуйте. дайте пожалуйста открытку",
-      "title": "hello. give me a postcard please",
+      "name": "hello. give me a postcard please",
+      "title": "здравствуйте. дайте пожалуйста открытку",
       "subscrb": "хэлоу. гив ми э поусткард плиз"
     },
     {
       "id": "198",
-      "name": "какую открытку эту или ту",
-      "title": "which postcard — this one or that one?",
+      "name": "which postcard — this one or that one?",
+      "title": "какую открытку эту или ту",
       "subscrb": "уич поусткард — зис уан ор зэт уан?"
     },
     {
       "id": "199",
-      "name": "ту цветную открытку",
-      "title": "that colored postcard",
+      "name": "that colored postcard",
+      "title": "ту цветную открытку",
       "subscrb": "зэт калэрд поусткард"
     },
     {
       "id": "200",
-      "name": "пожалуйста",
-      "title": "please",
+      "name": "please",
+      "title": "пожалуйста",
       "subscrb": "плиз"
     },
     {
       "id": "201",
-      "name": "спасибо",
-      "title": "thank you",
+      "name": "thank you",
+      "title": "спасибо",
       "subscrb": "сэнк ю"
     },
     {
       "id": "202",
-      "name": "есть ли спички",
-      "title": "do you have matches?",
+      "name": "do you have matches?",
+      "title": "есть ли спички",
       "subscrb": "ду ю хэв мэтчез"
     },
     {
       "id": "203",
-      "name": "да есть",
-      "title": "yes, we do",
+      "name": "yes, we do",
+      "title": "да есть",
       "subscrb": "йес, ви ду"
     },
     {
       "id": "204",
-      "name": "дайте пожалуйста спички",
-      "title": "please give me matches",
+      "name": "please give me matches",
+      "title": "дайте пожалуйста спички",
       "subscrb": "плиз гив ми мэтчез"
     },
     {
       "id": "205",
-      "name": "пожалуйста",
-      "title": "please",
+      "name": "please",
+      "title": "пожалуйста",
       "subscrb": "плиз"
     },
     {
       "id": "206",
-      "name": "есть ли свежая газета",
-      "title": "do you have a fresh newspaper?",
+      "name": "do you have a fresh newspaper?",
+      "title": "есть ли свежая газета",
       "subscrb": "ду ю хэв э фрэш ньюзпейпер"
     },
     {
       "id": "207",
-      "name": "да",
-      "title": "yes",
+      "name": "yes",
+      "title": "да",
       "subscrb": "йес"
     },
     {
       "id": "208",
-      "name": "дайте пожалуйста свежую газету",
-      "title": "please give me a fresh newspaper",
+      "name": "please give me a fresh newspaper",
+      "title": "дайте пожалуйста свежую газету",
       "subscrb": "плиз гив ми э фрэш ньюзпейпер"
     },
     {
       "id": "209",
-      "name": "пожалуйста",
-      "title": "please",
+      "name": "please",
+      "title": "пожалуйста",
       "subscrb": "плиз"
     },
     {
       "id": "210",
-      "name": "спасибо до свидания",
-      "title": "thank you, goodbye",
+      "name": "thank you, goodbye",
+      "title": "спасибо до свидания",
       "subscrb": "сэнк ю, гудбай"
     },
     {
       "id": "211",
-      "name": "здравствуйте",
-      "title": "hello",
+      "name": "hello",
+      "title": "здравствуйте",
       "subscrb": "хэлоу"
     },
     {
       "id": "212",
-      "name": "здравствуйте есть ли автобусные билеты",
-      "title": "hello, do you have bus tickets?",
+      "name": "hello, do you have bus tickets?",
+      "title": "здравствуйте есть ли автобусные билеты",
       "subscrb": "хэлоу, ду ю хэв бас тикетс"
     },
     {
       "id": "213",
-      "name": "да есть",
-      "title": "yes, we do",
+      "name": "yes, we do",
+      "title": "да есть",
       "subscrb": "йес, ви ду"
     },
     {
       "id": "214",
-      "name": "дайте пожалуйста автобусный билет и шариковую ручку",
-      "title": "please give me a bus ticket and a ballpoint pen",
+      "name": "please give me a bus ticket and a ballpoint pen",
+      "title": "дайте пожалуйста автобусный билет и шариковую ручку",
       "subscrb": "плиз гив ми э бас тикет энд э болпойнт пэн"
     },
     {
       "id": "215",
-      "name": "какую ручку",
-      "title": "which pen?",
+      "name": "which pen?",
+      "title": "какую ручку",
       "subscrb": "уич пэн"
     },
     {
       "id": "216",
-      "name": "дайте пожалуйста красную шариковую ручку и ещё карточку",
-      "title": "please give me a red ballpoint pen and another card",
+      "name": "please give me a red ballpoint pen and another card",
+      "title": "дайте пожалуйста красную шариковую ручку и ещё карточку",
       "subscrb": "плиз гив ми э ред болпойнт пэн энд эназе кард"
     },
     {
       "id": "217",
-      "name": "пожалуйста",
-      "title": "please",
+      "name": "please",
+      "title": "пожалуйста",
       "subscrb": "плиз"
     },
     {
       "id": "218",
-      "name": "спасибо до свидания",
-      "title": "thank you, goodbye",
+      "name": "thank you, goodbye",
+      "title": "спасибо до свидания",
       "subscrb": "сэнк ю, гудбай"
     },
     {
       "id": "219",
-      "name": "читать",
-      "title": "to read",
+      "name": "to read",
+      "title": "читать",
       "subscrb": "ту рид"
     },
     {
       "id": "220",
-      "name": "прочитать",
-      "title": "to read through",
+      "name": "to read through",
+      "title": "прочитать",
       "subscrb": "ту рид сру"
     },
     {
       "id": "221",
-      "name": "рассматривать, смотреть",
-      "title": "to look at, to watch",
+      "name": "to look at, to watch",
+      "title": "рассматривать, смотреть",
       "subscrb": "ту лук эт, ту уотч"
     },
     {
       "id": "222",
-      "name": "играть",
-      "title": "to play",
+      "name": "to play",
+      "title": "играть",
       "subscrb": "ту плей"
     },
     {
       "id": "223",
-      "name": "готовить уроки",
-      "title": "to do homework",
+      "name": "to do homework",
+      "title": "готовить уроки",
       "subscrb": "ту ду хоумворк"
     },
     {
       "id": "224",
-      "name": "рассказывать",
-      "title": "to tell",
+      "name": "to tell",
+      "title": "рассказывать",
       "subscrb": "ту тэл"
     },
     {
       "id": "225",
-      "name": "помнить",
-      "title": "to remember",
+      "name": "to remember",
+      "title": "помнить",
       "subscrb": "ту римембэр"
     },
     {
       "id": "226",
-      "name": "проверять",
-      "title": "to check",
+      "name": "to check",
+      "title": "проверять",
       "subscrb": "ту чэк"
     },
     {
       "id": "227",
-      "name": "встречаться",
-      "title": "to meet",
+      "name": "to meet",
+      "title": "встречаться",
       "subscrb": "ту мит"
     },
     {
       "id": "228",
-      "name": "встретиться",
-      "title": "to meet (up)",
+      "name": "to meet (up)",
+      "title": "встретиться",
       "subscrb": "ту мит ап"
     },
     {
       "id": "229",
-      "name": "уметь",
-      "title": "to be able to",
+      "name": "to be able to",
+      "title": "уметь",
       "subscrb": "ту би эйбл ту"
     },
     {
       "id": "230",
-      "name": "разговаривать",
-      "title": "to talk",
+      "name": "to talk",
+      "title": "разговаривать",
       "subscrb": "ту ток"
     },
     {
       "id": "231",
-      "name": "поговорить",
-      "title": "to have a talk",
+      "name": "to have a talk",
+      "title": "поговорить",
       "subscrb": "ту хэв э ток"
     },
     {
       "id": "232",
-      "name": "понимать",
-      "title": "to understand",
+      "name": "to understand",
+      "title": "понимать",
       "subscrb": "ту андерстэнд"
     },
     {
       "id": "233",
-      "name": "понять",
-      "title": "to realize / to understand",
+      "name": "to realize / to understand",
+      "title": "понять",
       "subscrb": "ту риэлайз / ту андерстэнд"
     },
     {
       "id": "234",
-      "name": "статья",
-      "title": "article",
+      "name": "article",
+      "title": "статья",
       "subscrb": "а́ртикл"
     },
     {
       "id": "235",
-      "name": "слово",
-      "title": "word",
+      "name": "word",
+      "title": "слово",
       "subscrb": "уёрд"
     },
     {
       "id": "236",
-      "name": "каждый",
-      "title": "every",
+      "name": "every",
+      "title": "каждый",
       "subscrb": "эври"
     },
     {
       "id": "237",
-      "name": "программа",
-      "title": "program",
+      "name": "program",
+      "title": "программа",
       "subscrb": "прогрэм"
     },
     {
       "id": "238",
-      "name": "сейчас",
-      "title": "now",
+      "name": "now",
+      "title": "сейчас",
       "subscrb": "нау"
     },
     {
       "id": "239",
-      "name": "задание",
-      "title": "assignment / task",
+      "name": "assignment / task",
+      "title": "задание",
       "subscrb": "эсаймэнт / таск"
     },
     {
       "id": "240",
-      "name": "скоро",
-      "title": "soon",
+      "name": "soon",
+      "title": "скоро",
       "subscrb": "сун"
     },
     {
       "id": "241",
-      "name": "разный",
-      "title": "different",
+      "name": "different",
+      "title": "разный",
       "subscrb": "диффрэнт"
     },
     {
       "id": "242",
-      "name": "часто",
-      "title": "often",
+      "name": "often",
+      "title": "часто",
       "subscrb": "офэн"
     },
     {
       "id": "243",
-      "name": "плохо",
-      "title": "bad / poorly",
+      "name": "bad / poorly",
+      "title": "плохо",
       "subscrb": "бэд / пУрли"
     },
     {
       "id": "244",
-      "name": "хорошо",
-      "title": "good / well",
+      "name": "good / well",
+      "title": "хорошо",
       "subscrb": "гуд / уэл"
     },
     {
       "id": "245",
-      "name": "что это",
-      "title": "what is this?",
+      "name": "what is this?",
+      "title": "что это",
       "subscrb": "уот из зис"
     },
     {
       "id": "246",
-      "name": "это город",
-      "title": "this is a city",
+      "name": "this is a city",
+      "title": "это город",
       "subscrb": "зис из э сити"
     },
     {
       "id": "247",
-      "name": "кто это",
-      "title": "who is this?",
+      "name": "who is this?",
+      "title": "кто это",
       "subscrb": "ху из зис"
     },
     {
       "id": "248",
-      "name": "это человек",
-      "title": "this is a person",
+      "name": "this is a person",
+      "title": "это человек",
       "subscrb": "зис из э пёрсэн"
     },
     {
       "id": "249",
-      "name": "что",
-      "title": "what",
+      "name": "what",
+      "title": "что",
       "subscrb": "уот"
     },
     {
       "id": "250",
-      "name": "это письменный стол",
-      "title": "this is a desk",
+      "name": "this is a desk",
+      "title": "это письменный стол",
       "subscrb": "зис из э деск"
     },
     {
       "id": "251",
-      "name": "кто это",
-      "title": "who is this?",
+      "name": "who is this?",
+      "title": "кто это",
       "subscrb": "ху из зис"
     },
     {
       "id": "252",
-      "name": "это девушка",
-      "title": "this is a girl",
+      "name": "this is a girl",
+      "title": "это девушка",
       "subscrb": "зис из э гёрл"
     },
     {
       "id": "253",
-      "name": "это тоже",
-      "title": "this is also",
+      "name": "this is also",
+      "title": "это тоже",
       "subscrb": "зис из олсо"
     },
     {
       "id": "254",
-      "name": "возьми",
-      "title": "take it",
+      "name": "take it",
+      "title": "возьми",
       "subscrb": "тэйк ит"
     },
     {
       "id": "255",
-      "name": "иди сюда",
-      "title": "come here",
+      "name": "come here",
+      "title": "иди сюда",
       "subscrb": "кам хиэ"
     },
     {
       "id": "256",
-      "name": "бабушка",
-      "title": "grandmother",
+      "name": "grandmother",
+      "title": "бабушка",
       "subscrb": "грэндмазэр"
     },
     {
       "id": "257",
-      "name": "дедушка",
-      "title": "grandfather",
+      "name": "grandfather",
+      "title": "дедушка",
       "subscrb": "грэндфазэр"
     },
     {
       "id": "258",
-      "name": "мать",
-      "title": "mother",
+      "name": "mother",
+      "title": "мать",
       "subscrb": "мазэр"
     },
     {
       "id": "259",
-      "name": "отец",
-      "title": "father",
+      "name": "father",
+      "title": "отец",
       "subscrb": "фазэр"
     },
     {
       "id": "260",
-      "name": "сестра",
-      "title": "sister",
+      "name": "sister",
+      "title": "сестра",
       "subscrb": "систэр"
     },
     {
       "id": "261",
-      "name": "брат",
-      "title": "brother",
+      "name": "brother",
+      "title": "брат",
       "subscrb": "бразэр"
     },
     {
       "id": "262",
-      "name": "дочь",
-      "title": "daughter",
+      "name": "daughter",
+      "title": "дочь",
       "subscrb": "дотэр"
     },
     {
       "id": "263",
-      "name": "сын",
-      "title": "son",
+      "name": "son",
+      "title": "сын",
       "subscrb": "сан"
     },
     {
       "id": "264",
-      "name": "внук",
-      "title": "grandson",
+      "name": "grandson",
+      "title": "внук",
       "subscrb": "грэндсан"
     },
     {
       "id": "265",
-      "name": "внучка",
-      "title": "granddaughter",
+      "name": "granddaughter",
+      "title": "внучка",
       "subscrb": "грэнддотэр"
     },
     {
       "id": "266",
-      "name": "жена",
-      "title": "wife",
+      "name": "wife",
+      "title": "жена",
       "subscrb": "уайф"
     },
     {
       "id": "267",
-      "name": "муж",
-      "title": "husband",
+      "name": "husband",
+      "title": "муж",
       "subscrb": "хазбэнд"
     },
     {
       "id": "268",
-      "name": "тёща",
-      "title": "mother-in-law",
+      "name": "mother-in-law",
+      "title": "тёща",
       "subscrb": "мазэр ин ло"
     },
     {
       "id": "269",
-      "name": "свекровь",
-      "title": "mother-in-law",
+      "name": "mother-in-law",
+      "title": "свекровь",
       "subscrb": "мазэр ин ло"
     },
     {
       "id": "270",
-      "name": "тесть",
-      "title": "father-in-law",
+      "name": "father-in-law",
+      "title": "тесть",
       "subscrb": "фазэр ин ло"
     },
     {
       "id": "271",
-      "name": "свёкор",
-      "title": "father-in-law",
+      "name": "father-in-law",
+      "title": "свёкор",
       "subscrb": "фазэр ин ло"
     },
     {
       "id": "272",
-      "name": "зять",
-      "title": "son-in-law",
+      "name": "son-in-law",
+      "title": "зять",
       "subscrb": "сан ин ло"
     },
     {
       "id": "273",
-      "name": "невестка",
-      "title": "daughter-in-law",
+      "name": "daughter-in-law",
+      "title": "невестка",
       "subscrb": "дотэр ин ло"
     },
     {
       "id": "274",
-      "name": "тётя",
-      "title": "aunt",
+      "name": "aunt",
+      "title": "тётя",
       "subscrb": "ант"
     },
     {
       "id": "275",
-      "name": "дядя",
-      "title": "uncle",
+      "name": "uncle",
+      "title": "дядя",
       "subscrb": "анкл"
     },
     {
       "id": "276",
-      "name": "племянник",
-      "title": "nephew",
+      "name": "nephew",
+      "title": "племянник",
       "subscrb": "нэфью"
     },
     {
       "id": "277",
-      "name": "племянница",
-      "title": "niece",
+      "name": "niece",
+      "title": "племянница",
       "subscrb": "нис"
     },
     {
       "id": "278",
-      "name": "двоюродный брат",
-      "title": "cousin",
+      "name": "cousin",
+      "title": "двоюродный брат",
       "subscrb": "казэн"
     },
     {
       "id": "279",
-      "name": "двоюродная сестра",
-      "title": "cousin",
+      "name": "cousin",
+      "title": "двоюродная сестра",
       "subscrb": "казэн"
     },
     {
       "id": "280",
-      "name": "семья",
-      "title": "family",
+      "name": "family",
+      "title": "семья",
       "subscrb": "фэмили"
     },
     {
       "id": "281",
-      "name": "родители",
-      "title": "parents",
+      "name": "parents",
+      "title": "родители",
       "subscrb": "пэрэнтс"
     },
     {
       "id": "282",
-      "name": "супружеская пара",
-      "title": "married couple",
+      "name": "married couple",
+      "title": "супружеская пара",
       "subscrb": "мэрид капл"
     },
     {
       "id": "283",
-      "name": "дзятькове (польское)",
-      "title": "in-laws (plural)",
+      "name": "in-laws (plural)",
+      "title": "дзятькове (польское)",
       "subscrb": "ин лоз"
     },
     {
       "id": "284",
-      "name": "дзятькове (польское)",
-      "title": "in-laws (plural)",
+      "name": "in-laws (plural)",
+      "title": "дзятькове (польское)",
       "subscrb": "ин лоз"
     },
     {
       "id": "285",
-      "name": "родзеньство (польское)",
-      "title": "siblings",
+      "name": "siblings",
+      "title": "родзеньство (польское)",
       "subscrb": "сиблингз"
     },
     {
       "id": "286",
-      "name": "роджитсе (польское)",
-      "title": "family",
+      "name": "family",
+      "title": "роджитсе (польское)",
       "subscrb": "фэмили"
     },
     {
       "id": "287",
-      "name": "мауженьстфо (польское)",
-      "title": "marriage",
+      "name": "marriage",
+      "title": "мауженьстфо (польское)",
       "subscrb": "мэридж"
     },
     {
       "id": "288",
-      "name": "роджиина (польское)",
-      "title": "family",
+      "name": "family",
+      "title": "роджиина (польское)",
       "subscrb": "фэмили"
     },
     {
       "id": "289",
-      "name": "мужчина",
-      "title": "man",
+      "name": "man",
+      "title": "мужчина",
       "subscrb": "мэн"
     },
     {
       "id": "290",
-      "name": "женщина",
-      "title": "woman",
+      "name": "woman",
+      "title": "женщина",
       "subscrb": "вумэн"
     },
     {
       "id": "291",
-      "name": "парень",
-      "title": "guy / boyfriend",
+      "name": "guy / boyfriend",
+      "title": "парень",
       "subscrb": "гай / бойфрэнд"
     },
     {
       "id": "292",
-      "name": "мальчик",
-      "title": "boy",
+      "name": "boy",
+      "title": "мальчик",
       "subscrb": "бой"
     },
     {
       "id": "293",
-      "name": "девушка",
-      "title": "girl / girlfriend",
+      "name": "girl / girlfriend",
+      "title": "девушка",
       "subscrb": "гёрл / гёрлфрэнд"
     },
     {
       "id": "294",
-      "name": "девочка",
-      "title": "girl",
+      "name": "girl",
+      "title": "девочка",
       "subscrb": "гёрл"
     },
     {
       "id": "295",
-      "name": "старший",
-      "title": "older / elder",
+      "name": "older / elder",
+      "title": "старший",
       "subscrb": "олдэр / элдэр"
     },
     {
       "id": "296",
-      "name": "младший",
-      "title": "younger",
+      "name": "younger",
+      "title": "младший",
       "subscrb": "янгэр"
     },
     {
       "id": "297",
-      "name": "любимый",
-      "title": "beloved / favorite",
+      "name": "beloved / favorite",
+      "title": "любимый",
       "subscrb": "билáвд / фэйвэрит"
     },
     {
       "id": "298",
-      "name": "дружный",
-      "title": "close-knit / united",
+      "name": "close-knit / united",
+      "title": "дружный",
       "subscrb": "клоус-нит / юнайтэд"
     },
     {
       "id": "299",
-      "name": "согласие в семье",
-      "title": "family harmony",
+      "name": "family harmony",
+      "title": "согласие в семье",
       "subscrb": "фэмили хАрмони"
     },
     {
       "id": "300",
-      "name": "замужняя",
-      "title": "married (woman)",
+      "name": "married (woman)",
+      "title": "замужняя",
       "subscrb": "мэрид"
     },
     {
       "id": "301",
-      "name": "женатый",
-      "title": "married (man)",
+      "name": "married (man)",
+      "title": "женатый",
       "subscrb": "мэрид"
     },
     {
       "id": "302",
-      "name": "маленький",
-      "title": "small / little",
+      "name": "small / little",
+      "title": "маленький",
       "subscrb": "смол / литл"
     },
     {
       "id": "303",
-      "name": "твоих",
-      "title": "your",
+      "name": "your",
+      "title": "твоих",
       "subscrb": "ёр"
     },
     {
       "id": "304",
-      "name": "моих",
-      "title": "my",
+      "name": "my",
+      "title": "моих",
       "subscrb": "май"
     },
     {
       "id": "305",
-      "name": "давать",
-      "title": "to give",
+      "name": "to give",
+      "title": "давать",
       "subscrb": "ту гив"
     },
     {
       "id": "306",
-      "name": "подходить",
-      "title": "to fit / to suit",
+      "name": "to fit / to suit",
+      "title": "подходить",
       "subscrb": "ту фит / ту сьют"
     },
     {
       "id": "307",
-      "name": "рисовать",
-      "title": "to draw",
+      "name": "to draw",
+      "title": "рисовать",
       "subscrb": "ту дро"
     },
     {
       "id": "308",
-      "name": "писать красками",
-      "title": "to paint",
+      "name": "to paint",
+      "title": "писать красками",
       "subscrb": "ту пэйнт"
     },
     {
       "id": "309",
-      "name": "прогуливаться",
-      "title": "to stroll / to take a walk",
+      "name": "to stroll / to take a walk",
+      "title": "прогуливаться",
       "subscrb": "ту строул / ту тэйк э уок"
     },
     {
       "id": "310",
-      "name": "работать",
-      "title": "to work",
+      "name": "to work",
+      "title": "работать",
       "subscrb": "ту уёрк"
     },
     {
       "id": "311",
-      "name": "учиться в институте",
-      "title": "to study at university / college",
+      "name": "to study at university / college",
+      "title": "учиться в институте",
       "subscrb": "ту стади эт юнивёрсити / калидж"
     },
     {
       "id": "312",
-      "name": "учиться в школе",
-      "title": "to go to school / to study at school",
+      "name": "to go to school / to study at school",
+      "title": "учиться в школе",
       "subscrb": "ту гоу ту скул / ту стади эт скул"
     },
     {
       "id": "313",
-      "name": "отказываться",
-      "title": "to refuse",
+      "name": "to refuse",
+      "title": "отказываться",
       "subscrb": "ту рифьюз"
     },
     {
       "id": "314",
-      "name": "шутить",
-      "title": "to joke",
+      "name": "to joke",
+      "title": "шутить",
       "subscrb": "ту джоук"
     },
     {
       "id": "315",
-      "name": "целовать",
-      "title": "to kiss",
+      "name": "to kiss",
+      "title": "целовать",
       "subscrb": "ту кис"
     },
     {
       "id": "316",
-      "name": "строить",
-      "title": "to build",
+      "name": "to build",
+      "title": "строить",
       "subscrb": "ту билд"
     },
     {
       "id": "317",
-      "name": "не хватает",
-      "title": "to lack / missing",
+      "name": "to lack / missing",
+      "title": "не хватает",
       "subscrb": "ту лэк / миссинг"
     },
     {
       "id": "318",
-      "name": "раздражать",
-      "title": "to annoy / irritate",
+      "name": "to annoy / irritate",
+      "title": "раздражать",
       "subscrb": "ту эной / иритэйт"
     },
     {
       "id": "319",
-      "name": "раздражаться",
-      "title": "to get annoyed / to get irritated",
+      "name": "to get annoyed / to get irritated",
+      "title": "раздражаться",
       "subscrb": "ту гет энойд / гет иритэйтэд"
     },
     {
       "id": "320",
-      "name": "интересовать",
-      "title": "to interest",
+      "name": "to interest",
+      "title": "интересовать",
       "subscrb": "ту интрёст"
     },
     {
       "id": "321",
-      "name": "интересоваться",
-      "title": "to be interested in",
+      "name": "to be interested in",
+      "title": "интересоваться",
       "subscrb": "ту би интрёстэд ин"
     },
     {
       "id": "322",
-      "name": "нервировать",
-      "title": "to irritate / to unnerve",
+      "name": "to irritate / to unnerve",
+      "title": "нервировать",
       "subscrb": "ту иритэйт / аннёрв"
     },
     {
       "id": "323",
-      "name": "фильм",
-      "title": "movie / film",
+      "name": "movie / film",
+      "title": "фильм",
       "subscrb": "муви / филм"
     },
     {
       "id": "324",
-      "name": "сейчас",
-      "title": "now",
+      "name": "now",
+      "title": "сейчас",
       "subscrb": "нау"
     },
     {
       "id": "325",
-      "name": "строить (повтор)",
-      "title": "to build",
+      "name": "to build",
+      "title": "строить (повтор)",
       "subscrb": "ту билд"
     },
     {
       "id": "326",
-      "name": "телевизор",
-      "title": "TV / television",
+      "name": "TV / television",
+      "title": "телевизор",
       "subscrb": "ти ви / тэлэвижн"
     },
     {
       "id": "327",
-      "name": "петь",
-      "title": "to sing",
+      "name": "to sing",
+      "title": "петь",
       "subscrb": "ту синг"
     },
     {
       "id": "328",
-      "name": "делать",
-      "title": "to do / to make",
+      "name": "to do / to make",
+      "title": "делать",
       "subscrb": "ту ду / ту мэйк"
     },
     {
       "id": "329",
-      "name": "спички",
-      "title": "matches",
+      "name": "matches",
+      "title": "спички",
       "subscrb": "мэтчез"
     },
     {
       "id": "330",
-      "name": "слова",
-      "title": "words",
+      "name": "words",
+      "title": "слова",
       "subscrb": "уёрдз"
     },
     {
       "id": "331",
-      "name": "слово",
-      "title": "word",
+      "name": "word",
+      "title": "слово",
       "subscrb": "уёрд"
     },
     {
       "id": "332",
-      "name": "искать",
-      "title": "to search / to look for",
+      "name": "to search / to look for",
+      "title": "искать",
       "subscrb": "ту сёрч / ту лук фор"
     },
     {
       "id": "333",
-      "name": "слушать песню",
-      "title": "to listen to a song",
+      "name": "to listen to a song",
+      "title": "слушать песню",
       "subscrb": "ту лисэн ту э сонг"
     },
     {
       "id": "334",
-      "name": "подходить для роли",
-      "title": "to fit the role",
+      "name": "to fit the role",
+      "title": "подходить для роли",
       "subscrb": "ту фит зэ роул"
     },
     {
       "id": "335",
-      "name": "подходить к столу",
-      "title": "to come to the table",
+      "name": "to come to the table",
+      "title": "подходить к столу",
       "subscrb": "ту кам ту зэ тэйбл"
     },
     {
       "id": "336",
-      "name": "шутить над ситуацией",
-      "title": "to joke about the situation",
+      "name": "to joke about the situation",
+      "title": "шутить над ситуацией",
       "subscrb": "ту джоук эбаут зэ ситьюэйшн"
     },
     {
       "id": "337",
-      "name": "всегда",
-      "title": "always",
+      "name": "always",
+      "title": "всегда",
       "subscrb": "олвэйз"
     },
     {
       "id": "338",
-      "name": "ходить",
-      "title": "to walk / to go",
+      "name": "to walk / to go",
+      "title": "ходить",
       "subscrb": "ту уок / ту гоу"
     },
     {
       "id": "339",
-      "name": "ездить",
-      "title": "to ride / to travel",
+      "name": "to ride / to travel",
+      "title": "ездить",
       "subscrb": "ту райд / ту трэвэл"
     },
     {
       "id": "340",
-      "name": "танцевать",
-      "title": "to dance",
+      "name": "to dance",
+      "title": "танцевать",
       "subscrb": "ту дэнс"
     },
     {
       "id": "341",
-      "name": "учиться",
-      "title": "to study",
+      "name": "to study",
+      "title": "учиться",
       "subscrb": "ту стади"
     },
     {
       "id": "342",
-      "name": "аозить (видимо «позить»)",
-      "title": "to carry / to transport",
+      "name": "to carry / to transport",
+      "title": "аозить (видимо «позить»)",
       "subscrb": "ту кэри / ту транспОрт"
     },
     {
       "id": "343",
-      "name": "просить",
-      "title": "to ask",
+      "name": "to ask",
+      "title": "просить",
       "subscrb": "ту аск"
     },
     {
       "id": "344",
-      "name": "кафе",
-      "title": "café / coffee shop",
+      "name": "café / coffee shop",
+      "title": "кафе",
       "subscrb": "кафэй / кофишоп"
     },
     {
       "id": "345",
-      "name": "кино",
-      "title": "cinema / movie theater",
+      "name": "cinema / movie theater",
+      "title": "кино",
       "subscrb": "синема / муви сиятэр"
     },
     {
       "id": "346",
-      "name": "карты",
-      "title": "cards",
+      "name": "cards",
+      "title": "карты",
       "subscrb": "кардз"
     },
     {
       "id": "347",
-      "name": "бассейн",
-      "title": "swimming pool",
+      "name": "swimming pool",
+      "title": "бассейн",
       "subscrb": "свимминг пул"
     },
     {
       "id": "348",
-      "name": "тенис",
-      "title": "tennis",
+      "name": "tennis",
+      "title": "тенис",
       "subscrb": "тЭнис"
     },
     {
       "id": "349",
-      "name": "велосипед",
-      "title": "bicycle / bike",
+      "name": "bicycle / bike",
+      "title": "велосипед",
       "subscrb": "байсикл / байк"
     },
     {
       "id": "350",
-      "name": "прогулка",
-      "title": "walk / stroll",
+      "name": "walk / stroll",
+      "title": "прогулка",
       "subscrb": "уок / строул"
     },
     {
       "id": "351",
-      "name": "музыка",
-      "title": "music",
+      "name": "music",
+      "title": "музыка",
       "subscrb": "мьюзик"
     },
     {
       "id": "352",
-      "name": "чужой",
-      "title": "stranger / alien",
+      "name": "stranger / alien",
+      "title": "чужой",
       "subscrb": "стрэнджэр / эйлиэн"
     },
     {
       "id": "353",
-      "name": "иностранный",
-      "title": "foreign",
+      "name": "foreign",
+      "title": "иностранный",
       "subscrb": "форин"
     },
     {
       "id": "354",
-      "name": "путешествовать",
-      "title": "to travel",
+      "name": "to travel",
+      "title": "путешествовать",
       "subscrb": "ту трэвэл"
     },
     {
       "id": "355",
-      "name": "аниматься спортом",
-      "title": "to do sports",
+      "name": "to do sports",
+      "title": "аниматься спортом",
       "subscrb": "ту ду спортс"
     },
     {
       "id": "356",
-      "name": "певец",
-      "title": "singer",
+      "name": "singer",
+      "title": "певец",
       "subscrb": "синер"
     },
     {
       "id": "357",
-      "name": "художник",
-      "title": "artist",
+      "name": "artist",
+      "title": "художник",
       "subscrb": "а́ртист"
     },
     {
       "id": "358",
-      "name": "танцор",
-      "title": "dancer",
+      "name": "dancer",
+      "title": "танцор",
       "subscrb": "дэ́нсер"
     },
     {
       "id": "359",
-      "name": "музыкант",
-      "title": "musician",
+      "name": "musician",
+      "title": "музыкант",
       "subscrb": "мьюзиши́н"
     },
     {
       "id": "360",
-      "name": "лечить",
-      "title": "to treat",
+      "name": "to treat",
+      "title": "лечить",
       "subscrb": "ту три́т"
     },
     {
       "id": "361",
-      "name": "читать лекции",
-      "title": "to give lectures",
+      "name": "to give lectures",
+      "title": "читать лекции",
       "subscrb": "ту гив ле́кчерз"
     },
     {
       "id": "362",
-      "name": "певица",
-      "title": "female singer",
+      "name": "female singer",
+      "title": "певица",
       "subscrb": "фи́мейл си́нер"
     },
     {
       "id": "363",
-      "name": "художница",
-      "title": "female artist",
+      "name": "female artist",
+      "title": "художница",
       "subscrb": "фи́мейл а́ртист"
     },
     {
       "id": "364",
-      "name": "танцовщица",
-      "title": "female dancer",
+      "name": "female dancer",
+      "title": "танцовщица",
       "subscrb": "фи́мейл дэ́нсер"
     },
     {
       "id": "365",
-      "name": "фотограф",
-      "title": "photographer",
+      "name": "photographer",
+      "title": "фотограф",
       "subscrb": "фото́графер"
     },
     {
       "id": "366",
-      "name": "проектировать",
-      "title": "to design",
+      "name": "to design",
+      "title": "проектировать",
       "subscrb": "ту дизáйн"
     },
     {
       "id": "367",
-      "name": "время",
-      "title": "time",
+      "name": "time",
+      "title": "время",
       "subscrb": "тайм"
     },
     {
       "id": "368",
-      "name": "работа",
-      "title": "job",
+      "name": "job",
+      "title": "работа",
       "subscrb": "джаб"
     },
     {
       "id": "369",
-      "name": "свободный",
-      "title": "free",
+      "name": "free",
+      "title": "свободный",
       "subscrb": "фри"
     },
     {
       "id": "370",
-      "name": "еще",
-      "title": "more",
+      "name": "more",
+      "title": "еще",
       "subscrb": "мор"
     },
     {
       "id": "371",
-      "name": "литература",
-      "title": "literature",
+      "name": "literature",
+      "title": "литература",
       "subscrb": "ли́тэратчур"
     },
     {
       "id": "372",
-      "name": "спортивный",
-      "title": "athletic / sports",
+      "name": "athletic / sports",
+      "title": "спортивный",
       "subscrb": "эсле́тик / спортс"
     },
     {
       "id": "373",
-      "name": "всегда",
-      "title": "always",
+      "name": "always",
+      "title": "всегда",
       "subscrb": "о́лвэйз"
     },
     {
       "id": "374",
-      "name": "свой",
-      "title": "own",
+      "name": "own",
+      "title": "свой",
       "subscrb": "оун"
     },
     {
       "id": "375",
-      "name": "подруга",
-      "title": "(female) friend",
+      "name": "(female) friend",
+      "title": "подруга",
       "subscrb": "фрэнд"
     },
     {
       "id": "376",
-      "name": "приятельница",
-      "title": "(female) buddy",
+      "name": "(female) buddy",
+      "title": "приятельница",
       "subscrb": "ба́ди"
     },
     {
       "id": "377",
-      "name": "не хватает",
-      "title": "not enough / lacking",
+      "name": "not enough / lacking",
+      "title": "не хватает",
       "subscrb": "нот ина́ф / ла́кинг"
     },
     {
       "id": "378",
-      "name": "лететь",
-      "title": "to fly",
+      "name": "to fly",
+      "title": "лететь",
       "subscrb": "ту флай"
     },
     {
       "id": "379",
-      "name": "нравится",
-      "title": "to like",
+      "name": "to like",
+      "title": "нравится",
       "subscrb": "ту лайк"
     },
     {
       "id": "380",
-      "name": "любить",
-      "title": "to love",
+      "name": "to love",
+      "title": "любить",
       "subscrb": "ту лав"
     },
     {
       "id": "381",
-      "name": "просить",
-      "title": "to ask",
+      "name": "to ask",
+      "title": "просить",
       "subscrb": "ту аск"
     },
     {
       "id": "382",
-      "name": "только",
-      "title": "only",
+      "name": "only",
+      "title": "только",
       "subscrb": "о́унли"
     },
     {
       "id": "383",
-      "name": "возить",
-      "title": "to transport / to carry",
+      "name": "to transport / to carry",
+      "title": "возить",
       "subscrb": "ту трэ́нспорт / ту кэ́ри"
     },
     {
       "id": "384",
-      "name": "никакой",
-      "title": "none / no",
+      "name": "none / no",
+      "title": "никакой",
       "subscrb": "нан / ноу"
     },
     {
       "id": "385",
-      "name": "не один",
-      "title": "not one / not alone",
+      "name": "not one / not alone",
+      "title": "не один",
       "subscrb": "нат ван / нат эло́ун"
     },
     {
       "id": "386",
-      "name": "продовольственный магазин",
-      "title": "grocery store",
+      "name": "grocery store",
+      "title": "продовольственный магазин",
       "subscrb": "гро́усери стор"
     },
     {
       "id": "387",
-      "name": "банан",
-      "title": "banana",
+      "name": "banana",
+      "title": "банан",
       "subscrb": "бэна́на"
     },
     {
       "id": "388",
-      "name": "творожный сыр",
-      "title": "cream cheese",
+      "name": "cream cheese",
+      "title": "творожный сыр",
       "subscrb": "кри́м чийз"
     },
     {
       "id": "389",
-      "name": "булка",
-      "title": "bun / roll",
+      "name": "bun / roll",
+      "title": "булка",
       "subscrb": "бан / роул"
     },
     {
       "id": "390",
-      "name": "хлеб",
-      "title": "bread",
+      "name": "bread",
+      "title": "хлеб",
       "subscrb": "брэд"
     },
     {
       "id": "391",
-      "name": "пирожное",
-      "title": "pastry / cake",
+      "name": "pastry / cake",
+      "title": "пирожное",
       "subscrb": "пе́йстри / кейк"
     },
     {
       "id": "392",
-      "name": "сахар",
-      "title": "sugar",
+      "name": "sugar",
+      "title": "сахар",
       "subscrb": "шу́гэр"
     },
     {
       "id": "393",
-      "name": "конфетка",
-      "title": "candy",
+      "name": "candy",
+      "title": "конфетка",
       "subscrb": "кэ́нди"
     },
     {
       "id": "394",
-      "name": "шоколад",
-      "title": "chocolate",
+      "name": "chocolate",
+      "title": "шоколад",
       "subscrb": "чо́клет"
     },
     {
       "id": "395",
-      "name": "треска",
-      "title": "cod",
+      "name": "cod",
+      "title": "треска",
       "subscrb": "кад"
     },
     {
       "id": "396",
-      "name": "чай",
-      "title": "tea",
+      "name": "tea",
+      "title": "чай",
       "subscrb": "ти"
     },
     {
       "id": "397",
-      "name": "яблоко",
-      "title": "apple",
+      "name": "apple",
+      "title": "яблоко",
       "subscrb": "э́пл"
     },
     {
       "id": "398",
-      "name": "яйцо",
-      "title": "egg",
+      "name": "egg",
+      "title": "яйцо",
       "subscrb": "эг"
     },
     {
       "id": "399",
-      "name": "колбаса",
-      "title": "sausage",
+      "name": "sausage",
+      "title": "колбаса",
       "subscrb": "со́сидж"
     },
     {
       "id": "400",
-      "name": "коньяк",
-      "title": "cognac",
+      "name": "cognac",
+      "title": "коньяк",
       "subscrb": "ко́няк"
     },
     {
       "id": "401",
-      "name": "капуста",
-      "title": "cabbage",
+      "name": "cabbage",
+      "title": "капуста",
       "subscrb": "кэ́бидж"
     },
     {
       "id": "402",
-      "name": "консервы",
-      "title": "canned food",
+      "name": "canned food",
+      "title": "консервы",
       "subscrb": "кэнд фуд"
     },
     {
       "id": "403",
-      "name": "мороженое",
-      "title": "ice cream",
+      "name": "ice cream",
+      "title": "мороженое",
       "subscrb": "айс кри́м"
     },
     {
       "id": "404",
-      "name": "лосось",
-      "title": "salmon",
+      "name": "salmon",
+      "title": "лосось",
       "subscrb": "сэ́мэн"
     },
     {
       "id": "405",
-      "name": "макароны",
-      "title": "pasta",
+      "name": "pasta",
+      "title": "макароны",
       "subscrb": "па́ста"
     },
     {
       "id": "406",
-      "name": "масло",
-      "title": "butter",
+      "name": "butter",
+      "title": "масло",
       "subscrb": "ба́тэр"
     },
     {
       "id": "407",
-      "name": "мука",
-      "title": "flour",
+      "name": "flour",
+      "title": "мука",
       "subscrb": "фла́уэр"
     },
     {
       "id": "408",
-      "name": "мясо",
-      "title": "meat",
+      "name": "meat",
+      "title": "мясо",
       "subscrb": "мит"
     },
     {
       "id": "409",
-      "name": "молоко",
-      "title": "milk",
+      "name": "milk",
+      "title": "молоко",
       "subscrb": "милк"
     },
     {
       "id": "410",
-      "name": "огурец",
-      "title": "cucumber",
+      "name": "cucumber",
+      "title": "огурец",
       "subscrb": "кью́камбэр"
     },
     {
       "id": "411",
-      "name": "напиток",
-      "title": "drink / beverage",
+      "name": "drink / beverage",
+      "title": "напиток",
       "subscrb": "дринк / бэ́вридж"
     },
     {
       "id": "412",
-      "name": "растительное масло",
-      "title": "vegetable oil",
+      "name": "vegetable oil",
+      "title": "растительное масло",
       "subscrb": "ве́джетэбл о́йл"
     },
     {
       "id": "413",
-      "name": "сосиска",
-      "title": "frankfurter / hot dog",
+      "name": "frankfurter / hot dog",
+      "title": "сосиска",
       "subscrb": "фрэнкфёртер / хот дог"
     },
     {
       "id": "414",
-      "name": "пиво",
-      "title": "beer",
+      "name": "beer",
+      "title": "пиво",
       "subscrb": "бир"
     },
     {
       "id": "415",
-      "name": "помидор",
-      "title": "tomato",
+      "name": "tomato",
+      "title": "помидор",
       "subscrb": "томэ́йтоу"
     },
     {
       "id": "416",
-      "name": "апельсин",
-      "title": "orange",
+      "name": "orange",
+      "title": "апельсин",
       "subscrb": "о́риндж"
     },
     {
       "id": "417",
-      "name": "продукт",
-      "title": "product / item",
+      "name": "product / item",
+      "title": "продукт",
       "subscrb": "про́дакт / айтем"
     },
     {
       "id": "418",
-      "name": "рис",
-      "title": "rice",
+      "name": "rice",
+      "title": "рис",
       "subscrb": "райс"
     },
     {
       "id": "419",
-      "name": "салат",
-      "title": "salad",
+      "name": "salad",
+      "title": "салат",
       "subscrb": "сэ́лэд"
     },
     {
       "id": "420",
-      "name": "сардины",
-      "title": "sardines",
+      "name": "sardines",
+      "title": "сардины",
       "subscrb": "сарди́нз"
     },
     {
       "id": "421",
-      "name": "соль",
-      "title": "salt",
+      "name": "salt",
+      "title": "соль",
       "subscrb": "сольт"
     },
     {
       "id": "422",
-      "name": "ветчина",
-      "title": "ham",
+      "name": "ham",
+      "title": "ветчина",
       "subscrb": "хэм"
     },
     {
       "id": "423",
-      "name": "сок",
-      "title": "juice",
+      "name": "juice",
+      "title": "сок",
       "subscrb": "джус"
     },
     {
       "id": "424",
-      "name": "напиток",
-      "title": "drink / beverage",
+      "name": "drink / beverage",
+      "title": "напиток",
       "subscrb": "дринк / бэ́вридж"
     },
     {
       "id": "425",
-      "name": "селёдка",
-      "title": "herring",
+      "name": "herring",
+      "title": "селёдка",
       "subscrb": "хе́ринг"
     },
     {
       "id": "426",
-      "name": "сливки",
-      "title": "cream",
+      "name": "cream",
+      "title": "сливки",
       "subscrb": "кри́м"
     },
     {
       "id": "427",
-      "name": "клубника",
-      "title": "strawberry",
+      "name": "strawberry",
+      "title": "клубника",
       "subscrb": "стро́убэри"
     },
     {
       "id": "428",
-      "name": "вино",
-      "title": "wine",
+      "name": "wine",
+      "title": "вино",
       "subscrb": "уайн"
     },
     {
       "id": "429",
-      "name": "минеральная вода",
-      "title": "mineral water",
+      "name": "mineral water",
+      "title": "минеральная вода",
       "subscrb": "ми́нерал уо́тэр"
     },
     {
       "id": "430",
-      "name": "водка",
-      "title": "vodka",
+      "name": "vodka",
+      "title": "водка",
       "subscrb": "во́дка"
     },
     {
       "id": "431",
-      "name": "картофель",
-      "title": "potato",
+      "name": "potato",
+      "title": "картофель",
       "subscrb": "потэ́йтоу"
     },
     {
       "id": "432",
-      "name": "творожок",
-      "title": "soft curd",
+      "name": "soft curd",
+      "title": "творожок",
       "subscrb": "софт кёрд"
     },
     {
       "id": "433",
-      "name": "творог",
-      "title": "cottage cheese",
+      "name": "cottage cheese",
+      "title": "творог",
       "subscrb": "ко́тидж чийз"
     },
     {
       "id": "434",
-      "name": "сыр",
-      "title": "cheese",
+      "name": "cheese",
+      "title": "сыр",
       "subscrb": "чийз"
     },
     {
       "id": "435",
-      "name": "хлебобулочные изделия",
-      "title": "baked goods",
+      "name": "baked goods",
+      "title": "хлебобулочные изделия",
       "subscrb": "бейкт гудз"
     },
     {
       "id": "436",
-      "name": "мясо и копчёности",
-      "title": "meat and smoked products",
+      "name": "meat and smoked products",
+      "title": "мясо и копчёности",
       "subscrb": "мит энд смоукт про́дактс"
     },
     {
       "id": "437",
-      "name": "рыба",
-      "title": "fish",
+      "name": "fish",
+      "title": "рыба",
       "subscrb": "фиш"
     },
     {
       "id": "438",
-      "name": "молочные продукты",
-      "title": "dairy products",
+      "name": "dairy products",
+      "title": "молочные продукты",
       "subscrb": "дэ́ри про́дактс"
     },
     {
       "id": "439",
-      "name": "куриное яйцо",
-      "title": "chicken egg",
+      "name": "chicken egg",
+      "title": "куриное яйцо",
       "subscrb": "чи́кин эг"
     },
     {
       "id": "440",
-      "name": "куриные яйца",
-      "title": "chicken eggs",
+      "name": "chicken eggs",
+      "title": "куриные яйца",
       "subscrb": "чи́кин эгз"
     },
     {
       "id": "441",
-      "name": "сладости",
-      "title": "sweets / candies",
+      "name": "sweets / candies",
+      "title": "сладости",
       "subscrb": "свитс / кэ́ндиз"
     },
     {
       "id": "442",
-      "name": "безалкогольные напитки",
-      "title": "non-alcoholic drinks",
+      "name": "non-alcoholic drinks",
+      "title": "безалкогольные напитки",
       "subscrb": "нон-алкохо́лик дринкс"
     },
     {
       "id": "443",
-      "name": "алкогольные напитки",
-      "title": "alcoholic drinks",
+      "name": "alcoholic drinks",
+      "title": "алкогольные напитки",
       "subscrb": "алкохо́лик дринкс"
     },
     {
       "id": "444",
-      "name": "фрукты",
-      "title": "fruits",
+      "name": "fruits",
+      "title": "фрукты",
       "subscrb": "фру́тс"
     },
     {
       "id": "445",
-      "name": "овощи",
-      "title": "vegetables",
+      "name": "vegetables",
+      "title": "овощи",
       "subscrb": "ве́джетэблз"
     },
     {
       "id": "446",
-      "name": "бакалея",
-      "title": "groceries / dry goods",
+      "name": "groceries / dry goods",
+      "title": "бакалея",
       "subscrb": "гро́усериз / драй гудз"
     },
     {
       "id": "447",
-      "name": "посуда",
-      "title": "dishes / tableware",
+      "name": "dishes / tableware",
+      "title": "посуда",
       "subscrb": "ди́шиз / те́йблвэа"
     },
     {
       "id": "448",
-      "name": "вес",
-      "title": "weight",
+      "name": "weight",
+      "title": "вес",
       "subscrb": "уэйт"
     },
     {
       "id": "449",
-      "name": "деньги",
-      "title": "money",
+      "name": "money",
+      "title": "деньги",
       "subscrb": "ма́ни"
     },
     {
       "id": "450",
-      "name": "инструменты",
-      "title": "tools",
+      "name": "tools",
+      "title": "инструменты",
       "subscrb": "тулз"
     },
     {
       "id": "451",
-      "name": "сок яблочный",
-      "title": "apple juice",
+      "name": "apple juice",
+      "title": "сок яблочный",
       "subscrb": "э́пл джус"
     },
     {
       "id": "452",
-      "name": "сок томатный",
-      "title": "tomato juice",
+      "name": "tomato juice",
+      "title": "сок томатный",
       "subscrb": "томэ́йтоу джус"
     },
     {
       "id": "453",
-      "name": "сок клубничный",
-      "title": "strawberry juice",
+      "name": "strawberry juice",
+      "title": "сок клубничный",
       "subscrb": "стро́убэри джус"
     },
     {
       "id": "454",
-      "name": "сок апельсиновый",
-      "title": "orange juice",
+      "name": "orange juice",
+      "title": "сок апельсиновый",
       "subscrb": "о́риндж джус"
     },
     {
       "id": "455",
-      "name": "яблочное варенье",
-      "title": "apple jam",
+      "name": "apple jam",
+      "title": "яблочное варенье",
       "subscrb": "э́пл джэм"
     },
     {
       "id": "456",
-      "name": "малиновое варенье",
-      "title": "raspberry jam",
+      "name": "raspberry jam",
+      "title": "малиновое варенье",
       "subscrb": "рэ́збэри джэм"
     },
     {
       "id": "457",
-      "name": "возле",
-      "title": "near",
+      "name": "near",
+      "title": "возле",
       "subscrb": "нир"
     },
     {
       "id": "458",
-      "name": "покупать",
-      "title": "to buy",
+      "name": "to buy",
+      "title": "покупать",
       "subscrb": "ту бай"
     },
     {
       "id": "459",
-      "name": "купить",
-      "title": "to buy",
+      "name": "to buy",
+      "title": "купить",
       "subscrb": "ту бай"
     },
     {
       "id": "460",
-      "name": "один",
-      "title": "one",
+      "name": "one",
+      "title": "один",
       "subscrb": "уан"
     },
     {
       "id": "461",
-      "name": "два",
-      "title": "two",
+      "name": "two",
+      "title": "два",
       "subscrb": "ту"
     },
     {
       "id": "462",
-      "name": "три",
-      "title": "three",
+      "name": "three",
+      "title": "три",
       "subscrb": "сри"
     },
     {
       "id": "463",
-      "name": "четыре",
-      "title": "four",
+      "name": "four",
+      "title": "четыре",
       "subscrb": "фор"
     },
     {
       "id": "464",
-      "name": "пять",
-      "title": "five",
+      "name": "five",
+      "title": "пять",
       "subscrb": "файв"
     },
     {
       "id": "465",
-      "name": "шесть",
-      "title": "six",
+      "name": "six",
+      "title": "шесть",
       "subscrb": "сикс"
     },
     {
       "id": "466",
-      "name": "семь",
-      "title": "seven",
+      "name": "seven",
+      "title": "семь",
       "subscrb": "сэвэн"
     },
     {
       "id": "467",
-      "name": "восемь",
-      "title": "eight",
+      "name": "eight",
+      "title": "восемь",
       "subscrb": "эйт"
     },
     {
       "id": "468",
-      "name": "девять",
-      "title": "nine",
+      "name": "nine",
+      "title": "девять",
       "subscrb": "найн"
     },
     {
       "id": "469",
-      "name": "десять",
-      "title": "ten",
+      "name": "ten",
+      "title": "десять",
       "subscrb": "тен"
     },
     {
       "id": "470",
-      "name": "одиннадцать",
-      "title": "eleven",
+      "name": "eleven",
+      "title": "одиннадцать",
       "subscrb": "илэвэн"
     },
     {
       "id": "471",
-      "name": "двенадцать",
-      "title": "twelve",
+      "name": "twelve",
+      "title": "двенадцать",
       "subscrb": "твэлв"
     },
     {
       "id": "472",
-      "name": "тринадцать",
-      "title": "thirteen",
+      "name": "thirteen",
+      "title": "тринадцать",
       "subscrb": "сёртин"
     },
     {
       "id": "473",
-      "name": "четырнадцать",
-      "title": "fourteen",
+      "name": "fourteen",
+      "title": "четырнадцать",
       "subscrb": "фортин"
     },
     {
       "id": "474",
-      "name": "пятнадцать",
-      "title": "fifteen",
+      "name": "fifteen",
+      "title": "пятнадцать",
       "subscrb": "фифтин"
     },
     {
       "id": "475",
-      "name": "шестнадцать",
-      "title": "sixteen",
+      "name": "sixteen",
+      "title": "шестнадцать",
       "subscrb": "сикстин"
     },
     {
       "id": "476",
-      "name": "семнадцать",
-      "title": "seventeen",
+      "name": "seventeen",
+      "title": "семнадцать",
       "subscrb": "сэвэнтИн"
     },
     {
       "id": "477",
-      "name": "восемнадцать",
-      "title": "eighteen",
+      "name": "eighteen",
+      "title": "восемнадцать",
       "subscrb": "эйтИн"
     },
     {
       "id": "478",
-      "name": "девятнадцать",
-      "title": "nineteen",
+      "name": "nineteen",
+      "title": "девятнадцать",
       "subscrb": "найнтин"
     },
     {
       "id": "479",
-      "name": "двадцать",
-      "title": "twenty",
+      "name": "twenty",
+      "title": "двадцать",
       "subscrb": "твуЭнти"
     },
     {
       "id": "480",
-      "name": "двадцать один",
-      "title": "twenty-one",
+      "name": "twenty-one",
+      "title": "двадцать один",
       "subscrb": "твуэнти уан"
     },
     {
       "id": "481",
-      "name": "двадцать два",
-      "title": "twenty-two",
+      "name": "twenty-two",
+      "title": "двадцать два",
       "subscrb": "твуэнти ту"
     },
     {
       "id": "482",
-      "name": "тридцать",
-      "title": "thirty",
+      "name": "thirty",
+      "title": "тридцать",
       "subscrb": "сёрти"
     },
     {
       "id": "483",
-      "name": "тридцать один",
-      "title": "thirty-one",
+      "name": "thirty-one",
+      "title": "тридцать один",
       "subscrb": "сёрти уан"
     },
     {
       "id": "484",
-      "name": "тридцать два",
-      "title": "thirty-two",
+      "name": "thirty-two",
+      "title": "тридцать два",
       "subscrb": "сёрти ту"
     },
     {
       "id": "485",
-      "name": "сорок",
-      "title": "forty",
+      "name": "forty",
+      "title": "сорок",
       "subscrb": "форти"
     },
     {
       "id": "486",
-      "name": "сорок один",
-      "title": "forty-one",
+      "name": "forty-one",
+      "title": "сорок один",
       "subscrb": "форти уан"
     },
     {
       "id": "487",
-      "name": "сорок два",
-      "title": "forty-two",
+      "name": "forty-two",
+      "title": "сорок два",
       "subscrb": "форти ту"
     },
     {
       "id": "488",
-      "name": "пятьдесят",
-      "title": "fifty",
+      "name": "fifty",
+      "title": "пятьдесят",
       "subscrb": "фифти"
     },
     {
       "id": "489",
-      "name": "пятьдесят один",
-      "title": "fifty-one",
+      "name": "fifty-one",
+      "title": "пятьдесят один",
       "subscrb": "фифти уан"
     },
     {
       "id": "490",
-      "name": "пятьдесят два",
-      "title": "fifty-two",
+      "name": "fifty-two",
+      "title": "пятьдесят два",
       "subscrb": "фифти ту"
     },
     {
       "id": "491",
-      "name": "шестьдесят",
-      "title": "sixty",
+      "name": "sixty",
+      "title": "шестьдесят",
       "subscrb": "сиксти"
     },
     {
       "id": "492",
-      "name": "шестьдесят один",
-      "title": "sixty-one",
+      "name": "sixty-one",
+      "title": "шестьдесят один",
       "subscrb": "сиксти уан"
     },
     {
       "id": "493",
-      "name": "шестьдесят два",
-      "title": "sixty-two",
+      "name": "sixty-two",
+      "title": "шестьдесят два",
       "subscrb": "сиксти ту"
     },
     {
       "id": "494",
-      "name": "семьдесят",
-      "title": "seventy",
+      "name": "seventy",
+      "title": "семьдесят",
       "subscrb": "сэвэнти"
     },
     {
       "id": "495",
-      "name": "семьдесят один",
-      "title": "seventy-one",
+      "name": "seventy-one",
+      "title": "семьдесят один",
       "subscrb": "сэвэнти уан"
     },
     {
       "id": "496",
-      "name": "семьдесят два",
-      "title": "seventy-two",
+      "name": "seventy-two",
+      "title": "семьдесят два",
       "subscrb": "сэвэнти ту"
     },
     {
       "id": "497",
-      "name": "восемьдесят",
-      "title": "eighty",
+      "name": "eighty",
+      "title": "восемьдесят",
       "subscrb": "эйти"
     },
     {
       "id": "498",
-      "name": "восемьдесят один",
-      "title": "eighty-one",
+      "name": "eighty-one",
+      "title": "восемьдесят один",
       "subscrb": "эйти уан"
     },
     {
       "id": "499",
-      "name": "восемьдесят два",
-      "title": "eighty-two",
+      "name": "eighty-two",
+      "title": "восемьдесят два",
       "subscrb": "эйти ту"
     },
     {
       "id": "500",
-      "name": "девяносто",
-      "title": "ninety",
+      "name": "ninety",
+      "title": "девяносто",
       "subscrb": "найнти"
     },
     {
       "id": "501",
-      "name": "девяносто один",
-      "title": "ninety-one",
+      "name": "ninety-one",
+      "title": "девяносто один",
       "subscrb": "найнти уан"
     },
     {
       "id": "502",
-      "name": "девяносто два",
-      "title": "ninety-two",
+      "name": "ninety-two",
+      "title": "девяносто два",
       "subscrb": "найнти ту"
     },
     {
       "id": "503",
-      "name": "сто",
-      "title": "one hundred",
+      "name": "one hundred",
+      "title": "сто",
       "subscrb": "уан хандред"
     },
     {
       "id": "504",
-      "name": "двести",
-      "title": "two hundred",
+      "name": "two hundred",
+      "title": "двести",
       "subscrb": "ту хандред"
     },
     {
       "id": "505",
-      "name": "триста",
-      "title": "three hundred",
+      "name": "three hundred",
+      "title": "триста",
       "subscrb": "сри хандред"
     },
     {
       "id": "506",
-      "name": "четыреста",
-      "title": "four hundred",
+      "name": "four hundred",
+      "title": "четыреста",
       "subscrb": "фор хандред"
     },
     {
       "id": "507",
-      "name": "пятьсот",
-      "title": "five hundred",
+      "name": "five hundred",
+      "title": "пятьсот",
       "subscrb": "файв хандред"
     },
     {
       "id": "508",
-      "name": "шестьсот",
-      "title": "six hundred",
+      "name": "six hundred",
+      "title": "шестьсот",
       "subscrb": "сикс хандред"
     },
     {
       "id": "509",
-      "name": "семьсот",
-      "title": "seven hundred",
+      "name": "seven hundred",
+      "title": "семьсот",
       "subscrb": "сэвэн хандред"
     },
     {
       "id": "510",
-      "name": "восемьсот",
-      "title": "eight hundred",
+      "name": "eight hundred",
+      "title": "восемьсот",
       "subscrb": "эйт хандред"
     },
     {
       "id": "511",
-      "name": "девятьсот",
-      "title": "nine hundred",
+      "name": "nine hundred",
+      "title": "девятьсот",
       "subscrb": "найн хандред"
     },
     {
       "id": "512",
-      "name": "тысяча",
-      "title": "one thousand",
+      "name": "one thousand",
+      "title": "тысяча",
       "subscrb": "уан сАузэнд"
     },
     {
       "id": "513",
-      "name": "сто девятнадцать",
-      "title": "one hundred nineteen",
+      "name": "one hundred nineteen",
+      "title": "сто девятнадцать",
       "subscrb": "уан хандред найнтин"
     },
     {
       "id": "514",
-      "name": "двести тридцать пять",
-      "title": "two hundred thirty-five",
+      "name": "two hundred thirty-five",
+      "title": "двести тридцать пять",
       "subscrb": "ту хандред сёрти файв"
     },
     {
       "id": "515",
-      "name": "триста пятьдесят четыре",
-      "title": "three hundred fifty-four",
+      "name": "three hundred fifty-four",
+      "title": "триста пятьдесят четыре",
       "subscrb": "сри хандред фифти фор"
     },
     {
       "id": "516",
-      "name": "четыреста пятьдесят семь",
-      "title": "four hundred fifty-seven",
+      "name": "four hundred fifty-seven",
+      "title": "четыреста пятьдесят семь",
       "subscrb": "фор хандред фифти сэвэн"
     },
     {
       "id": "517",
-      "name": "пятьсот шестьдесят восемь",
-      "title": "five hundred sixty-eight",
+      "name": "five hundred sixty-eight",
+      "title": "пятьсот шестьдесят восемь",
       "subscrb": "файв хандред сиксти эйт"
     },
     {
       "id": "518",
-      "name": "шестьсот семьдесят девять",
-      "title": "six hundred seventy-nine",
+      "name": "six hundred seventy-nine",
+      "title": "шестьсот семьдесят девять",
       "subscrb": "сикс хандред сэвэнти найн"
     },
     {
       "id": "519",
-      "name": "семьсот восемьдесят один",
-      "title": "seven hundred eighty-one",
+      "name": "seven hundred eighty-one",
+      "title": "семьсот восемьдесят один",
       "subscrb": "сэвэн хандред эйти уан"
     },
     {
       "id": "520",
-      "name": "восемьсот девяносто два",
-      "title": "eight hundred ninety-two",
+      "name": "eight hundred ninety-two",
+      "title": "восемьсот девяносто два",
       "subscrb": "эйт хандред найнти ту"
     },
     {
       "id": "521",
-      "name": "девятьсот семнадцать",
-      "title": "nine hundred seventeen",
+      "name": "nine hundred seventeen",
+      "title": "девятьсот семнадцать",
       "subscrb": "найн хандред сэвэнтИн"
     },
     {
       "id": "522",
-      "name": "плюс",
-      "title": "plus",
+      "name": "plus",
+      "title": "плюс",
       "subscrb": "плас"
     },
     {
       "id": "523",
-      "name": "равно",
-      "title": "equals",
+      "name": "equals",
+      "title": "равно",
       "subscrb": "иквэлз"
     },
     {
       "id": "524",
-      "name": "сколько вам лет",
-      "title": "how old are you",
+      "name": "how old are you",
+      "title": "сколько вам лет",
       "subscrb": "хау оулд ар ю"
     },
     {
       "id": "525",
-      "name": "сколько тебе лет",
-      "title": "how old are you",
+      "name": "how old are you",
+      "title": "сколько тебе лет",
       "subscrb": "хау оулд ар ю"
     },
     {
       "id": "526",
-      "name": "сколько лет пану новаку",
-      "title": "how old is Mr. Novak",
+      "name": "how old is Mr. Novak",
+      "title": "сколько лет пану новаку",
       "subscrb": "хау оулд из мистер новак"
     },
     {
       "id": "527",
-      "name": "неожиданно",
-      "title": "suddenly",
+      "name": "suddenly",
+      "title": "неожиданно",
       "subscrb": "сАдэнли"
     },
     {
       "id": "528",
-      "name": "это у него было",
-      "title": "he had it",
+      "name": "he had it",
+      "title": "это у него было",
       "subscrb": "хи хэд ит"
     },
     {
       "id": "529",
-      "name": "корзина",
-      "title": "basket",
+      "name": "basket",
+      "title": "корзина",
       "subscrb": "баскит"
     },
     {
       "id": "530",
-      "name": "сумка",
-      "title": "bag",
+      "name": "bag",
+      "title": "сумка",
       "subscrb": "бэг"
     },
     {
       "id": "531",
-      "name": "денежная единица",
-      "title": "currency",
+      "name": "currency",
+      "title": "денежная единица",
       "subscrb": "кАрэнси"
     },
     {
       "id": "532",
-      "name": "сахар",
-      "title": "sugar",
+      "name": "sugar",
+      "title": "сахар",
       "subscrb": "шугар"
     },
     {
       "id": "533",
-      "name": "стоимость",
-      "title": "cost",
+      "name": "cost",
+      "title": "стоимость",
       "subscrb": "кост"
     },
     {
       "id": "534",
-      "name": "покупки",
-      "title": "shopping",
+      "name": "shopping",
+      "title": "покупки",
       "subscrb": "шопинг"
     },
     {
       "id": "535",
-      "name": "стеклянная банка",
-      "title": "glass jar",
+      "name": "glass jar",
+      "title": "стеклянная банка",
       "subscrb": "глас джар"
     },
     {
       "id": "536",
-      "name": "пачки",
-      "title": "packs",
+      "name": "packs",
+      "title": "пачки",
       "subscrb": "пэкс"
     },
     {
       "id": "537",
-      "name": "посылка",
-      "title": "package",
+      "name": "package",
+      "title": "посылка",
       "subscrb": "пЭкидж"
     },
     {
       "id": "538",
-      "name": "металлическая банка",
-      "title": "can",
+      "name": "can",
+      "title": "металлическая банка",
       "subscrb": "кэн"
     },
     {
       "id": "539",
-      "name": "консервная банка",
-      "title": "tin can",
+      "name": "tin can",
+      "title": "консервная банка",
       "subscrb": "тин кэн"
     },
     {
       "id": "540",
-      "name": "кубик",
-      "title": "cube",
+      "name": "cube",
+      "title": "кубик",
       "subscrb": "кьюб"
     },
     {
       "id": "541",
-      "name": "коробка",
-      "title": "box",
+      "name": "box",
+      "title": "коробка",
       "subscrb": "бокс"
     },
     {
       "id": "542",
-      "name": "бутылка",
-      "title": "bottle",
+      "name": "bottle",
+      "title": "бутылка",
       "subscrb": "ботл"
     },
     {
       "id": "543",
-      "name": "ёмкость",
-      "title": "container",
+      "name": "container",
+      "title": "ёмкость",
       "subscrb": "контЭйнер"
     },
     {
       "id": "544",
-      "name": "упаковка тетрапак",
-      "title": "carton",
+      "name": "carton",
+      "title": "упаковка тетрапак",
       "subscrb": "картн"
     },
     {
       "id": "545",
-      "name": "буханка",
-      "title": "loaf",
+      "name": "loaf",
+      "title": "буханка",
       "subscrb": "лоуф"
     },
     {
       "id": "546",
-      "name": "головка",
-      "title": "head",
+      "name": "head",
+      "title": "головка",
       "subscrb": "хэд"
     },
     {
       "id": "547",
-      "name": "килограмм",
-      "title": "kilogram",
+      "name": "kilogram",
+      "title": "килограмм",
       "subscrb": "килограмм"
     },
     {
       "id": "548",
-      "name": "ломать хлеба",
-      "title": "to break bread",
+      "name": "to break bread",
+      "title": "ломать хлеба",
       "subscrb": "ту брейк брэд"
     },
     {
       "id": "549",
-      "name": "хлеб",
-      "title": "bread",
+      "name": "bread",
+      "title": "хлеб",
       "subscrb": "брэд"
     },
     {
       "id": "550",
-      "name": "кусочек",
-      "title": "piece",
+      "name": "piece",
+      "title": "кусочек",
       "subscrb": "пис"
     },
     {
       "id": "551",
-      "name": "ломтик",
-      "title": "slice",
+      "name": "slice",
+      "title": "ломтик",
       "subscrb": "слайс"
     },
     {
       "id": "552",
-      "name": "бумажный пакет",
-      "title": "paper bag",
+      "name": "paper bag",
+      "title": "бумажный пакет",
       "subscrb": "пейпер бэг"
     },
     {
       "id": "553",
-      "name": "порция",
-      "title": "portion",
+      "name": "portion",
+      "title": "порция",
       "subscrb": "поршн"
     },
     {
       "id": "554",
-      "name": "пойти",
-      "title": "to go",
+      "name": "to go",
+      "title": "пойти",
       "subscrb": "ту гоу"
     },
     {
       "id": "555",
-      "name": "дойти",
-      "title": "to reach",
+      "name": "to reach",
+      "title": "дойти",
       "subscrb": "ту рич"
     },
     {
       "id": "556",
-      "name": "отойди",
-      "title": "step away",
+      "name": "step away",
+      "title": "отойди",
       "subscrb": "степ эуэй"
     },
     {
       "id": "557",
-      "name": "подойти",
-      "title": "come closer",
+      "name": "come closer",
+      "title": "подойти",
       "subscrb": "кам клоусэр"
     },
     {
       "id": "558",
-      "name": "прийти",
-      "title": "to come",
+      "name": "to come",
+      "title": "прийти",
       "subscrb": "ту кам"
     },
     {
       "id": "559",
-      "name": "войти",
-      "title": "to enter",
+      "name": "to enter",
+      "title": "войти",
       "subscrb": "ту энтэр"
     },
     {
       "id": "560",
-      "name": "выйти",
-      "title": "to exit",
+      "name": "to exit",
+      "title": "выйти",
       "subscrb": "ту экзит"
     },
     {
       "id": "561",
-      "name": "зайти",
-      "title": "to drop by",
+      "name": "to drop by",
+      "title": "зайти",
       "subscrb": "ту дроп бай"
     },
     {
       "id": "562",
-      "name": "обычно",
-      "title": "usually",
+      "name": "usually",
+      "title": "обычно",
       "subscrb": "южуали"
     },
     {
       "id": "563",
-      "name": "заканчивать работу",
-      "title": "finish work",
+      "name": "finish work",
+      "title": "заканчивать работу",
       "subscrb": "финиш уорк"
     },
     {
       "id": "564",
-      "name": "идти за покупками",
-      "title": "go shopping",
+      "name": "go shopping",
+      "title": "идти за покупками",
       "subscrb": "гоу шоппинг"
     },
     {
       "id": "565",
-      "name": "у него дежурство",
-      "title": "he is on duty",
+      "name": "he is on duty",
+      "title": "у него дежурство",
       "subscrb": "хи из он дьюти"
     },
     {
       "id": "566",
-      "name": "шесть бутылок вместо одной",
-      "title": "six bottles instead of one",
+      "name": "six bottles instead of one",
+      "title": "шесть бутылок вместо одной",
       "subscrb": "сикс батлз инстэд ов уан"
     },
     {
       "id": "567",
-      "name": "находиться недалеко от её работы",
-      "title": "be near her work",
+      "name": "be near her work",
+      "title": "находиться недалеко от её работы",
       "subscrb": "би ниа хёр уорк"
     },
     {
       "id": "568",
-      "name": "здесь есть всё",
-      "title": "everything is here",
+      "name": "everything is here",
+      "title": "здесь есть всё",
       "subscrb": "эврисинг из хиа"
     },
     {
       "id": "569",
-      "name": "идти вдоль полок",
-      "title": "walk along the shelves",
+      "name": "walk along the shelves",
+      "title": "идти вдоль полок",
       "subscrb": "уок элон(г) зе шелвз"
     },
     {
       "id": "570",
-      "name": "тяжёлая сумка",
-      "title": "heavy bag",
+      "name": "heavy bag",
+      "title": "тяжёлая сумка",
       "subscrb": "хэви бэг"
     },
     {
       "id": "571",
-      "name": "терпеть",
-      "title": "tolerate",
+      "name": "tolerate",
+      "title": "терпеть",
       "subscrb": "толэрэйт"
     },
     {
       "id": "572",
-      "name": "странный",
-      "title": "strange",
+      "name": "strange",
+      "title": "странный",
       "subscrb": "стрейнж"
     },
     {
       "id": "573",
-      "name": "другой",
-      "title": "other",
+      "name": "other",
+      "title": "другой",
       "subscrb": "азэр"
     },
     {
       "id": "574",
-      "name": "кончить",
-      "title": "finish",
+      "name": "finish",
+      "title": "кончить",
       "subscrb": "финиш"
     },
     {
       "id": "575",
-      "name": "например",
-      "title": "for example",
+      "name": "for example",
+      "title": "например",
       "subscrb": "фор игзампл"
     },
     {
       "id": "576",
-      "name": "пусть",
-      "title": "let",
+      "name": "let",
+      "title": "пусть",
       "subscrb": "лет"
     },
     {
       "id": "577",
-      "name": "который",
-      "title": "which",
+      "name": "which",
+      "title": "который",
       "subscrb": "уич"
     },
     {
       "id": "578",
-      "name": "которая",
-      "title": "which (female)",
+      "name": "which (female)",
+      "title": "которая",
       "subscrb": "уич"
     },
     {
       "id": "579",
-      "name": "которое",
-      "title": "which (neutral)",
+      "name": "which (neutral)",
+      "title": "которое",
       "subscrb": "уич"
     },
     {
       "id": "580",
-      "name": "недалеко",
-      "title": "nearby",
+      "name": "nearby",
+      "title": "недалеко",
       "subscrb": "нирбай"
     },
     {
       "id": "581",
-      "name": "попросить",
-      "title": "ask",
+      "name": "ask",
+      "title": "попросить",
       "subscrb": "аск"
     },
     {
       "id": "582",
-      "name": "полка",
-      "title": "shelf",
+      "name": "shelf",
+      "title": "полка",
       "subscrb": "шелф"
     },
     {
       "id": "583",
-      "name": "вещь",
-      "title": "thing",
+      "name": "thing",
+      "title": "вещь",
       "subscrb": "синг"
     },
     {
       "id": "584",
-      "name": "сам",
-      "title": "myself / himself",
+      "name": "myself / himself",
+      "title": "сам",
       "subscrb": "майсэлф / химсэлф"
     },
     {
       "id": "585",
-      "name": "один",
-      "title": "alone / one",
+      "name": "alone / one",
+      "title": "один",
       "subscrb": "элоун / уан"
     },
     {
       "id": "586",
-      "name": "звонить",
-      "title": "call",
+      "name": "call",
+      "title": "звонить",
       "subscrb": "кол"
     },
     {
       "id": "587",
-      "name": "нужно",
-      "title": "need to",
+      "name": "need to",
+      "title": "нужно",
       "subscrb": "нид ту"
     },
     {
       "id": "588",
-      "name": "здесь",
-      "title": "here",
+      "name": "here",
+      "title": "здесь",
       "subscrb": "хиa"
     },
     {
       "id": "589",
-      "name": "следовательно",
-      "title": "therefore",
+      "name": "therefore",
+      "title": "следовательно",
       "subscrb": "зэафор"
     },
     {
       "id": "590",
-      "name": "наконец",
-      "title": "finally",
+      "name": "finally",
+      "title": "наконец",
       "subscrb": "файнэли"
     },
     {
       "id": "591",
-      "name": "вдоль",
-      "title": "along",
+      "name": "along",
+      "title": "вдоль",
       "subscrb": "элон(г)"
     },
     {
       "id": "592",
-      "name": "выбирать",
-      "title": "choose",
+      "name": "choose",
+      "title": "выбирать",
       "subscrb": "чуз"
     },
     {
       "id": "593",
-      "name": "шоколад",
-      "title": "chocolate",
+      "name": "chocolate",
+      "title": "шоколад",
       "subscrb": "чоклит"
     },
     {
       "id": "594",
-      "name": "треска",
-      "title": "cod",
+      "name": "cod",
+      "title": "треска",
       "subscrb": "кад"
     },
     {
       "id": "595",
-      "name": "головка сыра",
-      "title": "head of cheese",
+      "name": "head of cheese",
+      "title": "головка сыра",
       "subscrb": "хэд ов чиз"
     },
     {
       "id": "596",
-      "name": "килограмм",
-      "title": "kilogram",
+      "name": "kilogram",
+      "title": "килограмм",
       "subscrb": "килограмм"
     },
     {
       "id": "597",
-      "name": "стоить",
-      "title": "cost",
+      "name": "cost",
+      "title": "стоить",
       "subscrb": "кост"
     },
     {
       "id": "598",
-      "name": "сколько стоит",
-      "title": "how much does it cost",
+      "name": "how much does it cost",
+      "title": "сколько стоит",
       "subscrb": "хау мач даз ит кост"
     },
     {
       "id": "599",
-      "name": "нести",
-      "title": "carry",
+      "name": "carry",
+      "title": "нести",
       "subscrb": "кэри"
     },
     {
       "id": "600",
-      "name": "доставка",
-      "title": "delivery",
+      "name": "delivery",
+      "title": "доставка",
       "subscrb": "диливэри"
     },
     {
       "id": "601",
-      "name": "огурец",
-      "title": "cucumber",
+      "name": "cucumber",
+      "title": "огурец",
       "subscrb": "кьюкамбэр"
     },
     {
       "id": "602",
-      "name": "платить",
-      "title": "pay",
+      "name": "pay",
+      "title": "платить",
       "subscrb": "пэй"
     },
     {
       "id": "603",
-      "name": "коробка",
-      "title": "box",
+      "name": "box",
+      "title": "коробка",
       "subscrb": "бокс"
     },
     {
       "id": "604",
-      "name": "год",
-      "title": "year",
+      "name": "year",
+      "title": "год",
       "subscrb": "йир"
     },
     {
       "id": "605",
-      "name": "годы",
-      "title": "years",
+      "name": "years",
+      "title": "годы",
       "subscrb": "йирз"
     },
     {
       "id": "606",
-      "name": "рыба",
-      "title": "fish",
+      "name": "fish",
+      "title": "рыба",
       "subscrb": "фиш"
     },
     {
       "id": "607",
-      "name": "рыбный",
-      "title": "fish (adj.)",
+      "name": "fish (adj.)",
+      "title": "рыбный",
       "subscrb": "фиш"
     },
     {
       "id": "608",
-      "name": "сливочный",
-      "title": "creamy",
+      "name": "creamy",
+      "title": "сливочный",
       "subscrb": "крими"
     }
   ]
