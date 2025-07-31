@@ -24,6 +24,11 @@ const buttonsClickHandlerPlay = {
         countNwords.nWord();
         myModule.words();
 
+        document.activeElement.blur();
+
+        const scrollY = window.scrollY;
+        setTimeout(() => window.scrollTo(0, scrollY), 50);
+
         const secInput = document.querySelector("#gap");
         if (secInput) {
           const sec = Number(secInput.value);
