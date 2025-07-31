@@ -1,102 +1,149 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Text To Speech in JavaScript</title>
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
-    <link rel="preload" href="https://fonts.gstatic.com/s/..." as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-</head>
+    <link
+      rel="preload"
+      href="https://fonts.gstatic.com/s/..."
+      as="font"
+      type="font/woff2"
+      crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <header>Speaker in voice</header>
-        <form action="#" method="GET">
-            <div class="container-point-properties">
-                <label>Select point of start</label>
-                <div class="select-point">
-                    <div class="point" style="justify-content: space-between; font-size: 14px;">
-                        <input class="checkbox" type="checkbox" name="option1" value="value1" checked>...free
-                        select<input class="form-point" value="1" style="width: 45%;  font-size: 14px;" />
-                    </div><br>
+      <header>Speaker in voice</header>
+      <form action="#" method="GET">
+        <div class="container-point-properties">
+          <label>Select point of start</label>
+          <div class="select-point">
+            <div
+              class="point"
+              style="justify-content: space-between; font-size: 14px">
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="option1"
+                value="value1"
+                checked />...free select<input
+                class="form-point"
+                value="1"
+                style="width: 45%; font-size: 14px" />
+            </div>
+            <br />
 
-                    <div class="point" style="justify-content: space-between; font-size: 14px;">
-                        <input class="checkbox" type="checkbox" name="option2" value="value2">...place where you run out
-                        of
-                    </div><br>
+            <div
+              class="point"
+              style="justify-content: space-between; font-size: 14px">
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="option2"
+                value="value2" />...place where you run out of
+            </div>
+            <br />
 
-                    <div class="point" style="justify-content: space-between; font-size: 14px;">
-                        <input class="checkboxN" type="checkbox" name="option3" value="value3" checked>...Nwords count<input
-                            class="form-pointN" value="2" style="width: 45%;  font-size: 14px;" />
-                    </div>
-                </div>
-                <div class="form-properties">
-                    <div class="speed">
-                        <label form="speed">Rate (0.5-1.5)</label>
-                        <input id="speed" value="1" style="font-size: 14px;" />
-                    </div>
-                    <div class="sec">
-                        <label form="gap">Set gap (sec)</label>
-                        <input id="gap" value="4" style="font-size: 14px;" />
-                    </div>
-                    <div class="form-pitch">
-                        <label form="pitch">Voice of pitch (0.5-1.5)</label>
-                        <input id="pitch" value="1" style="font-size: 14px;" />
-                    </div>
-                </div>
-                <div class="timer">
-                    <svg class="progress-ring" width="120" height="120">
-                        <circle class="progress-ring__circle" stroke="grey" stroke-width="4" fill="transparent" r="54"
-                            cx="60" cy="60" />
-                        <circle class="progress-ring__dot" fill="white" r="5" cx="60" cy="6" />
-                    </svg>
-                    <div id="countdown">00:00</div>
-                </div>
+            <div
+              class="point"
+              style="justify-content: space-between; font-size: 14px">
+              <input
+                class="checkboxN"
+                type="checkbox"
+                name="option3"
+                value="value3"
+                checked />...Nwords count<input
+                class="form-pointN"
+                value="2"
+                style="width: 45%; font-size: 14px" />
             </div>
-            <div class="row">
-                <label>Enter Text</label>
-                <div class="textareas">
-                    <textarea id="text1" rows="3" cols="20" wrap="hard" readonly></textarea>
-                    <textarea id="text2" rows="4" cols="20" wrap="hard" readonly></textarea>
-                </div>
-                <div class="block-button-1">
-                    <button class="pause" id="but5">PAUSE</button>
-                    <button class="resume" id="resumeButton">RESUME</button>
-                </div>
-                <div class="button">
-                    <button id="but1" class="play">( En/De/Gr/PL ) / play</button>
-                    <button id="but2" class="play">( Rus ) / play</button>
-                    <button id="but3" class="stop">( STOP ) / ( START )</button>
-                </div>
-                <div class="flex-container">
-                    <div class="flex-item">
-                        <label>Select Voice</label>
-                        <select id="voiceSelect"></select>
-                    </div>
-                    <div class="flex-item">
-                        <label>Constituents parts of speech</label>
-                        <select id="select2">
-                           <option selected disabled hidden>Search dictionary...</option>
-                            <option id="elem">English dictionary</option>
-                            <option id="elem">Deutsch Wörterbuch</option>
-                            <option id="elem">Griechικό λεξικό</option>
-                            <option id="elem">Polskie słownictwo</option>
-                        </select>
-                    </div>
-                </div>
+          </div>
+          <div class="form-properties">
+            <div class="speed">
+              <label form="speed">Rate (0.5-1.5)</label>
+              <input id="speed" value="1" style="font-size: 14px" />
             </div>
-            <br>
-            
-            <div>
-                <dd>This is the original text</dd>
-                <p id="text3"></p>
+            <div class="sec">
+              <label form="gap">Set gap (sec)</label>
+              <input id="gap" value="4" style="font-size: 14px" />
             </div>
-        </form>
-        <script src="./js/bundle.js"></script>
+            <div class="form-pitch">
+              <label form="pitch">Voice of pitch (0.5-1.5)</label>
+              <input id="pitch" value="1" style="font-size: 14px" />
+            </div>
+          </div>
+          <div class="timer">
+            <svg class="progress-ring" width="120" height="120">
+              <circle
+                class="progress-ring__circle"
+                stroke="grey"
+                stroke-width="4"
+                fill="transparent"
+                r="54"
+                cx="60"
+                cy="60" />
+              <circle
+                class="progress-ring__dot"
+                fill="white"
+                r="5"
+                cx="60"
+                cy="6" />
+            </svg>
+            <div id="countdown">00:00</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="flex-container">
+            <div class="flex-item">
+              <label>Select Voice</label>
+              <select id="voiceSelect"></select>
+            </div>
+            <div class="flex-item">
+              <label>Constituents parts of speech</label>
+              <select id="select2">
+                <option selected disabled hidden>Search dictionary...</option>
+                <option id="elem">English dictionary</option>
+                <option id="elem">Deutsch Wörterbuch</option>
+                <option id="elem">Griechικό λεξικό</option>
+                <option id="elem">Polskie słownictwo</option>
+              </select>
+            </div>
+          </div>
+          <label>Enter Text</label>
+          <div class="textareas">
+            <textarea
+              id="text1"
+              rows="3"
+              cols="20"
+              wrap="hard"
+              readonly></textarea>
+            <textarea
+              id="text2"
+              rows="4"
+              cols="20"
+              wrap="hard"
+              readonly></textarea>
+          </div>
+          <div class="block-button-1">
+            <button class="pause" id="but5">PAUSE</button>
+            <button class="resume" id="resumeButton">RESUME</button>
+          </div>
+          <div class="button">
+            <button id="but1" class="play">( En/De/Gr/PL ) / play</button>
+            <button id="but2" class="play">( Rus ) / play</button>
+            <button id="but3" class="stop">( STOP ) / ( START )</button>
+          </div>
+        </div>
+        <div>
+          <dd>This is the original text</dd>
+          <p id="text3"></p>
+        </div>
+      </form>
+      <script src="./js/bundle.js"></script>
     </div>
-</body>
-
+  </body>
 </html>
