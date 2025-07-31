@@ -41,25 +41,22 @@ async function processLines(dataChunk) {
 function addItemToList(vaarId, vaar1, vaar2, subscrb) {
   const text3 = document.getElementById("text3");
   if (text3) {
-    // Создаем новую строку таблицы
     const row = document.createElement("tr");
 
-    // Функция для создания ячейки с текстом и границей
     function createCell(text) {
       const cell = document.createElement("td");
       cell.textContent = text;
-      cell.style.border = "1px solid black"; // граница 1px чёрная
-      cell.style.padding = "4px"; // немного отступов для читабельности
+      cell.style.border = "1px solid black";
+      cell.style.padding = "4px";
       return cell;
     }
 
-    // Добавляем три ячейки в строку
     row.appendChild(createCell(vaarId));
     row.appendChild(createCell(vaar1));
     row.appendChild(createCell(`${vaar2} [${subscrb}]`));
 
-    // Добавляем строку в таблицу
-    text3.appendChild(row);
+    // Добавляем строку в начало таблицы
+    text3.insertBefore(row, text3.firstChild);
   }
 }
 
