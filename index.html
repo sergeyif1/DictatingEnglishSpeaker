@@ -15,39 +15,6 @@
     <div class="wrapper">
         <header>Speaker in voice</header>
         <form action="#" method="GET">
-            <div class="row">
-                <label>Enter Text</label>
-                <div class="textareas">
-                    <textarea id="text1" rows="3" cols="20" wrap="hard" readonly></textarea>
-                    <textarea id="text2" rows="4" cols="20" wrap="hard" readonly></textarea>
-                </div>
-                <div class="block-button-1">
-                    <button class="pause" id="but5">PAUSE</button>
-                    <button class="resume" id="resumeButton">RESUME</button>
-                </div>
-                <div class="button">
-                    <button id="but1" class="play">( En/De/Gr/PL ) / play</button>
-                    <button id="but2" class="play">( Rus ) / play</button>
-                    <button id="but3" class="stop">( STOP ) / ( START )</button>
-                </div>
-                <div class="flex-container">
-                    <div class="flex-item">
-                        <label>Select Voice</label>
-                        <select id="voiceSelect"></select>
-                    </div>
-                    <div class="flex-item">
-                        <label>Constituents parts of speech</label>
-                        <select id="select2">
-                           <option selected disabled hidden>Search dictionary...</option>
-                            <option id="elem">English dictionary</option>
-                            <option id="elem">Deutsch Wörterbuch</option>
-                            <option id="elem">Griechικό λεξικό</option>
-                            <option id="elem">Polskie słownictwo</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-            <br>
             <div class="container-point-properties">
                 <label>Select point of start</label>
                 <div class="select-point">
@@ -89,6 +56,40 @@
                     <div id="countdown">00:00</div>
                 </div>
             </div>
+            <div class="row">
+                <label>Enter Text</label>
+                <div class="textareas">
+                    <textarea id="text1" rows="3" cols="20" wrap="hard" readonly></textarea>
+                    <textarea id="text2" rows="4" cols="20" wrap="hard" readonly></textarea>
+                </div>
+                <div class="block-button-1">
+                    <button class="pause" id="but5">PAUSE</button>
+                    <button class="resume" id="resumeButton">RESUME</button>
+                </div>
+                <div class="button">
+                    <button id="but1" class="play">( En/De/Gr/PL ) / play</button>
+                    <button id="but2" class="play">( Rus ) / play</button>
+                    <button id="but3" class="stop">( STOP ) / ( START )</button>
+                </div>
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <label>Select Voice</label>
+                        <select id="voiceSelect"></select>
+                    </div>
+                    <div class="flex-item">
+                        <label>Constituents parts of speech</label>
+                        <select id="select2">
+                           <option selected disabled hidden>Search dictionary...</option>
+                            <option id="elem">English dictionary</option>
+                            <option id="elem">Deutsch Wörterbuch</option>
+                            <option id="elem">Griechικό λεξικό</option>
+                            <option id="elem">Polskie słownictwo</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <br>
+            
             <div>
                 <dd>This is the original text</dd>
                 <p id="text3"></p>

@@ -250,7 +250,7 @@ form :where(select) {
 
 body .timer {
   position: absolute;
-  top: 205px;
+  top: 505px;
   left: 50%;
   background-color: rgba(186, 183, 181, 0);
   /* semi-transparent background */
