@@ -15,17 +15,16 @@ const buttonsClickHandlerPauseResume = {
 
     switch (target.className) {
       case "pause":
-     
+        event.preventDefault();
         window.speechSynthesis.pause();
         myModule.pause();
         break;
       case "resume":
-       
+        event.preventDefault();
         window.speechSynthesis.resume();
         myModule.resume();
         break;
       default:
-      
     }
   },
 };
