@@ -250,7 +250,7 @@ form :where(select) {
 
 body .timer {
   position: absolute;
-  top: 615px;
+  top: 757px;
   left: 50%;
   background-color: rgba(186, 183, 181, 0);
   /* semi-transparent background */
@@ -355,5 +355,68 @@ body #countdown {
     padding: 10px;
     /* Дополнительные стили для опций при уменьшении экрана */
     font-size: 16px;
+  }
+
+  /*----------------------------------------------------------------------------*/
+
+  /* === Minimal UI Theme Overrides === */
+
+  .wrapper.minimal-ui {
+    background-color: #f0f2f5 !important;
+    background-image: none !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+  }
+
+  .wrapper.minimal-ui form .row textarea,
+  .wrapper.minimal-ui .form-properties input,
+  .wrapper.minimal-ui select,
+  .wrapper.minimal-ui .form-point,
+  .wrapper.minimal-ui .form-pointN,
+  .wrapper.minimal-ui .textareas textarea {
+    background-color: #ffffff !important;
+    color: #1e1e1e !important;
+    border: 1px solid #dcdcdc !important;
+    border-radius: 10px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  }
+
+  .wrapper.minimal-ui form button,
+  .wrapper.minimal-ui .block-button-1 button {
+    background-color: #2979ff !important;
+    color: white !important;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  }
+
+  .wrapper.minimal-ui .stop {
+    background-color: #e0e0e0 !important;
+    color: #333 !important;
+  }
+
+  .wrapper.minimal-ui .wrapper,
+  .wrapper.minimal-ui .point,
+  .wrapper.minimal-ui .history-list,
+  .wrapper.minimal-ui #text3 {
+    background-color: #ffffff !important;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+
+  .wrapper.minimal-ui label {
+    color: #333 !important;
+    font-weight: 500;
+  }
+
+  .wrapper.minimal-ui .timer,
+  .wrapper.minimal-ui #countdown {
+    color: #1e1e1e !important;
+  }
+
+  .wrapper.minimal-ui .checkbox::before,
+  .wrapper.minimal-ui .checkboxN::before,
+  .wrapper.minimal-ui .checkbox:checked::before,
+  .wrapper.minimal-ui .checkboxN:checked::before {
+    content: none !important;
   }
 }
