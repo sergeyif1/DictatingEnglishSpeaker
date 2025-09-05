@@ -3659,6 +3659,3282 @@
       "name": "bilet wstępu",
       "title": "входной билет",
       "subscrb": "билет всстэмпу"
+    },
+    {
+      "id": "611",
+      "name": "Proszę powiedzieć, gdzie jest mąka",
+      "title": "Скажите пожалуйста, где находится мука",
+      "subscrb": "ПРОше повЕджець, ГДже йЕст моонка"
+    },
+    {
+      "id": "612",
+      "name": "Proszę powiedzieć, gdzie jest lody",
+      "title": "Скажите пожалуйста, где находится мороженое",
+      "subscrb": "ПРОше повЕджець, ГДже йЕст лОды"
+    },
+    {
+      "id": "613",
+      "name": "Proszę spojrzeć przy wodzie mineralnej",
+      "title": "Посмотрите пожалуйста возле минеральной воды",
+      "subscrb": "ПРОше спОйржець пшы воодЗЕ минЕральней"
+    },
+    {
+      "id": "614",
+      "name": "Przepraszam, pani, gdzie jest masło?",
+      "title": "Прошу прощения, женщина, а где находится масло?",
+      "subscrb": "ПшэПРАшам, пАни, ГДже йЕст мАсло?"
+    },
+    {
+      "id": "615",
+      "name": "Proszę spojrzeć przy mleku",
+      "title": "Пожалуйста, посмотрите возле молока",
+      "subscrb": "ПРОше спОйржець пшы млЕку"
+    },
+    {
+      "id": "616",
+      "name": "Przepraszam, gdzie są bułki?",
+      "title": "Извините, а где находятся булки?",
+      "subscrb": "ПшэПРАшам, ГДже сОу буУлки?"
+    },
+    {
+      "id": "617",
+      "name": "Proszę spojrzeć przy chlebie",
+      "title": "Пожалуйста, посмотрите возле хлеба",
+      "subscrb": "ПРОше спОйржець пшы хлЕбье"
+    },
+    {
+      "id": "618",
+      "name": "Przepraszam, dziewczyno, gdzie są parówki?",
+      "title": "Извините, девушка, а где находятся сосиски?",
+      "subscrb": "ПшэПРАшам, джЕФчЫно, ГДже сОу парУвки?"
+    },
+    {
+      "id": "619",
+      "name": "Proszę spojrzeć przy kiełbasie",
+      "title": "Пожалуйста, посмотрите возле колбасы",
+      "subscrb": "ПРОше спОйржець пшы кьУлбасе"
+    },
+    {
+      "id": "620",
+      "name": "Przepraszam, pani, gdzie są cukierki?",
+      "title": "Извините, женщина, а где есть конфеты?",
+      "subscrb": "ПшэПРАшам, пАни, ГДже сОу цУкьерки?"
+    },
+    {
+      "id": "621",
+      "name": "Proszę spojrzeć przy czekoladzie",
+      "title": "Пожалуйста, посмотрите возле шоколада",
+      "subscrb": "ПРОше спОйржець пшы чэколАдзе"
+    },
+    {
+      "id": "622",
+      "name": "Przepraszam, gdzie jest woda mineralna?",
+      "title": "Извините, а где находится минеральная вода?",
+      "subscrb": "ПшэПРАшам, ГДже йЕст воода минЕральна?"
+    },
+    {
+      "id": "623",
+      "name": "Proszę spojrzeć przy napojach bezalkoholowych",
+      "title": "Пожалуйста, посмотрите возле безалкогольных напитков",
+      "subscrb": "ПРОше спОйржець пшы напОях безалкогОловых"
+    },
+    {
+      "id": "624",
+      "name": "Proszę powiedzieć, gdzie są warzywa?",
+      "title": "Скажите пожалуйста, а где находятся овощи?",
+      "subscrb": "ПРОше поВЬеджечь, гдзэ СО̃ ваЖЫва?"
+    },
+    {
+      "id": "625",
+      "name": "Proszę, spójrzcie przy owocach",
+      "title": "Пожалуйста, посмотрите возле фруктов",
+      "subscrb": "ПРОше, спуЙржьче пшы ОВОцах"
+    },
+    {
+      "id": "626",
+      "name": "Pani Kowalska zawsze kupuje pomarańcze, ale teraz kupi banany",
+      "title": "Пани Ковальска всегда покупает апельсины, но сейчас она купит бананы",
+      "subscrb": "ПАНи коВАЛска ЗАвждэ куПУйэ помаранЧЭ, але ТЭраз куПИ баНАНы"
+    },
+    {
+      "id": "627",
+      "name": "Pan Stanisław Kowalski zawsze kupuje chleb, ale teraz kupi bułki",
+      "title": "Пан Станислав Ковальский всегда покупает хлеб, но сейчас он купит булки",
+      "subscrb": "ПАН стаНИслав коВАЛьски ЗАвждэ куПУйэ ХЛЭб, але ТЭраз куПИ буУлки"
+    },
+    {
+      "id": "628",
+      "name": "Kasia Kowalska zawsze kupuje ciasto, ale teraz kupi lody waniliowe",
+      "title": "Кашья Ковальска всегда покупает пирожное, но сейчас купит мороженое ванильное",
+      "subscrb": "КАшя коВАЛска ЗАвждэ куПУйэ ЧЯсто, але ТЭраз куПИ ЛОДЫ ваниЛЬёвэ"
+    },
+    {
+      "id": "629",
+      "name": "Tomek Nowak zawsze kupuje wodę mineralną, ale dzisiaj kupi piwo",
+      "title": "Томэк Новак всегда покупает воду минеральную, но сегодня купит пиво",
+      "subscrb": "ТОмэк НОвак ЗАвждэ куПУйэ ВОндэ миниНЭрлну̃, але джиСЯй куПИ ПИво"
+    },
+    {
+      "id": "630",
+      "name": "Marianna Kowalska zawsze kupuje mięso, ale dzisiaj kupi śledzia",
+      "title": "Марианна Ковальская всегда покупает мясо, но сегодня купит селёдку",
+      "subscrb": "МарЯнна коВАЛска ЗАвждэ куПУйэ МЬЕНсо, але джиСЯй куПИ ШЛЭДзя"
+    },
+    {
+      "id": "631",
+      "name": "Nowak i pan Nowak zawsze kupują śledzia",
+      "title": "Новак и пан Новак всегда покупают селёдку",
+      "subscrb": "НОвак и пан НОвак ЗАвждэ куПУйо̃ ШЛЭДзя"
+    },
+    {
+      "id": "632",
+      "name": "Ale dzisiaj kupią łososia",
+      "title": "Но сегодня купят лосося",
+      "subscrb": "Але джиСЯй куПЯ̃ УЛОСОся"
+    },
+    {
+      "id": "633",
+      "name": "Ile macie lat?",
+      "title": "Сколько вам лет? (вежливо)",
+      "subscrb": "ИЛЭ маЦЭ ЛАТ?"
+    },
+    {
+      "id": "634",
+      "name": "Ile masz lat?",
+      "title": "Сколько тебе лет?",
+      "subscrb": "ИЛЭ маш ЛАТ?"
+    },
+    {
+      "id": "635",
+      "name": "Ile ma pan Nowak?",
+      "title": "Сколько лет пану Новаку",
+      "subscrb": "ИЛЭ ма пан НОвак?"
+    },
+    {
+      "id": "636",
+      "name": "Ile to kosztuje?",
+      "title": "Сколько это стоит?",
+      "subscrb": "ИЛЭ то КОшТУйэ?"
+    },
+    {
+      "id": "637",
+      "name": "Ile ja stoję?",
+      "title": "Сколько я стою?",
+      "subscrb": "ИЛЭ я СТОйЭ?"
+    },
+    {
+      "id": "638",
+      "name": "Ile ty kosztujesz?",
+      "title": "Сколько ты стоишь?",
+      "subscrb": "ИЛЕ ты кОштУйеш?"
+    },
+    {
+      "id": "639",
+      "name": "Ile on kosztuje?",
+      "title": "Сколько он стоит?",
+      "subscrb": "ИЛЕ он кОштУе?"
+    },
+    {
+      "id": "640",
+      "name": "Ile ona kosztuje?",
+      "title": "Сколько она стоит?",
+      "subscrb": "ИЛЕ оНА кОштУе?"
+    },
+    {
+      "id": "641",
+      "name": "Ile ono kosztuje?",
+      "title": "Сколько оно стоит?",
+      "subscrb": "ИЛЕ оНО кОштУе?"
+    },
+    {
+      "id": "642",
+      "name": "Ile my stoimy?",
+      "title": "Сколько мы стоим?",
+      "subscrb": "ИЛЕ мы стОймы?"
+    },
+    {
+      "id": "643",
+      "name": "Ile wy stoicie?",
+      "title": "Сколько вы стоите?",
+      "subscrb": "ИЛЕ вы стОйче?"
+    },
+    {
+      "id": "644",
+      "name": "Ile oni stoją?",
+      "title": "Сколько они стоят?",
+      "subscrb": "ИЛЕ оНИ стОйОнг?"
+    },
+    {
+      "id": "645",
+      "name": "Ile ono stoi?",
+      "title": "Сколько оно стоит?",
+      "subscrb": "ИЛЕ оНО стОйи?"
+    },
+    {
+      "id": "646",
+      "name": "Płacić",
+      "title": "Платить",
+      "subscrb": "ПУВАчичь"
+    },
+    {
+      "id": "647",
+      "name": "Ja zapłacę",
+      "title": "Я оплачу",
+      "subscrb": "Я запУВАце"
+    },
+    {
+      "id": "648",
+      "name": "Ty płacisz",
+      "title": "Ты платишь",
+      "subscrb": "Ты пУВАчишь"
+    },
+    {
+      "id": "649",
+      "name": "On płaci",
+      "title": "Он платит",
+      "subscrb": "Он пУВАци"
+    },
+    {
+      "id": "650",
+      "name": "Ona płaci",
+      "title": "Она платит",
+      "subscrb": "ОНА пУВАци"
+    },
+    {
+      "id": "651",
+      "name": "Ono płaci",
+      "title": "Оно платит",
+      "subscrb": "ОНО пУВАци"
+    },
+    {
+      "id": "652",
+      "name": "Wy płacicie",
+      "title": "Вы платите",
+      "subscrb": "Вы пУВАчиче"
+    },
+    {
+      "id": "653",
+      "name": "Oni płacą",
+      "title": "Они платят",
+      "subscrb": "ОНИ пУВАцОнг"
+    },
+    {
+      "id": "654",
+      "name": "Ono płaci",
+      "title": "Оно платит",
+      "subscrb": "ОНО пУВАци"
+    },
+    {
+      "id": "655",
+      "name": "Dwa pomidory kosztują tyle pieniędzy",
+      "title": "Два помидора стоят столько-то денег",
+      "subscrb": "ДВА помИдОры кОштУйОнг тЫле пЕньендзы?"
+    },
+    {
+      "id": "656",
+      "name": "Do Mariana Kowalskiego niespodziewanie przyszli goście",
+      "title": "К Марьяну Ковальскому неожиданно пришли гости",
+      "subscrb": "До МарИана КовАльскЕго несподзЕвАне прЫшли гОшче"
+    },
+    {
+      "id": "657",
+      "name": "Wino u niego było",
+      "title": "Вино у него было",
+      "subscrb": "ВИно у НЬего былО"
+    },
+    {
+      "id": "658",
+      "name": "A z produktami powstały problemy",
+      "title": "А с продуктами возникли проблемы",
+      "subscrb": "А з продУктАми повстАлы прОблемы"
+    },
+    {
+      "id": "659",
+      "name": "On pobiegł do sklepu",
+      "title": "Он побежал в магазин",
+      "subscrb": "Он побЕгУл до склЕпу"
+    },
+    {
+      "id": "660",
+      "name": "On szybko włożył do koszyka to, co podpadło pod rękę",
+      "title": "Он быстро положил в корзину то, что попалось под руку",
+      "subscrb": "Он ШбЫско вУЖыУл до кОшжыка то, ко подпАло под рЭнке"
+    },
+    {
+      "id": "661",
+      "name": "Policzyć, proszę, ile pieniędzy z własnego budżetu on wydał na zakupy",
+      "title": "Посчитайте пожалуйста, сколько денег из своего бюджета он потратил на покупки",
+      "subscrb": "ПолИчичь, прОшэ, ИЛЕ пЕньендзы з ВлАжнегО бУджету он выдАу на закУпы"
+    },
+    {
+      "id": "662",
+      "name": "Ile kosztuje piwo?",
+      "title": "Сколько стоит пиво?",
+      "subscrb": "ИЛе кОШтуйе ПИ:во?"
+    },
+    {
+      "id": "663",
+      "name": "Piwo kosztuje grosze.",
+      "title": "Пиво стоит гроши.",
+      "subscrb": "ПИ:во кОШтуйе ГРО:ше"
+    },
+    {
+      "id": "664",
+      "name": "Ile kosztuje kiść bananów?",
+      "title": "Сколько стоит связка бананов?",
+      "subscrb": "ИЛе кОШтуйе КИ:щ баНА:нув?"
+    },
+    {
+      "id": "665",
+      "name": "Kiść bananów kosztuje pięć groszy.",
+      "title": "Связка бананов стоит пять грошей.",
+      "subscrb": "КИ:щ баНА:нув кОШтуйе ПЕНЬЧ ГРО:ши"
+    },
+    {
+      "id": "666",
+      "name": "Proszę, czy jest twarożek i biały ser?",
+      "title": "Скажите, а есть творожок и белый сыр?",
+      "subscrb": "ПРО:ше, чи ЕСТ ТВА:рожек и БЯ:вы СЭр?"
+    },
+    {
+      "id": "667",
+      "name": "Proszę pani, ile kosztują truskawki?",
+      "title": "Скажите пожалуйста (к женщине), сколько стоит клубника?",
+      "subscrb": "ПРО:ше ПА:ни, ИЛе кОШтуйон ТРУ:скавки?"
+    },
+    {
+      "id": "668",
+      "name": "Truskawki kosztują trzy złote i pięć groszy.",
+      "title": "Клубника стоит три злотых 50 грош.",
+      "subscrb": "ТРУ:скавки кОШтуйон ТШЫ ЗВО:те и ПЕНЬЧ ГРО:ши"
+    },
+    {
+      "id": "669",
+      "name": "Ile lat ma Kasa Kowalska?",
+      "title": "Сколько лет Касе Ковальской?",
+      "subscrb": "ИЛе Лат ма КА:са КОВА:льска?"
+    },
+    {
+      "id": "670",
+      "name": "Przepraszam, panie, gdzie jest szynka?",
+      "title": "Извините (к мужчине), где находится ветчина?",
+      "subscrb": "ПШЕ:прашам ПА:не, ГДЖЕ ЕСТ ШЫНка?"
+    },
+    {
+      "id": "671",
+      "name": "Piszę",
+      "title": "Я пишу",
+      "subscrb": "ПИ:ше"
+    },
+    {
+      "id": "672",
+      "name": "Piszesz",
+      "title": "Ты пишешь",
+      "subscrb": "ПИ:шеш"
+    },
+    {
+      "id": "673",
+      "name": "Pisze",
+      "title": "Он пишет",
+      "subscrb": "ПИ:ше"
+    },
+    {
+      "id": "674",
+      "name": "Pisze",
+      "title": "Она пишет",
+      "subscrb": "ПИ:ше"
+    },
+    {
+      "id": "675",
+      "name": "Pisze",
+      "title": "Оно пишет",
+      "subscrb": "ПИ:ше"
+    },
+    {
+      "id": "676",
+      "name": "Piszemy",
+      "title": "Мы пишем",
+      "subscrb": "ПИ:шэмы"
+    },
+    {
+      "id": "677",
+      "name": "Piszecie",
+      "title": "Вы пишете",
+      "subscrb": "ПИ:шэче"
+    },
+    {
+      "id": "678",
+      "name": "Piszą",
+      "title": "Они пишут",
+      "subscrb": "ПИ:шон"
+    },
+    {
+      "id": "679",
+      "name": "Pisze",
+      "title": "Оно пишет",
+      "subscrb": "ПИ:ше"
+    },
+    {
+      "id": "680",
+      "name": "Mogę",
+      "title": "Я могу",
+      "subscrb": "МО:ге"
+    },
+    {
+      "id": "681",
+      "name": "Możesz",
+      "title": "Ты можешь",
+      "subscrb": "МО:жеш"
+    },
+    {
+      "id": "682",
+      "name": "Może",
+      "title": "Он может",
+      "subscrb": "МО:же"
+    },
+    {
+      "id": "683",
+      "name": "Może",
+      "title": "Она может",
+      "subscrb": "МО:же"
+    },
+    {
+      "id": "684",
+      "name": "Może",
+      "title": "Оно может",
+      "subscrb": "МО:же"
+    },
+    {
+      "id": "685",
+      "name": "Możemy",
+      "title": "Мы можем",
+      "subscrb": "МО:жемы"
+    },
+    {
+      "id": "686",
+      "name": "Możecie",
+      "title": "Вы можете",
+      "subscrb": "МО:жэче"
+    },
+    {
+      "id": "687",
+      "name": "Mogą",
+      "title": "Они могут",
+      "subscrb": "МО:гон"
+    },
+    {
+      "id": "688",
+      "name": "Może",
+      "title": "Оно может",
+      "subscrb": "МО:же"
+    },
+    {
+      "id": "689",
+      "name": "Pomóc",
+      "title": "Помочь",
+      "subscrb": "ПО:моц"
+    },
+    {
+      "id": "690",
+      "name": "Iść",
+      "title": "Идти",
+      "subscrb": "И:щь"
+    },
+    {
+      "id": "691",
+      "name": "Kłaść",
+      "title": "Класть",
+      "subscrb": "КВА:щь"
+    },
+    {
+      "id": "692",
+      "name": "Wybrać",
+      "title": "Выбрать",
+      "subscrb": "ВЫ:брачь"
+    },
+    {
+      "id": "693",
+      "name": "Nieść",
+      "title": "Нести",
+      "subscrb": "НЬЕ:щь"
+    },
+    {
+      "id": "694",
+      "name": "Przynieść",
+      "title": "Принести",
+      "subscrb": "ПШЫНЬЕ:щь"
+    },
+    {
+      "id": "695",
+      "name": "Wieźć",
+      "title": "Везти",
+      "subscrb": "ВЬЕ:щь"
+    },
+    {
+      "id": "696",
+      "name": "Wyprowadzić dziecko na spacer",
+      "title": "Вывести ребёнка на прогулку",
+      "subscrb": "ВЫ:проваджичь ДЗЬЕцко на СПА:цэр"
+    },
+    {
+      "id": "697",
+      "name": "Iść do sklepu po zakupy",
+      "title": "Сходить в магазин за покупками",
+      "subscrb": "И:щь до СКЛЕ:пу по заКУ:пы"
+    },
+    {
+      "id": "698",
+      "name": "Dotrzeć tylko do tego dębu",
+      "title": "Дойти только до того дуба",
+      "subscrb": "ДО:тржечь ТЫ:лько до ТЕ:го ДЭ:нбу"
+    },
+    {
+      "id": "699",
+      "name": "Wziąć jego samochód",
+      "title": "Взять его автомобиль",
+      "subscrb": "ВЖОНЬЧ Е:го СА:моход"
+    },
+    {
+      "id": "700",
+      "name": "Odejść od stołu",
+      "title": "Отойти от стола",
+      "subscrb": "О:дэйщь од СТО:лу"
+    },
+    {
+      "id": "701",
+      "name": "Możesz to zrobić",
+      "title": "Можешь это сделать",
+      "subscrb": "МО:жеш то ЗРО:бичь"
+    },
+    {
+      "id": "702",
+      "name": "nieść torbę Magdy",
+      "title": "нести сумку Магды",
+      "subscrb": "НЕщь тОrrбэн МАгды"
+    },
+    {
+      "id": "703",
+      "name": "podejść do dziadka",
+      "title": "подойти к дедушке",
+      "subscrb": "подЭйщь до ДзьЯдка"
+    },
+    {
+      "id": "704",
+      "name": "wybierać długopis",
+      "title": "выбирать ручку",
+      "subscrb": "выБЬЕраць длуГОпись"
+    },
+    {
+      "id": "705",
+      "name": "połóż rzeczy tutaj",
+      "title": "положи вещи здесь",
+      "subscrb": "пОууж рЖЭчы туТАЙ"
+    },
+    {
+      "id": "706",
+      "name": "tak idź do tego domu",
+      "title": "да иди к тому дому",
+      "subscrb": "так идзь до ТЭго ДОму"
+    },
+    {
+      "id": "707",
+      "name": "pomożesz przygotować wykład",
+      "title": "поможешь подготовить лекцию",
+      "subscrb": "помОшэш пшыгОтоваць выКЛад"
+    },
+    {
+      "id": "708",
+      "name": "wyjść z domu na zakupy",
+      "title": "выйти из дома на закупки",
+      "subscrb": "выЙщь з ДОму на закУпы"
+    },
+    {
+      "id": "709",
+      "name": "przynieść z domu czekoladki",
+      "title": "принести из дома шоколадки",
+      "subscrb": "пшЫнесь з ДОму чэколАдки"
+    },
+    {
+      "id": "710",
+      "name": "pani Anna Nowak jest nauczycielką",
+      "title": "пани Анна Новак есть учительница",
+      "subscrb": "пАни АНна НОвак йест наУчичьЦЭлкой"
+    },
+    {
+      "id": "711",
+      "name": "dzisiaj kończy pracę wcześnie i sama pójdzie na zakupy",
+      "title": "сегодня она заканчивает работу рано и одна пойдёт за покупками",
+      "subscrb": "ДЖисйАЙ кУнчы ПРАцэн вчЕшнйэ и САма пУйнджье на закУпы"
+    },
+    {
+      "id": "712",
+      "name": "zwykle zakupy robi pani, na dziś nie może",
+      "title": "обычно покупки делает панi, на сегодня он не может",
+      "subscrb": "звЫклэ закУпы рОбй пАни, на ДЖись нйэ мОже"
+    },
+    {
+      "id": "713",
+      "name": "on ma dyżur",
+      "title": "у него дежурство",
+      "subscrb": "он ма дЫжур"
+    },
+    {
+      "id": "714",
+      "name": "nie lubi robić zakupy",
+      "title": "понятно не любит делать покупки",
+      "subscrb": "нйэ лУби рОбичь закУпы"
+    },
+    {
+      "id": "715",
+      "name": "może poprosić Tomka, ale Tomek zawsze kupuje dziwne rzeczy",
+      "title": "может попросить Томэка но Томэк всегда покупает странные вещи",
+      "subscrb": "мОже попрОшичь ТОмкэ, але ТОмек зАвждэ купУйэ ДзьИвнэ рЖЭчы"
+    },
+    {
+      "id": "716",
+      "name": "na przykład sześć butelek piwa zamiast jednej butelki wody mineralnej",
+      "title": "например шесть бутылок пива вместо одной бутылки минеральной воды",
+      "subscrb": "на прЫкляд ШЭшчь буТЭлек ПИва замЯст яДнэй буТЭлки Воды мйнеРАльнэй"
+    },
+    {
+      "id": "717",
+      "name": "więc pani Anna idzie do dużego sklepu spożywczego, który jest niedaleko od jej pracy",
+      "title": "следовательно панi Анна идёт в большой продуктовый магазин, который находится недалеко от её работы",
+      "subscrb": "ВЙЭнц пАни АНна Идже до дУжэго СКлЭпу спожЫвчэго, кУтры йест нйэдалЭко од йей ПРАцы"
+    },
+    {
+      "id": "718",
+      "name": "tutaj jest wszystko: mięso i wędliny, pieczywo, bakalie, produkty mleczne i jajka, owoce, warzywa, alkohole i napoje bezalkoholowe i wiele innych rzeczy",
+      "title": "здесь есть всё: мясо и копчености, хлебобулочные изделия, бакалея, молочные продукты и яйца, фрукты, овощи, алкогольные и безалкогольные напитки и много других вещей",
+      "subscrb": "туТАЙ йест ФШЫстко: МЙэнсо и вЭндлины, пйЭчЫво, бакАлиэ, продУкты млЭчнэ и Яйка, овоЦэ, варжыва, алкОхолэ и напОйэ безалкОхоловэ и ВЙЭлэ иных рЖЭчы"
+    },
+    {
+      "id": "719",
+      "name": "Ania bierze koszyk",
+      "title": "Аня она берёт корзинку",
+      "subscrb": "АНя БЬЕрже КОШшЫк"
+    },
+    {
+      "id": "720",
+      "name": "i idzie wzdłuż półek",
+      "title": "и идёт вдоль полок",
+      "subscrb": "и ИДже вждлуж ПУВвек"
+    },
+    {
+      "id": "721",
+      "name": "chodzi i wybiera",
+      "title": "ходит и выбирает",
+      "subscrb": "ХОДжи и ВыБЬЕра"
+    },
+    {
+      "id": "722",
+      "name": "kładzie do koszyka różne rzeczy",
+      "title": "кладёт в корзинку разные вещи",
+      "subscrb": "КВЛАНДже до КОШшЫка РУЖжне РЖЕЧчи"
+    },
+    {
+      "id": "723",
+      "name": "Pan Marek nie lubi bananów",
+      "title": "пан Марэк не любит бананов",
+      "subscrb": "Пан МАРэк нье ЛУби БаНАнув"
+    },
+    {
+      "id": "724",
+      "name": "Tomek nie cierpi sardynek",
+      "title": "Томэк не терпит сардинок",
+      "subscrb": "ТОмек нье ЧЬЕрпи САРдынек"
+    },
+    {
+      "id": "725",
+      "name": "Pani Anna bardzo lubi sardynki",
+      "title": "пани Анна очень любит сардинки",
+      "subscrb": "ПАНи АНна БАРдзо ЛУби САРдынки"
+    },
+    {
+      "id": "726",
+      "name": "w końcu Pani Anna kupuje bochenek chleba",
+      "title": "наконец пани Анна покупает буханку хлеба",
+      "subscrb": "в КОНцу ПАНи АНна КУпує БОХхенек ХЛЕба"
+    },
+    {
+      "id": "727",
+      "name": "kilogram mięsa i słoik śledzia",
+      "title": "килограмм мяса и банку селёдки",
+      "subscrb": "КИЛограм МЬЕНса и СУвик ШЛЕНдзя"
+    },
+    {
+      "id": "728",
+      "name": "kilogram bananów i pomarańczy",
+      "title": "килограмм бананов и апельсинов",
+      "subscrb": "КИЛограм БаНАнув и ПОмаранджи"
+    },
+    {
+      "id": "729",
+      "name": "dwie paczki soku i biały ser",
+      "title": "две пачки сока и белый сыр",
+      "subscrb": "ДВЬЕ ПАчки СОку и БЬЯвы СЕР"
+    },
+    {
+      "id": "730",
+      "name": "ziemniaki i pomidory",
+      "title": "картофель и помидоры",
+      "subscrb": "ЖЬЕМняки и ПОмидоры"
+    },
+    {
+      "id": "731",
+      "name": "co jeszcze trzeba kupić",
+      "title": "что ещё надо купить",
+      "subscrb": "ЦО ЕЩшче ТШРЕБа КУпичь"
+    },
+    {
+      "id": "732",
+      "name": "aha jeszcze pudełko cukierków i butelkę wina",
+      "title": "ага ещё коробку конфет и бутылку вина",
+      "subscrb": "АГА ЕЩшче ПУДьвко ЦУкЬеркув и БУТельке ВИНА"
+    },
+    {
+      "id": "733",
+      "name": "jutro idą do rodziny Kowalskich",
+      "title": "завтра они идут к семье Ковальских",
+      "subscrb": "ЮТро Иду̃ до РОДжины КОВальских"
+    },
+    {
+      "id": "734",
+      "name": "ojej, jaka ciężka torba",
+      "title": "ох какая тяжёлая сумка",
+      "subscrb": "ОЙей, ЯКА ЧЬЕНска ТОРба"
+    },
+    {
+      "id": "735",
+      "name": "trzeba zadzwonić do Tomka",
+      "title": "нужно звонить Томэку",
+      "subscrb": "ТШРЕБа ЗАДзво̃ничь до ТОмека"
+    },
+    {
+      "id": "736",
+      "name": "niech pomoże nieść zakupy do domu",
+      "title": "пусть поможет нести покупки до дома",
+      "subscrb": "НЬЕх ПОможэ НЬЕшч ЗАКупы до ДОму"
+    },
+    {
+      "id": "737",
+      "name": "zawsze idę na zakupy do małego sklepu",
+      "title": "я всегда иду за покупками в маленький магазин",
+      "subscrb": "ЗАвждэ Идэ на ЗАКупы до МАВвенго СКЛЕпу"
+    },
+    {
+      "id": "738",
+      "name": "ten sklep jest niedaleko od mojego domu",
+      "title": "этот магазин находится недалеко от моего дома",
+      "subscrb": "ТЕН СКЛЕП есть НЬЕДалеко од МОЕjego ДОму"
+    },
+    {
+      "id": "739",
+      "name": "chodzę na zakupy sama, nie lubię prosić nikogo",
+      "title": "я хожу за покупками сама, не люблю просить никого",
+      "subscrb": "ХОДже на ЗАКупы САма, нье ЛУбье ПРОсичь НИКого"
+    },
+    {
+      "id": "740",
+      "name": "mój syn zawsze kupuje dziwne rzeczy",
+      "title": "мой сын всегда покупает странные вещи",
+      "subscrb": "МУй СЫН ЗАвждэ КУпує ДЖЬИВне РЖЕЧчи"
+    },
+    {
+      "id": "741",
+      "name": "on nie lubi warzyw",
+      "title": "он не любит овощей",
+      "subscrb": "он нье ЛУби ВАРжыв"
+    },
+    {
+      "id": "742",
+      "name": "w tym sklepie są bardzo dobre produkty",
+      "title": "в этом магазине очень хорошие продукты",
+      "subscrb": "в ТЫМ СКЛЕпье СОН БАРдзо ДОбре ПРОдукты"
+    },
+    {
+      "id": "743",
+      "name": "zawsze świeży chleb, owoce i warzywa",
+      "title": "всегда свежий хлеб фрукты и овощи",
+      "subscrb": "ЗАвждэ ШВЬЕжы ХЛЕб, ОВОце и ВАРжыва"
+    },
+    {
+      "id": "744",
+      "name": "kupuję bułkę, twarożek, masło, paczkę soku pomidorowego, paczkę zielonej herbaty",
+      "title": "я покупаю булку, творожок, масло, пачку томатного сока, пачку зелёного чая",
+      "subscrb": "КУпую БУВку, ТВАРожек, МАСло, ПАчке СОку ПОмидоровэго, ПАчке ЗЬЕЛоней ХЕРбаты"
+    },
+    {
+      "id": "745",
+      "name": "co jeszcze?",
+      "title": "что ещё?",
+      "subscrb": "ЦО ЕЩшче?"
+    },
+    {
+      "id": "746",
+      "name": "Aга zawsze nie ma zapałek",
+      "title": "ага, всегда не хватает спичек",
+      "subscrb": "Ага зАвже нье ма запАуэк"
+    },
+    {
+      "id": "747",
+      "name": "Dlatego kupuję pudełko zapałek",
+      "title": "следовательно, я покупаю коробочку спичек",
+      "subscrb": "ДлатЕго кУпую пУдэуко запАуэк"
+    },
+    {
+      "id": "748",
+      "name": "Płacę i wychodzę",
+      "title": "я плачу и выхожу",
+      "subscrb": "пУуАцэ и выхОдже"
+    },
+    {
+      "id": "749",
+      "name": "Biorę szynkę i kiełbasę, a ty co bierzesz?",
+      "title": "я беру ветчину и колбасу, а ты что берёшь?",
+      "subscrb": "БьОрэ шЫнкэ и кЕуьбасэ, а ты цо бЬЕржэш?"
+    },
+    {
+      "id": "750",
+      "name": "Czy są Adam, Marek i Anna? Nie, brakuje Anny",
+      "title": "есть ли Адам, Марэк и Анна? нет, не хватает Анны",
+      "subscrb": "Чы сОн АДам, МАрэк и Анна? Нье, брАкуе Анны"
+    },
+    {
+      "id": "751",
+      "name": "Rodzice budują nowy dom",
+      "title": "родители строят новый дом",
+      "subscrb": "РоджИцэ бУдуйОу нОвы дом"
+    },
+    {
+      "id": "752",
+      "name": "Nie cierpimy naszego nauczyciela",
+      "title": "мы не терпим нашего учителя",
+      "subscrb": "Нье чьЕрпимы нашЕго науцЫчЭля"
+    },
+    {
+      "id": "753",
+      "name": "Nie tylko wy denerwujecie się przed zajęciami",
+      "title": "не только вы нервничаете перед занятиями",
+      "subscrb": "Нье тЫлко вы дэнэрвУйеце шьэ пшЭд зайЕнцями"
+    },
+    {
+      "id": "754",
+      "name": "Adam i Anna wkładają zakupy do koszyka",
+      "title": "Адам и Анна кладут покупки в корзину",
+      "subscrb": "АДам и Анна вклАдайон закУпы до кОшыка"
+    },
+    {
+      "id": "755",
+      "name": "Dziś kończymy zajęcia wcześnie",
+      "title": "сегодня мы заканчиваем занятия рано",
+      "subscrb": "ДжИш кОнчьимы зайЕнця вчЕшне"
+    },
+    {
+      "id": "756",
+      "name": "Adam i Marek kupują tylko wodę mineralną",
+      "title": "Адам и Марэк покупают только минеральную воду",
+      "subscrb": "АДам и МАрэк кУпую тЫлко вОду минЭралну"
+    },
+    {
+      "id": "757",
+      "name": "Lubicie robić lekcje?",
+      "title": "любите ли вы делать уроки?",
+      "subscrb": "ЛюбИцэ рОбичь лЕкцэ?"
+    },
+    {
+      "id": "758",
+      "name": "Nie mogę tego czytać. A ty możesz?",
+      "title": "я не могу этого читать. а ты можешь?",
+      "subscrb": "Нье мУгЭ тЕго чЫтач. А ты мУжэш?"
+    },
+    {
+      "id": "759",
+      "name": "Nie nadajesz się na rolę dobrego policjanta",
+      "title": "ты не подходишь на роль хорошего полицейского",
+      "subscrb": "Нье нАдайэш шьэ на рОлэ добрЭго полИцянта"
+    },
+    {
+      "id": "760",
+      "name": "Płacę i wychodzę ze sklepu",
+      "title": "Я плачу и выхожу из магазина",
+      "subscrb": "пУуАцэ и выхОдже зэ склЕпу"
+    },
+    {
+      "id": "761",
+      "name": "Dzisiaj pomożemy wam, a jutro wy pomożecie nam",
+      "title": "Сегодня мы поможем вам, а завтра вы поможете нам",
+      "subscrb": "ДжИшай помУжемы вам, а Юутро вы помУжэцэ нам"
+    },
+    {
+      "id": "762",
+      "name": "Ile lat pracujecie tutaj?",
+      "title": "Сколько лет вы работаете здесь?",
+      "subscrb": "Илэ лАт працУйэцэ тутАй?"
+    },
+    {
+      "id": "763",
+      "name": "Dzisiaj rezygnujemy z zakupów, pójdziemy do sklepu jutro",
+      "title": "Сегодня мы отказываемся от покупок, пойдём в магазин завтра",
+      "subscrb": "ДжИшай рэзыгнУйэмы з закУпув, пУйнджемы до склЕпу Юутро"
+    },
+    {
+      "id": "764",
+      "name": "Moja mama robi ciasta z mąki, jajek, masła i cukru",
+      "title": "Моя мама делает пирожные из муки, яиц, масла и сахара",
+      "subscrb": "МОя мАма рОби чЬЯста з мОнкИ, йАйэк, мАслa и цУукру"
+    },
+    {
+      "id": "765",
+      "name": "Często gramy, śpiewamy i tańczymy",
+      "title": "Мы часто играем, поём и танцуем",
+      "subscrb": "ЧЭнстo грАмы, шпьЕвамы и тАнчьымы"
+    },
+    {
+      "id": "766",
+      "name": "Mama zawsze wybiera dobre mięso",
+      "title": "Мама всегда выбирает хорошее мясо",
+      "subscrb": "МАма зАвже выбЬЕра дОбрэ мЕньсо"
+    },
+    {
+      "id": "767",
+      "name": "Z wszystkich produktów mała Kasia wybiera tylko lody, dżem i cukierki",
+      "title": "Из всех продуктов маленькая Кася выбирает только мороженое, джем и конфеты",
+      "subscrb": "З фшЫсткьых продУктув мАуа КАшя выбЬЕра тЫлко лОды, джЭм и цУукерки"
+    },
+    {
+      "id": "768",
+      "name": "Teraz idę już do pracy",
+      "title": "Сейчас я уже иду на работу",
+      "subscrb": "ТЕраз Идэ юш до прАцы"
+    },
+    {
+      "id": "769",
+      "name": "A on niech idzie do domu",
+      "title": "А он пусть идёт домой",
+      "subscrb": "А он нЬех Идже до дОму"
+    },
+    {
+      "id": "770",
+      "name": "Sergiej i Mikołaj często jeżdżą do Warszawy",
+      "title": "Сергей и Николай часто ездят в Варшаву",
+      "subscrb": "СЭргей и МикОулай чЭнсто еЖдОнь до ВаршАвый"
+    },
+    {
+      "id": "771",
+      "name": "Moja mama nie nosi dużych torebek",
+      "title": "Моя мама не носит больших сумочек",
+      "subscrb": "МОя мАма нье нОси дУужых торЭбэк"
+    },
+    {
+      "id": "772",
+      "name": "On zawsze podróżuje z kimś",
+      "title": "Он всегда путешествует вместе с кем-то",
+      "subscrb": "Он зАвже подрУжуе з кИмш"
+    },
+    {
+      "id": "773",
+      "name": "Nasz pies zawsze nosi do domu różne rzeczy",
+      "title": "Наш пёс всегда носит домой разные вещи",
+      "subscrb": "Наш пЬес зАвже нОси до дОму рУжнэ ржЭчы"
+    },
+    {
+      "id": "774",
+      "name": "Pan Kowalski leci do Krakowa",
+      "title": "Пан Ковальский летит в Краков",
+      "subscrb": "Пан КовАльский лЭци до КракОва"
+    },
+    {
+      "id": "775",
+      "name": "Od czasu do czasu uprawiam sport",
+      "title": "Время от времени я занимаюсь спортом",
+      "subscrb": "Од чАсу до чАсу упрАвьям спОрт"
+    },
+    {
+      "id": "776",
+      "name": "Często chodzimy do kina, a oni często chodzą do kawiarni",
+      "title": "Мы часто ходим в кино, а они часто ходят в кафе",
+      "subscrb": "ЧЭнстo ходзИмый до кИна, а онЫ чЭнсто ходзОнь до кавЬАрни"
+    },
+    {
+      "id": "777",
+      "name": "Ten stary autobus wozi robotników do pracy, nowe autobusy wożą",
+      "title": "Этот старый автобус ему возит рабочих на работу, возят новые автобусы",
+      "subscrb": "Тэн стАры аУтобус вОзи рОбтнИков до прАцы, нОвэ аУтобусы вОжон"
+    },
+    {
+      "id": "778",
+      "name": "Często spotykamy się z przyjaciółmi, np. jutro spotkamy się z Adamem i Anną",
+      "title": "Мы часто встречаемся с друзьями, например завтра мы встретимся с Адамом и Анной",
+      "subscrb": "ЧЭнсто спОтЫкамы шьэ з пшЫйацУуЬми, н.п. Юутро спОтЫкамы шьэ з АДамэм и АннА"
+    },
+    {
+      "id": "779",
+      "name": "Mój syn niesie, niesie i wkrótce przyniesie zakupy ze sklepu",
+      "title": "Мой сын несёт, несёт и скоро принесёт продукты из магазина",
+      "subscrb": "МУуй сын нЬесье, нЬесье и вкрУуцэ пшЫНесье закУпы зэ склЕпу"
+    },
+    {
+      "id": "780",
+      "name": "Jutro przyjdę do domu późno",
+      "title": "Я завтра приду домой поздно",
+      "subscrb": "ЮУутро пшЫйндэм до дОму пУжно"
+    },
+    {
+      "id": "781",
+      "name": "Ja wiozę z Krakowa ciastka, cukierki i czekoladę",
+      "title": "Я везу из Кракова пирожные, конфеты и шоколад",
+      "subscrb": "Я ВЬооже з КРАкова ЧЯстка, ЦУкьерки и ЧеколАндэ"
+    },
+    {
+      "id": "782",
+      "name": "Ja piszę, a moja mama czyta moje książki",
+      "title": "Я пишу, а моя мама читает мои книги",
+      "subscrb": "Я ПИшэ, а МОя МАма ЧЫта МОе КшОНшки"
+    },
+    {
+      "id": "783",
+      "name": "Wkrótce ona przeczyta wszystko",
+      "title": "Скоро она прочитает всё",
+      "subscrb": "ВКрутцэ Она ПшэЧЫта ФшЫстко"
+    },
+    {
+      "id": "784",
+      "name": "Interesujecie się muzyką, a my umiemy śpiewać",
+      "title": "Вы интересуетесь музыкой, а мы умеем петь",
+      "subscrb": "ИнтэрЭсуйЕчьЕ СЬе МУзыкум, а мы УМьемы ШПЬЕвачь"
+    },
+    {
+      "id": "785",
+      "name": "Anna jest jeszcze mała, a mówi bardzo dużo",
+      "title": "Анна ещё маленькая, а говорит очень много",
+      "subscrb": "АНна Ест ЕЩче МАуа, а МУви БАРдзо ДУжО"
+    },
+    {
+      "id": "786",
+      "name": "Moje nazwisko to Kowalski, a jakie jest wasze (dla mężczyzny)",
+      "title": "Моя фамилия Ковальский, а как ваша (мужчины) фамилия",
+      "subscrb": "МОе НАЗвиско то КОВальски, а Яке Ест ВАшэ (для мЭншчИны)"
+    },
+    {
+      "id": "787",
+      "name": "Czy pamiętacie i opowiadacie różne dowcipy",
+      "title": "Помните ли вы и рассказываете ли разные анекдоты",
+      "subscrb": "ЧЫ ПамЬЭтАчьЕ и ОпОвЬядАчьЕ РУжнэ ДОВчипы"
+    },
+    {
+      "id": "788",
+      "name": "Porozmawiam z rodzicami i zrozumiem różne rzeczy",
+      "title": "Я поговорю с родителями и пойму разные вещи",
+      "subscrb": "ПорозмАвьям з РОджИцами и ЗрозУмьем РУжнэ РжЭчи"
+    },
+    {
+      "id": "789",
+      "name": "Mój wujek projektuje domy, sklepy i kawiarnie",
+      "title": "Мой дядя проектирует дома, в магазины и кафе",
+      "subscrb": "МУй ВУйэк ПроектУйэ ДОмы, СКлепы и КавЬЯрнье"
+    },
+    {
+      "id": "790",
+      "name": "Z przyjaciółmi mogę rozmawiać o różnych rzeczach",
+      "title": "С друзьями я могу разговаривать о разных вещах",
+      "subscrb": "З ПшЫйЯцУвьми МОгэ РозмАвьачь о РУжных РжЭчах"
+    },
+    {
+      "id": "791",
+      "name": "Nigdy nie rozumiałem kobiet",
+      "title": "Никогда не понимал женщин",
+      "subscrb": "НИгды Ньэ РозУмЬялем КОбЬет"
+    },
+    {
+      "id": "792",
+      "name": "Ty studiujesz literaturę i historię",
+      "title": "ты изучаешь литературу и историю",
+      "subscrb": "ТЫ стууDЮЕш литеRАтУру и хистОRЙе"
+    },
+    {
+      "id": "793",
+      "name": "Uczę się języków obcych",
+      "title": "Я учу иностранные языки",
+      "subscrb": "УЧЭМь шЭ ЙЭнзыкОУф обХЫх"
+    },
+    {
+      "id": "794",
+      "name": "Rzadko żartujemy z kolegami",
+      "title": "мы редко шутим с коллегами",
+      "subscrb": "ЖАдко жартУЕмь з коЛЕгами"
+    },
+    {
+      "id": "795",
+      "name": "Ona zawsze prosi różne produkty",
+      "title": "она всегда просит разные продукты",
+      "subscrb": "Она завШЭ проСИ РУЖнэ продУкты"
+    },
+    {
+      "id": "796",
+      "name": "Co ona poprosi jutro",
+      "title": "что она попросит завтра",
+      "subscrb": "ЦО она попроСИ Ютро"
+    },
+    {
+      "id": "797",
+      "name": "Adam często dzwoni do Anny",
+      "title": "Адам часто звонит Анне",
+      "subscrb": "Адам ЧЭнсто джвоНи до АНны"
+    },
+    {
+      "id": "798",
+      "name": "Mój dom znajduje się niedaleko",
+      "title": "мой дом находится недалеко",
+      "subscrb": "МУй дом находЖЫЕ шЭ ниедАлекО"
+    },
+    {
+      "id": "799",
+      "name": "Oni pójdą do domu",
+      "title": "они пойдут домой",
+      "subscrb": "ОНИ ПУЙдОндо до ДОМУ"
+    },
+    {
+      "id": "800",
+      "name": "Biorę produkty i niosę je do domu",
+      "title": "беру продукты и несу их домой",
+      "subscrb": "БИОРЭ продУкты и НЬёсэ Е до ДОМУ"
+    },
+    {
+      "id": "801",
+      "name": "One wkładają zakupy do koszyka, płacą i wychodzą ze sklepu",
+      "title": "они (женщины) кладут покупки в корзину, платят и выходят из магазина",
+      "subscrb": "ОНЕ вкваДАю ЗАкупы до КОЖЫка, ПЛАЦОНь и выХОДЖОУ зэ СКЛЭпу"
+    },
+    {
+      "id": "802",
+      "name": "Kanapka",
+      "title": "бутерброд",
+      "subscrb": "КанаПка"
+    },
+    {
+      "id": "803",
+      "name": "Zupa",
+      "title": "суп",
+      "subscrb": "ЗУпа"
+    },
+    {
+      "id": "804",
+      "name": "barszcz",
+      "title": "борщ",
+      "subscrb": "БАршч"
+    },
+    {
+      "id": "805",
+      "name": "bulion",
+      "title": "бульон",
+      "subscrb": "БУльон"
+    },
+    {
+      "id": "806",
+      "name": "kapuśniak",
+      "title": "щи",
+      "subscrb": "капУсьняк"
+    },
+    {
+      "id": "807",
+      "name": "kotlet",
+      "title": "котлета",
+      "subscrb": "КОтлет"
+    },
+    {
+      "id": "808",
+      "name": "bigos",
+      "title": "бигос",
+      "subscrb": "БИгос"
+    },
+    {
+      "id": "809",
+      "name": "sałatka ze świeżych warzyw",
+      "title": "салат из свежих овощей",
+      "subscrb": "саУатка зэ ЩФЕжых вАжыф"
+    },
+    {
+      "id": "810",
+      "name": "sałatka",
+      "title": "салат",
+      "subscrb": "саУатка"
+    },
+    {
+      "id": "811",
+      "name": "schab",
+      "title": "корейка",
+      "subscrb": "схАп"
+    },
+    {
+      "id": "812",
+      "name": "orzech",
+      "title": "орех",
+      "subscrb": "Ожэх"
+    },
+    {
+      "id": "813",
+      "name": "płatki",
+      "title": "хлопья",
+      "subscrb": "ПУатки"
+    },
+    {
+      "id": "814",
+      "name": "kakao",
+      "title": "какао",
+      "subscrb": "какАо"
+    },
+    {
+      "id": "815",
+      "name": "jogurt",
+      "title": "йогурт",
+      "subscrb": "ЙОгурт"
+    },
+    {
+      "id": "816",
+      "name": "placek",
+      "title": "пирог",
+      "subscrb": "ПУацэк"
+    },
+    {
+      "id": "817",
+      "name": "jajecznica",
+      "title": "яичница",
+      "subscrb": "яйэЧнИца"
+    },
+    {
+      "id": "818",
+      "name": "naleśnik",
+      "title": "блинчик",
+      "subscrb": "налЕшьник"
+    },
+    {
+      "id": "819",
+      "name": "pieprz",
+      "title": "перец",
+      "subscrb": "ПЕпш"
+    },
+    {
+      "id": "820",
+      "name": "chrzan",
+      "title": "хрен",
+      "subscrb": "хшан"
+    },
+    {
+      "id": "821",
+      "name": "musztarda",
+      "title": "горчица",
+      "subscrb": "муштАрда"
+    },
+    {
+      "id": "822",
+      "name": "kasza",
+      "title": "каша",
+      "subscrb": "КАша"
+    },
+    {
+      "id": "823",
+      "name": "kasza gryczana",
+      "title": "крупа (гречневая)",
+      "subscrb": "КАша грычАнa"
+    },
+    {
+      "id": "824",
+      "name": "frytki",
+      "title": "картофель фри",
+      "subscrb": "ФРЫтки"
+    },
+    {
+      "id": "825",
+      "name": "kurczak",
+      "title": "цыплёнок",
+      "subscrb": "КУрчак"
+    },
+    {
+      "id": "826",
+      "name": "kura",
+      "title": "курица",
+      "subscrb": "КУра"
+    },
+    {
+      "id": "827",
+      "name": "grzyb",
+      "title": "гриб",
+      "subscrb": "Гжыб"
+    },
+    {
+      "id": "828",
+      "name": "groch",
+      "title": "горох",
+      "subscrb": "Грох"
+    },
+    {
+      "id": "829",
+      "name": "gryka",
+      "title": "гречка",
+      "subscrb": "ГРЫка"
+    },
+    {
+      "id": "830",
+      "name": "owies",
+      "title": "овес",
+      "subscrb": "Овьес"
+    },
+    {
+      "id": "831",
+      "name": "ciastko",
+      "title": "печенье",
+      "subscrb": "ЧАстко"
+    },
+    {
+      "id": "832",
+      "name": "gotować",
+      "title": "готовить",
+      "subscrb": "готОвач"
+    },
+    {
+      "id": "833",
+      "name": "gotować",
+      "title": "варить",
+      "subscrb": "готОвач"
+    },
+    {
+      "id": "834",
+      "name": "gotować wodę",
+      "title": "кипятить",
+      "subscrb": "готОвач ВОдэ"
+    },
+    {
+      "id": "835",
+      "name": "piec",
+      "title": "печь",
+      "subscrb": "ПьЕц"
+    },
+    {
+      "id": "836",
+      "name": "dusić",
+      "title": "тушить",
+      "subscrb": "ДУщичь"
+    },
+    {
+      "id": "837",
+      "name": "kroić",
+      "title": "резать",
+      "subscrb": "КРОйичь"
+    },
+    {
+      "id": "838",
+      "name": "obierać",
+      "title": "чистить",
+      "subscrb": "обьЕрач"
+    },
+    {
+      "id": "839",
+      "name": "obierać ze skórki",
+      "title": "очищать от кожуры",
+      "subscrb": "обьЕрач зэ скУрки"
+    },
+    {
+      "id": "840",
+      "name": "słodzić",
+      "title": "сладить",
+      "subscrb": "СУоджьичь"
+    },
+    {
+      "id": "841",
+      "name": "solić",
+      "title": "солить",
+      "subscrb": "СОльичь"
+    },
+    {
+      "id": "842",
+      "name": "marynować",
+      "title": "мариновать",
+      "subscrb": "марынОвач"
+    },
+    {
+      "id": "843",
+      "name": "Igor zawsze obiera warzywa",
+      "title": "Игорь всегда чистит овощи",
+      "subscrb": "Игор ЗАвшэ обьЕра вАжыва"
+    },
+    {
+      "id": "844",
+      "name": "i obieram ze skórki ziemniaki",
+      "title": "и очищаю этот кожуры картофель",
+      "subscrb": "и обьЕрам зэ скУрки зьэмнЯки"
+    },
+    {
+      "id": "845",
+      "name": "Ewa Kowalska i Anna Nowak marynują grzyby",
+      "title": "Эва Ковальска и Анна Новак маринуют грибы",
+      "subscrb": "Эва кувАльска и Анна НОвак марынУйон Гжыбы"
+    },
+    {
+      "id": "846",
+      "name": "kroisz chleb i szynkę",
+      "title": "режешь ли ты хлеб и ветчину",
+      "subscrb": "КрОишь хлеп и ШЫнькэ"
+    },
+    {
+      "id": "847",
+      "name": "nigdy nie solę zupy i nie słodzę herbaty",
+      "title": "Я никогда не солю суп и не слажу чай",
+      "subscrb": "НИгды нье СОле ЗУпы и нье СУодзэ хэрбАты"
+    },
+    {
+      "id": "848",
+      "name": "dzisiaj pieczemy ciastka z owocami",
+      "title": "сегодня мы печём пирожные с фруктами",
+      "subscrb": "ДжИщай пьечЕмы ЧАстка з овоЦАми"
+    },
+    {
+      "id": "849",
+      "name": "czy zawsze gotujecie mleko",
+      "title": "всегда ли вы кипятите молоко",
+      "subscrb": "чы ЗАвшэ готуйЕчье млЕко"
+    },
+    {
+      "id": "850",
+      "name": "moja mama smaży ziemniaki i dusi mięso",
+      "title": "моя мать жарит картофель и тушит мясо",
+      "subscrb": "мОя мАма СмАжы зьэмнЯки и ДУщи МЕньсо"
+    },
+    {
+      "id": "851",
+      "name": "przygotować",
+      "title": "приготовить",
+      "subscrb": "пшыготОвач"
+    },
+    {
+      "id": "852",
+      "name": "ugotować",
+      "title": "сварить",
+      "subscrb": "уготОвач"
+    },
+    {
+      "id": "853",
+      "name": "upiec",
+      "title": "испечь",
+      "subscrb": "Упьец"
+    },
+    {
+      "id": "854",
+      "name": "podsmażyć",
+      "title": "поджарить",
+      "subscrb": "подсмАжыть"
+    },
+    {
+      "id": "855",
+      "name": "zamarynować",
+      "title": "замариновать",
+      "subscrb": "замарынОвач"
+    },
+    {
+      "id": "856",
+      "name": "pokroić",
+      "title": "порезать",
+      "subscrb": "покрОйичь"
+    },
+    {
+      "id": "857",
+      "name": "odciąć",
+      "title": "отрезать",
+      "subscrb": "Отчёнчь"
+    },
+    {
+      "id": "858",
+      "name": "wyczyścić",
+      "title": "вычистить",
+      "subscrb": "вычЫщчичь"
+    },
+    {
+      "id": "859",
+      "name": "obrać ze skórki",
+      "title": "очистить от кожуры",
+      "subscrb": "Оброч зэ скУрки"
+    },
+    {
+      "id": "860",
+      "name": "posolić",
+      "title": "посолить",
+      "subscrb": "посОлить"
+    },
+    {
+      "id": "861",
+      "name": "barszcz ukraiński z burakami, ziemniakami i kapustą",
+      "title": "украинский борщ со свеклой, картошкой и капустой",
+      "subscrb": "бАрщ укрАиньский з буракАми зьемнякАми и капУстой"
+    },
+    {
+      "id": "862",
+      "name": "kotlet schabowy",
+      "title": "свиная отбивная",
+      "subscrb": "кОтлет схабОвы"
+    },
+    {
+      "id": "863",
+      "name": "pierogi",
+      "title": "вареники",
+      "subscrb": "пьерОги"
+    },
+    {
+      "id": "864",
+      "name": "ogórki kiszone",
+      "title": "солёные огурцы",
+      "subscrb": "огУрки кишОнэ"
+    },
+    {
+      "id": "865",
+      "name": "kawa czarna",
+      "title": "чёрный кофе",
+      "subscrb": "кАва чАрна"
+    },
+    {
+      "id": "866",
+      "name": "barszcz czerwony",
+      "title": "красный борщ",
+      "subscrb": "бАрщ чэрвОны"
+    },
+    {
+      "id": "867",
+      "name": "czysty barszcz buraczany, do którego podaje się kluski z mięsem",
+      "title": "чистый свекольный бульон, к которому подаются мучные изделия с мясной начинкой",
+      "subscrb": "чЫсты бАрщ бурачАны, до кторЭго подАе се клюсЬки з мьЕнсом"
+    },
+    {
+      "id": "868",
+      "name": "kotlety mielone",
+      "title": "котлеты из фарша",
+      "subscrb": "котлЭты мьелОнэ"
+    },
+    {
+      "id": "869",
+      "name": "paszteciki",
+      "title": "пирожки",
+      "subscrb": "паштэчИки"
+    },
+    {
+      "id": "870",
+      "name": "ogórki marynowane",
+      "title": "маринованные огурцы",
+      "subscrb": "огУрки марыновАнэ"
+    },
+    {
+      "id": "871",
+      "name": "kawa rozpuszczalna",
+      "title": "растворимый кофе",
+      "subscrb": "кАва розпущчАлна"
+    },
+    {
+      "id": "872",
+      "name": "zupa grzybowa",
+      "title": "грибной суп",
+      "subscrb": "зУпа жжыбОва"
+    },
+    {
+      "id": "873",
+      "name": "zupa jarzynowa",
+      "title": "овощной суп",
+      "subscrb": "зУпа яжыНова"
+    },
+    {
+      "id": "874",
+      "name": "zupa ogórkowa",
+      "title": "рассольник",
+      "subscrb": "зУпа огуркОва"
+    },
+    {
+      "id": "875",
+      "name": "zupa grochowa",
+      "title": "гороховый суп",
+      "subscrb": "зУпа грохОва"
+    },
+    {
+      "id": "876",
+      "name": "zupa pomidorowa",
+      "title": "томатный суп",
+      "subscrb": "зУпа помидорОва"
+    },
+    {
+      "id": "877",
+      "name": "zupa owocowa",
+      "title": "фруктовый суп",
+      "subscrb": "зУпа овочОва"
+    },
+    {
+      "id": "878",
+      "name": "kasza gryczana",
+      "title": "гречневая каша",
+      "subscrb": "кАша грычАнa"
+    },
+    {
+      "id": "879",
+      "name": "kasza ryżowa",
+      "title": "рисовая каша",
+      "subscrb": "кАша рышОва"
+    },
+    {
+      "id": "880",
+      "name": "sałatka jarzynowa",
+      "title": "овощной салат",
+      "subscrb": "саУатка яжыНова"
+    },
+    {
+      "id": "881",
+      "name": "sałatka owocowa",
+      "title": "фруктовый салат",
+      "subscrb": "саУатка овочОва"
+    },
+    {
+      "id": "882",
+      "name": "płatki owsiane",
+      "title": "овсяные хлопья",
+      "subscrb": "плУатки овсьЯнэ"
+    },
+    {
+      "id": "883",
+      "name": "płatki ryżowe",
+      "title": "рисовые хлопья",
+      "subscrb": "плУатки рышОвэ"
+    },
+    {
+      "id": "884",
+      "name": "surówka z kapusty",
+      "title": "салат из капусты",
+      "subscrb": "сурУвка з капУсты"
+    },
+    {
+      "id": "885",
+      "name": "sałatka z pomidorów",
+      "title": "салат из помидоров",
+      "subscrb": "саУатка з помидОрув"
+    },
+    {
+      "id": "886",
+      "name": "sałatki z ogórków",
+      "title": "салаты из огурцов",
+      "subscrb": "саУатки з огУркув"
+    },
+    {
+      "id": "887",
+      "name": "rosół z kury",
+      "title": "бульон из курицы",
+      "subscrb": "рОсул з кУры"
+    },
+    {
+      "id": "888",
+      "name": "rosół z mięsa",
+      "title": "бульон из мяса",
+      "subscrb": "рОсул з мьЕнса"
+    },
+    {
+      "id": "889",
+      "name": "rosół z ryby",
+      "title": "бульон из рыбы",
+      "subscrb": "рОсул з рЫбы"
+    },
+    {
+      "id": "890",
+      "name": "duszone mięso",
+      "title": "тушёное мясо",
+      "subscrb": "душОнэ мьЕнсо"
+    },
+    {
+      "id": "891",
+      "name": "smażone mięso",
+      "title": "жареное мясо",
+      "subscrb": "смажОнэ мьЕнсо"
+    },
+    {
+      "id": "892",
+      "name": "gotowane mięso",
+      "title": "варёное мясо",
+      "subscrb": "готовАнэ мьЕнсо"
+    },
+    {
+      "id": "893",
+      "name": "pieczona ryba",
+      "title": "запечённая рыба",
+      "subscrb": "пьечОна рЫба"
+    },
+    {
+      "id": "894",
+      "name": "duszona ryba",
+      "title": "тушёная рыба",
+      "subscrb": "душОна рЫба"
+    },
+    {
+      "id": "895",
+      "name": "smażona ryba",
+      "title": "жареная рыба",
+      "subscrb": "смажОна рЫба"
+    },
+    {
+      "id": "896",
+      "name": "gotowana ryba",
+      "title": "варёная рыба",
+      "subscrb": "готовАна рЫба"
+    },
+    {
+      "id": "897",
+      "name": "grzyby smażone",
+      "title": "жареные грибы",
+      "subscrb": "жжЫбы смажОнэ"
+    },
+    {
+      "id": "898",
+      "name": "grzyby marynowane",
+      "title": "маринованные грибы",
+      "subscrb": "жжЫбы марыновАнэ"
+    },
+    {
+      "id": "899",
+      "name": "śledź w marynacie",
+      "title": "селёдка в маринаде",
+      "subscrb": "щлЭч в марынАчэ"
+    },
+    {
+      "id": "900",
+      "name": "mleko gotowane",
+      "title": "кипячёное молоко",
+      "subscrb": "млЭко готовАнэ"
+    },
+    {
+      "id": "901",
+      "name": "woda gotowana",
+      "title": "кипячёная вода",
+      "subscrb": "вОда готовАна"
+    },
+    {
+      "id": "902",
+      "name": "kotlet z frytkami",
+      "title": "котлета с картофелем фри",
+      "subscrb": "кОтлет з фрыткАми"
+    },
+    {
+      "id": "903",
+      "name": "kotlet z ziemniakami",
+      "title": "котлета с картофелем",
+      "subscrb": "кОтлет з зьемнякАми"
+    },
+    {
+      "id": "904",
+      "name": "kotlet z ryżem",
+      "title": "котлета с рисом",
+      "subscrb": "кОтлет з рЫжем"
+    },
+    {
+      "id": "905",
+      "name": "naleśniki z grzybami",
+      "title": "блинчики с грибами",
+      "subscrb": "налешнИки з жжЫбАми"
+    },
+    {
+      "id": "906",
+      "name": "naleśniki z kapustą",
+      "title": "блинчики с капустой",
+      "subscrb": "налешнИки з капУстой"
+    },
+    {
+      "id": "907",
+      "name": "naleśniki z mięsem",
+      "title": "блинчики с мясом",
+      "subscrb": "налешнИки з мьЕнсом"
+    },
+    {
+      "id": "908",
+      "name": "naleśniki z serem",
+      "title": "блинчики с сыром",
+      "subscrb": "налешнИки з сЭрэм"
+    },
+    {
+      "id": "909",
+      "name": "naleśniki z dżemem",
+      "title": "блинчики с вареньем",
+      "subscrb": "налешнИки з джЭмэм"
+    },
+    {
+      "id": "910",
+      "name": "pierogi z grzybami",
+      "title": "вареники с грибами",
+      "subscrb": "пьерОги з жжЫбАми"
+    },
+    {
+      "id": "911",
+      "name": "pierogi z kapustą",
+      "title": "вареники с капустой",
+      "subscrb": "пьерОги з капУстой"
+    },
+    {
+      "id": "912",
+      "name": "pierogi z mięsem",
+      "title": "вареники с мясом",
+      "subscrb": "пьерОги з мьЕнсом"
+    },
+    {
+      "id": "913",
+      "name": "lody z orzechami",
+      "title": "мороженое с орехами",
+      "subscrb": "ЛОды з орЭхам’и"
+    },
+    {
+      "id": "914",
+      "name": "lody z owocami",
+      "title": "мороженое с фруктами",
+      "subscrb": "ЛОды з овоЦАми"
+    },
+    {
+      "id": "915",
+      "name": "kanapki z szynką",
+      "title": "бутерброды с ветчиной",
+      "subscrb": "канаПки з ШИнкон"
+    },
+    {
+      "id": "916",
+      "name": "kanapki z kiełbasą",
+      "title": "бутерброды с колбасой",
+      "subscrb": "канаПки з к’еубАсоу̃"
+    },
+    {
+      "id": "917",
+      "name": "kanapki z serem",
+      "title": "бутерброды с сыром",
+      "subscrb": "канаПки з СЭрэм"
+    },
+    {
+      "id": "918",
+      "name": "herbata z cytryną",
+      "title": "чай с лимоном",
+      "subscrb": "хэрБАта з цытРЫноу̃"
+    },
+    {
+      "id": "919",
+      "name": "herbata z cukrem",
+      "title": "чай с сахаром",
+      "subscrb": "хэрБАта з ЦУкрэ́м"
+    },
+    {
+      "id": "920",
+      "name": "kawa z mlekiem",
+      "title": "кофе с молоком",
+      "subscrb": "КАва з МЛЭк’ем"
+    },
+    {
+      "id": "921",
+      "name": "kawa z cukrem",
+      "title": "кофе с сахаром",
+      "subscrb": "КАва з ЦУкрэ́м"
+    },
+    {
+      "id": "922",
+      "name": "posiłek",
+      "title": "приём пищи",
+      "subscrb": "поЩИуэк"
+    },
+    {
+      "id": "923",
+      "name": "danie",
+      "title": "блюдо",
+      "subscrb": "ДАне"
+    },
+    {
+      "id": "924",
+      "name": "przekąska",
+      "title": "закуска",
+      "subscrb": "пшэКОНска"
+    },
+    {
+      "id": "925",
+      "name": "dodatek",
+      "title": "гарнир",
+      "subscrb": "доДАтэк"
+    },
+    {
+      "id": "926",
+      "name": "śniadanie",
+      "title": "завтрак",
+      "subscrb": "шняДАне"
+    },
+    {
+      "id": "927",
+      "name": "obiad",
+      "title": "обед",
+      "subscrb": "Об’ят"
+    },
+    {
+      "id": "928",
+      "name": "podwieczorek",
+      "title": "полдник",
+      "subscrb": "подв’еЧОрэк"
+    },
+    {
+      "id": "929",
+      "name": "kolacja",
+      "title": "ужин",
+      "subscrb": "коЛАц’а"
+    },
+    {
+      "id": "930",
+      "name": "budzić się",
+      "title": "просыпаться",
+      "subscrb": "БУджичь с’э̃"
+    },
+    {
+      "id": "931",
+      "name": "dieta",
+      "title": "диета",
+      "subscrb": "ДЬЕта"
+    },
+    {
+      "id": "932",
+      "name": "menu",
+      "title": "меню",
+      "subscrb": "мэНЮ"
+    },
+    {
+      "id": "933",
+      "name": "wyglądać",
+      "title": "выглядеть",
+      "subscrb": "выгЛОндать"
+    },
+    {
+      "id": "934",
+      "name": "starać się",
+      "title": "стараться",
+      "subscrb": "СТАрочь с’э̃"
+    },
+    {
+      "id": "935",
+      "name": "niedziela",
+      "title": "воскресенье",
+      "subscrb": "н’еДЬЕля"
+    },
+    {
+      "id": "936",
+      "name": "cebula",
+      "title": "цибуля",
+      "subscrb": "цэБУля"
+    },
+    {
+      "id": "937",
+      "name": "osobno",
+      "title": "отдельно",
+      "subscrb": "оСОбно"
+    },
+    {
+      "id": "938",
+      "name": "naturalny",
+      "title": "натуральный",
+      "subscrb": "натуРАЛны"
+    },
+    {
+      "id": "939",
+      "name": "naturalny",
+      "title": "естественный",
+      "subscrb": "натуРАЛны"
+    },
+    {
+      "id": "940",
+      "name": "wieczór",
+      "title": "вечер",
+      "subscrb": "ВЬЕчур"
+    },
+    {
+      "id": "941",
+      "name": "już pora",
+      "title": "уже пора",
+      "subscrb": "Юш ПОра"
+    },
+    {
+      "id": "942",
+      "name": "czas",
+      "title": "время",
+      "subscrb": "Час"
+    },
+    {
+      "id": "943",
+      "name": "przestrzegać",
+      "title": "соблюдать",
+      "subscrb": "пшэшЧТРЗЭгачь"
+    },
+    {
+      "id": "944",
+      "name": "gotować",
+      "title": "готовить",
+      "subscrb": "гоТОвачь"
+    },
+    {
+      "id": "945",
+      "name": "przygotowywać",
+      "title": "приготавливать",
+      "subscrb": "пшиготоВЫвачь"
+    },
+    {
+      "id": "946",
+      "name": "zdrowy",
+      "title": "полезный",
+      "subscrb": "ЗДРОвы"
+    },
+    {
+      "id": "947",
+      "name": "zapraszać",
+      "title": "приглашать",
+      "subscrb": "заПРАшачь"
+    },
+    {
+      "id": "948",
+      "name": "mieszkać",
+      "title": "жить",
+      "subscrb": "М’Ешкачь"
+    },
+    {
+      "id": "949",
+      "name": "zamieszkiwać",
+      "title": "проживать",
+      "subscrb": "заМ’Ешкивачь"
+    },
+    {
+      "id": "950",
+      "name": "ponieważ",
+      "title": "потому что",
+      "subscrb": "поН’Еваш"
+    },
+    {
+      "id": "951",
+      "name": "w niedzielę menu rodziny Kowalskich wygląda następująco",
+      "title": "в воскресенье меню семьи Ковальских выглядит следующим образом",
+      "subscrb": "в н’еДЬЕле мэНЮ родЖИнэ коВАльских выгЛОнда настэмпуйОНцо"
+    },
+    {
+      "id": "952",
+      "name": "na śniadanie tam Piotr pani Ewa i Kasia Kowalscy jedzą różne dania",
+      "title": "на завтрак там Пётр пани Эва и Кася Ковальский едят разные блюда",
+      "subscrb": "на шняДАне там ПЁтр пАни Эва и КАся коВАльски Едзоу рУжнэ ДАне"
+    },
+    {
+      "id": "953",
+      "name": "ponieważ oni wstają o różnych porach",
+      "title": "потому что они встают в разное время",
+      "subscrb": "поН’Еваж Они вСТАю о рУжных ПОрАх"
+    },
+    {
+      "id": "954",
+      "name": "Ewa przestrzega diety",
+      "title": "Эва соблюдает диету",
+      "subscrb": "Эва пшэшЧТРЗЭга ДЬЕти"
+    },
+    {
+      "id": "955",
+      "name": "Marian i pan Stanisław mieszkają osobno",
+      "title": "Мариан и пан Станислав живут отдельно",
+      "subscrb": "МАРьян и пан станиСЛАф м’ешКАюн оСОбно"
+    },
+    {
+      "id": "956",
+      "name": "ale na obiad oni przychodzą do pani Ewy",
+      "title": "Но на обед они приходят к пани Эви",
+      "subscrb": "Аля на Об’ят ОНИ пшыхОДзун до пАни Эвы"
+    },
+    {
+      "id": "957",
+      "name": "Marian uprawia sport i stara się jeść tylko naturalne zdrowe produkty",
+      "title": "Мариан занимается спортом и старается есть только натуральные полезные продукты",
+      "subscrb": "МАРьян упРАв’а спорт и СТАроч с’Э ещь ТЫлько натуРАЛнэ ЗДРОвэ продуКты"
+    },
+    {
+      "id": "958",
+      "name": "na obiad w niedzielę pani Ewa gotuje kilka przekąsek",
+      "title": "на обед в воскресенье пани Эва готовит несколько закусок",
+      "subscrb": "на Об’ят в н’еДЬЕле пАни Эва гоТУйэ КИлька пшэКОНсек"
+    },
+    {
+      "id": "959",
+      "name": "podwieczorek je tylko Kasia",
+      "title": "полудник ест только Кася",
+      "subscrb": "подв’еЧОрэк Е тЫлько КАся"
+    },
+    {
+      "id": "960",
+      "name": "Marian nie je kolacji u matki, ponieważ wieczorem w niedzielę często zapraszają przyjaciół",
+      "title": "Мариан не ест ужин у матери поскольку вечером в воскресенье часто приглашают друзей",
+      "subscrb": "МАрьян не Е колАц’и у мАтки, понЕваж вечОрем в недзЕл’он чЭнсто запрАшаён пшЫйЯчул’"
+    },
+    {
+      "id": "961",
+      "name": "A pan Stanisław ogląda telewizję do wieczora i je kolację razem z rodziną",
+      "title": "а Пан Станислав смотрит телевизор до вечера и ест ужин вместе с семьёй",
+      "subscrb": "а пАн СтанИсуав оглЁнда телевИзиё до вечОра и Е колАц’е рАзэм з родзИнОн"
+    },
+    {
+      "id": "962",
+      "name": "porcja",
+      "title": "порция",
+      "subscrb": "пОртся"
+    },
+    {
+      "id": "963",
+      "name": "podawać",
+      "title": "подавать",
+      "subscrb": "подАвач’"
+    },
+    {
+      "id": "964",
+      "name": "dodać",
+      "title": "добавить",
+      "subscrb": "дОдач’"
+    },
+    {
+      "id": "965",
+      "name": "podgrzany",
+      "title": "разогретый",
+      "subscrb": "подгжАны"
+    },
+    {
+      "id": "966",
+      "name": "polać",
+      "title": "полить",
+      "subscrb": "пОлач’"
+    },
+    {
+      "id": "967",
+      "name": "kawałek",
+      "title": "кусок",
+      "subscrb": "кавАуэк"
+    },
+    {
+      "id": "968",
+      "name": "smażony karp",
+      "title": "жареный карп",
+      "subscrb": "смАжоны кАрп"
+    },
+    {
+      "id": "969",
+      "name": "karpia oczyścić, umyć, pokroić na porcje, posolić",
+      "title": "карпооочистить помыть порезать на порции посолить",
+      "subscrb": "кАрп’а очЫсч’ич’, Умыч’, покрОич’ на пОрц’е, посОлич’"
+    },
+    {
+      "id": "970",
+      "name": "kawałki ryby kłaść na rozgrzany olej roślinny i smażyć",
+      "title": "куски рыбы класть на разогретое растительное масло и жарить",
+      "subscrb": "кавАу’ки рЫбы куУащь на розгржАны Ол’эй рошлИнны и смАжыч’"
+    },
+    {
+      "id": "971",
+      "name": "osobno podać ziemniaki i sałatę z surowych warzyw",
+      "title": "отдельно подать картофель и салат из сырых овощей",
+      "subscrb": "осОбно подАчь жэмнЯки и сауАтэ з сурОвыхь вАжыф"
+    },
+    {
+      "id": "972",
+      "name": "ziemniaki gotowane",
+      "title": "вареный картофель",
+      "subscrb": "жэмнЯки готувАнэ"
+    },
+    {
+      "id": "973",
+      "name": "ziemniaki obrać, umyć, pokroić",
+      "title": "картофель очистить помыть порезать",
+      "subscrb": "жэмнЯки Обрач’, Умыч’, покрОич’"
+    },
+    {
+      "id": "974",
+      "name": "wkładać do wrzącej wody, gotować na dużym ogniu",
+      "title": "класть в кипящую воду варить на сильном огне",
+      "subscrb": "вклАдачь до врЖОнцей вОды, готОвачь на дУжым Огню"
+    },
+    {
+      "id": "975",
+      "name": "polać masłem",
+      "title": "полить маслом",
+      "subscrb": "пОлач’ мАсвэм"
+    },
+    {
+      "id": "976",
+      "name": "podawać do mięsa i ryby",
+      "title": "подавать к мясу и рыбе",
+      "subscrb": "подАвачь до мЕнса и рЫбы"
+    },
+    {
+      "id": "977",
+      "name": "sałatka z różnych surowych warzyw",
+      "title": "салат из разных сырых овощей",
+      "subscrb": "сауАтка з рУжных сурОвыхь вАжыф"
+    },
+    {
+      "id": "978",
+      "name": "warzywa umyć i obrać",
+      "title": "овощи помыть и почистить",
+      "subscrb": "вАжыва Умыч’ и Обрач’"
+    },
+    {
+      "id": "979",
+      "name": "pokroić na kawałki",
+      "title": "порезать на куски",
+      "subscrb": "покрОич’ на кавАу’ки"
+    },
+    {
+      "id": "980",
+      "name": "dodać olej roślinny, cukier i posolić",
+      "title": "добавить растительное масло сахар и посолить",
+      "subscrb": "дОдачь Ол’эй рошлИнны, цУкер и посОлич’"
+    },
+    {
+      "id": "981",
+      "name": "restauracja",
+      "title": "ресторан",
+      "subscrb": "рестоУра́цйа"
+    },
+    {
+      "id": "982",
+      "name": "bar",
+      "title": "бар",
+      "subscrb": "бар"
+    },
+    {
+      "id": "983",
+      "name": "kawiarnia",
+      "title": "кафе",
+      "subscrb": "кавЯрня"
+    },
+    {
+      "id": "984",
+      "name": "stołówka",
+      "title": "столовая",
+      "subscrb": "стоУвка"
+    },
+    {
+      "id": "985",
+      "name": "rachunek",
+      "title": "счёт",
+      "subscrb": "раху́нек"
+    },
+    {
+      "id": "986",
+      "name": "pieniądze",
+      "title": "деньги",
+      "subscrb": "пеньОндзэ"
+    },
+    {
+      "id": "987",
+      "name": "reszta",
+      "title": "сдача",
+      "subscrb": "Рэшта"
+    },
+    {
+      "id": "988",
+      "name": "coś do picia",
+      "title": "что-нибудь из напитков",
+      "subscrb": "цось до пИ́ча"
+    },
+    {
+      "id": "989",
+      "name": "na piwo",
+      "title": "на чай (букв. «на пиво»)",
+      "subscrb": "на пИ́во"
+    },
+    {
+      "id": "990",
+      "name": "Dobry wieczór",
+      "title": "Добрый вечер",
+      "subscrb": "до́бры вЕ́чур"
+    },
+    {
+      "id": "991",
+      "name": "Dobry wieczór, proszę menu",
+      "title": "Добрый вечер прошу меню",
+      "subscrb": "до́бры вЕ́чур, прОшэ мэнЮ"
+    },
+    {
+      "id": "992",
+      "name": "proszę słuchamy pana/pani",
+      "title": "пожалуйста слушаем пана/панно",
+      "subscrb": "прОшэ слУхаме пАна / пАни"
+    },
+    {
+      "id": "993",
+      "name": "smacznego",
+      "title": "приятного аппетита",
+      "subscrb": "смачнЭ́го"
+    },
+    {
+      "id": "994",
+      "name": "dziękuję wzajemnie",
+      "title": "спасибо взаимно",
+      "subscrb": "дженкУе взаимне"
+    },
+    {
+      "id": "995",
+      "name": "filiżanka",
+      "title": "чашечка",
+      "subscrb": "филишАнка"
+    },
+    {
+      "id": "996",
+      "name": "danie",
+      "title": "блюдо",
+      "subscrb": "дА́не"
+    },
+    {
+      "id": "997",
+      "name": "kieliszek",
+      "title": "рюмка",
+      "subscrb": "келИ́шэк"
+    },
+    {
+      "id": "998",
+      "name": "serwetka",
+      "title": "салфетка",
+      "subscrb": "сервЭ́тка"
+    },
+    {
+      "id": "999",
+      "name": "spodek",
+      "title": "блюдце",
+      "subscrb": "спОдэк"
+    },
+    {
+      "id": "1000",
+      "name": "łyżeczka",
+      "title": "чайная ложечка",
+      "subscrb": "Уиже́чка"
+    },
+    {
+      "id": "1001",
+      "name": "szklanka",
+      "title": "стакан",
+      "subscrb": "шклАнка"
+    },
+    {
+      "id": "1002",
+      "name": "łyżka",
+      "title": "ложка",
+      "subscrb": "Уи́шка"
+    },
+    {
+      "id": "1003",
+      "name": "talerz",
+      "title": "тарелка",
+      "subscrb": "тА́лэш"
+    },
+    {
+      "id": "1004",
+      "name": "nóż",
+      "title": "нож",
+      "subscrb": "нУш"
+    },
+    {
+      "id": "1005",
+      "name": "widelec",
+      "title": "вилка",
+      "subscrb": "видЭ́лец"
+    },
+    {
+      "id": "1006",
+      "name": "zupę je się łyżką",
+      "title": "суп кушают ложкой",
+      "subscrb": "зУ́пэн е ше Уи́шкон"
+    },
+    {
+      "id": "1007",
+      "name": "kawę pije się z filiżanki",
+      "title": "кофе пьют с чашечки",
+      "subscrb": "кА́вэн пИе ше з филишАнки"
+    },
+    {
+      "id": "1008",
+      "name": "kotlety je się widelcem",
+      "title": "котлеты кушают вилкой",
+      "subscrb": "котлЭ́ты е ше видЭ́льцем"
+    },
+    {
+      "id": "1009",
+      "name": "herbatę pije się z filiżanki",
+      "title": "чай пьют из чашки",
+      "subscrb": "хэрбА́тэн пИе ше з филишАнки"
+    },
+    {
+      "id": "1010",
+      "name": "kiełbasę kroi się nożem",
+      "title": "колбаску режут ножом",
+      "subscrb": "кеубА́сэн крОи ше нО́жем"
+    },
+    {
+      "id": "1011",
+      "name": "sok pije się przez słomkę",
+      "title": "сок пьют из трубочки",
+      "subscrb": "сок пИе ше пшрэ́с слО́мкэ"
+    },
+    {
+      "id": "1012",
+      "name": "mały",
+      "title": "маленький",
+      "subscrb": "мА́уый"
+    },
+    {
+      "id": "1013",
+      "name": "ciemny",
+      "title": "тёмный",
+      "subscrb": "чЕ́мны"
+    },
+    {
+      "id": "1014",
+      "name": "zimny",
+      "title": "холодный",
+      "subscrb": "жИ́мны"
+    },
+    {
+      "id": "1015",
+      "name": "słodki",
+      "title": "сладкий",
+      "subscrb": "слО́тки"
+    },
+    {
+      "id": "1016",
+      "name": "francuski",
+      "title": "слоёный",
+      "subscrb": "францУ́ски"
+    },
+    {
+      "id": "1017",
+      "name": "duży",
+      "title": "большой",
+      "subscrb": "дУ́жы"
+    },
+    {
+      "id": "1018",
+      "name": "jasny",
+      "title": "светлый",
+      "subscrb": "Я́сны"
+    },
+    {
+      "id": "1019",
+      "name": "gorący",
+      "title": "горячий",
+      "subscrb": "горО́нцы"
+    },
+    {
+      "id": "1020",
+      "name": "kwaśny",
+      "title": "кислый",
+      "subscrb": "кфА́шны"
+    },
+    {
+      "id": "1021",
+      "name": "okropny",
+      "title": "ужасный",
+      "subscrb": "окрО́пны"
+    },
+    {
+      "id": "1022",
+      "name": "niedobry",
+      "title": "нехороший",
+      "subscrb": "нЕдобры"
+    },
+    {
+      "id": "1023",
+      "name": "nie bardzo",
+      "title": "не очень",
+      "subscrb": "нЕ бА́рдзо"
+    },
+    {
+      "id": "1024",
+      "name": "bardzo dobry",
+      "title": "очень хороший",
+      "subscrb": "бА́рдзо дО́бры"
+    },
+    {
+      "id": "1025",
+      "name": "smaczny",
+      "title": "вкусный",
+      "subscrb": "смА́чны"
+    },
+    {
+      "id": "1026",
+      "name": "piękny",
+      "title": "прекрасный",
+      "subscrb": "пЕ́нкны"
+    },
+    {
+      "id": "1027",
+      "name": "doskonały",
+      "title": "превосходный",
+      "subscrb": "доскОнА́уый"
+    },
+    {
+      "id": "1028",
+      "name": "za duży",
+      "title": "слишком большой",
+      "subscrb": "за дУ́жы"
+    },
+    {
+      "id": "1029",
+      "name": "za mały",
+      "title": "слишком маленький",
+      "subscrb": "за мА́уый"
+    },
+    {
+      "id": "1030",
+      "name": "jak się panu/pani podoba? smaczny?",
+      "title": "как вам нравится. вкусный ли",
+      "subscrb": "Як ше пА́ну/пА́ни подО́ба? смА́чны?"
+    },
+    {
+      "id": "1031",
+      "name": "idziemy do ciebie",
+      "title": "мы идём к тебе",
+      "subscrb": "иджЕ́мы до чЕ́бье"
+    },
+    {
+      "id": "1032",
+      "name": "jego zawsze spotykam w sklepie spożywczym",
+      "title": "его я всегда встречаю в продовольственном магазине",
+      "subscrb": "Е́го зА́вшэ спотЫ́кам в склЕ́пье спожЫвчым"
+    },
+    {
+      "id": "1033",
+      "name": "spotykam go w sklepie, ale nie ją",
+      "title": "я встречаю в магазине его но не её",
+      "subscrb": "спотЫ́кам го в склЕ́пье, А́ле нЕ йО̃н"
+    },
+    {
+      "id": "1034",
+      "name": "kogo spotykasz w sklepie? — jego",
+      "title": "кого встречаешь в магазине - его",
+      "subscrb": "кО́го спотЫ́каш в склЕ́пье? — Е́го"
+    },
+    {
+      "id": "1035",
+      "name": "idziemy do niego a potem do niej",
+      "title": "мы идём к нему а потом к ней",
+      "subscrb": "иджЕ́мы до нЕ́го а пО́тэм до нЕй"
+    },
+    {
+      "id": "1036",
+      "name": "smacznego. dziękuję wzajemnie",
+      "title": "приятного аппетита. спасибо взаимно",
+      "subscrb": "смачнЭ́го. джэнкУе взаимне"
+    },
+    {
+      "id": "1037",
+      "name": "dieta – to herbata bez cukru, kawa bez mleka i kotlety bez soli",
+      "title": "диета - это чай без сахара кофе без молока и котлеты без соли",
+      "subscrb": "дьЕ́та — то хэрбА́та бэз цУ́кру, кА́ва бэз млЕ́ка и котлЕ́ты бэз сО́ли"
+    },
+    {
+      "id": "1038",
+      "name": "piję sok pomarańczowy z nowej szklanki",
+      "title": "Я пью апельсиновый сок из нового стакана",
+      "subscrb": "пИ́йе сок помаранчО́вый з нО́вей шклАнки"
+    },
+    {
+      "id": "1039",
+      "name": "przepraszam, proszę mi dać sól i musztardę",
+      "title": "извините дайте мне пожалуйста соль и горчицу",
+      "subscrb": "пшэпрашАм, прОшэ ми дач сУль и муштА́рдэ"
+    },
+    {
+      "id": "1040",
+      "name": "ta sałatka z kapusty jest za słona",
+      "title": "этот салат из капусты слишком солёный",
+      "subscrb": "та савА́тка з капУ́сты ест за слО́на"
+    },
+    {
+      "id": "1041",
+      "name": "swój",
+      "title": "свой",
+      "subscrb": "SWуЙ"
+    },
+    {
+      "id": "1042",
+      "name": "swoja",
+      "title": "своя",
+      "subscrb": "SWO-я"
+    },
+    {
+      "id": "1043",
+      "name": "swoje",
+      "title": "своё",
+      "subscrb": "SWО-е"
+    },
+    {
+      "id": "1044",
+      "name": "kochać",
+      "title": "любить",
+      "subscrb": "KО-хачь"
+    },
+    {
+      "id": "1045",
+      "name": "lubić",
+      "title": "нравиться",
+      "subscrb": "LУ-бичь"
+    },
+    {
+      "id": "1046",
+      "name": "Tata kocha mamę",
+      "title": "Папа любит маму",
+      "subscrb": "TА-та KО-ха МА-мэ"
+    },
+    {
+      "id": "1047",
+      "name": "Mama kocha tatę",
+      "title": "Мама любит папу",
+      "subscrb": "MА-ма KО-ха TА-тэ"
+    },
+    {
+      "id": "1048",
+      "name": "Tacie podobają się banany",
+      "title": "Папе нравятся бананы",
+      "subscrb": "TА-че PО-да-бЯй ШЬЕ BА-на-ны"
+    },
+    {
+      "id": "1049",
+      "name": "Mamie banany się nie podobają",
+      "title": "Маме бананы не нравятся",
+      "subscrb": "MА-ме BА-на-ны ШЬЕ НЬЕ PО-да-бЯй"
+    },
+    {
+      "id": "1050",
+      "name": "Tata kocha banany a mama ich nie lubi",
+      "title": "Папа любит бананы, а мать их не любит",
+      "subscrb": "TА-та KО-ха BА-на-ны а MА-ма их НЬЕ LУ-бь"
+    },
+    {
+      "id": "1051",
+      "name": "Wacław lubi Marię i Annę Kowalskie",
+      "title": "Васе нравится Мариан и Анна Ковальские",
+      "subscrb": "VА-цлав LУ-бь МА-ри-Э й АН-нэ KО-вал-ськье"
+    },
+    {
+      "id": "1052",
+      "name": "Wacław nie lubi Romy bo Roma też lubi Magdę",
+      "title": "Вася не любит Рому, потому что Рома тоже любит Магду",
+      "subscrb": "VА-цлав НЬЕ LУ-бь РО-мы бо РО-ма ТЭШ LУ-бь MА-гдь"
+    },
+    {
+      "id": "1053",
+      "name": "Anna kocha mamę",
+      "title": "Анна любит маму",
+      "subscrb": "АН-на KО-ха МА-мэ"
+    },
+    {
+      "id": "1054",
+      "name": "Ona kocha tatę",
+      "title": "Она любит папу",
+      "subscrb": "О-на KО-ха ТА-тэ"
+    },
+    {
+      "id": "1055",
+      "name": "Anna lubi ciastka, lody i cukierki",
+      "title": "Анна любит пирожные, мороженое и конфеты",
+      "subscrb": "АН-на LУ-бь ЧЯС-тка ЛО-ды й ЦУ-кьэр-ки"
+    },
+    {
+      "id": "1056",
+      "name": "Ona lubi swojego pieska",
+      "title": "Она любит свою собачку",
+      "subscrb": "О-на LУ-бь SWО-во-го ПЬЕС-ка"
+    },
+    {
+      "id": "1057",
+      "name": "Ona lubi chodzić na basen",
+      "title": "Она любит ходить в бассейн",
+      "subscrb": "О-на LУ-бь ХО-джичь на BА-сен"
+    },
+    {
+      "id": "1058",
+      "name": "Anna lubi swoje koleżanki",
+      "title": "Анна любит своих подружек",
+      "subscrb": "АН-на LУ-бь SWО-е КО-лЕ-жан-ки"
+    },
+    {
+      "id": "1059",
+      "name": "Anna czyta książki",
+      "title": "Анна читает книжки",
+      "subscrb": "АН-на ЧЫ-та КНЬОНШ-ки"
+    },
+    {
+      "id": "1060",
+      "name": "Anna kocha swojego dziadka",
+      "title": "Анна любит своего дедушку",
+      "subscrb": "АН-на KО-ха SWО-во-го ДЬЯД-ка"
+    },
+    {
+      "id": "1061",
+      "name": "Ona kocha swojego brata",
+      "title": "Она любит своего брата",
+      "subscrb": "О-на KО-ха SWО-во-го БРА-та"
+    },
+    {
+      "id": "1062",
+      "name": "Widzę, że książka leży tutaj",
+      "title": "Я вижу, что книга лежит здесь",
+      "subscrb": "ВИ-дже ШЬЕ КНЬОНШ-ка ЛЕ-жы ТУ-тай"
+    },
+    {
+      "id": "1063",
+      "name": "Widzę, że tu leży",
+      "title": "Я вижу, что здесь лежит",
+      "subscrb": "ВИ-дже ШЬЕ ТУ ЛЕ-жы"
+    },
+    {
+      "id": "1064",
+      "name": "Co tu leży",
+      "title": "Что здесь лежит",
+      "subscrb": "ЦО ТУ ЛЕ-жы"
+    },
+    {
+      "id": "1065",
+      "name": "Wiem, że ty kochasz",
+      "title": "Я знаю, что ты любишь",
+      "subscrb": "ВЬЕМ ШЬЕ ТЫ КО-хашь"
+    },
+    {
+      "id": "1066",
+      "name": "Co ty kochasz",
+      "title": "Что ты любишь",
+      "subscrb": "ЦО ТЫ КО-хашь"
+    },
+    {
+      "id": "1067",
+      "name": "Wiem, że ty kochasz banany",
+      "title": "Я знаю, что ты любишь бананы",
+      "subscrb": "ВЬЕМ ШЬЕ ТЫ КО-хашь BА-на-ны"
+    },
+    {
+      "id": "1068",
+      "name": "Pamiętam, że Anna kocha",
+      "title": "Я помню, что любит Анна",
+      "subscrb": "ПА-мЬЕМ-там ШЬЕ АН-на KО-ха"
+    },
+    {
+      "id": "1069",
+      "name": "Co kocha Anna",
+      "title": "Что любит Анна",
+      "subscrb": "ЦО КО-ха АН-на"
+    },
+    {
+      "id": "1070",
+      "name": "Pamiętam, że Adam może przygotować",
+      "title": "Я помню, что может приготовить Адам",
+      "subscrb": "ПА-мЬЕМ-там ШЬЕ АДам МО-же ПШЫ-гот-ТО-вать"
+    },
+    {
+      "id": "1071",
+      "name": "Co może przygotować Adam",
+      "title": "Что может приготовить Адам",
+      "subscrb": "ЦО МО-же ПШЫ-гот-ТО-вать АДам"
+    },
+    {
+      "id": "1072",
+      "name": "Pamiętam, że Anna to lubi",
+      "title": "Я помню, что Анна это любит",
+      "subscrb": "ПА-мЬЕМ-там ШЬЕ АН-на ТО ЛУ-бь"
+    },
+    {
+      "id": "1073",
+      "name": "Pamiętam, że Adam może przygotować zupę",
+      "title": "Я помню, что Адам может приготовить суп",
+      "subscrb": "ПА-мЬЕМ-там ШЬЕ АДам МО-же ПШЫ-гот-ТО-вать ЗУ-пэ"
+    },
+    {
+      "id": "1074",
+      "name": "Rozumiem, że pan Marek opowiada dowcipy",
+      "title": "Я понимаю, что пан Марэк рассказывает анекдоты",
+      "subscrb": "РО-зу-ЕМ ШЬЕ ПАН МА-рэк О-по-вЯ-да ДО-вчип-ы"
+    },
+    {
+      "id": "1075",
+      "name": "Rozumiem, że mówi pan Marek",
+      "title": "Я понимаю, что говорит пан Марек",
+      "subscrb": "РО-зу-ЕМ ШЬЕ МУ-ви ПАН МА-рэк"
+    },
+    {
+      "id": "1076",
+      "name": "Widzę, że pies je",
+      "title": "Я вижу, что ест собака",
+      "subscrb": "ВИ-дже ШЬЕ ПЬЕС ЙЕ"
+    },
+    {
+      "id": "1077",
+      "name": "Co je pies",
+      "title": "Что ест собака",
+      "subscrb": "ЦО ЙЕ ПЬЕС"
+    },
+    {
+      "id": "1078",
+      "name": "Widzę, że pies je mięso",
+      "title": "Я вижу, что собака ест мясо",
+      "subscrb": "ВИ-дже ШЬЕ ПЬЕС ЙЕ МЬЕН-со"
+    },
+    {
+      "id": "1079",
+      "name": "Wiem, że tam Nowak czyta książkę",
+      "title": "Я знаю, что там Новак читает книгу",
+      "subscrb": "ВЬЕМ ШЬЕ ТАМ НО-вак ЧЫ-та КНЬОНШ-ку"
+    },
+    {
+      "id": "1080",
+      "name": "Wiem, że czyta pan Nowak",
+      "title": "Я знаю, что читает пан Новак",
+      "subscrb": "ВЬЕМ ШЬЕ ЧЫ-та ПАН НО-вак"
+    },
+    {
+      "id": "1081",
+      "name": "Co czyta pan Nowak",
+      "title": "Что читает пан Новак",
+      "subscrb": "ЦО ЧЫ-та ПАН НО-вак"
+    },
+    {
+      "id": "1082",
+      "name": "Wiem, że Anna umie",
+      "title": "Я знаю, что умеет Анна",
+      "subscrb": "ВЬЕМ ШЬЕ АН-на У-мЬЕ"
+    },
+    {
+      "id": "1083",
+      "name": "Co umie Anna",
+      "title": "Что умеет Анна",
+      "subscrb": "ЦО У-мЬЕ АН-на"
+    },
+    {
+      "id": "1084",
+      "name": "Wiem, że Anna umie śpiewać",
+      "title": "Я знаю, что Анна умеет петь",
+      "subscrb": "ВЬЕМ ШЬЕ АН-на У-мЬЕ ШПЬЕ-вачь"
+    },
+    {
+      "id": "1085",
+      "name": "wiedzieć",
+      "title": "ведать",
+      "subscrb": "VYEDжетЬ"
+    },
+    {
+      "id": "1086",
+      "name": "znać",
+      "title": "знать",
+      "subscrb": "ЗНАчь"
+    },
+    {
+      "id": "1087",
+      "name": "tak, ja go znam, on jest nauczycielem",
+      "title": "да я его знаю, он преподаватель",
+      "subscrb": "ТАК, я ГО знам, он Ест наУчытЕлем"
+    },
+    {
+      "id": "1088",
+      "name": "dobrze znam tę dziewczynę",
+      "title": "я хорошо знаю эту девушку",
+      "subscrb": "ДОбже знам ТЭ дЬЕвчинэ"
+    },
+    {
+      "id": "1089",
+      "name": "ona jest bardzo ładna",
+      "title": "она очень симпатичная",
+      "subscrb": "Она Ест БАРдзо УАДна"
+    },
+    {
+      "id": "1090",
+      "name": "wiesz, jaka to dziewczyna?",
+      "title": "знаешь ли ты какая это девушка",
+      "subscrb": "ВЬЕШ, Яка то дЬЕвчинА?"
+    },
+    {
+      "id": "1091",
+      "name": "tak, wiem",
+      "title": "да я знаю",
+      "subscrb": "ТАК, ВЬЕМ"
+    },
+    {
+      "id": "1092",
+      "name": "ona jest bardzo ładna",
+      "title": "она очень симпатичная",
+      "subscrb": "Она Ест БАРдзо УАДна"
+    },
+    {
+      "id": "1093",
+      "name": "Rosjanin",
+      "title": "русский",
+      "subscrb": "РОшЯнин"
+    },
+    {
+      "id": "1094",
+      "name": "Polka",
+      "title": "полька",
+      "subscrb": "ПОЛка"
+    },
+    {
+      "id": "1095",
+      "name": "niedawno",
+      "title": "недавно",
+      "subscrb": "НЬЕДавно"
+    },
+    {
+      "id": "1096",
+      "name": "poczta",
+      "title": "почта",
+      "subscrb": "ПОчта"
+    },
+    {
+      "id": "1097",
+      "name": "jak",
+      "title": "как",
+      "subscrb": "ЯК"
+    },
+    {
+      "id": "1098",
+      "name": "przychodzić",
+      "title": "приходить",
+      "subscrb": "ПшыхОджичь"
+    },
+    {
+      "id": "1099",
+      "name": "pytanie",
+      "title": "вопрос",
+      "subscrb": "ПЫтаньЕ"
+    },
+    {
+      "id": "1100",
+      "name": "zadawać",
+      "title": "задавать",
+      "subscrb": "ЗадавАчь"
+    },
+    {
+      "id": "1101",
+      "name": "słabo",
+      "title": "слабо",
+      "subscrb": "СВАбо"
+    },
+    {
+      "id": "1102",
+      "name": "niezle",
+      "title": "неплохо",
+      "subscrb": "НЬЕЗле"
+    },
+    {
+      "id": "1103",
+      "name": "krótko",
+      "title": "коротко",
+      "subscrb": "КРУтко"
+    },
+    {
+      "id": "1104",
+      "name": "sąsiad",
+      "title": "сосед",
+      "subscrb": "СОньшяд"
+    },
+    {
+      "id": "1105",
+      "name": "ponieważ",
+      "title": "потому что",
+      "subscrb": "ПОнамЬЧЕМУ"
+    },
+    {
+      "id": "1106",
+      "name": "ubrany",
+      "title": "одетый",
+      "subscrb": "УБраны"
+    },
+    {
+      "id": "1107",
+      "name": "myśleć",
+      "title": "думать",
+      "subscrb": "МЫшЛечь"
+    },
+    {
+      "id": "1108",
+      "name": "nazywam się Piotr",
+      "title": "меня зовут Пётр",
+      "subscrb": "наЗЫвам шЕ ПьЁтр"
+    },
+    {
+      "id": "1109",
+      "name": "jestem Polakiem",
+      "title": "я поляк",
+      "subscrb": "ЕстЭм ПоЛАкием"
+    },
+    {
+      "id": "1110",
+      "name": "mieszkam i pracuję tu niedawno",
+      "title": "Я живу и работаю тут недавно",
+      "subscrb": "МЬЕшкам и працУйэ ту НЬЕДавно"
+    },
+    {
+      "id": "1111",
+      "name": "dobrze znam język polski, ponieważ moja żona jest Polką",
+      "title": "Я неплохо знаю польский язык потому что моя жена полька",
+      "subscrb": "ДОбже знам ЙЕНзык ПОЛски, ПОнамЬЧЕМУ МОя ЖОна Ест ПОЛку"
+    },
+    {
+      "id": "1112",
+      "name": "jeszcze słabo znam Warszawę, ponieważ mieszkamy tu niedługo",
+      "title": "я ещё слабо знаю Варшаву, потому что мы живём тут недолго",
+      "subscrb": "ЕЩЩЕ СВАбо знам ВаршАвэ, ПОнамЬЧЕМУ МЬЕшкамы ту НЬЕДльуго"
+    },
+    {
+      "id": "1113",
+      "name": "wiem tylko, gdzie są sklepy spożywcze, kawiarnia, w której jem obiad, poczta i moja praca",
+      "title": "я знаю только где находятся продовольственные магазины, кафе, в котором я обедаю, почта и моя работа",
+      "subscrb": "ВЬЕМ ТЫлько ГДЗЕ СОнь СКлепы спожЫвче, каВЬарня, в КТОрей ЙЕМ ОБьяд, ПОчта и МОя праЦА"
+    },
+    {
+      "id": "1114",
+      "name": "wiem, że mojego sąsiada nazywa się Piotr",
+      "title": "Я знаю, что моего соседа зовут Пётр",
+      "subscrb": "ВЬЕМ, ЖЕ МОЙЕго СОньшяда наЗЫва шЕ ПьЁтр"
+    },
+    {
+      "id": "1115",
+      "name": "a jego żonę nazywa się Ewa",
+      "title": "а его жену зовут Ева",
+      "subscrb": "а ЕГО ЖОНэ наЗЫва шЕ ЭВА"
+    },
+    {
+      "id": "1116",
+      "name": "nie wiem, gdzie pracują i uczą się ich córki",
+      "title": "я не знаю, где они работают и где учатся их дочь",
+      "subscrb": "НЬЕ ВЬЕМ, ГДЗЕ ПрацУйо́н и УЧОНь шЕ их ЦУРьки"
+    },
+    {
+      "id": "1117",
+      "name": "no, wiem ich syna",
+      "title": "ну, я знаю их сына",
+      "subscrb": "Но, ВЬЕМ их СЫна"
+    },
+    {
+      "id": "1118",
+      "name": "wiem, gdzie pracuje, ponieważ często przychodzi do rodziców ubrany jak policjant",
+      "title": "я знаю где он работает, потому что часто приходит к родителям одетый как полицейский",
+      "subscrb": "ВЬЕМ, ГДЗЕ ПрацУйе, ПОнамЬЧЕМУ ЧЕсто ПшыхОджи до РОджицув УБраны як полиЦЬЯнт"
+    },
+    {
+      "id": "1119",
+      "name": "Pan Piotr jest bardzo uprzejmy, zawsze mówi „Dzień dobry”",
+      "title": "Пан Пётр очень вежливый, всегда говорит «Добрый день»",
+      "subscrb": "Пан ПьЁтр Ест БАРдзо упшЕймы, ЗАВСЭ МУви «ДЗьЕН ДОбры»"
+    },
+    {
+      "id": "1120",
+      "name": "myślę, że on jeszcze nas nie zna dobrze",
+      "title": "я думаю, что он ещё не знает нас очень хорошо",
+      "subscrb": "МЫшЛЭ, ЖЕ он ЕЩЩЕ нас НЬЕ Зна ДОбже"
+    },
+    {
+      "id": "1121",
+      "name": "odpowiada na moje pytania, ale nie wiem, czy zna mnie i moją żonę dobrze",
+      "title": "он отвечает на мои вопросы, но я не знаю хорошо ли он знает меня и мою жену",
+      "subscrb": "ОпОвьядА на МОйэ ПЫтаньЯ, але НЬЕ ВЬЕМ, ЧЫ Зна МНЕ и МОйОЖ ЖОНэ ДОбже"
+    },
+    {
+      "id": "1122",
+      "name": "mamy nowego sąsiada",
+      "title": "у нас есть новый сосед",
+      "subscrb": "МАмы новЭго СОньшяда"
+    },
+    {
+      "id": "1123",
+      "name": "myślę, że on jest Rosjaninem, ponieważ jeszcze nie zna dobrze języka polskiego",
+      "title": "Я думаю, что он русский, потому что он ещё не знает хорошо польский язык",
+      "subscrb": "МЫшЛЭ, ЖЕ он Ест РОшЯнинем, ПОнамЬЧЕМУ ЕЩЩЕ НЬЕ Зна ДОбже ЙЕНзыка ПОЛского"
+    },
+    {
+      "id": "1124",
+      "name": "ale jego żona jest Polką",
+      "title": "но его жена полька",
+      "subscrb": "але ЕГО ЖОна Ест ПОЛку"
+    },
+    {
+      "id": "1125",
+      "name": "Wiem, że jego też nazywa się Piotr",
+      "title": "Я знаю что его тоже зовут Пётр",
+      "subscrb": "ВЬЕМ, ЖЕ йЕго ТЕЖ наЗЫва ЩЕ ПЬОТР"
+    },
+    {
+      "id": "1126",
+      "name": "Ale nie wiem, jak nazywa się jego żona",
+      "title": "но я не знаю как зовут его жену",
+      "subscrb": "АЛЕ нЬЕ ВЬЕМ, як наЗЫва ЩЕ йЕго ЖОна"
+    },
+    {
+      "id": "1127",
+      "name": "Nasz sąsiad jeszcze słabo zna Warszawę",
+      "title": "наш сосед ещё слабо знает Варшаву",
+      "subscrb": "наш СОньшяд ЕШчэ СЬлабо ЗНА ВарШАвэ"
+    },
+    {
+      "id": "1128",
+      "name": "Bo często zadaje różne pytania",
+      "title": "потому что он часто задаёт разные вопросы",
+      "subscrb": "Бо ЧЭнсто заДАЙЕ РУЖнэ пыТАня"
+    },
+    {
+      "id": "1129",
+      "name": "Gdzie są sklepy spożywcze i poczta i kawiarnia",
+      "title": "где находятся продовольственные магазины почта кафе",
+      "subscrb": "ГДЖЕ СОнь СКЛЭПы спОЖЫвчэ и ПОчта и кавЯрня"
+    },
+    {
+      "id": "1130",
+      "name": "Myślę, że nasz sąsiad jest sympatycznym człowiekiem",
+      "title": "Я думаю что наш сосед симпатичный человек",
+      "subscrb": "МЫШЛЭ, ЖЕ наш СОньшяд ЕСТ СЫмпатЫчным ЧЬловьЕкЕМ"
+    },
+    {
+      "id": "1131",
+      "name": "Pies rodziny Kowalskich mieszka już piętnaście lat",
+      "title": "пёс семейства Ковальских живёт уже пятнадцать лет",
+      "subscrb": "ПЬЕС родЗЫНЫ КОвальСКих МЬЕшка юш ПЬЕНТнастЧЭ Лат"
+    },
+    {
+      "id": "1132",
+      "name": "Nie lubię kotletów mielonych i marynowanych ogórków",
+      "title": "не люблю котлеты из фарша и маринованные огурцы",
+      "subscrb": "нЬЕ ЛУБЬЕ котЛЭтув мЬЕлОных и марЫНОваных оГУркув"
+    },
+    {
+      "id": "1133",
+      "name": "Co szyje moja siostra? Twoja siostra nie umie żyć",
+      "title": "что шьёт моя сестра твоя сестра не умеет жить",
+      "subscrb": "ЦО ШЫЕ МОя ШОстра? ТВОя ШОстра нЬЕ УМЬЕ ЖЫЧ"
+    },
+    {
+      "id": "1134",
+      "name": "Mój dziadek je tylko warzywa i owoce i piją jogurt bez cukru",
+      "title": "Мой дедушка ест только овощи и фрукты и пьют йогурт без сахара",
+      "subscrb": "МУй ДЖАДэк Е ТЫЛКО ВарЗЫва и оВОцэ и ПЬИЮ ЙОгурт БЭЗ ЦУкру"
+    },
+    {
+      "id": "1135",
+      "name": "Pan Kowalski zawsze bierze do pracy kanapki",
+      "title": "пан Ковальский всегда берёт на работу бутерброды",
+      "subscrb": "Пан КОвальСКИ ЗВАВСЭ БЬЕРжэ до ПРАцы КанаПКИ"
+    },
+    {
+      "id": "1136",
+      "name": "Gotuję przepyszne kotlety i wyśmienity czerwony barszcz",
+      "title": "я готовлю прекрасные отбивные котлеты и превосходный красный борщ",
+      "subscrb": "ГОтуйэ ПШЭпышнэ КотЛЭты и выШЬмьЕниты ЧэрвОны БАРШЧ"
+    },
+    {
+      "id": "1137",
+      "name": "Mój wujek umie smażyć jajecznicę i kroić kiełbasę",
+      "title": "Мой дядя умеет жарить яичницу и резать колбасу",
+      "subscrb": "МУй ВУйэк УМЬЕ СМАжыч ЯйЭчнЬице и Кроичь КЬЕльбасэ"
+    },
+    {
+      "id": "1138",
+      "name": "My myjemy widelce, łyżki i małe łyżeczki",
+      "title": "мы чистим вилки на же ложки и маленькие ложечки",
+      "subscrb": "мы МЫйЭмы ВИДэльцэ, ВЫжКИ и МАwэ ВЫжЭчки"
+    },
+    {
+      "id": "1139",
+      "name": "Lubisz czy czyścisz warzywa i obierasz ziemniaki?",
+      "title": "любишь или ты чистить овощи и очищать от кожуры картофель",
+      "subscrb": "ЛУБЫш ЧЫ ЧЫшЧЫш ВарЗЫва и ОБЬЕраш ЗЬЕМнякы?"
+    },
+    {
+      "id": "1140",
+      "name": "Zupa grzybowa jest bardzo smaczna, bulion z makaronem też",
+      "title": "грибной суп очень вкусный бульон с макаронами тоже",
+      "subscrb": "ЗУпа ГЖЫбова ЕСТ БАРдзо СМачна, БУЛЬЙОН з МакаРОнэм ТЕЖ"
+    },
+    {
+      "id": "1141",
+      "name": "Poproszę rachunek",
+      "title": "дайте пожалуйста счёт",
+      "subscrb": "ПОПроШЭ РАХунэк"
+    },
+    {
+      "id": "1142",
+      "name": "Reszta dla pana, dziękuję bardzo",
+      "title": "сдача для вас (мужчины ) большое спасибо",
+      "subscrb": "РЭшта для ПАНА, ДжЕНкуйэ БАРдзо"
+    },
+    {
+      "id": "1143",
+      "name": "Na śniadanie zawsze jem płatki owsiane i piję mleko",
+      "title": "на завтрак я всегда ем овсяные хлопья и пью молоко",
+      "subscrb": "На ШньАданьэ ЗВАВСЭ ЕМ ПВАТКИ оВСЯнэ и ПЬИЮ МЛЭко"
+    },
+    {
+      "id": "1144",
+      "name": "Wiesz, jak ugotować bulion z kurczaka?",
+      "title": "знаешь ли ты как готовить бульон из курицы",
+      "subscrb": "ВЬЕш, як УГОтувач БУЛЬЙОН з КУРЧака?"
+    },
+    {
+      "id": "1145",
+      "name": "Nie, nie wiem",
+      "title": "нет не знаю",
+      "subscrb": "нЬЕ, нЬЕ ВЬЕМ"
+    },
+    {
+      "id": "1146",
+      "name": "Poproszę zupę pomidorową, kotlet i ziemniaki",
+      "title": "дайте пожалуйста томатный суп отбивной котлету и картофель феррей",
+      "subscrb": "ПОПроШЭ ЗУпу ПОмидорову, КотЛЭт и ЗЬЕМнякы"
+    },
+    {
+      "id": "1147",
+      "name": "Często piję zieloną herbatę bez cukru, bo jest zdrowa",
+      "title": "Я часто пью зелёный чай без сахара потому что он полезен",
+      "subscrb": "ЧЭнсто ПЬИЮ ЗЬЕлОну ГЭрбАтэ БЭЗ ЦУкру, бо ЕСТ ЗДРОВА"
+    },
+    {
+      "id": "1148",
+      "name": "Magda nigdy nie je kolacji, bo stosuje dietę",
+      "title": "Магда никогда не ест ужин потому что соблюдает диету",
+      "subscrb": "МАГда НИгды нЬЕ Е КОЛАцЫ, бо СТОсуйэ ДИэтэ"
+    },
+    {
+      "id": "1149",
+      "name": "Gotujemy naleśniki z kapustą, grzybami i mięsem",
+      "title": "мы готовим блинчики с капустой грибами и мясом",
+      "subscrb": "ГОтуйэмы НАлЕшники з КАПусто, ГЖЫбами и МЬЕНсэм"
+    },
+    {
+      "id": "1150",
+      "name": "Lubisz swoją pracę?",
+      "title": "любишь ли ты свою работу",
+      "subscrb": "ЛУБЫш СЬВОю ПРАцэ?"
+    },
+    {
+      "id": "1151",
+      "name": "Wiem, że Tomek zawsze kupuje mleko",
+      "title": "Я знаю что Томэк всегда покупает молоко",
+      "subscrb": "ВЬЕМ, ЖЕ ТОмэк ЗВАВСЭ КУпуйэ МЛЭко"
+    },
+    {
+      "id": "1152",
+      "name": "Moja mama kocha moich przyjaciół",
+      "title": "моя мама любит моих друзей",
+      "subscrb": "МОя МАма КОха МОих ПшыйЯцУв"
+    },
+    {
+      "id": "1153",
+      "name": "Nie wiemy, czy przyjdziesz na zajęcia",
+      "title": "мы не знаем придёшь ли ты на занятия",
+      "subscrb": "нЬЕ ВЬЕмы, ЧЫ ПшыйДЬеш на ЗАЙЭнця"
+    },
+    {
+      "id": "1154",
+      "name": "Czy znacie Pana Kowalskiego?",
+      "title": "знаете ли вы Пана Ковальского",
+      "subscrb": "ЧЫ ЗНАцЭ ПАНА КОвальСКЕго?"
+    },
+    {
+      "id": "1155",
+      "name": "Jogurt",
+      "title": "йогурт",
+      "subscrb": "ЙОгурт"
+    },
+    {
+      "id": "1156",
+      "name": "Starać się",
+      "title": "стараться",
+      "subscrb": "СТАРАЧЬ ЩЭ"
     }
   ]
 }
