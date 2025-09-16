@@ -246,14 +246,13 @@ form :where(select) {
   height: 12px;
 }
 
-/*--------------------------------------------------------------------------------*/
-
+/*--------------------------------------------------------------------------------
+ 
 body .timer {
   position: absolute;
   top: 757px;
   left: 50%;
   background-color: rgba(186, 183, 181, 0);
-  /* semi-transparent background */
   transform: translate(-50%, -50%);
   font-size: 24px;
   color: rgb(255, 230, 250);
@@ -281,8 +280,46 @@ body #countdown {
   text-align: center;
   font-weight: bold;
 }
+--------------------------------------------------------------------------------*/
+/* Общие стили для таймера и обратного отсчёта */
+body .timer,
+body #countdown {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+}
 
-/*--------------------------------------------------------------------------------*/
+/* Отличия для таймера */
+body .timer {
+  top: 757px;
+  background-color: rgba(186, 183, 181, 0);
+  /* прозрачный фон */
+  color: rgb(255, 230, 250);
+}
+
+/* Отличия для обратного отсчёта */
+body #countdown {
+  top: 72px;
+  color: rgb(82, 86, 173, 0.5);
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Прогресс-кольцо */
+.progress-ring__circle {
+  transition: stroke-dashoffset 0.35s;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  stroke: rgba(82, 86, 173, 0.3);
+}
+
+.progress-ring__dot {
+  transition: cx 0.45s, cy 0.45s;
+  stroke: rgb(82, 86, 173, 0.3);
+}
+
+/*------------------------------ Адаптивная верстка ------------------------------*/
 
 @media (max-width: 620px) {
 
@@ -379,6 +416,7 @@ body #countdown {
     border: 1px solid #dcdcdc !important;
     border-radius: 10px !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    font-size: inherit !important;
   }
 
   .wrapper.minimal-ui form button,
@@ -410,7 +448,7 @@ body #countdown {
 
   .wrapper.minimal-ui .timer,
   .wrapper.minimal-ui #countdown {
-    color: #1e1e1e !important;
+    color: #a68e8ebb !important;
   }
 
   .wrapper.minimal-ui .checkbox::before,

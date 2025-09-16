@@ -63,22 +63,22 @@
         </div>
       </div>
       <div class="row">
-<div class="flex-container">
-  <div class="flex-item">
-    <label>Select Voice</label>
-    <select id="voiceSelect"></select>
-  </div>
-  <div class="flex-item">
-    <label>Constituents parts of speech</label>
-    <select id="select2">
-      <option selected disabled hidden>Search dictionary...</option>
-      <option>Deutsch Wörterbuch</option>
-      <option>Griechικό λεξικό</option>
-      <option>English dictionary</option>
-      <option>Polskie słownictwo</option>
-    </select>
-  </div>
-</div>
+        <div class="flex-container">
+          <div class="flex-item">
+            <label>Select Voice</label>
+            <select id="voiceSelect"></select>
+          </div>
+          <div class="flex-item">
+            <label>Constituents parts of speech</label>
+            <select id="select2">
+              <option selected disabled hidden>Search dictionary...</option>
+              <option>Deutsch Wörterbuch</option>
+              <option>Griechικό λεξικό</option>
+              <option>English dictionary</option>
+              <option>Polskie słownictwo</option>
+            </select>
+          </div>
+        </div>
         <label>Enter Text</label>
         <br>
         <div class="button">
@@ -88,10 +88,11 @@
         </div>
         <br>
         <div class="textareas">
-          <textarea id="text1" rows="3" cols="20" wrap="hard" readonly></textarea>
-          <textarea id="text2" rows="4" cols="20" wrap="hard" readonly></textarea>
+          <textarea id="text1" rows="6" cols="20" wrap="hard" readonly></textarea>
+          <textarea id="text2" rows="6" cols="20" wrap="hard" readonly></textarea>
         </div>
-        <div class="block-button-1">
+        <!-- <div class="block-button-1"> -->
+        <div class="button">
           <button class="pause" id="but5">PAUSE</button>
           <button class="resume" id="resumeButton">RESUME</button>
         </div>
@@ -105,49 +106,47 @@
   </div>
 
   <script>
-  function toggleUI() {
-    const wrapper = document.querySelector('.wrapper');
-    wrapper.classList.toggle('minimal-ui');
-  }
-</script>
 
-<script>
-  const voiceSelect = document.getElementById("voiceSelect");
-
-  function populateVoiceList() {
-    const voices = speechSynthesis.getVoices();
-
-    // сохраняем текущий выбор, если есть
-    const selected = voiceSelect.value;
-
-    // очищаем список
-    voiceSelect.innerHTML = "";
-
-    voices.forEach((voice) => {
-      const option = document.createElement("option");
-      option.value = voice.name;
-      option.textContent = `${voice.name} (${voice.lang})`;
-      if (voice.default) {
-        option.textContent += " — DEFAULT";
-      }
-      voiceSelect.appendChild(option);
-    });
-
-    // восстанавливаем выбор, если он есть в списке
-    if (selected && [...voiceSelect.options].some(o => o.value === selected)) {
-      voiceSelect.value = selected;
+    function toggleUI() {
+      const wrapper = document.querySelector('.wrapper');
+      wrapper.classList.toggle('minimal-ui');
     }
-  }
 
-  // первый вызов
-  populateVoiceList();
+    const voiceSelect = document.getElementById("voiceSelect");
 
-  // Edge и Chrome подгружают голоса асинхронно
-  if (typeof speechSynthesis !== "undefined" && speechSynthesis.onvoiceschanged !== undefined) {
-    speechSynthesis.onvoiceschanged = populateVoiceList;
-  }
-</script>
+    function populateVoiceList() {
+      const voices = speechSynthesis.getVoices();
 
+      // сохраняем текущий выбор, если есть
+      const selected = voiceSelect.value;
+
+      // очищаем список
+      voiceSelect.innerHTML = "";
+
+      voices.forEach((voice) => {
+        const option = document.createElement("option");
+        option.value = voice.name;
+        option.textContent = `${voice.name} (${voice.lang})`;
+        if (voice.default) {
+          option.textContent += " — DEFAULT";
+        }
+        voiceSelect.appendChild(option);
+      });
+
+      // восстанавливаем выбор, если он есть в списке
+      if (selected && [...voiceSelect.options].some(o => o.value === selected)) {
+        voiceSelect.value = selected;
+      }
+    }
+
+    // первый вызов
+    populateVoiceList();
+
+    // Edge и Chrome подгружают голоса асинхронно
+    if (typeof speechSynthesis !== "undefined" && speechSynthesis.onvoiceschanged !== undefined) {
+      speechSynthesis.onvoiceschanged = populateVoiceList;
+    }
+  </script>
 
 </body>
 

@@ -1,6 +1,7 @@
 import { getCurrentButton1 } from "./buttonsClickHandlerPlay.js";
 import { currentButton2 } from "./buttonsClickHandlerPauseResume.js";
 import voicePlay from "./getUtterance.js";
+import fitty from "fitty";
 
 let text, vaarId, vaar1, vaar2;
 
@@ -25,8 +26,28 @@ async function processLines(dataChunk) {
   ) {
     text = `${title}`;
     console.log(`${id} - ${text}`);
+
     addItemToList((vaarId = id), (vaar1 = title), (vaar2 = name), subscrb);
   }
+
+  //Функция проверки, влезает ли текст
+  function isOverflowing(el) {
+    return el.scrollWidth > el.clientWidth || el.scrollHeight > el.clientHeight;
+  }
+
+  // Берём все textarea
+  document.querySelectorAll("textarea").forEach((el) => {
+    if (isOverflowing(el)) {
+      // Если текст не помещается — применяем fitty
+      fitty(el, {
+        minSize: 20,
+        maxSize: 30,
+      });
+    } else {
+      // Если помещается — оставляем 30px
+      el.style.fontSize = "30px";
+    }
+  });
 
   document.getElementById("text1").value = `${id} - ${name}`;
   document.getElementById("text2").value = `${id} - ${title}`;
