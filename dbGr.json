@@ -4,145 +4,169 @@
       "id": "1",
       "name": "λεωφορείο",
       "title": "автобус",
-      "subscrb": "леофорéо"
+      "subscrb": "леофорéо",
+      "language": "Gr"
     },
     {
       "id": "2",
       "name": "πολύ",
       "title": "очень",
-      "subscrb": "полý"
+      "subscrb": "полý",
+      "language": "Gr"
     },
     {
       "id": "3",
       "name": "λευκός",
       "title": "белый",
-      "subscrb": "левкóс"
+      "subscrb": "левкóс",
+      "language": "Gr"
     },
     {
       "id": "4",
       "name": "λευκή",
       "title": "белая",
-      "subscrb": "левкí"
+      "subscrb": "левкí",
+      "language": "Gr"
     },
     {
       "id": "5",
       "name": "λευκό",
       "title": "белое",
-      "subscrb": "левкó"
+      "subscrb": "левкó",
+      "language": "Gr"
     },
     {
       "id": "6",
       "name": "τραπέζι",
       "title": "стол",
-      "subscrb": "трапéзи"
+      "subscrb": "трапéзи",
+      "language": "Gr"
     },
     {
       "id": "7",
       "name": "πλούσιος",
       "title": "богатый",
-      "subscrb": "плýсиос"
+      "subscrb": "плýсиос",
+      "language": "Gr"
     },
     {
       "id": "8",
       "name": "καφετί",
       "title": "коричневый",
-      "subscrb": "кафéти"
+      "subscrb": "кафéти",
+      "language": "Gr"
     },
     {
       "id": "9",
       "name": "γλυκό",
       "title": "пироженое",
-      "subscrb": "гликó"
+      "subscrb": "гликó",
+      "language": "Gr"
     },
     {
       "id": "10",
       "name": "μαύρος",
       "title": "чёрный",
-      "subscrb": "мáврос"
+      "subscrb": "мáврос",
+      "language": "Gr"
     },
     {
       "id": "11",
       "name": "κόκκινος",
       "title": "красный",
-      "subscrb": "кóкинос"
+      "subscrb": "кóкинос",
+      "language": "Gr"
     },
     {
       "id": "12",
       "name": "μέρος",
       "title": "часть",
-      "subscrb": "мéрос"
+      "subscrb": "мéрос",
+      "language": "Gr"
     },
     {
       "id": "13",
       "name": "ποιος, ποια, ποιο",
       "title": "чей, чья, чьё",
-      "subscrb": "пóйос, пoйа, пoйо"
+      "subscrb": "пóйос, пoйа, пoйо",
+      "language": "Gr"
     },
     {
       "id": "14",
       "name": "δρυς / δρυός",
       "title": "дуб",
-      "subscrb": "дрис / дрисós"
+      "subscrb": "дрис / дрисós",
+      "language": "Gr"
     },
     {
       "id": "15",
       "name": "επιδόρπιο",
       "title": "десерт",
-      "subscrb": "эпидóрпио"
+      "subscrb": "эпидóрпио",
+      "language": "Gr"
     },
     {
       "id": "16",
       "name": "παγωτό",
       "title": "мороженое",
-      "subscrb": "паготó"
+      "subscrb": "паготó",
+      "language": "Gr"
     },
     {
       "id": "17",
       "name": "καλός",
       "title": "хороший",
-      "subscrb": "калóс"
+      "subscrb": "калóс",
+      "language": "Gr"
     },
     {
       "id": "18",
       "name": "σπίτι",
       "title": "дом",
-      "subscrb": "σπίти"
+      "subscrb": "σπίти",
+      "language": "Gr"
     },
     {
       "id": "19",
       "name": "μεγάλος",
       "title": "большой",
-      "subscrb": "мегáлос"
+      "subscrb": "мегáлос",
+      "language": "Gr"
     },
     {
       "id": "20",
       "name": "μαρμελάδα",
       "title": "варенье",
-      "subscrb": "мармелáда"
+      "subscrb": "мармелáда",
+      "language": "Gr"
     },
     {
       "id": "21",
       "name": "ημέρα",
       "title": "день",
-      "subscrb": "имéра"
+      "subscrb": "имéра",
+      "language": "Gr"
     },
     {
       "id": "22",
       "name": "μπλε",
       "title": "синий",
-      "subscrb": "блe"
+      "subscrb": "блe",
+      "language": "Gr"
     },
     {
       "id": "23",
       "name": "διάθεση",
       "title": "настроение",
-      "subscrb": "дíαθеси"
+      "subscrb": "дíαθеси",
+      "language": "Gr"
     },
     {
       "id": "24",
       "name": "ενδιαφέρον",
       "title": "интересный",
-      "subscrb": "эндиафэрóн"
+      "subscrb": "эндиафэрóн",
+      "language": "Gr"
     },
     {
       "id": "25",
@@ -154,49 +178,57 @@
       "id": "26",
       "name": "γλώσσα",
       "title": "язык",
-      "subscrb": "γлóсса"
+      "subscrb": "γлóсса",
+      "language": "Gr"
     },
     {
       "id": "27",
       "name": "βιβλίο",
       "title": "книга",
-      "subscrb": "вивлíо"
+      "subscrb": "вивлíо",
+      "language": "Gr"
     },
     {
       "id": "28",
       "name": "φλιτζάνι",
       "title": "чашка",
-      "subscrb": "флиτзáни"
+      "subscrb": "флиτзáни",
+      "language": "Gr"
     },
     {
       "id": "29",
       "name": "όμορφος",
       "title": "красивый",
-      "subscrb": "óморфос"
+      "subscrb": "óморфос",
+      "language": "Gr"
     },
     {
       "id": "30",
       "name": "πόλη",
       "title": "город",
-      "subscrb": "пóли"
+      "subscrb": "пóли",
+      "language": "Gr"
     },
     {
       "id": "31",
       "name": "μήνας",
       "title": "месяц",
-      "subscrb": "мíнас"
+      "subscrb": "мíнас",
+      "language": "Gr"
     },
     {
       "id": "32",
       "name": "νέος",
       "title": "молодой",
-      "subscrb": "нéос"
+      "subscrb": "нéос",
+      "language": "Gr"
     },
     {
       "id": "33",
       "name": "μου / δικός μου и т.п.",
       "title": "мой, моя, моё",
-      "subscrb": "му / ди́кос му"
+      "subscrb": "му / ди́кос му",
+      "language": "Gr"
     },
     {
       "id": "34",
@@ -2036,9 +2068,9 @@
     },
     {
       "id": "340",
-      "name": "—",
-      "title": "аозить (видимо «позить»)",
-      "subscrb": "— (неясно слово)"
+      "name": "μεταφέρω",
+      "title": "возить",
+      "subscrb": "метафэ́ро"
     },
     {
       "id": "341",

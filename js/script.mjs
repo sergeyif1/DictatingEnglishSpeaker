@@ -32,5 +32,3 @@ but3.addEventListener("click", () => {
 });
 
 controlCheckBox();
-
-

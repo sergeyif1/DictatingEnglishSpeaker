@@ -4,199 +4,232 @@
             "id": "1",
             "name": "der Bus",
             "title": "автобус",
-            "subscrb": "дэр БУс"
+            "subscrb": "дэр БУс",
+            "language": "Du"
         },
         {
             "id": "2",
             "name": "sehr",
             "title": "очень",
-            "subscrb": "ЗЭар"
+            "subscrb": "ЗЭар",
+            "language": "Du"
         },
         {
             "id": "3",
             "name": "weiß",
             "title": "белый",
-            "subscrb": "ВАЙс"
+            "subscrb": "ВАЙс",
+            "language": "Du"
         },
         {
             "id": "4",
             "name": "weiße",
             "title": "белая",
-            "subscrb": "ВАЙсэ"
+            "subscrb": "ВАЙсэ",
+            "language": "Du"
         },
         {
             "id": "5",
             "name": "weißes",
             "title": "белое",
-            "subscrb": "ВАЙсэс"
+            "subscrb": "ВАЙсэс",
+            "language": "Du"
         },
         {
             "id": "6",
             "name": "der Tisch",
             "title": "стол",
-            "subscrb": "дэр ТИш"
+            "subscrb": "дэр ТИш",
+            "language": "Du"
         },
         {
             "id": "7",
             "name": "reich",
             "title": "богатый",
-            "subscrb": "РАЙх"
+            "subscrb": "РАЙх",
+            "language": "Du"
         },
         {
             "id": "8",
             "name": "braun",
             "title": "коричневый",
-            "subscrb": "БРАун"
+            "subscrb": "БРАун",
+            "language": "Du"
         },
         {
             "id": "9",
             "name": "das Törtchen",
             "title": "пироженое",
-            "subscrb": "дас ТЁРтхен"
+            "subscrb": "дас ТЁРтхен",
+            "language": "Du"
         },
         {
             "id": "10",
             "name": "schwarz",
             "title": "чёрный",
-            "subscrb": "ШВАРц"
+            "subscrb": "ШВАРц",
+            "language": "Du"
         },
         {
             "id": "11",
             "name": "rot",
             "title": "красный",
-            "subscrb": "РОТ"
+            "subscrb": "РОТ",
+            "language": "Du"
         },
         {
             "id": "12",
             "name": "der Teil",
             "title": "часть",
-            "subscrb": "дэр ТАЙль"
+            "subscrb": "дэр ТАЙль",
+            "language": "Du"
         },
         {
             "id": "13",
             "name": "wessen",
             "title": "чей, чья, чьё",
-            "subscrb": "ВЭсэн"
+            "subscrb": "ВЭсэн",
+            "language": "Du"
         },
         {
             "id": "14",
             "name": "die Eiche",
             "title": "дуб",
-            "subscrb": "ди АЙхэ"
+            "subscrb": "ди АЙхэ",
+            "language": "Du"
         },
         {
             "id": "15",
             "name": "das Dessert",
             "title": "десерт",
-            "subscrb": "дас дэСЭар"
+            "subscrb": "дас дэСЭар",
+            "language": "Du"
         },
         {
             "id": "16",
             "name": "das Eis",
             "title": "мороженое",
-            "subscrb": "дас АЙс"
+            "subscrb": "дас АЙс",
+            "language": "Du"
         },
         {
             "id": "17",
             "name": "gut",
             "title": "хороший",
-            "subscrb": "ГУт"
+            "subscrb": "ГУт",
+            "language": "Du"
         },
         {
             "id": "18",
             "name": "das Haus",
             "title": "дом",
-            "subscrb": "дас ХАус"
+            "subscrb": "дас ХАус",
+            "language": "Du"
         },
         {
             "id": "19",
             "name": "groß",
             "title": "большой",
-            "subscrb": "ГРОс"
+            "subscrb": "ГРОс",
+            "language": "Du"
         },
         {
             "id": "20",
             "name": "die Marmelade",
             "title": "варенье",
-            "subscrb": "ди мармэЛАдэ"
+            "subscrb": "ди мармэЛАдэ",
+            "language": "Du"
         },
         {
             "id": "21",
             "name": "der Tag",
             "title": "день",
-            "subscrb": "дэр ТАК"
+            "subscrb": "дэр ТАК",
+            "language": "Du"
         },
         {
             "id": "22",
             "name": "blau",
             "title": "синий",
-            "subscrb": "БЛАу"
+            "subscrb": "БЛАу",
+            "language": "Du"
         },
         {
             "id": "23",
             "name": "die Laune",
             "title": "настроение",
-            "subscrb": "ди ЛАунэ"
+            "subscrb": "ди ЛАунэ",
+            "language": "Du"
         },
         {
             "id": "24",
             "name": "interessant",
             "title": "интересный",
-            "subscrb": "интерэССАНТ"
+            "subscrb": "интерэССАНТ",
+            "language": "Du"
         },
         {
             "id": "25",
             "name": "welcher, welche, welches",
             "title": "какой, какая, какое",
-            "subscrb": "ВЭльхэр, ВЭльхэ, ВЭльхэс"
+            "subscrb": "ВЭльхэр, ВЭльхэ, ВЭльхэс",
+            "language": "Du"
         },
         {
             "id": "26",
             "name": "die Sprache",
             "title": "язык",
-            "subscrb": "ди ШПРАхэ"
+            "subscrb": "ди ШПРАхэ",
+            "language": "Du"
         },
         {
             "id": "27",
             "name": "das Buch",
             "title": "книга",
-            "subscrb": "дас БУх"
+            "subscrb": "дас БУх",
+            "language": "Du"
         },
         {
             "id": "28",
             "name": "die Tasse",
             "title": "чашка",
-            "subscrb": "ди ТАсэ"
+            "subscrb": "ди ТАсэ",
+            "language": "Du"
         },
         {
             "id": "29",
             "name": "schön",
             "title": "красивый",
-            "subscrb": "ШЁН"
+            "subscrb": "ШЁН",
+            "language": "Du"
         },
         {
             "id": "30",
             "name": "die Stadt",
             "title": "город",
-            "subscrb": "ди ШТАТ"
+            "subscrb": "ди ШТАТ",
+            "language": "Du"
         },
         {
             "id": "31",
             "name": "der Monat",
             "title": "месяц",
-            "subscrb": "дэр МОнат"
+            "subscrb": "дэр МОнат",
+            "language": "Du"
         },
         {
             "id": "32",
             "name": "jung",
             "title": "молодой",
-            "subscrb": "ЮНг"
+            "subscrb": "ЮНг",
+            "language": "Du"
         },
         {
             "id": "33",
             "name": "mein, meine, mein",
             "title": "мой, моя, моё",
-            "subscrb": "МАЙн, МАЙнэ, МАЙн"
+            "subscrb": "МАЙн, МАЙнэ, МАЙн",
+            "language": "Du"
         },
         {
             "id": "34",
@@ -2048,9 +2081,9 @@
         },
         {
             "id": "342",
-            "name": "bitten",
-            "title": "аозить (позить?)",
-            "subscrb": "Би́ттен"
+            "name": "transportieren",
+            "title": "возить",
+            "subscrb": "транспорти́рэн"
         },
         {
             "id": "343",

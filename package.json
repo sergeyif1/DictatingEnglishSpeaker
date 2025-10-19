@@ -5,6 +5,7 @@
   "main": "script.js",
   "dependencies": {
     "fitty": "^2.4.2",
+    "rxjs": "^7.8.2",
     "whatwg-fetch": "^3.6.20"
   },
   "devDependencies": {
@@ -20,6 +21,7 @@
   },
   "scripts": {
     "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

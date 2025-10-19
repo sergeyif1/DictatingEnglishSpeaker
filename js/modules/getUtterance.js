@@ -10,19 +10,45 @@ let selectedVoiceName;
 const synth = window.speechSynthesis;
 
 export function voices() {
-  voiceList.innerHTML = ""; // Очищаем текущие элементы в списке
+  voiceList.innerHTML = ""; // очищаем текущие элементы
 
   let availableVoices = synth.getVoices();
   let defaultVoice = getDefaultVoice(availableVoices);
 
+  // console.log("Список доступных голосов:");
   availableVoices.forEach((voice) => {
-    let selected = voice === defaultVoice ? "selected" : "";
-
-    let option = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
-
+    let option = `<option value="${voice.name}">${voice.name} (${voice.lang})</option>`;
     voiceList.insertAdjacentHTML("beforeend", option);
 
+    // console.log(
+    //   `${voice.name} (${voice.lang}) ${voice.default ? "[default]" : ""}`
+    // );
   });
+
+  // Ищем Google US English (en-US)
+  let preferredVoice = availableVoices.find(
+    (v) => v.name === "Google US English" && v.lang === "en-US"
+  );
+
+  if (preferredVoice) {
+    // Устанавливаем выбранным его
+    voiceList.value = preferredVoice.name;
+    // console.log(
+    //   "Выбран по умолчанию:",
+    //   preferredVoice.name,
+    //   `(${preferredVoice.lang})`
+    // );
+  } else if (defaultVoice) {
+    // fallback если Google US English нет
+    voiceList.value = defaultVoice.name;
+    // console.log(
+    //   "Выбран по умолчанию:",
+    //   defaultVoice.name,
+    //   `(${defaultVoice.lang})`
+    // );
+  } else {
+    console.log("Нет доступного голоса для выбора по умолчанию");
+  }
 }
 
 function getDefaultVoice(voices) {
@@ -32,29 +58,114 @@ function getDefaultVoice(voices) {
 }
 
 const voicePlay = {
-  getUtterance: function (text) {
+  getUtterance: function (text, language, currentButton1) {
     const rate = document.getElementById("speed").value;
     const pitch = document.getElementById("pitch").value;
-
     const availableVoices = synth.getVoices();
-    const selectedVoiceName = voiceList.value;
+    let selectedVoice = null;
 
-    if (availableVoices.length > 0) {
-      const selectedVoice = availableVoices.find(
-        (voice) => voice.name === selectedVoiceName
+    // 🔍 Логируем все входные параметры
+    console.log("🎯 Параметры getUtterance:", {
+      text,
+      language,
+      currentButton1,
+    });
+
+    // ---------------------------
+    // 🔹 Вариант 1: режим подбора по языку
+    // ---------------------------
+    if (language && currentButton1 === "but1") {
+      const languageMap = {
+        En: [
+          "Google US English (en-US)",
+          "английский Соединенные Штаты (en-US)",
+          "en-US",
+        ],
+        Pl: ["Google polski (pl-PL)", "польский Польша (pl-PL)", "pl-PL"],
+        Gr: ["Google русский (ru-RU)", "греческий Греция (el-GR)", "el-GR"],
+        Du: ["Google Deutsch (de-DE)", "немецкий Германия (de-DE)", "de-DE"],
+      };
+
+      const possibleMatches = languageMap[language] || [];
+
+      selectedVoice = availableVoices.find((v) =>
+        possibleMatches.some(
+          (match) =>
+            v.name.includes(match) ||
+            v.lang === match ||
+            `${v.name} (${v.lang})` === match
+        )
       );
 
-      const U = new SpeechSynthesisUtterance(text);
-      U.voice = selectedVoice;
-      U.lang = selectedVoice.lang;
-      U.volume = 1;
-      U.rate = rate;
-      U.pitch = pitch;
-
-      return U;
-    } else {
-      return null;
+      if (selectedVoice) {
+        console.log(
+          `🗣️ Автоматический выбор голоса для языка ${language}: ${selectedVoice.name} (${selectedVoice.lang})`
+        );
+      } else {
+        console.warn(`⚠️ Голос не найден для языка ${language}`);
+      }
     }
+
+    // ---------------------------
+    // 🔹 Вариант 2: единый русский голос
+    // ---------------------------
+    if (language && currentButton1 === "but2") {
+      const russianMatches = [
+        "Google русский (ru-RU)",
+        "русский Россия (ru-RU)",
+        "(ru-RU)",
+        "ru-RU",
+      ];
+
+      selectedVoice = availableVoices.find((v) =>
+        russianMatches.some(
+          (match) =>
+            v.name.includes(match) ||
+            v.lang === match ||
+            `${v.name} (${v.lang})` === match
+        )
+      );
+
+      if (selectedVoice) {
+        console.log(
+          `🇷🇺 Используется единый русский голос: ${selectedVoice.name} (${selectedVoice.lang})`
+        );
+      } else {
+        console.warn("⚠️ Не найден русский голос для режима but2");
+      }
+    }
+
+    // ---------------------------
+    // ⚙️ Fallback
+    // ---------------------------
+    if (!selectedVoice) {
+      const selectedVoiceName = voiceList.value;
+      selectedVoice = availableVoices.find((v) => v.name === selectedVoiceName);
+      console.log(
+        `🔁 Fallback: выбран голос из UI — ${selectedVoiceName || "не найден"}`
+      );
+    }
+
+    if (!selectedVoice) {
+      selectedVoice = availableVoices[0];
+      console.warn(
+        `⚠️ Используется первый доступный голос: ${selectedVoice.name}`
+      );
+    }
+
+    // ---------------------------
+    // 🎧 Формируем объект речи
+    // ---------------------------
+    const U = new SpeechSynthesisUtterance(text);
+    U.voice = selectedVoice;
+    U.lang = selectedVoice.lang;
+    U.volume = 1;
+    U.rate = rate;
+    U.pitch = pitch;
+
+    console.log(`✅ Итоговый выбор: ${U.voice.name} (${U.lang})`);
+
+    return U;
   },
 };
 

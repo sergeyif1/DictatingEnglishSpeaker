@@ -4,67 +4,78 @@
       "id": "1",
       "name": "autobus",
       "title": "автобус",
-      "subscrb": "аутобус"
+      "subscrb": "аутобус",
+      "language": "Pl"
     },
     {
       "id": "2",
       "name": "bardzo",
       "title": "очень",
-      "subscrb": "бардзо"
+      "subscrb": "бардзо",
+      "language": "Pl"
     },
     {
       "id": "3",
       "name": "biały",
       "title": "белый",
-      "subscrb": "бяуый"
+      "subscrb": "бяуый",
+      "language": "Pl"
     },
     {
       "id": "4",
       "name": "biała",
       "title": "белая",
-      "subscrb": "бяуа"
+      "subscrb": "бяуа",
+      "language": "Pl"
     },
     {
       "id": "5",
       "name": "białe",
       "title": "белое",
-      "subscrb": "бяуэ"
+      "subscrb": "бяуэ",
+      "language": "Pl"
     },
     {
       "id": "6",
       "name": "stół",
       "title": "стол",
-      "subscrb": "стуў"
+      "subscrb": "стуў",
+      "language": "Pl"
     },
     {
       "id": "7",
       "name": "bogaty",
       "title": "богатый",
-      "subscrb": "богаты"
+      "subscrb": "богаты",
+      "language": "Pl"
     },
     {
       "id": "8",
       "name": "brązowy",
       "title": "коричневый",
-      "subscrb": "бронзовы"
+      "subscrb": "бронзовы",
+      "language": "Pl"
     },
     {
       "id": "9",
       "name": "ciastko",
       "title": "пироженое",
-      "subscrb": "чястко"
+      "subscrb": "чястко",
+      "language": "Pl"
     },
     {
       "id": "10",
       "name": "czarny",
       "title": "чёрный",
-      "subscrb": "чарны"
+      "subscrb": "чарны",
+      "language": "Pl"
     },
     {
       "id": "11",
       "name": "czerwony",
       "title": "красный",
-      "subscrb": "чэрвоны"
+      "subscrb": "чэрвоны",
+      "language": "Pl"
     },
     {
       "id": "12",
@@ -76,121 +87,141 @@
       "id": "13",
       "name": "czyj, czyja, czyje",
       "title": "чей, чья, чьё",
-      "subscrb": "чый, чыя, чые"
+      "subscrb": "чый, чыя, чые",
+      "language": "Pl"
     },
     {
       "id": "14",
       "name": "dąb",
       "title": "дуб",
-      "subscrb": "домб"
+      "subscrb": "домб",
+      "language": "Pl"
     },
     {
       "id": "15",
       "name": "deser",
       "title": "десерт",
-      "subscrb": "дэсэр"
+      "subscrb": "дэсэр",
+      "language": "Pl"
     },
     {
       "id": "16",
       "name": "lody",
       "title": "мороженое",
-      "subscrb": "лоды"
+      "subscrb": "лоды",
+      "language": "Pl"
     },
     {
       "id": "17",
       "name": "dobry",
       "title": "хороший",
-      "subscrb": "добры"
+      "subscrb": "добры",
+      "language": "Pl"
     },
     {
       "id": "18",
       "name": "dom",
       "title": "дом",
-      "subscrb": "дом"
+      "subscrb": "дом",
+      "language": "Pl"
     },
     {
       "id": "19",
       "name": "duży",
       "title": "большой",
-      "subscrb": "дужы"
+      "subscrb": "дужы",
+      "language": "Pl"
     },
     {
       "id": "20",
       "name": "dżem",
       "title": "варенье",
-      "subscrb": "джэм"
+      "subscrb": "джэм",
+      "language": "Pl"
     },
     {
       "id": "21",
       "name": "dzień",
       "title": "день",
-      "subscrb": "джень"
+      "subscrb": "джень",
+      "language": "Pl"
     },
     {
       "id": "22",
       "name": "niebieski",
       "title": "синий",
-      "subscrb": "нєбєски"
+      "subscrb": "нєбєски",
+      "language": "Pl"
     },
     {
       "id": "23",
       "name": "nastrój",
       "title": "настроение",
-      "subscrb": "наструй"
+      "subscrb": "наструй",
+      "language": "Pl"
     },
     {
       "id": "24",
       "name": "interesujący",
       "title": "интересный",
-      "subscrb": "интерэсуёнцы"
+      "subscrb": "интерэсуёнцы",
+      "language": "Pl"
     },
     {
       "id": "25",
       "name": "jaki, jaka, jakie",
       "title": "какой, какая, какое",
-      "subscrb": "яки, яка, якиэ"
+      "subscrb": "яки, яка, якиэ",
+      "language": "Pl"
     },
     {
       "id": "26",
       "name": "język",
       "title": "язык",
-      "subscrb": "ёнзык"
+      "subscrb": "ёнзык",
+      "language": "Pl"
     },
     {
       "id": "27",
       "name": "książka",
       "title": "книга",
-      "subscrb": "кщёнжка"
+      "subscrb": "кщёнжка",
+      "language": "Pl"
     },
     {
       "id": "28",
       "name": "filiżanka",
       "title": "чашка",
-      "subscrb": "филишанка"
+      "subscrb": "филишанка",
+      "language": "Pl"
     },
     {
       "id": "29",
       "name": "piękny",
       "title": "красивый",
-      "subscrb": "пєнкны"
+      "subscrb": "пєнкны",
+      "language": "Pl"
     },
     {
       "id": "30",
       "name": "miasto",
       "title": "город",
-      "subscrb": "място"
+      "subscrb": "място",
+      "language": "Pl"
     },
     {
       "id": "31",
       "name": "miesiąc",
       "title": "месяц",
-      "subscrb": "мєшонц"
+      "subscrb": "мєшонц",
+      "language": "Pl"
     },
     {
       "id": "32",
       "name": "młody",
       "title": "молодой",
-      "subscrb": "мўоды"
+      "subscrb": "мўоды",
+      "language": "Pl"
     },
     {
       "id": "33",
@@ -2048,9 +2079,9 @@
     },
     {
       "id": "342",
-      "name": "prosić",
-      "title": "аозить (видимо «позить»)",
-      "subscrb": "просичь"
+      "name": "wozić",
+      "title": "возить",
+      "subscrb": "возичь"
     },
     {
       "id": "343",

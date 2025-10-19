@@ -4,193 +4,225 @@
       "id": "1",
       "name": "bus",
       "title": "автобус",
-      "subscrb": "бас"
+      "subscrb": "бас",
+      "language": "En"
     },
     {
       "id": "2",
       "name": "very",
       "title": "очень",
-      "subscrb": "вэри"
+      "subscrb": "вэри",
+      "language": "En"
     },
     {
       "id": "3",
       "name": "white",
       "title": "белый",
-      "subscrb": "уайт"
+      "subscrb": "уайт",
+      "language": "En"
     },
     {
       "id": "4",
       "name": "white (feminine)",
       "title": "белая",
-      "subscrb": "уайт"
+      "subscrb": "уайт",
+      "language": "En"
     },
     {
       "id": "5",
       "name": "white (neuter)",
       "title": "белое",
-      "subscrb": "уайт"
+      "subscrb": "уайт",
+      "language": "En"
     },
     {
       "id": "6",
       "name": "table",
       "title": "стол",
-      "subscrb": "тейбл"
+      "subscrb": "тейбл",
+      "language": "En"
     },
     {
       "id": "7",
       "name": "rich",
       "title": "богатый",
-      "subscrb": "рич"
+      "subscrb": "рич",
+      "language": "En"
     },
     {
       "id": "8",
       "name": "brown",
       "title": "коричневый",
-      "subscrb": "браун"
+      "subscrb": "браун",
+      "language": "En"
     },
     {
       "id": "9",
       "name": "pastry",
       "title": "пироженое",
-      "subscrb": "пэйстри"
+      "subscrb": "пэйстри",
+      "language": "En"
     },
     {
       "id": "10",
       "name": "black",
       "title": "чёрный",
-      "subscrb": "блэк"
+      "subscrb": "блэк",
+      "language": "En"
     },
     {
       "id": "11",
       "name": "red",
       "title": "красный",
-      "subscrb": "рэд"
+      "subscrb": "рэд",
+      "language": "En"
     },
     {
       "id": "12",
       "name": "part",
       "title": "часть",
-      "subscrb": "парт"
+      "subscrb": "парт",
+      "language": "En"
     },
     {
       "id": "13",
       "name": "whose",
       "title": "чей, чья, чьё",
-      "subscrb": "хуз"
+      "subscrb": "хуз",
+      "language": "En"
     },
     {
       "id": "14",
       "name": "oak",
       "title": "дуб",
-      "subscrb": "оук"
+      "subscrb": "оук",
+      "language": "En"
     },
     {
       "id": "15",
       "name": "dessert",
       "title": "десерт",
-      "subscrb": "дезёрт"
+      "subscrb": "дезёрт",
+      "language": "En"
     },
     {
       "id": "16",
       "name": "ice cream",
       "title": "мороженое",
-      "subscrb": "айс криим"
+      "subscrb": "айс криим",
+      "language": "En"
     },
     {
       "id": "17",
       "name": "good",
       "title": "хороший",
-      "subscrb": "гуд"
+      "subscrb": "гуд",
+      "language": "En"
     },
     {
       "id": "18",
       "name": "house",
       "title": "дом",
-      "subscrb": "хаус"
+      "subscrb": "хаус",
+      "language": "En"
     },
     {
       "id": "19",
       "name": "big",
       "title": "большой",
-      "subscrb": "биг"
+      "subscrb": "биг",
+      "language": "En"
     },
     {
       "id": "20",
       "name": "jam",
       "title": "варенье",
-      "subscrb": "джэм"
+      "subscrb": "джэм",
+      "language": "En"
     },
     {
       "id": "21",
       "name": "day",
       "title": "день",
-      "subscrb": "дэй"
+      "subscrb": "дэй",
+      "language": "En"
     },
     {
       "id": "22",
       "name": "blue",
       "title": "синий",
-      "subscrb": "блю"
+      "subscrb": "блю",
+      "language": "En"
     },
     {
       "id": "23",
       "name": "mood",
       "title": "настроение",
-      "subscrb": "мууд"
+      "subscrb": "мууд",
+      "language": "En"
     },
     {
       "id": "24",
       "name": "interesting",
       "title": "интересный",
-      "subscrb": "интрестинг"
+      "subscrb": "интрестинг",
+      "language": "En"
     },
     {
       "id": "25",
       "name": "what kind of / which",
       "title": "какой, какая, какое",
-      "subscrb": "уот кайнд оф / уич"
+      "subscrb": "уот кайнд оф / уич",
+      "language": "En"
     },
     {
       "id": "26",
       "name": "language",
       "title": "язык",
-      "subscrb": "лэнгвидж"
+      "subscrb": "лэнгвидж",
+      "language": "En"
     },
     {
       "id": "27",
       "name": "book",
       "title": "книга",
-      "subscrb": "бук"
+      "subscrb": "бук",
+      "language": "En"
     },
     {
       "id": "28",
       "name": "cup",
       "title": "чашка",
-      "subscrb": "кап"
+      "subscrb": "кап",
+      "language": "En"
     },
     {
       "id": "29",
       "name": "beautiful",
       "title": "красивый",
-      "subscrb": "бьютифул"
+      "subscrb": "бьютифул",
+      "language": "En"
     },
     {
       "id": "30",
       "name": "city",
       "title": "город",
-      "subscrb": "сити"
+      "subscrb": "сити",
+      "language": "En"
     },
     {
       "id": "31",
       "name": "month",
       "title": "месяц",
-      "subscrb": "манс"
+      "subscrb": "манс",
+      "language": "En"
     },
     {
       "id": "32",
       "name": "young",
       "title": "молодой",
-      "subscrb": "янг"
+      "subscrb": "янг",
+      "language": "En"
     },
     {
       "id": "33",
@@ -2049,7 +2081,7 @@
     {
       "id": "342",
       "name": "to carry / to transport",
-      "title": "аозить (видимо «позить»)",
+      "title": "возить",
       "subscrb": "ту кэри / ту транспОрт"
     },
     {

@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <title>Text To Speech in JavaScript</title>
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
-  <link rel="preload" href="https://fonts.gstatic.com/s/..." as="font" type="font/woff2" crossorigin />
+  <link href="https://fonts.gstatic.com/s/..." as="font" type="font/woff2" crossorigin />
   <link rel="stylesheet" href="style.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -46,7 +46,7 @@
           </div>
           <div class="sec">
             <label form="gap">Set gap (sec)</label>
-            <input id="gap" value="15" style="font-size: 14px" />
+            <input id="gap" value="7" style="font-size: 14px" />
           </div>
           <div class="form-pitch">
             <label form="pitch">Voice of pitch (0.5-1.5)</label>
@@ -88,8 +88,8 @@
         </div>
         <br>
         <div class="textareas">
-          <textarea id="text1" rows="6" cols="20" wrap="hard" readonly></textarea>
-          <textarea id="text2" rows="6" cols="20" wrap="hard" readonly></textarea>
+          <textarea id="text1" rows="8" cols="20" wrap="hard" readonly></textarea>
+          <textarea id="text2" rows="8" cols="20" wrap="hard" readonly></textarea>
         </div>
         <!-- <div class="block-button-1"> -->
         <div class="button">
@@ -97,6 +97,22 @@
           <button class="resume" id="resumeButton">RESUME</button>
         </div>
       </div>
+<br>
+      <div class="form-language">
+        <div className="lang">
+          <input class="checkboxL" type="checkbox" name="1" value="1"  />En
+        </div>
+        <div className="lang">
+          <input class="checkboxL" type="checkbox" name="2" value="2"  />Pl
+        </div>
+        <div className="lang">
+          <input class="checkboxL" type="checkbox" name="3" value="3"  />Gr
+        </div>
+        <div className="lang">
+          <input class="checkboxL" type="checkbox" name="4" value="4"  />De
+        </div>
+      </div>
+<br>
       <div>
         <dd>This is the original text</dd>
         <p id="text3"></p>

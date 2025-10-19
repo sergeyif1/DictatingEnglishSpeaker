@@ -6,11 +6,12 @@ import fitty from "fitty";
 let text, vaarId, vaar1, vaar2;
 
 async function processLines(dataChunk) {
+  console.log(dataChunk);
   const currentButton1 = getCurrentButton1();
 
   const parsedData = JSON.parse(dataChunk);
-  const { id, name, title, subscrb } = parsedData;
-
+  const { id, name, title, subscrb, language } = parsedData;
+  console.log(id, name, title, subscrb, language);
   if (
     currentButton1 === "but1" ||
     (currentButton1 === "but1" && currentButton2 === "resumeButton")
@@ -54,8 +55,17 @@ async function processLines(dataChunk) {
 
   document.cookie = `id=${id}; path=/`;
 
+  console.log(
+    "Вызов voicePlay.getUtterance для текста:",
+    text,
+    language,
+    name,
+    title,
+    currentButton1
+  );
+
   // Вызов voicePlay.getUtterance для воспроизведения текста
-  const utterance = voicePlay.getUtterance(text);
+  const utterance = voicePlay.getUtterance(text, language, currentButton1);
   window.speechSynthesis.speak(utterance);
 }
 
@@ -82,13 +92,3 @@ function addItemToList(vaarId, vaar1, vaar2, subscrb) {
 }
 
 export default processLines;
-
-// function addItemToList(vaarId, vaar1, vaar2) {
-//   const text3 = document.getElementById("text3");
-//   if (text3) {
-//     const listItem = document.createElement("li");
-
-//     listItem.textContent = `${vaarId} - ${vaar1} - ${vaar2}`;
-//     text3.appendChild(listItem);
-//   }
-// }

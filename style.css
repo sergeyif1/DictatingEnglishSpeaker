@@ -57,6 +57,7 @@ form .form-pitch label,
 .container-point-properties,
 .select-point,
 .form-properties,
+.form-language,
 .block-button-1 {
   display: flex;
   margin: 5px 0;
@@ -120,7 +121,8 @@ form button {
 }
 
 /* Расположение элементов внутри form-properties */
-.form-properties {
+.form-properties,
+.form-language {
   flex-direction: row;
   justify-content: space-between;
 }
@@ -202,7 +204,7 @@ form .row button {
 }
 
 form button:hover {
-  background: rgb(280, 199, 155);
+  background: rgb(255, 199, 155);
 }
 
 select {
@@ -232,6 +234,13 @@ form :where(select) {
   height: 12px;
 }
 
+.lang .checkbox::before {
+  content: url('./pic/9135402.png');
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
+
 .checkbox:checked::before {
   content: url('./pic/9135401.png');
   display: inline-block;
@@ -240,6 +249,13 @@ form :where(select) {
 }
 
 .checkboxN:checked::before {
+  content: url('./pic/9135401.png');
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
+
+.checkboxL:checked::before {
   content: url('./pic/9135401.png');
   display: inline-block;
   width: 12px;
@@ -292,7 +308,7 @@ body #countdown {
 
 /* Отличия для таймера */
 body .timer {
-  top: 757px;
+  top: 807px;
   background-color: rgba(186, 183, 181, 0);
   /* прозрачный фон */
   color: rgb(255, 230, 250);
@@ -427,6 +443,11 @@ body #countdown {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
   }
 
+  .wrapper.minimal-ui form button:hover,
+  .wrapper.minimal-ui .block-button-1 button:hover {
+    background-color: #74aae7 !important;
+  }
+
   .wrapper.minimal-ui .stop {
     background-color: #e0e0e0 !important;
     color: #333 !important;
@@ -453,8 +474,10 @@ body #countdown {
 
   .wrapper.minimal-ui .checkbox::before,
   .wrapper.minimal-ui .checkboxN::before,
+  .wrapper.minimal-ui .checkboxL::before,
   .wrapper.minimal-ui .checkbox:checked::before,
-  .wrapper.minimal-ui .checkboxN:checked::before {
+  .wrapper.minimal-ui .checkboxN:checked::before,
+  wrapper.minimal-ui .checkboxL:checked::before {
     content: none !important;
   }
 }
