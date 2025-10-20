@@ -79,23 +79,27 @@ const voicePlay = {
         En: [
           "английский Соединенные Штаты (en-US)",
           "(en-US)",
+          /"[^"]*\(en-US\)"/g,
           "Google US English (en-US)",
         ],
         Pl: [
           "польский Польша (pl-PL)",
           "(pl-PL)",
+          /"[^"]*\(pl-PL\)"/g,
           "Google polski (pl-PL)",
           // "pl-PL"
         ],
         Gr: [
           "греческий Греция (el-GR)",
           "(el-GR)",
+          /"[^"]*\(el-GR\)"/g,
           "Google русский (ru-RU)",
           // "el-GR",
         ],
         Du: [
           "немецкий Германия (de-DE)",
           "(de-DE)",
+          /"[^"]*\(de-DE\)"/g,
           "Google Deutsch (de-DE)",
           // "de-DE",
         ],

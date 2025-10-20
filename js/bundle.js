@@ -357,14 +357,14 @@ var voicePlay = {
     // ---------------------------
     if (language && currentButton1 === "but1") {
       var languageMap = {
-        En: ["английский Соединенные Штаты (en-US)", "(en-US)", "Google US English (en-US)"],
-        Pl: ["польский Польша (pl-PL)", "(pl-PL)", "Google polski (pl-PL)"
+        En: ["английский Соединенные Штаты (en-US)", "(en-US)", /"[^"]*\(en-US\)"/g, "Google US English (en-US)"],
+        Pl: ["польский Польша (pl-PL)", "(pl-PL)", /"[^"]*\(pl-PL\)"/g, "Google polski (pl-PL)"
         // "pl-PL"
         ],
-        Gr: ["греческий Греция (el-GR)", "(el-GR)", "Google русский (ru-RU)"
+        Gr: ["греческий Греция (el-GR)", "(el-GR)", /"[^"]*\(el-GR\)"/g, "Google русский (ru-RU)"
         // "el-GR",
         ],
-        Du: ["немецкий Германия (de-DE)", "(de-DE)", "Google Deutsch (de-DE)"
+        Du: ["немецкий Германия (de-DE)", "(de-DE)", /"[^"]*\(de-DE\)"/g, "Google Deutsch (de-DE)"
         // "de-DE",
         ]
       };
