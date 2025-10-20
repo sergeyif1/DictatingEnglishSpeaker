@@ -357,10 +357,10 @@ var voicePlay = {
     // ---------------------------
     if (language && currentButton1 === "but1") {
       var languageMap = {
-        En: ["Google US English (en-US)", "английский Соединенные Штаты (en-US)", "en-US"],
-        Pl: ["Google polski (pl-PL)", "польский Польша (pl-PL)", "pl-PL"],
-        Gr: ["Google русский (ru-RU)", "греческий Греция (el-GR)", "el-GR"],
-        Du: ["Google Deutsch (de-DE)", "немецкий Германия (de-DE)", "de-DE"]
+        En: ["английский Соединенные Штаты (en-US)", "Google US English (en-US)", "en-US"],
+        Pl: ["польский Польша (pl-PL)", "Google polski (pl-PL)", "pl-PL"],
+        Gr: ["греческий Греция (el-GR)", "Google русский (ru-RU)", "el-GR"],
+        Du: ["немецкий Германия (de-DE)", "Google Deutsch (de-DE)", "de-DE"]
       };
       var possibleMatches = languageMap[language] || [];
       selectedVoice = availableVoices.find(function (v) {
