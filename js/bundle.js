@@ -357,18 +357,15 @@ var voicePlay = {
     // ---------------------------
     if (language && currentButton1 === "but1") {
       var languageMap = {
-        En: ["английский Соединенные Штаты (en-US)", /en-US/
-        // "Google US English (en-US)",
-        ],
-        Pl: ["польский Польша (pl-PL)", /pl-PL/
-        // "Google polski (pl-PL)",
+        En: ["английский Соединенные Штаты (en-US)", "(en-US)", "Google US English (en-US)"],
+        Pl: ["польский Польша (pl-PL)", "(pl-PL)", "Google polski (pl-PL)"
         // "pl-PL"
         ],
-        Gr: ["греческий Греция (el-GR)", /el-GR/
-        // "Google русский (ru-RU)", "el-GR"
+        Gr: ["греческий Греция (el-GR)", "(el-GR)", "Google русский (ru-RU)"
+        // "el-GR",
         ],
-        Du: ["немецкий Германия (de-DE)", /de-DE/
-        // "Google Deutsch (de-DE)", "de-DE"
+        Du: ["немецкий Германия (de-DE)", "(de-DE)", "Google Deutsch (de-DE)"
+        // "de-DE",
         ]
       };
       var _possibleMatches = languageMap[language] || [];
@@ -391,10 +388,13 @@ var voicePlay = {
       var russianMatches = ["Google русский (ru-RU)", "русский Россия (ru-RU)", "(ru-RU)", "ru-RU"];
       selectedVoice = availableVoices.find(function (v) {
         return possibleMatches.some(function (match) {
+          // Если match — это регулярное выражение
           if (match instanceof RegExp) {
-            return match.test(v.lang) || match.test(v.name);
+            return match.test(v.name) || match.test(v.lang);
           }
-          return v.name.includes(match) || v.lang === match || v.name + " (" + v.lang + ")" === match;
+
+          // Если match — обычная строка
+          return typeof match === "string" && (v.name.includes(match) || v.lang === match || "".concat(v.name, " (").concat(v.lang, ")") === match);
         });
       });
 

@@ -78,24 +78,26 @@ const voicePlay = {
       const languageMap = {
         En: [
           "английский Соединенные Штаты (en-US)",
-          /en-US/,
-          // "Google US English (en-US)",
+          "(en-US)",
+          "Google US English (en-US)",
         ],
         Pl: [
           "польский Польша (pl-PL)",
-          /pl-PL/,
-          // "Google polski (pl-PL)",
+          "(pl-PL)",
+          "Google polski (pl-PL)",
           // "pl-PL"
         ],
         Gr: [
           "греческий Греция (el-GR)",
-          /el-GR/,
-          // "Google русский (ru-RU)", "el-GR"
+          "(el-GR)",
+          "Google русский (ru-RU)",
+          // "el-GR",
         ],
         Du: [
           "немецкий Германия (de-DE)",
-          /de-DE/,
-          // "Google Deutsch (de-DE)", "de-DE"
+          "(de-DE)",
+          "Google Deutsch (de-DE)",
+          // "de-DE",
         ],
       };
 
@@ -132,13 +134,17 @@ const voicePlay = {
 
       selectedVoice = availableVoices.find((v) =>
         possibleMatches.some((match) => {
+          // Если match — это регулярное выражение
           if (match instanceof RegExp) {
-            return match.test(v.lang) || match.test(v.name);
+            return match.test(v.name) || match.test(v.lang);
           }
+
+          // Если match — обычная строка
           return (
-            v.name.includes(match) ||
-            v.lang === match ||
-            v.name + " (" + v.lang + ")" === match
+            typeof match === "string" &&
+            (v.name.includes(match) ||
+              v.lang === match ||
+              `${v.name} (${v.lang})` === match)
           );
         })
       );
