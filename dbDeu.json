@@ -235,3463 +235,4040 @@
             "id": "34",
             "name": "das Meer",
             "title": "море",
-            "subscrb": "дас МЭар"
+            "subscrb": "дас МЭар",
+            "language": "Du"
         },
         {
             "id": "35",
             "name": "die Fliege",
             "title": "муха",
-            "subscrb": "ди ФЛИгэ"
+            "subscrb": "ди ФЛИгэ",
+            "language": "Du"
         },
         {
             "id": "36",
             "name": "nächste",
             "title": "следующий",
-            "subscrb": "НЭХстэ"
+            "subscrb": "НЭХстэ",
+            "language": "Du"
         },
         {
             "id": "37",
             "name": "unser, unseres, unsere",
             "title": "наш, нашего, наши",
-            "subscrb": "УНзэр, УНзэрэс, УНзэрэ"
+            "subscrb": "УНзэр, УНзэрэс, УНзэрэ",
+            "language": "Du"
         },
         {
             "id": "38",
             "name": "heißen",
             "title": "называться",
-            "subscrb": "ХАйсэн"
+            "subscrb": "ХАйсэн",
+            "language": "Du"
         },
         {
             "id": "39",
             "name": "hellblau",
             "title": "голубой",
-            "subscrb": "ХЭльблау"
+            "subscrb": "ХЭльблау",
+            "language": "Du"
         },
         {
             "id": "40",
             "name": "niedrig",
             "title": "низкий",
-            "subscrb": "НИдрих"
+            "subscrb": "НИдрих",
+            "language": "Du"
         },
         {
             "id": "41",
             "name": "neu",
             "title": "новый",
-            "subscrb": "НОЙ"
+            "subscrb": "НОЙ",
+            "language": "Du"
         },
         {
             "id": "42",
             "name": "der Herr",
             "title": "обращение к мужчине",
-            "subscrb": "дэр ХЭр"
+            "subscrb": "дэр ХЭр",
+            "language": "Du"
         },
         {
             "id": "43",
             "name": "die Frau",
             "title": "обращение к женщине",
-            "subscrb": "ди ФРАу"
+            "subscrb": "ди ФРАу",
+            "language": "Du"
         },
         {
             "id": "44",
             "name": "der Hund",
             "title": "собака",
-            "subscrb": "дэр ХУнт"
+            "subscrb": "дэр ХУнт",
+            "language": "Du"
         },
         {
             "id": "45",
             "name": "die Hündchen",
             "title": "собачки",
-            "subscrb": "ди ХЮНдхен"
+            "subscrb": "ди ХЮНдхен",
+            "language": "Du"
         },
         {
             "id": "46",
             "name": "das Zimmer",
             "title": "комната",
-            "subscrb": "дас ЦИмэр"
+            "subscrb": "дас ЦИмэр",
+            "language": "Du"
         },
         {
             "id": "47",
             "name": "polnisch",
             "title": "польский",
-            "subscrb": "ПОЛниш"
+            "subscrb": "ПОЛниш",
+            "language": "Du"
         },
         {
             "id": "48",
             "name": "hübsch",
             "title": "красивый о мужчине",
-            "subscrb": "ХЮпш"
+            "subscrb": "ХЮпш",
+            "language": "Du"
         },
         {
             "id": "49",
             "name": "die Schwester",
             "title": "сестра",
-            "subscrb": "ди ШВЭСтэр"
+            "subscrb": "ди ШВЭСтэр",
+            "language": "Du"
         },
         {
             "id": "50",
             "name": "alt",
             "title": "старый",
-            "subscrb": "АЛЬт"
+            "subscrb": "АЛЬт",
+            "language": "Du"
         },
         {
             "id": "51",
             "name": "das Fest",
             "title": "праздник",
-            "subscrb": "дас ФЭст"
+            "subscrb": "дас ФЭст",
+            "language": "Du"
         },
         {
             "id": "52",
             "name": "frisch",
             "title": "свежий",
-            "subscrb": "ФРИш"
+            "subscrb": "ФРИш",
+            "language": "Du"
         },
         {
             "id": "53",
             "name": "sympathisch",
             "title": "симпатичный",
-            "subscrb": "зюмПАтиш"
+            "subscrb": "зюмПАтиш",
+            "language": "Du"
         },
         {
             "id": "54",
             "name": "(von) Träumen",
             "title": "снов",
-            "subscrb": "фон ТРОЙмэн"
+            "subscrb": "фон ТРОЙмэн",
+            "language": "Du"
         },
         {
             "id": "55",
             "name": "jener, jene, jenes",
             "title": "тот, та, то",
-            "subscrb": "ЙЭйнэр, ЙЭйнэ, ЙЭйнэс"
+            "subscrb": "ЙЭйнэр, ЙЭйнэ, ЙЭйнэс",
+            "language": "Du"
         },
         {
             "id": "56",
             "name": "dieser, diese, dieses",
             "title": "это, эта, это",
-            "subscrb": "ДИэзэр, ДИэзэ, ДИэзэс"
+            "subscrb": "ДИэзэр, ДИэзэ, ДИэзэс",
+            "language": "Du"
         },
         {
             "id": "57",
             "name": "auch",
             "title": "тоже",
-            "subscrb": "АУх"
+            "subscrb": "АУх",
+            "language": "Du"
         },
         {
             "id": "58",
             "name": "dein, deine, dein",
             "title": "твой, твоя, твоё",
-            "subscrb": "ДАЙн, ДАЙнэ, ДАЙн"
+            "subscrb": "ДАЙн, ДАЙнэ, ДАЙн",
+            "language": "Du"
         },
         {
             "id": "59",
             "name": "Ihr, Ihre, Ihr",
             "title": "ваш, ваша, ваше",
-            "subscrb": "ИА, ИАрэ, ИА"
+            "subscrb": "ИА, ИАрэ, ИА",
+            "language": "Du"
         },
         {
             "id": "60",
             "name": "hat geklappt",
             "title": "вышел о'кей",
-            "subscrb": "хат гэКЛАПт"
+            "subscrb": "хат гэКЛАПт",
+            "language": "Du"
         },
         {
             "id": "61",
             "name": "der Unterricht",
             "title": "занятия",
-            "subscrb": "дэр Унтэррихт"
+            "subscrb": "дэр Унтэррихт",
+            "language": "Du"
         },
         {
             "id": "62",
             "name": "der Zahn",
             "title": "зуб",
-            "subscrb": "дэр ЦАН"
+            "subscrb": "дэр ЦАН",
+            "language": "Du"
         },
         {
             "id": "63",
             "name": "grün",
             "title": "зелёный",
-            "subscrb": "ГРЮН"
+            "subscrb": "ГРЮН",
+            "language": "Du"
         },
         {
             "id": "64",
             "name": "die Erde",
             "title": "земля",
-            "subscrb": "ди Эрдэ"
+            "subscrb": "ди Эрдэ",
+            "language": "Du"
         },
         {
             "id": "65",
             "name": "gelb",
             "title": "жёлтый",
-            "subscrb": "ГЭльп"
+            "subscrb": "ГЭльп",
+            "language": "Du"
         },
         {
             "id": "66",
             "name": "Guten Tag",
             "title": "здравствуйте",
-            "subscrb": "ГУтэн Так"
+            "subscrb": "ГУтэн Так",
+            "language": "Du"
         },
         {
             "id": "67",
             "name": "Guten Tag",
             "title": "Добрый день",
-            "subscrb": "ГУтэн Так"
+            "subscrb": "ГУтэн Так",
+            "language": "Du"
         },
         {
             "id": "68",
             "name": "Guten Abend",
             "title": "Добрый вечер",
-            "subscrb": "ГУтэн ААбэнт"
+            "subscrb": "ГУтэн ААбэнт",
+            "language": "Du"
         },
         {
             "id": "69",
             "name": "Hallo",
             "title": "привет",
-            "subscrb": "ХАло"
+            "subscrb": "ХАло",
+            "language": "Du"
         },
         {
             "id": "70",
             "name": "Auf Wiedersehen",
             "title": "до свидания",
-            "subscrb": "ауф ВИдэрзэен"
+            "subscrb": "ауф ВИдэрзэен",
+            "language": "Du"
         },
         {
             "id": "71",
             "name": "Bis bald",
             "title": "до скорого свидание",
-            "subscrb": "бис БАЛЬт"
+            "subscrb": "бис БАЛЬт",
+            "language": "Du"
         },
         {
             "id": "72",
             "name": "Gute Nacht",
             "title": "спокойной ночи",
-            "subscrb": "ГУтэ НАхт"
+            "subscrb": "ГУтэ НАхт",
+            "language": "Du"
         },
         {
             "id": "73",
             "name": "Bis morgen",
             "title": "до завтра",
-            "subscrb": "бис МОргэн"
+            "subscrb": "бис МОргэн",
+            "language": "Du"
         },
         {
             "id": "74",
             "name": "Wie heißen Sie?",
             "title": "как вас зовут",
-            "subscrb": "ви ХАйсэн ЗИ?"
+            "subscrb": "ви ХАйсэн ЗИ?",
+            "language": "Du"
         },
         {
             "id": "75",
             "name": "Ich heiße ...",
             "title": "меня зовут так-то",
-            "subscrb": "их ХАйсэ ..."
+            "subscrb": "их ХАйсэ ...",
+            "language": "Du"
         },
         {
             "id": "76",
             "name": "Ich heiße",
             "title": "меня зовут",
-            "subscrb": "их ХАйсэ"
+            "subscrb": "их ХАйсэ",
+            "language": "Du"
         },
         {
             "id": "77",
             "name": "sehr erfreut",
             "title": "очень приятно",
-            "subscrb": "зэар эрФРОЙт"
+            "subscrb": "зэар эрФРОЙт",
+            "language": "Du"
         },
         {
             "id": "78",
             "name": "angenehm",
             "title": "очень приятно",
-            "subscrb": "АНгэнейм"
+            "subscrb": "АНгэнейм",
+            "language": "Du"
         },
         {
             "id": "79",
             "name": "Wie heißt du?",
             "title": "как тебя зовут",
-            "subscrb": "ви ХАЙст ду?"
+            "subscrb": "ви ХАЙст ду?",
+            "language": "Du"
         },
         {
             "id": "80",
             "name": "Entschuldigung",
             "title": "извините",
-            "subscrb": "энтШУЛьдигунг"
+            "subscrb": "энтШУЛьдигунг",
+            "language": "Du"
         },
         {
             "id": "81",
             "name": "danke",
             "title": "спасибо",
-            "subscrb": "ДАНкэ"
+            "subscrb": "ДАНкэ",
+            "language": "Du"
         },
         {
             "id": "82",
             "name": "bitte",
             "title": "пожалуйста",
-            "subscrb": "БИтэ"
+            "subscrb": "БИтэ",
+            "language": "Du"
         },
         {
             "id": "83",
             "name": "Was gibt's Neues?",
             "title": "что у вас слышно",
-            "subscrb": "вас гибтс НОЙэс?"
+            "subscrb": "вас гибтс НОЙэс?",
+            "language": "Du"
         },
         {
             "id": "84",
             "name": "Wie lebst du?",
             "title": "как живёшь",
-            "subscrb": "ви ЛЭбст ду?"
+            "subscrb": "ви ЛЭбст ду?",
+            "language": "Du"
         },
         {
             "id": "85",
             "name": "Wie geht's?",
             "title": "как дела",
-            "subscrb": "ви ГЭйтс?"
+            "subscrb": "ви ГЭйтс?",
+            "language": "Du"
         },
         {
             "id": "86",
             "name": "danke",
             "title": "спасибо",
-            "subscrb": "ДАНкэ"
+            "subscrb": "ДАНкэ",
+            "language": "Du"
         },
         {
             "id": "87",
             "name": "alles in Ordnung",
             "title": "всё в порядке",
-            "subscrb": "АЛлэс ин Орднунг"
+            "subscrb": "АЛлэс ин Орднунг",
+            "language": "Du"
         },
         {
             "id": "88",
             "name": "wunderbar",
             "title": "прекрасно",
-            "subscrb": "ВУндэрбар"
+            "subscrb": "ВУндэрбар",
+            "language": "Du"
         },
         {
             "id": "89",
             "name": "sehr gut",
             "title": "очень хорошо",
-            "subscrb": "зэар ГУт"
+            "subscrb": "зэар ГУт",
+            "language": "Du"
         },
         {
             "id": "90",
             "name": "nicht schlecht",
             "title": "неплохо",
-            "subscrb": "нихт ШЛЕХт"
+            "subscrb": "нихт ШЛЕХт",
+            "language": "Du"
         },
         {
             "id": "91",
             "name": "so lala",
             "title": "так себе",
-            "subscrb": "зо лаЛА"
+            "subscrb": "зо лаЛА",
+            "language": "Du"
         },
         {
             "id": "92",
             "name": "schlecht",
             "title": "плохо",
-            "subscrb": "ШЛЕХт"
+            "subscrb": "ШЛЕХт",
+            "language": "Du"
         },
         {
             "id": "93",
             "name": "wie früher",
             "title": "по-старому",
-            "subscrb": "ви ФРЮэр"
+            "subscrb": "ви ФРЮэр",
+            "language": "Du"
         },
         {
             "id": "94",
             "name": "nichts Neues",
             "title": "ничего нового",
-            "subscrb": "нихтс НОЙэс"
+            "subscrb": "нихтс НОЙэс",
+            "language": "Du"
         },
         {
             "id": "95",
             "name": "aber",
             "title": "но",
-            "subscrb": "АБэр"
+            "subscrb": "АБэр",
+            "language": "Du"
         },
         {
             "id": "96",
             "name": "der Artikel",
             "title": "статья",
-            "subscrb": "дэр АрТИкэл"
+            "subscrb": "дэр АрТИкэл",
+            "language": "Du"
         },
         {
             "id": "97",
             "name": "Bus-",
             "title": "автобусный",
-            "subscrb": "БУС"
+            "subscrb": "БУС",
+            "language": "Du"
         },
         {
             "id": "98",
             "name": "das Ticket",
             "title": "билет",
-            "subscrb": "дас тикет"
+            "subscrb": "дас тикет",
+            "language": "Du"
         },
         {
             "id": "99",
             "name": "das Taschentuch",
             "title": "платочек",
-            "subscrb": "дас ТАшэнтУх"
+            "subscrb": "дас ТАшэнтУх",
+            "language": "Du"
         },
         {
             "id": "100",
             "name": "die Zeitschrift",
             "title": "журнал",
-            "subscrb": "ди ЦАЙтшрифт"
+            "subscrb": "ди ЦАЙтшрифт",
+            "language": "Du"
         },
         {
             "id": "101",
             "name": "oft",
             "title": "часто",
-            "subscrb": "офт"
+            "subscrb": "офт",
+            "language": "Du"
         },
         {
             "id": "102",
             "name": "lesen",
             "title": "читать",
-            "subscrb": "ЛЕзен"
+            "subscrb": "ЛЕзен",
+            "language": "Du"
         },
         {
             "id": "103",
             "name": "Kugelschreiber",
             "title": "шариковая ручка",
-            "subscrb": "КУгельшрайбэр"
+            "subscrb": "КУгельшрайбэр",
+            "language": "Du"
         },
         {
             "id": "104",
             "name": "gut",
             "title": "хороший",
-            "subscrb": "гут"
+            "subscrb": "гут",
+            "language": "Du"
         },
         {
             "id": "105",
             "name": "gut",
             "title": "хорошо",
-            "subscrb": "гут"
+            "subscrb": "гут",
+            "language": "Du"
         },
         {
             "id": "106",
             "name": "Kind",
             "title": "ребёнок",
-            "subscrb": "кинд"
+            "subscrb": "кинд",
+            "language": "Du"
         },
         {
             "id": "107",
             "name": "Film",
             "title": "фильм",
-            "subscrb": "фильм"
+            "subscrb": "фильм",
+            "language": "Du"
         },
         {
             "id": "108",
             "name": "Zeitung",
             "title": "газета",
-            "subscrb": "ЦАЙтунг"
+            "subscrb": "ЦАЙтунг",
+            "language": "Du"
         },
         {
             "id": "109",
             "name": "spielen",
             "title": "играть",
-            "subscrb": "ШПИлен"
+            "subscrb": "ШПИлен",
+            "language": "Du"
         },
         {
             "id": "110",
             "name": "höflich",
             "title": "вежливый, послушный",
-            "subscrb": "ХЁФлих"
+            "subscrb": "ХЁФлих",
+            "language": "Du"
         },
         {
             "id": "111",
             "name": "hygienisch",
             "title": "гигиенический",
-            "subscrb": "хюГИэниш"
+            "subscrb": "хюГИэниш",
+            "language": "Du"
         },
         {
             "id": "112",
             "name": "Geschichte",
             "title": "история",
-            "subscrb": "геШИХтэ"
+            "subscrb": "геШИХтэ",
+            "language": "Du"
         },
         {
             "id": "113",
             "name": "klug",
             "title": "умный",
-            "subscrb": "клук"
+            "subscrb": "клук",
+            "language": "Du"
         },
         {
             "id": "114",
             "name": "Ingenieur",
             "title": "инженер",
-            "subscrb": "инжэНЁР"
+            "subscrb": "инжэНЁР",
+            "language": "Du"
         },
         {
             "id": "115",
             "name": "noch",
             "title": "ещё",
-            "subscrb": "нох"
+            "subscrb": "нох",
+            "language": "Du"
         },
         {
             "id": "116",
             "name": "Kalender",
             "title": "календарь",
-            "subscrb": "каЛЕНдэр"
+            "subscrb": "каЛЕНдэр",
+            "language": "Du"
         },
         {
             "id": "117",
             "name": "Karte",
             "title": "карточка",
-            "subscrb": "КАРтэ"
+            "subscrb": "КАРтэ",
+            "language": "Du"
         },
         {
             "id": "118",
             "name": "Witz",
             "title": "шутка, анекдот",
-            "subscrb": "виц"
+            "subscrb": "виц",
+            "language": "Du"
         },
         {
             "id": "119",
             "name": "jeder",
             "title": "каждый",
-            "subscrb": "Ейдэр"
+            "subscrb": "Ейдэр",
+            "language": "Du"
         },
         {
             "id": "120",
             "name": "Fahrer",
             "title": "шофёр",
-            "subscrb": "ФАhрэр"
+            "subscrb": "ФАhрэр",
+            "language": "Du"
         },
         {
             "id": "121",
             "name": "bunt",
             "title": "разноцветный",
-            "subscrb": "бунт"
+            "subscrb": "бунт",
+            "language": "Du"
         },
         {
             "id": "122",
             "name": "Ärztin",
             "title": "женщина-врач",
-            "subscrb": "ЭРцтин"
+            "subscrb": "ЭРцтин",
+            "language": "Du"
         },
         {
             "id": "123",
             "name": "Arzt",
             "title": "врач",
-            "subscrb": "арцт"
+            "subscrb": "арцт",
+            "language": "Du"
         },
         {
             "id": "124",
             "name": "Lehrer",
             "title": "учитель",
-            "subscrb": "ЛЕэРэр"
+            "subscrb": "ЛЕэРэр",
+            "language": "Du"
         },
         {
             "id": "125",
             "name": "Lehrerin",
             "title": "учительница",
-            "subscrb": "ЛЕэРэрин"
+            "subscrb": "ЛЕэРэрин",
+            "language": "Du"
         },
         {
             "id": "126",
             "name": "kochen",
             "title": "готовить",
-            "subscrb": "КОхен"
+            "subscrb": "КОхен",
+            "language": "Du"
         },
         {
             "id": "127",
             "name": "natürlich",
             "title": "конечно",
-            "subscrb": "наТЮрлих"
+            "subscrb": "наТЮрлих",
+            "language": "Du"
         },
         {
             "id": "128",
             "name": "anschauen",
             "title": "осматривать, смотреть",
-            "subscrb": "АНшауэн"
+            "subscrb": "АНшауэн",
+            "language": "Du"
         },
         {
             "id": "129",
             "name": "erzählen",
             "title": "рассказывать",
-            "subscrb": "эрЦЕлэн"
+            "subscrb": "эрЦЕлэн",
+            "language": "Du"
         },
         {
             "id": "130",
             "name": "sich erinnern",
             "title": "помнить",
-            "subscrb": "зих эрИНэрн"
+            "subscrb": "зих эрИНэрн",
+            "language": "Du"
         },
         {
             "id": "131",
             "name": "Zigaretten",
             "title": "сигареты",
-            "subscrb": "цигарЕтэн"
+            "subscrb": "цигарЕтэн",
+            "language": "Du"
         },
         {
             "id": "132",
             "name": "Krankenschwester",
             "title": "медсестра",
-            "subscrb": "КРАНкеншвэстэр"
+            "subscrb": "КРАНкеншвэстэр",
+            "language": "Du"
         },
         {
             "id": "133",
             "name": "Lied",
             "title": "песня",
-            "subscrb": "лид"
+            "subscrb": "лид",
+            "language": "Du"
         },
         {
             "id": "134",
             "name": "Schriftstellerin",
             "title": "писательница",
-            "subscrb": "ШРИФтштэлэрин"
+            "subscrb": "ШРИФтштэлэрин",
+            "language": "Du"
         },
         {
             "id": "135",
             "name": "Schriftsteller",
             "title": "писатель",
-            "subscrb": "ШРИФтштэлэр"
+            "subscrb": "ШРИФтштэлэр",
+            "language": "Du"
         },
         {
             "id": "136",
             "name": "Polizist",
             "title": "полицейский",
-            "subscrb": "полиЦИСТ"
+            "subscrb": "полиЦИСТ",
+            "language": "Du"
         },
         {
             "id": "137",
             "name": "fleißig",
             "title": "трудолюбивый",
-            "subscrb": "ФЛАЙсих"
+            "subscrb": "ФЛАЙсих",
+            "language": "Du"
         },
         {
             "id": "138",
             "name": "Programm",
             "title": "программа",
-            "subscrb": "прогРАмм"
+            "subscrb": "прогРАмм",
+            "language": "Du"
         },
         {
             "id": "139",
             "name": "lesen",
             "title": "прочитать",
-            "subscrb": "ЛЕзен"
+            "subscrb": "ЛЕзен",
+            "language": "Du"
         },
         {
             "id": "140",
             "name": "Arbeiterin",
             "title": "работница",
-            "subscrb": "АРбайтэрин"
+            "subscrb": "АРбайтэрин",
+            "language": "Du"
         },
         {
             "id": "141",
             "name": "Arbeiter",
             "title": "рабочий",
-            "subscrb": "АРбайтэр"
+            "subscrb": "АРбайтэр",
+            "language": "Du"
         },
         {
             "id": "142",
             "name": "Landwirt",
             "title": "земледелец",
-            "subscrb": "ЛАНДвИрт"
+            "subscrb": "ЛАНДвИрт",
+            "language": "Du"
         },
         {
             "id": "143",
             "name": "sprechen",
             "title": "разговаривать",
-            "subscrb": "ШПРЕхен"
+            "subscrb": "ШПРЕхен",
+            "language": "Du"
         },
         {
             "id": "144",
             "name": "verstehen",
             "title": "понимать",
-            "subscrb": "фэрШТЕэн"
+            "subscrb": "фэрШТЕэн",
+            "language": "Du"
         },
         {
             "id": "145",
             "name": "verschieden",
             "title": "разный",
-            "subscrb": "фэрШИдэн"
+            "subscrb": "фэрШИдэн",
+            "language": "Du"
         },
         {
             "id": "146",
             "name": "selten",
             "title": "редко",
-            "subscrb": "ЗЭльтэн"
+            "subscrb": "ЗЭльтэн",
+            "language": "Du"
         },
         {
             "id": "147",
             "name": "Wort",
             "title": "слово",
-            "subscrb": "ворт"
+            "subscrb": "ворт",
+            "language": "Du"
         },
         {
             "id": "148",
             "name": "sich treffen",
             "title": "встретиться",
-            "subscrb": "зих ТРЕфэн"
+            "subscrb": "зих ТРЕфэн",
+            "language": "Du"
         },
         {
             "id": "149",
             "name": "sich treffen",
             "title": "встречаться",
-            "subscrb": "зих ТРЕфэн"
+            "subscrb": "зих ТРЕфэн",
+            "language": "Du"
         },
         {
             "id": "150",
             "name": "kontrollieren",
             "title": "проверять",
-            "subscrb": "контролЛИрэн"
+            "subscrb": "контролЛИрэн",
+            "language": "Du"
         },
         {
             "id": "151",
             "name": "Student",
             "title": "студент",
-            "subscrb": "штудЕнт"
+            "subscrb": "штудЕнт",
+            "language": "Du"
         },
         {
             "id": "152",
             "name": "Studentin",
             "title": "студентка",
-            "subscrb": "штудЕнтин"
+            "subscrb": "штудЕнтин",
+            "language": "Du"
         },
         {
             "id": "153",
             "name": "singen",
             "title": "петь",
-            "subscrb": "ЗИНгэн"
+            "subscrb": "ЗИНгэн",
+            "language": "Du"
         },
         {
             "id": "154",
             "name": "telefonisch",
             "title": "телефонный",
-            "subscrb": "тэлефоНИШ"
+            "subscrb": "тэлефоНИШ",
+            "language": "Du"
         },
         {
             "id": "155",
             "name": "Fernsehen",
             "title": "телевидение",
-            "subscrb": "ФЭрнзэhн"
+            "subscrb": "ФЭрнзэhн",
+            "language": "Du"
         },
         {
             "id": "156",
             "name": "jetzt",
             "title": "сейчас",
-            "subscrb": "ецт"
+            "subscrb": "ецт",
+            "language": "Du"
         },
         {
             "id": "157",
             "name": "fürsorglich",
             "title": "заботливый",
-            "subscrb": "ФЮРзорглих"
+            "subscrb": "ФЮРзорглих",
+            "language": "Du"
         },
         {
             "id": "158",
             "name": "Schülerin",
             "title": "ученица",
-            "subscrb": "ШЮлэрин"
+            "subscrb": "ШЮлэрин",
+            "language": "Du"
         },
         {
             "id": "159",
             "name": "Schüler",
             "title": "ученик",
-            "subscrb": "ШЮлэр"
+            "subscrb": "ШЮлэр",
+            "language": "Du"
         },
         {
             "id": "160",
             "name": "können",
             "title": "уметь",
-            "subscrb": "КЁнэн"
+            "subscrb": "КЁнэн",
+            "language": "Du"
         },
         {
             "id": "161",
             "name": "Angestellte",
             "title": "служащая",
-            "subscrb": "АНгэштэльтэ"
+            "subscrb": "АНгэштэльтэ",
+            "language": "Du"
         },
         {
             "id": "162",
             "name": "Angestellter",
             "title": "служащий",
-            "subscrb": "АНгэштэльтэр"
+            "subscrb": "АНгэштэльтэр",
+            "language": "Du"
         },
         {
             "id": "163",
             "name": "talentiert",
             "title": "талантливый",
-            "subscrb": "тальэнТИРТ"
+            "subscrb": "тальэнТИРТ",
+            "language": "Du"
         },
         {
             "id": "164",
             "name": "Postkarte",
             "title": "открытка",
-            "subscrb": "ПОСТкартэ"
+            "subscrb": "ПОСТкартэ",
+            "language": "Du"
         },
         {
             "id": "165",
             "name": "bald",
             "title": "скоро",
-            "subscrb": "бальт"
+            "subscrb": "бальт",
+            "language": "Du"
         },
         {
             "id": "166",
             "name": "alles",
             "title": "всё",
-            "subscrb": "АЛлэс"
+            "subscrb": "АЛлэс",
+            "language": "Du"
         },
         {
             "id": "167",
             "name": "Dozent",
             "title": "преподаватель",
-            "subscrb": "доЦЕНТ"
+            "subscrb": "доЦЕНТ",
+            "language": "Du"
         },
         {
             "id": "168",
             "name": "gebildet",
             "title": "образованный",
-            "subscrb": "гэБИЛдэт"
+            "subscrb": "гэБИЛдэт",
+            "language": "Du"
         },
         {
             "id": "169",
             "name": "Aufgabe",
             "title": "задание",
-            "subscrb": "АУФгабэ"
+            "subscrb": "АУФгабэ",
+            "language": "Du"
         },
         {
             "id": "170",
             "name": "Streichholz",
             "title": "спичка",
-            "subscrb": "ШТРАЙХхольц"
+            "subscrb": "ШТРАЙХхольц",
+            "language": "Du"
         },
         {
             "id": "171",
             "name": "anfangen zu singen",
             "title": "запеть",
-            "subscrb": "АНфанген цу ЗИНгэн"
+            "subscrb": "АНфанген цу ЗИНгэн",
+            "language": "Du"
         },
         {
             "id": "172",
             "name": "fähig",
             "title": "способный",
-            "subscrb": "ФЕхих"
+            "subscrb": "ФЕхих",
+            "language": "Du"
         },
         {
             "id": "173",
             "name": "Heft",
             "title": "тетрадь",
-            "subscrb": "хэфт"
+            "subscrb": "хэфт",
+            "language": "Du"
         },
         {
             "id": "174",
             "name": "schlecht",
             "title": "плохой",
-            "subscrb": "шлехт"
+            "subscrb": "шлехт",
+            "language": "Du"
         },
         {
             "id": "175",
             "name": "schlecht",
             "title": "плохо",
-            "subscrb": "шлехт"
+            "subscrb": "шлехт",
+            "language": "Du"
         },
         {
             "id": "176",
             "name": "Krankenschwester",
             "title": "медсестра",
-            "subscrb": "КРАНкеншвэстэр"
+            "subscrb": "КРАНкеншвэстэр",
+            "language": "Du"
         },
         {
             "id": "177",
             "name": "gut",
             "title": "хороший",
-            "subscrb": "гут"
+            "subscrb": "гут",
+            "language": "Du"
         },
         {
             "id": "178",
             "name": "höflich",
             "title": "вежливый",
-            "subscrb": "ХЁФлих"
+            "subscrb": "ХЁФлих",
+            "language": "Du"
         },
         {
             "id": "179",
             "name": "über die Sonne",
             "title": "про солнечные",
-            "subscrb": "Юбэр ди ЗОнэ"
+            "subscrb": "Юбэр ди ЗОнэ",
+            "language": "Du"
         },
         {
             "id": "180",
             "name": "klug",
             "title": "умный",
-            "subscrb": "клук"
+            "subscrb": "клук",
+            "language": "Du"
         },
         {
             "id": "181",
             "name": "fähig",
             "title": "способный",
-            "subscrb": "ФЕхих"
+            "subscrb": "ФЕхих",
+            "language": "Du"
         },
         {
             "id": "182",
             "name": "fürsorglich",
             "title": "заботливый",
-            "subscrb": "ФЮРзорглих"
+            "subscrb": "ФЮРзорглих",
+            "language": "Du"
         },
         {
             "id": "183",
             "name": "ehrgeizig",
             "title": "честолюбивый",
-            "subscrb": "ЭРгайцих"
+            "subscrb": "ЭРгайцих",
+            "language": "Du"
         },
         {
             "id": "184",
             "name": "gebildet",
             "title": "образованный",
-            "subscrb": "гэБИЛдэт"
+            "subscrb": "гэБИЛдэт",
+            "language": "Du"
         },
         {
             "id": "185",
             "name": "hygienisch",
             "title": "гигиенический",
-            "subscrb": "хюГИэниш"
+            "subscrb": "хюГИэниш",
+            "language": "Du"
         },
         {
             "id": "186",
             "name": "Telefonkarte",
             "title": "телефонная карточка",
-            "subscrb": "тэлэФОНкартэ"
+            "subscrb": "тэлэФОНкартэ",
+            "language": "Du"
         },
         {
             "id": "187",
             "name": "Busfahrkarte",
             "title": "автобусный билет",
-            "subscrb": "БУСфаркартэ"
+            "subscrb": "БУСфаркартэ",
+            "language": "Du"
         },
         {
             "id": "188",
             "name": "Hygienetuch",
             "title": "гигиенический платочек",
-            "subscrb": "хюГИэнэтух"
+            "subscrb": "хюГИэнэтух",
+            "language": "Du"
         },
         {
             "id": "189",
             "name": "bunte Postkarte",
             "title": "цветная открытка",
-            "subscrb": "БУНтэ ПОСТкартэ"
+            "subscrb": "БУНтэ ПОСТкартэ",
+            "language": "Du"
         },
         {
             "id": "190",
             "name": "interessante Zeitschrift",
             "title": "интересный журнал",
-            "subscrb": "интэрэССАНТэ ЦАЙТшрифт"
+            "subscrb": "интэрэССАНТэ ЦАЙТшрифт",
+            "language": "Du"
         },
         {
             "id": "191",
             "name": "frische Zeitung",
             "title": "свежая газета",
-            "subscrb": "ФРИшэ ЦАЙтунг"
+            "subscrb": "ФРИшэ ЦАЙтунг",
+            "language": "Du"
         },
         {
             "id": "192",
             "name": "schwarzes Heft",
             "title": "чёрная тетрадь",
-            "subscrb": "ШВАРцэс хэфт"
+            "subscrb": "ШВАРцэс хэфт",
+            "language": "Du"
         },
         {
             "id": "193",
             "name": "geben Sie bitte",
             "title": "дайте пожалуйста",
-            "subscrb": "ГЕбэн зи БИТтэ"
+            "subscrb": "ГЕбэн зи БИТтэ",
+            "language": "Du"
         },
         {
             "id": "194",
             "name": "diesen Kugelschreiber dort",
             "title": "ту шариковую ручку",
-            "subscrb": "ДИЗэн КУгельшрайбэр дорт"
+            "subscrb": "ДИЗэн КУгельшрайбэр дорт",
+            "language": "Du"
         },
         {
             "id": "195",
             "name": "diese Postkarte dort",
             "title": "вот ту открытку",
-            "subscrb": "ДИЗэ ПОСТкартэ дорт"
+            "subscrb": "ДИЗэ ПОСТкартэ дорт",
+            "language": "Du"
         },
         {
             "id": "196",
             "name": "guten Tag",
             "title": "здравствуйте",
-            "subscrb": "ГУтэн ТАК"
+            "subscrb": "ГУтэн ТАК",
+            "language": "Du"
         },
         {
             "id": "197",
             "name": "Guten Tag. Geben Sie bitte eine Postkarte",
             "title": "здравствуйте. дайте пожалуйста открытку",
-            "subscrb": "ГУтэн ТАК. ГЕбэн зи БИТтэ АЙнэ ПОСТкартэ"
+            "subscrb": "ГУтэн ТАК. ГЕбэн зи БИТтэ АЙнэ ПОСТкартэ",
+            "language": "Du"
         },
         {
             "id": "198",
             "name": "Welche Postkarte, diese oder jene",
             "title": "какую открытку эту или ту",
-            "subscrb": "ВЭльхэ ПОСТкартэ, ДИЗэ одэр ЙЭнэ"
+            "subscrb": "ВЭльхэ ПОСТкартэ, ДИЗэ одэр ЙЭнэ",
+            "language": "Du"
         },
         {
             "id": "199",
             "name": "jene bunte Postkarte",
             "title": "ту цветную открытку",
-            "subscrb": "ЙЭнэ БУНтэ ПОСТкартэ"
+            "subscrb": "ЙЭнэ БУНтэ ПОСТкартэ",
+            "language": "Du"
         },
         {
             "id": "200",
             "name": "bitte",
             "title": "пожалуйста",
-            "subscrb": "БИТтэ"
+            "subscrb": "БИТтэ",
+            "language": "Du"
         },
         {
             "id": "201",
             "name": "danke",
             "title": "спасибо",
-            "subscrb": "дáнке"
+            "subscrb": "дáнке",
+            "language": "Du"
         },
         {
             "id": "202",
             "name": "haben Sie Streichhölzer?",
             "title": "есть ли спички",
-            "subscrb": "хáбэн зи штрáйххёльцэр?"
+            "subscrb": "хáбэн зи штрáйххёльцэр?",
+            "language": "Du"
         },
         {
             "id": "203",
             "name": "ja, es gibt sie",
             "title": "да есть",
-            "subscrb": "я, эс гибт зи́"
+            "subscrb": "я, эс гибт зи́",
+            "language": "Du"
         },
         {
             "id": "204",
             "name": "geben Sie mir bitte Streichhölzer",
             "title": "дайте пожалуйста спички",
-            "subscrb": "гéбэн зи мир бíттэ штрáйххёльцэр"
+            "subscrb": "гéбэн зи мир бíттэ штрáйххёльцэр",
+            "language": "Du"
         },
         {
             "id": "205",
             "name": "bitte",
             "title": "пожалуйста",
-            "subscrb": "бíттэ"
+            "subscrb": "бíттэ",
+            "language": "Du"
         },
         {
             "id": "206",
             "name": "haben Sie eine frische Zeitung?",
             "title": "есть ли свежая газета",
-            "subscrb": "хáбэн зи áйнэ фришэ цáйтунг?"
+            "subscrb": "хáбэн зи áйнэ фришэ цáйтунг?",
+            "language": "Du"
         },
         {
             "id": "207",
             "name": "ja",
             "title": "да",
-            "subscrb": "я́"
+            "subscrb": "я́",
+            "language": "Du"
         },
         {
             "id": "208",
             "name": "geben Sie mir bitte eine frische Zeitung",
             "title": "дайте пожалуйста свежую газету",
-            "subscrb": "гéбэн зи мир бíттэ áйнэ фришэ цáйтунг"
+            "subscrb": "гéбэн зи мир бíттэ áйнэ фришэ цáйтунг",
+            "language": "Du"
         },
         {
             "id": "209",
             "name": "bitte",
             "title": "пожалуйста",
-            "subscrb": "бíттэ"
+            "subscrb": "бíттэ",
+            "language": "Du"
         },
         {
             "id": "210",
             "name": "danke, auf Wiedersehen",
             "title": "спасибо до свидания",
-            "subscrb": "дáнке, ауф вúдэрзээн"
+            "subscrb": "дáнке, ауф вúдэрзээн",
+            "language": "Du"
         },
         {
             "id": "211",
             "name": "guten Tag",
             "title": "здравствуйте",
-            "subscrb": "гýтэн тáк"
+            "subscrb": "гýтэн тáк",
+            "language": "Du"
         },
         {
             "id": "212",
             "name": "guten Tag, haben Sie Busfahrkarten?",
             "title": "здравствуйте есть ли автобусные билеты",
-            "subscrb": "гýтэн тáк, хáбэн зи бýсфаркáртен?"
+            "subscrb": "гýтэн тáк, хáбэн зи бýсфаркáртен?",
+            "language": "Du"
         },
         {
             "id": "213",
             "name": "ja, es gibt sie",
             "title": "да есть",
-            "subscrb": "я, эс гибт зи́"
+            "subscrb": "я, эс гибт зи́",
+            "language": "Du"
         },
         {
             "id": "214",
             "name": "geben Sie mir bitte eine Busfahrkarte und einen Kugelschreiber",
             "title": "дайте пожалуйста автобусный билет и шариковую ручку",
-            "subscrb": "гéбэн зи мир бíттэ áйнэ бýсфаркáртэ унд áйнэн кýгельшрайбэр"
+            "subscrb": "гéбэн зи мир бíттэ áйнэ бýсфаркáртэ унд áйнэн кýгельшрайбэр",
+            "language": "Du"
         },
         {
             "id": "215",
             "name": "welchen Stift?",
             "title": "какую ручку",
-            "subscrb": "вéльхен штíфт?"
+            "subscrb": "вéльхен штíфт?",
+            "language": "Du"
         },
         {
             "id": "216",
             "name": "geben Sie mir bitte einen roten Kugelschreiber und noch eine Karte",
             "title": "дайте пожалуйста красную шариковую ручку и ещё карточку",
-            "subscrb": "гéбэн зи мир бíттэ áйнэн рóтэн кýгельшрайбэр унд нох áйнэ кáртэ"
+            "subscrb": "гéбэн зи мир бíттэ áйнэн рóтэн кýгельшрайбэр унд нох áйнэ кáртэ",
+            "language": "Du"
         },
         {
             "id": "217",
             "name": "bitte",
             "title": "пожалуйста",
-            "subscrb": "бíттэ"
+            "subscrb": "бíттэ",
+            "language": "Du"
         },
         {
             "id": "218",
             "name": "danke, auf Wiedersehen",
             "title": "спасибо до свидания",
-            "subscrb": "дáнке, ауф вúдэрзээн"
+            "subscrb": "дáнке, ауф вúдэрзээн",
+            "language": "Du"
         },
         {
             "id": "219",
             "name": "lesen",
             "title": "читать",
-            "subscrb": "лéзэн"
+            "subscrb": "лéзэн",
+            "language": "Du"
         },
         {
             "id": "220",
             "name": "durchlesen",
             "title": "прочитать",
-            "subscrb": "дýрхлэзэн"
+            "subscrb": "дýрхлэзэн",
+            "language": "Du"
         },
         {
             "id": "221",
             "name": "anschauen",
             "title": "рассматривать, смотреть",
-            "subscrb": "áншауэн"
+            "subscrb": "áншауэн",
+            "language": "Du"
         },
         {
             "id": "222",
             "name": "spielen",
             "title": "играть",
-            "subscrb": "шпíлэн"
+            "subscrb": "шпíлэн",
+            "language": "Du"
         },
         {
             "id": "223",
             "name": "Hausaufgaben machen",
             "title": "готовить уроки",
-            "subscrb": "хáусауфгáбэн мáхэн"
+            "subscrb": "хáусауфгáбэн мáхэн",
+            "language": "Du"
         },
         {
             "id": "224",
             "name": "erzählen",
             "title": "рассказывать",
-            "subscrb": "эрцэ́лэн"
+            "subscrb": "эрцэ́лэн",
+            "language": "Du"
         },
         {
             "id": "225",
             "name": "sich erinnern",
             "title": "помнить",
-            "subscrb": "зих эрúнэрн"
+            "subscrb": "зих эрúнэрн",
+            "language": "Du"
         },
         {
             "id": "226",
             "name": "prüfen",
             "title": "проверять",
-            "subscrb": "прýфэн"
+            "subscrb": "прýфэн",
+            "language": "Du"
         },
         {
             "id": "227",
             "name": "sich treffen",
             "title": "встречаться",
-            "subscrb": "зих трéффэн"
+            "subscrb": "зих трéффэн",
+            "language": "Du"
         },
         {
             "id": "228",
             "name": "sich treffen",
             "title": "встретиться",
-            "subscrb": "зих трéффэн"
+            "subscrb": "зих трéффэн",
+            "language": "Du"
         },
         {
             "id": "229",
             "name": "können",
             "title": "уметь",
-            "subscrb": "кёнэн (с округлением губ, ударение на пéрвый слог)"
+            "subscrb": "кёнэн (с округлением губ, ударение на пéрвый слог)",
+            "language": "Du"
         },
         {
             "id": "230",
             "name": "sprechen",
             "title": "разговаривать",
-            "subscrb": "шпрéхэн"
+            "subscrb": "шпрéхэн",
+            "language": "Du"
         },
         {
             "id": "231",
             "name": "sich unterhalten",
             "title": "поговорить",
-            "subscrb": "зих унтэрхáльтэн"
+            "subscrb": "зих унтэрхáльтэн",
+            "language": "Du"
         },
         {
             "id": "232",
             "name": "verstehen",
             "title": "понимать",
-            "subscrb": "фэрштéэн"
+            "subscrb": "фэрштéэн",
+            "language": "Du"
         },
         {
             "id": "233",
             "name": "begreifen",
             "title": "понять",
-            "subscrb": "бэгрáйфэн"
+            "subscrb": "бэгрáйфэн",
+            "language": "Du"
         },
         {
             "id": "234",
             "name": "Artikel",
             "title": "статья",
-            "subscrb": "артúкэль"
+            "subscrb": "артúкэль",
+            "language": "Du"
         },
         {
             "id": "235",
             "name": "Wort",
             "title": "слово",
-            "subscrb": "ворт"
+            "subscrb": "ворт",
+            "language": "Du"
         },
         {
             "id": "236",
             "name": "jeder",
             "title": "каждый",
-            "subscrb": "éдэр"
+            "subscrb": "éдэр",
+            "language": "Du"
         },
         {
             "id": "237",
             "name": "Programm",
             "title": "программа",
-            "subscrb": "прогрáмм"
+            "subscrb": "прогрáмм",
+            "language": "Du"
         },
         {
             "id": "238",
             "name": "jetzt",
             "title": "сейчас",
-            "subscrb": "йэцт"
+            "subscrb": "йэцт",
+            "language": "Du"
         },
         {
             "id": "239",
             "name": "Aufgabe",
             "title": "задание",
-            "subscrb": "áуфгабэ"
+            "subscrb": "áуфгабэ",
+            "language": "Du"
         },
         {
             "id": "240",
             "name": "bald",
             "title": "скоро",
-            "subscrb": "бальт"
+            "subscrb": "бальт",
+            "language": "Du"
         },
         {
             "id": "241",
             "name": "verschieden",
             "title": "разный",
-            "subscrb": "фэршíдэн"
+            "subscrb": "фэршíдэн",
+            "language": "Du"
         },
         {
             "id": "242",
             "name": "oft",
             "title": "часто",
-            "subscrb": "офт"
+            "subscrb": "офт",
+            "language": "Du"
         },
         {
             "id": "243",
             "name": "schlecht",
             "title": "плохо",
-            "subscrb": "шлэхт"
+            "subscrb": "шлэхт",
+            "language": "Du"
         },
         {
             "id": "244",
             "name": "gut",
             "title": "хорошо",
-            "subscrb": "гут"
+            "subscrb": "гут",
+            "language": "Du"
         },
         {
             "id": "245",
             "name": "was ist das?",
             "title": "что это",
-            "subscrb": "вас ист дáс?"
+            "subscrb": "вас ист дáс?",
+            "language": "Du"
         },
         {
             "id": "246",
             "name": "das ist eine Stadt",
             "title": "это город",
-            "subscrb": "дас ист áйнэ штат"
+            "subscrb": "дас ист áйнэ штат",
+            "language": "Du"
         },
         {
             "id": "247",
             "name": "wer ist das?",
             "title": "кто это",
-            "subscrb": "вэа ист дáс?"
+            "subscrb": "вэа ист дáс?",
+            "language": "Du"
         },
         {
             "id": "248",
             "name": "das ist ein Mensch",
             "title": "это человек",
-            "subscrb": "дас ист áйн мэнш"
+            "subscrb": "дас ист áйн мэнш",
+            "language": "Du"
         },
         {
             "id": "249",
             "name": "was",
             "title": "что",
-            "subscrb": "вас"
+            "subscrb": "вас",
+            "language": "Du"
         },
         {
             "id": "250",
             "name": "das ist ein Schreibtisch",
             "title": "это письменный стол",
-            "subscrb": "дас ист áйн шрáйбтиш"
+            "subscrb": "дас ист áйн шрáйбтиш",
+            "language": "Du"
         },
         {
             "id": "251",
             "name": "wer ist das?",
             "title": "кто это",
-            "subscrb": "вэа ист дáс?"
+            "subscrb": "вэа ист дáс?",
+            "language": "Du"
         },
         {
             "id": "252",
             "name": "das ist ein Mädchen",
             "title": "это девушка",
-            "subscrb": "дас ист áйн мéтхен"
+            "subscrb": "дас ист áйн мéтхен",
+            "language": "Du"
         },
         {
             "id": "253",
             "name": "das ist auch",
             "title": "это тоже",
-            "subscrb": "дас ист áух"
+            "subscrb": "дас ист áух",
+            "language": "Du"
         },
         {
             "id": "254",
             "name": "nimm",
             "title": "возьми",
-            "subscrb": "ним"
+            "subscrb": "ним",
+            "language": "Du"
         },
         {
             "id": "255",
             "name": "komm her",
             "title": "иди сюда",
-            "subscrb": "ком хэа́"
+            "subscrb": "ком хэа́",
+            "language": "Du"
         },
         {
             "id": "256",
             "name": "die Oma / die Großmutter",
             "title": "бабушка",
-            "subscrb": "ди О́ма / ди Гро́смутер"
+            "subscrb": "ди О́ма / ди Гро́смутер",
+            "language": "Du"
         },
         {
             "id": "257",
             "name": "der Opa / der Großvater",
             "title": "дедушка",
-            "subscrb": "дер О́па / дер Гро́сфатер"
+            "subscrb": "дер О́па / дер Гро́сфатер",
+            "language": "Du"
         },
         {
             "id": "258",
             "name": "die Mutter",
             "title": "мать",
-            "subscrb": "ди Му́ттер"
+            "subscrb": "ди Му́ттер",
+            "language": "Du"
         },
         {
             "id": "259",
             "name": "der Vater",
             "title": "отец",
-            "subscrb": "дер Фа́тер"
+            "subscrb": "дер Фа́тер",
+            "language": "Du"
         },
         {
             "id": "260",
             "name": "die Schwester",
             "title": "сестра",
-            "subscrb": "ди Швэ́стэр"
+            "subscrb": "ди Швэ́стэр",
+            "language": "Du"
         },
         {
             "id": "261",
             "name": "der Bruder",
             "title": "брат",
-            "subscrb": "дер Бру́дер"
+            "subscrb": "дер Бру́дер",
+            "language": "Du"
         },
         {
             "id": "262",
             "name": "die Tochter",
             "title": "дочь",
-            "subscrb": "ди То́хтер"
+            "subscrb": "ди То́хтер",
+            "language": "Du"
         },
         {
             "id": "263",
             "name": "der Sohn",
             "title": "сын",
-            "subscrb": "дер Зо́н"
+            "subscrb": "дер Зо́н",
+            "language": "Du"
         },
         {
             "id": "264",
             "name": "der Enkel",
             "title": "внук",
-            "subscrb": "дер Э́нкель"
+            "subscrb": "дер Э́нкель",
+            "language": "Du"
         },
         {
             "id": "265",
             "name": "die Enkelin",
             "title": "внучка",
-            "subscrb": "ди Э́нкелин"
+            "subscrb": "ди Э́нкелин",
+            "language": "Du"
         },
         {
             "id": "266",
             "name": "die Ehefrau / die Frau",
             "title": "жена",
-            "subscrb": "ди Э́эфрау / ди Фра́у"
+            "subscrb": "ди Э́эфрау / ди Фра́у",
+            "language": "Du"
         },
         {
             "id": "267",
             "name": "der Ehemann / der Mann",
             "title": "муж",
-            "subscrb": "дер Э́эман / дер Ман"
+            "subscrb": "дер Э́эман / дер Ман",
+            "language": "Du"
         },
         {
             "id": "268",
             "name": "die Schwiegermutter",
             "title": "тёща",
-            "subscrb": "ди Шви́гэрмуттер"
+            "subscrb": "ди Шви́гэрмуттер",
+            "language": "Du"
         },
         {
             "id": "269",
             "name": "die Schwiegermutter",
             "title": "свекровь",
-            "subscrb": "ди Шви́гэрмуттер"
+            "subscrb": "ди Шви́гэрмуттер",
+            "language": "Du"
         },
         {
             "id": "270",
             "name": "der Schwiegervater",
             "title": "тесть",
-            "subscrb": "дер Шви́гэрфатер"
+            "subscrb": "дер Шви́гэрфатер",
+            "language": "Du"
         },
         {
             "id": "271",
             "name": "der Schwiegervater",
             "title": "свёкор",
-            "subscrb": "дер Шви́гэрфатер"
+            "subscrb": "дер Шви́гэрфатер",
+            "language": "Du"
         },
         {
             "id": "272",
             "name": "der Schwiegersohn",
             "title": "зять",
-            "subscrb": "дер Шви́гэрзон"
+            "subscrb": "дер Шви́гэрзон",
+            "language": "Du"
         },
         {
             "id": "273",
             "name": "die Schwiegertochter",
             "title": "невестка",
-            "subscrb": "ди Шви́гэртохтер"
+            "subscrb": "ди Шви́гэртохтер",
+            "language": "Du"
         },
         {
             "id": "274",
             "name": "die Tante",
             "title": "тётя",
-            "subscrb": "ди Та́нте"
+            "subscrb": "ди Та́нте",
+            "language": "Du"
         },
         {
             "id": "275",
             "name": "der Onkel",
             "title": "дядя",
-            "subscrb": "дер О́нкель"
+            "subscrb": "дер О́нкель",
+            "language": "Du"
         },
         {
             "id": "276",
             "name": "der Neffe",
             "title": "племянник",
-            "subscrb": "дер Не́ффе"
+            "subscrb": "дер Не́ффе",
+            "language": "Du"
         },
         {
             "id": "277",
             "name": "die Nichte",
             "title": "племянница",
-            "subscrb": "ди Ни́хте"
+            "subscrb": "ди Ни́хте",
+            "language": "Du"
         },
         {
             "id": "278",
             "name": "der Cousin",
             "title": "двоюродный брат",
-            "subscrb": "дер Куза́н"
+            "subscrb": "дер Куза́н",
+            "language": "Du"
         },
         {
             "id": "279",
             "name": "die Cousine",
             "title": "двоюродная сестра",
-            "subscrb": "ди Кузи́не"
+            "subscrb": "ди Кузи́не",
+            "language": "Du"
         },
         {
             "id": "280",
             "name": "die Familie",
             "title": "семья",
-            "subscrb": "ди ФамИ́лие"
+            "subscrb": "ди ФамИ́лие",
+            "language": "Du"
         },
         {
             "id": "281",
             "name": "die Eltern",
             "title": "родители",
-            "subscrb": "ди Э́льтерн"
+            "subscrb": "ди Э́льтерн",
+            "language": "Du"
         },
         {
             "id": "282",
             "name": "das Ehepaar",
             "title": "супружеская пара",
-            "subscrb": "дас Э́эпар"
+            "subscrb": "дас Э́эпар",
+            "language": "Du"
         },
         {
             "id": "283",
             "name": "die Schwiegereltern",
             "title": "дзятькове (польск.)",
-            "subscrb": "ди Шви́гэрэльтерн"
+            "subscrb": "ди Шви́гэрэльтерн",
+            "language": "Du"
         },
         {
             "id": "284",
             "name": "die Schwiegereltern",
             "title": "дзятькове (повт.)",
-            "subscrb": "ди Шви́гэрэльтерн"
+            "subscrb": "ди Шви́гэрэльтерн",
+            "language": "Du"
         },
         {
             "id": "285",
             "name": "die Verwandtschaft",
             "title": "родзеньство (польск.)",
-            "subscrb": "ди Фэрва́ндшафт"
+            "subscrb": "ди Фэрва́ндшафт",
+            "language": "Du"
         },
         {
             "id": "286",
             "name": "die Familie",
             "title": "роджитсе (польск.)",
-            "subscrb": "ди ФамИ́лие"
+            "subscrb": "ди ФамИ́лие",
+            "language": "Du"
         },
         {
             "id": "287",
             "name": "die Ehe",
             "title": "мауженьстфо (польск.)",
-            "subscrb": "ди Э́э"
+            "subscrb": "ди Э́э",
+            "language": "Du"
         },
         {
             "id": "288",
             "name": "die Familie",
             "title": "роджиина (польск.)",
-            "subscrb": "ди ФамИ́лие"
+            "subscrb": "ди ФамИ́лие",
+            "language": "Du"
         },
         {
             "id": "289",
             "name": "der Mann",
             "title": "мужчина",
-            "subscrb": "дер Ман"
+            "subscrb": "дер Ман",
+            "language": "Du"
         },
         {
             "id": "290",
             "name": "die Frau",
             "title": "женщина",
-            "subscrb": "ди Фра́у"
+            "subscrb": "ди Фра́у",
+            "language": "Du"
         },
         {
             "id": "291",
             "name": "der Junge / der Freund",
             "title": "парень",
-            "subscrb": "дер Ю́нге / дер Фрой́нд"
+            "subscrb": "дер Ю́нге / дер Фрой́нд",
+            "language": "Du"
         },
         {
             "id": "292",
             "name": "der Junge",
             "title": "мальчик",
-            "subscrb": "дер Ю́нге"
+            "subscrb": "дер Ю́нге",
+            "language": "Du"
         },
         {
             "id": "293",
             "name": "das Mädchen",
             "title": "девушка",
-            "subscrb": "дас Ме́дхен"
+            "subscrb": "дас Ме́дхен",
+            "language": "Du"
         },
         {
             "id": "294",
             "name": "das Mädchen",
             "title": "девочка",
-            "subscrb": "дас Ме́дхен"
+            "subscrb": "дас Ме́дхен",
+            "language": "Du"
         },
         {
             "id": "295",
             "name": "älter",
             "title": "старший",
-            "subscrb": "Э́льтер"
+            "subscrb": "Э́льтер",
+            "language": "Du"
         },
         {
             "id": "296",
             "name": "jünger",
             "title": "младший",
-            "subscrb": "Ю́нгер"
+            "subscrb": "Ю́нгер",
+            "language": "Du"
         },
         {
             "id": "297",
             "name": "Liebling / geliebt",
             "title": "любимый",
-            "subscrb": "Ли́блинг / гэли́бт"
+            "subscrb": "Ли́блинг / гэли́бт",
+            "language": "Du"
         },
         {
             "id": "298",
             "name": "harmonisch / einträchtig",
             "title": "дружный",
-            "subscrb": "гармони́ш / А́йнтрэхтих"
+            "subscrb": "гармони́ш / А́йнтрэхтих",
+            "language": "Du"
         },
         {
             "id": "299",
             "name": "Familienharmonie",
             "title": "согласие в семье",
-            "subscrb": "ФамИ́лиенгармони́е"
+            "subscrb": "ФамИ́лиенгармони́е",
+            "language": "Du"
         },
         {
             "id": "300",
             "name": "verheiratet (Frau)",
             "title": "замужняя",
-            "subscrb": "фэрХа́йратет"
+            "subscrb": "фэрХа́йратет",
+            "language": "Du"
         },
         {
             "id": "301",
             "name": "verheiratet (Mann)",
             "title": "женатый",
-            "subscrb": "фэрХа́йратет"
+            "subscrb": "фэрХа́йратет",
+            "language": "Du"
         },
         {
             "id": "302",
             "name": "klein",
             "title": "маленький",
-            "subscrb": "Кля́йн"
+            "subscrb": "Кля́йн",
+            "language": "Du"
         },
         {
             "id": "303",
             "name": "deine",
             "title": "твоих",
-            "subscrb": "Да́йне"
+            "subscrb": "Да́йне",
+            "language": "Du"
         },
         {
             "id": "304",
             "name": "meine",
             "title": "моих",
-            "subscrb": "Ма́йне"
+            "subscrb": "Ма́йне",
+            "language": "Du"
         },
         {
             "id": "305",
             "name": "geben",
             "title": "давать",
-            "subscrb": "Ге́бен"
+            "subscrb": "Ге́бен",
+            "language": "Du"
         },
         {
             "id": "306",
             "name": "passen",
             "title": "подходить",
-            "subscrb": "Па́ссен"
+            "subscrb": "Па́ссен",
+            "language": "Du"
         },
         {
             "id": "307",
             "name": "zeichnen",
             "title": "рисовать",
-            "subscrb": "Ца́йхнен"
+            "subscrb": "Ца́йхнен",
+            "language": "Du"
         },
         {
             "id": "308",
             "name": "malen",
             "title": "писать красками",
-            "subscrb": "Ма́лен"
+            "subscrb": "Ма́лен",
+            "language": "Du"
         },
         {
             "id": "309",
             "name": "spazieren gehen",
             "title": "прогуливаться",
-            "subscrb": "шпатци́рен ге́ен"
+            "subscrb": "шпатци́рен ге́ен",
+            "language": "Du"
         },
         {
             "id": "310",
             "name": "arbeiten",
             "title": "работать",
-            "subscrb": "А́рбайтен"
+            "subscrb": "А́рбайтен",
+            "language": "Du"
         },
         {
             "id": "311",
             "name": "an der Uni studieren",
             "title": "учиться в институте",
-            "subscrb": "ан дер У́ни штуди́рен"
+            "subscrb": "ан дер У́ни штуди́рен",
+            "language": "Du"
         },
         {
             "id": "312",
             "name": "zur Schule gehen",
             "title": "учиться в школе",
-            "subscrb": "цур Шу́ле ге́ен"
+            "subscrb": "цур Шу́ле ге́ен",
+            "language": "Du"
         },
         {
             "id": "313",
             "name": "sich weigern",
             "title": "отказываться",
-            "subscrb": "зих Ва́йгерн"
+            "subscrb": "зих Ва́йгерн",
+            "language": "Du"
         },
         {
             "id": "314",
             "name": "scherzen",
             "title": "шутить",
-            "subscrb": "Шэ́рцен"
+            "subscrb": "Шэ́рцен",
+            "language": "Du"
         },
         {
             "id": "315",
             "name": "küssen",
             "title": "целовать",
-            "subscrb": "Кю́ссен"
+            "subscrb": "Кю́ссен",
+            "language": "Du"
         },
         {
             "id": "316",
             "name": "bauen",
             "title": "строить",
-            "subscrb": "Ба́уэн"
+            "subscrb": "Ба́уэн",
+            "language": "Du"
         },
         {
             "id": "317",
             "name": "fehlt",
             "title": "не хватает",
-            "subscrb": "фэ́льт"
+            "subscrb": "фэ́льт",
+            "language": "Du"
         },
         {
             "id": "318",
             "name": "ärgern",
             "title": "раздражать",
-            "subscrb": "Э́ргэрн"
+            "subscrb": "Э́ргэрн",
+            "language": "Du"
         },
         {
             "id": "319",
             "name": "sich ärgern",
             "title": "раздражаться",
-            "subscrb": "зих Э́ргэрн"
+            "subscrb": "зих Э́ргэрн",
+            "language": "Du"
         },
         {
             "id": "320",
             "name": "interessieren",
             "title": "интересовать",
-            "subscrb": "интерэсси́рен"
+            "subscrb": "интерэсси́рен",
+            "language": "Du"
         },
         {
             "id": "321",
             "name": "sich interessieren",
             "title": "интересоваться",
-            "subscrb": "зих интерэсси́рен"
+            "subscrb": "зих интерэсси́рен",
+            "language": "Du"
         },
         {
             "id": "322",
             "name": "nerven",
             "title": "нервировать",
-            "subscrb": "Нэ́рфен"
+            "subscrb": "Нэ́рфен",
+            "language": "Du"
         },
         {
             "id": "323",
             "name": "der Film",
             "title": "фильм",
-            "subscrb": "дер Фильм"
+            "subscrb": "дер Фильм",
+            "language": "Du"
         },
         {
             "id": "324",
             "name": "jetzt",
             "title": "сейчас",
-            "subscrb": "Е́цт"
+            "subscrb": "Е́цт",
+            "language": "Du"
         },
         {
             "id": "325",
             "name": "bauen",
             "title": "строить (повтор)",
-            "subscrb": "Ба́уэн"
+            "subscrb": "Ба́уэн",
+            "language": "Du"
         },
         {
             "id": "326",
             "name": "der Fernseher",
             "title": "телевизор",
-            "subscrb": "дер Фэ́рнзеэр"
+            "subscrb": "дер Фэ́рнзеэр",
+            "language": "Du"
         },
         {
             "id": "327",
             "name": "singen",
             "title": "петь",
-            "subscrb": "Зи́нген"
+            "subscrb": "Зи́нген",
+            "language": "Du"
         },
         {
             "id": "328",
             "name": "machen",
             "title": "делать",
-            "subscrb": "Ма́хен"
+            "subscrb": "Ма́хен",
+            "language": "Du"
         },
         {
             "id": "329",
             "name": "die Streichhölzer",
             "title": "спички",
-            "subscrb": "ди Штра́йхьёльцер"
+            "subscrb": "ди Штра́йхьёльцер",
+            "language": "Du"
         },
         {
             "id": "330",
             "name": "die Wörter",
             "title": "слова",
-            "subscrb": "ди Вё́ртер"
+            "subscrb": "ди Вё́ртер",
+            "language": "Du"
         },
         {
             "id": "331",
             "name": "das Wort",
             "title": "слово",
-            "subscrb": "дас Ворт"
+            "subscrb": "дас Ворт",
+            "language": "Du"
         },
         {
             "id": "332",
             "name": "suchen",
             "title": "искать",
-            "subscrb": "Зу́хен"
+            "subscrb": "Зу́хен",
+            "language": "Du"
         },
         {
             "id": "333",
             "name": "ein Lied hören",
             "title": "слушать песню",
-            "subscrb": "айн Ли́т хё́рен"
+            "subscrb": "айн Ли́т хё́рен",
+            "language": "Du"
         },
         {
             "id": "334",
             "name": "zur Rolle passen",
             "title": "подходить для роли",
-            "subscrb": "цур Ро́лле па́ссен"
+            "subscrb": "цур Ро́лле па́ссен",
+            "language": "Du"
         },
         {
             "id": "335",
             "name": "zum Tisch gehen",
             "title": "подходить к столу",
-            "subscrb": "цум Тиш ге́ен"
+            "subscrb": "цум Тиш ге́ен",
+            "language": "Du"
         },
         {
             "id": "336",
             "name": "über die Situation scherzen",
             "title": "шутить над ситуацией",
-            "subscrb": "ю́бер ди Зитуацио́н шэ́рцен"
+            "subscrb": "ю́бер ди Зитуацио́н шэ́рцен",
+            "language": "Du"
         },
         {
             "id": "337",
             "name": "immer",
             "title": "всегда",
-            "subscrb": "И́ммер"
+            "subscrb": "И́ммер",
+            "language": "Du"
         },
         {
             "id": "338",
             "name": "gehen",
             "title": "ходить",
-            "subscrb": "Ге́ен"
+            "subscrb": "Ге́ен",
+            "language": "Du"
         },
         {
             "id": "339",
             "name": "fahren",
             "title": "ездить",
-            "subscrb": "Фа́рен"
+            "subscrb": "Фа́рен",
+            "language": "Du"
         },
         {
             "id": "340",
             "name": "tanzen",
             "title": "танцевать",
-            "subscrb": "Та́нцен"
+            "subscrb": "Та́нцен",
+            "language": "Du"
         },
         {
             "id": "341",
             "name": "lernen",
             "title": "учиться",
-            "subscrb": "Ле́рнен"
+            "subscrb": "Ле́рнен",
+            "language": "Du"
         },
         {
             "id": "342",
             "name": "transportieren",
             "title": "возить",
-            "subscrb": "транспорти́рэн"
+            "subscrb": "транспорти́рэн",
+            "language": "Du"
         },
         {
             "id": "343",
             "name": "bitten",
             "title": "просить",
-            "subscrb": "Би́ттен"
+            "subscrb": "Би́ттен",
+            "language": "Du"
         },
         {
             "id": "344",
             "name": "das Café",
             "title": "кафе",
-            "subscrb": "дас Кафе́"
+            "subscrb": "дас Кафе́",
+            "language": "Du"
         },
         {
             "id": "345",
             "name": "das Kino",
             "title": "кино",
-            "subscrb": "дас Ки́но"
+            "subscrb": "дас Ки́но",
+            "language": "Du"
         },
         {
             "id": "346",
             "name": "Karten",
             "title": "карты",
-            "subscrb": "Ка́ртен"
+            "subscrb": "Ка́ртен",
+            "language": "Du"
         },
         {
             "id": "347",
             "name": "das Schwimmbad",
             "title": "бассейн",
-            "subscrb": "дас Шви́мбад"
+            "subscrb": "дас Шви́мбад",
+            "language": "Du"
         },
         {
             "id": "348",
             "name": "das Tennis",
             "title": "тенис",
-            "subscrb": "дас Те́ннис"
+            "subscrb": "дас Те́ннис",
+            "language": "Du"
         },
         {
             "id": "349",
             "name": "das Fahrrad",
             "title": "велосипед",
-            "subscrb": "дас Фа́рад"
+            "subscrb": "дас Фа́рад",
+            "language": "Du"
         },
         {
             "id": "350",
             "name": "der Spaziergang",
             "title": "прогулка",
-            "subscrb": "дер шпатци́рганг"
+            "subscrb": "дер шпатци́рганг",
+            "language": "Du"
         },
         {
             "id": "351",
             "name": "die Musik",
             "title": "музыка",
-            "subscrb": "ди Музи́к"
+            "subscrb": "ди Музи́к",
+            "language": "Du"
         },
         {
             "id": "352",
             "name": "fremd",
             "title": "чужой",
-            "subscrb": "Фрэмд"
+            "subscrb": "Фрэмд",
+            "language": "Du"
         },
         {
             "id": "353",
             "name": "ausländisch",
             "title": "иностранный",
-            "subscrb": "А́услэндииш"
+            "subscrb": "А́услэндииш",
+            "language": "Du"
         },
         {
             "id": "354",
             "name": "reisen",
             "title": "путешествовать",
-            "subscrb": "Ра́йзен"
+            "subscrb": "Ра́йзен",
+            "language": "Du"
         },
         {
             "id": "355",
             "name": "Sport treiben",
             "title": "заниматься спортом",
-            "subscrb": "shpóрт тра́йбен"
+            "subscrb": "shpóрт тра́йбен",
+            "language": "Du"
         },
         {
             "id": "356",
             "name": "Sänger",
             "title": "певец",
-            "subscrb": "зэ́нгэр"
+            "subscrb": "зэ́нгэр",
+            "language": "Du"
         },
         {
             "id": "357",
             "name": "Künstler",
             "title": "художник",
-            "subscrb": "кю́нстлэр"
+            "subscrb": "кю́нстлэр",
+            "language": "Du"
         },
         {
             "id": "358",
             "name": "Tänzer",
             "title": "танцор",
-            "subscrb": "тэ́нцэр"
+            "subscrb": "тэ́нцэр",
+            "language": "Du"
         },
         {
             "id": "359",
             "name": "Musiker",
             "title": "музыкант",
-            "subscrb": "му́зикэр"
+            "subscrb": "му́зикэр",
+            "language": "Du"
         },
         {
             "id": "360",
             "name": "heilen",
             "title": "лечить",
-            "subscrb": "ха́йлен"
+            "subscrb": "ха́йлен",
+            "language": "Du"
         },
         {
             "id": "361",
             "name": "Vorlesungen halten",
             "title": "читать лекции",
-            "subscrb": "фо́рлезунген ха́льтен"
+            "subscrb": "фо́рлезунген ха́льтен",
+            "language": "Du"
         },
         {
             "id": "362",
             "name": "Sängerin",
             "title": "певица",
-            "subscrb": "зэ́нгэрин"
+            "subscrb": "зэ́нгэрин",
+            "language": "Du"
         },
         {
             "id": "363",
             "name": "Künstlerin",
             "title": "художница",
-            "subscrb": "кю́нстлэрин"
+            "subscrb": "кю́нстлэрин",
+            "language": "Du"
         },
         {
             "id": "364",
             "name": "Tänzerin",
             "title": "танцовщица",
-            "subscrb": "тэ́нцэрин"
+            "subscrb": "тэ́нцэрин",
+            "language": "Du"
         },
         {
             "id": "365",
             "name": "Fotograf",
             "title": "фотограф",
-            "subscrb": "фотогра́ф"
+            "subscrb": "фотогра́ф",
+            "language": "Du"
         },
         {
             "id": "366",
             "name": "entwerfen",
             "title": "проектировать",
-            "subscrb": "энтвэ́рфэн"
+            "subscrb": "энтвэ́рфэн",
+            "language": "Du"
         },
         {
             "id": "367",
             "name": "Zeit",
             "title": "время",
-            "subscrb": "цайт"
+            "subscrb": "цайт",
+            "language": "Du"
         },
         {
             "id": "368",
             "name": "Arbeit",
             "title": "работа",
-            "subscrb": "а́рбайт"
+            "subscrb": "а́рбайт",
+            "language": "Du"
         },
         {
             "id": "369",
             "name": "frei",
             "title": "свободный",
-            "subscrb": "фрай"
+            "subscrb": "фрай",
+            "language": "Du"
         },
         {
             "id": "370",
             "name": "noch",
             "title": "еще",
-            "subscrb": "нох"
+            "subscrb": "нох",
+            "language": "Du"
         },
         {
             "id": "371",
             "name": "Literatur",
             "title": "литература",
-            "subscrb": "литерату́р"
+            "subscrb": "литерату́р",
+            "language": "Du"
         },
         {
             "id": "372",
             "name": "sportlich",
             "title": "спортивный",
-            "subscrb": "шпóртлих"
+            "subscrb": "шпóртлих",
+            "language": "Du"
         },
         {
             "id": "373",
             "name": "immer",
             "title": "всегда",
-            "subscrb": "и́мэр"
+            "subscrb": "и́мэр",
+            "language": "Du"
         },
         {
             "id": "374",
             "name": "eigen",
             "title": "свой",
-            "subscrb": "а́йгэн"
+            "subscrb": "а́йгэн",
+            "language": "Du"
         },
         {
             "id": "375",
             "name": "Freundin",
             "title": "подруга",
-            "subscrb": "фро́йндин"
+            "subscrb": "фро́йндин",
+            "language": "Du"
         },
         {
             "id": "376",
             "name": "Bekannte",
             "title": "приятельница",
-            "subscrb": "бэка́нтэ"
+            "subscrb": "бэка́нтэ",
+            "language": "Du"
         },
         {
             "id": "377",
             "name": "fehlt",
             "title": "не хватает",
-            "subscrb": "фэ́льт"
+            "subscrb": "фэ́льт",
+            "language": "Du"
         },
         {
             "id": "378",
             "name": "fliegen",
             "title": "лететь",
-            "subscrb": "фли́гэн"
+            "subscrb": "фли́гэн",
+            "language": "Du"
         },
         {
             "id": "379",
             "name": "gefällt",
             "title": "нравится",
-            "subscrb": "гэфэ́льт"
+            "subscrb": "гэфэ́льт",
+            "language": "Du"
         },
         {
             "id": "380",
             "name": "lieben",
             "title": "любить",
-            "subscrb": "ли́бэн"
+            "subscrb": "ли́бэн",
+            "language": "Du"
         },
         {
             "id": "381",
             "name": "bitten",
             "title": "просить",
-            "subscrb": "би́тэн"
+            "subscrb": "би́тэн",
+            "language": "Du"
         },
         {
             "id": "382",
             "name": "nur",
             "title": "только",
-            "subscrb": "нур"
+            "subscrb": "нур",
+            "language": "Du"
         },
         {
             "id": "383",
             "name": "transportieren",
             "title": "возить",
-            "subscrb": "транспорти́рэн"
+            "subscrb": "транспорти́рэн",
+            "language": "Du"
         },
         {
             "id": "384",
             "name": "kein",
             "title": "никакой",
-            "subscrb": "ка́йн"
+            "subscrb": "ка́йн",
+            "language": "Du"
         },
         {
             "id": "385",
             "name": "keiner",
             "title": "не один",
-            "subscrb": "ка́йнэр"
+            "subscrb": "ка́йнэр",
+            "language": "Du"
         },
         {
             "id": "386",
             "name": "Lebensmittelgeschäft",
             "title": "продовольственный магазин",
-            "subscrb": "ле́бэнсмитэлгешэ́фт"
+            "subscrb": "ле́бэнсмитэлгешэ́фт",
+            "language": "Du"
         },
         {
             "id": "387",
             "name": "Banane",
             "title": "банан",
-            "subscrb": "банáнэ"
+            "subscrb": "банáнэ",
+            "language": "Du"
         },
         {
             "id": "388",
             "name": "Quark",
             "title": "творожный сыр",
-            "subscrb": "кварк"
+            "subscrb": "кварк",
+            "language": "Du"
         },
         {
             "id": "389",
             "name": "Brötchen",
             "title": "булка",
-            "subscrb": "брётхэн"
+            "subscrb": "брётхэн",
+            "language": "Du"
         },
         {
             "id": "390",
             "name": "Brot",
             "title": "хлеб",
-            "subscrb": "брод"
+            "subscrb": "брод",
+            "language": "Du"
         },
         {
             "id": "391",
             "name": "Kuchen",
             "title": "пирожное",
-            "subscrb": "ку́хэн"
+            "subscrb": "ку́хэн",
+            "language": "Du"
         },
         {
             "id": "392",
             "name": "Zucker",
             "title": "сахар",
-            "subscrb": "цу́кэр"
+            "subscrb": "цу́кэр",
+            "language": "Du"
         },
         {
             "id": "393",
             "name": "Bonbon",
             "title": "конфетка",
-            "subscrb": "бонбо́н"
+            "subscrb": "бонбо́н",
+            "language": "Du"
         },
         {
             "id": "394",
             "name": "Schokolade",
             "title": "шоколад",
-            "subscrb": "шокола́дэ"
+            "subscrb": "шокола́дэ",
+            "language": "Du"
         },
         {
             "id": "395",
             "name": "Kabeljau",
             "title": "треска",
-            "subscrb": "ка́бэльяу"
+            "subscrb": "ка́бэльяу",
+            "language": "Du"
         },
         {
             "id": "396",
             "name": "Tee",
             "title": "чай",
-            "subscrb": "тэ"
+            "subscrb": "тэ",
+            "language": "Du"
         },
         {
             "id": "397",
             "name": "Apfel",
             "title": "яблоко",
-            "subscrb": "а́пфэль"
+            "subscrb": "а́пфэль",
+            "language": "Du"
         },
         {
             "id": "398",
             "name": "Ei",
             "title": "яйцо",
-            "subscrb": "ай"
+            "subscrb": "ай",
+            "language": "Du"
         },
         {
             "id": "399",
             "name": "Wurst",
             "title": "колбаса",
-            "subscrb": "вурст"
+            "subscrb": "вурст",
+            "language": "Du"
         },
         {
             "id": "400",
             "name": "Kognak",
             "title": "коньяк",
-            "subscrb": "ко́ньяк"
+            "subscrb": "ко́ньяк",
+            "language": "Du"
         },
         {
             "id": "401",
             "name": "Kohl",
             "title": "капуста",
-            "subscrb": "коль"
+            "subscrb": "коль",
+            "language": "Du"
         },
         {
             "id": "402",
             "name": "Konserven",
             "title": "консервы",
-            "subscrb": "консэ́рвэн"
+            "subscrb": "консэ́рвэн",
+            "language": "Du"
         },
         {
             "id": "403",
             "name": "Eis",
             "title": "мороженое",
-            "subscrb": "айс"
+            "subscrb": "айс",
+            "language": "Du"
         },
         {
             "id": "404",
             "name": "Lachs",
             "title": "лосось",
-            "subscrb": "лакс"
+            "subscrb": "лакс",
+            "language": "Du"
         },
         {
             "id": "405",
             "name": "Nudeln",
             "title": "макароны",
-            "subscrb": "ну́дэлн"
+            "subscrb": "ну́дэлн",
+            "language": "Du"
         },
         {
             "id": "406",
             "name": "Butter",
             "title": "масло",
-            "subscrb": "бу́тэр"
+            "subscrb": "бу́тэр",
+            "language": "Du"
         },
         {
             "id": "407",
             "name": "Mehl",
             "title": "мука",
-            "subscrb": "мэйл"
+            "subscrb": "мэйл",
+            "language": "Du"
         },
         {
             "id": "408",
             "name": "Fleisch",
             "title": "мясо",
-            "subscrb": "флайш"
+            "subscrb": "флайш",
+            "language": "Du"
         },
         {
             "id": "409",
             "name": "Milch",
             "title": "молоко",
-            "subscrb": "мильх"
+            "subscrb": "мильх",
+            "language": "Du"
         },
         {
             "id": "410",
             "name": "Gurke",
             "title": "огурец",
-            "subscrb": "гу́ркэ"
+            "subscrb": "гу́ркэ",
+            "language": "Du"
         },
         {
             "id": "411",
             "name": "Getränk",
             "title": "напиток",
-            "subscrb": "гэтрэ́нк"
+            "subscrb": "гэтрэ́нк",
+            "language": "Du"
         },
         {
             "id": "412",
             "name": "Pflanzenöl",
             "title": "растительное масло",
-            "subscrb": "фла́нцэнёль"
+            "subscrb": "фла́нцэнёль",
+            "language": "Du"
         },
         {
             "id": "413",
             "name": "Wurstchen",
             "title": "сосиска",
-            "subscrb": "вю́рстхэн"
+            "subscrb": "вю́рстхэн",
+            "language": "Du"
         },
         {
             "id": "414",
             "name": "Bier",
             "title": "пиво",
-            "subscrb": "би́р"
+            "subscrb": "би́р",
+            "language": "Du"
         },
         {
             "id": "415",
             "name": "Tomate",
             "title": "помидор",
-            "subscrb": "тома́тэ"
+            "subscrb": "тома́тэ",
+            "language": "Du"
         },
         {
             "id": "416",
             "name": "Orange",
             "title": "апельсин",
-            "subscrb": "ора́нжэ"
+            "subscrb": "ора́нжэ",
+            "language": "Du"
         },
         {
             "id": "417",
             "name": "Produkt",
             "title": "продукт",
-            "subscrb": "проду́кт"
+            "subscrb": "проду́кт",
+            "language": "Du"
         },
         {
             "id": "418",
             "name": "Reis",
             "title": "рис",
-            "subscrb": "райс"
+            "subscrb": "райс",
+            "language": "Du"
         },
         {
             "id": "419",
             "name": "Salat",
             "title": "салат",
-            "subscrb": "зала́т"
+            "subscrb": "зала́т",
+            "language": "Du"
         },
         {
             "id": "420",
             "name": "Sardinen",
             "title": "сардины",
-            "subscrb": "зардíнэн"
+            "subscrb": "зардíнэн",
+            "language": "Du"
         },
         {
             "id": "421",
             "name": "Salz",
             "title": "соль",
-            "subscrb": "зальц"
+            "subscrb": "зальц",
+            "language": "Du"
         },
         {
             "id": "422",
             "name": "Schinken",
             "title": "ветчина",
-            "subscrb": "ши́нкэн"
+            "subscrb": "ши́нкэн",
+            "language": "Du"
         },
         {
             "id": "423",
             "name": "Saft",
             "title": "сок",
-            "subscrb": "зафт"
+            "subscrb": "зафт",
+            "language": "Du"
         },
         {
             "id": "424",
             "name": "Getränk",
             "title": "напиток",
-            "subscrb": "гэтрэ́нк"
+            "subscrb": "гэтрэ́нк",
+            "language": "Du"
         },
         {
             "id": "425",
             "name": "Hering",
             "title": "селёдка",
-            "subscrb": "хе́ринг"
+            "subscrb": "хе́ринг",
+            "language": "Du"
         },
         {
             "id": "426",
             "name": "Sahne",
             "title": "сливки",
-            "subscrb": "за́нэ"
+            "subscrb": "за́нэ",
+            "language": "Du"
         },
         {
             "id": "427",
             "name": "Erdbeere",
             "title": "клубника",
-            "subscrb": "э́рдбэрэ"
+            "subscrb": "э́рдбэрэ",
+            "language": "Du"
         },
         {
             "id": "428",
             "name": "Wein",
             "title": "вино",
-            "subscrb": "вайн"
+            "subscrb": "вайн",
+            "language": "Du"
         },
         {
             "id": "429",
             "name": "Mineralwasser",
             "title": "минеральная вода",
-            "subscrb": "минэральва́ссэр"
+            "subscrb": "минэральва́ссэр",
+            "language": "Du"
         },
         {
             "id": "430",
             "name": "Wodka",
             "title": "водка",
-            "subscrb": "во́тка"
+            "subscrb": "во́тка",
+            "language": "Du"
         },
         {
             "id": "431",
             "name": "Kartoffel",
             "title": "картофель",
-            "subscrb": "картóффэль"
+            "subscrb": "картóффэль",
+            "language": "Du"
         },
         {
             "id": "432",
             "name": "Quark",
             "title": "творожок",
-            "subscrb": "кварк"
+            "subscrb": "кварк",
+            "language": "Du"
         },
         {
             "id": "433",
             "name": "Quark",
             "title": "творог",
-            "subscrb": "кварк"
+            "subscrb": "кварк",
+            "language": "Du"
         },
         {
             "id": "434",
             "name": "Käse",
             "title": "сыр",
-            "subscrb": "кэ́зэ"
+            "subscrb": "кэ́зэ",
+            "language": "Du"
         },
         {
             "id": "435",
             "name": "Backwaren",
             "title": "хлебобулочные изделия",
-            "subscrb": "ба́кварэн"
+            "subscrb": "ба́кварэн",
+            "language": "Du"
         },
         {
             "id": "436",
             "name": "Fleisch- und Wurstwaren",
             "title": "мясо и копчёности",
-            "subscrb": "флайш унд ву́рстварэн"
+            "subscrb": "флайш унд ву́рстварэн",
+            "language": "Du"
         },
         {
             "id": "437",
             "name": "Fisch",
             "title": "рыба",
-            "subscrb": "фиш"
+            "subscrb": "фиш",
+            "language": "Du"
         },
         {
             "id": "438",
             "name": "Milchprodukte",
             "title": "молочные продукты",
-            "subscrb": "ми́льхпродуктэ"
+            "subscrb": "ми́льхпродуктэ",
+            "language": "Du"
         },
         {
             "id": "439",
             "name": "Hühnerei",
             "title": "куриное яйцо",
-            "subscrb": "хю́йнэр-ай"
+            "subscrb": "хю́йнэр-ай",
+            "language": "Du"
         },
         {
             "id": "440",
             "name": "Hühnereier",
             "title": "куриные яйца",
-            "subscrb": "хю́йнэр-айэр"
+            "subscrb": "хю́йнэр-айэр",
+            "language": "Du"
         },
         {
             "id": "441",
             "name": "Süßigkeiten",
             "title": "сладости",
-            "subscrb": "зю́сигкайтэн"
+            "subscrb": "зю́сигкайтэн",
+            "language": "Du"
         },
         {
             "id": "442",
             "name": "alkoholfreie Getränke",
             "title": "безалкогольные напитки",
-            "subscrb": "алькохо́льфрайэ гэтрэ́нкэ"
+            "subscrb": "алькохо́льфрайэ гэтрэ́нкэ",
+            "language": "Du"
         },
         {
             "id": "443",
             "name": "alkoholische Getränke",
             "title": "алкогольные напитки",
-            "subscrb": "алькохо́лишэ гэтрэ́нкэ"
+            "subscrb": "алькохо́лишэ гэтрэ́нкэ",
+            "language": "Du"
         },
         {
             "id": "444",
             "name": "Obst",
             "title": "фрукты",
-            "subscrb": "обст"
+            "subscrb": "обст",
+            "language": "Du"
         },
         {
             "id": "445",
             "name": "Gemüse",
             "title": "овощи",
-            "subscrb": "гэмю́зэ"
+            "subscrb": "гэмю́зэ",
+            "language": "Du"
         },
         {
             "id": "446",
             "name": "Lebensmittel",
             "title": "бакалея",
-            "subscrb": "ле́бэнсмитэль"
+            "subscrb": "ле́бэнсмитэль",
+            "language": "Du"
         },
         {
             "id": "447",
             "name": "Geschirr",
             "title": "посуда",
-            "subscrb": "геши́р"
+            "subscrb": "геши́р",
+            "language": "Du"
         },
         {
             "id": "448",
             "name": "Gewicht",
             "title": "вес",
-            "subscrb": "гэви́хт"
+            "subscrb": "гэви́хт",
+            "language": "Du"
         },
         {
             "id": "449",
             "name": "Geld",
             "title": "деньги",
-            "subscrb": "гельт"
+            "subscrb": "гельт",
+            "language": "Du"
         },
         {
             "id": "450",
             "name": "Werkzeuge",
             "title": "инструменты",
-            "subscrb": "вэ́ркцойгэ"
+            "subscrb": "вэ́ркцойгэ",
+            "language": "Du"
         },
         {
             "id": "451",
             "name": "Apfelsaft",
             "title": "сок яблочный",
-            "subscrb": "а́пфэльзафт"
+            "subscrb": "а́пфэльзафт",
+            "language": "Du"
         },
         {
             "id": "452",
             "name": "Tomatensaft",
             "title": "сок томатный",
-            "subscrb": "тома́тэнзафт"
+            "subscrb": "тома́тэнзафт",
+            "language": "Du"
         },
         {
             "id": "453",
             "name": "Erdbeersaft",
             "title": "сок клубничный",
-            "subscrb": "э́рдбэрзафт"
+            "subscrb": "э́рдбэрзафт",
+            "language": "Du"
         },
         {
             "id": "454",
             "name": "Orangensaft",
             "title": "сок апельсиновый",
-            "subscrb": "ора́нжэнзафт"
+            "subscrb": "ора́нжэнзафт",
+            "language": "Du"
         },
         {
             "id": "455",
             "name": "Apfelmarmelade",
             "title": "яблочное варенье",
-            "subscrb": "а́пфэльмармэла́дэ"
+            "subscrb": "а́пфэльмармэла́дэ",
+            "language": "Du"
         },
         {
             "id": "456",
             "name": "Himbeermarmelade",
             "title": "малиновое варенье",
-            "subscrb": "хи́мбеэр-мáрмелáдэ"
+            "subscrb": "хи́мбеэр-мáрмелáдэ",
+            "language": "Du"
         },
         {
             "id": "457",
             "name": "neben",
             "title": "возле",
-            "subscrb": "нéбэн"
+            "subscrb": "нéбэн",
+            "language": "Du"
         },
         {
             "id": "458",
             "name": "kaufen",
             "title": "покупать",
-            "subscrb": "кáуфэн"
+            "subscrb": "кáуфэн",
+            "language": "Du"
         },
         {
             "id": "459",
             "name": "kaufen",
             "title": "купить",
-            "subscrb": "кáуфэн"
+            "subscrb": "кáуфэн",
+            "language": "Du"
         },
         {
             "id": "460",
             "name": "eins",
             "title": "один",
-            "subscrb": "áйнс"
+            "subscrb": "áйнс",
+            "language": "Du"
         },
         {
             "id": "461",
             "name": "zwei",
             "title": "два",
-            "subscrb": "цвай"
+            "subscrb": "цвай",
+            "language": "Du"
         },
         {
             "id": "462",
             "name": "drei",
             "title": "три",
-            "subscrb": "драй"
+            "subscrb": "драй",
+            "language": "Du"
         },
         {
             "id": "463",
             "name": "vier",
             "title": "четыре",
-            "subscrb": "фи́р"
+            "subscrb": "фи́р",
+            "language": "Du"
         },
         {
             "id": "464",
             "name": "fünf",
             "title": "пять",
-            "subscrb": "фюнф"
+            "subscrb": "фюнф",
+            "language": "Du"
         },
         {
             "id": "465",
             "name": "sechs",
             "title": "шесть",
-            "subscrb": "зэкс"
+            "subscrb": "зэкс",
+            "language": "Du"
         },
         {
             "id": "466",
             "name": "sieben",
             "title": "семь",
-            "subscrb": "зи́бэн"
+            "subscrb": "зи́бэн",
+            "language": "Du"
         },
         {
             "id": "467",
             "name": "acht",
             "title": "восемь",
-            "subscrb": "ахт"
+            "subscrb": "ахт",
+            "language": "Du"
         },
         {
             "id": "468",
             "name": "neun",
             "title": "девять",
-            "subscrb": "нойн"
+            "subscrb": "нойн",
+            "language": "Du"
         },
         {
             "id": "469",
             "name": "zehn",
             "title": "десять",
-            "subscrb": "цэ́н"
+            "subscrb": "цэ́н",
+            "language": "Du"
         },
         {
             "id": "470",
             "name": "elf",
             "title": "одиннадцать",
-            "subscrb": "элф"
+            "subscrb": "элф",
+            "language": "Du"
         },
         {
             "id": "471",
             "name": "zwölf",
             "title": "двенадцать",
-            "subscrb": "цвёльф"
+            "subscrb": "цвёльф",
+            "language": "Du"
         },
         {
             "id": "472",
             "name": "dreizehn",
             "title": "тринадцать",
-            "subscrb": "дрáйцэ́н"
+            "subscrb": "дрáйцэ́н",
+            "language": "Du"
         },
         {
             "id": "473",
             "name": "vierzehn",
             "title": "четырнадцать",
-            "subscrb": "фи́рцэ́н"
+            "subscrb": "фи́рцэ́н",
+            "language": "Du"
         },
         {
             "id": "474",
             "name": "fünfzehn",
             "title": "пятнадцать",
-            "subscrb": "фю́нфцэ́н"
+            "subscrb": "фю́нфцэ́н",
+            "language": "Du"
         },
         {
             "id": "475",
             "name": "sechzehn",
             "title": "шестнадцать",
-            "subscrb": "зéхцэ́н"
+            "subscrb": "зéхцэ́н",
+            "language": "Du"
         },
         {
             "id": "476",
             "name": "siebzehn",
             "title": "семнадцать",
-            "subscrb": "зи́пцэ́н"
+            "subscrb": "зи́пцэ́н",
+            "language": "Du"
         },
         {
             "id": "477",
             "name": "achtzehn",
             "title": "восемнадцать",
-            "subscrb": "áхцэ́н"
+            "subscrb": "áхцэ́н",
+            "language": "Du"
         },
         {
             "id": "478",
             "name": "neunzehn",
             "title": "девятнадцать",
-            "subscrb": "нóйнцэ́н"
+            "subscrb": "нóйнцэ́н",
+            "language": "Du"
         },
         {
             "id": "479",
             "name": "zwanzig",
             "title": "двадцать",
-            "subscrb": "цвáнцих"
+            "subscrb": "цвáнцих",
+            "language": "Du"
         },
         {
             "id": "480",
             "name": "einundzwanzig",
             "title": "двадцать один",
-            "subscrb": "áйн-унд-цвáнцих"
+            "subscrb": "áйн-унд-цвáнцих",
+            "language": "Du"
         },
         {
             "id": "481",
             "name": "zweiundzwanzig",
             "title": "двадцать два",
-            "subscrb": "цвáй-унд-цвáнцих"
+            "subscrb": "цвáй-унд-цвáнцих",
+            "language": "Du"
         },
         {
             "id": "482",
             "name": "dreißig",
             "title": "тридцать",
-            "subscrb": "дрáйсих"
+            "subscrb": "дрáйсих",
+            "language": "Du"
         },
         {
             "id": "483",
             "name": "einunddreißig",
             "title": "тридцать один",
-            "subscrb": "áйн-унд-дрáйсих"
+            "subscrb": "áйн-унд-дрáйсих",
+            "language": "Du"
         },
         {
             "id": "484",
             "name": "zweiunddreißig",
             "title": "тридцать два",
-            "subscrb": "цвáй-унд-дрáйсих"
+            "subscrb": "цвáй-унд-дрáйсих",
+            "language": "Du"
         },
         {
             "id": "485",
             "name": "vierzig",
             "title": "сорок",
-            "subscrb": "фи́рцих"
+            "subscrb": "фи́рцих",
+            "language": "Du"
         },
         {
             "id": "486",
             "name": "einundvierzig",
             "title": "сорок один",
-            "subscrb": "áйн-унд-фи́рцих"
+            "subscrb": "áйн-унд-фи́рцих",
+            "language": "Du"
         },
         {
             "id": "487",
             "name": "zweiundvierzig",
             "title": "сорок два",
-            "subscrb": "цвáй-унд-фи́рцих"
+            "subscrb": "цвáй-унд-фи́рцих",
+            "language": "Du"
         },
         {
             "id": "488",
             "name": "fünfzig",
             "title": "пятьдесят",
-            "subscrb": "фю́нфцих"
+            "subscrb": "фю́нфцих",
+            "language": "Du"
         },
         {
             "id": "489",
             "name": "einundfünfzig",
             "title": "пятьдесят один",
-            "subscrb": "áйн-унд-фю́нфцих"
+            "subscrb": "áйн-унд-фю́нфцих",
+            "language": "Du"
         },
         {
             "id": "490",
             "name": "zweiundfünfzig",
             "title": "пятьдесят два",
-            "subscrb": "цвáй-унд-фю́нфцих"
+            "subscrb": "цвáй-унд-фю́нфцих",
+            "language": "Du"
         },
         {
             "id": "491",
             "name": "sechzig",
             "title": "шестьдесят",
-            "subscrb": "зéхцих"
+            "subscrb": "зéхцих",
+            "language": "Du"
         },
         {
             "id": "492",
             "name": "einundsechzig",
             "title": "шестьдесят один",
-            "subscrb": "áйн-унд-зéхцих"
+            "subscrb": "áйн-унд-зéхцих",
+            "language": "Du"
         },
         {
             "id": "493",
             "name": "zweiundsechzig",
             "title": "шестьдесят два",
-            "subscrb": "цвáй-унд-зéхцих"
+            "subscrb": "цвáй-унд-зéхцих",
+            "language": "Du"
         },
         {
             "id": "494",
             "name": "siebzig",
             "title": "семьдесят",
-            "subscrb": "зи́пцих"
+            "subscrb": "зи́пцих",
+            "language": "Du"
         },
         {
             "id": "495",
             "name": "einundsiebzig",
             "title": "семьдесят один",
-            "subscrb": "áйн-унд-зи́пцих"
+            "subscrb": "áйн-унд-зи́пцих",
+            "language": "Du"
         },
         {
             "id": "496",
             "name": "zweiundsiebzig",
             "title": "семьдесят два",
-            "subscrb": "цвáй-унд-зи́пцих"
+            "subscrb": "цвáй-унд-зи́пцих",
+            "language": "Du"
         },
         {
             "id": "497",
             "name": "achtzig",
             "title": "восемьдесят",
-            "subscrb": "áхцих"
+            "subscrb": "áхцих",
+            "language": "Du"
         },
         {
             "id": "498",
             "name": "einundachtzig",
             "title": "восемьдесят один",
-            "subscrb": "áйн-унд-áхцих"
+            "subscrb": "áйн-унд-áхцих",
+            "language": "Du"
         },
         {
             "id": "499",
             "name": "zweiundachtzig",
             "title": "восемьдесят два",
-            "subscrb": "цвáй-унд-áхцих"
+            "subscrb": "цвáй-унд-áхцих",
+            "language": "Du"
         },
         {
             "id": "500",
             "name": "neunzig",
             "title": "девяносто",
-            "subscrb": "нóйнцих"
+            "subscrb": "нóйнцих",
+            "language": "Du"
         },
         {
             "id": "501",
             "name": "einundneunzig",
             "title": "девяносто один",
-            "subscrb": "áйн-унд-нóйнцих"
+            "subscrb": "áйн-унд-нóйнцих",
+            "language": "Du"
         },
         {
             "id": "502",
             "name": "zweiundneunzig",
             "title": "девяносто два",
-            "subscrb": "цвáй-унд-нóйнцих"
+            "subscrb": "цвáй-унд-нóйнцих",
+            "language": "Du"
         },
         {
             "id": "503",
             "name": "hundert",
             "title": "сто",
-            "subscrb": "ху́ндэрт"
+            "subscrb": "ху́ндэрт",
+            "language": "Du"
         },
         {
             "id": "504",
             "name": "zweihundert",
             "title": "двести",
-            "subscrb": "цвáй-ху́ндэрт"
+            "subscrb": "цвáй-ху́ндэрт",
+            "language": "Du"
         },
         {
             "id": "505",
             "name": "dreihundert",
             "title": "триста",
-            "subscrb": "дрáй-ху́ндэрт"
+            "subscrb": "дрáй-ху́ндэрт",
+            "language": "Du"
         },
         {
             "id": "506",
             "name": "vierhundert",
             "title": "четыреста",
-            "subscrb": "фи́р-ху́ндэрт"
+            "subscrb": "фи́р-ху́ндэрт",
+            "language": "Du"
         },
         {
             "id": "507",
             "name": "fünfhundert",
             "title": "пятьсот",
-            "subscrb": "фю́нф-ху́ндэрт"
+            "subscrb": "фю́нф-ху́ндэрт",
+            "language": "Du"
         },
         {
             "id": "508",
             "name": "sechshundert",
             "title": "шестьсот",
-            "subscrb": "зэкс-ху́ндэрт"
+            "subscrb": "зэкс-ху́ндэрт",
+            "language": "Du"
         },
         {
             "id": "509",
             "name": "siebenhundert",
             "title": "семьсот",
-            "subscrb": "зи́бэн-ху́ндэрт"
+            "subscrb": "зи́бэн-ху́ндэрт",
+            "language": "Du"
         },
         {
             "id": "510",
             "name": "achthundert",
             "title": "восемьсот",
-            "subscrb": "ахт-ху́ндэрт"
+            "subscrb": "ахт-ху́ндэрт",
+            "language": "Du"
         },
         {
             "id": "511",
             "name": "neunhundert",
             "title": "девятьсот",
-            "subscrb": "нойн-ху́ндэрт"
+            "subscrb": "нойн-ху́ндэрт",
+            "language": "Du"
         },
         {
             "id": "512",
             "name": "tausend",
             "title": "тысяча",
-            "subscrb": "тáузэнт"
+            "subscrb": "тáузэнт",
+            "language": "Du"
         },
         {
             "id": "513",
             "name": "hundertneunzehn",
             "title": "сто девятнадцать",
-            "subscrb": "ху́ндэрт-нóйнцэ́н"
+            "subscrb": "ху́ндэрт-нóйнцэ́н",
+            "language": "Du"
         },
         {
             "id": "514",
             "name": "zweihundertfünfunddreißig",
             "title": "двести тридцать пять",
-            "subscrb": "цвáй-ху́ндэрт-фю́нф-унд-дрáйсих"
+            "subscrb": "цвáй-ху́ндэрт-фю́нф-унд-дрáйсих",
+            "language": "Du"
         },
         {
             "id": "515",
             "name": "dreihundertvierundfünfzig",
             "title": "триста пятьдесят четыре",
-            "subscrb": "дрáй-ху́ндэрт-фи́р-унд-фю́нфцих"
+            "subscrb": "дрáй-ху́ндэрт-фи́р-унд-фю́нфцих",
+            "language": "Du"
         },
         {
             "id": "516",
             "name": "vierhundertsiebenundfünfzig",
             "title": "четыреста пятьдесят семь",
-            "subscrb": "фи́р-ху́ндэрт-зи́бэн-унд-фю́нфцих"
+            "subscrb": "фи́р-ху́ндэрт-зи́бэн-унд-фю́нфцих",
+            "language": "Du"
         },
         {
             "id": "517",
             "name": "fünfhundertachtundsechzig",
             "title": "пятьсот шестьдесят восемь",
-            "subscrb": "фю́нф-ху́ндэрт-ахт-унд-зéхцих"
+            "subscrb": "фю́нф-ху́ндэрт-ахт-унд-зéхцих",
+            "language": "Du"
         },
         {
             "id": "518",
             "name": "sechshundertsiebenundneunzig",
             "title": "шестьсот семьдесят девять",
-            "subscrb": "зэкс-ху́ндэрт-зи́бэн-унд-нóйнцих"
+            "subscrb": "зэкс-ху́ндэрт-зи́бэн-унд-нóйнцих",
+            "language": "Du"
         },
         {
             "id": "519",
             "name": "siebenhundertachtundachtzig",
             "title": "семьсот восемьдесят один",
-            "subscrb": "зи́бэн-ху́ндэрт-ахт-унд-áхцих"
+            "subscrb": "зи́бэн-ху́ндэрт-ахт-унд-áхцих",
+            "language": "Du"
         },
         {
             "id": "520",
             "name": "achthundertneunundneunzig",
             "title": "восемьсот девяносто два",
-            "subscrb": "ахт-ху́ндэрт-нóйн-унд-нóйнцих"
+            "subscrb": "ахт-ху́ндэрт-нóйн-унд-нóйнцих",
+            "language": "Du"
         },
         {
             "id": "521",
             "name": "neunhundertsiebzehn",
             "title": "девятьсот семнадцать",
-            "subscrb": "нойн-ху́ндэрт-зи́пцэ́н"
+            "subscrb": "нойн-ху́ндэрт-зи́пцэ́н",
+            "language": "Du"
         },
         {
             "id": "522",
             "name": "plus",
             "title": "плюс",
-            "subscrb": "плюс"
+            "subscrb": "плюс",
+            "language": "Du"
         },
         {
             "id": "523",
             "name": "gleich",
             "title": "равно",
-            "subscrb": "глайх"
+            "subscrb": "глайх",
+            "language": "Du"
         },
         {
             "id": "524",
             "name": "Wie alt sind Sie?",
             "title": "сколько вам лет",
-            "subscrb": "ви́ альт зинд зи?"
+            "subscrb": "ви́ альт зинд зи?",
+            "language": "Du"
         },
         {
             "id": "525",
             "name": "Wie alt bist du?",
             "title": "сколько тебе лет",
-            "subscrb": "ви́ альт бист ду?"
+            "subscrb": "ви́ альт бист ду?",
+            "language": "Du"
         },
         {
             "id": "526",
             "name": "Wie alt ist Herr Nowak?",
             "title": "сколько лет пану новаку",
-            "subscrb": "ви́ альт ист хэр нóвак?"
+            "subscrb": "ви́ альт ист хэр нóвак?",
+            "language": "Du"
         },
         {
             "id": "527",
             "name": "plötzlich",
             "title": "неожиданно",
-            "subscrb": "плё́цлих"
+            "subscrb": "плё́цлих",
+            "language": "Du"
         },
         {
             "id": "528",
             "name": "Das hatte er",
             "title": "это у него было",
-            "subscrb": "дас хáттэ эа"
+            "subscrb": "дас хáттэ эа",
+            "language": "Du"
         },
         {
             "id": "529",
             "name": "Korb",
             "title": "корзина",
-            "subscrb": "корп"
+            "subscrb": "корп",
+            "language": "Du"
         },
         {
             "id": "530",
             "name": "Tasche",
             "title": "сумка",
-            "subscrb": "тáшэ"
+            "subscrb": "тáшэ",
+            "language": "Du"
         },
         {
             "id": "531",
             "name": "Währung",
             "title": "денежная единица",
-            "subscrb": "вэ́эрунг"
+            "subscrb": "вэ́эрунг",
+            "language": "Du"
         },
         {
             "id": "532",
             "name": "Zucker",
             "title": "сахар",
-            "subscrb": "цу́кэр"
+            "subscrb": "цу́кэр",
+            "language": "Du"
         },
         {
             "id": "533",
             "name": "Preis",
             "title": "стоимость",
-            "subscrb": "прайс"
+            "subscrb": "прайс",
+            "language": "Du"
         },
         {
             "id": "534",
             "name": "Einkäufe",
             "title": "покупки",
-            "subscrb": "áйнкёйфэ"
+            "subscrb": "áйнкёйфэ",
+            "language": "Du"
         },
         {
             "id": "535",
             "name": "Glas",
             "title": "стеклянная банка",
-            "subscrb": "глас"
+            "subscrb": "глас",
+            "language": "Du"
         },
         {
             "id": "536",
             "name": "Packungen",
             "title": "пачки",
-            "subscrb": "пáкунгэн"
+            "subscrb": "пáкунгэн",
+            "language": "Du"
         },
         {
             "id": "537",
             "name": "Paket",
             "title": "посылка",
-            "subscrb": "пакéт"
+            "subscrb": "пакéт",
+            "language": "Du"
         },
         {
             "id": "538",
             "name": "Dose",
             "title": "металлическая банка",
-            "subscrb": "дóзэ"
+            "subscrb": "дóзэ",
+            "language": "Du"
         },
         {
             "id": "539",
             "name": "Konservendose",
             "title": "консервная банка",
-            "subscrb": "консэ́рвэндóзэ"
+            "subscrb": "консэ́рвэндóзэ",
+            "language": "Du"
         },
         {
             "id": "540",
             "name": "Würfel",
             "title": "кубик",
-            "subscrb": "вю́рфэл"
+            "subscrb": "вю́рфэл",
+            "language": "Du"
         },
         {
             "id": "541",
             "name": "Schachtel",
             "title": "коробка",
-            "subscrb": "шáхтэль"
+            "subscrb": "шáхтэль",
+            "language": "Du"
         },
         {
             "id": "542",
             "name": "Flasche",
             "title": "бутылка",
-            "subscrb": "флáшэ"
+            "subscrb": "флáшэ",
+            "language": "Du"
         },
         {
             "id": "543",
             "name": "Behälter",
             "title": "ёмкость",
-            "subscrb": "бэ́хэлтэр"
+            "subscrb": "бэ́хэлтэр",
+            "language": "Du"
         },
         {
             "id": "544",
             "name": "Tetra Pak",
             "title": "упаковка тетрапак",
-            "subscrb": "тéтра пак"
+            "subscrb": "тéтра пак",
+            "language": "Du"
         },
         {
             "id": "545",
             "name": "Laib",
             "title": "буханка",
-            "subscrb": "лайб"
+            "subscrb": "лайб",
+            "language": "Du"
         },
         {
             "id": "546",
             "name": "Kopf",
             "title": "головка",
-            "subscrb": "копф"
+            "subscrb": "копф",
+            "language": "Du"
         },
         {
             "id": "547",
             "name": "Kilogramm",
             "title": "килограмм",
-            "subscrb": "килóграм"
+            "subscrb": "килóграм",
+            "language": "Du"
         },
         {
             "id": "548",
             "name": "Brot brechen",
             "title": "ломать хлеба",
-            "subscrb": "брот брéхэн"
+            "subscrb": "брот брéхэн",
+            "language": "Du"
         },
         {
             "id": "549",
             "name": "Brot",
             "title": "хлеб",
-            "subscrb": "брот"
+            "subscrb": "брот",
+            "language": "Du"
         },
         {
             "id": "550",
             "name": "Stück",
             "title": "кусочек",
-            "subscrb": "штук"
+            "subscrb": "штук",
+            "language": "Du"
         },
         {
             "id": "551",
             "name": "Scheibe",
             "title": "ломтик",
-            "subscrb": "шáйбэ"
+            "subscrb": "шáйбэ",
+            "language": "Du"
         },
         {
             "id": "552",
             "name": "Papiertüte",
             "title": "бумажный пакет",
-            "subscrb": "папи́ртю́тэ"
+            "subscrb": "папи́ртю́тэ",
+            "language": "Du"
         },
         {
             "id": "553",
             "name": "Portion",
             "title": "порция",
-            "subscrb": "порцйóн"
+            "subscrb": "порцйóн",
+            "language": "Du"
         },
         {
             "id": "554",
             "name": "gehen",
             "title": "пойти",
-            "subscrb": "гéэн"
+            "subscrb": "гéэн",
+            "language": "Du"
         },
         {
             "id": "555",
             "name": "ankommen",
             "title": "дойти",
-            "subscrb": "áнкомэн"
+            "subscrb": "áнкомэн",
+            "language": "Du"
         },
         {
             "id": "556",
             "name": "geh weg",
             "title": "отойди",
-            "subscrb": "гей вэк"
+            "subscrb": "гей вэк",
+            "language": "Du"
         },
         {
             "id": "557",
             "name": "herkommen",
             "title": "подойти",
-            "subscrb": "хэ́ркомэн"
+            "subscrb": "хэ́ркомэн",
+            "language": "Du"
         },
         {
             "id": "558",
             "name": "kommen",
             "title": "прийти",
-            "subscrb": "кóмэн"
+            "subscrb": "кóмэн",
+            "language": "Du"
         },
         {
             "id": "559",
             "name": "hineingehen",
             "title": "войти",
-            "subscrb": "хинáйнгéэн"
+            "subscrb": "хинáйнгéэн",
+            "language": "Du"
         },
         {
             "id": "560",
             "name": "hinausgehen",
             "title": "выйти",
-            "subscrb": "хинáусгéэн"
+            "subscrb": "хинáусгéэн",
+            "language": "Du"
         },
         {
             "id": "561",
             "name": "reingehen",
             "title": "зайти",
-            "subscrb": "рáйнгéэн"
+            "subscrb": "рáйнгéэн",
+            "language": "Du"
         },
         {
             "id": "562",
             "name": "normalerweise",
             "title": "обычно",
-            "subscrb": "нормáлвaйзэ"
+            "subscrb": "нормáлвaйзэ",
+            "language": "Du"
         },
         {
             "id": "563",
             "name": "Feierabend machen",
             "title": "заканчивать работу",
-            "subscrb": "фáйэрабэнд мáхен"
+            "subscrb": "фáйэрабэнд мáхен",
+            "language": "Du"
         },
         {
             "id": "564",
             "name": "einkaufen gehen",
             "title": "идти за покупками",
-            "subscrb": "áйнкауфен гéэн"
+            "subscrb": "áйнкауфен гéэн",
+            "language": "Du"
         },
         {
             "id": "565",
             "name": "er hat Dienst",
             "title": "у него дежурство",
-            "subscrb": "эа хат дИнст"
+            "subscrb": "эа хат дИнст",
+            "language": "Du"
         },
         {
             "id": "566",
             "name": "sechs Flaschen statt einer",
             "title": "шесть бутылок вместо одной",
-            "subscrb": "зэкс флáшен штат áйнер"
+            "subscrb": "зэкс флáшен штат áйнер",
+            "language": "Du"
         },
         {
             "id": "567",
             "name": "in der Nähe von ihrer Arbeit sein",
             "title": "находиться недалеко от её работы",
-            "subscrb": "ин дэа нэ́эе фон И́ра арбайт зайн"
+            "subscrb": "ин дэа нэ́эе фон И́ра арбайт зайн",
+            "language": "Du"
         },
         {
             "id": "568",
             "name": "hier gibt es alles",
             "title": "здесь есть всё",
-            "subscrb": "хиа гибт эс áллес"
+            "subscrb": "хиа гибт эс áллес",
+            "language": "Du"
         },
         {
             "id": "569",
             "name": "an den Regalen entlang gehen",
             "title": "идти вдоль полок",
-            "subscrb": "ан дэн рэгáлен энтлáнг гéэн"
+            "subscrb": "ан дэн рэгáлен энтлáнг гéэн",
+            "language": "Du"
         },
         {
             "id": "570",
             "name": "schwere Tasche",
             "title": "тяжёлая сумка",
-            "subscrb": "швэ́рэ тáше"
+            "subscrb": "швэ́рэ тáше",
+            "language": "Du"
         },
         {
             "id": "571",
             "name": "ertragen",
             "title": "терпеть",
-            "subscrb": "эртрáген"
+            "subscrb": "эртрáген",
+            "language": "Du"
         },
         {
             "id": "572",
             "name": "seltsam",
             "title": "странный",
-            "subscrb": "зэ́льтсам"
+            "subscrb": "зэ́льтсам",
+            "language": "Du"
         },
         {
             "id": "573",
             "name": "anders",
             "title": "другой",
-            "subscrb": "áндэрс"
+            "subscrb": "áндэрс",
+            "language": "Du"
         },
         {
             "id": "574",
             "name": "beenden",
             "title": "кончить",
-            "subscrb": "бээ́ндэн"
+            "subscrb": "бээ́ндэн",
+            "language": "Du"
         },
         {
             "id": "575",
             "name": "zum Beispiel",
             "title": "например",
-            "subscrb": "цум бáйшпиль"
+            "subscrb": "цум бáйшпиль",
+            "language": "Du"
         },
         {
             "id": "576",
             "name": "lass",
             "title": "пусть",
-            "subscrb": "лас"
+            "subscrb": "лас",
+            "language": "Du"
         },
         {
             "id": "577",
             "name": "der",
             "title": "который",
-            "subscrb": "дэа"
+            "subscrb": "дэа",
+            "language": "Du"
         },
         {
             "id": "578",
             "name": "die",
             "title": "которая",
-            "subscrb": "ди"
+            "subscrb": "ди",
+            "language": "Du"
         },
         {
             "id": "579",
             "name": "das",
             "title": "которое",
-            "subscrb": "дас"
+            "subscrb": "дас",
+            "language": "Du"
         },
         {
             "id": "580",
             "name": "in der Nähe",
             "title": "недалеко",
-            "subscrb": "ин дэа нэ́эе"
+            "subscrb": "ин дэа нэ́эе",
+            "language": "Du"
         },
         {
             "id": "581",
             "name": "bitten",
             "title": "попросить",
-            "subscrb": "бИттэн"
+            "subscrb": "бИттэн",
+            "language": "Du"
         },
         {
             "id": "582",
             "name": "Regal",
             "title": "полка",
-            "subscrb": "рэгáль"
+            "subscrb": "рэгáль",
+            "language": "Du"
         },
         {
             "id": "583",
             "name": "Sache",
             "title": "вещь",
-            "subscrb": "зáхэ"
+            "subscrb": "зáхэ",
+            "language": "Du"
         },
         {
             "id": "584",
             "name": "selbst",
             "title": "сам",
-            "subscrb": "зэльбст"
+            "subscrb": "зэльбст",
+            "language": "Du"
         },
         {
             "id": "585",
             "name": "allein",
             "title": "один",
-            "subscrb": "алáйн"
+            "subscrb": "алáйн",
+            "language": "Du"
         },
         {
             "id": "586",
             "name": "anrufen",
             "title": "звонить",
-            "subscrb": "áнруфэн"
+            "subscrb": "áнруфэн",
+            "language": "Du"
         },
         {
             "id": "587",
             "name": "man muss",
             "title": "нужно",
-            "subscrb": "ман мус"
+            "subscrb": "ман мус",
+            "language": "Du"
         },
         {
             "id": "588",
             "name": "hier",
             "title": "здесь",
-            "subscrb": "хиа"
+            "subscrb": "хиа",
+            "language": "Du"
         },
         {
             "id": "589",
             "name": "also",
             "title": "следовательно",
-            "subscrb": "áльзо"
+            "subscrb": "áльзо",
+            "language": "Du"
         },
         {
             "id": "590",
             "name": "endlich",
             "title": "наконец",
-            "subscrb": "э́ндлих"
+            "subscrb": "э́ндлих",
+            "language": "Du"
         },
         {
             "id": "591",
             "name": "entlang",
             "title": "вдоль",
-            "subscrb": "энтлáнг"
+            "subscrb": "энтлáнг",
+            "language": "Du"
         },
         {
             "id": "592",
             "name": "auswählen",
             "title": "выбирать",
-            "subscrb": "áусвэлен"
+            "subscrb": "áусвэлен",
+            "language": "Du"
         },
         {
             "id": "593",
             "name": "Schokolade",
             "title": "шоколад",
-            "subscrb": "шоколодáдэ"
+            "subscrb": "шоколодáдэ",
+            "language": "Du"
         },
         {
             "id": "594",
             "name": "Kabeljau",
             "title": "треска",
-            "subscrb": "кáбельяу"
+            "subscrb": "кáбельяу",
+            "language": "Du"
         },
         {
             "id": "595",
             "name": "ein Laib Käse",
             "title": "головка сыра",
-            "subscrb": "áйн лайб кэ́эзэ"
+            "subscrb": "áйн лайб кэ́эзэ",
+            "language": "Du"
         },
         {
             "id": "596",
             "name": "Kilogramm",
             "title": "килограмм",
-            "subscrb": "килогрáмм"
+            "subscrb": "килогрáмм",
+            "language": "Du"
         },
         {
             "id": "597",
             "name": "kosten",
             "title": "стоить",
-            "subscrb": "кóстэн"
+            "subscrb": "кóстэн",
+            "language": "Du"
         },
         {
             "id": "598",
             "name": "wie viel kostet",
             "title": "сколько стоит",
-            "subscrb": "ви фи́ль кóстэт"
+            "subscrb": "ви фи́ль кóстэт",
+            "language": "Du"
         },
         {
             "id": "599",
             "name": "tragen",
             "title": "нести",
-            "subscrb": "трáген"
+            "subscrb": "трáген",
+            "language": "Du"
         },
         {
             "id": "600",
             "name": "Lieferung",
             "title": "доставка",
-            "subscrb": "лИфэрунг"
+            "subscrb": "лИфэрунг",
+            "language": "Du"
         },
         {
             "id": "601",
             "name": "Gurke",
             "title": "огурец",
-            "subscrb": "гУркэ"
+            "subscrb": "гУркэ",
+            "language": "Du"
         },
         {
             "id": "602",
             "name": "bezahlen",
             "title": "платить",
-            "subscrb": "бэцáлен"
+            "subscrb": "бэцáлен",
+            "language": "Du"
         },
         {
             "id": "603",
             "name": "Schachtel",
             "title": "коробка",
-            "subscrb": "шáхтэль"
+            "subscrb": "шáхтэль",
+            "language": "Du"
         },
         {
             "id": "604",
             "name": "Jahr",
             "title": "год",
-            "subscrb": "яр"
+            "subscrb": "яр",
+            "language": "Du"
         },
         {
             "id": "605",
             "name": "Jahre",
             "title": "годы",
-            "subscrb": "я́рэ"
+            "subscrb": "я́рэ",
+            "language": "Du"
         },
         {
             "id": "606",
             "name": "Fisch",
             "title": "рыба",
-            "subscrb": "фиш"
+            "subscrb": "фиш",
+            "language": "Du"
         },
         {
             "id": "607",
             "name": "Fisch-",
             "title": "рыбный",
-            "subscrb": "фиш"
+            "subscrb": "фиш",
+            "language": "Du"
         },
         {
             "id": "608",
             "name": "sahnig",
             "title": "сливочный",
-            "subscrb": "зáних"
+            "subscrb": "зáних",
+            "language": "Du"
         },
         {
             "id": "609",
             "name": "die Fahrkarte",
             "title": "проездной билет",
-            "subscrb": "ди фаркартэ"
+            "subscrb": "ди фаркартэ",
+            "language": "Du"
         },
         {
             "id": "610",
             "name": "die Eintrittskarte",
             "title": "входной билет",
-            "subscrb": "ди айнтритскартэ"
+            "subscrb": "ди айнтритскартэ",
+            "language": "Du"
         }
     ]
 }
