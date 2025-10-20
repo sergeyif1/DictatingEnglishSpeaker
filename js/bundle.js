@@ -357,24 +357,23 @@ var voicePlay = {
     // ---------------------------
     if (language && currentButton1 === "but1") {
       var languageMap = {
-        En: ["английский Соединенные Штаты (en-US)"
+        En: ["английский Соединенные Штаты (en-US)", /en-US/
         // "Google US English (en-US)",
-        // "en-US",
         ],
-        Pl: ["польский Польша (pl-PL)"
+        Pl: ["польский Польша (pl-PL)", /pl-PL/
         // "Google polski (pl-PL)",
         // "pl-PL"
         ],
-        Gr: ["греческий Греция (el-GR)"
+        Gr: ["греческий Греция (el-GR)", /el-GR/
         // "Google русский (ru-RU)", "el-GR"
         ],
-        Du: ["немецкий Германия (de-DE)"
+        Du: ["немецкий Германия (de-DE)", /de-DE/
         // "Google Deutsch (de-DE)", "de-DE"
         ]
       };
-      var possibleMatches = languageMap[language] || [];
+      var _possibleMatches = languageMap[language] || [];
       selectedVoice = availableVoices.find(function (v) {
-        return possibleMatches.some(function (match) {
+        return _possibleMatches.some(function (match) {
           return v.name.includes(match) || v.lang === match || "".concat(v.name, " (").concat(v.lang, ")") === match;
         });
       });
@@ -391,10 +390,23 @@ var voicePlay = {
     if (language && currentButton1 === "but2") {
       var russianMatches = ["Google русский (ru-RU)", "русский Россия (ru-RU)", "(ru-RU)", "ru-RU"];
       selectedVoice = availableVoices.find(function (v) {
-        return russianMatches.some(function (match) {
-          return v.name.includes(match) || v.lang === match || "".concat(v.name, " (").concat(v.lang, ")") === match;
+        return possibleMatches.some(function (match) {
+          if (match instanceof RegExp) {
+            return match.test(v.lang) || match.test(v.name);
+          }
+          return v.name.includes(match) || v.lang === match || v.name + " (" + v.lang + ")" === match;
         });
       });
+
+      // selectedVoice = availableVoices.find((v) =>
+      //   russianMatches.some(
+      //     (match) =>
+      //       v.name.includes(match) ||
+      //       v.lang === match ||
+      //       `${v.name} (${v.lang})` === match
+      //   )
+      // );
+
       if (selectedVoice) {
         console.log("\uD83C\uDDF7\uD83C\uDDFA \u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442\u0441\u044F \u0435\u0434\u0438\u043D\u044B\u0439 \u0440\u0443\u0441\u0441\u043A\u0438\u0439 \u0433\u043E\u043B\u043E\u0441: ".concat(selectedVoice.name, " (").concat(selectedVoice.lang, ")"));
       } else {
