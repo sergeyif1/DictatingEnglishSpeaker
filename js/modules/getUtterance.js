@@ -78,12 +78,22 @@ const voicePlay = {
       const languageMap = {
         En: [
           "английский Соединенные Штаты (en-US)",
-          "Google US English (en-US)",
-          "en-US",
+          // "Google US English (en-US)",
+          // "en-US",
         ],
-        Pl: ["польский Польша (pl-PL)", "Google polski (pl-PL)", "pl-PL"],
-        Gr: ["греческий Греция (el-GR)", "Google русский (ru-RU)", "el-GR"],
-        Du: ["немецкий Германия (de-DE)", "Google Deutsch (de-DE)", "de-DE"],
+        Pl: [
+          "польский Польша (pl-PL)",
+          // "Google polski (pl-PL)",
+          // "pl-PL"
+        ],
+        Gr: [
+          "греческий Греция (el-GR)",
+          // "Google русский (ru-RU)", "el-GR"
+        ],
+        Du: [
+          "немецкий Германия (de-DE)",
+          // "Google Deutsch (de-DE)", "de-DE"
+        ],
       };
 
       const possibleMatches = languageMap[language] || [];
