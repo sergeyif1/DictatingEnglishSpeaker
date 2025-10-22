@@ -27,7 +27,7 @@ resumeButton.addEventListener("click", (event) => {
 
 but3.addEventListener("click", () => {
   setTimeout(() => {
-    location.reload()
+    location.reload();
   }, 1000);
 });
 
