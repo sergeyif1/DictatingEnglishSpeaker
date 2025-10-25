@@ -9,7 +9,7 @@ document.addEventListener("keydown", function (event) {
   }
 });
 
-window.speechSynthesis.cancel();
+// window.speechSynthesis.cancel();
 
 let currentButton1;
 
