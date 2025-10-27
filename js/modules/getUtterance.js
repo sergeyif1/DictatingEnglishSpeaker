@@ -144,8 +144,9 @@ const voicePlay = {
     // ---------------------------
     if (!selectedVoice && language && currentButton1 === "but2") {
       const russianMatches = [
-        "Google русский (ru-RU)",
         "русский Россия (ru-RU)",
+        /[^"]*\(ru-RU\)/,
+        "Google русский (ru-RU)",
         "(ru-RU)",
         "ru-RU",
       ];
