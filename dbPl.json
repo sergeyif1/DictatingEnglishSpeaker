@@ -8091,6 +8091,2646 @@
       "title": "стараться",
       "subscrb": "СТАРАЧЬ ЩЭ",
       "language": "Pl"
+    },
+    {
+      "id": "1157",
+      "name": "mieszkanie",
+      "title": "квартира",
+      "subscrb": "мьешКАНьэ"
+    },
+    {
+      "id": "1158",
+      "name": "meble",
+      "title": "мебель",
+      "subscrb": "МЕбле"
+    },
+    {
+      "id": "1159",
+      "name": "biurko",
+      "title": "письменный стол",
+      "subscrb": "БЬЮрко"
+    },
+    {
+      "id": "1160",
+      "name": "fotel",
+      "title": "кресло",
+      "subscrb": "ФОтель"
+    },
+    {
+      "id": "1161",
+      "name": "kanapa",
+      "title": "диван",
+      "subscrb": "каНАпа"
+    },
+    {
+      "id": "1162",
+      "name": "kredens",
+      "title": "буфет",
+      "subscrb": "КРЕдэнс"
+    },
+    {
+      "id": "1163",
+      "name": "Krzesełko",
+      "title": "стульчик",
+      "subscrb": "кшэСЭўко"
+    },
+    {
+      "id": "1164",
+      "name": "krzesło",
+      "title": "стул",
+      "subscrb": "КШЭСўо"
+    },
+    {
+      "id": "1165",
+      "name": "kuchenka",
+      "title": "плита",
+      "subscrb": "куХЭнка"
+    },
+    {
+      "id": "1166",
+      "name": "lodówka",
+      "title": "холодильник",
+      "subscrb": "лоДУ:ўка"
+    },
+    {
+      "id": "1167",
+      "name": "łóżeczko",
+      "title": "кроватка",
+      "subscrb": "ЎуЖЭчко"
+    },
+    {
+      "id": "1168",
+      "name": "łóżko",
+      "title": "кровать",
+      "subscrb": "ЎУ:шко"
+    },
+    {
+      "id": "1169",
+      "name": "lustro",
+      "title": "зеркало",
+      "subscrb": "ЛУстро"
+    },
+    {
+      "id": "1170",
+      "name": "półka na książki",
+      "title": "книжная полка",
+      "subscrb": "ПУ:ўка на кщОньшки"
+    },
+    {
+      "id": "1171",
+      "name": "pralka",
+      "title": "стиральная машина",
+      "subscrb": "ПРАЛька"
+    },
+    {
+      "id": "1172",
+      "name": "prysznic",
+      "title": "душ",
+      "subscrb": "ПРЫшниц"
+    },
+    {
+      "id": "1173",
+      "name": "regał",
+      "title": "сервант",
+      "subscrb": "РЭгаў"
+    },
+    {
+      "id": "1174",
+      "name": "sedes",
+      "title": "унитаз",
+      "subscrb": "СЭдэс"
+    },
+    {
+      "id": "1175",
+      "name": "stół",
+      "title": "стол",
+      "subscrb": "СТУ:ў"
+    },
+    {
+      "id": "1176",
+      "name": "stolik",
+      "title": "столик",
+      "subscrb": "СТОлик"
+    },
+    {
+      "id": "1177",
+      "name": "szafa",
+      "title": "шкаф",
+      "subscrb": "ШАфа"
+    },
+    {
+      "id": "1178",
+      "name": "szafka",
+      "title": "тумбочка",
+      "subscrb": "ШАфка"
+    },
+    {
+      "id": "1179",
+      "name": "telewizor",
+      "title": "телевизор",
+      "subscrb": "тэлэВИзор"
+    },
+    {
+      "id": "1180",
+      "name": "umywalka",
+      "title": "умывальник",
+      "subscrb": "умыВАЛька"
+    },
+    {
+      "id": "1181",
+      "name": "wanna",
+      "title": "ванна",
+      "subscrb": "ВАН:а"
+    },
+    {
+      "id": "1182",
+      "name": "wieszak",
+      "title": "вешалка",
+      "subscrb": "ВЬЕшак"
+    },
+    {
+      "id": "1183",
+      "name": "zlew",
+      "title": "мойка",
+      "subscrb": "ЗЛЕў"
+    },
+    {
+      "id": "1184",
+      "name": "przedpokój",
+      "title": "прихожая",
+      "subscrb": "пшэтПОкуй"
+    },
+    {
+      "id": "1185",
+      "name": "kuchnia",
+      "title": "кухня",
+      "subscrb": "КУхня"
+    },
+    {
+      "id": "1186",
+      "name": "pokój gościnny",
+      "title": "гостинная",
+      "subscrb": "ПОкуй гощИньны"
+    },
+    {
+      "id": "1187",
+      "name": "sypialnia",
+      "title": "спальня",
+      "subscrb": "сыПЬЯльня"
+    },
+    {
+      "id": "1188",
+      "name": "łazienka",
+      "title": "ванная комната",
+      "subscrb": "ЎаЖЕНька"
+    },
+    {
+      "id": "1189",
+      "name": "toaleta",
+      "title": "туалет",
+      "subscrb": "тоалЕта"
+    },
+    {
+      "id": "1190",
+      "name": "pokój dziecinny",
+      "title": "детская",
+      "subscrb": "пОкуй джeчИ:нны"
+    },
+    {
+      "id": "1191",
+      "name": "gabinet",
+      "title": "кабинет",
+      "subscrb": "гАбинет"
+    },
+    {
+      "id": "1192",
+      "name": "przykład / o przykładzie",
+      "title": "пример / о примере",
+      "subscrb": "пшы́квУат / о пшы́квУадже"
+    },
+    {
+      "id": "1193",
+      "name": "brat / o bracie",
+      "title": "брат / о брате",
+      "subscrb": "брат / о брАчэ"
+    },
+    {
+      "id": "1194",
+      "name": "Francuz / o fransuzie",
+      "title": "француз / о французе",
+      "subscrb": "фрАнцус / о фрaнсУзе"
+    },
+    {
+      "id": "1195",
+      "name": "mięso / o mięsie",
+      "title": "мясо / о мясе",
+      "subscrb": "мЁнсо / о мЁнсье"
+    },
+    {
+      "id": "1196",
+      "name": "cukier / o cukrze",
+      "title": "конфета / о конфете",
+      "subscrb": "цУкер / о цУкшe"
+    },
+    {
+      "id": "1197",
+      "name": "masło / o maśle",
+      "title": "масло / о масле",
+      "subscrb": "мАсво / о мАсьле"
+    },
+    {
+      "id": "1198",
+      "name": "miasto / o mieście",
+      "title": "город / о городе",
+      "subscrb": "мЯсто / о мЕсьче"
+    },
+    {
+      "id": "1199",
+      "name": "czekolada / o czekoladzie",
+      "title": "шоколад / о шоколаде",
+      "subscrb": "чэколАда / о чэколАджe"
+    },
+    {
+      "id": "1200",
+      "name": "poczta / o poczcie",
+      "title": "почта / о почте",
+      "subscrb": "пОчта / о пОччье"
+    },
+    {
+      "id": "1201",
+      "name": "kurza / o kozie",
+      "title": "кожа / по коже",
+      "subscrb": "кУжа / о кОжe"
+    },
+    {
+      "id": "1202",
+      "name": "kiełbasa / o kiełbasie",
+      "title": "колбаса / о колбасе",
+      "subscrb": "кьеубАса / о кьеубАсьe"
+    },
+    {
+      "id": "1203",
+      "name": "gra / o grze",
+      "title": "игра / о игре",
+      "subscrb": "гра / о гжe"
+    },
+    {
+      "id": "1204",
+      "name": "siła / o sile",
+      "title": "сила / о силе",
+      "subscrb": "щИуа / о сИле"
+    },
+    {
+      "id": "1205",
+      "name": "Wisła / o Wiśle",
+      "title": "Висла / о Висле",
+      "subscrb": "вИсуа / о вИшьле"
+    },
+    {
+      "id": "1206",
+      "name": "kapusta / o kapuście",
+      "title": "капуста / о капусте",
+      "subscrb": "капУста / о капУщчье"
+    },
+    {
+      "id": "1207",
+      "name": "kolega / o koledze",
+      "title": "коллега / о коллеге",
+      "subscrb": "колЕга / о колЕджe"
+    },
+    {
+      "id": "1208",
+      "name": "lampa",
+      "title": "лампа",
+      "subscrb": "лАмпа"
+    },
+    {
+      "id": "1209",
+      "name": "róg",
+      "title": "угол",
+      "subscrb": "рУг"
+    },
+    {
+      "id": "1210",
+      "name": "okno",
+      "title": "окно",
+      "subscrb": "Окно"
+    },
+    {
+      "id": "1211",
+      "name": "firanka",
+      "title": "занавеска",
+      "subscrb": "фиранка"
+    },
+    {
+      "id": "1212",
+      "name": "lampa stojąca",
+      "title": "торшер",
+      "subscrb": "лАмпа стоЁнца"
+    },
+    {
+      "id": "1213",
+      "name": "zasłony",
+      "title": "штора",
+      "subscrb": "засуОны"
+    },
+    {
+      "id": "1214",
+      "name": "parapet",
+      "title": "подоконник",
+      "subscrb": "пАрапет"
+    },
+    {
+      "id": "1215",
+      "name": "doniczka",
+      "title": "цветочный горшок",
+      "subscrb": "дОничка"
+    },
+    {
+      "id": "1216",
+      "name": "sufit",
+      "title": "потолок",
+      "subscrb": "сУфит"
+    },
+    {
+      "id": "1217",
+      "name": "żyrandol",
+      "title": "люстра",
+      "subscrb": "жырандоль"
+    },
+    {
+      "id": "1218",
+      "name": "ściana",
+      "title": "стена",
+      "subscrb": "щчЯна"
+    },
+    {
+      "id": "1219",
+      "name": "zegar",
+      "title": "часы",
+      "subscrb": "зЭгар"
+    },
+    {
+      "id": "1220",
+      "name": "podłoga",
+      "title": "пол",
+      "subscrb": "подуОга"
+    },
+    {
+      "id": "1221",
+      "name": "dywan",
+      "title": "ковёр",
+      "subscrb": "дЫван"
+    },
+    {
+      "id": "1222",
+      "name": "Gdzie znajduje się lampa",
+      "title": "Где находится лампа",
+      "subscrb": "ГджЕ знайдуйэ сЭ лАмпа"
+    },
+    {
+      "id": "1223",
+      "name": "lampa stoi na biurku",
+      "title": "Лампа стоит на столе (на письменном)",
+      "subscrb": "лАмпа стОи на бйУрку"
+    },
+    {
+      "id": "1224",
+      "name": "Gdzie jest lampa stojąca",
+      "title": "Где торшер (стоячая лампа)",
+      "subscrb": "ГджЕ йэст лАмпа стоЙоунца"
+    },
+    {
+      "id": "1225",
+      "name": "lampa stojąca stoi w rogu",
+      "title": "Торшер стоит в углу",
+      "subscrb": "лАмпа стоЙоунца стОи в рОгу"
+    },
+    {
+      "id": "1226",
+      "name": "gdzie znajdują się zasłony i firanki",
+      "title": "Где находятся шторы и занавески",
+      "subscrb": "гджЕ знайдУйоун шЭ засвОны и фйирАнки"
+    },
+    {
+      "id": "1227",
+      "name": "ze słomie i firanki wiszą na oknie",
+      "title": "Шторы и занавески висят на окне",
+      "subscrb": "зэ свОны и фйирАнки вИшоун на Окне"
+    },
+    {
+      "id": "1228",
+      "name": "Gdzie znajdują się doniczki z kwiatami",
+      "title": "Где стоят горшки с цветами",
+      "subscrb": "гджЕ знайдУйоун шЭ доНичкы с кфйатАми"
+    },
+    {
+      "id": "1229",
+      "name": "doniczki z kwiatami znajdują się na parapecie",
+      "title": "Горшки с цветами стоят на подоконнике",
+      "subscrb": "доНичкы с кфйатАми знайдУйоун шЭ на парапЭче"
+    },
+    {
+      "id": "1230",
+      "name": "Gdzie znajduje się żyrandol",
+      "title": "Где находится люстра",
+      "subscrb": "гджЕ знайдУйэ шЭ жЫрандоль"
+    },
+    {
+      "id": "1231",
+      "name": "żyrandol wisi na suficie",
+      "title": "Люстра висит на потолке",
+      "subscrb": "жЫрандоль вИси на суфИче"
+    },
+    {
+      "id": "1232",
+      "name": "Gdzie znajduje się zegar",
+      "title": "Где находятся часы",
+      "subscrb": "гджЕ знайдУйэ шЭ ЗЭгар"
+    },
+    {
+      "id": "1233",
+      "name": "zegar wisi na ścianie",
+      "title": "Часы висят на стене",
+      "subscrb": "ЗЭгар вИси на щьчЯне"
+    },
+    {
+      "id": "1234",
+      "name": "Gdzie znajduje się dywan",
+      "title": "Где находится ковёр",
+      "subscrb": "гджЕ знайдУйэ шЭ дЫван"
+    },
+    {
+      "id": "1235",
+      "name": "dywan leży na podłodze",
+      "title": "Ковёр лежит на полу",
+      "subscrb": "дЫван лЕжы на подУодзэ"
+    },
+    {
+      "id": "1236",
+      "name": "na lewo",
+      "title": "налево",
+      "subscrb": "на лЕво"
+    },
+    {
+      "id": "1237",
+      "name": "na prawo",
+      "title": "направо",
+      "subscrb": "на прАво"
+    },
+    {
+      "id": "1238",
+      "name": "przy",
+      "title": "у / возле",
+      "subscrb": "пшЫ"
+    },
+    {
+      "id": "1239",
+      "name": "magnetofon",
+      "title": "магнитофон",
+      "subscrb": "магнэтОфон"
+    },
+    {
+      "id": "1240",
+      "name": "naprzeciwko",
+      "title": "напротив",
+      "subscrb": "напшэчИфко"
+    },
+    {
+      "id": "1241",
+      "name": "Mój pokój jest duży i jasny",
+      "title": "моя комната большая и светлая",
+      "subscrb": "Муй ПОкуй есть ДУжы и Ясны"
+    },
+    {
+      "id": "1242",
+      "name": "w nim znajdują się dwa duże okna",
+      "title": "в ней находятся два больших окна",
+      "subscrb": "в ним знайДУйон шен ДВА ДУже Окна"
+    },
+    {
+      "id": "1243",
+      "name": "na parapecie stoją trzy doniczki z kwiatami",
+      "title": "на подоконнике стоят горшки с цветами",
+      "subscrb": "на параПЕчэ стоЙон тры доНИчки з кфяТАми"
+    },
+    {
+      "id": "1244",
+      "name": "na lewo od okna stoi moje łóżko",
+      "title": "слева от окна стоит моя кровать",
+      "subscrb": "на ЛЕво од Окна стоЙи МОе Ушко"
+    },
+    {
+      "id": "1245",
+      "name": "przy łóżku jest szafka",
+      "title": "возле кровати есть тумбочка",
+      "subscrb": "пшы Ушку есть ШАфка"
+    },
+    {
+      "id": "1246",
+      "name": "Na niej stoi magnetofon",
+      "title": "на ней стоит магнитофон",
+      "subscrb": "на ней стоЙи магнеТофон"
+    },
+    {
+      "id": "1247",
+      "name": "przy jeszcze jednym oknie stoi moje biurko",
+      "title": "возле ещё одного окна стоит мой письменный стол",
+      "subscrb": "пшы Ешчэ Едным Окне стоЙи МОе БЮрко"
+    },
+    {
+      "id": "1248",
+      "name": "Na biurku stoi nieduża lampka",
+      "title": "на столе стоит небольшая лампа",
+      "subscrb": "на БЮрку стоЙи неДУжа ЛАМпка"
+    },
+    {
+      "id": "1249",
+      "name": "Naprzeciwko biurka znajduje się szafa, na prawa półki na książki",
+      "title": "напротив стола находится шкаф, справа книжные полки",
+      "subscrb": "напшеЧИфко БЮрка знайДУйе шен ШАфа, на ПРАва ПУлки на КЩОНшки"
+    },
+    {
+      "id": "1250",
+      "name": "na podłodze leży duży niebieskie dywan",
+      "title": "на полу лежит большой голубой ковёр",
+      "subscrb": "на подВОдзэ ЛЕжы ДУжы неБЕскье ДЫван"
+    },
+    {
+      "id": "1251",
+      "name": "na ścianie nie wiszą moje obrazy",
+      "title": "на стене висят мои картины",
+      "subscrb": "на ЩЬЧАНе не ВИшон МОе оБРАзы"
+    },
+    {
+      "id": "1252",
+      "name": "bardzo lubię słuchać muzyki w swoim pokoju",
+      "title": "Я очень люблю слушать музыку в своей комнате",
+      "subscrb": "БАРдзо ЛУбье СЛУхат' музЫки ф своЙим поКОю"
+    },
+    {
+      "id": "1253",
+      "name": "budynek",
+      "title": "здание",
+      "subscrb": "буДЫнэк"
+    },
+    {
+      "id": "1254",
+      "name": "dom",
+      "title": "дом",
+      "subscrb": "дом"
+    },
+    {
+      "id": "1255",
+      "name": "Kamienica",
+      "title": "каменный дом",
+      "subscrb": "камеНИца"
+    },
+    {
+      "id": "1256",
+      "name": "blok",
+      "title": "многоквартирный дом",
+      "subscrb": "блок"
+    },
+    {
+      "id": "1257",
+      "name": "chata",
+      "title": "изба",
+      "subscrb": "ХАта"
+    },
+    {
+      "id": "1258",
+      "name": "Willa",
+      "title": "особняк",
+      "subscrb": "ВИлла"
+    },
+    {
+      "id": "1259",
+      "name": "parter",
+      "title": "первый этаж",
+      "subscrb": "ПАРтэр"
+    },
+    {
+      "id": "1260",
+      "name": "piętro",
+      "title": "этаж",
+      "subscrb": "ПЕНтро"
+    },
+    {
+      "id": "1261",
+      "name": "dach",
+      "title": "крыша",
+      "subscrb": "дах"
+    },
+    {
+      "id": "1262",
+      "name": "poddasze",
+      "title": "жилой чердак",
+      "subscrb": "подДАше"
+    },
+    {
+      "id": "1263",
+      "name": "strych",
+      "title": "чердак",
+      "subscrb": "стрых"
+    },
+    {
+      "id": "1264",
+      "name": "ostatnie piętro",
+      "title": "последний этаж",
+      "subscrb": "осТАТне ПЕНтро"
+    },
+    {
+      "id": "1265",
+      "name": "drugie piętro",
+      "title": "третий этаж",
+      "subscrb": "ДРУге ПЕНтро"
+    },
+    {
+      "id": "1266",
+      "name": "pierwsze piętro",
+      "title": "второй этаж",
+      "subscrb": "ПЕРшэ ПЕНтро"
+    },
+    {
+      "id": "1267",
+      "name": "parter",
+      "title": "первый этаж",
+      "subscrb": "ПАРтэр"
+    },
+    {
+      "id": "1268",
+      "name": "piwnica",
+      "title": "подвал",
+      "subscrb": "пивНИца"
+    },
+    {
+      "id": "1269",
+      "name": "wynajmować",
+      "title": "снимать",
+      "subscrb": "вынайМОвач'"
+    },
+    {
+      "id": "1270",
+      "name": "chcieć",
+      "title": "хотеть",
+      "subscrb": "ХТЬЕч'"
+    },
+    {
+      "id": "1271",
+      "name": "chcę",
+      "title": "хочешь",
+      "subscrb": "ХЦЭ"
+    },
+    {
+      "id": "1272",
+      "name": "chcesz",
+      "title": "хочет",
+      "subscrb": "ХЦЕш"
+    },
+    {
+      "id": "1273",
+      "name": "garaż",
+      "title": "гараж",
+      "subscrb": "ГАраш"
+    },
+    {
+      "id": "1274",
+      "name": "własny",
+      "title": "собственный",
+      "subscrb": "ВУАСны"
+    },
+    {
+      "id": "1275",
+      "name": "taki",
+      "title": "такой",
+      "subscrb": "ТАки"
+    },
+    {
+      "id": "1276",
+      "name": "numer",
+      "title": "номер",
+      "subscrb": "НУмэр"
+    },
+    {
+      "id": "1277",
+      "name": "gdzie teraz mieszkasz?",
+      "title": "где ты сейчас живёшь",
+      "subscrb": "гджE тэраз мЕшкаш"
+    },
+    {
+      "id": "1278",
+      "name": "mieszkam w Starej Kamienicy na trzecim piętro",
+      "title": "Я живу в старом каменном доме на четвёртом этаже",
+      "subscrb": "мЕшкам ф стАрэй камьенИцы на чрЭчим пьЕнтро"
+    },
+    {
+      "id": "1279",
+      "name": "to dom numer pięć przy ulicy pięknej",
+      "title": "этот дом номер пять по улице красивой",
+      "subscrb": "то дом нУмэр пьЭнч пшЫ улицы пьЕнкнэй"
+    },
+    {
+      "id": "1280",
+      "name": "czy mi mieszkasz sama?",
+      "title": "ты живёшь одна",
+      "subscrb": "чы ми мЕшкаш сАма"
+    },
+    {
+      "id": "1281",
+      "name": "nie mieszkam z koleżanka",
+      "title": "нет я живу с подругой",
+      "subscrb": "нЬЕ мЕшкам з колэжОн̃ка"
+    },
+    {
+      "id": "1282",
+      "name": "wynajmujemy mieszkanie",
+      "title": "мы снимаем квартиру",
+      "subscrb": "вынаймуЕмы мьешкАнье"
+    },
+    {
+      "id": "1283",
+      "name": "A ty gdzie mieszkasz",
+      "title": "а ты где живёшь?",
+      "subscrb": "а ты гджE мЕшкаш"
+    },
+    {
+      "id": "1284",
+      "name": "mieszkam w mieście z rodzicami",
+      "title": "я ещё живу с родителями",
+      "subscrb": "мЕшкам ф мьЕсчче з родьицАми"
+    },
+    {
+      "id": "1285",
+      "name": "Mieszkacie w mieście",
+      "title": "вы живёте в городе?",
+      "subscrb": "мешькАчье ф мьЕсчче"
+    },
+    {
+      "id": "1286",
+      "name": "mieszkami w niedużym własnym domu za miastem",
+      "title": "мы живём в небольшом собственном доме за городом",
+      "subscrb": "мЕшкамЫ ф ньедУжым вуАсным дОму за мьЯстем"
+    },
+    {
+      "id": "1287",
+      "name": "Ile macie pokói",
+      "title": "сколько у вас комнат?",
+      "subscrb": "Иле мАчье покУйи"
+    },
+    {
+      "id": "1288",
+      "name": "przedpokój i pokój gościnny na parterze",
+      "title": "прихожая и гостиная на первом этаже",
+      "subscrb": "пшэдпОкуй и пОкуй гощИны на партЭжэ"
+    },
+    {
+      "id": "1289",
+      "name": "obok są kuchnie i toaleta",
+      "title": "рядом кухня и туалет",
+      "subscrb": "Обок сон̃ кУхне и тоалЕта"
+    },
+    {
+      "id": "1290",
+      "name": "nabijasz się piętro są dwie sypialni i gabinet ojca",
+      "title": "на втором этаже две спальни и кабинет отца",
+      "subscrb": "на дрУгем пьЕнтже сон̃ двьЕ сыпьЯльни и габьинЭт Ойца"
+    },
+    {
+      "id": "1291",
+      "name": "na poddaszu jest jeszcze mały pokój i łazienka",
+      "title": "на чердаке есть ещё маленькая комната и ванная",
+      "subscrb": "на поддАшу ещчэ мАуы пОкуй и уазьЕнка"
+    },
+    {
+      "id": "1292",
+      "name": "pod domem jest garaż",
+      "title": "под домом есть гараж",
+      "subscrb": "под дОмем ест гАрaж"
+    },
+    {
+      "id": "1293",
+      "name": "w garażu stoi samochód ojca",
+      "title": "в гараже стоит автомобиль отца",
+      "subscrb": "ф гаражУ стоИ самОхут Ойца"
+    },
+    {
+      "id": "1294",
+      "name": "i ty mówisz że to miały dom?",
+      "title": "и ты говоришь что это маленький дом?",
+      "subscrb": "и ты мУвиш жэ то мАуы дом?"
+    },
+    {
+      "id": "1295",
+      "name": "też chcą mieszkać w takim małym domu",
+      "title": "Я тоже хочу жить в таком маленьком доме",
+      "subscrb": "тэш хцОн̃ мьешкач ф тАким мАлым дОму"
+    },
+    {
+      "id": "1296",
+      "name": "Magda nie ma problemu",
+      "title": "магда нет проблем",
+      "subscrb": "мАгда ньЕ ма проблЕму"
+    },
+    {
+      "id": "1297",
+      "name": "ale dla nas jest lepiej wynajmować mieszkanie w dużym bloku",
+      "title": "но лучше для нас снимать квартиру в большом многоквартирном доме",
+      "subscrb": "Алэ для нас ест лЕпьей вынаймОвач мьешкАнье ф дУжым блОку"
+    },
+    {
+      "id": "1298",
+      "name": "razem",
+      "title": "вместе",
+      "subscrb": "рАзэм"
+    },
+    {
+      "id": "1299",
+      "name": "reklama",
+      "title": "реклама",
+      "subscrb": "рэклАма"
+    },
+    {
+      "id": "1300",
+      "name": "balkon",
+      "title": "балкон",
+      "subscrb": "бАлкон"
+    },
+    {
+      "id": "1301",
+      "name": "później",
+      "title": "позже",
+      "subscrb": "пУ:жньей"
+    },
+    {
+      "id": "1302",
+      "name": "drzwi",
+      "title": "дверь",
+      "subscrb": "джвьИ"
+    },
+    {
+      "id": "1303",
+      "name": "już wiem gdzie mieszka Tomek",
+      "title": "Я уже знаю где живёт Томэк",
+      "subscrb": "юш ВЬЕМ гдзе МЕШка томэк"
+    },
+    {
+      "id": "1304",
+      "name": "mówi że mieszka w małym domu za miastem",
+      "title": "он говорит что живёт в маленьком доме за городом",
+      "subscrb": "**МУ:**ви же МЕШка в ма́уым ДО:му за МЯ:стэм"
+    },
+    {
+      "id": "1305",
+      "name": "ale myślą że to duży dom nawet mała willa",
+      "title": "но я думаю что это большой дом, даже маленький особняк",
+      "subscrb": "А:лэ мЫШлон же то ДУ:жы дом навэт МА:уа ВИЛа"
+    },
+    {
+      "id": "1306",
+      "name": "w garażu stoi samochód",
+      "title": "у него три этажа (ошибка в польском тексте)",
+      "subscrb": "в гаРА:жу сто́йи саМОхут"
+    },
+    {
+      "id": "1307",
+      "name": "w pokoju gościnnym są piękne mebli i duży telewizor",
+      "title": "в гостиной красивая мебель и большой телевизор",
+      "subscrb": "в поКОю гощи́нным сон ПЕНкнэ МЕбли и ДУ:жы тэлэВИзор"
+    },
+    {
+      "id": "1308",
+      "name": "na kuchni w dużej lodówce są produkty i napoje",
+      "title": "на кухне в большом холодильнике продукты и напитки",
+      "subscrb": "на КУхни в ДУ:жей лоду́вцэ сон проДУКты и наПОйе"
+    },
+    {
+      "id": "1309",
+      "name": "w łazience stoi nowa pralka jak w reklamie",
+      "title": "в ванной стоит новая стиральная машина как в рекламе",
+      "subscrb": "в уаЖЕНцэ сто́йи НОва ПРАЛка як в рэКЛАмье"
+    },
+    {
+      "id": "1310",
+      "name": "W łazience stoi nowa pralka jak w reklamie.",
+      "title": "В ванной комнате стоит новая стиральная машина, как в рекламе.",
+      "subscrb": "в уаЗЕньцэ сто́и нОва пра́лка як в рэкЛАмье"
+    },
+    {
+      "id": "1311",
+      "name": "Tomek ma swój własny pokój z drzwiami na balkon",
+      "title": "у Томека своя комната с дверью на балкон",
+      "subscrb": "ТОмэк ма свуй ВУАСны по́куй з ДЖВЬЯми на БАЛкон"
+    },
+    {
+      "id": "1312",
+      "name": "tamta dziewczyna lubię to go chłopaka",
+      "title": "этой девочке нравится этот парень",
+      "subscrb": "ТАМта джевЧИна ЛУбье то го хуоПАка"
+    },
+    {
+      "id": "1313",
+      "name": "Oni razem uczą się",
+      "title": "Они вместе учатся",
+      "subscrb": "О:ни РА:зэм У:чО̃ шЕ̃"
+    },
+    {
+      "id": "1314",
+      "name": "mogą chodzić razem do kina i do kawiarni",
+      "title": "могут вместе ходить в кино и кафе",
+      "subscrb": "МОгон ХОджич разэм до КИна и до каВЬЯрни"
+    },
+    {
+      "id": "1315",
+      "name": "mogą nawet mieszkać razem w mieście",
+      "title": "они могут даже жить вместе в городе",
+      "subscrb": "МОгон НАвэт МЕШкач разэм в МЕще́сце"
+    },
+    {
+      "id": "1316",
+      "name": "ale później",
+      "title": "но позднее",
+      "subscrb": "Алэ ПУ:Жней"
+    },
+    {
+      "id": "1317",
+      "name": "na balkonach w doniczkach stoją pięknie kwiaty",
+      "title": "на балконах и горшках стоят красивые цветы",
+      "subscrb": "на балКОнах в доНИЧках сто́йон ПЕНкне кФЬЯты"
+    },
+    {
+      "id": "1318",
+      "name": "w sklepach na ścianach wiszą zegary",
+      "title": "в магазинах на стенах висят часы",
+      "subscrb": "в СКЛЕпах на ЩЯнах ВИшон зэГАры"
+    },
+    {
+      "id": "1319",
+      "name": "piwnicach leżą stare rzeczy",
+      "title": "в подвалах лежат старые вещи",
+      "subscrb": "в пивНИцах ЛЕжон СТАрэ ЖЭчшы"
+    },
+    {
+      "id": "1320",
+      "name": "Na strychach znajdują są szafy łyżka i biurka",
+      "title": "на чердаках находятся шкафы, кровати и письменные столы",
+      "subscrb": "на СТРЫхах знайДУйон со шАфы, уыжка и БЬЮРка"
+    },
+    {
+      "id": "1321",
+      "name": "na naszych kuchniach są lodówki kuchenki i zlewy",
+      "title": "на наших кухнях есть холодильники, плиты и мойки",
+      "subscrb": "на НАшых КУхнях сон лоДУ:фки куХЕНки и ЗЛЕвы"
+    },
+    {
+      "id": "1322",
+      "name": "długopisy są w szafkach a zeszyty są na biurkach",
+      "title": "ручки в тумбочках, а тетради — на столах",
+      "subscrb": "длугоПИсы сон в ШАФках а зэШЫты сон на БЬЮРках"
+    },
+    {
+      "id": "1323",
+      "name": "w łazienkach i prysznicach jest gorąca woda",
+      "title": "в ванных и душах есть горячая вода",
+      "subscrb": "в уаЖЕНках и прышНИцах ест гоРОНца во́да"
+    },
+    {
+      "id": "1324",
+      "name": "w mieszkaniu szafy znajdują są przy ścianach",
+      "title": "в квартирах шкафы находятся около стен",
+      "subscrb": "в мишКАНю шАфы знайДУйон сон пшы ЩЯнах"
+    },
+    {
+      "id": "1325",
+      "name": "torebki i gazety leżą na krzesłach i fotelach",
+      "title": "сумочки и газеты лежат на стульях и креслах",
+      "subscrb": "тоРЕБки и гаЗЕты ЛЕжон на КШЕслах и фоТЕлях"
+    },
+    {
+      "id": "1326",
+      "name": "ciągle",
+      "title": "постоянно",
+      "subscrb": "ЧОНглэ"
+    },
+    {
+      "id": "1327",
+      "name": "szkoda",
+      "title": "жаль",
+      "subscrb": "ШКОда"
+    },
+    {
+      "id": "1328",
+      "name": "szczęśliwy",
+      "title": "счастливый",
+      "subscrb": "шчЭНшливы"
+    },
+    {
+      "id": "1329",
+      "name": "powiedzieć",
+      "title": "сказать",
+      "subscrb": "повеВЬЕджечь"
+    },
+    {
+      "id": "1330",
+      "name": "plotkować",
+      "title": "сплетничать",
+      "subscrb": "плотКОвач"
+    },
+    {
+      "id": "1331",
+      "name": "oczywiście",
+      "title": "конечно",
+      "subscrb": "очиВИ:Шчэ"
+    },
+    {
+      "id": "1332",
+      "name": "hurra już jestem studentem",
+      "title": "ура! Я уже студент",
+      "subscrb": "хуРА юш Естэм студЕНтэм"
+    },
+    {
+      "id": "1333",
+      "name": "na zajęciach jest dużo dziewczyn",
+      "title": "на занятиях много девушек",
+      "subscrb": "на заЙЕНчах ест ДУ:жо джевчын"
+    },
+    {
+      "id": "1334",
+      "name": "Ciagle myślę o nich",
+      "title": "я всё время думаю о них",
+      "subscrb": "ЧЯглэ мЫШлэ о них"
+    },
+    {
+      "id": "1335",
+      "name": "Magda to bardzo sympatyczna dziewczyna",
+      "title": "Магда — очень симпатичная девушка",
+      "subscrb": "МАГда то БА:рдзо симпаТЫчна джевЧИна"
+    },
+    {
+      "id": "1336",
+      "name": "Oczywiście teraz myślę tylko o niej",
+      "title": "конечно, сейчас я думаю только о ней",
+      "subscrb": "очиВИ:Шчэ ТЕраз мЫШлэ ТЫЛко о НЬЕЙ"
+    },
+    {
+      "id": "1337",
+      "name": "Magda lubi Adama",
+      "title": "Магде нравится Адам",
+      "subscrb": "МАГда ЛУби аДАма"
+    },
+    {
+      "id": "1338",
+      "name": "Często rozmawia z koleżankami o nim",
+      "title": "она часто разговаривает с подругами о нём",
+      "subscrb": "ЧЭНсто розМАвя з колэЖАНками о ним"
+    },
+    {
+      "id": "1339",
+      "name": "skoda",
+      "title": "жаль (повтор)",
+      "subscrb": "ШКОда"
+    },
+    {
+      "id": "1340",
+      "name": "jutro Magda przyjdzie do mnie ja",
+      "title": "завтра Магда придёт ко мне",
+      "subscrb": "Ю:тро МАгда пшыДЬе до МНЕ:не я"
+    },
+    {
+      "id": "1341",
+      "name": "co powie o nas i naszym domu",
+      "title": "что она скажет о нас и нашем доме",
+      "subscrb": "цо ПОвье о нас и НА:шым ДО:му"
+    },
+    {
+      "id": "1342",
+      "name": "Magda dzisiaj przy mnie na zajęciach",
+      "title": "Магда сегодня сидит возле меня на занятиях",
+      "subscrb": "МАгда ДЖИ:шай пшы МНЕ:не на заЙЕНцях"
+    },
+    {
+      "id": "1343",
+      "name": "nie wiem o czym myśli",
+      "title": "не знаю о чём она думает",
+      "subscrb": "ньЕ ВЬЕМ о ЧЫ:ем МЫ:шли"
+    },
+    {
+      "id": "1344",
+      "name": "Paweł mówi Magda rozmawia z koleżankami tylko o tobie",
+      "title": "Павел говорит Магда разговаривает с подругами только о тебе",
+      "subscrb": "ПА:вэв МУ:ви МАгда розмаВЯ з колЕ:жанками ТЫлко о ТО:бье"
+    },
+    {
+      "id": "1345",
+      "name": "a dziewczyny plotkają o was",
+      "title": "а девушки сплетничают о вас",
+      "subscrb": "а джевЧЫ:ны ПЛО:тка:ю о ВАС"
+    },
+    {
+      "id": "1346",
+      "name": "jestem szczęśliwy",
+      "title": "Я счастлив",
+      "subscrb": "Е:стэм щенШЛЫ:ви"
+    },
+    {
+      "id": "1347",
+      "name": "myślę o tobie",
+      "title": "Я думаю о тебе",
+      "subscrb": "МЫ:шлe о ТО:бье"
+    },
+    {
+      "id": "1348",
+      "name": "o mnie",
+      "title": "обо мне",
+      "subscrb": "о МНЕ:не"
+    },
+    {
+      "id": "1349",
+      "name": "tak. o nas myślą",
+      "title": "да о нас Я думаю",
+      "subscrb": "так. о нас МЫ:шон"
+    },
+    {
+      "id": "1350",
+      "name": "a o niej nie myślisz",
+      "title": "а о ней ты думаешь",
+      "subscrb": "а о НЬЕЙ ньЕ МЫ:шлиш"
+    },
+    {
+      "id": "1351",
+      "name": "o kim?",
+      "title": "о ком?",
+      "subscrb": "о КИ:м?"
+    },
+    {
+      "id": "1352",
+      "name": "Ty wiesz o kim",
+      "title": "ты знаешь о ком",
+      "subscrb": "ты ВЬЕ:ш о КИ:м"
+    },
+    {
+      "id": "1353",
+      "name": "oczywiście że nie",
+      "title": "конечно нет",
+      "subscrb": "оЧЫ:вьшЧЫ:стэ же ньЕ"
+    },
+    {
+      "id": "1354",
+      "name": "A ty o nim?",
+      "title": "а ты о нём",
+      "subscrb": "а ты о НИ:м?"
+    },
+    {
+      "id": "1355",
+      "name": "nie nie myślę o nim",
+      "title": "нет я не думаю о нём",
+      "subscrb": "ньЕ ньЕ МЫ:шлe о НИ:м"
+    },
+    {
+      "id": "1356",
+      "name": "to dobrze",
+      "title": "это хорошо",
+      "subscrb": "то ДО:брже"
+    },
+    {
+      "id": "1357",
+      "name": "nie trzeba myśleć o nich",
+      "title": "не нужно думать о них",
+      "subscrb": "ньЕ ТРЕ:бжа МЫ:шлeч о них"
+    },
+    {
+      "id": "1358",
+      "name": "To już historia",
+      "title": "это уже история",
+      "subscrb": "То Ю:ш ИСТОРjя"
+    },
+    {
+      "id": "1359",
+      "name": "przykład o przykładzie",
+      "title": "пример о примере",
+      "subscrb": "ПшЫКлад о пшЫКладзЕ"
+    },
+    {
+      "id": "1360",
+      "name": "brat o bracie",
+      "title": "брат о брате",
+      "subscrb": "брат о бРАцЕ"
+    },
+    {
+      "id": "1361",
+      "name": "Francuz o Francuzie",
+      "title": "француз о француze",
+      "subscrb": "ФрАнцуз о ФрАнцузЕ"
+    },
+    {
+      "id": "1362",
+      "name": "mięso o mięsie",
+      "title": "мясо о мясе",
+      "subscrb": "мЬЕ:нсо о мЬЕ:нсЬЕ"
+    },
+    {
+      "id": "1363",
+      "name": "cukier o cukrze",
+      "title": "сахар о сахаре",
+      "subscrb": "ЦУкьер о ЦУкрже"
+    },
+    {
+      "id": "1364",
+      "name": "artykuły o artykule",
+      "title": "статьи о статье",
+      "subscrb": "артыкУ:вы о артыкУ:ле"
+    },
+    {
+      "id": "1365",
+      "name": "masło o masle",
+      "title": "масло о масле",
+      "subscrb": "мАсло о мАслЕ"
+    },
+    {
+      "id": "1366",
+      "name": "miasto o miłoście",
+      "title": "город о городе",
+      "subscrb": "мЬЯ:сто о мЬУ:щЬЕ"
+    },
+    {
+      "id": "1367",
+      "name": "czekolada o czekoladzie",
+      "title": "шоколад о шоколаде",
+      "subscrb": "чЭколА:да о чЭколАдзЕ"
+    },
+    {
+      "id": "1368",
+      "name": "poczta o poczcie",
+      "title": "почта о почте",
+      "subscrb": "пОчта о пОчтьЕ"
+    },
+    {
+      "id": "1369",
+      "name": "koza o kuzie",
+      "title": "коза о козе",
+      "subscrb": "кОза о кУ:зЬЕ"
+    },
+    {
+      "id": "1370",
+      "name": "gra o grze",
+      "title": "игра о игре",
+      "subscrb": "гРА о гЖЕ"
+    },
+    {
+      "id": "1371",
+      "name": "siła o sile",
+      "title": "сила о силе",
+      "subscrb": "сЬИ:ла о сЬИ:лЕ"
+    },
+    {
+      "id": "1372",
+      "name": "kapusta po kapuście",
+      "title": "капуста о капусте",
+      "subscrb": "капУ:ста по капУ:щЬЕ"
+    },
+    {
+      "id": "1373",
+      "name": "kolega o koledze",
+      "title": "друг о друге",
+      "subscrb": "колЕ:га о колЕ:джЕ"
+    },
+    {
+      "id": "1374",
+      "name": "kanapka o kanapce",
+      "title": "бутерброд о бутерброде",
+      "subscrb": "канА:пка о канА:пцЕ"
+    },
+    {
+      "id": "1375",
+      "name": "mucha o musze",
+      "title": "муха о мухе",
+      "subscrb": "мУха о мУ:шЕ"
+    },
+    {
+      "id": "1376",
+      "name": "ja o mnie",
+      "title": "я о мне",
+      "subscrb": "я о мЬНЬЕ"
+    },
+    {
+      "id": "1377",
+      "name": "ty o tobie",
+      "title": "ты о тебе",
+      "subscrb": "ты о тО:бЬЕ"
+    },
+    {
+      "id": "1378",
+      "name": "on o nim",
+      "title": "он о нём",
+      "subscrb": "он о ним"
+    },
+    {
+      "id": "1379",
+      "name": "ona o niej",
+      "title": "она о ней",
+      "subscrb": "О:на о нЬЕ:й"
+    },
+    {
+      "id": "1380",
+      "name": "ono",
+      "title": "оно",
+      "subscrb": "О:но"
+    },
+    {
+      "id": "1381",
+      "name": "my o nas",
+      "title": "мы о нас",
+      "subscrb": "мы о нас"
+    },
+    {
+      "id": "1382",
+      "name": "wy o was",
+      "title": "вы о вас",
+      "subscrb": "вы о вас"
+    },
+    {
+      "id": "1383",
+      "name": "oni o nich",
+      "title": "они о них",
+      "subscrb": "О:ни о них"
+    },
+    {
+      "id": "1384",
+      "name": "one",
+      "title": "они",
+      "subscrb": "О:нэ"
+    },
+    {
+      "id": "1385",
+      "name": "kto o kim",
+      "title": "кто о ком",
+      "subscrb": "кто о ким"
+    },
+    {
+      "id": "1386",
+      "name": "co o czym",
+      "title": "что о чём",
+      "subscrb": "цО о чЬЫ:м"
+    },
+    {
+      "id": "1387",
+      "name": "darować , podarować",
+      "title": "дарить , подарить",
+      "subscrb": "даРУвать, подаРУвать"
+    },
+    {
+      "id": "1388",
+      "name": "dziękować , podziękować",
+      "title": "благодарить , поблагодарить",
+      "subscrb": "дЗЬЕ:нкувать, по дЗЬЕ:нкувать"
+    },
+    {
+      "id": "1389",
+      "name": "kraść, ukraść",
+      "title": "красть , украсть",
+      "subscrb": "кРАсьч, укРАсьч"
+    },
+    {
+      "id": "1390",
+      "name": "oddawać, oddać",
+      "title": "отдавать , отдать",
+      "subscrb": "оДДАвать, оДДАть"
+    },
+    {
+      "id": "1391",
+      "name": "opowiadać, opowiedzieć",
+      "title": "рассказывать , рассказать",
+      "subscrb": "оповЯдать, оповЕдьеть"
+    },
+    {
+      "id": "1392",
+      "name": "podobać się, spodobać się",
+      "title": "нравиться , понравится",
+      "subscrb": "поДОбач сье, споДОбач сье"
+    },
+    {
+      "id": "1393",
+      "name": "pomagać, pomóc",
+      "title": "помогать , помочь",
+      "subscrb": "поМАгать, поМУч"
+    },
+    {
+      "id": "1394",
+      "name": "pożyczać, pożyczyć",
+      "title": "одалживать , одолжить",
+      "subscrb": "поЖЫчать, поЖЫчичь"
+    },
+    {
+      "id": "1395",
+      "name": "proponować, zaproponować",
+      "title": "предлагать , предложить",
+      "subscrb": "пропоНОвать, запропоНОвать"
+    },
+    {
+      "id": "1396",
+      "name": "przedstawiać, przedstawić",
+      "title": "представлять , представить",
+      "subscrb": "пшедстАвиать, пшедстАвичь"
+    },
+    {
+      "id": "1397",
+      "name": "przeszkadzać, przeszkodzić",
+      "title": "мешать , помешать",
+      "subscrb": "пшешкаДЗАч, пшешкоДЗичь"
+    },
+    {
+      "id": "1398",
+      "name": "przyglądać się, przyjrzeć się",
+      "title": "приглядываться , присмотреться",
+      "subscrb": "пшыГЛОдач сье, пшыЙРЗечь сье"
+    },
+    {
+      "id": "1399",
+      "name": "przysyłać, przysłać",
+      "title": "присылать , прислать",
+      "subscrb": "пшыСЫвать, пшыСЛАч"
+    },
+    {
+      "id": "1400",
+      "name": "sprzedawać, sprzedać",
+      "title": "продавать , продать",
+      "subscrb": "спшредАвать, спшредАч"
+    },
+    {
+      "id": "1401",
+      "name": "szkodzić, zaszkodzić",
+      "title": "вредить , повредить",
+      "subscrb": "шкоДЗичь, зашкоДЗичь"
+    },
+    {
+      "id": "1402",
+      "name": "tłumaczyć, przetłumaczyć",
+      "title": "объяснять , объяснить / переводить , перевести",
+      "subscrb": "тлыМАчичь, пшетлыМАчичь"
+    },
+    {
+      "id": "1403",
+      "name": "towarzyszyć",
+      "title": "сопровождать",
+      "subscrb": "товАжышичь"
+    },
+    {
+      "id": "1404",
+      "name": "ufać, zaufać",
+      "title": "доверять , довериться",
+      "subscrb": "Уватьч, заУватьч"
+    },
+    {
+      "id": "1405",
+      "name": "wierzyć, uwierzyć",
+      "title": "верить , поверить",
+      "subscrb": "ВЬЕ:ржичь, увЬЕ:ржичь"
+    },
+    {
+      "id": "1406",
+      "name": "zabraniać, zabronić",
+      "title": "запрещать , запретить",
+      "subscrb": "забраНЯч, заБРОньичь"
+    },
+    {
+      "id": "1407",
+      "name": "obiecywać, obiecać",
+      "title": "обещать , пообещать",
+      "subscrb": "оБЕ:цывать, оБЕ:цач"
+    },
+    {
+      "id": "1408",
+      "name": "co leży w lodówkach?",
+      "title": "что лежит в холодильниках?",
+      "subscrb": "ЦО LЕ:жы в лоДУ:вках?"
+    },
+    {
+      "id": "1409",
+      "name": "co wisi na sufit",
+      "title": "что висит на потолке",
+      "subscrb": "ЦО ВИ:си на СУ:фит"
+    },
+    {
+      "id": "1410",
+      "name": "co stoi na podłoga",
+      "title": "что стоит на полу",
+      "subscrb": "ЦО СТО:и на поДВО:га"
+    },
+    {
+      "id": "1411",
+      "name": "Co znajduje się w regał",
+      "title": "что находится в шкафу",
+      "subscrb": "ЦО знуйДЗУ:е сНЕ: в реГА:л"
+    },
+    {
+      "id": "1412",
+      "name": "to siedzi w krzesło",
+      "title": "это сидит на стуле",
+      "subscrb": "ТО СЬЕ:джи в КЖЕ:сло"
+    },
+    {
+      "id": "1413",
+      "name": "ojciec",
+      "title": "отец",
+      "subscrb": "ОЙ:цец"
+    },
+    {
+      "id": "1414",
+      "name": "pan",
+      "title": "пан",
+      "subscrb": "ПАН"
+    },
+    {
+      "id": "1415",
+      "name": "Bóg",
+      "title": "бог",
+      "subscrb": "БУ:г"
+    },
+    {
+      "id": "1416",
+      "name": "pies",
+      "title": "собака",
+      "subscrb": "ПЬЕ:с"
+    },
+    {
+      "id": "1417",
+      "name": "ksiądz",
+      "title": "монах",
+      "subscrb": "КЬОНдзь"
+    },
+    {
+      "id": "1418",
+      "name": "chłop",
+      "title": "мужик, крестьянин",
+      "subscrb": "ХЬО:п"
+    },
+    {
+      "id": "1419",
+      "name": "diabeł",
+      "title": "дьявол",
+      "subscrb": "ДЬЯ:бев"
+    },
+    {
+      "id": "1420",
+      "name": "kot",
+      "title": "кот",
+      "subscrb": "КО:т"
+    },
+    {
+      "id": "1421",
+      "name": "świat",
+      "title": "мир, вселенная",
+      "subscrb": "ШФЬЯ:т"
+    },
+    {
+      "id": "1422",
+      "name": "jutro padarują mojemu bratu nowej telewizor",
+      "title": "завтра я подарю моему брату новый телевизор",
+      "subscrb": "Ю:тро паДаРУ:ю моЙ:ему БРА:ту ноВЕ:й телевИ:зор"
+    },
+    {
+      "id": "1423",
+      "name": "ten deser nie je zaszkodzi twojemu dziecku",
+      "title": "этот десерт не повредит твоему ребёнку",
+      "subscrb": "ТЕН ДЕ:сер ньЕ: йЕ: заШКО:джи твоЙ:ему ДЗЬЕ:нцку"
+    },
+    {
+      "id": "1424",
+      "name": "kolega przedstawia Markowi sympatyczną dziewczynę",
+      "title": "приятель представляет Марку симпатичную девушку",
+      "subscrb": "КоЛЕ:га предстАВ:я МарКО:ви симпА:тычно дзьЕ:вчины"
+    },
+    {
+      "id": "1425",
+      "name": "zawsze pożyczam pieniądze temu panu",
+      "title": "Я всегда одалживаю деньги этому господину",
+      "subscrb": "ЗА:вже поЮ:чам пьеНЬо:нжде ТЕ:му ПА:ну"
+    },
+    {
+      "id": "1426",
+      "name": "ojciec zabranie swojemu synowi iść do kina",
+      "title": "отец запрещает своему сыну идти в кино",
+      "subscrb": "ОЙ:цец заБРА:не СВОЙ:ему СЫ:нови исьЧ ДО: КИ:на"
+    },
+    {
+      "id": "1427",
+      "name": "sen obiecuje ojcu być grzecznym",
+      "title": "сын обещает отцу быть послушным",
+      "subscrb": "СЫН обьеЦУ:е ОЙ:цу быть ГРЖЕ:чным"
+    },
+    {
+      "id": "1428",
+      "name": "Paweł pomaga naszej córce nieść zakupy na drugie piętro",
+      "title": "Павел помогает нашей тётке нести покупки на третий этаж",
+      "subscrb": "ПА:вев ПО:мага НА:шей ЦУР:це ньЕ:сьч заКУ:пы на ДРУ:гие ПЬЕ:нтро"
+    },
+    {
+      "id": "1429",
+      "name": "dają temu kotu trochę mleka",
+      "title": "Я даю этому коту немного молока",
+      "subscrb": "ДА:йон ТЕ:му КО:ту ТШЕ:нче МЛЕ:ка"
+    },
+    {
+      "id": "1430",
+      "name": "nie wierzę twojemu słowu",
+      "title": "я не верю твоему слову",
+      "subscrb": "ньЕ: ВЬЕ:же твоЙ:ему СЬЛО:ву"
+    },
+    {
+      "id": "1431",
+      "name": "myślę że podobam się temu przystojnemu mężczyźnie",
+      "title": "Я думаю что нравлюсь этому красивому мужчине",
+      "subscrb": "МЫ:шлэ ЖЭ ПО:добам СЬЭ ТЭ:му ПШЫ:стойнэму мЭ:шчЫНье"
+    },
+    {
+      "id": "1432",
+      "name": "wujek przyśle małemu siostrzeńcowi nowe filmy",
+      "title": "дядя пришлёт маленькому племяннику новые фильмы",
+      "subscrb": "ВУйэк ПШЫ:шлэ МА:вэму ШЬО:стржэньцо:ви НО:вэ ФИ:лмы"
+    },
+    {
+      "id": "1433",
+      "name": "Ta książka oczywiście spodoba się mojej siostrze",
+      "title": "эта книга конечно понравится моей сестре",
+      "subscrb": "ТА: КШОН:шка ОЧЫ:вИшчэнэ СПО:доба СЬЭ МО:йэй ШЬО:стржэ"
+    },
+    {
+      "id": "1434",
+      "name": "zawsze ufam staremu nauczycielowi",
+      "title": "Я всегда доверяю старому учителю",
+      "subscrb": "ЗА:вждэ У:фам СТА:рэму НА:уцЫчЭльО:ви"
+    },
+    {
+      "id": "1435",
+      "name": "czy podasz numer swojego domu naszemu koledze",
+      "title": "дашь ли ты номер своего дома нашему приятелю",
+      "subscrb": "ЧЫ ПО:даш НУ:мэр СВО:йэго ДО:му НА:шэму КО:лэджэ"
+    },
+    {
+      "id": "1436",
+      "name": "siostry Malinowskie",
+      "title": "сестры Малиновские",
+      "subscrb": "ШЬО:стры МА:линовськэ"
+    },
+    {
+      "id": "1437",
+      "name": "mały pies towarzyszy siostrom Malinowskim przy długich spacerach",
+      "title": "маленькая собачка сопровождает сестёр малиновских при долгих прогулках",
+      "subscrb": "МА:вы ПЬЭС ТО:варжыши ШЬО:стром МА:линовським ПШЫ: ДЛУ:гих СПА:цэрах"
+    },
+    {
+      "id": "1438",
+      "name": "chłopcy i dziewczynki",
+      "title": "мальчики и девочки",
+      "subscrb": "ХВО:пцы И ДЖЭ:вчиньки"
+    },
+    {
+      "id": "1439",
+      "name": "w tym sklepie zawsze sprzedawano chłodką i dziewczynką smaczne soki napoje i lody",
+      "title": "в этом магазине всегда продают мальчикам и девочкам вкусные соки напитки и мороженое",
+      "subscrb": "В ТЫМ СКЛЭ:пье ЗА:вждэ СПШЭ:даванО: ХВО:дко: И ДЖЭ:вчинько:м СМА:чнэ СО:ци НАПО:йэ И ЛО:ды"
+    },
+    {
+      "id": "1440",
+      "name": "nowy artykuły",
+      "title": "новые товары",
+      "subscrb": "НО:вы АРТЫ:кувы"
+    },
+    {
+      "id": "1441",
+      "name": "panie Kowalska przygląda się w sklepie nowym artykułom",
+      "title": "пани ковальская присматривается в магазине к новым товарам",
+      "subscrb": "ПА:ньэ КО:вальска ПШЫ:глада СЬЭ В СКЛЭ:пье НО:вым АРТЫ:кувом"
+    },
+    {
+      "id": "1442",
+      "name": "koleżanki",
+      "title": "приятельницы",
+      "subscrb": "КО:лэжанки"
+    },
+    {
+      "id": "1443",
+      "name": "nie trzeba ufać koleżankom",
+      "title": "не нужно доверять приятельницам",
+      "subscrb": "НЬЭ ТШЭ:ба У:фач КО:лэжанком"
+    },
+    {
+      "id": "1444",
+      "name": "nasze nauczycielki",
+      "title": "наши учительницы",
+      "subscrb": "НА:шэ НА:уцЫчЭльки"
+    },
+    {
+      "id": "1445",
+      "name": "przedstawię cię naszym nauczycielkom",
+      "title": "я представлю тебя нашим учительницам",
+      "subscrb": "ПЖЭ:дставйЭ ЧЬЭ НА:шым НА:уцЫчЭльком"
+    },
+    {
+      "id": "1446",
+      "name": "te psy i koty",
+      "title": "эти собаки и коты",
+      "subscrb": "ТЭ ПЬЫ И КО:ты"
+    },
+    {
+      "id": "1447",
+      "name": "czy dasz jedzenie tym psom i kotom",
+      "title": "дашь ли ты еду этим собакам и котам",
+      "subscrb": "ЧЫ ДА:ш ЕДЗЭ:ньэ ТЫМ ПЬОМ И КО:том"
+    },
+    {
+      "id": "1448",
+      "name": "sąsiad i sąsiadki",
+      "title": "сосед и соседки",
+      "subscrb": "СО:нсьяд И СО:нсьядки"
+    },
+    {
+      "id": "1449",
+      "name": "nie wierzę sąsiadowi i sąsiadkom",
+      "title": "я не верю соседу и соседкам",
+      "subscrb": "НЬЭ ВЬЭ:ржэ СО:нсьядО:ви И СО:нсьядком"
+    },
+    {
+      "id": "1450",
+      "name": "dziadkowie",
+      "title": "дедушки и бабушки",
+      "subscrb": "ДЖЯ:дковьэ"
+    },
+    {
+      "id": "1451",
+      "name": "trzeba podziękować dziadkom za nowy rower",
+      "title": "нужно поблагодарить дедушку и бабушку за новый велосипед",
+      "subscrb": "ТШЭ:ба ПО:джэньковач ДЖЯ:дком ЗА: НО:вы РО:вэр"
+    },
+    {
+      "id": "1452",
+      "name": "inne studentki",
+      "title": "другие студентки",
+      "subscrb": "ИН:нэ СТУ:дэнтки"
+    },
+    {
+      "id": "1453",
+      "name": "Magda zawsze dwoma ci innym studentką zadania domowe",
+      "title": "магда всегда объясняет другим студенткам домашнее задание",
+      "subscrb": "МА:гда ЗА:вждэ ДВО:ма ЧЬИ ИН:ным СТУ:дэнтко:м ЗАДА:ня ДО:мовэ"
+    },
+    {
+      "id": "1454",
+      "name": "ja",
+      "title": "я",
+      "subscrb": "Я"
+    },
+    {
+      "id": "1455",
+      "name": "mnie",
+      "title": "меня",
+      "subscrb": "МНЬЕ:"
+    },
+    {
+      "id": "1456",
+      "name": "mi",
+      "title": "мне",
+      "subscrb": "Ми:"
+    },
+    {
+      "id": "1457",
+      "name": "ty",
+      "title": "ты",
+      "subscrb": "ТЫ"
+    },
+    {
+      "id": "1458",
+      "name": "tobie",
+      "title": "тебе",
+      "subscrb": "ТО:бье:"
+    },
+    {
+      "id": "1459",
+      "name": "ci",
+      "title": "тебе",
+      "subscrb": "ЧИ:"
+    },
+    {
+      "id": "1460",
+      "name": "on",
+      "title": "он",
+      "subscrb": "ОН"
+    },
+    {
+      "id": "1461",
+      "name": "jemy",
+      "title": "мы едим",
+      "subscrb": "ЙЕ:мы"
+    },
+    {
+      "id": "1462",
+      "name": "my",
+      "title": "мы",
+      "subscrb": "МЫ"
+    },
+    {
+      "id": "1463",
+      "name": "niemu",
+      "title": "ему",
+      "subscrb": "НЬЕ:му"
+    },
+    {
+      "id": "1464",
+      "name": "ona",
+      "title": "она",
+      "subscrb": "О:на"
+    },
+    {
+      "id": "1465",
+      "name": "jey",
+      "title": "её",
+      "subscrb": "ЙЕ:й"
+    },
+    {
+      "id": "1466",
+      "name": "niej",
+      "title": "её",
+      "subscrb": "НЬЕ:й"
+    },
+    {
+      "id": "1467",
+      "name": "ono",
+      "title": "оно",
+      "subscrb": "О:но"
+    },
+    {
+      "id": "1468",
+      "name": "my",
+      "title": "мы",
+      "subscrb": "МЫ"
+    },
+    {
+      "id": "1469",
+      "name": "nam",
+      "title": "нам",
+      "subscrb": "НАМ"
+    },
+    {
+      "id": "1470",
+      "name": "wy",
+      "title": "вы",
+      "subscrb": "ВЫ"
+    },
+    {
+      "id": "1471",
+      "name": "wam",
+      "title": "вам",
+      "subscrb": "ВАМ"
+    },
+    {
+      "id": "1472",
+      "name": "oni",
+      "title": "они",
+      "subscrb": "О:ни"
+    },
+    {
+      "id": "1473",
+      "name": "him",
+      "title": "ему",
+      "subscrb": "ХИ:м"
+    },
+    {
+      "id": "1474",
+      "name": "one",
+      "title": "они",
+      "subscrb": "О:не"
+    },
+    {
+      "id": "1475",
+      "name": "kto",
+      "title": "кто",
+      "subscrb": "КТО"
+    },
+    {
+      "id": "1476",
+      "name": "komu",
+      "title": "кому",
+      "subscrb": "КО:му"
+    },
+    {
+      "id": "1477",
+      "name": "co",
+      "title": "что",
+      "subscrb": "ЦО"
+    },
+    {
+      "id": "1478",
+      "name": "czemu",
+      "title": "почему",
+      "subscrb": "ЧЕ:му"
+    },
+    {
+      "id": "1479",
+      "name": "dzięki niemu",
+      "title": "благодаря ему",
+      "subscrb": "ДЖЕ:нки: НЬЕ:му"
+    },
+    {
+      "id": "1480",
+      "name": "sąsiad rozmawia ze mną i opowiada mi o swoich problemach",
+      "title": "сосед разговаривает со мной и рассказывает мне о своих проблемах",
+      "subscrb": "СО:шонд рОзмаВя зэ МНО:̃ и опоВЯ:да ми о СВО:их ПРОблЭмах"
+    },
+    {
+      "id": "1481",
+      "name": "czy wujek wam pomaga?",
+      "title": "дядя вам помогает?",
+      "subscrb": "ЧЫ: вУйек вам поМо:га?"
+    },
+    {
+      "id": "1482",
+      "name": "tak daje nam pieniądze",
+      "title": "да он даёт нам деньги",
+      "subscrb": "так дА:е нам ПЬЕ:няндже"
+    },
+    {
+      "id": "1483",
+      "name": "nauczyciel obiecuje uczniom że wytłumaczy im zadanie domowe",
+      "title": "учитель обещает ученикам что объяснит им домашнее задание",
+      "subscrb": "наУ:чицель обьЕ:цюе УЧньом же вытВУ:мачь им заДА:не домО:ве"
+    },
+    {
+      "id": "1484",
+      "name": "pan Xruk ma zły humor bo pan Zierik chcę ukraść mu telewizor",
+      "title": "у пана Хрюка плохое настроение потому что фан Жирик хочет украсть у него телевизор",
+      "subscrb": "пан ХРУк ма ЗВЫ: хУ:мор бо пан ЗЬЕ:рик хЦЭ̃: укРА:щь му телеВИ:зор"
+    },
+    {
+      "id": "1485",
+      "name": "nie wierzę koleżance i nie mogę jej zaufać",
+      "title": "не верю приятельнице и не могу ей довериться",
+      "subscrb": "не ВЬЕ:жэ колЕ:жаньцэ и не МО:гэ йей заУФаць"
+    },
+    {
+      "id": "1486",
+      "name": "mój film jest bardzo szczęśliwi bo ci tam mu nową książkę",
+      "title": "Мой сын очень счастлив потому что я читаю ему новую книгу",
+      "subscrb": "МУ:й фильм ест БАРдзо ШЧЭ̃:ншльви бо чи там му НО:ву̃ КЬОНжкЭ̃"
+    },
+    {
+      "id": "1487",
+      "name": "Dziękuję rodzicom bo dzięki nim wszystko umiem",
+      "title": "Я благодарю родителей потому что благодаря им я всё умею",
+      "subscrb": "ДженькУ:йе родЗИ:цом бо ДжЕНьки ним ФШЫ:стко УМЬем"
+    },
+    {
+      "id": "1488",
+      "name": "Na służbie Marian Kowalski jest odważnym policjantem",
+      "title": "На службе Мариан Ковальский мужественный полицейский",
+      "subscrb": "НА слу:ЖБЬе MA:ri:ан Ko:VAL:ski jest od:ВАЖ:nym po:li:ЦЬЯнтem"
+    },
+    {
+      "id": "1489",
+      "name": "Ale w wolnym czasie jest bardzo nieśmiały",
+      "title": "Но в свободное время он очень застенчивый",
+      "subscrb": "А:ле в ВОЛ:ным ЧАС:е jest БАР:dzo nje:ŚM:я:лы"
+    },
+    {
+      "id": "1490",
+      "name": "Szczególnie jeśli chodzi o poznawanie dziewczyn",
+      "title": "Особенно если речь идёт о знакомстве с девушками",
+      "subscrb": "Щче:ГУльнье если ХО:дзи о по:зна:ВА:нье ДЖЕ:вчин"
+    },
+    {
+      "id": "1491",
+      "name": "przysiąść",
+      "title": "присесть",
+      "subscrb": "ПЖЫ:шёнщь"
+    },
+    {
+      "id": "1492",
+      "name": "zgodzić się",
+      "title": "согласиться",
+      "subscrb": "ЗГО:джичь сЬе"
+    },
+    {
+      "id": "1493",
+      "name": "najpierw",
+      "title": "сначала",
+      "subscrb": "найПЬЕРв"
+    },
+    {
+      "id": "1494",
+      "name": "komu się tak przyglądasz",
+      "title": "к кому ты так присматриваешься?",
+      "subscrb": "КО:му сЬе так ПШЫ:глондаш"
+    },
+    {
+      "id": "1495",
+      "name": "Tej sympatycznej dziewczynie",
+      "title": "к этой и симпатичные девушки",
+      "subscrb": "ТЭЙ симпА:тычней джЕвчИ:не"
+    },
+    {
+      "id": "1496",
+      "name": "tak jest bardzo sympatyczna",
+      "title": "да она очень симпатичная",
+      "subscrb": "так ест БАРдзо симпА:тычна"
+    },
+    {
+      "id": "1497",
+      "name": "znasz ją?",
+      "title": "ты знаешь её?",
+      "subscrb": "ЗНАш йОН?"
+    },
+    {
+      "id": "1498",
+      "name": "niestety nie znam",
+      "title": "к сожалению не знаю",
+      "subscrb": "ньЕ:стэты не ЗНАМ"
+    },
+    {
+      "id": "1499",
+      "name": "Ja też jej nie znam. Szkoda",
+      "title": "я её тоже не знаю. Жаль",
+      "subscrb": "Я ТЬЕ:ж йей не ЗНАМ. ШКО:да"
+    },
+    {
+      "id": "1500",
+      "name": "więc nie możesz mnie jej przedstawić",
+      "title": "значит ты не можешь представить ей меня",
+      "subscrb": "ВЬЕ:НЧ нье МО:жеш МНЬЕ ЕЙ ПЖЕДСТРА:ВИТЬ"
+    },
+    {
+      "id": "1501",
+      "name": "Lepiej zapytaj czy możesz się pzysiąść",
+      "title": "лучше спроси можешь ли ты присесть",
+      "subscrb": "ЛЕ:пьей заПЫ:тай чы МО:жеш шь ПШЫСЬОНЬЩЬ"
+    },
+    {
+      "id": "1502",
+      "name": "A jeśli ona się zgodzi?",
+      "title": "а если она согласится?",
+      "subscrb": "А Е:шли О:на шь ЗГо:джи?"
+    },
+    {
+      "id": "1503",
+      "name": "to bardzo dobrze",
+      "title": "это очень хорошо",
+      "subscrb": "то БА:рдзо ДО:брже"
+    },
+    {
+      "id": "1504",
+      "name": "wtedy zaproponujesz jej kino",
+      "title": "тогда ты предложишь ей кино",
+      "subscrb": "ВТЕ:ды запро:поно:жеш ЕЙ КИ:но"
+    },
+    {
+      "id": "1505",
+      "name": "A jeśli ona nie lubi kina?",
+      "title": "а если она не любит кино?",
+      "subscrb": "А Е:шли О:на нье ЛУ:би КИ:на?"
+    },
+    {
+      "id": "1506",
+      "name": "wstydzi zaproponujesz jej pójść do kawiarni",
+      "title": "тогда предложили пойти в кафе",
+      "subscrb": "ФШТЫ:джи запро:поно:жеш ЕЙ ПУЙ:щь до КА:вьярньи"
+    },
+    {
+      "id": "1507",
+      "name": "dobrze. Już idę",
+      "title": "хорошо. Я уже иду",
+      "subscrb": "ДО:брже. Ю:ш И:дэ"
+    },
+    {
+      "id": "1508",
+      "name": "Najpierw trzeba powiedzieć dzień dobry",
+      "title": "сначала нужно сказать добрый день",
+      "subscrb": "НАЙПЬЕ:рф ТШЕ:ба поВЕ:дить ДЗЕНЬ ДО:бры"
+    },
+    {
+      "id": "1509",
+      "name": "nie jestem dzieckiem",
+      "title": "я не ребёнок",
+      "subscrb": "нье Е:стем ДЖЕ:чкем"
+    },
+    {
+      "id": "1510",
+      "name": "Ale tak się denerwujesz że możesz o tym zapomnieć",
+      "title": "ну ты так нервничаешь что можешь об этом забыть",
+      "subscrb": "А:ле так шь ДЕНЭ:рвуйеш ЖЕ МО:жеш о ТЫ:м запо:мньечь"
+    },
+    {
+      "id": "1511",
+      "name": "wieś",
+      "title": "деревня",
+      "subscrb": "ВЬЕ:ньсь"
+    },
+    {
+      "id": "1512",
+      "name": "bazar",
+      "title": "базар",
+      "subscrb": "БА:зар"
+    },
+    {
+      "id": "1513",
+      "name": "szkoła",
+      "title": "школа",
+      "subscrb": "ШКО:уа"
+    },
+    {
+      "id": "1514",
+      "name": "teraz jesteśmy na obiedzie w restauracji zieloney Kot",
+      "title": "мы сейчас на обеде в ресторане Зелёный Кот",
+      "subscrb": "ТЕраз ЙЕСтэ:шмы на обьЕ:дже в рэстaураЦЫЙи зело:нэй КОт"
+    },
+    {
+      "id": "1515",
+      "name": "wzięłam mieszka w bloku na jedenastym piętrze",
+      "title": "Ева живёт в многоквартирном доме на двенадцатом этаже",
+      "subscrb": "ВЖЕНам мЬЕ:шка в блОку на еджэ:настым ПЬЕНтже"
+    },
+    {
+      "id": "1516",
+      "name": "mieszkasz w mieście czy na wsi?",
+      "title": "ты живёшь в городе или в деревне?",
+      "subscrb": "МЬЕ:шкаш в МЬЕ:шче ЧЫ на фЬСИ?"
+    },
+    {
+      "id": "1517",
+      "name": "dzisiaj Kasia jest na zajęciach w szkole",
+      "title": "сегодня Катя на занятиях в школе",
+      "subscrb": "ДЗЬИСьЯЙ КА:шя ЙЕ:ст на зАЙенцях в ШКОЛе"
+    },
+    {
+      "id": "1518",
+      "name": "spotykam tę sympatyczną dziewczynę w kawiarni i na basenie",
+      "title": "я встречаю эту симпатичную девушку в кафе и в бассейне",
+      "subscrb": "СПО:тыкaм тэн симпа:тЫчну дзЬЕ:вчину в кaВЯрни и на баСЭне"
+    },
+    {
+      "id": "1519",
+      "name": "mięso kupujemy w sklepie spożywczym a warzywa na bazardzie",
+      "title": "Мясо мы покупаем в продовольственном магазине а овощи на базаре",
+      "subscrb": "МЬЕНсо куПУ:йемы в СКЛЕ:пье спо:жЫвчым а ваРЫ:ва на баЗА:рджэ"
+    },
+    {
+      "id": "1520",
+      "name": "chcą siedzieć w fotelu a ni na krześle",
+      "title": "Я хочу сидеть в кресле а не на стуле",
+      "subscrb": "ХЧОНЬ СЬЕ:джець в ФО:тэлу а ньи на КРЬЕ:шле"
+    },
+    {
+      "id": "1521",
+      "name": "Brat śpi na kanapie A ja w łóżku",
+      "title": "брат спит на диване А я на кровати",
+      "subscrb": "БРАТ ШПЬИ на кaНА:пье а Я в ВУ:жку"
+    },
+    {
+      "id": "1522",
+      "name": "gdzie jesteś?",
+      "title": "где ты?",
+      "subscrb": "ГЬЕ:дже ЙЕ:стешь?"
+    },
+    {
+      "id": "1523",
+      "name": "jestem na spacerze w parku",
+      "title": "Я на прогулке в парке",
+      "subscrb": "ЙЕ:стем на СПА:цэрзе в ПАРку"
+    },
+    {
+      "id": "1524",
+      "name": "cukierki są w pudełku a pudełka leży na półce",
+      "title": "конфеты в коробке а коробка лежит на полке",
+      "subscrb": "ЦУ:керьки Сон в ПУ:дьелку а ПУ:дьелка ЛЕ:жы на ПУ:лке"
+    },
+    {
+      "id": "1525",
+      "name": "obok",
+      "title": "за",
+      "subscrb": "О:бок"
+    },
+    {
+      "id": "1526",
+      "name": "nad",
+      "title": "над",
+      "subscrb": "НА:д"
+    },
+    {
+      "id": "1527",
+      "name": "za",
+      "title": "за",
+      "subscrb": "ЗА:"
+    },
+    {
+      "id": "1528",
+      "name": "miedzy",
+      "title": "между",
+      "subscrb": "МЬЕНдзЫ"
+    },
+    {
+      "id": "1529",
+      "name": "przed",
+      "title": "перед",
+      "subscrb": "ПЖЭ:д"
+    },
+    {
+      "id": "1530",
+      "name": "pod",
+      "title": "под",
+      "subscrb": "ПОД"
+    },
+    {
+      "id": "1531",
+      "name": "ma",
+      "title": "на",
+      "subscrb": "МА"
+    },
+    {
+      "id": "1532",
+      "name": "w",
+      "title": "в",
+      "subscrb": "В"
+    },
+    {
+      "id": "1533",
+      "name": "przyjączka leży pod szafą",
+      "title": "приёмник лежит под шкафом",
+      "subscrb": "пшыЯ:ончка лЕжи под шАфом"
+    },
+    {
+      "id": "1534",
+      "name": "obraz wisi na ścianie",
+      "title": "картина висит на стене",
+      "subscrb": "обрАз ви:си на шчЯ:ние"
+    },
+    {
+      "id": "1535",
+      "name": "lampa wisi nad biurkiem",
+      "title": "лампа висит над столом",
+      "subscrb": "лАмпа ви:си над бЮркем"
+    },
+    {
+      "id": "1536",
+      "name": "Telewizor stoi na szafce",
+      "title": "телевизор стоит на шкафчике",
+      "subscrb": "телевИзор стОйи на шАфце"
+    },
+    {
+      "id": "1537",
+      "name": "kanapa stoi między oknem i dziawiami",
+      "title": "диван стоит между окном и вещами",
+      "subscrb": "канАпa стОйи мЕндзы окнЕм и джЯ:вями"
+    },
+    {
+      "id": "1538",
+      "name": "jeden fotel stoi przed stołem",
+      "title": "одно кресло стоит перед столом",
+      "subscrb": "Е:ден фОтель стОйи пшЕд стОwem"
+    },
+    {
+      "id": "1539",
+      "name": "drugi Fotel stoi za stołem",
+      "title": "другое кресло стоит за столом",
+      "subscrb": "дрУги фОтель стОйи за стОwem"
+    },
+    {
+      "id": "1540",
+      "name": "szafa stoi obok okna",
+      "title": "шкаф стоит рядом с окном",
+      "subscrb": "шАфа стОйи Обок окнА"
+    },
+    {
+      "id": "1541",
+      "name": "wazon z kwiatami stoi na oknie",
+      "title": "ваза с цветами стоит на окне",
+      "subscrb": "вА:зон з кфьЯ:тами стОйи на окнЕ"
+    },
+    {
+      "id": "1542",
+      "name": "dywan leży na podłodze",
+      "title": "ковёр лежит на полу",
+      "subscrb": "дЫ:ван лЕжи на подвО:дже"
+    },
+    {
+      "id": "1543",
+      "name": "krzesło stoi obok balkonu",
+      "title": "стул стоит рядом с балконом",
+      "subscrb": "кшЕсло стОйи Обок бАлкону"
+    },
+    {
+      "id": "1544",
+      "name": "okulary",
+      "title": "очки",
+      "subscrb": "окулА:ры"
+    },
+    {
+      "id": "1545",
+      "name": "gdzieś",
+      "title": "где-то",
+      "subscrb": "гджЕшь"
+    },
+    {
+      "id": "1546",
+      "name": "szukać",
+      "title": "искать",
+      "subscrb": "шУ:каць"
+    },
+    {
+      "id": "1547",
+      "name": "sprawdzić",
+      "title": "проверить",
+      "subscrb": "спрА:вджичь"
+    },
+    {
+      "id": "1548",
+      "name": "na pewno",
+      "title": "наверняка",
+      "subscrb": "на пЕ:вно"
+    },
+    {
+      "id": "1549",
+      "name": "znaleźć",
+      "title": "найти",
+      "subscrb": "зналЕ:зьць"
+    },
+    {
+      "id": "1550",
+      "name": "chwila",
+      "title": "минута",
+      "subscrb": "хвИ:ла"
+    },
+    {
+      "id": "1551",
+      "name": "Gdzie są moje okulary?",
+      "title": "Где мои очки?",
+      "subscrb": "гджЕ: сьо мОйе окулА:ры?"
+    },
+    {
+      "id": "1552",
+      "name": "na szafce w przedpokoju",
+      "title": "на тумбочке в прихожей",
+      "subscrb": "на шАфце в пшЕдпО:койу"
+    },
+    {
+      "id": "1553",
+      "name": "widzę tę szafkę",
+      "title": "я вижу эту тумбочку",
+      "subscrb": "вИдже тЭ: шАфке"
+    },
+    {
+      "id": "1554",
+      "name": "ich tam nie ma",
+      "title": "их там нет",
+      "subscrb": "их тАм не мА"
+    },
+    {
+      "id": "1555",
+      "name": "może na półce w dużym pokoju",
+      "title": "может на полке в большой комнате?",
+      "subscrb": "МО:же на пУ:лце ф дУ:шым пО:кою"
+    },
+    {
+      "id": "1556",
+      "name": "zobaczę. Nie ma",
+      "title": "посмотрю. Их нет",
+      "subscrb": "зО:бачэ. нЬЕ: ма"
+    },
+    {
+      "id": "1557",
+      "name": "wiem",
+      "title": "Я знаю",
+      "subscrb": "ВЬЕМ"
+    },
+    {
+      "id": "1558",
+      "name": "na pewno leżą w kuchni na stole",
+      "title": "наверняка лежат в кухне на столе",
+      "subscrb": "на пЬЕ:вно лЕ:жон в кУ:хни на стО:ле"
+    },
+    {
+      "id": "1559",
+      "name": "też nie ma",
+      "title": "тоже нет",
+      "subscrb": "ТЕ:ж нЬЕ: ма"
+    },
+    {
+      "id": "1560",
+      "name": "A może są w twojej torebce",
+      "title": "а может они в твоей сумочке?",
+      "subscrb": "А МО:же сО:н ф твО:ей тО:ребце"
+    },
+    {
+      "id": "1561",
+      "name": "mogę sprawdzić",
+      "title": "могу проверить",
+      "subscrb": "МО:гe спрА:вджичь"
+    },
+    {
+      "id": "1562",
+      "name": "okularów nie ma a nie w torebce a nie pod torebką a nie obok torebki",
+      "title": "очков нет не в сумочке не под сумочкой ни возле сумочки",
+      "subscrb": "окулА:руф нЬЕ: ма а нЬЕ: ф тО:ребце а нЬЕ: под тО:ребко:н а нЬЕ: обО:к тО:ребки"
+    },
+    {
+      "id": "1563",
+      "name": "na pewno piję gdzieś masz",
+      "title": "наверняка они где-то у тебя",
+      "subscrb": "на пЬЕ:вно ПЬЕ:йе гЖЕ:ш маш"
+    },
+    {
+      "id": "1564",
+      "name": "ale gdzie?",
+      "title": "Но где?",
+      "subscrb": "А:ле гЖЕ:гье?"
+    },
+    {
+      "id": "1565",
+      "name": "trzeba je znaleźć",
+      "title": "нужно их найти",
+      "subscrb": "ТШЧЕ:ба е знаЙ:дчичь"
+    },
+    {
+      "id": "1566",
+      "name": "chcę oglądać nowy program w telewizji",
+      "title": "Я хочу посмотреть новую программу по телевизору",
+      "subscrb": "ХЬЕН: о:глО:датч нО:вы прО:грам ф тЕ:левизьи"
+    },
+    {
+      "id": "1567",
+      "name": "szukać wszystkiego w ostatniej chwili",
+      "title": "ты ищешь всё в последний момент",
+      "subscrb": "ШУ:кач фшЫ:сткьего ф остА:тней хвИ:ли"
+    },
+    {
+      "id": "1568",
+      "name": "A co ty masz w kieszeni?",
+      "title": "а что у тебя в кармане?",
+      "subscrb": "А цО: ты маш ф кЬЕ:шени?"
+    },
+    {
+      "id": "1569",
+      "name": "to moje okulary",
+      "title": "это мои очки",
+      "subscrb": "то мО:е окулА:ры"
+    },
+    {
+      "id": "1570",
+      "name": "dziękuję idę oglądać program",
+      "title": "спасибо иду смотреть программу",
+      "subscrb": "дЬЕН:куйе И:дe о:глО:датч прО:грам"
+    },
+    {
+      "id": "1571",
+      "name": "ojciec pożycza pieniądze cioci",
+      "title": "отец одалживает деньги тёте",
+      "subscrb": "Ой:ЦЕЦ по:ЖЫча пЬЕНьон:джэ ЧЬО:Ци"
+    },
+    {
+      "id": "1572",
+      "name": "ciocia pożycza pieniądze od ojca",
+      "title": "тётя одалживает деньги отца",
+      "subscrb": "ЧЬО:Циа по:ЖЫча пЬЕНьон:джэ од ОЙ:Ца"
+    },
+    {
+      "id": "1573",
+      "name": "teściowa pozycja pieniądze zięciowi",
+      "title": "тёща одалживает деньги зятю",
+      "subscrb": "ТЭ:ЩЧОВа по:ЖЫЦя пЬЕНьон:джэ ЗЬЕН:Цьо:ви"
+    },
+    {
+      "id": "1574",
+      "name": "zięć pożycza pieniądze od teściowej",
+      "title": "зять одалживает деньги тёщи",
+      "subscrb": "ЗЬЕН:ЦЬ по:ЖЫча пЬЕНьон:джэ од ТЭ:ЩЧОВЭй"
+    },
+    {
+      "id": "1575",
+      "name": "sąsiad pożycza pieniądze ojcu",
+      "title": "сосед одалживает деньги отцу",
+      "subscrb": "СОН:Сьяд по:ЖЫча пЬЕНьон:джэ ОЙ:Цу"
+    },
+    {
+      "id": "1576",
+      "name": "ojciec pożycza pieniądze od sąsiada",
+      "title": "отец одалживает деньги соседу",
+      "subscrb": "Ой:ЦЕЦ по:ЖЫча пЬЕНьон:джэ од СОН:СьЯ:да"
+    },
+    {
+      "id": "1577",
+      "name": "brat pożycza pieniądze siostrze",
+      "title": "брат одалживает деньги сестре",
+      "subscrb": "БРАТ по:ЖЫча пЬЕНьон:джэ ШЬО:Сьтже"
+    },
+    {
+      "id": "1578",
+      "name": "siostra pożycza pieniądze od brata",
+      "title": "сестра одалживает деньги брату",
+      "subscrb": "ШЬО:СЬтра по:ЖЫча пЬЕНьон:джэ од БРАТА"
+    },
+    {
+      "id": "1579",
+      "name": "koleżanko pożycza pieniądze koledze",
+      "title": "подруга одалживает деньги другу",
+      "subscrb": "Ко:ЛЕЖАН:ко по:ЖЫча пЬЕНьон:джэ ко:ЛЕЖэ"
+    },
+    {
+      "id": "1580",
+      "name": "kolega pożycza pieniądze od koleżanki",
+      "title": "друг одалживает деньги подруге",
+      "subscrb": "Ко:ЛЕГа по:ЖЫча пЬЕНьон:джэ од ко:ЛЕЖАН:ки"
+    },
+    {
+      "id": "1581",
+      "name": "ten cukierek jest bardzo smaczny",
+      "title": "эта конфета очень вкусная",
+      "subscrb": "ТЭН ЦУ:КЬЕРэк ЕСТ БАР:дзо СМАЧ:ный"
+    },
+    {
+      "id": "1582",
+      "name": "ten cukierek podoba się Kasi Kowalskiej",
+      "title": "эта конфета нравится Каше Ковальской",
+      "subscrb": "ТЭН ЦУ:КЬЕРэк по:ДО:ба сье КА:ши Ко:ВАЛ:ськей"
+    },
+    {
+      "id": "1583",
+      "name": "ta książka jest interesującą",
+      "title": "эта книга интересная",
+      "subscrb": "ТА КЬОН:ЖКА ЕСТ интэрэс:Ю:ЩОН:тЬон"
+    },
+    {
+      "id": "1584",
+      "name": "ta przyjączka podoba mi się",
+      "title": "эта задачка/маленькое дело мне нравится",
+      "subscrb": "ТА ПШЫ:ЙОН:ЧКА по:ДО:ба ми сье"
+    },
+    {
+      "id": "1585",
+      "name": "Nasz sąsiad jest bardzo przystojny",
+      "title": "наш сосед очень красивый",
+      "subscrb": "НАШ СОН:СьЯ:д ЕСТ БАР:дзо ПШЫ:СТОЙ:ный"
+    },
+    {
+      "id": "1586",
+      "name": "nasz sąsiad podoba się mojej siostrze",
+      "title": "наш сосед нравится моей сестре",
+      "subscrb": "НАШ СОН:СьЯ:д по:ДО:ба сье МО:ей ШЬО:СЬтже"
+    },
+    {
+      "id": "1587",
+      "name": "Masz bardzo ładne mieszkanie",
+      "title": "у тебя очень красивая квартира",
+      "subscrb": "МАШ БАР:дзо УАД:нэ МЬЕШ:КАН:ье"
+    },
+    {
+      "id": "1588",
+      "name": "moje mieszkanie podoba cię pani Danucie",
+      "title": "моя квартира нравится госпоже Дануте",
+      "subscrb": "МО:йэ МЬЕШ:КАН:ье по:ДО:ба ЧЬЕ ПА:ни Да:ну:цье"
+    },
+    {
+      "id": "1589",
+      "name": "lekcja nie jest interesująca",
+      "title": "урок неинтересный",
+      "subscrb": "ЛЭК:Ця НЬЕ ЕСТ интэрэс:Ю:ЩОН:ца"
+    },
+    {
+      "id": "1590",
+      "name": "lekcja nie podoba się im",
+      "title": "урок им не нравится",
+      "subscrb": "ЛЭК:Ця НЬЕ по:ДО:ба сье им"
+    },
+    {
+      "id": "1591",
+      "name": "Ta zupa jest okropna",
+      "title": "этот суп отвратительный",
+      "subscrb": "ТА ЗУ:па ЕСТ ОК:РО:пна"
+    },
+    {
+      "id": "1592",
+      "name": "ta zupa nie podoba scen naszemu synowi",
+      "title": "этот суп не нравится нашему сыну",
+      "subscrb": "ТА ЗУ:па НЬЕ по:ДО:ба сьен НАШ:Эму СЫ:но:ви"
+    },
+    {
+      "id": "1593",
+      "name": "masz dobra żonę",
+      "title": "у тебя хорошая жена",
+      "subscrb": "МАШ ДО:бра ЖО:нэ"
+    },
+    {
+      "id": "1594",
+      "name": "moja żona podoba się mojemu bratu",
+      "title": "моя жена нравится моему брату",
+      "subscrb": "МО:йа ЖО:на по:ДО:ба сье МО:йэму БРА:ту"
+    },
+    {
+      "id": "1595",
+      "name": "ten film nie jest dobry",
+      "title": "этот фильм не хороший",
+      "subscrb": "ТЭН ФИЛ:м НЬЕ ЕСТ ДО:бры"
+    },
+    {
+      "id": "1596",
+      "name": "ten film nie podoba się twojemu dziadkowi",
+      "title": "этот фильм не нравится твоему дедушке",
+      "subscrb": "ТЭН ФИЛ:м НЬЕ по:ДО:ба сье ТФО:йэму ДЖЯ:дко:ви"
     }
   ]
 }

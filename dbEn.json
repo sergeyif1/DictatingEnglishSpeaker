@@ -8098,6 +8098,2646 @@
       "title": "стараться",
       "subscrb": "трАй хАрд",
       "language": "En"
+    },
+    {
+      "id": "1157",
+      "name": "apartment",
+      "title": "квартира",
+      "subscrb": "апАртмэнт"
+    },
+    {
+      "id": "1158",
+      "name": "furniture",
+      "title": "мебель",
+      "subscrb": "фЁрничэр"
+    },
+    {
+      "id": "1159",
+      "name": "desk",
+      "title": "письменный стол",
+      "subscrb": "дЭск"
+    },
+    {
+      "id": "1160",
+      "name": "armchair",
+      "title": "кресло",
+      "subscrb": "АРмчэр"
+    },
+    {
+      "id": "1161",
+      "name": "couch",
+      "title": "диван",
+      "subscrb": "кауч"
+    },
+    {
+      "id": "1162",
+      "name": "cupboard",
+      "title": "буфет",
+      "subscrb": "кАбэрд"
+    },
+    {
+      "id": "1163",
+      "name": "stool",
+      "title": "стульчик",
+      "subscrb": "стУул"
+    },
+    {
+      "id": "1164",
+      "name": "chair",
+      "title": "стул",
+      "subscrb": "чЭэр"
+    },
+    {
+      "id": "1165",
+      "name": "stove",
+      "title": "плита",
+      "subscrb": "стоув"
+    },
+    {
+      "id": "1166",
+      "name": "fridge / refrigerator",
+      "title": "холодильник",
+      "subscrb": "фрИдж / ри-фрИджрэйтэр"
+    },
+    {
+      "id": "1167",
+      "name": "crib",
+      "title": "кроватка",
+      "subscrb": "крЫб"
+    },
+    {
+      "id": "1168",
+      "name": "bed",
+      "title": "кровать",
+      "subscrb": "бЭд"
+    },
+    {
+      "id": "1169",
+      "name": "mirror",
+      "title": "зеркало",
+      "subscrb": "мИрэр"
+    },
+    {
+      "id": "1170",
+      "name": "bookshelf",
+      "title": "книжная полка",
+      "subscrb": "бУукшэлф"
+    },
+    {
+      "id": "1171",
+      "name": "washing machine",
+      "title": "стиральная машина",
+      "subscrb": "уОшин мэшИин"
+    },
+    {
+      "id": "1172",
+      "name": "shower",
+      "title": "душ",
+      "subscrb": "шАуэр"
+    },
+    {
+      "id": "1173",
+      "name": "china cabinet",
+      "title": "сервант",
+      "subscrb": "чАйна кЭбнэт"
+    },
+    {
+      "id": "1174",
+      "name": "toilet",
+      "title": "унитаз",
+      "subscrb": "тОйлэт"
+    },
+    {
+      "id": "1175",
+      "name": "table",
+      "title": "стол",
+      "subscrb": "тЭйбл"
+    },
+    {
+      "id": "1176",
+      "name": "coffee table",
+      "title": "столик",
+      "subscrb": "кОфи тЭйбл"
+    },
+    {
+      "id": "1177",
+      "name": "closet",
+      "title": "шкаф",
+      "subscrb": "клАзэт"
+    },
+    {
+      "id": "1178",
+      "name": "nightstand",
+      "title": "тумбочка",
+      "subscrb": "нАйтстЭэнд"
+    },
+    {
+      "id": "1179",
+      "name": "TV",
+      "title": "телевизор",
+      "subscrb": "ти-виИ"
+    },
+    {
+      "id": "1180",
+      "name": "sink",
+      "title": "умывальник",
+      "subscrb": "сИнгк"
+    },
+    {
+      "id": "1181",
+      "name": "bathtub",
+      "title": "ванна",
+      "subscrb": "бЭттаб"
+    },
+    {
+      "id": "1182",
+      "name": "hanger",
+      "title": "вешалка",
+      "subscrb": "хЭнгэр"
+    },
+    {
+      "id": "1183",
+      "name": "(kitchen) sink",
+      "title": "мойка",
+      "subscrb": "(кИтчн) сИнгк"
+    },
+    {
+      "id": "1184",
+      "name": "hallway",
+      "title": "прихожая",
+      "subscrb": "хОл-уэй"
+    },
+    {
+      "id": "1185",
+      "name": "kitchen",
+      "title": "кухня",
+      "subscrb": "кИтчн"
+    },
+    {
+      "id": "1186",
+      "name": "living room",
+      "title": "гостинная",
+      "subscrb": "лИвин рум"
+    },
+    {
+      "id": "1187",
+      "name": "bedroom",
+      "title": "спальня",
+      "subscrb": "бЕдрм"
+    },
+    {
+      "id": "1188",
+      "name": "bathroom",
+      "title": "ванная комната",
+      "subscrb": "бЭтрм"
+    },
+    {
+      "id": "1189",
+      "name": "restroom / toilet",
+      "title": "туалет",
+      "subscrb": "рЭстрм / тОйлэт"
+    },
+    {
+      "id": "1190",
+      "name": "nursery / kids’ room",
+      "title": "детская",
+      "subscrb": "нЁрсри / кидз рУум"
+    },
+    {
+      "id": "1191",
+      "name": "study / home office",
+      "title": "кабинет",
+      "subscrb": "стАди / хоум Офис"
+    },
+    {
+      "id": "1192",
+      "name": "example",
+      "title": "пример / о примере",
+      "subscrb": "игЗЭэмпл"
+    },
+    {
+      "id": "1193",
+      "name": "brother",
+      "title": "брат / о брате",
+      "subscrb": "БРАДэр"
+    },
+    {
+      "id": "1194",
+      "name": "Frenchman",
+      "title": "француз / о французе",
+      "subscrb": "ФРЭнчмэн"
+    },
+    {
+      "id": "1195",
+      "name": "meat",
+      "title": "мясо / о мясе",
+      "subscrb": "миИт"
+    },
+    {
+      "id": "1196",
+      "name": "candy",
+      "title": "конфета / о конфете",
+      "subscrb": "КЭэнди"
+    },
+    {
+      "id": "1197",
+      "name": "butter",
+      "title": "масло / о масле",
+      "subscrb": "БААдэр"
+    },
+    {
+      "id": "1198",
+      "name": "city",
+      "title": "город / о городе",
+      "subscrb": "СИри"
+    },
+    {
+      "id": "1199",
+      "name": "chocolate",
+      "title": "шоколад / о шоколаде",
+      "subscrb": "ЧААклит"
+    },
+    {
+      "id": "1200",
+      "name": "mail",
+      "title": "почта / о почте",
+      "subscrb": "мЭэл"
+    },
+    {
+      "id": "1201",
+      "name": "skin",
+      "title": "кожа / по коже",
+      "subscrb": "скИин"
+    },
+    {
+      "id": "1202",
+      "name": "sausage",
+      "title": "колбаса / о колбасе",
+      "subscrb": "СААосидж"
+    },
+    {
+      "id": "1203",
+      "name": "game",
+      "title": "игра / о игре",
+      "subscrb": "гЭйм"
+    },
+    {
+      "id": "1204",
+      "name": "power",
+      "title": "сила / о силе",
+      "subscrb": "ПАУэр"
+    },
+    {
+      "id": "1205",
+      "name": "Vistula",
+      "title": "Висла / о Висле",
+      "subscrb": "ВИИстюла"
+    },
+    {
+      "id": "1206",
+      "name": "cabbage",
+      "title": "капуста / о капусте",
+      "subscrb": "КЭАабидж"
+    },
+    {
+      "id": "1207",
+      "name": "colleague",
+      "title": "коллега / о коллеге",
+      "subscrb": "КААалииг"
+    },
+    {
+      "id": "1208",
+      "name": "lamp",
+      "title": "лампа",
+      "subscrb": "лЭэмп"
+    },
+    {
+      "id": "1209",
+      "name": "corner",
+      "title": "угол",
+      "subscrb": "КООрнэр"
+    },
+    {
+      "id": "1210",
+      "name": "window",
+      "title": "окно",
+      "subscrb": "УИИндоУ"
+    },
+    {
+      "id": "1211",
+      "name": "curtain",
+      "title": "занавеска",
+      "subscrb": "КЁртн"
+    },
+    {
+      "id": "1212",
+      "name": "floor lamp",
+      "title": "торшер",
+      "subscrb": "флоОорлЭэмп"
+    },
+    {
+      "id": "1213",
+      "name": "drape",
+      "title": "штора",
+      "subscrb": "дрЭйп"
+    },
+    {
+      "id": "1214",
+      "name": "windowsill",
+      "title": "подоконник",
+      "subscrb": "УиИндоусил"
+    },
+    {
+      "id": "1215",
+      "name": "flowerpot",
+      "title": "цветочный горшок",
+      "subscrb": "ФЛАУэрпАат"
+    },
+    {
+      "id": "1216",
+      "name": "ceiling",
+      "title": "потолок",
+      "subscrb": "СИИлин"
+    },
+    {
+      "id": "1217",
+      "name": "chandelier",
+      "title": "люстра",
+      "subscrb": "шЭнделИир"
+    },
+    {
+      "id": "1218",
+      "name": "wall",
+      "title": "стена",
+      "subscrb": "уОлл"
+    },
+    {
+      "id": "1219",
+      "name": "clock",
+      "title": "часы",
+      "subscrb": "клААк"
+    },
+    {
+      "id": "1220",
+      "name": "floor",
+      "title": "пол",
+      "subscrb": "флОор"
+    },
+    {
+      "id": "1221",
+      "name": "carpet",
+      "title": "ковёр",
+      "subscrb": "КААрпэт"
+    },
+    {
+      "id": "1222",
+      "name": "Where is the lamp?",
+      "title": "Где находится лампа?",
+      "subscrb": "УЭР ис зэ LЭМП?"
+    },
+    {
+      "id": "1223",
+      "name": "The lamp is on the desk.",
+      "title": "Лампа стоит на столе.",
+      "subscrb": "Зэ LЭМП из он зэ ДЭСК."
+    },
+    {
+      "id": "1224",
+      "name": "Where is the standing lamp?",
+      "title": "Где стоит стоящая лампа?",
+      "subscrb": "УЭР ис зэ STЭНДИН лЭМП?"
+    },
+    {
+      "id": "1225",
+      "name": "The standing lamp is in the corner.",
+      "title": "Стоящая лампа стоит в углу.",
+      "subscrb": "Зэ STЭНДИН лЭМП из ин зэ КО:рнэр."
+    },
+    {
+      "id": "1226",
+      "name": "Where are the curtains?",
+      "title": "Где находятся шторы и занавески?",
+      "subscrb": "УЭР ар зэ KЁртнз?"
+    },
+    {
+      "id": "1227",
+      "name": "The curtains are hanging on the window.",
+      "title": "Шторы висят на окне.",
+      "subscrb": "Зэ KЁртнз ар ХЭНгин он зэ ВИНдоу."
+    },
+    {
+      "id": "1228",
+      "name": "Where are the flower pots?",
+      "title": "Где находятся горшки с цветами?",
+      "subscrb": "УЭР ар зэ ФЛАУэр ПОТС?"
+    },
+    {
+      "id": "1229",
+      "name": "The flower pots are on the windowsill.",
+      "title": "Горшки с цветами стоят на подоконнике.",
+      "subscrb": "Зэ ФЛАУэр ПОТС ар он зэ ВИНдоусилл."
+    },
+    {
+      "id": "1230",
+      "name": "Where is the chandelier?",
+      "title": "Где находится люстра?",
+      "subscrb": "УЭР ис зэ ШЭндилИэр?"
+    },
+    {
+      "id": "1231",
+      "name": "The chandelier is on the ceiling.",
+      "title": "Люстра висит на потолке.",
+      "subscrb": "Зэ ШЭндилИэр из он зэ СИЛин."
+    },
+    {
+      "id": "1232",
+      "name": "Where is the clock?",
+      "title": "Где находится часы?",
+      "subscrb": "УЭР ис зэ КЛОК?"
+    },
+    {
+      "id": "1233",
+      "name": "The clock is on the wall.",
+      "title": "Часы висят на стене.",
+      "subscrb": "Зэ КЛОК из он зэ УОЛ."
+    },
+    {
+      "id": "1234",
+      "name": "Where is the rug?",
+      "title": "Где находится ковёр?",
+      "subscrb": "УЭР ис зэ РАГ?"
+    },
+    {
+      "id": "1235",
+      "name": "The rug is on the floor.",
+      "title": "Ковёр лежит на полу.",
+      "subscrb": "Зэ РАГ из он зэ ФЛОР."
+    },
+    {
+      "id": "1236",
+      "name": "to the left",
+      "title": "слева, налево",
+      "subscrb": "ту зэ ЛЭфт"
+    },
+    {
+      "id": "1237",
+      "name": "to the right",
+      "title": "справа, направо",
+      "subscrb": "ту зэ РАЙт"
+    },
+    {
+      "id": "1238",
+      "name": "near",
+      "title": "при, возле",
+      "subscrb": "нИр"
+    },
+    {
+      "id": "1239",
+      "name": "tape recorder",
+      "title": "магнитофон",
+      "subscrb": "тЭйп рикОрдэр"
+    },
+    {
+      "id": "1240",
+      "name": "across from",
+      "title": "напротив",
+      "subscrb": "экрОСС фрАм"
+    },
+    {
+      "id": "1241",
+      "name": "my room is big and bright",
+      "title": "моя комната большая и светлая",
+      "subscrb": "май рУм из биг энд БРАЙт"
+    },
+    {
+      "id": "1242",
+      "name": "it has two big windows",
+      "title": "в ней находятся два больших окна",
+      "subscrb": "ит хЭз ту биг уИндоуз"
+    },
+    {
+      "id": "1243",
+      "name": "there are pots with flowers on the windowsill",
+      "title": "на подоконнике стоят горшки с цветами",
+      "subscrb": "зЭр ар пАтс уиз флАурз он зэ уИндоусил"
+    },
+    {
+      "id": "1244",
+      "name": "my bed is to the left of the window",
+      "title": "слева от окна стоит моя кровать",
+      "subscrb": "май бЭд из ту зэ ЛЭфт ов зэ уИндоу"
+    },
+    {
+      "id": "1245",
+      "name": "there is a nightstand next to the bed",
+      "title": "возле кровати есть тумбочка",
+      "subscrb": "зЭр из э НАЙтстЭнд нэкст ту зэ бЭд"
+    },
+    {
+      "id": "1246",
+      "name": "the tape recorder is on it",
+      "title": "на ней стоит магнитофон",
+      "subscrb": "зэ тЭйп рикОрдэр из он ит"
+    },
+    {
+      "id": "1247",
+      "name": "my desk is by another window",
+      "title": "возле ещё одного окна стоит мой письменный стол",
+      "subscrb": "май дЭск из бай энАзэр уИндоу"
+    },
+    {
+      "id": "1248",
+      "name": "there is a small lamp on the desk",
+      "title": "на столе стоит небольшая лампа",
+      "subscrb": "зЭр из э смОлл лЭмп он зэ дЭск"
+    },
+    {
+      "id": "1249",
+      "name": "across from the desk is a closet, with bookshelves on the right",
+      "title": "напротив стола находится шкаф, справа книжные полки",
+      "subscrb": "экрОСС фрАм зэ дЭск из э клОзэт, уиз бУксшелвз он зэ РАЙт"
+    },
+    {
+      "id": "1250",
+      "name": "a big blue carpet is on the floor",
+      "title": "на полу лежит большой голубой ковёр",
+      "subscrb": "э биг блу кАрпэт из он зэ флОр"
+    },
+    {
+      "id": "1251",
+      "name": "my paintings are on the wall",
+      "title": "на стене висят мои картины",
+      "subscrb": "май пЭйнтинз ар он зэ уОл"
+    },
+    {
+      "id": "1252",
+      "name": "I really love listening to music in my room",
+      "title": "Я очень люблю слушать музыку в своей комнате",
+      "subscrb": "ай рИли лав лИснинг ту мЮзик ин май рУм"
+    },
+    {
+      "id": "1253",
+      "name": "building",
+      "title": "здание",
+      "subscrb": "БИлдин"
+    },
+    {
+      "id": "1254",
+      "name": "house",
+      "title": "дом",
+      "subscrb": "ХАус"
+    },
+    {
+      "id": "1255",
+      "name": "stone house",
+      "title": "каменный дом",
+      "subscrb": "СТОун ХАус"
+    },
+    {
+      "id": "1256",
+      "name": "apartment building",
+      "title": "многоквартирный дом",
+      "subscrb": "эПАртмэнт БИлдин"
+    },
+    {
+      "id": "1257",
+      "name": "log cabin",
+      "title": "изба",
+      "subscrb": "ЛОг КЭбин"
+    },
+    {
+      "id": "1258",
+      "name": "mansion",
+      "title": "особняк",
+      "subscrb": "МЭншн"
+    },
+    {
+      "id": "1259",
+      "name": "first floor",
+      "title": "первый этаж",
+      "subscrb": "ФЁрст ФлOр"
+    },
+    {
+      "id": "1260",
+      "name": "floor",
+      "title": "этаж",
+      "subscrb": "ФлOр"
+    },
+    {
+      "id": "1261",
+      "name": "roof",
+      "title": "крыша",
+      "subscrb": "РУф"
+    },
+    {
+      "id": "1262",
+      "name": "livable attic",
+      "title": "жилой чердак",
+      "subscrb": "ЛИвэбл ЭТтик"
+    },
+    {
+      "id": "1263",
+      "name": "attic",
+      "title": "чердак",
+      "subscrb": "ЭТтик"
+    },
+    {
+      "id": "1264",
+      "name": "top floor",
+      "title": "последний этаж",
+      "subscrb": "ТАп ФлOр"
+    },
+    {
+      "id": "1265",
+      "name": "third floor",
+      "title": "третий этаж",
+      "subscrb": "ФЁрд ФлOр"
+    },
+    {
+      "id": "1266",
+      "name": "second floor",
+      "title": "второй этаж",
+      "subscrb": "СЭкэнд ФлOр"
+    },
+    {
+      "id": "1267",
+      "name": "first floor",
+      "title": "первый этаж",
+      "subscrb": "ФЁрст ФлOр"
+    },
+    {
+      "id": "1268",
+      "name": "basement",
+      "title": "подвал",
+      "subscrb": "БЭйсмэнт"
+    },
+    {
+      "id": "1269",
+      "name": "rent",
+      "title": "снимать",
+      "subscrb": "РЭнт"
+    },
+    {
+      "id": "1270",
+      "name": "want",
+      "title": "хотеть",
+      "subscrb": "ВАНт"
+    },
+    {
+      "id": "1271",
+      "name": "you want",
+      "title": "хочешь",
+      "subscrb": "ю ВАНт"
+    },
+    {
+      "id": "1272",
+      "name": "he/she wants",
+      "title": "хочет",
+      "subscrb": "хи/ши ВАНт"
+    },
+    {
+      "id": "1273",
+      "name": "garage",
+      "title": "гараж",
+      "subscrb": "гэрАж"
+    },
+    {
+      "id": "1274",
+      "name": "own",
+      "title": "собственный",
+      "subscrb": "оУн"
+    },
+    {
+      "id": "1275",
+      "name": "such",
+      "title": "такой",
+      "subscrb": "САч"
+    },
+    {
+      "id": "1276",
+      "name": "number",
+      "title": "номер",
+      "subscrb": "нАмбэр"
+    },
+    {
+      "id": "1277",
+      "name": "Where do you live now?",
+      "title": "Где ты сейчас живёшь",
+      "subscrb": "ВЭЭr ду юу ЛИВ наУ"
+    },
+    {
+      "id": "1278",
+      "name": "I live in an old stone house on the fourth floor",
+      "title": "Я живу в старом каменном доме на четвёртом этаже",
+      "subscrb": "Ай ЛИВ ин эн ОУлд стоун ХАУС он зэ ФОORTH флОр"
+    },
+    {
+      "id": "1279",
+      "name": "This house is number five on Beautiful Street",
+      "title": "Этот дом номер пять по улице красивой",
+      "subscrb": "Зис ХАУС ис НАмбэр ФАЙв он БЬЮтэфул СтРИит"
+    },
+    {
+      "id": "1280",
+      "name": "Do you live alone?",
+      "title": "Ты живёшь одна",
+      "subscrb": "Ду юу ЛИВ эЛОУн?"
+    },
+    {
+      "id": "1281",
+      "name": "No, I live with my friend",
+      "title": "Нет, я живу с подругой",
+      "subscrb": "Ноу, Ай ЛИВ виз май ФРЭНД"
+    },
+    {
+      "id": "1282",
+      "name": "We rent an apartment",
+      "title": "Мы снимаем квартиру",
+      "subscrb": "Уи РЭНт эн эПАртмэнт"
+    },
+    {
+      "id": "1283",
+      "name": "And where do you live?",
+      "title": "А ты где живёшь?",
+      "subscrb": "Энд ВЭЭr ду юу ЛИВ?"
+    },
+    {
+      "id": "1284",
+      "name": "I still live with my parents",
+      "title": "Я ещё живу с родителями",
+      "subscrb": "Ай СТИЛЛ ЛИВ виз май ПЭЭрэнтс"
+    },
+    {
+      "id": "1285",
+      "name": "Do you live in the city?",
+      "title": "Вы живёте в городе?",
+      "subscrb": "Ду юу ЛИВ ин зэ СИЭтИ?"
+    },
+    {
+      "id": "1286",
+      "name": "We live in a small private house outside the city",
+      "title": "Мы живём в небольшом собственном доме за городом",
+      "subscrb": "Уи ЛИВ ин э СМОЛ ПРАЙвит ХАУС аутСАЙД зэ СИЭтИ"
+    },
+    {
+      "id": "1287",
+      "name": "How many rooms do you have?",
+      "title": "Сколько у вас комнат?",
+      "subscrb": "ХАУ МЭНи РУУмз ду юу ХЭЭв?"
+    },
+    {
+      "id": "1288",
+      "name": "The hallway and living room are on the first floor",
+      "title": "Прихожая и гостиная на первом этаже",
+      "subscrb": "Зэ ХОУлвэй энд ЛИВин РУУм а р он зэ ФЁрст флОр"
+    },
+    {
+      "id": "1289",
+      "name": "Next to them are the kitchen and the bathroom",
+      "title": "Рядом кухня и туалет",
+      "subscrb": "НЭКст ту зэм ар зэ КИчэн энд зэ БЭЭθруум"
+    },
+    {
+      "id": "1290",
+      "name": "On the second floor there are two bedrooms and dad’s office",
+      "title": "На втором этаже две спальни и кабинет отца",
+      "subscrb": "Он зэ СЭКнд флОр зэр ар ТУУ БЭДруумз энд ДЭДз ОФис"
+    },
+    {
+      "id": "1291",
+      "name": "There’s also a small room and a bathroom in the attic",
+      "title": "На чердаке есть ещё маленькая комната и ванная",
+      "subscrb": "Зэрз ОЛсоу э СМОЛ РУУм энд э БЭЭθруум ин зэ ЭТик"
+    },
+    {
+      "id": "1292",
+      "name": "There’s a garage under the house",
+      "title": "Под домом есть гараж",
+      "subscrb": "Зэрз э ГЭРэдж АНдэр зэ ХАУС"
+    },
+    {
+      "id": "1293",
+      "name": "Dad’s car is in the garage",
+      "title": "В гараже стоит автомобиль отца",
+      "subscrb": "ДЭДз КАР ис ин зэ ГЭРэдж"
+    },
+    {
+      "id": "1294",
+      "name": "And you say it’s a small house?",
+      "title": "И ты говоришь что это маленький дом?",
+      "subscrb": "Энд юу СЭЭй итс э СМОЛ ХАУС?"
+    },
+    {
+      "id": "1295",
+      "name": "I also want to live in such a small house",
+      "title": "Я тоже хочу жить в таком маленьком доме",
+      "subscrb": "Ай ОЛсоу ВОНт ту ЛИВ ин сач э СМОЛ ХАУС"
+    },
+    {
+      "id": "1296",
+      "name": "No problem, Magda",
+      "title": "Магда нет проблем",
+      "subscrb": "Ноу ПРОБлэм, МЭГда"
+    },
+    {
+      "id": "1297",
+      "name": "But it’s better for us to rent an apartment in a big apartment building",
+      "title": "Но лучше для нас снимать квартиру в большом многоквартирном доме",
+      "subscrb": "БАТ итс БЭТэр фор ас ту РЭНт эн э БИГ эПАртмэнт БИЛдинг"
+    },
+    {
+      "id": "1298",
+      "name": "together",
+      "title": "вместе",
+      "subscrb": "тэгЭ’зэр"
+    },
+    {
+      "id": "1299",
+      "name": "advertisement",
+      "title": "реклама",
+      "subscrb": "эдвэртАйзмэнт"
+    },
+    {
+      "id": "1300",
+      "name": "balcony",
+      "title": "балкон",
+      "subscrb": "бЭлкни"
+    },
+    {
+      "id": "1301",
+      "name": "later",
+      "title": "позже",
+      "subscrb": "лЭйтэр"
+    },
+    {
+      "id": "1302",
+      "name": "door",
+      "title": "дверь",
+      "subscrb": "доо’р"
+    },
+    {
+      "id": "1303",
+      "name": "I already know where Tomek lives",
+      "title": "Я уже знаю где живёт Томэк",
+      "subscrb": "ай олрЭ’ди ноу вэ’р ТОумэк лИвз"
+    },
+    {
+      "id": "1304",
+      "name": "he says he lives in a small house in the suburbs",
+      "title": "он говорит что живёт в маленьком доме за городом",
+      "subscrb": "хи сЭз хи лИвз ин э смОл хАус ин зэ сАбьрбз"
+    },
+    {
+      "id": "1305",
+      "name": "but I think it’s a big house, even a small mansion",
+      "title": "но я думаю что это большой дом даже маленький особняк",
+      "subscrb": "бат ай сИнк итс э бИг хАус, и’вн э смОл мЭншн"
+    },
+    {
+      "id": "1306",
+      "name": "he has three floors",
+      "title": "у него три этажа",
+      "subscrb": "хи хЭз сри флОорз"
+    },
+    {
+      "id": "1307",
+      "name": "there is a car in the garage",
+      "title": "в гараже стоит автомобиль",
+      "subscrb": "зэр из э кАр ин зэ гэрАж"
+    },
+    {
+      "id": "1308",
+      "name": "the living room has beautiful furniture and a big TV",
+      "title": "в гостиной красивая мебель и большой телевизор",
+      "subscrb": "зэ лИвинг рум хЭз бЬютэфул фЁрничэр энд э бИг ТиВИ"
+    },
+    {
+      "id": "1309",
+      "name": "in the kitchen, the big fridge has food and drinks",
+      "title": "на кухне в большом холодильнике продукты и напитки",
+      "subscrb": "ин зэ кИчн зэ бИг фрИдж хЭз фУд энд дринкс"
+    },
+    {
+      "id": "1310",
+      "name": "in the bathroom, there’s a new washing machine like in the commercial",
+      "title": "в ванной комнате стоит новая стиральная машина как в рекламе",
+      "subscrb": "ин зэ бЭйθрум зэрз э нЬю уОшинг мэшИн лАйк ин зэ кэммЭршэл"
+    },
+    {
+      "id": "1311",
+      "name": "Utomika has her own room with a door to the balcony",
+      "title": "Утомика своя комната с дверью на балкон",
+      "subscrb": "ЮтомИкэ хЭз хёр оун рум уИз э дОр ту зэ бЭлкни"
+    },
+    {
+      "id": "1312",
+      "name": "this girl likes this guy",
+      "title": "этой девочке нравится этот парень",
+      "subscrb": "зис гЁрл лайкс зис гАй"
+    },
+    {
+      "id": "1313",
+      "name": "they study together",
+      "title": "они вместе учатся",
+      "subscrb": "зэй стАди тэгЭ’зэр"
+    },
+    {
+      "id": "1314",
+      "name": "they can go to the movies and cafe together",
+      "title": "могут вместе ходить в кино и кафе",
+      "subscrb": "зэй кэн гОу ту зэ мУвиз энд кЭфэй тэгЭ’зэр"
+    },
+    {
+      "id": "1315",
+      "name": "they could even live together in the city",
+      "title": "они могут даже жить вместе в городе",
+      "subscrb": "зэй куд и’вн лИв тэгЭ’зэр ин зэ сИти"
+    },
+    {
+      "id": "1316",
+      "name": "but later",
+      "title": "но познее",
+      "subscrb": "бат лЭйтэр"
+    },
+    {
+      "id": "1317",
+      "name": "on balconies and in pots, there are beautiful flowers",
+      "title": "на балконах и горшках стоят красивые цветы",
+      "subscrb": "он бЭлкониз энд ин пОтс зэр а’р бЬютэфул флАуэрз"
+    },
+    {
+      "id": "1318",
+      "name": "There are clocks hangin’ on the walls in stores",
+      "title": "в магазинах на стенах висят часы",
+      "subscrb": "зЭр а клокс хЭн(н)ин он зэ уОлз ин сто:рз"
+    },
+    {
+      "id": "1319",
+      "name": "There are old things lyin’ in the basements",
+      "title": "в подвалах лежат старые вещи",
+      "subscrb": "зЭр а оулд сИн(н)з лАйин ин зэ бЭйсмэнц"
+    },
+    {
+      "id": "1320",
+      "name": "There are closets, beds, and desks up in the attics",
+      "title": "на чердаках находится шкафы кровати и письменные столы",
+      "subscrb": "зЭр а клАзэтс бЭдз энд дЭскс Ап ин ди Эрикс"
+    },
+    {
+      "id": "1321",
+      "name": "We’ve got fridges, stoves, and sinks in our kitchens",
+      "title": "на наших кухнях есть холодильники плиты и мойки",
+      "subscrb": "уи(в) гат фриджиз стоувз энд синкс ин аур кИтчэнз"
+    },
+    {
+      "id": "1322",
+      "name": "Ball pens are in the drawers, and notebooks are on the desks",
+      "title": "шариковые ручки находятся в тумбочках а тетради находятся на письменных столах",
+      "subscrb": "бо:л пэнз ар ин зэ дрО(р)з энд ноутбукс ар он зэ дЭскс"
+    },
+    {
+      "id": "1323",
+      "name": "There’s hot water in the bathrooms and showers",
+      "title": "в ванной и душах есть горячая вода",
+      "subscrb": "зэрз хат уОтэр ин зэ бЭθрумз энд шАуэрз"
+    },
+    {
+      "id": "1324",
+      "name": "In the apartments, closets are near the walls",
+      "title": "в квартирах шкафы находятся около стен",
+      "subscrb": "ин ди эпАртмэнтс клАзэтс ар нИр зэ уОлз"
+    },
+    {
+      "id": "1325",
+      "name": "Purses and newspapers lie on chairs and armchairs",
+      "title": "сумочки и газеты лежат на стулья и креслах",
+      "subscrb": "пЁрсэз энд ньюзпЭйпэрз лАй он чЭэрз энд АрмчЭэрз"
+    },
+    {
+      "id": "1326",
+      "name": "constantly",
+      "title": "постоянно",
+      "subscrb": "кАнстэнтли"
+    },
+    {
+      "id": "1327",
+      "name": "pity",
+      "title": "жаль",
+      "subscrb": "пИри (или пИри/пИри с редукцией “пи-ри”)"
+    },
+    {
+      "id": "1328",
+      "name": "happy",
+      "title": "счастливой",
+      "subscrb": "хЭпи"
+    },
+    {
+      "id": "1329",
+      "name": "to say",
+      "title": "сказать",
+      "subscrb": "т’сЭй"
+    },
+    {
+      "id": "1330",
+      "name": "to gossip",
+      "title": "сплетничать",
+      "subscrb": "т’гАсэп"
+    },
+    {
+      "id": "1331",
+      "name": "of course",
+      "title": "конечно",
+      "subscrb": "эв кОрс (или “а кОрс”)"
+    },
+    {
+      "id": "1332",
+      "name": "hooray, I’m already a student!",
+      "title": "ура, я уже студент",
+      "subscrb": "х’урЭй ам олрЭди э ст’юднт"
+    },
+    {
+      "id": "1333",
+      "name": "There are a lotta girls in the classes",
+      "title": "на занятиях много девушек",
+      "subscrb": "зЭр а лАра гёрлз ин зэ клАсэз"
+    },
+    {
+      "id": "1334",
+      "name": "I keep thinkin’ ‘bout them all the time",
+      "title": "я всё время думаю о них",
+      "subscrb": "ай кИп θИн(н)кэн баут дэм ол зэ тАйм"
+    },
+    {
+      "id": "1335",
+      "name": "Magda’s a really pretty girl",
+      "title": "Магда очень симпатичная девушка",
+      "subscrb": "мЭгдэ зэ рИли прИри гёрл"
+    },
+    {
+      "id": "1336",
+      "name": "‘Course, now I’m thinkin’ only ‘bout her",
+      "title": "конечно сейчас я думаю только о ней",
+      "subscrb": "кОрс нАу айм θИн(н)кэн оунли баут х’ёр"
+    },
+    {
+      "id": "1337",
+      "name": "Magda likes Adam",
+      "title": "Магде нравится Адам",
+      "subscrb": "мЭгдэ лайкс Эдэм"
+    },
+    {
+      "id": "1338",
+      "name": "She often talks ‘bout him with her friends",
+      "title": "она часто разговаривает с подругами о нём",
+      "subscrb": "ши Офн тОкс баут х’им уид х’эр фрЭндз"
+    },
+    {
+      "id": "1339",
+      "name": "pity",
+      "title": "жаль",
+      "subscrb": "пИри"
+    },
+    {
+      "id": "1340",
+      "name": "Tomorrow Magda’s comin’ over",
+      "title": "завтра Магда придёт ко мне",
+      "subscrb": "тумОроу мЭгдэз кАмэн оувэр"
+    },
+    {
+      "id": "1341",
+      "name": "What’s she gonna say ’bout us and our place",
+      "title": "что она скажет о нас и нашем доме",
+      "subscrb": "уотш ши гАннэ сЭй бАут ас нэн Ауэр плЭйс"
+    },
+    {
+      "id": "1342",
+      "name": "Magda’s sittin’ next to me in class today",
+      "title": "Магда сегодня сидит возле меня на занятиях",
+      "subscrb": "мЭгдэз сИрэн нЭкс тэ ми ин клЭс тудЭй"
+    },
+    {
+      "id": "1343",
+      "name": "Don’t know whatcha thinkin’ ’bout",
+      "title": "не знаю о чём она думает",
+      "subscrb": "доун ноу уотчэ сИнкэн бАут"
+    },
+    {
+      "id": "1344",
+      "name": "Pavel says Magda talks to her friends only ’bout you",
+      "title": "Павел говорит Магда разговаривает с подругами только о тебе",
+      "subscrb": "пАвэл сэз мЭгдэ токс т’хэр фрЭнз оунли бАут ю"
+    },
+    {
+      "id": "1345",
+      "name": "And the girls are gossipin’ ’bout y’all",
+      "title": "а девушки сплетничают о вас",
+      "subscrb": "эн д’ гёрлзэр гАсэпэн бАут йол"
+    },
+    {
+      "id": "1346",
+      "name": "I’m happy",
+      "title": "Я счастлив",
+      "subscrb": "ам хЭпи"
+    },
+    {
+      "id": "1347",
+      "name": "I’m thinkin’ ’bout you",
+      "title": "Я думаю о тебе",
+      "subscrb": "ам сИнкэн бАут ю"
+    },
+    {
+      "id": "1348",
+      "name": "’Bout me",
+      "title": "обо мне",
+      "subscrb": "бАут ми"
+    },
+    {
+      "id": "1349",
+      "name": "Yeah, ’bout us, I’m thinkin’",
+      "title": "да о нас Я думаю",
+      "subscrb": "йЭ бАут ас, ам сИнкэн"
+    },
+    {
+      "id": "1350",
+      "name": "And ’bout her — you thinkin’?",
+      "title": "а о ней ты думаешь",
+      "subscrb": "эн бАут хёр — ю сИнкэн?"
+    },
+    {
+      "id": "1351",
+      "name": "’Bout who?",
+      "title": "о ком?",
+      "subscrb": "бАут хуу"
+    },
+    {
+      "id": "1352",
+      "name": "You know who",
+      "title": "ты знаешь о ком",
+      "subscrb": "ю ноу хуу"
+    },
+    {
+      "id": "1353",
+      "name": "’Course not",
+      "title": "конечно нет",
+      "subscrb": "кОрс нат"
+    },
+    {
+      "id": "1354",
+      "name": "And you, ’bout him?",
+      "title": "а ты о нём",
+      "subscrb": "эн ю, бАут хИм?"
+    },
+    {
+      "id": "1355",
+      "name": "Nah, I ain’t thinkin’ ’bout him",
+      "title": "нет я не думаю о нём",
+      "subscrb": "на, аЭйнт сИнкэн бАут хИм"
+    },
+    {
+      "id": "1356",
+      "name": "That’s good",
+      "title": "это хорошо",
+      "subscrb": "дЭтс гуд"
+    },
+    {
+      "id": "1357",
+      "name": "Don’t needa think ’bout them",
+      "title": "не нужно думать о них",
+      "subscrb": "доун нИд’ сИнк бАут дэм"
+    },
+    {
+      "id": "1358",
+      "name": "That’s history now",
+      "title": "это уже история",
+      "subscrb": "дЭтс хИстри нау"
+    },
+    {
+      "id": "1359",
+      "name": "example about the example",
+      "title": "пример о примере",
+      "subscrb": "игЗЭ:мпл эБАут зи игЗЭ:мпл"
+    },
+    {
+      "id": "1360",
+      "name": "brother about the brother",
+      "title": "брат о брате",
+      "subscrb": "БРА:дэр эБАут зэ БРА:дэр"
+    },
+    {
+      "id": "1361",
+      "name": "Frenchman about the Frenchman",
+      "title": "француз о французе",
+      "subscrb": "ФРЭ:нчмэн эБАут зэ ФРЭ:нчмэн"
+    },
+    {
+      "id": "1362",
+      "name": "meat about the meat",
+      "title": "мясо о мясе",
+      "subscrb": "ми:т эБАут зэ ми:т"
+    },
+    {
+      "id": "1363",
+      "name": "sugar about the sugar",
+      "title": "сахар о сахаре",
+      "subscrb": "ШУ:гэр эБАут зэ ШУ:гэр"
+    },
+    {
+      "id": "1364",
+      "name": "articles about the article",
+      "title": "артикулы об артикуле",
+      "subscrb": "А:ртикэлз эБАут зи А:ртикэл"
+    },
+    {
+      "id": "1365",
+      "name": "butter about the butter",
+      "title": "масло о масле",
+      "subscrb": "БА:дэр эБАут зэ БА:дэр"
+    },
+    {
+      "id": "1366",
+      "name": "city about the city",
+      "title": "город о городе",
+      "subscrb": "СИри эБАут зэ СИри"
+    },
+    {
+      "id": "1367",
+      "name": "chocolate about the chocolate",
+      "title": "шоколад о шоколаде",
+      "subscrb": "ЧА:клет эБАут зэ ЧА:клет"
+    },
+    {
+      "id": "1368",
+      "name": "post office about the post office",
+      "title": "почта о почте",
+      "subscrb": "ПО:усто:фис эБАут зэ ПО:усто:фис"
+    },
+    {
+      "id": "1369",
+      "name": "goat about the goat",
+      "title": "коза о козе",
+      "subscrb": "ГОут эБАут зэ ГОут"
+    },
+    {
+      "id": "1370",
+      "name": "game about the game",
+      "title": "игра о игре",
+      "subscrb": "ГЭЙм эБАут зэ ГЭЙм"
+    },
+    {
+      "id": "1371",
+      "name": "strength about the strength",
+      "title": "сила о силе",
+      "subscrb": "стрЭН:кθ эБАут зэ стрЭН:кθ"
+    },
+    {
+      "id": "1372",
+      "name": "cabbage about the cabbage",
+      "title": "капуста о капусте",
+      "subscrb": "КЭ:бидж эБАут зэ КЭ:бидж"
+    },
+    {
+      "id": "1373",
+      "name": "friend about the friend",
+      "title": "коллега о коллеге",
+      "subscrb": "ФРЭНд эБАут зэ ФРЭНд"
+    },
+    {
+      "id": "1374",
+      "name": "sandwich about the sandwich",
+      "title": "бутерброд о бутерброде",
+      "subscrb": "СЭНдвич эБАут зэ СЭНдвич"
+    },
+    {
+      "id": "1375",
+      "name": "fly about the fly",
+      "title": "муха о мухе",
+      "subscrb": "ФЛА:й эБАут зэ ФЛА:й"
+    },
+    {
+      "id": "1376",
+      "name": "I about me",
+      "title": "я о мне",
+      "subscrb": "АЙ эБАут ми:"
+    },
+    {
+      "id": "1377",
+      "name": "you about you",
+      "title": "ты о тебе",
+      "subscrb": "ю: эБАут ю:"
+    },
+    {
+      "id": "1378",
+      "name": "he about him",
+      "title": "он о нём",
+      "subscrb": "хи: эБАут хИм"
+    },
+    {
+      "id": "1379",
+      "name": "she about her",
+      "title": "она о ней",
+      "subscrb": "ши: эБАут хор"
+    },
+    {
+      "id": "1380",
+      "name": "it",
+      "title": "оно",
+      "subscrb": "ит"
+    },
+    {
+      "id": "1381",
+      "name": "we about us",
+      "title": "мы о нас",
+      "subscrb": "уИ эБАут А:с"
+    },
+    {
+      "id": "1382",
+      "name": "you (plural) about you",
+      "title": "вы о вас",
+      "subscrb": "ю: эБАут ю:"
+    },
+    {
+      "id": "1383",
+      "name": "they about them",
+      "title": "они о них",
+      "subscrb": "ЗЭЙ эБАут зэм"
+    },
+    {
+      "id": "1384",
+      "name": "they (feminine)",
+      "title": "они (жен.)",
+      "subscrb": "ЗЭЙ"
+    },
+    {
+      "id": "1385",
+      "name": "who about whom",
+      "title": "кто о ком",
+      "subscrb": "ху: эБАут хум"
+    },
+    {
+      "id": "1386",
+      "name": "what about what",
+      "title": "что о чём",
+      "subscrb": "уот эБАут уот"
+    },
+    {
+      "id": "1387",
+      "name": "to give",
+      "title": "дарить, подарить",
+      "subscrb": "ту ГИв"
+    },
+    {
+      "id": "1388",
+      "name": "to thank",
+      "title": "благодарить, поблагодарить",
+      "subscrb": "т(э) СЭнк"
+    },
+    {
+      "id": "1389",
+      "name": "to steal",
+      "title": "красть, украсть",
+      "subscrb": "т(э) СТи:л"
+    },
+    {
+      "id": "1390",
+      "name": "to give back",
+      "title": "отдавать, отдать",
+      "subscrb": "ту гив БЭк"
+    },
+    {
+      "id": "1391",
+      "name": "to tell",
+      "title": "рассказывать, рассказать",
+      "subscrb": "т(э) ТЭл"
+    },
+    {
+      "id": "1392",
+      "name": "to like",
+      "title": "нравиться, понравиться",
+      "subscrb": "т(э) ЛА:йк"
+    },
+    {
+      "id": "1393",
+      "name": "to help",
+      "title": "помогать, помочь",
+      "subscrb": "т(э) ХЭлп"
+    },
+    {
+      "id": "1394",
+      "name": "to lend",
+      "title": "одалживать, одолжить",
+      "subscrb": "т(э) ЛЭнд"
+    },
+    {
+      "id": "1395",
+      "name": "to offer",
+      "title": "предлагать, предложить",
+      "subscrb": "т(э) О:фэр"
+    },
+    {
+      "id": "1396",
+      "name": "to introduce",
+      "title": "представлять, представить",
+      "subscrb": "т(э) интродЬЮ:с"
+    },
+    {
+      "id": "1397",
+      "name": "to bother",
+      "title": "мешать, помешать",
+      "subscrb": "т(э) БА:дэр"
+    },
+    {
+      "id": "1398",
+      "name": "to look at",
+      "title": "приглядываться, присмотреться",
+      "subscrb": "т(э) ЛУкэт"
+    },
+    {
+      "id": "1399",
+      "name": "to send",
+      "title": "присылать, прислать",
+      "subscrb": "т(э) СЭнд"
+    },
+    {
+      "id": "1400",
+      "name": "to sell",
+      "title": "продавать, продать",
+      "subscrb": "т(э) СЭл"
+    },
+    {
+      "id": "1401",
+      "name": "to hurt",
+      "title": "вредить, повредить",
+      "subscrb": "т(э) ХЁрт"
+    },
+    {
+      "id": "1402",
+      "name": "to explain / to translate",
+      "title": "объяснять — объяснить, переводить — перевести",
+      "subscrb": "т(э) икСПЛЭйн / т(э) трэ:нсЛЭйт"
+    },
+    {
+      "id": "1403",
+      "name": "to accompany",
+      "title": "сопровождать",
+      "subscrb": "т(э) эКАмпэни"
+    },
+    {
+      "id": "1404",
+      "name": "to trust",
+      "title": "доверять, довериться",
+      "subscrb": "т(э) ТРАст"
+    },
+    {
+      "id": "1405",
+      "name": "to believe",
+      "title": "верить, поверить",
+      "subscrb": "т(э) бэЛИ:в"
+    },
+    {
+      "id": "1406",
+      "name": "to forbid",
+      "title": "запрещать, запретить",
+      "subscrb": "т(э) фэрБИд"
+    },
+    {
+      "id": "1407",
+      "name": "to promise",
+      "title": "обещать, пообещать",
+      "subscrb": "т(э) ПРА:мэс"
+    },
+    {
+      "id": "1408",
+      "name": "what’s in the fridge?",
+      "title": "что лежит в холодильниках?",
+      "subscrb": "уАтс ин зэ фридж"
+    },
+    {
+      "id": "1409",
+      "name": "what’s hangin’ on the ceiling?",
+      "title": "что висит на потолке?",
+      "subscrb": "уАтс хЭнгин он зэ сИлин"
+    },
+    {
+      "id": "1410",
+      "name": "what’s standin’ on the floor?",
+      "title": "что стоит на полу?",
+      "subscrb": "уАтс стЭндин он зэ флор"
+    },
+    {
+      "id": "1411",
+      "name": "what’s on the shelf?",
+      "title": "что находится на полке?",
+      "subscrb": "уАтс он зэ шЭлф"
+    },
+    {
+      "id": "1412",
+      "name": "what’s sittin’ on the chair?",
+      "title": "что сидит на стуле?",
+      "subscrb": "уАтс сИтн он зэ чЭр"
+    },
+    {
+      "id": "1413",
+      "name": "father",
+      "title": "отец",
+      "subscrb": "фА:дэр"
+    },
+    {
+      "id": "1414",
+      "name": "mister",
+      "title": "господин / пан",
+      "subscrb": "мИстэр"
+    },
+    {
+      "id": "1415",
+      "name": "God",
+      "title": "Бог",
+      "subscrb": "гад"
+    },
+    {
+      "id": "1416",
+      "name": "dog",
+      "title": "пёс",
+      "subscrb": "дог"
+    },
+    {
+      "id": "1417",
+      "name": "priest",
+      "title": "священник / ксёндз",
+      "subscrb": "прИст"
+    },
+    {
+      "id": "1418",
+      "name": "guy",
+      "title": "парень / хлоп",
+      "subscrb": "гАй"
+    },
+    {
+      "id": "1419",
+      "name": "devil",
+      "title": "дьявол",
+      "subscrb": "дЭвэл"
+    },
+    {
+      "id": "1420",
+      "name": "cat",
+      "title": "кот",
+      "subscrb": "кЭт"
+    },
+    {
+      "id": "1421",
+      "name": "world",
+      "title": "мир",
+      "subscrb": "уО:рлд"
+    },
+    {
+      "id": "1422",
+      "name": "tomorrow they’ll give my brother a new TV",
+      "title": "завтра подарят моему брату новый телевизор",
+      "subscrb": "тумАроу зэл гив май брАдэр э нью тивИ"
+    },
+    {
+      "id": "1423",
+      "name": "this dessert won’t hurt your kid",
+      "title": "этот десерт не повредит твоему ребёнку",
+      "subscrb": "зис дизЭрт воунт хёрт ёр кИд"
+    },
+    {
+      "id": "1424",
+      "name": "a friend introduces Mark to a nice girl",
+      "title": "друг представляет Марку симпатичную девушку",
+      "subscrb": "э фрэнд интрэдьюсэз мА:рк ту э нАйс гёрл"
+    },
+    {
+      "id": "1425",
+      "name": "I always lend money to that man",
+      "title": "я всегда одалживаю деньги этому господину",
+      "subscrb": "ай О:лвэйз лэнд мАни ту зэт мЭн"
+    },
+    {
+      "id": "1426",
+      "name": "father doesn’t let his son go to the movies",
+      "title": "отец не разрешает сыну идти в кино",
+      "subscrb": "фА:дэр дазнт лет хиз сан гоу ту зэ мУвиз"
+    },
+    {
+      "id": "1427",
+      "name": "the son promises his father to be good",
+      "title": "сын обещает отцу быть послушным",
+      "subscrb": "зэ сан прАмэсэз хиз фА:дэр ту би гуд"
+    },
+    {
+      "id": "1428",
+      "name": "Paul helps our daughter carry groceries to the second floor",
+      "title": "Павел помогает нашей дочери нести покупки на второй этаж",
+      "subscrb": "пО:л хэлпс аур дОтэр кЭри грОусриз ту зэ сЭкнд флор"
+    },
+    {
+      "id": "1429",
+      "name": "they give that cat some milk",
+      "title": "они дают этому коту немного молока",
+      "subscrb": "зэй гив зэт кЭт сам милк"
+    },
+    {
+      "id": "1430",
+      "name": "I don’t believe your word",
+      "title": "я не верю твоему слову",
+      "subscrb": "ай доунт билИ:в ёр уёрд"
+    },
+    {
+      "id": "1431",
+      "name": "I think that handsome guy likes me",
+      "title": "я думаю, что я нравлюсь тому симпатичному мужчине",
+      "subscrb": "ай θИНк дэ хЭнсэм гай лАйкс ми"
+    },
+    {
+      "id": "1432",
+      "name": "My uncle will send my little nephew some new movies",
+      "title": "дядя пришлёт моему маленькому племяннику новые фильмы",
+      "subscrb": "май АНкэл уил сЭн(д) май лИрэл нЭфью сам нью мУвиз"
+    },
+    {
+      "id": "1433",
+      "name": "This book will definitely please my sister",
+      "title": "эта книга, конечно, понравится моей сестре",
+      "subscrb": "ðис бук уэл дЭфнэли плиз май сИстэр"
+    },
+    {
+      "id": "1434",
+      "name": "I always trust my old teacher",
+      "title": "я всегда доверяю своему старому учителю",
+      "subscrb": "ай Олвэйз чрАст май оулд тИчэр"
+    },
+    {
+      "id": "1435",
+      "name": "Can you give our friend your house number?",
+      "title": "дашь номер своего дома нашему другу?",
+      "subscrb": "кэн йю гив аур фрЭнд ёр хАус нАмбэр"
+    },
+    {
+      "id": "1436",
+      "name": "The Malinowski sisters",
+      "title": "сёстры Малиновские",
+      "subscrb": "зэ мЭлэновски сИстэрз"
+    },
+    {
+      "id": "1437",
+      "name": "A little dog accompanies the Malinowski sisters on long walks",
+      "title": "маленькая собака сопровождает сестёр Малиновских на долгих прогулках",
+      "subscrb": "э лИрэл дог экАмпаниз зэ мЭлэновски сИстэрз он лонг уОкс"
+    },
+    {
+      "id": "1438",
+      "name": "Boys and girls",
+      "title": "мальчики и девочки",
+      "subscrb": "бойз эн гёрлз"
+    },
+    {
+      "id": "1439",
+      "name": "In this store, they always sold tasty juices, drinks and ice cream to the kids",
+      "title": "в этом магазине всегда продавали вкусные соки, напитки и мороженое детям",
+      "subscrb": "ин ðис стор зэй Олвэйз соулд тЭйсти джусиз дрИнкс н айс крИм т(э) зэ кидз"
+    },
+    {
+      "id": "1440",
+      "name": "New products",
+      "title": "новые товары",
+      "subscrb": "нью прАдэктс"
+    },
+    {
+      "id": "1441",
+      "name": "Mrs. Kowalska is looking at new products in the store",
+      "title": "госпожа Ковальска рассматривает в магазине новые товары",
+      "subscrb": "мИсис кавАлска з лУкин эт нью прАдэктс ин зэ стор"
+    },
+    {
+      "id": "1442",
+      "name": "Friends (female)",
+      "title": "подруги",
+      "subscrb": "фрЭндз"
+    },
+    {
+      "id": "1443",
+      "name": "You shouldn’t trust (your) girlfriends",
+      "title": "не стоит доверять подругам",
+      "subscrb": "ю шУднт чрАст ё фрЭндз"
+    },
+    {
+      "id": "1444",
+      "name": "Our teachers (female)",
+      "title": "наши учительницы",
+      "subscrb": "аур тИчэрз"
+    },
+    {
+      "id": "1445",
+      "name": "I’ll introduce you to our teachers",
+      "title": "я представлю тебя нашим учительницам",
+      "subscrb": "айл интрэдЮс йю т(э) аур тИчэрз"
+    },
+    {
+      "id": "1446",
+      "name": "These dogs and cats",
+      "title": "эти собаки и кошки",
+      "subscrb": "ðиз догз н кэтс"
+    },
+    {
+      "id": "1447",
+      "name": "Will you give food to these dogs and cats?",
+      "title": "дашь еду этим собакам и кошкам?",
+      "subscrb": "уил йю гив фуд т(э) ðиз догз н кэтс"
+    },
+    {
+      "id": "1448",
+      "name": "A neighbor and neighbors (female)",
+      "title": "сосед и соседки",
+      "subscrb": "э нЭйбэр энд нЭйбэрз"
+    },
+    {
+      "id": "1449",
+      "name": "I don’t trust my neighbor or my neighbors",
+      "title": "я не доверяю соседу и соседкам",
+      "subscrb": "ай доун чрАст май нЭйбэр ор май нЭйбэрз"
+    },
+    {
+      "id": "1450",
+      "name": "Grandparents",
+      "title": "дедушка и бабушка",
+      "subscrb": "грЭндпЭрэнц"
+    },
+    {
+      "id": "1451",
+      "name": "We should thank our grandparents for the new bike",
+      "title": "надо поблагодарить бабушку и дедушку за новый велосипед",
+      "subscrb": "уи шүд θЭнк аур грЭндпЭрэнц фэр зэ нью байк"
+    },
+    {
+      "id": "1452",
+      "name": "Other students (female)",
+      "title": "другие студентки",
+      "subscrb": "Адэр стьюдЭнтс"
+    },
+    {
+      "id": "1453",
+      "name": "Magda always gives homework to those other students",
+      "title": "Магда всегда даёт другим студенткам домашние задания",
+      "subscrb": "мЭгдэ Олвэйз гивз хОумуэрк т(э) ðоуз Адэр стьюдЭнтс"
+    },
+    {
+      "id": "1454",
+      "name": "I",
+      "title": "я",
+      "subscrb": "АЙ"
+    },
+    {
+      "id": "1455",
+      "name": "me",
+      "title": "мне",
+      "subscrb": "мИ:"
+    },
+    {
+      "id": "1456",
+      "name": "me",
+      "title": "ми (мне, меня — контекст)",
+      "subscrb": "мИ:"
+    },
+    {
+      "id": "1457",
+      "name": "you",
+      "title": "ты",
+      "subscrb": "ю:"
+    },
+    {
+      "id": "1458",
+      "name": "you",
+      "title": "тебе",
+      "subscrb": "йУ (редуц.)"
+    },
+    {
+      "id": "1459",
+      "name": "you",
+      "title": "тебе (разг.)",
+      "subscrb": "йУ:"
+    },
+    {
+      "id": "1460",
+      "name": "he",
+      "title": "он",
+      "subscrb": "хИ:"
+    },
+    {
+      "id": "1461",
+      "name": "we",
+      "title": "мы",
+      "subscrb": "уИ:"
+    },
+    {
+      "id": "1462",
+      "name": "we",
+      "title": "мы (разг.)",
+      "subscrb": "уИ:"
+    },
+    {
+      "id": "1463",
+      "name": "him",
+      "title": "нему",
+      "subscrb": "хИм (редуц. — “эм”)"
+    },
+    {
+      "id": "1464",
+      "name": "she",
+      "title": "она",
+      "subscrb": "шИ:"
+    },
+    {
+      "id": "1465",
+      "name": "her",
+      "title": "ей",
+      "subscrb": "хЁ:р"
+    },
+    {
+      "id": "1466",
+      "name": "her",
+      "title": "ней",
+      "subscrb": "хЁ:р (или хЁ:а в редукции)"
+    },
+    {
+      "id": "1467",
+      "name": "it",
+      "title": "оно",
+      "subscrb": "Ит (коротко, часто почти “ыт”)"
+    },
+    {
+      "id": "1468",
+      "name": "we",
+      "title": "мы",
+      "subscrb": "уИ:"
+    },
+    {
+      "id": "1469",
+      "name": "us",
+      "title": "нам",
+      "subscrb": "Ас"
+    },
+    {
+      "id": "1470",
+      "name": "you",
+      "title": "вы",
+      "subscrb": "йУ:"
+    },
+    {
+      "id": "1471",
+      "name": "you",
+      "title": "вам",
+      "subscrb": "йУ (редуц.)"
+    },
+    {
+      "id": "1472",
+      "name": "they",
+      "title": "они",
+      "subscrb": "зЭЙ"
+    },
+    {
+      "id": "1473",
+      "name": "him",
+      "title": "ему",
+      "subscrb": "хИм (редуц.)"
+    },
+    {
+      "id": "1474",
+      "name": "they",
+      "title": "они (жен.)",
+      "subscrb": "зЭЙ"
+    },
+    {
+      "id": "1475",
+      "name": "who",
+      "title": "кто",
+      "subscrb": "хУ:"
+    },
+    {
+      "id": "1476",
+      "name": "whom",
+      "title": "кому",
+      "subscrb": "хУ:м"
+    },
+    {
+      "id": "1477",
+      "name": "what",
+      "title": "что",
+      "subscrb": "уАт"
+    },
+    {
+      "id": "1478",
+      "name": "why",
+      "title": "почему",
+      "subscrb": "уАЙ"
+    },
+    {
+      "id": "1479",
+      "name": "thanks to him",
+      "title": "благодаря ему",
+      "subscrb": "сЭНкс ту хИм (в быстрой речи: сЭнкстуэм)"
+    },
+    {
+      "id": "1480",
+      "name": "My neighbor’s talkin’ to me and tellin’ me ‘bout his problems",
+      "title": "сосед разговаривает со мной и рассказывает мне о своих проблемах",
+      "subscrb": "май нЭйбрэрз тОкин т’ми эн тЭлин ми баут хиз прАблемз"
+    },
+    {
+      "id": "1481",
+      "name": "Is your uncle helpin’ you?",
+      "title": "дядя вам помогает?",
+      "subscrb": "из ёр А́нкл хЭлпин ю"
+    },
+    {
+      "id": "1482",
+      "name": "Yeah, he gives us money",
+      "title": "да он даёт нам деньги",
+      "subscrb": "йЭ хи гИвзэс мАни"
+    },
+    {
+      "id": "1483",
+      "name": "The teacher promises the students he’ll explain the homework",
+      "title": "учитель обещает ученикам что объяснит им домашнее задание",
+      "subscrb": "зэ тИчэр прАмисиз зэ стЮднц хил иксплЕйн зэ хОумуэрк"
+    },
+    {
+      "id": "1484",
+      "name": "Mr. Hryuk’s in a bad mood ‘cause Fat Jerry wants to steal his TV",
+      "title": "у пана Хрюка плохое настроение потому что фан жирик хочет украсть у него телевизор",
+      "subscrb": "мИстэр хрюкс ин э бЭд мУд кэз фЭт джЭри уАнс т’стИл хиз ти:вИ"
+    },
+    {
+      "id": "1485",
+      "name": "I don’t trust my girlfriend and I can’t open up to her",
+      "title": "не верю приятельнице и не могу ей довериться",
+      "subscrb": "ай дОнт трАст май гЁрфрэнд эн ай кэнт Оупн ап т’хэр"
+    },
+    {
+      "id": "1486",
+      "name": "My son’s really happy ‘cause I’m readin’ him a new book",
+      "title": "Мой сын очень счастлив потому что я читаю ему новую книгу",
+      "subscrb": "май санз рИли хЭпи кэз айм рИдин им э нью бУк"
+    },
+    {
+      "id": "1487",
+      "name": "I thank my parents ‘cause thanks to them I can do everything",
+      "title": "Я благодарю родителей потому что благодаря им я всё умею",
+      "subscrb": "ай θЭнк май пЭрэнтс кэз θЭнкс т’ðэм ай кэн ду Эврисин"
+    },
+    {
+      "id": "1488",
+      "name": "At work, Marian Kowalski’s a brave cop",
+      "title": "на службе Мариан Ковальский мужественный полицейский",
+      "subscrb": "эт уОрк мЭриэн к’вА́лскиз э брЭйв кап"
+    },
+    {
+      "id": "1489",
+      "name": "But in his free time, he’s really shy",
+      "title": "но в свободное время он очень застенчивый",
+      "subscrb": "бат ин из фри тАйм хиз рИли шАй"
+    },
+    {
+      "id": "1490",
+      "name": "Especially when it comes to meetin’ girls",
+      "title": "особенно если речь идёт о знакомстве с девушками",
+      "subscrb": "эспЭшли уэн ит кАмз т’мИрин гЁрлз"
+    },
+    {
+      "id": "1491",
+      "name": "sit down",
+      "title": "присесть",
+      "subscrb": "сит дАун"
+    },
+    {
+      "id": "1492",
+      "name": "agree",
+      "title": "согласиться",
+      "subscrb": "эгрИ:"
+    },
+    {
+      "id": "1493",
+      "name": "first",
+      "title": "сначала",
+      "subscrb": "фЁрст"
+    },
+    {
+      "id": "1494",
+      "name": "Who’re you lookin’ at like that?",
+      "title": "к кому ты так присматриваешься?",
+      "subscrb": "хур ю лУкин эт лайк ðэт"
+    },
+    {
+      "id": "1495",
+      "name": "At that cute girl",
+      "title": "к этой и симпатичной девушке",
+      "subscrb": "эт ðэт кьют гЁрл"
+    },
+    {
+      "id": "1496",
+      "name": "Yeah, she’s really cute",
+      "title": "да она очень симпатичная",
+      "subscrb": "йЭ шиз рИли кьют"
+    },
+    {
+      "id": "1497",
+      "name": "You know her?",
+      "title": "ты знаешь её?",
+      "subscrb": "ю нОу хэр"
+    },
+    {
+      "id": "1498",
+      "name": "Unfortunately, no",
+      "title": "к сожалению не знаю",
+      "subscrb": "энфОрчэнэтли нОу"
+    },
+    {
+      "id": "1499",
+      "name": "I don’t know her either. Too bad",
+      "title": "я её тоже не знаю. Жаль",
+      "subscrb": "ай дОн ноу хэр И:ðэр, ту бЭд"
+    },
+    {
+      "id": "1500",
+      "name": "So you can’t introduce me to her",
+      "title": "значит ты не можешь представить ей меня",
+      "subscrb": "СОу ю кэн(т) интрадЮ:с ми ту хЁр"
+    },
+    {
+      "id": "1501",
+      "name": "You better ask if you can sit down",
+      "title": "лучше спроси можешь ли ты присесть",
+      "subscrb": "ю БЭрэр эск иф ю кэн сит ДА:ун"
+    },
+    {
+      "id": "1502",
+      "name": "What if she says yes?",
+      "title": "а если она согласится?",
+      "subscrb": "уАД иф ши сэз ЙЭС"
+    },
+    {
+      "id": "1503",
+      "name": "That’s really good",
+      "title": "это очень хорошо",
+      "subscrb": "зЭтс РИ:ли гуд"
+    },
+    {
+      "id": "1504",
+      "name": "Then you ask her to a movie",
+      "title": "тогда ты предложишь ей кино",
+      "subscrb": "зЭн ю Эск хэр ту э МУ:ви"
+    },
+    {
+      "id": "1505",
+      "name": "What if she doesn’t like movies?",
+      "title": "а если она не любит кино?",
+      "subscrb": "уАД иф ши ДАзнт лайк МУ:виз"
+    },
+    {
+      "id": "1506",
+      "name": "Then ask her to go get some coffee",
+      "title": "тогда предложи пойти в кафе",
+      "subscrb": "зЭн Эск хэр ту ГОу гэт сам КО:фи"
+    },
+    {
+      "id": "1507",
+      "name": "Okay. I’m coming already",
+      "title": "хорошо. Я уже иду",
+      "subscrb": "оуКЭй, ам КАмин о:лрЭди"
+    },
+    {
+      "id": "1508",
+      "name": "First you gotta say good afternoon",
+      "title": "сначала нужно сказать добрый день",
+      "subscrb": "фЁрст ю ГА:рэ сэй гуд ЭфтэрнУ:н"
+    },
+    {
+      "id": "1509",
+      "name": "I’m not a kid",
+      "title": "я не ребёнок",
+      "subscrb": "ам НА:рэ кид"
+    },
+    {
+      "id": "1510",
+      "name": "Well, you’re so nervous you might forget",
+      "title": "ну ты так нервничаешь что можешь об этом забыть",
+      "subscrb": "уЭл, юр соу НЁ:рвэс ю майт фэрГЭт"
+    },
+    {
+      "id": "1511",
+      "name": "village",
+      "title": "деревня",
+      "subscrb": "ВИлидж"
+    },
+    {
+      "id": "1512",
+      "name": "market",
+      "title": "базар",
+      "subscrb": "МА:ркэт"
+    },
+    {
+      "id": "1513",
+      "name": "school",
+      "title": "школа",
+      "subscrb": "Ску:л"
+    },
+    {
+      "id": "1514",
+      "name": "we are having lunch at Green Cat restaurant",
+      "title": "мы сейчас на обеде в ресторане Зелёный Кот",
+      "subscrb": "уи эR хЭВинг лАНч эт ГРИ:н КЭт рЭстэрант"
+    },
+    {
+      "id": "1515",
+      "name": "Eva lives in an apartment on the twelfth floor",
+      "title": "Ева живёт в многоквартирном доме на двенадцатом этаже",
+      "subscrb": "И:вэ лИвз ин эн эпАртмэнт он зэ твЭлф флО:р"
+    },
+    {
+      "id": "1516",
+      "name": "do you live in the city or in the countryside?",
+      "title": "ты живёшь в городе или в деревне?",
+      "subscrb": "ду ю лИв ин зэ сИти ор ин зэ кАунтрисАйд?"
+    },
+    {
+      "id": "1517",
+      "name": "today Katya is in school",
+      "title": "сегодня Катя на занятиях в школе",
+      "subscrb": "тудЭй КЭтйэ из ин скУл"
+    },
+    {
+      "id": "1518",
+      "name": "I meet this cute girl at the cafe and the pool",
+      "title": "я встречаю эту симпатичную девушку в кафе и в бассейне",
+      "subscrb": "ай мИ:т зис кЬют гЁрл эт зэ кЭфэй энд зэ пУ:л"
+    },
+    {
+      "id": "1519",
+      "name": "we buy meat at the grocery store and vegetables at the market",
+      "title": "Мясо мы покупаем в продовольственном магазине а овощи на базаре",
+      "subscrb": "уи бАй мИ:т эт зэ грОусэри стО:р энд вЭджтэблз эт зэ мАркит"
+    },
+    {
+      "id": "1520",
+      "name": "I want to sit in the armchair, not on the chair",
+      "title": "Я хочу сидеть в кресле а не на стуле",
+      "subscrb": "ай уО:нт ту сИт ин зэ АрмчЭр, нОт он зэ чЭр"
+    },
+    {
+      "id": "1521",
+      "name": "my brother sleeps on the couch, and I sleep on the bed",
+      "title": "брат спит на диване А я на кровати",
+      "subscrb": "май брА:ðэр слИ:пз он зэ кАуч, энд ай слИ:п он зэ бЭд"
+    },
+    {
+      "id": "1522",
+      "name": "where are you?",
+      "title": "где ты?",
+      "subscrb": "wЭr эR ю?"
+    },
+    {
+      "id": "1523",
+      "name": "I am walking in the park",
+      "title": "Я на прогулке в парке",
+      "subscrb": "ай эм уО:кин ин зэ пАрк"
+    },
+    {
+      "id": "1524",
+      "name": "candies are in the box, and the box is on the shelf",
+      "title": "конфеты в коробке а коробка лежит на полке",
+      "subscrb": "кЭндиз ар ин зэ бОкс, энд зэ бОкс из он зэ шЭлф"
+    },
+    {
+      "id": "1525",
+      "name": "behind",
+      "title": "за",
+      "subscrb": "бихАйнд"
+    },
+    {
+      "id": "1526",
+      "name": "above",
+      "title": "над",
+      "subscrb": "эбАв"
+    },
+    {
+      "id": "1527",
+      "name": "behind",
+      "title": "за",
+      "subscrb": "бихАйнд"
+    },
+    {
+      "id": "1528",
+      "name": "between",
+      "title": "между",
+      "subscrb": "битвИ:н"
+    },
+    {
+      "id": "1529",
+      "name": "in front of",
+      "title": "перед",
+      "subscrb": "ин фрА:нт ов"
+    },
+    {
+      "id": "1530",
+      "name": "under",
+      "title": "под",
+      "subscrb": "Андэр"
+    },
+    {
+      "id": "1531",
+      "name": "on",
+      "title": "на",
+      "subscrb": "он"
+    },
+    {
+      "id": "1532",
+      "name": "in",
+      "title": "в",
+      "subscrb": "ин"
+    },
+    {
+      "id": "1533",
+      "name": "The plug is on the floor",
+      "title": "розетка лежит на полу",
+      "subscrb": "зэ PLAg из он зэ FLOR"
+    },
+    {
+      "id": "1534",
+      "name": "The picture is on the wall",
+      "title": "картина висит на стене",
+      "subscrb": "зэ PIКчер из он зэ WOL"
+    },
+    {
+      "id": "1535",
+      "name": "The lamp is hanging over the desk",
+      "title": "лампа висит над столом",
+      "subscrb": "зэ LЭМп из ХЭннингов оувэр зэ DЭск"
+    },
+    {
+      "id": "1536",
+      "name": "The TV is on the cabinet",
+      "title": "телевизор стоит на шкафчике",
+      "subscrb": "зэ ТИВИ из он зэ КЭбинит"
+    },
+    {
+      "id": "1537",
+      "name": "The sofa is between the window and the doors",
+      "title": "диван стоит между окном и дверьми",
+      "subscrb": "зэ СОуфэ из битУин зэ WИНдоу энд зэ ДОРз"
+    },
+    {
+      "id": "1538",
+      "name": "One armchair is in front of the table",
+      "title": "одно кресло стоит перед столом",
+      "subscrb": "уан АРмчэр из ин ФРОнт ов зэ ТЕйбл"
+    },
+    {
+      "id": "1539",
+      "name": "The other armchair is behind the table",
+      "title": "другое кресло стоит за столом",
+      "subscrb": "зэ Адер АРмчэр из бихАЙнд зэ ТЕйбл"
+    },
+    {
+      "id": "1540",
+      "name": "The wardrobe is next to the window",
+      "title": "шкаф стоит рядом с окном",
+      "subscrb": "зэ WОРдроуб из Нэкст ту зэ WИНдоу"
+    },
+    {
+      "id": "1541",
+      "name": "A vase with flowers is on the window",
+      "title": "ваза с цветами стоит на окне",
+      "subscrb": "э ВЭйз уиз ФЛАуэрз из он зэ WИНдоу"
+    },
+    {
+      "id": "1542",
+      "name": "The carpet is on the floor",
+      "title": "ковёр лежит на полу",
+      "subscrb": "зэ КАрпит из он зэ FLОР"
+    },
+    {
+      "id": "1543",
+      "name": "The chair is next to the balcony",
+      "title": "стул стоит рядом с балконом",
+      "subscrb": "зэ ЧЭр из Нэкст ту зэ БАЛкани"
+    },
+    {
+      "id": "1544",
+      "name": "Glasses",
+      "title": "очки",
+      "subscrb": "ГЛэсиз"
+    },
+    {
+      "id": "1545",
+      "name": "Somewhere",
+      "title": "где-то",
+      "subscrb": "САМвЭр"
+    },
+    {
+      "id": "1546",
+      "name": "To look for",
+      "title": "искать",
+      "subscrb": "ту ЛУк фор"
+    },
+    {
+      "id": "1547",
+      "name": "To check",
+      "title": "проверить",
+      "subscrb": "ту ЧЭк"
+    },
+    {
+      "id": "1548",
+      "name": "For sure",
+      "title": "на pewno",
+      "subscrb": "фор ШОР"
+    },
+    {
+      "id": "1549",
+      "name": "To find",
+      "title": "найти",
+      "subscrb": "ту ФАЙнд"
+    },
+    {
+      "id": "1550",
+      "name": "A moment",
+      "title": "момент",
+      "subscrb": "э МОумэнт"
+    },
+    {
+      "id": "1551",
+      "name": "Where are my glasses?",
+      "title": "Где мои очки?",
+      "subscrb": "УЭр ар май ГЛэсиз?"
+    },
+    {
+      "id": "1552",
+      "name": "On the cabinet in the hallway",
+      "title": "на шкафчике в прихожей",
+      "subscrb": "он зэ КЭбинит ин зэ ХОЛвэй"
+    },
+    {
+      "id": "1553",
+      "name": "I see that cabinet",
+      "title": "я вижу этот шкафчик",
+      "subscrb": "ай СИ зэт КЭбинит"
+    },
+    {
+      "id": "1554",
+      "name": "They are not there",
+      "title": "их там нет",
+      "subscrb": "зэй ар нот зэр"
+    },
+    {
+      "id": "1555",
+      "name": "Maybe on the shelf in the big room?",
+      "title": "может на полке в большой комнате?",
+      "subscrb": "МЕйби он зэ шЭлф ин зэ биг рУм?"
+    },
+    {
+      "id": "1556",
+      "name": "I'll check. They're not here.",
+      "title": "посмотрю. Их нет",
+      "subscrb": "АЙл чЭк. зЭр нот хИр."
+    },
+    {
+      "id": "1557",
+      "name": "I know.",
+      "title": "Я знаю",
+      "subscrb": "АЙ нОу."
+    },
+    {
+      "id": "1558",
+      "name": "They’re probably in the kitchen on the table.",
+      "title": "наверняка лежат в кухне на столе",
+      "subscrb": "зЭр прОбэбли ин зэ кИчн он зэ тЭйбл."
+    },
+    {
+      "id": "1559",
+      "name": "Also not.",
+      "title": "тоже нет",
+      "subscrb": "Олсоу нот."
+    },
+    {
+      "id": "1560",
+      "name": "Or maybe in your purse?",
+      "title": "а может они в твоей сумочке?",
+      "subscrb": "Ор мЕйби ин йо:р пЁрс?"
+    },
+    {
+      "id": "1561",
+      "name": "I can check.",
+      "title": "могу проверить",
+      "subscrb": "АЙ кэн чЭк."
+    },
+    {
+      "id": "1562",
+      "name": "No glasses in the purse, under the purse, or by the purse.",
+      "title": "очков нет не в сумочке не под сумочкой ни возле сумочки",
+      "subscrb": "Ноу глЭсэз ин зэ пЁрс, Эндер зэ пЁрс, ор бай зэ пЁрс."
+    },
+    {
+      "id": "1563",
+      "name": "They must be somewhere on you.",
+      "title": "наверняка они где-то у тебя",
+      "subscrb": "зЭи маст би сАмвэ:р он ю:"
+    },
+    {
+      "id": "1564",
+      "name": "But where?",
+      "title": "Но где?",
+      "subscrb": "Бат уЭр?"
+    },
+    {
+      "id": "1565",
+      "name": "We need to find them.",
+      "title": "нужно их найти",
+      "subscrb": "Уи нИд ту: фАйнд зэм."
+    },
+    {
+      "id": "1566",
+      "name": "I want to watch the new show on TV.",
+      "title": "Я хочу посмотреть новую программу по телевизору",
+      "subscrb": "АЙ уОнт ту: уОч зэ нЬу: шоу он ТИ:ви."
+    },
+    {
+      "id": "1567",
+      "name": "You always look for everything at the last minute.",
+      "title": "ты ищешь всё в последний момент",
+      "subscrb": "Ю: Олвэйз лУк фор ЭврИθинг эт зэ лАст мИнит."
+    },
+    {
+      "id": "1568",
+      "name": "What do you have in your pocket?",
+      "title": "а что у тебя в кармане?",
+      "subscrb": "Уэт ду ю: хэв ин йо:р пАкет?"
+    },
+    {
+      "id": "1569",
+      "name": "These are my glasses.",
+      "title": "это мои очки",
+      "subscrb": "зИз а:р май глЭсэз."
+    },
+    {
+      "id": "1570",
+      "name": "Thanks, I’m going to watch the show.",
+      "title": "спасибо иду смотреть программу",
+      "subscrb": "зЭнкс, айм гОинг ту: уОч зэ шоу"
+    },
+    {
+      "id": "1571",
+      "name": "Father lends money to aunt",
+      "title": "отец по­зы­ча­ет де­ньги тёте",
+      "subscrb": "FÁ:ðər лэндс мА:ни ту: ант"
+    },
+    {
+      "id": "1572",
+      "name": "Aunt borrows money from father",
+      "title": "тётя за­им­ству­ет де­ньги у от­ца",
+      "subscrb": "АНТ бО:роуз мА:ни фрАм FÁ:ðər"
+    },
+    {
+      "id": "1573",
+      "name": "Mother-in-law lends money to son-in-law",
+      "title": "тёща по­зы­ча­ет де­ньги зятю",
+      "subscrb": "МА:ðər-Ин-ЛО: лэндс мА:ни ту: сАн-Ин-ЛО:"
+    },
+    {
+      "id": "1574",
+      "name": "Son-in-law borrows money from mother-in-law",
+      "title": "зять за­им­ству­ет де­ньги у тёщи",
+      "subscrb": "САн-Ин-ЛО: бО:роуз мА:ни фрАм МА:ðər-Ин-ЛО:"
+    },
+    {
+      "id": "1575",
+      "name": "Neighbor borrows money from father",
+      "title": "сосед за­им­ству­ет де­ньги у отца",
+      "subscrb": "НЕйбər бО:роуз мА:ни фрАм FÁ:ðər"
+    },
+    {
+      "id": "1576",
+      "name": "Father lends money to neighbor",
+      "title": "отец по­зы­ча­ет де­ньги соседу",
+      "subscrb": "FÁ:ðər лэндс мА:ни ту: НЕйбər"
+    },
+    {
+      "id": "1577",
+      "name": "Brother borrows money from sister",
+      "title": "брат за­им­ству­ет де­ньги у сестры",
+      "subscrb": "БРАзər бО:роуз мА:ни фрАм СИс­тэр"
+    },
+    {
+      "id": "1578",
+      "name": "Sister borrows money from brother",
+      "title": "сестра за­им­ству­ет де­ньги у брата",
+      "subscrb": "СИс­тэр бО:роуз мА:ни фрАм БРАзər"
+    },
+    {
+      "id": "1579",
+      "name": "Girlfriend lends money to boyfriend",
+      "title": "подруга по­зы­ча­ет де­ньги парню",
+      "subscrb": "ГЁ:рлфрэнд лэндс мА:ни ту: БО:йфрэнд"
+    },
+    {
+      "id": "1580",
+      "name": "Boyfriend borrows money from girlfriend",
+      "title": "парень за­им­ству­ет де­ньги у подруги",
+      "subscrb": "БО:йфрэнд бО:роуз мА:ни фрАм ГЁ:рлфрэнд"
+    },
+    {
+      "id": "1581",
+      "name": "This candy is very tasty",
+      "title": "эта кон­фе­та о­чень вкус­ная",
+      "subscrb": "Дис кЭн­ди из вЭ:ри тЭ:сти"
+    },
+    {
+      "id": "1582",
+      "name": "This candy pleases Kasia Kowalska",
+      "title": "эта кон­фе­та нра­вится Ка­ше Ко­валь­ской",
+      "subscrb": "Дис кЭн­ди пЛи:зиз КА:шə КО:валь­скə"
+    },
+    {
+      "id": "1583",
+      "name": "This book is interesting",
+      "title": "эта кни­га ин­те­рес­ная",
+      "subscrb": "Дис бук из И́нтэрэстинг"
+    },
+    {
+      "id": "1584",
+      "name": "This little gift pleases me",
+      "title": "этот маленький подаро­к мне нравится",
+      "subscrb": "Дис лИтл гИфт пЛи:зиз ми"
+    },
+    {
+      "id": "1585",
+      "name": "Our neighbor is very handsome",
+      "title": "наш со­сед оч­ень при­вле­ка­тель­ный",
+      "subscrb": "АУər НЕйбər из вЭ:ри хЭнсэм"
+    },
+    {
+      "id": "1586",
+      "name": "Our neighbor pleases my sister",
+      "title": "наш со­сед нра­вится моей сестре",
+      "subscrb": "АУər НЕйбər пЛи:зиз май СИс­тэр"
+    },
+    {
+      "id": "1587",
+      "name": "You have a very nice apartment",
+      "title": "у тебя оч­ень кра­си­вая квар­тира",
+      "subscrb": "Ю: хЭв ə вЭ:ри нАЙс эпА:ртмэнт"
+    },
+    {
+      "id": "1588",
+      "name": "My apartment pleases Ms. Danuta",
+      "title": "моя квар­тира нра­вится пані Да­нуте",
+      "subscrb": "МАЙ эпА:ртмэнт пЛи:зиз Миз Дэ:ну­тə"
+    },
+    {
+      "id": "1589",
+      "name": "The lesson is not interesting",
+      "title": "урок не ин­те­рес­ный",
+      "subscrb": "Зэ лЭсн из нОт И́нтэрэстинг"
+    },
+    {
+      "id": "1590",
+      "name": "The lesson does not please them",
+      "title": "урок им не нра­вится",
+      "subscrb": "Зэ лЭсн дАз нОт пЛи:з дЭм"
+    },
+    {
+      "id": "1591",
+      "name": "This soup is awful",
+      "title": "этот суп о­чень плохой",
+      "subscrb": "Дис сУ:п из О:фул"
+    },
+    {
+      "id": "1592",
+      "name": "This soup does not please our son",
+      "title": "этот суп не нра­вится нашему сыну",
+      "subscrb": "Дис сУ:п дАз нОт пЛи:з АУər сАн"
+    },
+    {
+      "id": "1593",
+      "name": "You have a good wife",
+      "title": "у тебя хо­ро­шая жена",
+      "subscrb": "Ю: хЭв ə гУд вА:йф"
+    },
+    {
+      "id": "1594",
+      "name": "My wife pleases my brother",
+      "title": "моя жена нра­вится мо­ему брату",
+      "subscrb": "МАЙ вА:йф пЛи:зиз май БРАзэр"
+    },
+    {
+      "id": "1595",
+      "name": "This movie is not good",
+      "title": "этот фильм не хо­ро­ший",
+      "subscrb": "Зис мУ:ви из нОт гУд"
+    },
+    {
+      "id": "1596",
+      "name": "This movie does not please your grandfather",
+      "title": "этот фильм не нра­вится твоему деду",
+      "subscrb": "Зис мУ:ви дАз нОт пЛи:з юр ГРЭндфА:ðэр"
     }
   ]
 }
