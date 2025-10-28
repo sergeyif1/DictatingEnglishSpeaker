@@ -326,49 +326,65 @@ var voiceList = document.getElementById("voiceSelect");
 var selectedVoiceName;
 var synth = window.speechSynthesis;
 function voices() {
+  // защищаемся от отсутствия элемента
+  if (!voiceList) {
+    console.warn("voiceSelect element not found — пропускаем инициализацию голосов.");
+    return;
+  }
   voiceList.innerHTML = ""; // очищаем текущие элементы
 
-  var availableVoices = synth.getVoices();
+  var availableVoices = synth.getVoices() || [];
   var defaultVoice = getDefaultVoice(availableVoices);
+
+  // наполняем select
   availableVoices.forEach(function (voice) {
     var option = "<option value=\"".concat(voice.name, "\">").concat(voice.name, " (").concat(voice.lang, ")</option>");
     voiceList.insertAdjacentHTML("beforeend", option);
   });
 
-  // Ищем русский (ru-RU) — учитываем разные форматы имени/кода языка
+  // язык -> массив возможных совпадений (строки или RegExp)
+  var languageMapDefault = {
+    Ru: ["русский Россия (ru-RU)", " (ru-RU)", /\(ru-RU\)/i, "ru-RU", "Russian (ru-RU)"]
+  };
+
+  // используем массив совпадений для поиска предпочтительного голоса
+  var possibleMatches = languageMapDefault.Ru;
   var preferredVoice = availableVoices.find(function (v) {
     if (!v) return false;
     var name = String(v.name || "");
     var lang = String(v.lang || "");
-
-    // Точное совпадение по имени или коду языка
-    if (name === "русский Россия (ru-RU)" || lang === "ru-RU" || lang === "(ru-RU)") {
-      return true;
-    }
-
-    // Проверка по регулярке для формата "(ru-RU)" в имени или lang
-    var ruRegex = /\(ru-RU\)/i;
-    if (ruRegex.test(name) || ruRegex.test(lang)) {
-      return true;
-    }
-
-    // Фоллбек: если код языка начинается с "ru"
-    if (lang.toLowerCase().startsWith("ru")) {
-      return true;
-    }
-    return false;
+    var full = "".concat(name, " (").concat(lang, ")");
+    return possibleMatches.some(function (match) {
+      if (Object.prototype.toString.call(match) === "[object RegExp]") {
+        return match.test(full) || match.test(name) || match.test(lang);
+      }
+      if (typeof match === "string") {
+        var m = match.trim().toLowerCase();
+        return name.toLowerCase().includes(m) || lang.toLowerCase() === m || full.toLowerCase().includes(m);
+      }
+      return false;
+    });
   });
   if (preferredVoice) {
     voiceList.value = preferredVoice.name;
   } else if (defaultVoice) {
     voiceList.value = defaultVoice.name;
+  } else if (availableVoices.length > 0) {
+    // фоллбек на первый
+    voiceList.value = availableVoices[0].name;
+    console.warn("Нет предпочтительного голоса — выбран первый доступный.");
   } else {
     console.log("Нет доступного голоса для выбора по умолчанию");
   }
 }
+// ...existing code...
+
 function getDefaultVoice(voices) {
+  if (!Array.isArray(voices) || voices.length === 0) return undefined;
+  // корректно ищем "en-US" или "en-GB" по коду языка (без скобок)
   return voices.find(function (voice) {
-    return voice.lang === "(en-US)" || voice.lang === "(en-GB)";
+    var lang = String(voice.lang || "").toLowerCase();
+    return lang.includes("en-us") || lang.includes("en-gb") || lang.startsWith("en");
   });
 }
 var voicePlay = {
