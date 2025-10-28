@@ -20,9 +20,14 @@ export function voices() {
     voiceList.insertAdjacentHTML("beforeend", option);
   });
 
-  // Ищем Google US English (en-US)
+  // Ищем русский Россия (ru-RU)
   let preferredVoice = availableVoices.find(
-    (v) => v.name === "Google US English" && v.lang === "en-US"
+    // (v) => v.name === "русский Россия (ru-RU)" && v.lang === /[^"]*\(ru-RU\)/
+    (v) =>
+      v.name === "русский Россия (ru-RU)" ||
+      v.lang === "русский Россия (ru-RU)" ||
+      /[^"]*\(ru-RU\)/.test(v.name) ||
+      /[^"]*\(ru-RU\)/.test(v.lang)
   );
 
   if (preferredVoice) {
