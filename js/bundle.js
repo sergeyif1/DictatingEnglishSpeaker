@@ -342,7 +342,7 @@ function voices() {
 
     // Проверка по регулярке для формата "(ru-RU)"
     var ruRegex = /\(ru-RU\)/;
-    return ruRegex.test(v.name) || ruRegex.test(v.lang);
+    return ruRegex.test(v.lang) || ruRegex.test(v.name);
   });
   if (preferredVoice) {
     voiceList.value = preferredVoice.name;
