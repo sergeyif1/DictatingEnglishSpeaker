@@ -335,14 +335,28 @@ function voices() {
     voiceList.insertAdjacentHTML("beforeend", option);
   });
 
-  // Ищем русский Россия (ru-RU)
+  // Ищем русский (ru-RU) — учитываем разные форматы имени/кода языка
   var preferredVoice = availableVoices.find(function (v) {
-    // Точное совпадение
-    if (v.name === "русский Россия (ru-RU)") return true;
+    if (!v) return false;
+    var name = String(v.name || "");
+    var lang = String(v.lang || "");
 
-    // Проверка по регулярке для формата "(ru-RU)"
-    var ruRegex = /\(ru-RU\)/;
-    return ruRegex.test(v.lang) || ruRegex.test(v.name);
+    // Точное совпадение по имени или коду языка
+    if (name === "русский Россия (ru-RU)" || lang === "ru-RU" || lang === "(ru-RU)") {
+      return true;
+    }
+
+    // Проверка по регулярке для формата "(ru-RU)" в имени или lang
+    var ruRegex = /\(ru-RU\)/i;
+    if (ruRegex.test(name) || ruRegex.test(lang)) {
+      return true;
+    }
+
+    // Фоллбек: если код языка начинается с "ru"
+    if (lang.toLowerCase().startsWith("ru")) {
+      return true;
+    }
+    return false;
   });
   if (preferredVoice) {
     voiceList.value = preferredVoice.name;
