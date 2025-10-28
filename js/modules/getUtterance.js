@@ -21,14 +21,14 @@ export function voices() {
   });
 
   // Ищем русский Россия (ru-RU)
-  let preferredVoice = availableVoices.find(
-    // (v) => v.name === "русский Россия (ru-RU)" && v.lang === /[^"]*\(ru-RU\)/
-    (v) =>
-      v.name === "русский Россия (ru-RU)" ||
-      v.lang === "русский Россия (ru-RU)" ||
-      /[^"]*\(ru-RU\)/.test(v.name) ||
-      /[^"]*\(ru-RU\)/.test(v.lang)
-  );
+  let preferredVoice = availableVoices.find((v) => {
+    // Точное совпадение
+    if (v.name === "русский Россия (ru-RU)") return true;
+
+    // Проверка по регулярке для формата "(ru-RU)"
+    const ruRegex = /\(ru-RU\)/;
+    return ruRegex.test(v.name) || ruRegex.test(v.lang);
+  });
 
   if (preferredVoice) {
     voiceList.value = preferredVoice.name;
