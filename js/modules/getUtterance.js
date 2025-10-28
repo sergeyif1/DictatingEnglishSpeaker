@@ -77,15 +77,17 @@ export function voices() {
     console.log("Нет доступного голоса для выбора по умолчанию");
   }
 }
-// ...existing code...
 
 function getDefaultVoice(voices) {
   if (!Array.isArray(voices) || voices.length === 0) return undefined;
-  // корректно ищем "en-US" или "en-GB" по коду языка (без скобок)
+
+  // корректно ищем "ru-RU" или "en-US" по коду языка (без скобок)
   return voices.find((voice) => {
     const lang = String(voice.lang || "").toLowerCase();
     return (
-      lang.includes("en-us") || lang.includes("en-gb") || lang.startsWith("en")
+      lang.includes("ru-ru") ||
+      lang.includes("en-us") ||
+      lang.startsWith("ru-ru")
     );
   });
 }
