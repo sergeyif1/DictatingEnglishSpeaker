@@ -4,9 +4,9 @@ import countNwords from "./countNwords.js";
 import countdown from "./countdownTimer.js";
 
 document.addEventListener("keydown", function (event) {
-  if (event.key === "Enter") {
-    event.preventDefault();
-  }
+  //   if (event.key === "Enter") {
+  //     event.preventDefault();
+  //   }
 });
 
 // window.speechSynthesis.cancel();

@@ -23,10 +23,14 @@ const dictMap = {
     code: "Pl",
     url: "/dbPl.json",
   },
+  "Italiano dizionario": {
+    code: "It",
+    url: "/dbIt.json",
+  },
 };
 
 // Соответствие value чекбоксов и кодов языков
-const checkboxValueToCode = { 1: "En", 2: "Pl", 3: "Gr", 4: "De" };
+const checkboxValueToCode = { 1: "En", 2: "Pl", 3: "Gr", 4: "De", 5: "It" };
 
 // --- Обновление чекбоксов ---
 function updateLangs() {

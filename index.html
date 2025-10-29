@@ -70,13 +70,14 @@
           </div>
           <div class="flex-item">
             <label>Constituents parts of speech</label>
-            <select id="select2">
-              <option selected disabled hidden>Search dictionary...</option>
-              <option>Deutsch Wörterbuch</option>
-              <option>Griechικό λεξικό</option>
-              <option>English dictionary</option>
-              <option>Polskie słownictwo</option>
-            </select>
+<select id="select2">
+  <option selected disabled hidden>Search dictionary...</option>
+  <option>Deutsch Wörterbuch</option>
+  <option>Griechικό λεξικό</option>
+  <option>English dictionary</option>
+  <option>Polskie słownictwo</option>
+  <option>Italiano dizionario</option>
+</select>
           </div>
         </div>
         <br />
@@ -93,12 +94,15 @@
           <div className="lang">
             <input class="checkboxL" type="checkbox" name="4" value="4" />De
           </div>
+                    <div className="lang">
+            <input class="checkboxL" type="checkbox" name="4" value="4" />It
+          </div>
         </div>
         <br />
         <label>Enter Text</label>
         <br>
         <div class="button">
-          <button id="but1" class="play">( En|De|Gr|PL )-play</button>
+          <button id="but1" class="play">( En|De|Gr|PL|It )-play</button>
           <button id="but2" class="play">( Ru )-play</button>
           <button id="but3" class="stop">( RESTART )</button>
         </div>
@@ -127,41 +131,6 @@
     function toggleUI() {
       const wrapper = document.querySelector('.wrapper');
       wrapper.classList.toggle('minimal-ui');
-    }
-
-    const voiceSelect = document.getElementById("voiceSelect");
-
-    function populateVoiceList() {
-      const voices = speechSynthesis.getVoices();
-
-      // сохраняем текущий выбор, если есть
-      const selected = voiceSelect.value;
-
-      // очищаем список
-      voiceSelect.innerHTML = "";
-
-      voices.forEach((voice) => {
-        const option = document.createElement("option");
-        option.value = voice.name;
-        option.textContent = `${voice.name} (${voice.lang})`;
-        if (voice.default) {
-          option.textContent += " — DEFAULT";
-        }
-        voiceSelect.appendChild(option);
-      });
-
-      // восстанавливаем выбор, если он есть в списке
-      if (selected && [...voiceSelect.options].some(o => o.value === selected)) {
-        voiceSelect.value = selected;
-      }
-    }
-
-    // первый вызов
-    populateVoiceList();
-
-    // Edge и Chrome подгружают голоса асинхронно
-    if (typeof speechSynthesis !== "undefined" && speechSynthesis.onvoiceschanged !== undefined) {
-      speechSynthesis.onvoiceschanged = populateVoiceList;
     }
   </script>
 

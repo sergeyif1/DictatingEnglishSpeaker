@@ -1,0 +1,1426 @@
+{
+    "dictionary": [
+        {
+            "id": "1",
+            "name": "autobus",
+            "title": "автобус",
+            "subscrb": "а:УтобУс"
+        },
+        {
+            "id": "2",
+            "name": "molto",
+            "title": "очень",
+            "subscrb": "мО:льто"
+        },
+        {
+            "id": "3",
+            "name": "bianco",
+            "title": "белый",
+            "subscrb": "бьЯнко"
+        },
+        {
+            "id": "4",
+            "name": "bianca",
+            "title": "белая",
+            "subscrb": "бьЯнка"
+        },
+        {
+            "id": "5",
+            "name": "bianco (neutro)",
+            "title": "белое",
+            "subscrb": "бьЯнко"
+        },
+        {
+            "id": "6",
+            "name": "tavolo",
+            "title": "стол",
+            "subscrb": "тАволо"
+        },
+        {
+            "id": "7",
+            "name": "ricco",
+            "title": "богатый",
+            "subscrb": "рИкко"
+        },
+        {
+            "id": "8",
+            "name": "marrone",
+            "title": "коричневый",
+            "subscrb": "маррО:не"
+        },
+        {
+            "id": "9",
+            "name": "dolce",
+            "title": "пирожное",
+            "subscrb": "дО:льче"
+        },
+        {
+            "id": "10",
+            "name": "nero",
+            "title": "чёрный",
+            "subscrb": "нЭ:ро"
+        },
+        {
+            "id": "11",
+            "name": "rosso",
+            "title": "красный",
+            "subscrb": "рОссо"
+        },
+        {
+            "id": "12",
+            "name": "parte",
+            "title": "часть",
+            "subscrb": "пАрте"
+        },
+        {
+            "id": "13",
+            "name": "di chi",
+            "title": "чей, чья, чьё",
+            "subscrb": "ди кИ"
+        },
+        {
+            "id": "14",
+            "name": "quercia",
+            "title": "дуб",
+            "subscrb": "квЭрчя"
+        },
+        {
+            "id": "15",
+            "name": "dolce (dessert)",
+            "title": "десерт",
+            "subscrb": "дО:льче"
+        },
+        {
+            "id": "16",
+            "name": "gelato",
+            "title": "мороженое",
+            "subscrb": "джелА:то"
+        },
+        {
+            "id": "17",
+            "name": "buono",
+            "title": "хороший",
+            "subscrb": "бУ:оно"
+        },
+        {
+            "id": "18",
+            "name": "casa",
+            "title": "дом",
+            "subscrb": "кА:за"
+        },
+        {
+            "id": "19",
+            "name": "grande",
+            "title": "большой",
+            "subscrb": "грА:нде"
+        },
+        {
+            "id": "20",
+            "name": "marmellata",
+            "title": "варенье",
+            "subscrb": "мармеллА:та"
+        },
+        {
+            "id": "21",
+            "name": "giorno",
+            "title": "день",
+            "subscrb": "джОрно"
+        },
+        {
+            "id": "22",
+            "name": "blu",
+            "title": "синий",
+            "subscrb": "блю:"
+        },
+        {
+            "id": "23",
+            "name": "umore",
+            "title": "настроение",
+            "subscrb": "умО:ре"
+        },
+        {
+            "id": "24",
+            "name": "interessante",
+            "title": "интересный",
+            "subscrb": "интерессАнте"
+        },
+        {
+            "id": "25",
+            "name": "quale",
+            "title": "какой, какая, какое",
+            "subscrb": "квА:ле"
+        },
+        {
+            "id": "26",
+            "name": "lingua",
+            "title": "язык",
+            "subscrb": "линггУ:а"
+        },
+        {
+            "id": "27",
+            "name": "libro",
+            "title": "книга",
+            "subscrb": "лИ:бро"
+        },
+        {
+            "id": "28",
+            "name": "tazza",
+            "title": "чашка",
+            "subscrb": "тА:цца"
+        },
+        {
+            "id": "29",
+            "name": "bello",
+            "title": "красивый",
+            "subscrb": "бЭ:лло"
+        },
+        {
+            "id": "30",
+            "name": "città",
+            "title": "город",
+            "subscrb": "читтА:"
+        },
+        {
+            "id": "31",
+            "name": "mese",
+            "title": "месяц",
+            "subscrb": "мЭ:зе"
+        },
+        {
+            "id": "32",
+            "name": "giovane",
+            "title": "молодой",
+            "subscrb": "джО:ване"
+        },
+        {
+            "id": "33",
+            "name": "mio/mia/mio",
+            "title": "мой, моя, моё",
+            "subscrb": "мИ:о / мИ:я / мИ:о"
+        },
+        {
+            "id": "34",
+            "name": "mare",
+            "title": "море",
+            "subscrb": "мА:ре"
+        },
+        {
+            "id": "35",
+            "name": "mosca",
+            "title": "муха",
+            "subscrb": "мО:ска"
+        },
+        {
+            "id": "36",
+            "name": "prossimo",
+            "title": "следующий",
+            "subscrb": "прОссимо"
+        },
+        {
+            "id": "37",
+            "name": "nostro/nostra/nostro",
+            "title": "наш, наша, наши",
+            "subscrb": "нО:стро / нО:стра / нО:стро"
+        },
+        {
+            "id": "38",
+            "name": "chiamarsi",
+            "title": "называться",
+            "subscrb": "кьямАрси"
+        },
+        {
+            "id": "39",
+            "name": "azzurro",
+            "title": "голубой",
+            "subscrb": "адззУрро"
+        },
+        {
+            "id": "40",
+            "name": "basso",
+            "title": "низкий",
+            "subscrb": "бАссо"
+        },
+        {
+            "id": "41",
+            "name": "nuovo",
+            "title": "новый",
+            "subscrb": "нУ:ово"
+        },
+        {
+            "id": "42",
+            "name": "signore",
+            "title": "обращение к мужчине",
+            "subscrb": "синьОрэ"
+        },
+        {
+            "id": "43",
+            "name": "signora",
+            "title": "обращение к женщине",
+            "subscrb": "синьО:ра"
+        },
+        {
+            "id": "44",
+            "name": "cane",
+            "title": "собака",
+            "subscrb": "кА:не"
+        },
+        {
+            "id": "45",
+            "name": "cagnolini",
+            "title": "собачки",
+            "subscrb": "каньйИ:ни"
+        },
+        {
+            "id": "46",
+            "name": "stanza",
+            "title": "комната",
+            "subscrb": "стАнца"
+        },
+        {
+            "id": "47",
+            "name": "polacco",
+            "title": "польский",
+            "subscrb": "полА:кко"
+        },
+        {
+            "id": "48",
+            "name": "bello (uomo)",
+            "title": "красивый о мужчине",
+            "subscrb": "бЭ:лло"
+        },
+        {
+            "id": "49",
+            "name": "sorella",
+            "title": "сестра",
+            "subscrb": "сорЭлла"
+        },
+        {
+            "id": "50",
+            "name": "vecchio",
+            "title": "старый",
+            "subscrb": "вЭккьо"
+        },
+        {
+            "id": "51",
+            "name": "festa",
+            "title": "праздник",
+            "subscrb": "фЭ:ста"
+        },
+        {
+            "id": "52",
+            "name": "fresco",
+            "title": "свежий",
+            "subscrb": "фрЭ:ско"
+        },
+        {
+            "id": "53",
+            "name": "simpatico",
+            "title": "симпатичный",
+            "subscrb": "симпА:тико"
+        },
+        {
+            "id": "54",
+            "name": "sonno",
+            "title": "снов",
+            "subscrb": "сОнно"
+        },
+        {
+            "id": "55",
+            "name": "quello/quella/quello",
+            "title": "тот, та, то",
+            "subscrb": "кУ:элло / кУ:элла / кУ:элло"
+        },
+        {
+            "id": "56",
+            "name": "questo/questa/questo",
+            "title": "это, эта, это",
+            "subscrb": "кУ:есто / кУ:еста / кУ:есто"
+        },
+        {
+            "id": "57",
+            "name": "anche",
+            "title": "тоже",
+            "subscrb": "А:нке"
+        },
+        {
+            "id": "58",
+            "name": "tuo/tua/tuo",
+            "title": "твой, твоя, твоё",
+            "subscrb": "тУ:о / тУ:а / тУ:о"
+        },
+        {
+            "id": "59",
+            "name": "vostro/vostra/vostro",
+            "title": "ваш, ваша, ваше",
+            "subscrb": "вО:стро / вО:стра / вО:стро"
+        },
+        {
+            "id": "60",
+            "name": "è uscito",
+            "title": "вышел о'кей",
+            "subscrb": "э у:шИ:то"
+        },
+        {
+            "id": "61",
+            "name": "lezione",
+            "title": "занятия",
+            "subscrb": "лэ:цциО:не"
+        },
+        {
+            "id": "62",
+            "name": "dente",
+            "title": "зуб",
+            "subscrb": "дЭнте"
+        },
+        {
+            "id": "63",
+            "name": "verde",
+            "title": "зелёный",
+            "subscrb": "вЭрде"
+        },
+        {
+            "id": "64",
+            "name": "terra",
+            "title": "земля",
+            "subscrb": "тЭрра"
+        },
+        {
+            "id": "65",
+            "name": "giallo",
+            "title": "жёлтый",
+            "subscrb": "джА:лло"
+        },
+        {
+            "id": "66",
+            "name": "buongiorno",
+            "title": "здравствуйте",
+            "subscrb": "буонджОрно"
+        },
+        {
+            "id": "67",
+            "name": "Buon pomeriggio",
+            "title": "Добрый день",
+            "subscrb": "буон помэрИ:джо"
+        },
+        {
+            "id": "68",
+            "name": "Buonasera",
+            "title": "Добрый вечер",
+            "subscrb": "буонасЭ:ра"
+        },
+        {
+            "id": "69",
+            "name": "ciao",
+            "title": "привет",
+            "subscrb": "чА:о"
+        },
+        {
+            "id": "70",
+            "name": "Arrivederci",
+            "title": "до свидания",
+            "subscrb": "арривеДЭрчи"
+        },
+        {
+            "id": "71",
+            "name": "A presto",
+            "title": "до скорого свидания",
+            "subscrb": "а прЭсто"
+        },
+        {
+            "id": "72",
+            "name": "Buonanotte",
+            "title": "спокойной ночи",
+            "subscrb": "буананОтте"
+        },
+        {
+            "id": "73",
+            "name": "A domani",
+            "title": "до завтра",
+            "subscrb": "а домАни"
+        },
+        {
+            "id": "74",
+            "name": "Come si chiama?",
+            "title": "как вас зовут",
+            "subscrb": "кОме си кЬЯма?"
+        },
+        {
+            "id": "75",
+            "name": "Mi chiamo …",
+            "title": "меня зовут …",
+            "subscrb": "ми кЬЯмо …"
+        },
+        {
+            "id": "76",
+            "name": "Il mio nome è …",
+            "title": "меня зовут",
+            "subscrb": "ил мЬо нОме э …"
+        },
+        {
+            "id": "77",
+            "name": "Molto piacere",
+            "title": "очень приятно",
+            "subscrb": "мОльто пьяЧэре"
+        },
+        {
+            "id": "78",
+            "name": "Piacere",
+            "title": "очень приятно",
+            "subscrb": "пьяЧэре"
+        },
+        {
+            "id": "79",
+            "name": "Come ti chiami?",
+            "title": "как тебя зовут",
+            "subscrb": "кОме ти кЬЯми?"
+        },
+        {
+            "id": "80",
+            "name": "Scusi",
+            "title": "извините",
+            "subscrb": "скУзи"
+        },
+        {
+            "id": "81",
+            "name": "Grazie",
+            "title": "спасибо",
+            "subscrb": "грАцие"
+        },
+        {
+            "id": "82",
+            "name": "Prego",
+            "title": "пожалуйста",
+            "subscrb": "прЕго"
+        },
+        {
+            "id": "83",
+            "name": "Come va?",
+            "title": "что у вас слышно",
+            "subscrb": "кОме ва?"
+        },
+        {
+            "id": "84",
+            "name": "Come stai?",
+            "title": "как живёшь",
+            "subscrb": "кОме стАи?"
+        },
+        {
+            "id": "85",
+            "name": "Come va?",
+            "title": "как дела",
+            "subscrb": "кОме ва?"
+        },
+        {
+            "id": "86",
+            "name": "Grazie",
+            "title": "спасибо",
+            "subscrb": "грАцие"
+        },
+        {
+            "id": "87",
+            "name": "Tutto a posto",
+            "title": "всё в порядке",
+            "subscrb": "тУтто а пОсто"
+        },
+        {
+            "id": "88",
+            "name": "Benissimo",
+            "title": "прекрасно",
+            "subscrb": "бениссИмо"
+        },
+        {
+            "id": "89",
+            "name": "Molto bene",
+            "title": "очень хорошо",
+            "subscrb": "мОльто бЭне"
+        },
+        {
+            "id": "90",
+            "name": "Non male",
+            "title": "неплохо",
+            "subscrb": "нОн мАле"
+        },
+        {
+            "id": "91",
+            "name": "Così così",
+            "title": "так себе",
+            "subscrb": "кОзи кОзи"
+        },
+        {
+            "id": "92",
+            "name": "Male",
+            "title": "плохо",
+            "subscrb": "мАле"
+        },
+        {
+            "id": "93",
+            "name": "Come prima",
+            "title": "по-старому",
+            "subscrb": "кОме прИма"
+        },
+        {
+            "id": "94",
+            "name": "Niente di nuovo",
+            "title": "ничего нового",
+            "subscrb": "ньЕнте ди нУово"
+        },
+        {
+            "id": "95",
+            "name": "Ma",
+            "title": "но",
+            "subscrb": "ма"
+        },
+        {
+            "id": "96",
+            "name": "Articolo",
+            "title": "статья",
+            "subscrb": "АртикОло"
+        },
+        {
+            "id": "97",
+            "name": "Autobus",
+            "title": "автобусный",
+            "subscrb": "аутОбус"
+        },
+        {
+            "id": "98",
+            "name": "Biglietto",
+            "title": "билет",
+            "subscrb": "бильЕтто"
+        },
+        {
+            "id": "99",
+            "name": "Fazzolettino",
+            "title": "платочек",
+            "subscrb": "фадзолеттИно"
+        },
+        {
+            "id": "100",
+            "name": "Rivista",
+            "title": "журнал",
+            "subscrb": "ривИста"
+        },
+        {
+            "id": "101",
+            "name": "Spesso",
+            "title": "часто",
+            "subscrb": "спЭссо"
+        },
+        {
+            "id": "102",
+            "name": "Leggere",
+            "title": "читать",
+            "subscrb": "лЕдже:ре"
+        },
+        {
+            "id": "103",
+            "name": "Penna a sfera",
+            "title": "шариковая ручка",
+            "subscrb": "пЭнна а сфЭра"
+        },
+        {
+            "id": "104",
+            "name": "Buono",
+            "title": "хороший",
+            "subscrb": "бУоно"
+        },
+        {
+            "id": "105",
+            "name": "Bene",
+            "title": "хорошо",
+            "subscrb": "бЭне"
+        },
+        {
+            "id": "106",
+            "name": "Bambino",
+            "title": "ребёнок",
+            "subscrb": "бамбИно"
+        },
+        {
+            "id": "107",
+            "name": "Film",
+            "title": "фильм",
+            "subscrb": "фильм"
+        },
+        {
+            "id": "108",
+            "name": "Giornale",
+            "title": "газета",
+            "subscrb": "джорнАле"
+        },
+        {
+            "id": "109",
+            "name": "Giocare",
+            "title": "играть",
+            "subscrb": "джокАре"
+        },
+        {
+            "id": "110",
+            "name": "Educato",
+            "title": "вежливый, послушный",
+            "subscrb": "эдЮкaто"
+        },
+        {
+            "id": "111",
+            "name": "Igienico",
+            "title": "гигиенический",
+            "subscrb": "идьЕ:нико"
+        },
+        {
+            "id": "112",
+            "name": "Storia",
+            "title": "история",
+            "subscrb": "стОрья"
+        },
+        {
+            "id": "113",
+            "name": "Intelligente",
+            "title": "умный",
+            "subscrb": "интеллиджЕнте"
+        },
+        {
+            "id": "114",
+            "name": "Ingegnere",
+            "title": "инженер",
+            "subscrb": "индженЕ:ре"
+        },
+        {
+            "id": "115",
+            "name": "Ancora",
+            "title": "ещё",
+            "subscrb": "анкОра"
+        },
+        {
+            "id": "116",
+            "name": "Calendario",
+            "title": "календарь",
+            "subscrb": "календАрьо"
+        },
+        {
+            "id": "117",
+            "name": "Tessera",
+            "title": "карточка",
+            "subscrb": "тессЕ:ра"
+        },
+        {
+            "id": "118",
+            "name": "Scherzo",
+            "title": "шутка, анекдот",
+            "subscrb": "скЭрцо"
+        },
+        {
+            "id": "119",
+            "name": "Ogni",
+            "title": "каждый",
+            "subscrb": "Оньи"
+        },
+        {
+            "id": "120",
+            "name": "Autista",
+            "title": "шофёр",
+            "subscrb": "аутИста"
+        },
+        {
+            "id": "121",
+            "name": "Variopinto",
+            "title": "разноцветный",
+            "subscrb": "вариопИнто"
+        },
+        {
+            "id": "122",
+            "name": "Donna medico",
+            "title": "женщина-врач",
+            "subscrb": "дОнна мЭдико"
+        },
+        {
+            "id": "123",
+            "name": "Medico",
+            "title": "врач",
+            "subscrb": "мЭдико"
+        },
+        {
+            "id": "124",
+            "name": "Insegnante",
+            "title": "учитель",
+            "subscrb": "инсеньЯнте"
+        },
+        {
+            "id": "125",
+            "name": "Insegnante (f)",
+            "title": "учительница",
+            "subscrb": "инсеньЯнте"
+        },
+        {
+            "id": "126",
+            "name": "Cucina",
+            "title": "готовить",
+            "subscrb": "кУчина"
+        },
+        {
+            "id": "127",
+            "name": "Certo",
+            "title": "конечно",
+            "subscrb": "чЭрто"
+        },
+        {
+            "id": "128",
+            "name": "Guardare",
+            "title": "осматривать, смотреть",
+            "subscrb": "гвардАре"
+        },
+        {
+            "id": "129",
+            "name": "Raccontare",
+            "title": "рассказывать",
+            "subscrb": "ракконтАре"
+        },
+        {
+            "id": "130",
+            "name": "Ricordare",
+            "title": "помнить",
+            "subscrb": "рикордАре"
+        },
+        {
+            "id": "131",
+            "name": "Sigarette",
+            "title": "сигареты",
+            "subscrb": "сирарЭтте"
+        },
+        {
+            "id": "132",
+            "name": "Infermiera",
+            "title": "медсестра",
+            "subscrb": "инфэрмИэра"
+        },
+        {
+            "id": "133",
+            "name": "Canzone",
+            "title": "песня",
+            "subscrb": "канцОне"
+        },
+        {
+            "id": "134",
+            "name": "Scrittrice",
+            "title": "писательница",
+            "subscrb": "скриттрИче"
+        },
+        {
+            "id": "135",
+            "name": "Scrittore",
+            "title": "писатель",
+            "subscrb": "скриттОре"
+        },
+        {
+            "id": "136",
+            "name": "Poliziotto",
+            "title": "полицейский",
+            "subscrb": "полицИоццо"
+        },
+        {
+            "id": "137",
+            "name": "Laborioso",
+            "title": "трудолюбивый",
+            "subscrb": "лаборИозо"
+        },
+        {
+            "id": "138",
+            "name": "Programma",
+            "title": "программа",
+            "subscrb": "прОграмма"
+        },
+        {
+            "id": "139",
+            "name": "Leggere",
+            "title": "прочитать",
+            "subscrb": "лЕдже:ре"
+        },
+        {
+            "id": "140",
+            "name": "Lavoratrice",
+            "title": "работница",
+            "subscrb": "лаворатрИче"
+        },
+        {
+            "id": "141",
+            "name": "Lavoratore",
+            "title": "рабочий",
+            "subscrb": "лаворатОре"
+        },
+        {
+            "id": "142",
+            "name": "Contadino",
+            "title": "земледелец",
+            "subscrb": "контАдйно"
+        },
+        {
+            "id": "143",
+            "name": "Parlare",
+            "title": "разговаривать",
+            "subscrb": "парлАре"
+        },
+        {
+            "id": "144",
+            "name": "Capire",
+            "title": "понимать",
+            "subscrb": "капИре"
+        },
+        {
+            "id": "145",
+            "name": "Diverso",
+            "title": "разный",
+            "subscrb": "дивЭрсо"
+        },
+        {
+            "id": "146",
+            "name": "Raramente",
+            "title": "редко",
+            "subscrb": "рарамЭнте"
+        },
+        {
+            "id": "147",
+            "name": "Parola",
+            "title": "слово",
+            "subscrb": "парОла"
+        },
+        {
+            "id": "148",
+            "name": "Incontrarsi",
+            "title": "встретиться",
+            "subscrb": "инконтрАрси"
+        },
+        {
+            "id": "149",
+            "name": "Vedersi",
+            "title": "встречаться",
+            "subscrb": "ведЕрси"
+        },
+        {
+            "id": "150",
+            "name": "Controllare",
+            "title": "проверять",
+            "subscrb": "контроллАре"
+        },
+        {
+            "id": "151",
+            "name": "Studente",
+            "title": "студент",
+            "subscrb": "студЭнте"
+        },
+        {
+            "id": "152",
+            "name": "Studentessa",
+            "title": "студентка",
+            "subscrb": "студентЭсса"
+        },
+        {
+            "id": "153",
+            "name": "Cantare",
+            "title": "петь",
+            "subscrb": "кантАре"
+        },
+        {
+            "id": "154",
+            "name": "Telefonico",
+            "title": "телефонный",
+            "subscrb": "телефО:нико"
+        },
+        {
+            "id": "155",
+            "name": "Televisione",
+            "title": "телевидение",
+            "subscrb": "телевизИоне"
+        },
+        {
+            "id": "156",
+            "name": "Adesso",
+            "title": "сейчас",
+            "subscrb": "адЭссо"
+        },
+        {
+            "id": "157",
+            "name": "Premuroso",
+            "title": "заботливый",
+            "subscrb": "прэмурОзо"
+        },
+        {
+            "id": "158",
+            "name": "Alunna",
+            "title": "ученица",
+            "subscrb": "а:лунна"
+        },
+        {
+            "id": "159",
+            "name": "Alunno",
+            "title": "ученик",
+            "subscrb": "а:лунно"
+        },
+        {
+            "id": "160",
+            "name": "Sapere",
+            "title": "уметь",
+            "subscrb": "сапЭре"
+        },
+        {
+            "id": "161",
+            "name": "Impiegata",
+            "title": "служащая",
+            "subscrb": "импьегАта"
+        },
+        {
+            "id": "162",
+            "name": "Impiegato",
+            "title": "служащий",
+            "subscrb": "импьегАто"
+        },
+        {
+            "id": "163",
+            "name": "Talentuoso",
+            "title": "талантливый",
+            "subscrb": "талентУозо"
+        },
+        {
+            "id": "164",
+            "name": "Cartolina",
+            "title": "открытка",
+            "subscrb": "картолИна"
+        },
+        {
+            "id": "165",
+            "name": "Presto",
+            "title": "скоро",
+            "subscrb": "прЭсто"
+        },
+        {
+            "id": "166",
+            "name": "Tutto",
+            "title": "всё",
+            "subscrb": "тУтто"
+        },
+        {
+            "id": "167",
+            "name": "Insegnante",
+            "title": "преподаватель",
+            "subscrb": "инсеньЯнте"
+        },
+        {
+            "id": "168",
+            "name": "Istruito",
+            "title": "образованный",
+            "subscrb": "иструИто"
+        },
+        {
+            "id": "169",
+            "name": "Compito",
+            "title": "задание",
+            "subscrb": "компИто"
+        },
+        {
+            "id": "170",
+            "name": "Fiammifero",
+            "title": "спичка",
+            "subscrb": "фьяммИферо"
+        },
+        {
+            "id": "171",
+            "name": "Cantare",
+            "title": "запеть",
+            "subscrb": "кантАре"
+        },
+        {
+            "id": "172",
+            "name": "Capace",
+            "title": "способный",
+            "subscrb": "капАче"
+        },
+        {
+            "id": "173",
+            "name": "Quaderno",
+            "title": "тетрадь",
+            "subscrb": "квадЕрно"
+        },
+        {
+            "id": "174",
+            "name": "Cattivo",
+            "title": "плохой",
+            "subscrb": "каттИво"
+        },
+        {
+            "id": "175",
+            "name": "Male",
+            "title": "плохо",
+            "subscrb": "мАле"
+        },
+        {
+            "id": "176",
+            "name": "Infermiera",
+            "title": "медсестра",
+            "subscrb": "инфэрмИэра"
+        },
+        {
+            "id": "177",
+            "name": "Buono",
+            "title": "хороший",
+            "subscrb": "бУоно"
+        },
+        {
+            "id": "178",
+            "name": "Educato",
+            "title": "вежливый",
+            "subscrb": "эдЮкaто"
+        },
+        {
+            "id": "179",
+            "name": "Sul sole",
+            "title": "про солнечные",
+            "subscrb": "суль сОле"
+        },
+        {
+            "id": "180",
+            "name": "Intelligente",
+            "title": "умный",
+            "subscrb": "интеллиджЕнте"
+        },
+        {
+            "id": "181",
+            "name": "Capace",
+            "title": "способный",
+            "subscrb": "капАче"
+        },
+        {
+            "id": "182",
+            "name": "Premuroso",
+            "title": "заботливый",
+            "subscrb": "прэмурОзо"
+        },
+        {
+            "id": "183",
+            "name": "Ambizioso",
+            "title": "честолюбивый",
+            "subscrb": "амбицИозо"
+        },
+        {
+            "id": "184",
+            "name": "Istruito",
+            "title": "образованный",
+            "subscrb": "иструИто"
+        },
+        {
+            "id": "185",
+            "name": "Igienico",
+            "title": "гигиенический",
+            "subscrb": "идьЕ:нико"
+        },
+        {
+            "id": "186",
+            "name": "Tessera telefonica",
+            "title": "телефонная карточка",
+            "subscrb": "тессЕ:ра телефО:ника"
+        },
+        {
+            "id": "187",
+            "name": "Biglietto autobus",
+            "title": "автобусный билет",
+            "subscrb": "бильЕтто аутОбус"
+        },
+        {
+            "id": "188",
+            "name": "Fazzolettino igienico",
+            "title": "гигиенический платочек",
+            "subscrb": "фадзолеттИно идьЕ:нико"
+        },
+        {
+            "id": "189",
+            "name": "Cartolina colorata",
+            "title": "цветная открытка",
+            "subscrb": "картолИна колОрата"
+        },
+        {
+            "id": "190",
+            "name": "Rivista interessante",
+            "title": "интересный журнал",
+            "subscrb": "ривИста интэрессАнте"
+        },
+        {
+            "id": "191",
+            "name": "Giornale fresco",
+            "title": "свежая газета",
+            "subscrb": "джорнАле фрЭско"
+        },
+        {
+            "id": "192",
+            "name": "Quaderno nero",
+            "title": "чёрная тетрадь",
+            "subscrb": "квадЕрно нЭро"
+        },
+        {
+            "id": "193",
+            "name": "Mi dia per favore",
+            "title": "дайте пожалуйста",
+            "subscrb": "ми дИа пер фавОре"
+        },
+        {
+            "id": "194",
+            "name": "La domenica il menù della famiglia Kowalski è così",
+            "title": "В воскресенье меню семьи Ковальских выглядит следующим образом",
+            "subscrb": "Ла домеNИка иль ме:ну делля фамИлья КовАльски э ко:Зи"
+        },
+        {
+            "id": "195",
+            "name": "A colazione Pietro, la signora Eva e Kasia Kowalski mangiano piatti diversi",
+            "title": "На завтрак там Пётр, пани Эва и Кася Ковальский едят разные блюда",
+            "subscrb": "А колаЦЦИоне ПЬЕтро, ла сИньйора Э:ва э Ка:зия КовАльски мандЖАно пЬЯтти дИВерси"
+        },
+        {
+            "id": "196",
+            "name": "Perché si alzano a orari diversi",
+            "title": "Потому что они встают в разное время",
+            "subscrb": "ПерКЕ си альца:но а ора:ри дИВерси"
+        },
+        {
+            "id": "197",
+            "name": "Eva segue una dieta",
+            "title": "Эва соблюдает диету",
+            "subscrb": "Э:ва сЕ:гу у:на дИ:эта"
+        },
+        {
+            "id": "198",
+            "name": "Marian e il signor Stanisław vivono separati",
+            "title": "Мариан и пан Станислав живут отдельно",
+            "subscrb": "Ма:риан э иль сИньйор СтанислАф ВИвоно сепаРАти"
+        },
+        {
+            "id": "199",
+            "name": "Ma a pranzo vanno dalla signora Eva",
+            "title": "Но на обед они приходят к пани Эви",
+            "subscrb": "Ма а пранцо ВАНно далля сИньйора Э:ва"
+        },
+        {
+            "id": "200",
+            "name": "Marian fa sport e cerca di mangiare solo cibi naturali",
+            "title": "Мариан занимается спортом и старается есть только натуральные полезные продукты",
+            "subscrb": "Ма:риан фа спорт э ЧЕРка ди мандЖАре СОло ЧИ:би натура:ли"
+        },
+        {
+            "id": "201",
+            "name": "A pranzo la domenica la signora Eva prepara qualche antipasto",
+            "title": "На обед в воскресенье пани Эва готовит несколько закусок",
+            "subscrb": "А пранцо ла домеNИка ла сИньйора Э:ва прЕпара кВальке антипАсто"
+        },
+        {
+            "id": "202",
+            "name": "La merenda la mangia solo Kasia",
+            "title": "Полудник ест только Кася",
+            "subscrb": "Ла ме:ренда ла мандЖА СОло Ка:зия"
+        },
+        {
+            "id": "203",
+            "name": "Marian non cena da sua madre perché la sera della domenica spesso invita amici",
+            "title": "Мариан не ест ужин у матери, поскольку вечером в воскресенье часто приглашают друзей",
+            "subscrb": "Ма:риан нон ЧЕ:на да СУА мА:дре перКЕ ла СЕ:ра делля домеNИка спЕссо инви:та аМИчи"
+        },
+        {
+            "id": "204",
+            "name": "E il signor Stanisław guarda la televisione fino alla sera e cena con la famiglia",
+            "title": "А Пан Станислав смотрит телевизор до вечера и ест ужин вместе с семьёй",
+            "subscrb": "Э иль сИньйор СтанислАф ГУарда ла телеви:зионе фИно алля СЕ:ра э ЧЕ:на кон ла фамИлья"
+        },
+        {
+            "id": "205",
+            "name": "porzione",
+            "title": "порция",
+            "subscrb": "порЦОне"
+        },
+        {
+            "id": "206",
+            "name": "servire",
+            "title": "подавать",
+            "subscrb": "серВИре"
+        },
+        {
+            "id": "207",
+            "name": "aggiungere",
+            "title": "добавить",
+            "subscrb": "адджуНДЖере"
+        },
+        {
+            "id": "208",
+            "name": "riscaldato",
+            "title": "разогретый",
+            "subscrb": "рискальДА:то"
+        },
+        {
+            "id": "209",
+            "name": "versare",
+            "title": "полить",
+            "subscrb": "верСАре"
+        },
+        {
+            "id": "210",
+            "name": "pezzo",
+            "title": "кусок",
+            "subscrb": "ПЕццо"
+        },
+        {
+            "id": "211",
+            "name": "carpa fritta",
+            "title": "жареный карп",
+            "subscrb": "КА:рпа фрИтта"
+        },
+        {
+            "id": "212",
+            "name": "pulire, lavare, tagliare a porzioni, salare il carp",
+            "title": "карпooочистить, помыть, порезать на порции, посолить",
+            "subscrb": "пуЛИре, лаВАре, тальЯ:ре а порЦИони, саЛАре иль карп"
+        },
+        {
+            "id": "213",
+            "name": "Mettere i pezzi di pesce nell’olio vegetale caldo e friggere",
+            "title": "куски рыбы класть на разогретое растительное масло и жарить",
+            "subscrb": "МЕТтере и ПЕцци ди ПЕшче нЭллио ве:джетале КА:льдо э ФРИдджере"
+        },
+        {
+            "id": "214",
+            "name": "Servire separatamente patate e insalata di verdure crude",
+            "title": "отдельно подать картофель и салат из сырых овощей",
+            "subscrb": "серВИре сепаРАтaменте паТА:те э инсаЛАта ди верДУре КРУ:де"
+        },
+        {
+            "id": "215",
+            "name": "patate bollite",
+            "title": "вареный картофель",
+            "subscrb": "паТА:те болЛИте"
+        },
+        {
+            "id": "216",
+            "name": "Pulire, lavare e tagliare le patate",
+            "title": "картофель очистить, помыть, порезать",
+            "subscrb": "пуЛИре, лаВАре э тальЯ:ре ле паТА:те"
+        },
+        {
+            "id": "217",
+            "name": "Mettere nell’acqua bollente e cuocere a fuoco vivo",
+            "title": "класть в кипящую воду, варить на сильном огне",
+            "subscrb": "МЕТтере нЭллаКВА: болЛЕНте э КВО:черe а ФУ:око ВИво"
+        },
+        {
+            "id": "218",
+            "name": "Versare olio",
+            "title": "полить маслом",
+            "subscrb": "верСАре О:лио"
+        },
+        {
+            "id": "219",
+            "name": "Servire con carne e pesce",
+            "title": "подавать к мясу и рыбе",
+            "subscrb": "серВИре кон КА:рне э ПЕшче"
+        },
+        {
+            "id": "220",
+            "name": "Insalata di verdure crude miste",
+            "title": "салат из разных сырых овощей",
+            "subscrb": "инсаЛАта ди верДУре КРУ:де МИ:сте"
+        },
+        {
+            "id": "221",
+            "name": "Lavare e pulire le verdure",
+            "title": "овощи помыть и почистить",
+            "subscrb": "лаВАре э пуЛИре ле верДУре"
+        },
+        {
+            "id": "222",
+            "name": "Tagliare a pezzi",
+            "title": "порезать на куски",
+            "subscrb": "тальЯ:ре а ПЕцци"
+        },
+        {
+            "id": "223",
+            "name": "Aggiungere olio vegetale, zucchero e salare",
+            "title": "добавить растительное масло, сахар и посолить",
+            "subscrb": "адджуНДЖере О:лио ве:джетале, ЦУ:ккеро э саЛАре"
+        },
+        {
+            "id": "224",
+            "name": "ristorante",
+            "title": "ресторан",
+            "subscrb": "ри:сторанте"
+        },
+        {
+            "id": "225",
+            "name": "bar",
+            "title": "бар",
+            "subscrb": "бар"
+        },
+        {
+            "id": "226",
+            "name": "caffè",
+            "title": "кафе",
+            "subscrb": "каффЕ"
+        },
+        {
+            "id": "227",
+            "name": "mensa",
+            "title": "столовая",
+            "subscrb": "МЕнса"
+        },
+        {
+            "id": "228",
+            "name": "conto",
+            "title": "счёт",
+            "subscrb": "КОНто"
+        },
+        {
+            "id": "229",
+            "name": "soldi",
+            "title": "деньги",
+            "subscrb": "СОЛди"
+        },
+        {
+            "id": "230",
+            "name": "resto",
+            "title": "сдача",
+            "subscrb": "РЕсто"
+        },
+        {
+            "id": "231",
+            "name": "qualcosa da bere",
+            "title": "что-нибудь из напитков",
+            "subscrb": "кВАЛкоза да БЕ:ре"
+        },
+        {
+            "id": "232",
+            "name": "per il tè",
+            "title": "на чай (букв. «на пиво»)",
+            "subscrb": "пер иль ТЕ:"
+        },
+        {
+            "id": "233",
+            "name": "Buonasera",
+            "title": "Добрый вечер",
+            "subscrb": "Бу:онаСЕ:ра"
+        },
+        {
+            "id": "234",
+            "name": "Buonasera, vorrei il menù",
+            "title": "Добрый вечер, прошу меню",
+            "subscrb": "Бу:онаСЕ:ра, ворРЕ: иль ме:ну"
+        },
+        {
+            "id": "235",
+            "name": "per favore, ascoltiamo il signore/la signora",
+            "title": "пожалуйста, слушаем пана/панно",
+            "subscrb": "пер фавО:ре, аскО:льтiamo иль сИньйоре/ла сИньйора"
+        },
+        {
+            "id": "236",
+            "name": "Buon appetito",
+            "title": "приятного аппетита",
+            "subscrb": "Бу:он аппети:то"
+        },
+        {
+            "id": "237",
+            "name": "Grazie altrettanto",
+            "title": "спасибо взаимно",
+            "subscrb": "ГРА:цце алТРЕттанто"
+        }
+    ]
+}

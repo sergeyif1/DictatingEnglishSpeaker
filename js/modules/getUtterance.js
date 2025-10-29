@@ -4,93 +4,75 @@ document.addEventListener("keydown", function (event) {
   }
 });
 
-const voiceList = document.getElementById("voiceSelect");
-
 let selectedVoiceName;
+
+const voiceList = document.getElementById("voiceSelect");
 const synth = window.speechSynthesis;
 
+// Функция для инициализации и поиска голосов
 export function voices() {
-  // защищаемся от отсутствия элемента
-  if (!voiceList) {
-    console.warn(
-      "voiceSelect element not found — пропускаем инициализацию голосов."
-    );
-    return;
-  }
-
   voiceList.innerHTML = ""; // очищаем текущие элементы
+  const availableVoices = synth.getVoices() || [];
 
-  let availableVoices = synth.getVoices() || [];
-  let defaultVoice = getDefaultVoice(availableVoices);
+  // паттерны для поиска русского голоса
+  const ruPatterns = [
+    "Google русский (ru-RU)",
+    "русский Россия (ru-RU)",
+    /[^"]*\(ru-RU\)/,
+    "(ru-RU)",
+    "ru-RU",
+  ];
 
-  // наполняем select
-  availableVoices.forEach((voice) => {
-    let option = `<option value="${voice.name}">${voice.name} (${voice.lang})</option>`;
-    voiceList.insertAdjacentHTML("beforeend", option);
-  });
-
-  // язык -> массив возможных совпадений (строки или RegExp)
-  const languageMapDefault = {
-    Ru: [
-      "русский Россия (ru-RU)",
-      " (ru-RU)",
-      /\(ru-RU\)/i,
-      "ru-RU",
-      "Russian (ru-RU)",
-    ],
-  };
-
-  // используем массив совпадений для поиска предпочтительного голоса
-  const possibleMatches = languageMapDefault.Ru;
-
-  let preferredVoice = availableVoices.find((v) => {
-    if (!v) return false;
-    const name = String(v.name || "");
-    const lang = String(v.lang || "");
-    const full = `${name} (${lang})`;
-
-    return possibleMatches.some((match) => {
-      if (Object.prototype.toString.call(match) === "[object RegExp]") {
-        return match.test(full) || match.test(name) || match.test(lang);
+  // Поиск по паттернам
+  const ruVoice = availableVoices.find((voice) => {
+    const full = `${voice.name} (${voice.lang})`;
+    return ruPatterns.some((pattern) => {
+      if (pattern instanceof RegExp) {
+        return pattern.test(full);
       }
-      if (typeof match === "string") {
-        const m = match.trim().toLowerCase();
-        return (
-          name.toLowerCase().includes(m) ||
-          lang.toLowerCase() === m ||
-          full.toLowerCase().includes(m)
-        );
-      }
-      return false;
+      return full.includes(pattern);
     });
   });
 
-  if (preferredVoice) {
-    voiceList.value = preferredVoice.name;
-  } else if (defaultVoice) {
-    voiceList.value = defaultVoice.name;
-  } else if (availableVoices.length > 0) {
-    // фоллбек на первый
-    voiceList.value = availableVoices[0].name;
-    console.warn("Нет предпочтительного голоса — выбран первый доступный.");
-  } else {
-    console.log("Нет доступного голоса для выбора по умолчанию");
-  }
-}
-
-function getDefaultVoice(voices) {
-  if (!Array.isArray(voices) || voices.length === 0) return undefined;
-
-  // корректно ищем "ru-RU" или "en-US" по коду языка (без скобок)
-  return voices.find((voice) => {
-    const lang = String(voice.lang || "").toLowerCase();
-    return (
-      lang.includes("ru-ru") ||
-      lang.includes("en-us") ||
-      lang.startsWith("ru-ru")
-    );
+  // 2️⃣ Только потом наполняем select
+  availableVoices.forEach((voice) => {
+    const option = `<option value="${voice.name}">${voice.name} (${voice.lang})</option>`;
+    voiceList.insertAdjacentHTML("beforeend", option);
   });
+
+  // 3️⃣ Устанавливаем значение
+  if (ruVoice) {
+    voiceList.value = ruVoice.name;
+    console.log(
+      `✅ Установлен русский голос: ${ruVoice.name} (${ruVoice.lang})`
+    );
+  } else {
+    // Если русский не найден - проверяем голос по умолчанию
+    const defaultVoice = availableVoices.find((voice) => voice.default);
+
+    if (defaultVoice) {
+      voiceList.value = defaultVoice.name;
+      console.log(
+        `ℹ️ Используется системный голос по умолчанию: ${defaultVoice.name} (${defaultVoice.lang})`
+      );
+    } else if (availableVoices.length > 0) {
+      voiceList.value = availableVoices[0].name;
+      console.warn(
+        `⚠️ Используется первый доступный голос: ${availableVoices[0].name}`
+      );
+    }
+  }
+
+  return {
+    availableVoices,
+    selectedVoice:
+      ruVoice || availableVoices.find((v) => v.default) || availableVoices[0],
+    voiceList,
+  };
 }
+
+// Регистрируем обработчик загрузки голосов
+synth.onvoiceschanged = voices;
 
 const voicePlay = {
   getUtterance: function (text, language, currentButton1) {
@@ -134,6 +116,12 @@ const voicePlay = {
           /[^"]*\(de-DE\)/,
           "Google Deutsch (de-DE)",
         ],
+        It: [
+          "italiano Italia (it-IT)",
+          "(it-IT)",
+          /[^"]*\(it-IT\)/,
+          "Google italiano (it-IT)",
+        ],
       };
 
       const possibleMatches = languageMap[language] || [];
@@ -165,6 +153,7 @@ const voicePlay = {
           Pl: ["pl-PL", "pl"],
           Gr: ["el-GR", "el"],
           Du: ["de-DE", "de"],
+          It: ["it-IT", "it"],
         };
 
         const prefixes = langPrefixMap[language] || [];
@@ -271,6 +260,7 @@ const voicePlay = {
 // обработка событий выбора голоса
 voiceList.addEventListener("change", function () {
   selectedVoiceName = voiceList.value;
+  console.log(`Выбран голос: ${selectedVoiceName}`);
 });
 
 export default voicePlay;

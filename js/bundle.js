@@ -140,9 +140,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 document.addEventListener("keydown", function (event) {
-  if (event.key === "Enter") {
-    event.preventDefault();
-  }
+  //   if (event.key === "Enter") {
+  //     event.preventDefault();
+  //   }
 });
 
 // window.speechSynthesis.cancel();
@@ -322,70 +322,63 @@ document.addEventListener("keydown", function (event) {
     event.preventDefault();
   }
 });
-var voiceList = document.getElementById("voiceSelect");
 var selectedVoiceName;
+var voiceList = document.getElementById("voiceSelect");
 var synth = window.speechSynthesis;
+
+// Функция для инициализации и поиска голосов
 function voices() {
-  // защищаемся от отсутствия элемента
-  if (!voiceList) {
-    console.warn("voiceSelect element not found — пропускаем инициализацию голосов.");
-    return;
-  }
   voiceList.innerHTML = ""; // очищаем текущие элементы
-
   var availableVoices = synth.getVoices() || [];
-  var defaultVoice = getDefaultVoice(availableVoices);
 
-  // наполняем select
+  // паттерны для поиска русского голоса
+  var ruPatterns = ["Google русский (ru-RU)", "русский Россия (ru-RU)", /[^"]*\(ru-RU\)/, "(ru-RU)", "ru-RU"];
+
+  // Поиск по паттернам
+  var ruVoice = availableVoices.find(function (voice) {
+    var full = "".concat(voice.name, " (").concat(voice.lang, ")");
+    return ruPatterns.some(function (pattern) {
+      if (pattern instanceof RegExp) {
+        return pattern.test(full);
+      }
+      return full.includes(pattern);
+    });
+  });
+
+  // 2️⃣ Только потом наполняем select
   availableVoices.forEach(function (voice) {
     var option = "<option value=\"".concat(voice.name, "\">").concat(voice.name, " (").concat(voice.lang, ")</option>");
     voiceList.insertAdjacentHTML("beforeend", option);
   });
 
-  // язык -> массив возможных совпадений (строки или RegExp)
-  var languageMapDefault = {
-    Ru: ["русский Россия (ru-RU)", " (ru-RU)", /\(ru-RU\)/i, "ru-RU", "Russian (ru-RU)"]
-  };
-
-  // используем массив совпадений для поиска предпочтительного голоса
-  var possibleMatches = languageMapDefault.Ru;
-  var preferredVoice = availableVoices.find(function (v) {
-    if (!v) return false;
-    var name = String(v.name || "");
-    var lang = String(v.lang || "");
-    var full = "".concat(name, " (").concat(lang, ")");
-    return possibleMatches.some(function (match) {
-      if (Object.prototype.toString.call(match) === "[object RegExp]") {
-        return match.test(full) || match.test(name) || match.test(lang);
-      }
-      if (typeof match === "string") {
-        var m = match.trim().toLowerCase();
-        return name.toLowerCase().includes(m) || lang.toLowerCase() === m || full.toLowerCase().includes(m);
-      }
-      return false;
-    });
-  });
-  if (preferredVoice) {
-    voiceList.value = preferredVoice.name;
-  } else if (defaultVoice) {
-    voiceList.value = defaultVoice.name;
-  } else if (availableVoices.length > 0) {
-    // фоллбек на первый
-    voiceList.value = availableVoices[0].name;
-    console.warn("Нет предпочтительного голоса — выбран первый доступный.");
+  // 3️⃣ Устанавливаем значение
+  if (ruVoice) {
+    voiceList.value = ruVoice.name;
+    console.log("\u2705 \u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D \u0440\u0443\u0441\u0441\u043A\u0438\u0439 \u0433\u043E\u043B\u043E\u0441: ".concat(ruVoice.name, " (").concat(ruVoice.lang, ")"));
   } else {
-    console.log("Нет доступного голоса для выбора по умолчанию");
+    // Если русский не найден - проверяем голос по умолчанию
+    var defaultVoice = availableVoices.find(function (voice) {
+      return voice["default"];
+    });
+    if (defaultVoice) {
+      voiceList.value = defaultVoice.name;
+      console.log("\u2139\uFE0F \u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442\u0441\u044F \u0441\u0438\u0441\u0442\u0435\u043C\u043D\u044B\u0439 \u0433\u043E\u043B\u043E\u0441 \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E: ".concat(defaultVoice.name, " (").concat(defaultVoice.lang, ")"));
+    } else if (availableVoices.length > 0) {
+      voiceList.value = availableVoices[0].name;
+      console.warn("\u26A0\uFE0F \u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442\u0441\u044F \u043F\u0435\u0440\u0432\u044B\u0439 \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u044B\u0439 \u0433\u043E\u043B\u043E\u0441: ".concat(availableVoices[0].name));
+    }
   }
+  return {
+    availableVoices: availableVoices,
+    selectedVoice: ruVoice || availableVoices.find(function (v) {
+      return v["default"];
+    }) || availableVoices[0],
+    voiceList: voiceList
+  };
 }
-function getDefaultVoice(voices) {
-  if (!Array.isArray(voices) || voices.length === 0) return undefined;
 
-  // корректно ищем "ru-RU" или "en-US" по коду языка (без скобок)
-  return voices.find(function (voice) {
-    var lang = String(voice.lang || "").toLowerCase();
-    return lang.includes("ru-ru") || lang.includes("en-us") || lang.startsWith("ru-ru");
-  });
-}
+// Регистрируем обработчик загрузки голосов
+synth.onvoiceschanged = voices;
 var voicePlay = {
   getUtterance: function getUtterance(text, language, currentButton1) {
     var rate = document.getElementById("speed").value;
@@ -406,7 +399,8 @@ var voicePlay = {
         En: ["английский Соединенные Штаты (en-US)", "(en-US)", /[^"]*\(en-US\)/, "Google US English (en-US)"],
         Pl: ["польский Польша (pl-PL)", "(pl-PL)", /[^"]*\(pl-PL\)/, "Google polski (pl-PL)"],
         Gr: ["греческий Греция (el-GR)", "(el-GR)", /[^"]*\(el-GR\)/, "Greek (el-GR)"],
-        Du: ["немецкий Германия (de-DE)", "(de-DE)", /[^"]*\(de-DE\)/, "Google Deutsch (de-DE)"]
+        Du: ["немецкий Германия (de-DE)", "(de-DE)", /[^"]*\(de-DE\)/, "Google Deutsch (de-DE)"],
+        It: ["italiano Italia (it-IT)", "(it-IT)", /[^"]*\(it-IT\)/, "Google italiano (it-IT)"]
       };
       var possibleMatches = languageMap[language] || [];
 
@@ -430,7 +424,8 @@ var voicePlay = {
           En: ["en-US", "en-GB", "en"],
           Pl: ["pl-PL", "pl"],
           Gr: ["el-GR", "el"],
-          Du: ["de-DE", "de"]
+          Du: ["de-DE", "de"],
+          It: ["it-IT", "it"]
         };
         var prefixes = langPrefixMap[language] || [];
         selectedVoice = availableVoices.find(function (v) {
@@ -508,6 +503,7 @@ var voicePlay = {
 // обработка событий выбора голоса
 voiceList.addEventListener("change", function () {
   selectedVoiceName = voiceList.value;
+  console.log("\u0412\u044B\u0431\u0440\u0430\u043D \u0433\u043E\u043B\u043E\u0441: ".concat(selectedVoiceName));
 });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (voicePlay);
 
@@ -1504,6 +1500,10 @@ var dictMap = {
   "Plskie słownictwo": {
     code: "Pl",
     url: "/dbPl.json"
+  },
+  "Italiano dizionario": {
+    code: "It",
+    url: "/dbIt.json"
   }
 };
 
@@ -1512,7 +1512,8 @@ var checkboxValueToCode = {
   1: "En",
   2: "Pl",
   3: "Gr",
-  4: "De"
+  4: "De",
+  5: "It"
 };
 
 // --- Обновление чекбоксов ---
@@ -4309,6 +4310,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+(0,_modules_getUtterance_js__WEBPACK_IMPORTED_MODULE_3__.voices)();
 
 //запуск с обновлением списка доступных голосов
 window.speechSynthesis.onvoiceschanged = _modules_getUtterance_js__WEBPACK_IMPORTED_MODULE_3__.voices;
