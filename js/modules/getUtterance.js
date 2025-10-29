@@ -16,9 +16,9 @@ export function voices() {
 
   // паттерны для поиска русского голоса
   const ruPatterns = [
-    "Google русский (ru-RU)",
     "русский Россия (ru-RU)",
     /[^"]*\(ru-RU\)/,
+    "Google русский (ru-RU)",
     "(ru-RU)",
     "ru-RU",
   ];
