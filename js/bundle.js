@@ -332,7 +332,7 @@ function voices() {
   var availableVoices = synth.getVoices() || [];
 
   // паттерны для поиска русского голоса
-  var ruPatterns = ["русский Россия (ru-RU)", /[^"]*\(ru-RU\)/, "Google русский (ru-RU)", "(ru-RU)", "ru-RU"];
+  var ruPatterns = ["русский Россия (ru-RU)", "(ru-RU)", /[^"]*\(ru-RU\)/, "Google русский (ru-RU)", "ru-RU"];
 
   // Поиск по паттернам
   var ruVoice = availableVoices.find(function (voice) {
