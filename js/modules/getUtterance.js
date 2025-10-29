@@ -110,17 +110,17 @@ const voicePlay = {
           /[^"]*\(el-GR\)/,
           "Greek (el-GR)",
         ],
-        Du: [
-          "немецкий Германия (de-DE)",
-          "(de-DE)",
-          /[^"]*\(de-DE\)/,
-          "Google Deutsch (de-DE)",
-        ],
         It: [
           "italiano Italia (it-IT)",
           "(it-IT)",
           /[^"]*\(it-IT\)/,
           "Google italiano (it-IT)",
+        ],
+        Du: [
+          "немецкий Германия (de-DE)",
+          "(de-DE)",
+          /[^"]*\(de-DE\)/,
+          "Google Deutsch (de-DE)",
         ],
       };
 
@@ -152,8 +152,8 @@ const voicePlay = {
           En: ["en-US", "en-GB", "en"],
           Pl: ["pl-PL", "pl"],
           Gr: ["el-GR", "el"],
-          Du: ["de-DE", "de"],
           It: ["it-IT", "it"],
+          Du: ["de-DE", "de"],
         };
 
         const prefixes = langPrefixMap[language] || [];
