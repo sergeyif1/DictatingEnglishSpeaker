@@ -103,7 +103,7 @@ const voicePlay = {
         Pl: ["польский Польша", "(pl-PL)", /[^"]*\(pl-PL\)/, "Google polski"],
         Gr: ["греческий Греция", "(el-GR)", /[^"]*\(el-GR\)/, "Greek"],
         It: [
-          "italiano Italia ",
+          "итальянский Италия",
           "(it-IT)",
           /[^"]*\(it-IT\)/,
           "Google italiano",
