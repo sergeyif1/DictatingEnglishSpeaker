@@ -15,6 +15,7 @@ let currentButton1;
 
 const buttonsClickHandlerPlay = {
   handleClick1: function (event) {
+    event.preventDefault();
     const target = event.target;
     currentButton1 = target.id;
 
