@@ -422,13 +422,15 @@ body #countdown {
     border-radius: 16px;
   }
 
-  .wrapper.minimal-ui form .row textarea,
+  .wrapper.minimal-ui form .row textarea {
+    height: 150px;
+  }
+
   .wrapper.minimal-ui .form-properties input,
   .wrapper.minimal-ui select,
   .wrapper.minimal-ui .form-point,
   .wrapper.minimal-ui .form-pointN,
   .wrapper.minimal-ui .textareas textarea {
-    height: 150px;
     background-color: #ffffff !important;
     color: #1e1e1e !important;
     border: 1px solid #dcdcdc !important;
