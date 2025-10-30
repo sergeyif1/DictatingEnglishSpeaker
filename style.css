@@ -67,6 +67,7 @@ form .form-pitch label,
 form .row textarea {
   resize: none;
   width: 100%;
+  height: 150px;
   background-color: rgb(157, 150, 46);
   background-size: cover;
   background-position: center;
@@ -427,6 +428,7 @@ body #countdown {
   .wrapper.minimal-ui .form-point,
   .wrapper.minimal-ui .form-pointN,
   .wrapper.minimal-ui .textareas textarea {
+    height: 150px;
     background-color: #ffffff !important;
     color: #1e1e1e !important;
     border: 1px solid #dcdcdc !important;
