@@ -12,67 +12,68 @@ const synth = window.speechSynthesis;
 // Функция для инициализации и поиска голосов
 export function voices() {
   voiceList.innerHTML = ""; // очищаем текущие элементы
-  const availableVoices = synth.getVoices() || [];
 
-  // паттерны для поиска русского голоса
-  const ruPatterns = [
-    "русский Россия (ru-RU)",
-    "(ru-RU)",
-    /[^"]*\(ru-RU\)/,
-    "Google русский (ru-RU)",
-    "ru-RU",
-  ];
+  function populateVoiceList() {
+    const availableVoices = synth.getVoices() || [];
+    console.log("🎙️ Найдено голосов:", availableVoices.length, availableVoices);
 
-  // Поиск по паттернам
-  const ruVoice = availableVoices.find((voice) => {
-    const full = `${voice.name} (${voice.lang})`;
-    return ruPatterns.some((pattern) => {
-      if (pattern instanceof RegExp) {
-        return pattern.test(full);
-      }
-      return full.includes(pattern);
-    });
-  });
-
-  // 2️⃣ Только потом наполняем select
-  availableVoices.forEach((voice) => {
-    const option = `<option value="${voice.name}">${voice.name} (${voice.lang})</option>`;
-    voiceList.insertAdjacentHTML("beforeend", option);
-  });
-
-  // 3️⃣ Устанавливаем значение
-  if (ruVoice) {
-    voiceList.value = ruVoice.name;
-    console.log(
-      `✅ Установлен русский голос: ${ruVoice.name} (${ruVoice.lang})`
-    );
-  } else {
-    // Если русский не найден - проверяем голос по умолчанию
-    const defaultVoice = availableVoices.find((voice) => voice.default);
-
-    if (defaultVoice) {
-      voiceList.value = defaultVoice.name;
-      console.log(
-        `ℹ️ Используется системный голос по умолчанию: ${defaultVoice.name} (${defaultVoice.lang})`
-      );
-    } else if (availableVoices.length > 0) {
-      voiceList.value = availableVoices[0].name;
-      console.warn(
-        `⚠️ Используется первый доступный голос: ${availableVoices[0].name}`
-      );
+    if (availableVoices.length === 0) {
+      console.warn("⚠️ Список голосов пуст. Ожидание загрузки...");
+      return;
     }
+
+    // 🎯 Паттерны для русского голоса (в порядке приоритета)
+    const ruPatterns = [
+      "Google русский", // приоритетный
+      "русский Россия (ru-RU)",
+      "Microsoft Irina", // резервный пример
+      "ru-RU",
+      "Русский (Россия)",
+    ];
+
+    // 🔍 Поиск с приоритетом: берём первый найденный по паттернам
+    let ruVoice = null;
+    for (const pattern of ruPatterns) {
+      ruVoice = availableVoices.find(
+        (voice) => voice.name.includes(pattern) || voice.lang.includes(pattern)
+      );
+      if (ruVoice) break;
+    }
+
+    // 🧾 Отладочная информация
+    if (ruVoice) {
+      console.log(`✅ Найден русский голос: ${ruVoice.name} (${ruVoice.lang})`);
+    } else {
+      console.warn("⚠️ Русский голос не найден!");
+    }
+
+    // 🪣 Заполняем select списком голосов
+    voiceList.innerHTML = "";
+    availableVoices.forEach((voice) => {
+      const option = document.createElement("option");
+      option.textContent = `${voice.name} (${voice.lang})`;
+      option.value = voice.name;
+
+      // выделяем выбранный по приоритету
+      if (ruVoice && voice.name === ruVoice.name) {
+        option.selected = true;
+      }
+
+      voiceList.appendChild(option);
+    });
+
+    // 💾 Возвращаем найденный голос для дальнейшего использования
+    return ruVoice;
   }
 
-  return {
-    availableVoices,
-    selectedVoice:
-      ruVoice || availableVoices.find((v) => v.default) || availableVoices[0],
-    voiceList,
-  };
-}
+  // 🕓 Если голоса уже загружены — сразу вызываем populateVoiceList()
+  if (synth.getVoices().length > 0) {
+    return populateVoiceList();
+  }
 
-// Регистрируем обработчик загрузки голосов
-synth.onvoiceschanged = voices;
+  // ⏳ Иначе ждём, пока сработает событие voiceschanged
+  synth.onvoiceschanged = populateVoiceList;
+}
 
 const voicePlay = {
   getUtterance: function (text, language, currentButton1) {
