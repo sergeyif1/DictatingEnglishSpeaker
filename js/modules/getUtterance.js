@@ -95,34 +95,24 @@ const voicePlay = {
     if (language && currentButton1 === "but1") {
       const languageMap = {
         En: [
-          "английский Соединенные Штаты (en-US)",
+          "английский Соединенные Штаты",
           "(en-US)",
           /[^"]*\(en-US\)/,
-          "Google US English (en-US)",
+          "Google US English",
         ],
-        Pl: [
-          "польский Польша (pl-PL)",
-          "(pl-PL)",
-          /[^"]*\(pl-PL\)/,
-          "Google polski (pl-PL)",
-        ],
-        Gr: [
-          "греческий Греция (el-GR)",
-          "(el-GR)",
-          /[^"]*\(el-GR\)/,
-          "Greek (el-GR)",
-        ],
+        Pl: ["польский Польша", "(pl-PL)", /[^"]*\(pl-PL\)/, "Google polski"],
+        Gr: ["греческий Греция", "(el-GR)", /[^"]*\(el-GR\)/, "Greek"],
         It: [
-          "italiano Italia (it-IT)",
+          "italiano Italia ",
           "(it-IT)",
           /[^"]*\(it-IT\)/,
-          "Google italiano (it-IT)",
+          "Google italiano",
         ],
         Du: [
-          "немецкий Германия (de-DE)",
+          "немецкий Германия",
           "(de-DE)",
           /[^"]*\(de-DE\)/,
-          "Google Deutsch (de-DE)",
+          "Google Deutsch",
         ],
       };
 
