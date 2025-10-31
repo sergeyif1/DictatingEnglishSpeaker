@@ -309,7 +309,7 @@ body #countdown {
 
 /* Отличия для таймера */
 body .timer {
-  top: 807px;
+  top: 849px;
   background-color: rgba(186, 183, 181, 0);
   /* прозрачный фон */
   color: rgb(255, 230, 250);
