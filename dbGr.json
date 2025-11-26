@@ -4,2460 +4,2453 @@
       "id": "1",
       "name": "λεωφορείο",
       "title": "автобус",
-      "subscrb": "леофорéо",
+      "subscrb": "леофорИо",
       "language": "Gr"
     },
     {
       "id": "2",
       "name": "πολύ",
       "title": "очень",
-      "subscrb": "полý",
+      "subscrb": "полИ",
       "language": "Gr"
     },
     {
       "id": "3",
-      "name": "λευκός",
+      "name": "άσπρος",
       "title": "белый",
-      "subscrb": "левкóс",
+      "subscrb": "Аспрос",
       "language": "Gr"
     },
     {
       "id": "4",
-      "name": "λευκή",
+      "name": "άσπρη",
       "title": "белая",
-      "subscrb": "левкí",
+      "subscrb": "Аспри",
       "language": "Gr"
     },
     {
       "id": "5",
-      "name": "λευκό",
+      "name": "άσπρο",
       "title": "белое",
-      "subscrb": "левкó",
+      "subscrb": "Аспро",
       "language": "Gr"
     },
     {
       "id": "6",
       "name": "τραπέζι",
       "title": "стол",
-      "subscrb": "трапéзи",
+      "subscrb": "трапЕзи",
       "language": "Gr"
     },
     {
       "id": "7",
       "name": "πλούσιος",
       "title": "богатый",
-      "subscrb": "плýсиос",
+      "subscrb": "плУсиос",
       "language": "Gr"
     },
     {
       "id": "8",
-      "name": "καφετί",
+      "name": "καφέ",
       "title": "коричневый",
-      "subscrb": "кафéти",
+      "subscrb": "кафЭ",
       "language": "Gr"
     },
     {
       "id": "9",
       "name": "γλυκό",
-      "title": "пироженое",
-      "subscrb": "гликó",
+      "title": "пирожное",
+      "subscrb": "гликО",
       "language": "Gr"
     },
     {
       "id": "10",
       "name": "μαύρος",
       "title": "чёрный",
-      "subscrb": "мáврос",
+      "subscrb": "мАврос",
       "language": "Gr"
     },
     {
       "id": "11",
       "name": "κόκκινος",
       "title": "красный",
-      "subscrb": "кóкинос",
+      "subscrb": "кОкинос",
       "language": "Gr"
     },
     {
       "id": "12",
       "name": "μέρος",
       "title": "часть",
-      "subscrb": "мéрос",
+      "subscrb": "мЕрос",
       "language": "Gr"
     },
     {
       "id": "13",
-      "name": "ποιος, ποια, ποιο",
+      "name": "τίνος",
       "title": "чей, чья, чьё",
-      "subscrb": "пóйос, пoйа, пoйо",
+      "subscrb": "тИнос",
       "language": "Gr"
     },
     {
       "id": "14",
-      "name": "δρυς / δρυός",
+      "name": "βελανιδιά",
       "title": "дуб",
-      "subscrb": "дрис / дрисós",
+      "subscrb": "веланидЬЯ:",
       "language": "Gr"
     },
     {
       "id": "15",
       "name": "επιδόρπιο",
       "title": "десерт",
-      "subscrb": "эпидóрпио",
+      "subscrb": "эпидОрпио",
       "language": "Gr"
     },
     {
       "id": "16",
       "name": "παγωτό",
       "title": "мороженое",
-      "subscrb": "паготó",
+      "subscrb": "паготО",
       "language": "Gr"
     },
     {
       "id": "17",
       "name": "καλός",
       "title": "хороший",
-      "subscrb": "калóс",
+      "subscrb": "калОс",
       "language": "Gr"
     },
     {
       "id": "18",
       "name": "σπίτι",
       "title": "дом",
-      "subscrb": "σπίти",
+      "subscrb": "спИти",
       "language": "Gr"
     },
     {
       "id": "19",
       "name": "μεγάλος",
       "title": "большой",
-      "subscrb": "мегáлос",
+      "subscrb": "мегАлос",
       "language": "Gr"
     },
     {
       "id": "20",
       "name": "μαρμελάδα",
       "title": "варенье",
-      "subscrb": "мармелáда",
+      "subscrb": "мармелАдa",
       "language": "Gr"
     },
     {
       "id": "21",
-      "name": "ημέρα",
+      "name": "μέρα",
       "title": "день",
-      "subscrb": "имéра",
+      "subscrb": "мЕра",
       "language": "Gr"
     },
     {
       "id": "22",
       "name": "μπλε",
       "title": "синий",
-      "subscrb": "блe",
+      "subscrb": "блЕ (с носовым «мб»)",
       "language": "Gr"
     },
     {
       "id": "23",
       "name": "διάθεση",
       "title": "настроение",
-      "subscrb": "дíαθеси",
+      "subscrb": "δИатеси (дЬИAтеси)",
       "language": "Gr"
     },
     {
       "id": "24",
-      "name": "ενδιαφέρον",
+      "name": "ενδιαφέρων",
       "title": "интересный",
-      "subscrb": "эндиафэрóн",
+      "subscrb": "ендияфЭрон (эндьяфЭрон)",
       "language": "Gr"
     },
     {
       "id": "25",
-      "name": "ποιος/ποια/ποιο",
+      "name": "τι",
       "title": "какой, какая, какое",
-      "subscrb": "пóйос / пoйа / пoйо",
+      "subscrb": "тИ",
       "language": "Gr"
     },
     {
       "id": "26",
       "name": "γλώσσα",
       "title": "язык",
-      "subscrb": "γлóсса",
-      "language": "Gr",
+      "subscrb": "γлОсса (глОсса, слегка носовое «гл~»)",
       "language": "Gr"
     },
     {
       "id": "27",
       "name": "βιβλίο",
       "title": "книга",
-      "subscrb": "вивлíо",
-      "language": "Gr",
+      "subscrb": "вивлИо",
       "language": "Gr"
     },
     {
       "id": "28",
-      "name": "φλιτζάνι",
+      "name": "κούπα",
       "title": "чашка",
-      "subscrb": "флиτзáни",
-      "language": "Gr",
+      "subscrb": "кУпа",
       "language": "Gr"
     },
     {
       "id": "29",
       "name": "όμορφος",
       "title": "красивый",
-      "subscrb": "óморфос",
-      "language": "Gr",
+      "subscrb": "Оморфос",
       "language": "Gr"
     },
     {
       "id": "30",
       "name": "πόλη",
       "title": "город",
-      "subscrb": "пóли",
-      "language": "Gr",
+      "subscrb": "пОли",
       "language": "Gr"
     },
     {
       "id": "31",
       "name": "μήνας",
       "title": "месяц",
-      "subscrb": "мíнас",
-      "language": "Gr",
+      "subscrb": "мИнaс",
       "language": "Gr"
     },
     {
       "id": "32",
       "name": "νέος",
       "title": "молодой",
-      "subscrb": "нéос",
-      "language": "Gr",
+      "subscrb": "нЭос",
       "language": "Gr"
     },
     {
       "id": "33",
-      "name": "μου / δικός μου и т.п.",
+      "name": "δικός μου",
       "title": "мой, моя, моё",
-      "subscrb": "му / ди́кос му",
-      "language": "Gr",
+      "subscrb": "дикОс му",
       "language": "Gr"
     },
     {
       "id": "34",
       "name": "θάλασσα",
       "title": "море",
-      "subscrb": "θáласса",
+      "subscrb": "θАласа (тhАласа)",
       "language": "Gr"
     },
     {
       "id": "35",
       "name": "μύγα",
       "title": "муха",
-      "subscrb": "мýга",
+      "subscrb": "мИγa",
       "language": "Gr"
     },
     {
       "id": "36",
       "name": "επόμενος",
       "title": "следующий",
-      "subscrb": "эпóменос",
+      "subscrb": "эпОменос",
       "language": "Gr"
     },
     {
       "id": "37",
-      "name": "μας / δικός μας и т.п.",
-      "title": "наш, нашего, наши",
-      "subscrb": "мас / ди́кос мас",
+      "name": "δικός μας",
+      "title": "наш, наша, наши",
+      "subscrb": "дикОс мас",
       "language": "Gr"
     },
     {
       "id": "38",
-      "name": "ονομάζομαι",
+      "name": "λέγομαι",
       "title": "называться",
-      "subscrb": "ономáзоме",
+      "subscrb": "лЕγоме (лЕγоме)",
       "language": "Gr"
     },
     {
       "id": "39",
       "name": "γαλάζιος",
       "title": "голубой",
-      "subscrb": "γалáзйос",
+      "subscrb": "галАзйос (галАзьйос)",
       "language": "Gr"
     },
     {
       "id": "40",
       "name": "χαμηλός",
       "title": "низкий",
-      "subscrb": "χαмилóс",
+      "subscrb": "хамилОс",
       "language": "Gr"
     },
     {
       "id": "41",
-      "name": "καινούριος",
+      "name": "καινούργιος",
       "title": "новый",
-      "subscrb": "кенури́ос",
+      "subscrb": "кенУрйос (кенУрьйос)",
       "language": "Gr"
     },
     {
       "id": "42",
       "name": "κύριε",
       "title": "обращение к мужчине",
-      "subscrb": "кýрие",
+      "subscrb": "кИрие",
       "language": "Gr"
     },
     {
       "id": "43",
       "name": "κυρία",
       "title": "обращение к женщине",
-      "subscrb": "кýриа",
+      "subscrb": "кирИа",
       "language": "Gr"
     },
     {
       "id": "44",
       "name": "σκύλος",
       "title": "собака",
-      "subscrb": "скýлос",
+      "subscrb": "скИлос",
       "language": "Gr"
     },
     {
       "id": "45",
       "name": "σκυλάκια",
       "title": "собачки",
-      "subscrb": "скυλáκια",
+      "subscrb": "скилАκια (скилАкья)",
       "language": "Gr"
     },
     {
       "id": "46",
       "name": "δωμάτιο",
       "title": "комната",
-      "subscrb": "домáтио",
+      "subscrb": "домАтио",
       "language": "Gr"
     },
     {
       "id": "47",
-      "name": "πολωνικά",
+      "name": "πολωνικός",
       "title": "польский",
-      "subscrb": "полоникá",
+      "subscrb": "полоникОс",
       "language": "Gr"
     },
     {
       "id": "48",
       "name": "όμορφος",
-      "title": "красивый о мужчине",
-      "subscrb": "óморфос",
+      "title": "красивый (о мужчине)",
+      "subscrb": "Óморфос",
       "language": "Gr"
     },
     {
       "id": "49",
       "name": "αδελφή",
       "title": "сестра",
-      "subscrb": "аделфí",
+      "subscrb": "адэлФИ:",
       "language": "Gr"
     },
     {
       "id": "50",
-      "name": "παλαιός",
+      "name": "γέρος",
       "title": "старый",
-      "subscrb": "палейос",
+      "subscrb": "ЙЕрос",
       "language": "Gr"
     },
     {
       "id": "51",
       "name": "γιορτή",
       "title": "праздник",
-      "subscrb": "γйортí",
+      "subscrb": "йортИ:",
       "language": "Gr"
     },
     {
       "id": "52",
       "name": "φρέσκος",
       "title": "свежий",
-      "subscrb": "φрéскос",
+      "subscrb": "ФРЭскос",
       "language": "Gr"
     },
     {
       "id": "53",
       "name": "συμπαθητικός",
       "title": "симпатичный",
-      "subscrb": "симпатитикóс",
+      "subscrb": "симпатитикОс",
       "language": "Gr"
     },
     {
       "id": "54",
-      "name": "των ονείρων",
+      "name": "όνειρα",
       "title": "снов",
-      "subscrb": "тон они́рон",
+      "subscrb": "Онирa",
       "language": "Gr"
     },
     {
       "id": "55",
       "name": "εκείνος, εκείνη, εκείνο",
       "title": "тот, та, то",
-      "subscrb": "экíнос, экíни, экíно",
+      "subscrb": "экИ:нос / экИ:ни / экИ:но",
       "language": "Gr"
     },
     {
       "id": "56",
       "name": "αυτός, αυτή, αυτό",
       "title": "это, эта, это",
-      "subscrb": "аутс, аутí, аутó",
+      "subscrb": "афТОс / афТÍ: / афТО",
       "language": "Gr"
     },
     {
       "id": "57",
       "name": "επίσης",
       "title": "тоже",
-      "subscrb": "эпи́сис",
+      "subscrb": "эпИсис",
       "language": "Gr"
     },
     {
       "id": "58",
-      "name": "σου / δικός σου и т.п.",
+      "name": "δικός σου / δική σου / δικό σου",
       "title": "твой, твоя, твоё",
-      "subscrb": "су / ди́кос су",
+      "subscrb": "дикОс су / дикИ: су / дикО су",
       "language": "Gr"
     },
     {
       "id": "59",
-      "name": "σας / δικός σας и т.п.",
+      "name": "δικός σας / δική σας / δικό σας",
       "title": "ваш, ваша, ваше",
-      "subscrb": "сас / ди́кос сас",
+      "subscrb": "дикОс сас / дикИ: сас / дикО сас",
       "language": "Gr"
     },
     {
       "id": "60",
-      "name": "ήταν εντάξει",
-      "title": "вышел о’кей",
-      "subscrb": "иˈтэн энтáкси",
+      "name": "όλα καλά",
+      "title": "вышел о'кей",
+      "subscrb": "Ола калА",
       "language": "Gr"
     },
     {
       "id": "61",
       "name": "μαθήματα",
       "title": "занятия",
-      "subscrb": "мадхíмата",
+      "subscrb": "махИмата",
       "language": "Gr"
     },
     {
       "id": "62",
       "name": "δόντι",
       "title": "зуб",
-      "subscrb": "дóнти",
+      "subscrb": "ДОНди",
       "language": "Gr"
     },
     {
       "id": "63",
       "name": "πράσινος",
       "title": "зелёный",
-      "subscrb": "прáсинос",
+      "subscrb": "ПРАсинос",
       "language": "Gr"
     },
     {
       "id": "64",
       "name": "γη",
       "title": "земля",
-      "subscrb": "γи",
+      "subscrb": "йИ:",
       "language": "Gr"
     },
     {
       "id": "65",
       "name": "κίτρινος",
       "title": "жёлтый",
-      "subscrb": "κíтринос",
+      "subscrb": "КИтринос",
       "language": "Gr"
     },
     {
       "id": "66",
-      "name": "γειά σας",
+      "name": "γεια σας",
       "title": "здравствуйте",
-      "subscrb": "йa сas",
+      "subscrb": "ЙА сас",
       "language": "Gr"
     },
     {
       "id": "67",
-      "name": "καλό μεσημέρι",
+      "name": "καλημέρα",
       "title": "Добрый день",
-      "subscrb": "калó мезимéри",
+      "subscrb": "калимЕра",
       "language": "Gr"
     },
     {
       "id": "68",
       "name": "καλησπέρα",
       "title": "Добрый вечер",
-      "subscrb": "калиспéра",
+      "subscrb": "калиспЕра",
       "language": "Gr"
     },
     {
       "id": "69",
-      "name": "γειά",
+      "name": "γεια σου",
       "title": "привет",
-      "subscrb": "γиá",
+      "subscrb": "ЙА су",
       "language": "Gr"
     },
     {
       "id": "70",
       "name": "αντίο",
       "title": "до свидания",
-      "subscrb": "áνдио",
+      "subscrb": "адИо",
       "language": "Gr"
     },
     {
       "id": "71",
       "name": "τα λέμε σύντομα",
       "title": "до скорого свидания",
-      "subscrb": "та лид͡ме сýндома",
+      "subscrb": "та лЕмэ сИндома",
       "language": "Gr"
     },
     {
       "id": "72",
       "name": "καληνύχτα",
       "title": "спокойной ночи",
-      "subscrb": "калинýхта",
+      "subscrb": "калинИхта",
       "language": "Gr"
     },
     {
       "id": "73",
       "name": "τα λέμε αύριο",
       "title": "до завтра",
-      "subscrb": "та лид͡ме áврио",
+      "subscrb": "та лЕмэ А:врио",
       "language": "Gr"
     },
     {
       "id": "74",
-      "name": "πώς σας λένε;",
+      "name": "πώς σας λένε",
       "title": "как вас зовут",
-      "subscrb": "пóс сас лéне",
+      "subscrb": "пос сас ЛЕнэ",
       "language": "Gr"
     },
     {
       "id": "75",
       "name": "με λένε …",
-      "title": "меня зовут так-то",
-      "subscrb": "ме лéне …",
+      "title": "меня зовут …",
+      "subscrb": "мэ ЛЕнэ …",
       "language": "Gr"
     },
     {
       "id": "76",
-      "name": "με λένε",
+      "name": "ονομάζομαι",
       "title": "меня зовут",
-      "subscrb": "ме лéне",
+      "subscrb": "ономА:зомэ",
       "language": "Gr"
     },
     {
       "id": "77",
-      "name": "πολύ χαίρω",
+      "name": "χαίρω πολύ",
       "title": "очень приятно",
-      "subscrb": "полý хéйро",
+      "subscrb": "ХЕро полИ:",
       "language": "Gr"
     },
     {
       "id": "78",
-      "name": "πώς σε λένε;",
-      "title": "как тебя зовут",
-      "subscrb": "пóс се лéне",
+      "name": "χαρήκα",
+      "title": "очень приятно",
+      "subscrb": "ХарИка",
       "language": "Gr"
     },
     {
       "id": "79",
-      "name": "συγγνώμη",
-      "title": "извините",
-      "subscrb": "сиγнóми",
+      "name": "πώς σε λένε",
+      "title": "как тебя зовут",
+      "subscrb": "пос сэ ЛЕнэ",
       "language": "Gr"
     },
     {
       "id": "80",
-      "name": "ευχαριστώ",
-      "title": "спасибо",
-      "subscrb": "эвхаристó",
+      "name": "συγγνώμη",
+      "title": "извините",
+      "subscrb": "синГНÓ:ми (с носовым «нг»)",
       "language": "Gr"
     },
     {
       "id": "81",
-      "name": "παρακαλώ",
-      "title": "пожалуйста",
-      "subscrb": "паракалó",
+      "name": "ευχαριστώ",
+      "title": "спасибо",
+      "subscrb": "эхаристО",
       "language": "Gr"
     },
     {
       "id": "82",
-      "name": "τι ακούτε;",
-      "title": "что у вас слышно",
-      "subscrb": "ти аку́те",
+      "name": "παρακαλώ",
+      "title": "пожалуйста",
+      "subscrb": "паракалÓ",
       "language": "Gr"
     },
     {
       "id": "83",
-      "name": "πώς ζεις;",
-      "title": "как живёшь",
-      "subscrb": "пóс зис",
+      "name": "τι νέα",
+      "title": "что у вас слышно",
+      "subscrb": "ти НЭа",
       "language": "Gr"
     },
     {
       "id": "84",
-      "name": "τι κάνετε;",
-      "title": "как дела",
-      "subscrb": "ти кáнете",
+      "name": "πώς ζεις",
+      "title": "как живёшь",
+      "subscrb": "пос ЗИ:с",
       "language": "Gr"
     },
     {
       "id": "85",
-      "name": "όλα καλά",
-      "title": "всё в порядке",
-      "subscrb": "óла калá",
+      "name": "τι κάνεις",
+      "title": "как дела",
+      "subscrb": "ти КАнис",
       "language": "Gr"
     },
     {
       "id": "86",
-      "name": "υπέροχα",
-      "title": "прекрасно",
-      "subscrb": "ипéрохa",
+      "name": "ευχαριστώ",
+      "title": "спасибо",
+      "subscrb": "эхаристО",
       "language": "Gr"
     },
     {
       "id": "87",
-      "name": "πολύ καλά",
-      "title": "очень хорошо",
-      "subscrb": "полý калá",
+      "name": "όλα εντάξει",
+      "title": "всё в порядке",
+      "subscrb": "Ола эндА:кси",
       "language": "Gr"
     },
     {
       "id": "88",
-      "name": "όχι άσχημα",
-      "title": "неплохо",
-      "subscrb": "охи áсхима",
+      "name": "τέλεια",
+      "title": "прекрасно",
+      "subscrb": "ТЭлия",
       "language": "Gr"
     },
     {
       "id": "89",
-      "name": "μέτρια",
-      "title": "так себе",
-      "subscrb": "мéтриа",
+      "name": "πολύ καλά",
+      "title": "очень хорошо",
+      "subscrb": "полИ: калА",
       "language": "Gr"
     },
     {
       "id": "90",
-      "name": "άσχημα",
-      "title": "плохо",
-      "subscrb": "áсхима",
+      "name": "όχι άσχημα",
+      "title": "неплохо",
+      "subscrb": "Охи А:схима",
       "language": "Gr"
     },
     {
       "id": "91",
-      "name": "όπως παλιά",
-      "title": "по‑старому",
-      "subscrb": "óпос палиá",
+      "name": "έτσι κι έτσι",
+      "title": "так себе",
+      "subscrb": "Этси к’ Этси",
       "language": "Gr"
     },
     {
       "id": "92",
-      "name": "τίποτα καινούριο",
-      "title": "ничего нового",
-      "subscrb": "тíпота кенури́о",
+      "name": "άσχημα",
+      "title": "плохо",
+      "subscrb": "А:схима",
       "language": "Gr"
     },
     {
       "id": "93",
-      "name": "αλλά",
-      "title": "но",
-      "subscrb": "алá",
+      "name": "όπως πάντα",
+      "title": "по-старому",
+      "subscrb": "Опос ПАнда",
       "language": "Gr"
     },
     {
       "id": "94",
-      "name": "άρθρο",
-      "title": "статья",
-      "subscrb": "áртро",
+      "name": "τίποτα καινούριο",
+      "title": "ничего нового",
+      "subscrb": "ТИпота кенУрьо",
       "language": "Gr"
     },
     {
       "id": "95",
-      "name": "λεωφορειακός",
-      "title": "автобусный",
-      "subscrb": "леофорекакóс",
+      "name": "αλλά",
+      "title": "но",
+      "subscrb": "аллА",
       "language": "Gr"
     },
     {
       "id": "96",
-      "name": "εισιτήριο",
-      "title": "билет",
-      "subscrb": "иситирио",
+      "name": "άρθρο",
+      "title": "статья",
+      "subscrb": "Арθро (р «шершавое», θ как межзубный «с»)",
       "language": "Gr"
     },
     {
       "id": "97",
-      "name": "μαντηλάκι",
-      "title": "платочек",
-      "subscrb": "мандилáки",
+      "name": "εισιτήριο λεωφορείου",
+      "title": "автобусный",
+      "subscrb": "исиΤИрио леофорИу",
       "language": "Gr"
     },
     {
       "id": "98",
-      "name": "περιοδικό",
-      "title": "журнал",
-      "subscrb": "периодикó",
+      "name": "εισιτήριο",
+      "title": "билет",
+      "subscrb": "исиΤИрио",
       "language": "Gr"
     },
     {
       "id": "99",
-      "name": "σπάνια (спаниа)",
-      "title": "часто",
-      "subscrb": "спаниа",
+      "name": "μαντιλάκι",
+      "title": "платочек",
+      "subscrb": "мантиΛАки",
       "language": "Gr"
     },
     {
       "id": "100",
-      "name": "διαβάζω (diavázo)",
-      "title": "читать",
-      "subscrb": "диавазо",
+      "name": "περιοδικό",
+      "title": "журнал",
+      "subscrb": "периодикО",
       "language": "Gr"
     },
     {
       "id": "101",
-      "name": "στυλό (styló)",
-      "title": "шариковая ручка",
-      "subscrb": "стило",
+      "name": "συχνά",
+      "title": "часто",
+      "subscrb": "сихнА",
       "language": "Gr"
     },
     {
       "id": "102",
-      "name": "καλός (kalós)",
-      "title": "хороший",
-      "subscrb": "калос",
+      "name": "διαβάζω",
+      "title": "читать",
+      "subscrb": "дьявАзо",
       "language": "Gr"
     },
     {
       "id": "103",
-      "name": "καλά (kalá)",
-      "title": "хорошо",
-      "subscrb": "кала",
+      "name": "στυλό",
+      "title": "шариковая ручка",
+      "subscrb": "стилО",
       "language": "Gr"
     },
     {
       "id": "104",
-      "name": "παιδί (pedí)",
-      "title": "ребёнок",
-      "subscrb": "пэди",
+      "name": "καλός",
+      "title": "хороший",
+      "subscrb": "калОс",
       "language": "Gr"
     },
     {
       "id": "105",
-      "name": "ταινία (tainía)",
-      "title": "фильм",
-      "subscrb": "таиниа",
+      "name": "καλά",
+      "title": "хорошо",
+      "subscrb": "калА",
       "language": "Gr"
     },
     {
       "id": "106",
-      "name": "εφημερίδα (efimerída)",
-      "title": "газета",
-      "subscrb": "эфимерида",
+      "name": "παιδί",
+      "title": "ребёнок",
+      "subscrb": "педИ",
       "language": "Gr"
     },
     {
       "id": "107",
-      "name": "παίζω (paízo)",
-      "title": "играть",
-      "subscrb": "паизо",
+      "name": "ταινία",
+      "title": "фильм",
+      "subscrb": "тенИя",
       "language": "Gr"
     },
     {
       "id": "108",
-      "name": "ευγενικός (evyenikós)",
-      "title": "вежливый, послушный",
-      "subscrb": "эвгеникос",
+      "name": "εφημερίδα",
+      "title": "газета",
+      "subscrb": "эфимерИда",
       "language": "Gr"
     },
     {
       "id": "109",
-      "name": "υγιεινός (yiyeyinós)",
-      "title": "гигиенический",
-      "subscrb": "йигиенос",
+      "name": "παίζω",
+      "title": "играть",
+      "subscrb": "пЕзо",
       "language": "Gr"
     },
     {
       "id": "110",
-      "name": "ιστορία (istoría)",
-      "title": "история",
-      "subscrb": "история",
+      "name": "ευγενικός",
+      "title": "вежливый",
+      "subscrb": "эвйениκОс",
       "language": "Gr"
     },
     {
       "id": "111",
-      "name": "έξυπνος (éxypnos)",
-      "title": "умный",
-      "subscrb": "эксипнос",
+      "name": "υγιεινός",
+      "title": "гигиенический",
+      "subscrb": "йийинОс",
       "language": "Gr"
     },
     {
       "id": "112",
-      "name": "μηχανικός (michanikós)",
-      "title": "инженер",
-      "subscrb": "миханикос",
+      "name": "ιστορία",
+      "title": "история",
+      "subscrb": "исторИя",
       "language": "Gr"
     },
     {
       "id": "113",
-      "name": "ακόμα (akóma)",
-      "title": "ещё",
-      "subscrb": "акома",
+      "name": "έξυπνος",
+      "title": "умный",
+      "subscrb": "Эксиπнос",
       "language": "Gr"
     },
     {
       "id": "114",
-      "name": "ημερολόγιο (imerológio)",
-      "title": "календарь",
-      "subscrb": "имэрология",
+      "name": "μηχανικός",
+      "title": "инженер",
+      "subscrb": "миханиκОс",
       "language": "Gr"
     },
     {
       "id": "115",
-      "name": "κάρτα (kárta)",
-      "title": "карточка",
-      "subscrb": "карта",
+      "name": "ακόμα",
+      "title": "ещё",
+      "subscrb": "акОма",
       "language": "Gr"
     },
     {
       "id": "116",
-      "name": "αστείο (asteío)",
-      "title": "шутка, анекдот",
-      "subscrb": "астейо",
+      "name": "ημερολόγιο",
+      "title": "календарь",
+      "subscrb": "имеролΟйио",
       "language": "Gr"
     },
     {
       "id": "117",
-      "name": "κάθε (káthe)",
-      "title": "каждый",
-      "subscrb": "кате",
+      "name": "κάρτα",
+      "title": "карточка",
+      "subscrb": "кАрта",
       "language": "Gr"
     },
     {
       "id": "118",
-      "name": "οδηγός (odhigós)",
-      "title": "шофёр",
-      "subscrb": "одхигос",
+      "name": "αστείο",
+      "title": "шутка, анекдот",
+      "subscrb": "астИо",
       "language": "Gr"
     },
     {
       "id": "119",
-      "name": "πολύχρωμος (polýchromos)",
-      "title": "разноцветный",
-      "subscrb": "полихромос",
+      "name": "κάθε",
+      "title": "каждый",
+      "subscrb": "кАθε",
       "language": "Gr"
     },
     {
       "id": "120",
-      "name": "γυναίκα γιατρός (ginaíka giatrós)",
-      "title": "женщина‑врач",
-      "subscrb": "гинайка ятрОс",
+      "name": "οδηγός",
+      "title": "шофёр",
+      "subscrb": "одигОс",
       "language": "Gr"
     },
     {
       "id": "121",
-      "name": "γιατρός (giatrós)",
+      "name": "πολύχρωμος",
+      "title": "разноцветный",
+      "subscrb": "полИхромос",
+      "language": "Gr"
+    },
+    {
+      "id": "122",
+      "name": "γιατρός (γυναίκα)",
+      "title": "женщина-врач",
+      "subscrb": "ятрОс (йинЕка)",
+      "language": "Gr"
+    },
+    {
+      "id": "123",
+      "name": "γιατρός",
       "title": "врач",
       "subscrb": "ятрОс",
       "language": "Gr"
     },
     {
-      "id": "122",
-      "name": "δάσκαλος (dáskalos)",
+      "id": "124",
+      "name": "δάσκαλος",
       "title": "учитель",
-      "subscrb": "даскалос",
+      "subscrb": "дАскалос",
       "language": "Gr"
     },
     {
-      "id": "123",
-      "name": "δασκάλα (daskála)",
+      "id": "125",
+      "name": "δασκάλα",
       "title": "учительница",
       "subscrb": "даскАла",
       "language": "Gr"
     },
     {
-      "id": "124",
-      "name": "μαγειρεύω (mageirévo)",
-      "title": "готовить",
-      "subscrb": "магирЭво",
-      "language": "Gr"
-    },
-    {
-      "id": "125",
-      "name": "φυσικά (fysiká)",
-      "title": "конечно",
-      "subscrb": "фисика",
-      "language": "Gr"
-    },
-    {
       "id": "126",
-      "name": "κοιτάζω (kitázo)",
-      "title": "осматривать, смотреть",
-      "subscrb": "килАзо",
+      "name": "μαγειρεύω",
+      "title": "готовить",
+      "subscrb": "маирЕво",
       "language": "Gr"
     },
     {
       "id": "127",
-      "name": "διηγούμαι (diygoúmai)",
-      "title": "рассказывать",
-      "subscrb": "дийгуМэ",
+      "name": "φυσικά",
+      "title": "конечно",
+      "subscrb": "фисикА",
       "language": "Gr"
     },
     {
       "id": "128",
-      "name": "θυμάμαι (thýmamai)",
-      "title": "помнить",
-      "subscrb": "фйамэма",
+      "name": "κοιτάζω",
+      "title": "осматривать, смотреть",
+      "subscrb": "китАзо",
       "language": "Gr"
     },
     {
       "id": "129",
-      "name": "τσιγάρα (tsigára)",
-      "title": "сигареты",
-      "subscrb": "цыгАра",
+      "name": "διηγούμαι",
+      "title": "рассказывать",
+      "subscrb": "дийгУме",
       "language": "Gr"
     },
     {
       "id": "130",
-      "name": "νοσοκόμα (nosokóma)",
+      "name": "θυμάμαι",
+      "title": "помнить",
+      "subscrb": "фимАме",
+      "language": "Gr"
+    },
+    {
+      "id": "131",
+      "name": "τσιγάρα",
+      "title": "сигареты",
+      "subscrb": "цигАра",
+      "language": "Gr"
+    },
+    {
+      "id": "132",
+      "name": "νοσοκόμα",
       "title": "медсестра",
       "subscrb": "носокОма",
       "language": "Gr"
     },
     {
-      "id": "131",
-      "name": "τραγούδι (tragóudi)",
+      "id": "133",
+      "name": "τραγούδι",
       "title": "песня",
       "subscrb": "трагУди",
       "language": "Gr"
     },
     {
-      "id": "132",
-      "name": "συγγραφέας (syngraféas)",
-      "title": "писательница",
-      "subscrb": "синграфЭас",
-      "language": "Gr"
-    },
-    {
-      "id": "133",
-      "name": "συγγραφέας (syngraféas)",
-      "title": "писатель",
-      "subscrb": "синграфЭас",
-      "language": "Gr"
-    },
-    {
       "id": "134",
-      "name": "αστυνομικός (astynomikós)",
-      "title": "полицейский",
-      "subscrb": "астиномикос",
+      "name": "συγγραφέας (γυναίκα)",
+      "title": "писательница",
+      "subscrb": "синграфЕас (йинЕка)",
       "language": "Gr"
     },
     {
       "id": "135",
-      "name": "εργατικός (ergatikós)",
-      "title": "трудолюбивый",
-      "subscrb": "эргатикос",
+      "name": "συγγραφέας",
+      "title": "писатель",
+      "subscrb": "синграфЕас",
       "language": "Gr"
     },
     {
       "id": "136",
-      "name": "πρόγραμμα (prógramma)",
+      "name": "αστυνομικός",
+      "title": "полицейский",
+      "subscrb": "астиномикОс",
+      "language": "Gr"
+    },
+    {
+      "id": "137",
+      "name": "εργατικός",
+      "title": "трудолюбивый",
+      "subscrb": "эргатикОс",
+      "language": "Gr"
+    },
+    {
+      "id": "138",
+      "name": "πρόγραμμα",
       "title": "программа",
       "subscrb": "прОграмма",
       "language": "Gr"
     },
     {
-      "id": "137",
-      "name": "διαβάσω (diavásso)",
-      "title": "прочитать",
-      "subscrb": "диавассо",
-      "language": "Gr"
-    },
-    {
-      "id": "138",
-      "name": "εργαζόμενη (ergazómeni)",
-      "title": "работница",
-      "subscrb": "эргазОмэни",
-      "language": "Gr"
-    },
-    {
       "id": "139",
-      "name": "εργαζόμενος (ergazómenos)",
-      "title": "рабочий",
-      "subscrb": "эргазОменос",
+      "name": "διαβάζω ολόκληρο",
+      "title": "прочитать",
+      "subscrb": "дьявАзо олОклиро",
       "language": "Gr"
     },
     {
       "id": "140",
-      "name": "γεωργός (georgós)",
-      "title": "земледелец",
-      "subscrb": "георгОс",
+      "name": "εργάτρια",
+      "title": "работница",
+      "subscrb": "эргАтриа",
       "language": "Gr"
     },
     {
       "id": "141",
-      "name": "ουρλάζω (?)",
-      "title": "разговаривать",
-      "subscrb": "—",
+      "name": "εργάτης",
+      "title": "рабочий",
+      "subscrb": "эргАтис",
       "language": "Gr"
     },
     {
       "id": "142",
-      "name": "καταλαβαίνω (katalavaíno)",
-      "title": "понимать",
-      "subscrb": "каталавАйно",
+      "name": "γεωργός",
+      "title": "земледелец",
+      "subscrb": "йеоргОс",
       "language": "Gr"
     },
     {
       "id": "143",
-      "name": "διαφορετικός (diaforetikós)",
-      "title": "разный",
-      "subscrb": "диафорЭтикос",
+      "name": "μιλάω",
+      "title": "разговаривать",
+      "subscrb": "милАо",
       "language": "Gr"
     },
     {
       "id": "144",
-      "name": "σπάνια (spánia)",
-      "title": "редко",
-      "subscrb": "спаниа",
+      "name": "καταλαβαίνω",
+      "title": "понимать",
+      "subscrb": "каталавЕно",
       "language": "Gr"
     },
     {
       "id": "145",
-      "name": "λέξη (léxi)",
-      "title": "слово",
-      "subscrb": "лекси",
+      "name": "διάφορος",
+      "title": "разный",
+      "subscrb": "дИафорос",
       "language": "Gr"
     },
     {
       "id": "146",
-      "name": "συναντώ (synantó)",
-      "title": "встретиться",
-      "subscrb": "синантО",
+      "name": "σπάνια",
+      "title": "редко",
+      "subscrb": "спАниа",
       "language": "Gr"
     },
     {
       "id": "147",
-      "name": "συναντιέμαι (synantiémai)",
-      "title": "встречаться",
-      "subscrb": "синантиемэ",
+      "name": "λέξη",
+      "title": "слово",
+      "subscrb": "лЭкси",
       "language": "Gr"
     },
     {
       "id": "148",
-      "name": "ελέγχω (eléncho)",
-      "title": "проверять",
-      "subscrb": "элэнхо",
+      "name": "συναντηθώ",
+      "title": "встретиться",
+      "subscrb": "синандитО",
       "language": "Gr"
     },
     {
       "id": "149",
-      "name": "φοιτητής (foititís)",
-      "title": "студент",
-      "subscrb": "фоититИс",
+      "name": "συναντιέμαι",
+      "title": "встречаться",
+      "subscrb": "синандьЕме",
       "language": "Gr"
     },
     {
       "id": "150",
-      "name": "φοιτήτρια (foitítria)",
-      "title": "студентка",
-      "subscrb": "фоитИтриа",
+      "name": "ελέγχω",
+      "title": "проверять",
+      "subscrb": "элЕнґхо",
       "language": "Gr"
     },
     {
       "id": "151",
-      "name": "τραγουδώ (tragoudó)",
-      "title": "петь",
-      "subscrb": "трагудО",
+      "name": "φοιτητής",
+      "title": "студент",
+      "subscrb": "фититИс",
       "language": "Gr"
     },
     {
       "id": "152",
-      "name": "τηλεφωνικός (tilefonikós)",
-      "title": "телефонный",
-      "subscrb": "тилефоникос",
+      "name": "φοιτήτρια",
+      "title": "студентка",
+      "subscrb": "фитИтрия",
       "language": "Gr"
     },
     {
       "id": "153",
-      "name": "τηλεόραση (tileórasi)",
-      "title": "телевидение",
-      "subscrb": "тилеОраси",
+      "name": "τραγουδώ",
+      "title": "петь",
+      "subscrb": "трагуδО",
       "language": "Gr"
     },
     {
       "id": "154",
-      "name": "τώρα (tóra)",
+      "name": "τηλεφωνικός",
+      "title": "телефонный",
+      "subscrb": "тилефоникОс",
+      "language": "Gr"
+    },
+    {
+      "id": "155",
+      "name": "τηλεόραση",
+      "title": "телевидение",
+      "subscrb": "тилэОрасси",
+      "language": "Gr"
+    },
+    {
+      "id": "156",
+      "name": "τώρα",
       "title": "сейчас",
       "subscrb": "тОра",
       "language": "Gr"
     },
     {
-      "id": "155",
-      "name": "στοργικός (storgikós)",
-      "title": "заботливый",
-      "subscrb": "сторгикос",
-      "language": "Gr"
-    },
-    {
-      "id": "156",
-      "name": "μαθήτρια (mathítria)",
-      "title": "ученица",
-      "subscrb": "матитриа",
-      "language": "Gr"
-    },
-    {
       "id": "157",
-      "name": "μαθητής (mathitís)",
-      "title": "ученик",
-      "subscrb": "матитИс",
+      "name": "στοργικός",
+      "title": "заботливый",
+      "subscrb": "сторгикОс",
       "language": "Gr"
     },
     {
       "id": "158",
-      "name": "μπορώ (boró)",
+      "name": "μαθήτρια",
+      "title": "ученица",
+      "subscrb": "мафИтриа",
+      "language": "Gr"
+    },
+    {
+      "id": "159",
+      "name": "μαθητής",
+      "title": "ученик",
+      "subscrb": "мафитИс",
+      "language": "Gr"
+    },
+    {
+      "id": "160",
+      "name": "μπορώ",
       "title": "уметь",
       "subscrb": "борО",
       "language": "Gr"
     },
     {
-      "id": "159",
-      "name": "υπάλληλος (ypállilos, ж.)",
-      "title": "служащая",
-      "subscrb": "ипАлилос",
-      "language": "Gr"
-    },
-    {
-      "id": "160",
-      "name": "υπάλληλος (ypállilos, м.)",
-      "title": "служащий",
-      "subscrb": "ипАлилос",
-      "language": "Gr"
-    },
-    {
       "id": "161",
-      "name": "ταλαντούχος (talantoúchos)",
-      "title": "талантливый",
-      "subscrb": "талантоухос",
+      "name": "υπάλληλος (γυναίκα)",
+      "title": "служащая",
+      "subscrb": "ипАл’илос",
       "language": "Gr"
     },
     {
       "id": "162",
-      "name": "κάρτα (kárta)",
-      "title": "открытка",
-      "subscrb": "карта",
+      "name": "υπάλληλος (άντρας)",
+      "title": "служащий",
+      "subscrb": "ипАл’илос",
       "language": "Gr"
     },
     {
       "id": "163",
-      "name": "σύντομα (sýntoma)",
-      "title": "скоро",
-      "subscrb": "синтома",
+      "name": "ταλαντούχος",
+      "title": "талантливый",
+      "subscrb": "таландУхос",
       "language": "Gr"
     },
     {
       "id": "164",
-      "name": "όλα (óla)",
-      "title": "всё",
-      "subscrb": "онда",
+      "name": "κάρτα",
+      "title": "открытка",
+      "subscrb": "кАрта",
       "language": "Gr"
     },
     {
       "id": "165",
-      "name": "διδάσκων (didáskōn)",
-      "title": "преподаватель",
-      "subscrb": "дидАскон",
+      "name": "σύντομα",
+      "title": "скоро",
+      "subscrb": "сИнтома",
       "language": "Gr"
     },
     {
       "id": "166",
-      "name": "μορφωμένος (morfōménos)",
-      "title": "образованный",
-      "subscrb": "морфоменос",
+      "name": "όλα",
+      "title": "всё",
+      "subscrb": "Ола",
       "language": "Gr"
     },
     {
       "id": "167",
-      "name": "εργασία (ergasía)",
-      "title": "задание",
-      "subscrb": "эргазИа",
+      "name": "καθηγητής",
+      "title": "преподаватель",
+      "subscrb": "кахигиТИс",
       "language": "Gr"
     },
     {
       "id": "168",
-      "name": "σπίρτο (spírto)",
-      "title": "спичка",
-      "subscrb": "спирто",
+      "name": "μορφωμένος",
+      "title": "образованный",
+      "subscrb": "морфомЭнос",
       "language": "Gr"
     },
     {
       "id": "169",
-      "name": "θα τραγουδήσω (tha tragoudíso)",
-      "title": "запеть",
-      "subscrb": "фа трагудИсо",
+      "name": "άσκηση",
+      "title": "задание",
+      "subscrb": "Аскиси",
       "language": "Gr"
     },
     {
       "id": "170",
-      "name": "ικανός (ikanós)",
-      "title": "способный",
-      "subscrb": "икАнос",
+      "name": "σπίρτο",
+      "title": "спичка",
+      "subscrb": "спИрто",
       "language": "Gr"
     },
     {
       "id": "171",
-      "name": "τετράδιο (tetrádio)",
-      "title": "тетрадь",
-      "subscrb": "тетрАдио",
+      "name": "αρχίζω να τραγουδώ",
+      "title": "запеть",
+      "subscrb": "архИзо на трагодО",
       "language": "Gr"
     },
     {
       "id": "172",
-      "name": "κακός (kakós)",
-      "title": "плохой",
-      "subscrb": "какос",
+      "name": "ικανός",
+      "title": "способный",
+      "subscrb": "иканОс",
       "language": "Gr"
     },
     {
       "id": "173",
-      "name": "άσχημα (áschyma)",
-      "title": "плохо",
-      "subscrb": "ашима",
+      "name": "τετράδιο",
+      "title": "тетрадь",
+      "subscrb": "тэтрАдьйо",
       "language": "Gr"
     },
     {
       "id": "174",
-      "name": "νοσοκόμα (nosokóma)",
+      "name": "κακός",
+      "title": "плохой",
+      "subscrb": "какОс",
+      "language": "Gr"
+    },
+    {
+      "id": "175",
+      "name": "κακά",
+      "title": "плохо",
+      "subscrb": "какА",
+      "language": "Gr"
+    },
+    {
+      "id": "176",
+      "name": "νοσοκόμα",
       "title": "медсестра",
       "subscrb": "носокОма",
       "language": "Gr"
     },
     {
-      "id": "175",
-      "name": "καλός (kalós)",
-      "title": "хороший",
-      "subscrb": "калос",
-      "language": "Gr"
-    },
-    {
-      "id": "176",
-      "name": "ευγενικός (evyenikós)",
-      "title": "вежливый",
-      "subscrb": "эвгеникос",
-      "language": "Gr"
-    },
-    {
       "id": "177",
-      "name": "για τον ήλιο (gia ton ílio)",
-      "title": "про солнечные",
-      "subscrb": "я тон илио",
+      "name": "καλός",
+      "title": "хороший",
+      "subscrb": "калОс",
       "language": "Gr"
     },
     {
       "id": "178",
-      "name": "έξυπνος (éxypnos)",
-      "title": "умный",
-      "subscrb": "эксипнос",
+      "name": "ευγενικός",
+      "title": "вежливый",
+      "subscrb": "эв’йэникОс",
       "language": "Gr"
     },
     {
       "id": "179",
-      "name": "ικανός (ikanós)",
-      "title": "способный",
-      "subscrb": "икАнос",
+      "name": "για τον ήλιο",
+      "title": "про солнечные",
+      "subscrb": "йа тон Ил’йо",
       "language": "Gr"
     },
     {
       "id": "180",
-      "name": "στοργικός (storgikós)",
-      "title": "заботливый",
-      "subscrb": "сторгикос",
+      "name": "έξυπνος",
+      "title": "умный",
+      "subscrb": "Эксиπнос",
       "language": "Gr"
     },
     {
       "id": "181",
-      "name": "φιλοδοξικός (filodoxikós)",
-      "title": "честолюбивый",
-      "subscrb": "филодоксикос",
+      "name": "ικανός",
+      "title": "способный",
+      "subscrb": "иканОс",
       "language": "Gr"
     },
     {
       "id": "182",
-      "name": "μορφωμένος (morfōménos)",
-      "title": "образованный",
-      "subscrb": "морфоменос",
+      "name": "στοργικός",
+      "title": "заботливый",
+      "subscrb": "сторгикОс",
       "language": "Gr"
     },
     {
       "id": "183",
-      "name": "υγιεινός (yiyeyinós)",
-      "title": "гигиенический",
-      "subscrb": "йигиенос",
+      "name": "φιλόδοξος",
+      "title": "честолюбивый",
+      "subscrb": "филОдоксос",
       "language": "Gr"
     },
     {
       "id": "184",
-      "name": "τηλεφωνική κάρτα (tilefonikí kárta)",
-      "title": "телефонная карточка",
-      "subscrb": "тилефонИки карта",
+      "name": "μορφωμένος",
+      "title": "образованный",
+      "subscrb": "морфомЭнос",
       "language": "Gr"
     },
     {
       "id": "185",
-      "name": "εισιτήριο λεωφορείου (eisitério leoforeíou)",
-      "title": "автобусный билет",
-      "subscrb": "иситЕрио леофорЕю",
+      "name": "υγιεινός",
+      "title": "гигиенический",
+      "subscrb": "йийинОс",
       "language": "Gr"
     },
     {
       "id": "186",
-      "name": "υγιεινό μαντήλι (yiyeyinó mantíli)",
-      "title": "гигиенический платочек",
-      "subscrb": "йигиенО мандИли",
+      "name": "τηλεφωνική κάρτα",
+      "title": "телефонная карточка",
+      "subscrb": "тилэфоникИ кАрта",
       "language": "Gr"
     },
     {
       "id": "187",
-      "name": "έγχρωμη κάρτα (échrómi kárta)",
-      "title": "цветная открытка",
-      "subscrb": "энхроми карта",
+      "name": "εισιτήριο λεωφορείου",
+      "title": "автобусный билет",
+      "subscrb": "иситИрио леофорИу",
       "language": "Gr"
     },
     {
       "id": "188",
-      "name": "ενδιαφέρον περιοδικό (endiaféron periodikó)",
-      "title": "интересный журнал",
-      "subscrb": "эндиафэрОн периодикО",
+      "name": "υγιεινό μαντιλάκι",
+      "title": "гигиенический платочек",
+      "subscrb": "йийинО мандилАки",
       "language": "Gr"
     },
     {
       "id": "189",
-      "name": "φρέσκη εφημερίδα (fréski efimerída)",
-      "title": "свежая газета",
-      "subscrb": "фрЭски эфимерИда",
+      "name": "έγχρωμη κάρτα",
+      "title": "цветная открытка",
+      "subscrb": "Энгхроми кАрта",
       "language": "Gr"
     },
     {
       "id": "190",
-      "name": "μαύρο τετράδιο (mávro tetrádio)",
-      "title": "чёрная тетрадь",
-      "subscrb": "мавро тетрАдио",
+      "name": "ενδιαφέρον περιοδικό",
+      "title": "интересный журнал",
+      "subscrb": "эндиафЭрон пэриодикО",
       "language": "Gr"
     },
     {
       "id": "191",
-      "name": "παρακαλώ (parakaló)",
-      "title": "дайте пожалуйста",
-      "subscrb": "паракалО",
+      "name": "φρέσκια εφημερίδα",
+      "title": "свежая газета",
+      "subscrb": "фрЭскья эфимерИда",
       "language": "Gr"
     },
     {
       "id": "192",
-      "name": "εκείνο το στυλό (ekeíno to styló)",
-      "title": "ту шариковую ручку",
-      "subscrb": "экино то стило",
+      "name": "μαύρο τετράδιο",
+      "title": "чёрная тетрадь",
+      "subscrb": "мАвро тэтрАдьйо",
       "language": "Gr"
     },
     {
       "id": "193",
-      "name": "εκείνη την κάρτα (ekeíni tin kárta)",
-      "title": "вот ту открытку",
-      "subscrb": "экини тин карта",
+      "name": "δώστε παρακαλώ",
+      "title": "дайте пожалуйста",
+      "subscrb": "ДО́сте паракалÓ",
       "language": "Gr"
     },
     {
       "id": "194",
-      "name": "γεια σας (geia sas)",
-      "title": "здравствуйте",
-      "subscrb": "я саc",
+      "name": "εκείνο το στυλό",
+      "title": "ту шариковую ручку",
+      "subscrb": "эКИ́но то стило́",
       "language": "Gr"
     },
     {
       "id": "195",
-      "name": "γεια σας. παρακαλώ δώστε κάρτα (geia sas. parakaló dóste kárta)",
-      "title": "здравствуйте. дайте ...",
-      "subscrb": "я саc. паракалО дОсте карта",
+      "name": "εκείνη την κάρτα",
+      "title": "вот ту открытку",
+      "subscrb": "эКИ́ни тIN Ка́рта",
       "language": "Gr"
     },
     {
       "id": "196",
-      "name": "ποια κάρτα, αυτή ή εκείνη; (poia kárta, aftí í ekeíni)",
-      "title": "какую открытку эту или ту",
-      "subscrb": "пиа карта, афти и экини",
+      "name": "γεια σας",
+      "title": "здравствуйте",
+      "subscrb": "ЙА́ сас",
       "language": "Gr"
     },
     {
       "id": "197",
-      "name": "εκείνη την έγχρωμη κάρτα (ekeíni tin énchrómi kárta)",
-      "title": "ту цветную открытку",
-      "subscrb": "экини тин энхроми карта",
+      "name": "γεια σας, δώστε παρακαλώ μια κάρτα",
+      "title": "здравствуйте. дайте пожалуйста открытку",
+      "subscrb": "ЙА́ сас, ДО́сте паракалÓ миа Ка́рта",
       "language": "Gr"
     },
     {
       "id": "198",
-      "name": "παρακαλώ (parakaló)",
-      "title": "пожалуйста",
-      "subscrb": "паракалО",
+      "name": "ποια κάρτα, αυτή ή εκείνη",
+      "title": "какую открытку эту или ту",
+      "subscrb": "пья Ка́рта, афТÍ и эКИ́ни",
       "language": "Gr"
     },
     {
       "id": "199",
-      "name": "ευχαριστώ",
-      "title": "спасибо",
-      "subscrb": "эвхаристó",
+      "name": "εκείνη την πολύχρωμη κάρτα",
+      "title": "ту цветную открытку",
+      "subscrb": "эКИ́ни тIN полИ́хроми Ка́рта",
       "language": "Gr"
     },
     {
       "id": "200",
-      "name": "έχετε σπίρτα;",
-      "title": "есть ли спички",
-      "subscrb": "э́хете спи́рта?",
+      "name": "παρακαλώ",
+      "title": "пожалуйста",
+      "subscrb": "паракалÓ",
       "language": "Gr"
     },
     {
       "id": "201",
-      "name": "ναι, υπάρχουν",
-      "title": "да есть",
-      "subscrb": "нэ, ипáрхун",
+      "name": "ευχαριστώ",
+      "title": "спасибо",
+      "subscrb": "эфхаристÓ",
       "language": "Gr"
     },
     {
       "id": "202",
-      "name": "δώστε μου παρακαλώ σπίρτα",
-      "title": "дайте пожалуйста спички",
-      "subscrb": "до́сте му паракалó спи́рта",
+      "name": "υπάρχουν σπίρτα;",
+      "title": "есть ли спички",
+      "subscrb": "ипА́рхун спИ́рта?",
       "language": "Gr"
     },
     {
       "id": "203",
-      "name": "παρακαλώ",
-      "title": "пожалуйста",
-      "subscrb": "паракалó",
+      "name": "ναι, υπάρχουν",
+      "title": "да есть",
+      "subscrb": "нэ, ипА́рхун",
       "language": "Gr"
     },
     {
       "id": "204",
-      "name": "έχετε φρέσκια εφημερίδα;",
-      "title": "есть ли свежая газета",
-      "subscrb": "э́хете фрэ́с­кя эфимерíда?",
+      "name": "δώστε παρακαλώ σπίρτα",
+      "title": "дайте пожалуйста спички",
+      "subscrb": "ДО́сте паракалÓ спИ́рта",
       "language": "Gr"
     },
     {
       "id": "205",
+      "name": "παρακαλώ",
+      "title": "пожалуйста",
+      "subscrb": "паракалÓ",
+      "language": "Gr"
+    },
+    {
+      "id": "206",
+      "name": "υπάρχει φρέσκια εφημερίδα;",
+      "title": "есть ли свежая газета",
+      "subscrb": "ипА́рхи фрэ́скя эфимэрИ́да?",
+      "language": "Gr"
+    },
+    {
+      "id": "207",
       "name": "ναι",
       "title": "да",
       "subscrb": "нэ",
       "language": "Gr"
     },
     {
-      "id": "206",
-      "name": "δώστε μου παρακαλώ μια φρέσκια εφημερίδα",
-      "title": "дайте пожалуйста свежую газету",
-      "subscrb": "до́сте му паракалó мья фрэ́с­кя эфимерíда",
-      "language": "Gr"
-    },
-    {
-      "id": "207",
-      "name": "παρακαλώ",
-      "title": "пожалуйста",
-      "subscrb": "паракалó",
-      "language": "Gr"
-    },
-    {
       "id": "208",
-      "name": "ευχαριστώ, αντίο",
-      "title": "спасибо до свидания",
-      "subscrb": "эвхаристó, аддíо",
+      "name": "δώστε παρακαλώ μια φρέσκια εφημερίδα",
+      "title": "дайте пожалуйста свежую газету",
+      "subscrb": "ДО́сте паракалÓ миа фрэ́скя эфимэрИ́да",
       "language": "Gr"
     },
     {
       "id": "209",
-      "name": "γεια σας",
-      "title": "здравствуйте",
-      "subscrb": "йя сас",
+      "name": "παρακαλώ",
+      "title": "пожалуйста",
+      "subscrb": "паракалÓ",
       "language": "Gr"
     },
     {
       "id": "210",
-      "name": "γεια σας, έχετε εισιτήρια λεωφορείου;",
-      "title": "здравствуйте есть ли автобусные билеты",
-      "subscrb": "йя сас, э́хете исит́ирия леофорíу?",
+      "name": "ευχαριστώ, αντίο",
+      "title": "спасибо до свидания",
+      "subscrb": "эфхаристÓ, антИ́о",
       "language": "Gr"
     },
     {
       "id": "211",
-      "name": "ναι, υπάρχουν",
-      "title": "да есть",
-      "subscrb": "нэ, ипáрхун",
+      "name": "γεια σας",
+      "title": "здравствуйте",
+      "subscrb": "ЙА́ сас",
       "language": "Gr"
     },
     {
       "id": "212",
-      "name": "δώστε μου παρακαλώ ένα εισιτήριο λεωφορείου και ένα στυλό",
-      "title": "дайте пожалуйста автобусный билет и шариковую ручку",
-      "subscrb": "до́сте му паракалó э́на исит́ирио леофорíу кэ э́на стилó",
+      "name": "γεια σας, υπάρχουν εισιτήρια λεωφορείου;",
+      "title": "здравствуйте есть ли автобусные билеты",
+      "subscrb": "ЙА́ сас, ипА́рхун иситИ́рия леофорИ́у?",
       "language": "Gr"
     },
     {
       "id": "213",
-      "name": "ποιο στυλό;",
-      "title": "какую ручку",
-      "subscrb": "пйо стилó?",
+      "name": "ναι, υπάρχουν",
+      "title": "да есть",
+      "subscrb": "нэ, ипА́рхун",
       "language": "Gr"
     },
     {
       "id": "214",
-      "name": "δώστε μου παρακαλώ ένα κόκκινο στυλό και μια κάρτα ακόμα",
-      "title": "дайте пожалуйста красную шариковую ручку и ещё карточку",
-      "subscrb": "до́сте му паракалó э́на кóкино стилó кэ мья ка́рта акóма",
+      "name": "δώστε παρακαλώ ένα εισιτήριο λεωφορείου και ένα στυλό",
+      "title": "дайте пожалуйста автобусный билет и шариковую ручку",
+      "subscrb": "ДО́сте паракалÓ Эна иситИ́рио леофорИ́у кье Эна стило́",
       "language": "Gr"
     },
     {
       "id": "215",
-      "name": "παρακαλώ",
-      "title": "пожалуйста",
-      "subscrb": "паракалó",
+      "name": "ποιο στυλό;",
+      "title": "какую ручку",
+      "subscrb": "пьÓ стило́?",
       "language": "Gr"
     },
     {
       "id": "216",
-      "name": "ευχαριστώ, αντίο",
-      "title": "спасибо до свидания",
-      "subscrb": "эвхаристó, аддíо",
+      "name": "δώστε παρακαλώ ένα κόκκινο στυλό και μια κάρτα",
+      "title": "дайте пожалуйста красную шариковую ручку и ещё карточку",
+      "subscrb": "ДО́сте паракалÓ Эна КО́кино стило́ кье миа Ка́рта",
       "language": "Gr"
     },
     {
       "id": "217",
-      "name": "διαβάζω",
-      "title": "читать",
-      "subscrb": "дьява́зо",
+      "name": "παρακαλώ",
+      "title": "пожалуйста",
+      "subscrb": "паракалÓ",
       "language": "Gr"
     },
     {
       "id": "218",
-      "name": "διαβάσω",
-      "title": "прочитать",
-      "subscrb": "дьявáсо",
+      "name": "ευχαριστώ, αντίο",
+      "title": "спасибо до свидания",
+      "subscrb": "эфхаристÓ, антИ́о",
       "language": "Gr"
     },
     {
       "id": "219",
-      "name": "κοιτάζω",
-      "title": "рассматривать, смотреть",
-      "subscrb": "китáзо",
+      "name": "διαβάζω",
+      "title": "читать",
+      "subscrb": "дьяВА́зо",
       "language": "Gr"
     },
     {
       "id": "220",
-      "name": "παίζω",
-      "title": "играть",
-      "subscrb": "пэ́зо",
+      "name": "θα διαβάσω",
+      "title": "прочитать",
+      "subscrb": "фа дьяВА́со",
       "language": "Gr"
     },
     {
       "id": "221",
-      "name": "διαβάζω μαθήματα",
-      "title": "готовить уроки",
-      "subscrb": "дьявáзо мат͡х́имата",
+      "name": "κοιτάζω / παρατηρώ",
+      "title": "рассматривать, смотреть",
+      "subscrb": "китА́зо / паратирÓ",
       "language": "Gr"
     },
     {
       "id": "222",
-      "name": "διηγούμαι",
-      "title": "рассказывать",
-      "subscrb": "диигýмэ",
+      "name": "παίζω",
+      "title": "играть",
+      "subscrb": "ПЭ́зо",
       "language": "Gr"
     },
     {
       "id": "223",
-      "name": "θυμάμαι",
-      "title": "помнить",
-      "subscrb": "т͡химáмэ",
+      "name": "κάνω τα μαθήματα",
+      "title": "готовить уроки",
+      "subscrb": "КА́но та мафИ́мата",
       "language": "Gr"
     },
     {
       "id": "224",
-      "name": "ελέγχω",
-      "title": "проверять",
-      "subscrb": "элéнхо",
+      "name": "διηγούμαι / λέω",
+      "title": "рассказывать",
+      "subscrb": "диигУ́ме / ЛЭ́о",
       "language": "Gr"
     },
     {
       "id": "225",
-      "name": "συναντιέμαι",
-      "title": "встречаться",
-      "subscrb": "синандьéмэ",
+      "name": "θυμάμαι",
+      "title": "помнить",
+      "subscrb": "фимА́ме",
       "language": "Gr"
     },
     {
       "id": "226",
-      "name": "συναντηθώ",
-      "title": "встретиться",
-      "subscrb": "синадит͡хó",
+      "name": "ελέγχω",
+      "title": "проверять",
+      "subscrb": "элЭ́нхо (носовой «нх»)",
       "language": "Gr"
     },
     {
       "id": "227",
-      "name": "μπορώ",
-      "title": "уметь",
-      "subscrb": "борó",
+      "name": "συναντιέμαι",
+      "title": "встречаться",
+      "subscrb": "синандЙЭ́ме",
       "language": "Gr"
     },
     {
       "id": "228",
-      "name": "μιλάω",
-      "title": "разговаривать",
-      "subscrb": "милáо",
+      "name": "θα συναντηθώ",
+      "title": "встретиться",
+      "subscrb": "фа синандитО́",
       "language": "Gr"
     },
     {
       "id": "229",
-      "name": "μιλήσω",
-      "title": "поговорить",
-      "subscrb": "мили́со",
+      "name": "μπορώ",
+      "title": "уметь",
+      "subscrb": "мборО́",
       "language": "Gr"
     },
     {
       "id": "230",
-      "name": "καταλαβαίνω",
-      "title": "понимать",
-      "subscrb": "каталавэ́но",
+      "name": "μιλάω",
+      "title": "разговаривать",
+      "subscrb": "милА́о",
       "language": "Gr"
     },
     {
       "id": "231",
-      "name": "καταλάβω",
-      "title": "понять",
-      "subscrb": "каталáво",
+      "name": "θα μιλήσω",
+      "title": "поговорить",
+      "subscrb": "фа милИ́со",
       "language": "Gr"
     },
     {
       "id": "232",
-      "name": "άρθρο",
-      "title": "статья",
-      "subscrb": "áртхро",
+      "name": "καταλαβαίνω",
+      "title": "понимать",
+      "subscrb": "каталавЭ́но",
       "language": "Gr"
     },
     {
       "id": "233",
-      "name": "λέξη",
-      "title": "слово",
-      "subscrb": "лéкси",
+      "name": "θα καταλάβω",
+      "title": "понять",
+      "subscrb": "фа каталА́во",
       "language": "Gr"
     },
     {
       "id": "234",
-      "name": "κάθε",
-      "title": "каждый",
-      "subscrb": "кáт͡хэ",
+      "name": "άρθρο",
+      "title": "статья",
+      "subscrb": "А́ртхро",
       "language": "Gr"
     },
     {
       "id": "235",
-      "name": "πρόγραμμα",
-      "title": "программа",
-      "subscrb": "прóграмма",
+      "name": "λέξη",
+      "title": "слово",
+      "subscrb": "ЛЭ́кси",
       "language": "Gr"
     },
     {
       "id": "236",
-      "name": "τώρα",
-      "title": "сейчас",
-      "subscrb": "тóра",
+      "name": "κάθε",
+      "title": "каждый",
+      "subscrb": "КА́тхе",
       "language": "Gr"
     },
     {
       "id": "237",
-      "name": "άσκηση",
-      "title": "задание",
-      "subscrb": "áскиси",
+      "name": "πρόγραμμα",
+      "title": "программа",
+      "subscrb": "ПрО́грамма",
       "language": "Gr"
     },
     {
       "id": "238",
-      "name": "σύντομα",
-      "title": "скоро",
-      "subscrb": "си́ндома",
+      "name": "τώρα",
+      "title": "сейчас",
+      "subscrb": "ТО́ра",
       "language": "Gr"
     },
     {
       "id": "239",
-      "name": "διάφορος",
-      "title": "разный",
-      "subscrb": "дья́форос",
+      "name": "άσκηση",
+      "title": "задание",
+      "subscrb": "А́скиси",
       "language": "Gr"
     },
     {
       "id": "240",
-      "name": "συχνά",
-      "title": "часто",
-      "subscrb": "сихнá",
+      "name": "σύντομα",
+      "title": "скоро",
+      "subscrb": "СИ́ндома",
       "language": "Gr"
     },
     {
       "id": "241",
-      "name": "άσχημα",
-      "title": "плохо",
-      "subscrb": "áсхима",
+      "name": "διάφορος",
+      "title": "разный",
+      "subscrb": "диА́форос",
       "language": "Gr"
     },
     {
       "id": "242",
-      "name": "καλά",
-      "title": "хорошо",
-      "subscrb": "калá",
+      "name": "συχνά",
+      "title": "часто",
+      "subscrb": "сихнА́",
       "language": "Gr"
     },
     {
       "id": "243",
-      "name": "τι είναι αυτό;",
-      "title": "что это",
-      "subscrb": "ти и́нэ афтó?",
+      "name": "κακά",
+      "title": "плохо",
+      "subscrb": "кака́",
       "language": "Gr"
     },
     {
       "id": "244",
-      "name": "αυτή είναι πόλη",
-      "title": "это город",
-      "subscrb": "афтí и́нэ пóли",
+      "name": "καλά",
+      "title": "хорошо",
+      "subscrb": "калА́",
       "language": "Gr"
     },
     {
       "id": "245",
-      "name": "ποιος είναι αυτός;",
-      "title": "кто это",
-      "subscrb": "пйос и́нэ афтóс?",
+      "name": "τι είναι αυτό;",
+      "title": "что это",
+      "subscrb": "ти И́не афтÓ?",
       "language": "Gr"
     },
     {
       "id": "246",
-      "name": "αυτός είναι άνθρωπος",
-      "title": "это человек",
-      "subscrb": "афтóс и́нэ áнт͡хропос",
+      "name": "αυτή είναι πόλη",
+      "title": "это город",
+      "subscrb": "афТÍ инε ПÓли",
       "language": "Gr"
     },
     {
       "id": "247",
-      "name": "τι",
-      "title": "что",
-      "subscrb": "ти",
+      "name": "ποιος είναι;",
+      "title": "кто это",
+      "subscrb": "пьÓс И́не?",
       "language": "Gr"
     },
     {
       "id": "248",
-      "name": "αυτό είναι γραφείο",
-      "title": "это письменный стол",
-      "subscrb": "афтó и́нэ графíо",
+      "name": "είναι άνθρωπος",
+      "title": "это человек",
+      "subscrb": "И́не А́нтхропос",
       "language": "Gr"
     },
     {
       "id": "249",
-      "name": "ποια είναι αυτή;",
-      "title": "кто это",
-      "subscrb": "пйá и́нэ афтí?",
+      "name": "τι;",
+      "title": "что",
+      "subscrb": "ти?",
       "language": "Gr"
     },
     {
       "id": "250",
-      "name": "αυτή είναι κοπέλα",
-      "title": "это девушка",
-      "subscrb": "афтí и́нэ копэ́ла",
+      "name": "αυτό είναι γραφείο",
+      "title": "это письменный стол",
+      "subscrb": "афТÓ И́не графИ́о",
       "language": "Gr"
     },
     {
       "id": "251",
-      "name": "αυτό επίσης",
-      "title": "это тоже",
-      "subscrb": "афтó эпíсис",
+      "name": "ποια είναι;",
+      "title": "кто это",
+      "subscrb": "пьА́ ине?",
       "language": "Gr"
     },
     {
       "id": "252",
-      "name": "πάρε",
-      "title": "возьми",
-      "subscrb": "пáрэ",
+      "name": "είναι κοπέλα",
+      "title": "это девушка",
+      "subscrb": "И́не копЭ́ла",
       "language": "Gr"
     },
     {
       "id": "253",
-      "name": "έλα εδώ",
-      "title": "иди сюда",
-      "subscrb": "э́ла эдó",
+      "name": "κι αυτό επίσης",
+      "title": "это тоже",
+      "subscrb": "ки афТО́ эпИ́сис",
       "language": "Gr"
     },
     {
       "id": "254",
-      "name": "γιαγιά",
-      "title": "бабушка",
-      "subscrb": "яя-Я",
+      "name": "πάρε",
+      "title": "возьми",
+      "subscrb": "ПА́ре",
       "language": "Gr"
     },
     {
       "id": "255",
-      "name": "παππούς",
-      "title": "дедушка",
-      "subscrb": "па-ПУС",
+      "name": "έλα εδώ",
+      "title": "иди сюда",
+      "subscrb": "Э́ла эдО́",
       "language": "Gr"
     },
     {
       "id": "256",
-      "name": "μητέρα",
-      "title": "мать",
-      "subscrb": "ми-ТЕРА",
+      "name": "γιαγιά",
+      "title": "бабушка",
+      "subscrb": "йайЙА́",
       "language": "Gr"
     },
     {
       "id": "257",
-      "name": "πατέρας",
-      "title": "отец",
-      "subscrb": "па-ТЕРАС",
+      "name": "παππούς",
+      "title": "дедушка",
+      "subscrb": "папПУ́с",
       "language": "Gr"
     },
     {
       "id": "258",
-      "name": "αδελφή",
-      "title": "сестра",
-      "subscrb": "а-дель-FИ",
+      "name": "μητέρα",
+      "title": "мать",
+      "subscrb": "митЭ́ра",
       "language": "Gr"
     },
     {
       "id": "259",
-      "name": "αδελφός",
-      "title": "брат",
-      "subscrb": "а-дель-ФОС",
+      "name": "πατέρας",
+      "title": "отец",
+      "subscrb": "патЭ́рас",
       "language": "Gr"
     },
     {
       "id": "260",
-      "name": "κόρη",
-      "title": "дочь",
-      "subscrb": "КОРИ",
+      "name": "αδελφή",
+      "title": "сестра",
+      "subscrb": "адельфИ́",
       "language": "Gr"
     },
     {
       "id": "261",
-      "name": "γιος",
-      "title": "сын",
-      "subscrb": "ЙОС",
+      "name": "αδελφός",
+      "title": "брат",
+      "subscrb": "адельфО́с",
       "language": "Gr"
     },
     {
       "id": "262",
-      "name": "εγγονός",
-      "title": "внук",
-      "subscrb": "э-γго-НОС (сэн-ГОНОс)",
+      "name": "κόρη",
+      "title": "дочь",
+      "subscrb": "кОри",
       "language": "Gr"
     },
     {
       "id": "263",
-      "name": "εγγονή",
-      "title": "внучка",
-      "subscrb": "э-γго-НИ",
+      "name": "γιος",
+      "title": "сын",
+      "subscrb": "йОс",
       "language": "Gr"
     },
     {
       "id": "264",
-      "name": "σύζυγος",
-      "title": "жена",
-      "subscrb": "СЫ-ЗИГОС",
+      "name": "εγγονός",
+      "title": "внук",
+      "subscrb": "энгонОс",
       "language": "Gr"
     },
     {
       "id": "265",
-      "name": "σύζυγος",
-      "title": "муж",
-      "subscrb": "СЫ-ЗИГОС",
+      "name": "εγγονή",
+      "title": "внучка",
+      "subscrb": "энгонИ",
       "language": "Gr"
     },
     {
       "id": "266",
-      "name": "πεθερά",
-      "title": "тёща",
-      "subscrb": "пе-те-РА",
+      "name": "σύζυγος",
+      "title": "жена",
+      "subscrb": "сИзигос",
       "language": "Gr"
     },
     {
       "id": "267",
-      "name": "πεθερά",
-      "title": "свекровь",
-      "subscrb": "пе-те-РА",
+      "name": "σύζυγος",
+      "title": "муж",
+      "subscrb": "сИзигос",
       "language": "Gr"
     },
     {
       "id": "268",
-      "name": "πεθερός",
-      "title": "тесть",
-      "subscrb": "пе-те-РОС",
+      "name": "πεθερά",
+      "title": "тёща",
+      "subscrb": "пефэрА",
       "language": "Gr"
     },
     {
       "id": "269",
-      "name": "πεθερός",
-      "title": "свёкор",
-      "subscrb": "пе-те-РОС",
+      "name": "πεθερά",
+      "title": "свекровь",
+      "subscrb": "пефэрА",
       "language": "Gr"
     },
     {
       "id": "270",
-      "name": "γαμπρός",
-      "title": "зять",
-      "subscrb": "гам-ПРОС",
+      "name": "πεθερός",
+      "title": "тесть",
+      "subscrb": "пефэрОс",
       "language": "Gr"
     },
     {
       "id": "271",
-      "name": "νύφη",
-      "title": "невестка",
-      "subscrb": "НИ-ФИ",
+      "name": "πεθερός",
+      "title": "свёкор",
+      "subscrb": "пефэрОс",
       "language": "Gr"
     },
     {
       "id": "272",
-      "name": "θεία",
-      "title": "тётя",
-      "subscrb": "ТЕ-ИА",
+      "name": "γαμπρός",
+      "title": "зять",
+      "subscrb": "гамбрОс",
       "language": "Gr"
     },
     {
       "id": "273",
-      "name": "θείος",
-      "title": "дядя",
-      "subscrb": "ТИ-ОС",
+      "name": "νύφη",
+      "title": "невестка",
+      "subscrb": "нИфи",
       "language": "Gr"
     },
     {
       "id": "274",
-      "name": "ανιψιός",
-      "title": "племянник",
-      "subscrb": "а-нив-СИОС",
+      "name": "θεία",
+      "title": "тётя",
+      "subscrb": "θИя (сИя)",
       "language": "Gr"
     },
     {
       "id": "275",
-      "name": "ανιψιά",
-      "title": "племянница",
-      "subscrb": "а-нив-СИА",
+      "name": "θείος",
+      "title": "дядя",
+      "subscrb": "θИос (сИос)",
       "language": "Gr"
     },
     {
       "id": "276",
-      "name": "ξάδελφος δεύτερος",
-      "title": "двоюродный брат",
-      "subscrb": "КСА-дель-ФОС де-ФТЭРОС",
+      "name": "ανιψιός",
+      "title": "племянник",
+      "subscrb": "анипсЙОс",
       "language": "Gr"
     },
     {
       "id": "277",
-      "name": "ξαδέλφη δεύτερη",
-      "title": "двоюродная сестра",
-      "subscrb": "кса-дель-ХИ де-ПТЭРИ",
+      "name": "ανιψιά",
+      "title": "племянница",
+      "subscrb": "анипсЯ",
       "language": "Gr"
     },
     {
       "id": "278",
-      "name": "οικογένεια",
-      "title": "семья",
-      "subscrb": "и-ко-ГЕНИа",
+      "name": "ξάδερφος",
+      "title": "двоюродный брат",
+      "subscrb": "ксАдэрфос",
       "language": "Gr"
     },
     {
       "id": "279",
-      "name": "γονείς",
-      "title": "родители",
-      "subscrb": "го-НЕС",
+      "name": "ξαδέρφη",
+      "title": "двоюродная сестра",
+      "subscrb": "ксадЭрфи",
       "language": "Gr"
     },
     {
       "id": "280",
-      "name": "παντρεμένο ζευγάρι",
-      "title": "супружеская пара",
-      "subscrb": "пан-тре-МЕНО зэф-ГАРИ",
+      "name": "οικογένεια",
+      "title": "семья",
+      "subscrb": "икогЭния",
       "language": "Gr"
     },
     {
       "id": "281",
-      "name": "—",
-      "title": "дзятькове (польское)",
-      "subscrb": "— (нет аналога)",
+      "name": "γονείς",
+      "title": "родители",
+      "subscrb": "гонИс",
       "language": "Gr"
     },
     {
       "id": "282",
-      "name": "—",
-      "title": "дзятькове (польское)",
-      "subscrb": "—",
+      "name": "ζευγάρι",
+      "title": "супружеская пара",
+      "subscrb": "звгАри",
       "language": "Gr"
     },
     {
       "id": "283",
-      "name": "—",
-      "title": "родзеньство (польское)",
-      "subscrb": "—",
+      "name": "συγγενείς",
+      "title": "дзятькове (польское)",
+      "subscrb": "сингэнИс",
       "language": "Gr"
     },
     {
       "id": "284",
-      "name": "—",
-      "title": "роджитсе (польское)",
-      "subscrb": "—",
+      "name": "συγγενείς",
+      "title": "дзятькове (польское)",
+      "subscrb": "сингэнИс",
       "language": "Gr"
     },
     {
       "id": "285",
-      "name": "—",
-      "title": "мауженьстфо (польское)",
-      "subscrb": "—",
+      "name": "συγγένεια",
+      "title": "родзеньство (польское)",
+      "subscrb": "сингЭния",
       "language": "Gr"
     },
     {
       "id": "286",
-      "name": "—",
-      "title": "роджиина (польское)",
-      "subscrb": "—",
+      "name": "οικογένεια",
+      "title": "роджитсе (польское)",
+      "subscrb": "икогЭния",
       "language": "Gr"
     },
     {
       "id": "287",
-      "name": "άνδρας",
-      "title": "мужчина",
-      "subscrb": "АНДРАС",
+      "name": "γάμος",
+      "title": "мауженьстфо (польское)",
+      "subscrb": "гАмос",
       "language": "Gr"
     },
     {
       "id": "288",
-      "name": "γυναίκα",
-      "title": "женщина",
-      "subscrb": "γи-НЕКА",
+      "name": "οικογένεια",
+      "title": "роджиина (польское)",
+      "subscrb": "икогЭния",
       "language": "Gr"
     },
     {
       "id": "289",
-      "name": "νεαρός",
-      "title": "парень",
-      "subscrb": "неа-РОС",
+      "name": "άντρας",
+      "title": "мужчина",
+      "subscrb": "Андрас",
       "language": "Gr"
     },
     {
       "id": "290",
-      "name": "αγόρι",
-      "title": "мальчик",
-      "subscrb": "а-ГОРИ",
+      "name": "γυναίκα",
+      "title": "женщина",
+      "subscrb": "йинЭка",
       "language": "Gr"
     },
     {
       "id": "291",
-      "name": "κοπέλα",
-      "title": "девушка",
-      "subscrb": "ко-ПЭЛа",
+      "name": "αγόρι",
+      "title": "парень",
+      "subscrb": "агОри",
       "language": "Gr"
     },
     {
       "id": "292",
-      "name": "κοριτσάκι",
-      "title": "девочка",
-      "subscrb": "ко-риц-САКИ",
+      "name": "αγόρι",
+      "title": "мальчик",
+      "subscrb": "агОри",
       "language": "Gr"
     },
     {
       "id": "293",
-      "name": "μεγαλύτερος",
-      "title": "старший",
-      "subscrb": "вел-ТИ-РЭРОС",
+      "name": "κοπέλα",
+      "title": "девушка",
+      "subscrb": "копЭла",
       "language": "Gr"
     },
     {
       "id": "294",
-      "name": "μικρότερος",
-      "title": "младший",
-      "subscrb": "ми-КРОТэрос",
+      "name": "κορίτσι",
+      "title": "девочка",
+      "subscrb": "корИци",
       "language": "Gr"
     },
     {
       "id": "295",
-      "name": "αγαπημένος",
-      "title": "любимый",
-      "subscrb": "ага-пи-МЭНОС",
+      "name": "μεγαλύτερος",
+      "title": "старший",
+      "subscrb": "мэгалИтэрос",
       "language": "Gr"
     },
     {
       "id": "296",
-      "name": "αγαπημένος",
-      "title": "дружный",
-      "subscrb": "ага-пи-МЭНОС (в значении дружелюбный)",
+      "name": "μικρότερος",
+      "title": "младший",
+      "subscrb": "микрОтэрос",
       "language": "Gr"
     },
     {
       "id": "297",
-      "name": "συναίνεση στην οικογένεια",
-      "title": "согласие в семье",
-      "subscrb": "си-НЕЭСИ стен и-ко-ГЕНИа",
+      "name": "αγαπημένος",
+      "title": "любимый",
+      "subscrb": "агапимЭнос",
       "language": "Gr"
     },
     {
       "id": "298",
-      "name": "παντρεμένη",
-      "title": "замужняя",
-      "subscrb": "пан-тре-МЭНИ",
+      "name": "δεμένος",
+      "title": "дружный",
+      "subscrb": "ðэмЭнос (дэмЭнос)",
       "language": "Gr"
     },
     {
       "id": "299",
-      "name": "παντρεμένος",
-      "title": "женатый",
-      "subscrb": "пан-тре-МЭНОС",
+      "name": "ομόνοια",
+      "title": "согласие в семье",
+      "subscrb": "омОния",
       "language": "Gr"
     },
     {
       "id": "300",
-      "name": "μικρός",
-      "title": "маленький",
-      "subscrb": "ми-КРОС",
+      "name": "παντρεμένη",
+      "title": "замужняя",
+      "subscrb": "пандрэмЭни",
       "language": "Gr"
     },
     {
       "id": "301",
-      "name": "σου",
-      "title": "твоих",
-      "subscrb": "су",
+      "name": "παντρεμένος",
+      "title": "женатый",
+      "subscrb": "пандрэмЭнос",
       "language": "Gr"
     },
     {
       "id": "302",
-      "name": "μου",
-      "title": "моих",
-      "subscrb": "му",
+      "name": "μικρός",
+      "title": "маленький",
+      "subscrb": "микрОс",
       "language": "Gr"
     },
     {
       "id": "303",
-      "name": "δίνω",
-      "title": "давать",
-      "subscrb": "ДИНО",
+      "name": "δικοί σου",
+      "title": "твоих",
+      "subscrb": "ðикИ су (дикИ су)",
       "language": "Gr"
     },
     {
       "id": "304",
-      "name": "ταιριάζει",
-      "title": "подходить",
-      "subscrb": "те-ри-АЗИ",
+      "name": "δικοί μου",
+      "title": "моих",
+      "subscrb": "ðикИ му (дикИ му)",
       "language": "Gr"
     },
     {
       "id": "305",
-      "name": "ζωγραφίζω",
-      "title": "рисовать",
-      "subscrb": "зо-гра-ФИЗО",
+      "name": "δίνω",
+      "title": "давать",
+      "subscrb": "дИно",
       "language": "Gr"
     },
     {
       "id": "306",
-      "name": "ζωγραφίζω",
-      "title": "писать красками",
-      "subscrb": "зо-гра-ФИЗО",
+      "name": "ταιριάζει",
+      "title": "подходить",
+      "subscrb": "тэрйАззи (тэрйАззи:)",
       "language": "Gr"
     },
     {
       "id": "307",
-      "name": "περπατώ",
-      "title": "прогуливаться",
-      "subscrb": "пер-па-ТО",
+      "name": "ζωγραφίζω",
+      "title": "рисовать",
+      "subscrb": "зографИзо",
       "language": "Gr"
     },
     {
       "id": "308",
-      "name": "δουλεύω",
-      "title": "работать",
-      "subscrb": "ду-ЛЕВО",
+      "name": "βάφω",
+      "title": "писать красками",
+      "subscrb": "вАфо",
       "language": "Gr"
     },
     {
       "id": "309",
-      "name": "σπουδάζω στο πανεπιστήμιο",
-      "title": "учиться в институте",
-      "subscrb": "спу-ДАЗО сто па-ни-ве-СТИМио",
+      "name": "κάνω βόλτα",
+      "title": "прогуливаться",
+      "subscrb": "кАно вОлта",
       "language": "Gr"
     },
     {
       "id": "310",
-      "name": "σπουδάζω στο σχολείο",
-      "title": "учиться в школе",
-      "subscrb": "спу-ДАЗО сто схо-ЛЕИо",
+      "name": "δουλεύω",
+      "title": "работать",
+      "subscrb": "дулЭво",
       "language": "Gr"
     },
     {
       "id": "311",
-      "name": "αρνούμαι",
-      "title": "отказываться",
-      "subscrb": "ар-НУМЕ",
+      "name": "σπουδάζω",
+      "title": "учиться в институте",
+      "subscrb": "спудАззо",
       "language": "Gr"
     },
     {
       "id": "312",
-      "name": "αστειεύομαι",
-      "title": "шутить",
-      "subscrb": "асти-ЭВома",
+      "name": "πηγαίνω σχολείο",
+      "title": "учиться в школе",
+      "subscrb": "пигЕно схолИо",
       "language": "Gr"
     },
     {
       "id": "313",
-      "name": "φιλάω",
-      "title": "целовать",
-      "subscrb": "фи-ЛАО",
+      "name": "αρνούμαι",
+      "title": "отказываться",
+      "subscrb": "арнУме",
       "language": "Gr"
     },
     {
       "id": "314",
-      "name": "χτίζω",
-      "title": "строить",
-      "subscrb": "ХТИЗО",
+      "name": "αστειεύομαι",
+      "title": "шутить",
+      "subscrb": "астэйЭвоме",
       "language": "Gr"
     },
     {
       "id": "315",
-      "name": "λείπει",
-      "title": "не хватает",
-      "subscrb": "ЛИПИ",
+      "name": "φιλάω",
+      "title": "целовать",
+      "subscrb": "филАо",
       "language": "Gr"
     },
     {
       "id": "316",
-      "name": "ενοχλώ",
-      "title": "раздражать",
-      "subscrb": "эно-ХЛО",
+      "name": "χτίζω",
+      "title": "строить",
+      "subscrb": "хтИзо",
       "language": "Gr"
     },
     {
       "id": "317",
-      "name": "ερεθίζομαι",
-      "title": "раздражаться",
-      "subscrb": "э-ре-ТИЗОМАИ",
+      "name": "λείπει",
+      "title": "не хватает",
+      "subscrb": "лИпи",
       "language": "Gr"
     },
     {
       "id": "318",
-      "name": "ενδιαφέρω",
-      "title": "интересовать",
-      "subscrb": "ин-диа-ФЭРО",
+      "name": "ενοχλώ",
+      "title": "раздражать",
+      "subscrb": "энорхлО (инохлО)",
       "language": "Gr"
     },
     {
       "id": "319",
-      "name": "με ενδιαφέρει",
-      "title": "интересоваться",
-      "subscrb": "ме ин-диа-ФЭРИ",
+      "name": "ενοχλούμαι",
+      "title": "раздражаться",
+      "subscrb": "энорхлУме (инохлУме)",
       "language": "Gr"
     },
     {
       "id": "320",
-      "name": "νευριάζω",
-      "title": "нервировать",
-      "subscrb": "ней-ри-АЗО",
+      "name": "ενδιαφέρω",
+      "title": "интересовать",
+      "subscrb": "эндяфЭро",
       "language": "Gr"
     },
     {
       "id": "321",
-      "name": "ταινία",
-      "title": "фильм",
-      "subscrb": "тэ-ИНИА",
+      "name": "ενδιαφέρομαι",
+      "title": "интересоваться",
+      "subscrb": "эндяфЭроме",
       "language": "Gr"
     },
     {
       "id": "322",
-      "name": "τώρα",
-      "title": "сейчас",
-      "subscrb": "ТОРА",
+      "name": "εκνευρίζω",
+      "title": "нервировать",
+      "subscrb": "экнэврИзо",
       "language": "Gr"
     },
     {
       "id": "323",
-      "name": "χτίζω",
-      "title": "строить (повтор)",
-      "subscrb": "ХТИЗО",
+      "name": "ταινία",
+      "title": "фильм",
+      "subscrb": "тэйнИя",
       "language": "Gr"
     },
     {
       "id": "324",
-      "name": "τηλεόραση",
-      "title": "телевизор",
-      "subscrb": "ти-ле-ОРАси",
+      "name": "τώρα",
+      "title": "сейчас",
+      "subscrb": "тОра",
       "language": "Gr"
     },
     {
       "id": "325",
-      "name": "τραγουδώ",
-      "title": "петь",
-      "subscrb": "тра-гу-ТО",
+      "name": "χτίζω",
+      "title": "строить (повтор)",
+      "subscrb": "хтИзо",
       "language": "Gr"
     },
     {
       "id": "326",
-      "name": "κάνω",
-      "title": "делать",
-      "subscrb": "КАНО",
+      "name": "τηλεόραση",
+      "title": "телевизор",
+      "subscrb": "тилеОрeси",
       "language": "Gr"
     },
     {
       "id": "327",
-      "name": "σπίρτα / σπίρτο",
-      "title": "спички",
-      "subscrb": "СПИРТА / СПИРТО",
+      "name": "τραγουδάω",
+      "title": "петь",
+      "subscrb": "трагудАо",
       "language": "Gr"
     },
     {
       "id": "328",
-      "name": "λέξεις",
-      "title": "слова",
-      "subscrb": "ЛЕКСИС",
+      "name": "κάνω",
+      "title": "делать",
+      "subscrb": "кАно",
       "language": "Gr"
     },
     {
       "id": "329",
-      "name": "λέξη",
-      "title": "слово",
-      "subscrb": "ЛЕКСИ",
+      "name": "σπίρτα",
+      "title": "спички",
+      "subscrb": "спИрта",
       "language": "Gr"
     },
     {
       "id": "330",
-      "name": "ψάχνω",
-      "title": "искать",
-      "subscrb": "ПСАХНО",
+      "name": "λέξεις",
+      "title": "слова",
+      "subscrb": "лЭксис",
       "language": "Gr"
     },
     {
       "id": "331",
-      "name": "ακούω τραγούδι",
-      "title": "слушать песню",
-      "subscrb": "а-КУО тра-ГУДИ",
+      "name": "λέξη",
+      "title": "слово",
+      "subscrb": "лЭкси",
       "language": "Gr"
     },
     {
       "id": "332",
-      "name": "ταιριάζω για ρόλο",
-      "title": "подходить для роли",
-      "subscrb": "те-ри-АЗО для РОЛО",
+      "name": "ψάχνω",
+      "title": "искать",
+      "subscrb": "псАхно",
       "language": "Gr"
     },
     {
       "id": "333",
-      "name": "ταιριάζει στο τραπέζι",
-      "title": "подходить к столу",
-      "subscrb": "те-ри-АЗИ сто тра-ПЕЦИ",
+      "name": "ακούω τραγούδι",
+      "title": "слушать песню",
+      "subscrb": "акУо трагУði (трагУзи)",
       "language": "Gr"
     },
     {
       "id": "334",
-      "name": "αστειεύομαι με την κατάσταση",
-      "title": "шутить над ситуацией",
-      "subscrb": "асти-ЭВОМАИ ме тин ка-Та-СИСИон",
+      "name": "ταιριάζει για ρόλο",
+      "title": "подходить для роли",
+      "subscrb": "тэрйАззи йа рОло",
       "language": "Gr"
     },
     {
       "id": "335",
-      "name": "πάντα",
-      "title": "всегда",
-      "subscrb": "ПАНТА",
+      "name": "πάω στο τραπέζι",
+      "title": "подходить к столу",
+      "subscrb": "пАо сто трапЭзи",
       "language": "Gr"
     },
     {
       "id": "336",
-      "name": "πηγαίνω",
-      "title": "ходить",
-      "subscrb": "пи-ЯИНО",
+      "name": "αστειεύομαι με την κατάσταση",
+      "title": "шутить над ситуацией",
+      "subscrb": "астэйЭвоме мэ тИн катАстаси",
       "language": "Gr"
     },
     {
       "id": "337",
-      "name": "πηγαίνω",
-      "title": "ездить",
-      "subscrb": "пи-ЯИНО (для передвижения на авто)",
+      "name": "πάντα",
+      "title": "всегда",
+      "subscrb": "пАнда",
       "language": "Gr"
     },
     {
       "id": "338",
-      "name": "χορεύω",
-      "title": "танцевать",
-      "subscrb": "хо-РЕВо",
+      "name": "πηγαίνω",
+      "title": "ходить",
+      "subscrb": "пигЕно",
       "language": "Gr"
     },
     {
       "id": "339",
-      "name": "μαθαίνω",
-      "title": "учиться",
-      "subscrb": "ма-ТАИНО",
+      "name": "πηγαίνω με όχημα",
+      "title": "ездить",
+      "subscrb": "пигЕно мэ Охима",
       "language": "Gr"
     },
     {
       "id": "340",
-      "name": "μεταφέρω",
-      "title": "возить",
-      "subscrb": "метафэ́ро",
+      "name": "χορεύω",
+      "title": "танцевать",
+      "subscrb": "хорЭво",
       "language": "Gr"
     },
     {
       "id": "341",
-      "name": "ζητώ",
-      "title": "просить",
-      "subscrb": "зи-ТО",
+      "name": "μαθαίνω",
+      "title": "учиться",
+      "subscrb": "маٿЭно (маθЭно)",
       "language": "Gr"
     },
     {
       "id": "342",
-      "name": "καφέ",
-      "title": "кафе",
-      "subscrb": "ка-ФЕ",
+      "name": "ποζάρω",
+      "title": "аозить («позить»)",
+      "subscrb": "позАро",
       "language": "Gr"
     },
     {
       "id": "343",
-      "name": "σινεμά",
-      "title": "кино",
-      "subscrb": "си-не-МА",
+      "name": "ζητάω",
+      "title": "просить",
+      "subscrb": "зитАо",
       "language": "Gr"
     },
     {
       "id": "344",
-      "name": "χαρτιά",
-      "title": "карты",
-      "subscrb": "хар-ТИА",
+      "name": "καφέ",
+      "title": "кафе",
+      "subscrb": "кафЭ",
       "language": "Gr"
     },
     {
       "id": "345",
-      "name": "πισίνα",
-      "title": "бассейн",
-      "subscrb": "пи-СИНА",
+      "name": "σινεμά",
+      "title": "кино",
+      "subscrb": "синэмА",
       "language": "Gr"
     },
     {
       "id": "346",
-      "name": "τένις",
-      "title": "тенис",
-      "subscrb": "ТЕНИС",
+      "name": "κάρτες",
+      "title": "карты",
+      "subscrb": "KÁR-tes",
       "language": "Gr"
     },
     {
       "id": "347",
-      "name": "ποδήλατο",
-      "title": "велосипед",
-      "subscrb": "по-ди-ЛАТо",
+      "name": "πισίνα",
+      "title": "бассейн",
+      "subscrb": "пи:SI-na",
       "language": "Gr"
     },
     {
       "id": "348",
-      "name": "βόλτα",
-      "title": "прогулка",
-      "subscrb": "ВОЛТа",
+      "name": "τένις",
+      "title": "тенис",
+      "subscrb": "TÉ-nis",
       "language": "Gr"
     },
     {
       "id": "349",
-      "name": "μουσική",
-      "title": "музыка",
-      "subscrb": "му-си-КИ",
+      "name": "ποδήλατο",
+      "title": "велосипед",
+      "subscrb": "по:THI-la-to",
       "language": "Gr"
     },
     {
       "id": "350",
-      "name": "ξένος",
-      "title": "чужой",
-      "subscrb": "КСЭНОС",
+      "name": "βόλτα",
+      "title": "прогулка",
+      "subscrb": "VÓl-ta",
       "language": "Gr"
     },
+    ,
     {
       "id": "351",
       "name": "ξένος",
